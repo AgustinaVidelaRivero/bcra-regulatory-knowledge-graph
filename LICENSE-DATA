@@ -1,0 +1,22 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Agustina Videla Rivero
+
+Los siguientes archivos de este repositorio se publican bajo la licencia Creative Commons Attribution 4.0
+International (CC BY 4.0):
+
+- el grafo, data/experiment/reaplicacion_unica/acumulado/ens_128_r2b_sincola/r2/kg.json.gz, y su sello, data/experiment/reaplicacion_unica/acumulado/ens_128_r2b_sincola/r2/kg.json.gz.sello.json;
+- corpus/manifiesto_corpus.csv;
+- los pre-registros, sus enmiendas y adendas (docs/preregistro_*.md, docs/enmienda*, docs/adenda*) y
+  preregistros/FIRMAS.md;
+- los archivos de resultados de B6.3 y B6.4 y los datos chicos que lista el README;
+- la documentación nueva de este repositorio (README.md, docs/formato_del_grafo.md, NOTICE).
+
+En el grafo, la licencia cubre la estructura y las anotaciones. El texto del BCRA citado dentro del grafo es del BCRA
+y no queda cubierto por esta licencia (ver NOTICE).
+
+Resumen de la licencia: https://creativecommons.org/licenses/by/4.0/
+Texto legal completo: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Este archivo no reproduce el texto legal completo: se armó sin acceso a la red. El texto legal es el publicado en el
+enlace de arriba.

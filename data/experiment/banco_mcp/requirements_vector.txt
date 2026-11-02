@@ -1,0 +1,11 @@
+# Servidor MCP vectorial (mcp_vector/). Python 3.12. Versiones PINNEADAS al
+# entorno de referencia del bake-off (docs/decision_modelo_embeddings.md §7,
+# data/experiment/bakeoff_embeddings/resultados/e3_entorno.json): la FAQ del
+# modelo advierte diferencias entre versiones. Cambiar cualquiera de estas
+# versiones invalida la coincidencia por sha con el índice del bake-off.
+torch==2.13.0
+transformers==5.15.1
+sentence-transformers==6.0.0
+tokenizers==0.22.2
+numpy==2.5.2
+mcp==1.29.0

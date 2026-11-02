@@ -1,0 +1,40 @@
+{
+ "que": "el resumen del runner de B6.3 (v2): solo cuentas, por brazo",
+ "modo": "real",
+ "P": 1,
+ "bloques": 288,
+ "pasadas": 1,
+ "final_por_brazo": {
+  "fragmentos_denso": {
+   "completa": 286,
+   "incompleta_otra": 2
+  },
+  "fragmentos_hibrida": {
+   "completa": 287,
+   "incompleta_otra": 1
+  },
+  "kg": {
+   "completa": 283,
+   "incompleta_otra": 5
+  }
+ },
+ "sesiones_con_falla_de_infraestructura_por_brazo": {
+  "fragmentos_denso": 0,
+  "fragmentos_hibrida": 0,
+  "kg": 0
+ },
+ "desconocidas": 0,
+ "clave_invalida_no_cuentan": 0,
+ "sesiones_lanzadas": 864,
+ "respuestas_en_la_tabla_del_juez": 856,
+ "repeticiones_del_juez_escritas": {
+  "1": 856,
+  "2": 856,
+  "3": 856
+ },
+ "acumulado_agente_guarda_usd": 41.813397,
+ "acumulado_agente_R9_usd": 41.813397,
+ "gasto_juez_usd": 29.770809,
+ "codigo": 0,
+ "freno": null
+}

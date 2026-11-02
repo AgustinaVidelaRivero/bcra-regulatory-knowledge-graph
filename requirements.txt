@@ -1,0 +1,20 @@
+# Paquetes de terceros que importa el código publicado (análisis estático de los import).
+# Versiones: las del .venv de la tesis: Python 3.10.13 (CPython).
+# torch, transformers y sentence-transformers: versiones en data/experiment/banco_mcp/requirements_vector.txt.
+# Los módulos que el código importa de forma opcional también figuran.
+anthropic==0.100.0
+beautifulsoup4==4.14.3
+httpx==0.28.1
+mcp==1.29.0
+neo4j==6.2.0
+numpy==2.2.6
+pdfplumber==0.11.10
+pydantic==2.13.4
+pypdf==6.10.2
+python-dotenv==1.2.2
+rapidfuzz==3.14.5
+requests==2.33.1
+# sentence-transformers: no está en el .venv; su versión está en data/experiment/banco_mcp/requirements_vector.txt (lo importa: 2 archivo(s))
+# torch: no está en el .venv; su versión está en data/experiment/banco_mcp/requirements_vector.txt (lo importa: 2 archivo(s))
+# módulo del repo de la tesis que el código importa y que no se publica: cifras_lectura_S1quater
+# módulo que el código importa y que no tiene archivo en el commit ni es un paquete: muestra_memoria

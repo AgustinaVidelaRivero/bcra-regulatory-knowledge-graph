@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Si usa este software o el grafo, cítelo con estos datos."
+title: "Grafo de conocimiento sobre normativa del BCRA: grafo evaluado, código y pre-registros"
+type: software
+authors:
+  - family-names: "Videla Rivero"
+    given-names: "Agustina"
+    affiliation: "Universidad de San Andrés"
+license:
+  - MIT
+  - CC-BY-4.0
+keywords:
+  - grafo de conocimiento
+  - normativa bancaria
+  - BCRA
+  - recuperación de información
+  - pre-registro
+abstract: >-
+  Grafo de conocimiento construido sobre Textos Ordenados de la normativa del Banco Central de la República
+  Argentina, con el código que lo produce y lo evalúa contra la recuperación por fragmentos, los pre-registros de
+  la evaluación y el manifiesto del corpus (enlace y sha256 de cada documento, sin los PDF).

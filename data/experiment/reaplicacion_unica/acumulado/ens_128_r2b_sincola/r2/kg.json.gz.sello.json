@@ -1,0 +1,24 @@
+{
+ "formato": "kg_gz/1",
+ "kg_json": "kg.json",
+ "kg_json_sha256": "576c97256185a0d5741cb2c35a2a85e91412f3e1119ad7a85d960b7d60c35ad3",
+ "kg_json_bytes": 238061282,
+ "gz": "kg.json.gz",
+ "gz_sha256": "8a448e9185ee950d6157fb0a02ca88caba2b645f6220a210fdcd81609cd860f9",
+ "gz_bytes": 14604431,
+ "compresor": {
+  "script": "scripts/kg_gz.py",
+  "parametros": {
+   "nivel": 9,
+   "metodo": "DEFLATED",
+   "wbits": -15,
+   "memLevel": 9,
+   "estrategia": "Z_DEFAULT_STRATEGY"
+  },
+  "cabecera": "1f8b08000000000002ff",
+  "python": "3.10.13",
+  "zlib": "1.2.13",
+  "zlib_en_ejecucion": "1.2.13"
+ },
+ "manda": "kg_json_sha256: el sha256 del kg.json sin comprimir es el que controlan el cargador y la suite; el del .gz depende de la versión de zlib y va como información"
+}

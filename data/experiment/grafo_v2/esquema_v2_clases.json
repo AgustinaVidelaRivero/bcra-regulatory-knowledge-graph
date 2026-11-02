@@ -1,0 +1,933 @@
+{
+  "version": "2.0",
+  "clases": [
+    {
+      "id": "Sujeto_sujeto",
+      "label": "Sujetos",
+      "nivel": "clase",
+      "padre": null,
+      "disjunta_con": [],
+      "alias": [],
+      "provenance": {
+        "source_doc": "esquema_v2_clases.json",
+        "location": "diseño v2.0"
+      }
+    },
+    {
+      "id": "Sujeto_sujeto_regulado",
+      "label": "Sujetos regulados",
+      "nivel": "clase",
+      "padre": "Sujeto_sujeto",
+      "disjunta_con": [
+        "Sujeto_organismo_publico"
+      ],
+      "alias": [],
+      "provenance": {
+        "source_doc": "esquema_v2_clases.json",
+        "location": "diseño v2.0"
+      }
+    },
+    {
+      "id": "Sujeto_contraparte",
+      "label": "Contrapartes",
+      "nivel": "clase",
+      "padre": "Sujeto_sujeto",
+      "disjunta_con": [],
+      "alias": [],
+      "provenance": {
+        "source_doc": "esquema_v2_clases.json",
+        "location": "diseño v2.0"
+      }
+    },
+    {
+      "id": "Sujeto_organismo_publico",
+      "label": "Organismos públicos",
+      "nivel": "clase",
+      "padre": "Sujeto_sujeto",
+      "disjunta_con": [
+        "Sujeto_sujeto_regulado"
+      ],
+      "alias": [],
+      "provenance": {
+        "source_doc": "esquema_v2_clases.json",
+        "location": "diseño v2.0"
+      }
+    },
+    {
+      "id": "Sujeto_estructura",
+      "label": "Estructuras y vehículos",
+      "nivel": "clase",
+      "padre": "Sujeto_sujeto",
+      "disjunta_con": [],
+      "alias": [],
+      "provenance": {
+        "source_doc": "esquema_v2_clases.json",
+        "location": "diseño v2.0"
+      }
+    },
+    {
+      "id": "Sujeto_entidad_financiera",
+      "label": "Entidades financieras",
+      "nivel": "clase",
+      "padre": "Sujeto_sujeto_regulado",
+      "disjunta_con": [
+        "Sujeto_entidad_cambiaria",
+        "Sujeto_proveedor_de_servicios_de_pago"
+      ],
+      "alias": [
+        "Entidades financieras del exterior",
+        "Entidad financiera del exterior",
+        "Entidades financieras emisoras de tarjetas de crédito y/o compra",
+        "Entidad financiera emisora de tarjetas de crédito y/o compra"
+      ],
+      "provenance": {
+        "source_doc": "TO_proteccion_usuarios_servicios_financieros_actual.pdf",
+        "location": "Punto 1.1.2.1"
+      }
+    },
+    {
+      "id": "Sujeto_banco",
+      "label": "Bancos",
+      "nivel": "clase",
+      "padre": "Sujeto_entidad_financiera",
+      "disjunta_con": [],
+      "alias": [
+        "Bancos del exterior",
+        "Banco del exterior"
+      ],
+      "provenance": {
+        "source_doc": "TO_capitales_minimos_actual.pdf",
+        "location": "Punto 1.2"
+      }
+    },
+    {
+      "id": "Sujeto_banco_comercial",
+      "label": "Bancos comerciales",
+      "nivel": "clase",
+      "padre": "Sujeto_banco",
+      "disjunta_con": [],
+      "alias": [],
+      "provenance": {
+        "source_doc": "TO_regimen_informativo_contable_mensual_actual.pdf",
+        "location": "Punto 8.1.4"
+      }
+    },
+    {
+      "id": "Sujeto_compania_financiera",
+      "label": "Compañías financieras",
+      "nivel": "clase",
+      "padre": "Sujeto_entidad_financiera",
+      "disjunta_con": [],
+      "alias": [],
+      "provenance": {
+        "source_doc": "TO_capitales_minimos_actual.pdf",
+        "location": "Punto 1.2"
+      }
+    },
+    {
+      "id": "Sujeto_caja_de_credito",
+      "label": "Cajas de crédito",
+      "nivel": "clase",
+      "padre": "Sujeto_entidad_financiera",
+      "disjunta_con": [],
+      "alias": [],
+      "provenance": {
+        "source_doc": "TO_capitales_minimos_actual.pdf",
+        "location": "Punto 1.2"
+      }
+    },
+    {
+      "id": "Sujeto_caja_de_credito_cooperativa",
+      "label": "Cajas de crédito cooperativas",
+      "nivel": "clase",
+      "padre": "Sujeto_entidad_financiera",
+      "disjunta_con": [],
+      "alias": [],
+      "provenance": {
+        "source_doc": "TO_capitales_minimos_actual.pdf",
+        "location": "Punto 1.2"
+      }
+    },
+    {
+      "id": "Sujeto_entidad_cambiaria",
+      "label": "Entidades cambiarias",
+      "nivel": "clase",
+      "padre": "Sujeto_sujeto_regulado",
+      "disjunta_con": [
+        "Sujeto_entidad_financiera",
+        "Sujeto_proveedor_de_servicios_de_pago"
+      ],
+      "alias": [
+        "Operador de cambio",
+        "Operadores de cambio",
+        "Entidades cambiarias del exterior",
+        "Compañía cambista del exterior"
+      ],
+      "provenance": {
+        "source_doc": "TO_exterior_cambios_actual.pdf",
+        "location": "Punto 5.4.2.2"
+      }
+    },
+    {
+      "id": "Sujeto_casa_de_cambio",
+      "label": "Casas de cambio",
+      "nivel": "clase",
+      "padre": "Sujeto_entidad_cambiaria",
+      "disjunta_con": [],
+      "alias": [],
+      "provenance": {
+        "source_doc": "TO_exterior_cambios_actual.pdf",
+        "location": "Punto 5.9.2"
+      }
+    },
+    {
+      "id": "Sujeto_agencia_de_cambio",
+      "label": "Agencias de cambio",
+      "nivel": "clase",
+      "padre": "Sujeto_entidad_cambiaria",
+      "disjunta_con": [],
+      "alias": [],
+      "provenance": {
+        "source_doc": "TO_exterior_cambios_actual.pdf",
+        "location": "Punto 5.9.2"
+      }
+    },
+    {
+      "id": "Sujeto_proveedor_de_servicios_de_pago",
+      "label": "Proveedores de servicios de pago",
+      "nivel": "clase",
+      "padre": "Sujeto_sujeto_regulado",
+      "disjunta_con": [
+        "Sujeto_entidad_financiera",
+        "Sujeto_entidad_cambiaria"
+      ],
+      "alias": [],
+      "provenance": {
+        "source_doc": "TO_proteccion_usuarios_servicios_financieros_actual.pdf",
+        "location": "Punto 1.1.2.6"
+      }
+    },
+    {
+      "id": "Sujeto_pspcp",
+      "label": "Proveedores de servicios de pago que ofrecen cuentas de pago (PSPCP)",
+      "nivel": "clase",
+      "padre": "Sujeto_proveedor_de_servicios_de_pago",
+      "disjunta_con": [],
+      "alias": [
+        "PSPCP"
+      ],
+      "provenance": {
+        "source_doc": "TO_proteccion_usuarios_servicios_financieros_actual.pdf",
+        "location": "Punto 1.1.2.6"
+      }
+    },
+    {
+      "id": "Sujeto_psi_billetera_digital",
+      "label": "Proveedores de servicios de pago iniciadores que prestan el servicio de billetera digital (PSI)",
+      "nivel": "clase",
+      "padre": "Sujeto_proveedor_de_servicios_de_pago",
+      "disjunta_con": [],
+      "alias": [
+        "PSI"
+      ],
+      "provenance": {
+        "source_doc": "TO_proteccion_usuarios_servicios_financieros_actual.pdf",
+        "location": "Punto 1.1.2.7"
+      }
+    },
+    {
+      "id": "Sujeto_proveedor_no_financiero_de_credito",
+      "label": "Proveedores no financieros de crédito",
+      "nivel": "clase",
+      "padre": "Sujeto_sujeto_regulado",
+      "disjunta_con": [],
+      "alias": [
+        "PNFC"
+      ],
+      "provenance": {
+        "source_doc": "TO_proteccion_usuarios_servicios_financieros_actual.pdf",
+        "location": "Punto 1.1.2.5"
+      }
+    },
+    {
+      "id": "Sujeto_empresa_no_financiera_emisora_de_tarjetas",
+      "label": "Empresas no financieras emisoras de tarjetas de crédito y/o compra",
+      "nivel": "clase",
+      "padre": "Sujeto_proveedor_no_financiero_de_credito",
+      "disjunta_con": [],
+      "alias": [
+        "Empresas emisoras de tarjetas"
+      ],
+      "provenance": {
+        "source_doc": "TO_proteccion_usuarios_servicios_financieros_actual.pdf",
+        "location": "Punto 1.1.2.4"
+      }
+    },
+    {
+      "id": "Sujeto_pscpp",
+      "label": "Proveedores de servicios de créditos entre particulares a través de plataformas (PSCPP)",
+      "nivel": "clase",
+      "padre": "Sujeto_sujeto_regulado",
+      "disjunta_con": [],
+      "alias": [
+        "PSCPP"
+      ],
+      "provenance": {
+        "source_doc": "TO_clasificacion_deudores_actual.pdf",
+        "location": "Punto 10.4"
+      }
+    },
+    {
+      "id": "Sujeto_fiduciario_de_fideicomiso_financiero",
+      "label": "Fiduciarios de fideicomisos financieros",
+      "nivel": "clase",
+      "padre": "Sujeto_sujeto_regulado",
+      "disjunta_con": [],
+      "alias": [],
+      "provenance": {
+        "source_doc": "TO_clasificacion_deudores_actual.pdf",
+        "location": "Punto 10.2"
+      }
+    },
+    {
+      "id": "Sujeto_sociedad_de_garantia_reciproca",
+      "label": "Sociedades de garantía recíproca",
+      "nivel": "clase",
+      "padre": "Sujeto_sujeto_regulado",
+      "disjunta_con": [],
+      "alias": [
+        "SGR"
+      ],
+      "provenance": {
+        "source_doc": "TO_clasificacion_deudores_actual.pdf",
+        "location": "Punto 10.3"
+      }
+    },
+    {
+      "id": "Sujeto_fondo_de_garantia_publico",
+      "label": "Fondos de garantía de carácter público",
+      "nivel": "clase",
+      "padre": "Sujeto_sujeto_regulado",
+      "disjunta_con": [],
+      "alias": [],
+      "provenance": {
+        "source_doc": "TO_clasificacion_deudores_actual.pdf",
+        "location": "Punto 10.3"
+      }
+    },
+    {
+      "id": "Sujeto_entidad_de_contraparte_central",
+      "label": "Entidades de contraparte central (CCP)",
+      "nivel": "clase",
+      "padre": "Sujeto_sujeto_regulado",
+      "disjunta_con": [],
+      "alias": [
+        "CCP"
+      ],
+      "provenance": {
+        "source_doc": "TO_capitales_minimos_actual.pdf",
+        "location": "Punto 2.5.9"
+      }
+    },
+    {
+      "id": "Sujeto_ccp_calificada",
+      "label": "Entidades de contraparte central calificadas",
+      "nivel": "clase",
+      "padre": "Sujeto_entidad_de_contraparte_central",
+      "disjunta_con": [
+        "Sujeto_ccp_no_calificada"
+      ],
+      "alias": [
+        "QCCP"
+      ],
+      "provenance": {
+        "source_doc": "TO_capitales_minimos_actual.pdf",
+        "location": "Punto 4.3.1.1"
+      }
+    },
+    {
+      "id": "Sujeto_ccp_no_calificada",
+      "label": "Entidades de contraparte central no calificadas",
+      "nivel": "clase",
+      "padre": "Sujeto_entidad_de_contraparte_central",
+      "disjunta_con": [
+        "Sujeto_ccp_calificada"
+      ],
+      "alias": [],
+      "provenance": {
+        "source_doc": "TO_capitales_minimos_actual.pdf",
+        "location": "Punto 4.3.4"
+      }
+    },
+    {
+      "id": "Sujeto_miembro_compensador",
+      "label": "Miembros compensadores",
+      "nivel": "clase",
+      "padre": "Sujeto_sujeto_regulado",
+      "disjunta_con": [],
+      "alias": [],
+      "provenance": {
+        "source_doc": "TO_capitales_minimos_actual.pdf",
+        "location": "Punto 4.3.1.2"
+      }
+    },
+    {
+      "id": "Sujeto_ecai",
+      "label": "Agentes de calificación externa (ECAI)",
+      "nivel": "clase",
+      "padre": "Sujeto_sujeto_regulado",
+      "disjunta_con": [],
+      "alias": [
+        "ECAI"
+      ],
+      "provenance": {
+        "source_doc": "TO_capitales_minimos_actual.pdf",
+        "location": "Sección 10"
+      }
+    },
+    {
+      "id": "Sujeto_sujeto_del_perimetro_consolidado",
+      "label": "Sujetos del perímetro de supervisión consolidada",
+      "nivel": "clase",
+      "padre": "Sujeto_sujeto_regulado",
+      "disjunta_con": [],
+      "alias": [],
+      "provenance": {
+        "source_doc": "TO_capitales_minimos_actual.pdf",
+        "location": "Punto 8.2.1.9"
+      }
+    },
+    {
+      "id": "Sujeto_aseguradora",
+      "label": "Aseguradoras",
+      "nivel": "clase",
+      "padre": "Sujeto_sujeto_del_perimetro_consolidado",
+      "disjunta_con": [],
+      "alias": [],
+      "provenance": {
+        "source_doc": "TO_capitales_minimos_actual.pdf",
+        "location": "Punto 2.7.1"
+      }
+    },
+    {
+      "id": "Sujeto_entidad_bursatil",
+      "label": "Entidades bursátiles",
+      "nivel": "clase",
+      "padre": "Sujeto_sujeto_del_perimetro_consolidado",
+      "disjunta_con": [],
+      "alias": [],
+      "provenance": {
+        "source_doc": "TO_capitales_minimos_actual.pdf",
+        "location": "Punto 2.7.1"
+      }
+    },
+    {
+      "id": "Sujeto_empresa_de_servicios_complementarios",
+      "label": "Empresas de servicios complementarios de la actividad financiera",
+      "nivel": "clase",
+      "padre": "Sujeto_sujeto_del_perimetro_consolidado",
+      "disjunta_con": [],
+      "alias": [],
+      "provenance": {
+        "source_doc": "TO_capitales_minimos_actual.pdf",
+        "location": "Punto 8.4.2.1"
+      }
+    },
+    {
+      "id": "Sujeto_cliente",
+      "label": "Clientes",
+      "nivel": "clase",
+      "padre": "Sujeto_contraparte",
+      "disjunta_con": [],
+      "alias": [],
+      "provenance": {
+        "source_doc": "TO_exterior_cambios_actual.pdf",
+        "location": "Punto 1.2"
+      }
+    },
+    {
+      "id": "Sujeto_persona_humana",
+      "label": "Personas humanas",
+      "nivel": "clase",
+      "padre": "Sujeto_cliente",
+      "disjunta_con": [
+        "Sujeto_persona_juridica",
+        "Sujeto_universalidad"
+      ],
+      "alias": [],
+      "provenance": {
+        "source_doc": "TO_exterior_cambios_actual.pdf",
+        "location": "Punto 1.2"
+      }
+    },
+    {
+      "id": "Sujeto_persona_juridica",
+      "label": "Personas jurídicas",
+      "nivel": "clase",
+      "padre": "Sujeto_cliente",
+      "disjunta_con": [
+        "Sujeto_persona_humana",
+        "Sujeto_universalidad"
+      ],
+      "alias": [],
+      "provenance": {
+        "source_doc": "TO_exterior_cambios_actual.pdf",
+        "location": "Punto 1.2"
+      }
+    },
+    {
+      "id": "Sujeto_universalidad",
+      "label": "Patrimonios y otras universalidades",
+      "nivel": "clase",
+      "padre": "Sujeto_cliente",
+      "disjunta_con": [
+        "Sujeto_persona_humana",
+        "Sujeto_persona_juridica"
+      ],
+      "alias": [],
+      "provenance": {
+        "source_doc": "TO_exterior_cambios_actual.pdf",
+        "location": "Punto 1.2"
+      }
+    },
+    {
+      "id": "Sujeto_deudor",
+      "label": "Deudores",
+      "nivel": "clase",
+      "padre": "Sujeto_cliente",
+      "disjunta_con": [],
+      "alias": [],
+      "provenance": {
+        "source_doc": "TO_clasificacion_deudores_actual.pdf",
+        "location": "Punto 1.1"
+      }
+    },
+    {
+      "id": "Sujeto_usuario_de_servicios_financieros",
+      "label": "Usuarios de servicios financieros",
+      "nivel": "clase",
+      "padre": "Sujeto_contraparte",
+      "disjunta_con": [],
+      "alias": [],
+      "provenance": {
+        "source_doc": "TO_proteccion_usuarios_servicios_financieros_actual.pdf",
+        "location": "Punto 1.1.1"
+      }
+    },
+    {
+      "id": "Sujeto_importador",
+      "label": "Importadores",
+      "nivel": "clase",
+      "padre": "Sujeto_contraparte",
+      "disjunta_con": [],
+      "alias": [],
+      "provenance": {
+        "source_doc": "TO_exterior_cambios_actual.pdf",
+        "location": "Sección 10"
+      }
+    },
+    {
+      "id": "Sujeto_importador_de_bienes",
+      "label": "Importadores de bienes",
+      "nivel": "clase",
+      "padre": "Sujeto_importador",
+      "disjunta_con": [],
+      "alias": [],
+      "provenance": {
+        "source_doc": "TO_exterior_cambios_actual.pdf",
+        "location": "Punto 4.4"
+      }
+    },
+    {
+      "id": "Sujeto_importador_de_servicios",
+      "label": "Importadores de servicios",
+      "nivel": "clase",
+      "padre": "Sujeto_importador",
+      "disjunta_con": [],
+      "alias": [],
+      "provenance": {
+        "source_doc": "TO_exterior_cambios_actual.pdf",
+        "location": "Punto 4.5"
+      }
+    },
+    {
+      "id": "Sujeto_exportador",
+      "label": "Exportadores",
+      "nivel": "clase",
+      "padre": "Sujeto_contraparte",
+      "disjunta_con": [],
+      "alias": [],
+      "provenance": {
+        "source_doc": "TO_exterior_cambios_actual.pdf",
+        "location": "Punto 2.6.3"
+      }
+    },
+    {
+      "id": "Sujeto_mipyme",
+      "label": "MiPyMEs",
+      "nivel": "clase",
+      "padre": "Sujeto_contraparte",
+      "disjunta_con": [],
+      "alias": [],
+      "provenance": {
+        "source_doc": "TO_clasificacion_deudores_actual.pdf",
+        "location": "Punto 10.3"
+      }
+    },
+    {
+      "id": "Sujeto_emisor_de_titulos_de_deuda",
+      "label": "Emisores de títulos de deuda",
+      "nivel": "clase",
+      "padre": "Sujeto_contraparte",
+      "disjunta_con": [],
+      "alias": [],
+      "provenance": {
+        "source_doc": "TO_exterior_cambios_actual.pdf",
+        "location": "Punto 2.4"
+      }
+    },
+    {
+      "id": "Sujeto_vpu_rigi",
+      "label": "Vehículos de Proyecto Único (VPU) adheridos al RIGI",
+      "nivel": "clase",
+      "padre": "Sujeto_contraparte",
+      "disjunta_con": [],
+      "alias": [
+        "VPU"
+      ],
+      "provenance": {
+        "source_doc": "TO_exterior_cambios_actual.pdf",
+        "location": "Sección 14"
+      }
+    },
+    {
+      "id": "Sujeto_beneficiario_economia_conocimiento",
+      "label": "Beneficiarios del Régimen de Promoción de la Economía del Conocimiento",
+      "nivel": "clase",
+      "padre": "Sujeto_contraparte",
+      "disjunta_con": [],
+      "alias": [],
+      "provenance": {
+        "source_doc": "TO_exterior_cambios_actual.pdf",
+        "location": "Punto 2.6.1"
+      }
+    },
+    {
+      "id": "Sujeto_sector_publico_no_financiero",
+      "label": "Sector público no financiero",
+      "nivel": "clase",
+      "padre": "Sujeto_contraparte",
+      "disjunta_con": [
+        "Sujeto_sector_privado_no_financiero"
+      ],
+      "alias": [],
+      "provenance": {
+        "source_doc": "TO_capitales_minimos_actual.pdf",
+        "location": "Punto 2.1"
+      }
+    },
+    {
+      "id": "Sujeto_sector_privado_no_financiero",
+      "label": "Sector privado no financiero",
+      "nivel": "clase",
+      "padre": "Sujeto_contraparte",
+      "disjunta_con": [
+        "Sujeto_sector_publico_no_financiero"
+      ],
+      "alias": [],
+      "provenance": {
+        "source_doc": "TO_capitales_minimos_actual.pdf",
+        "location": "Punto 2.5.6"
+      }
+    },
+    {
+      "id": "Sujeto_acreedor_del_exterior",
+      "label": "Acreedores del exterior",
+      "nivel": "clase",
+      "padre": "Sujeto_contraparte",
+      "disjunta_con": [],
+      "alias": [],
+      "provenance": {
+        "source_doc": "TO_exterior_cambios_actual.pdf",
+        "location": "Punto 7.10.2"
+      }
+    },
+    {
+      "id": "Sujeto_fideicomiso",
+      "label": "Fideicomisos",
+      "nivel": "clase",
+      "padre": "Sujeto_estructura",
+      "disjunta_con": [],
+      "alias": [],
+      "provenance": {
+        "source_doc": "TO_exterior_cambios_actual.pdf",
+        "location": "Punto 3.7"
+      }
+    },
+    {
+      "id": "Sujeto_fideicomiso_financiero",
+      "label": "Fideicomisos financieros",
+      "nivel": "clase",
+      "padre": "Sujeto_fideicomiso",
+      "disjunta_con": [],
+      "alias": [],
+      "provenance": {
+        "source_doc": "TO_clasificacion_deudores_actual.pdf",
+        "location": "Punto 10.2"
+      }
+    },
+    {
+      "id": "Sujeto_sociedad_de_proposito_especial",
+      "label": "Entes de propósito especial (SPE)",
+      "nivel": "clase",
+      "padre": "Sujeto_estructura",
+      "disjunta_con": [],
+      "alias": [
+        "SPE",
+        "Sociedad de propósito especial"
+      ],
+      "provenance": {
+        "source_doc": "TO_capitales_minimos_actual.pdf",
+        "location": "Punto 3.1.1.8"
+      }
+    },
+    {
+      "id": "Sujeto_fondo_comun_de_inversion",
+      "label": "Fondos comunes de inversión",
+      "nivel": "clase",
+      "padre": "Sujeto_estructura",
+      "disjunta_con": [],
+      "alias": [
+        "FCI"
+      ],
+      "provenance": {
+        "source_doc": "TO_exterior_cambios_actual.pdf",
+        "location": "Punto 3.10"
+      }
+    },
+    {
+      "id": "Sujeto_gobierno_local",
+      "label": "Gobiernos locales",
+      "nivel": "clase",
+      "padre": "Sujeto_organismo_publico",
+      "disjunta_con": [],
+      "alias": [],
+      "provenance": {
+        "source_doc": "TO_exterior_cambios_actual.pdf",
+        "location": "Punto 3.10"
+      }
+    },
+    {
+      "id": "Sujeto_organismo_internacional",
+      "label": "Organismos internacionales",
+      "nivel": "clase",
+      "padre": "Sujeto_organismo_publico",
+      "disjunta_con": [],
+      "alias": [],
+      "provenance": {
+        "source_doc": "TO_capitales_minimos_actual.pdf",
+        "location": "Punto 5.4.1"
+      }
+    },
+    {
+      "id": "Sujeto_banco_multilateral_de_desarrollo",
+      "label": "Bancos multilaterales de desarrollo",
+      "nivel": "clase",
+      "padre": "Sujeto_organismo_internacional",
+      "disjunta_con": [],
+      "alias": [
+        "BMD"
+      ],
+      "provenance": {
+        "source_doc": "TO_capitales_minimos_actual.pdf",
+        "location": "Punto 2.12.3"
+      }
+    },
+    {
+      "id": "Sujeto_agencia_oficial_de_credito",
+      "label": "Agencias oficiales de crédito",
+      "nivel": "clase",
+      "padre": "Sujeto_organismo_publico",
+      "disjunta_con": [],
+      "alias": [],
+      "provenance": {
+        "source_doc": "TO_exterior_cambios_actual.pdf",
+        "location": "Punto 3.13.1"
+      }
+    },
+    {
+      "id": "Sujeto_autoridad_nacional_de_aplicacion",
+      "label": "Autoridad Nacional de Aplicación",
+      "nivel": "clase",
+      "padre": "Sujeto_organismo_publico",
+      "disjunta_con": [],
+      "alias": [],
+      "provenance": {
+        "source_doc": "TO_proteccion_usuarios_servicios_financieros_actual.pdf",
+        "location": "Punto 1.3"
+      }
+    },
+    {
+      "id": "Sujeto_bcra",
+      "label": "BCRA (Banco Central de la República Argentina)",
+      "nivel": "instancia",
+      "instancia_de": "Sujeto_organismo_publico",
+      "alias": [],
+      "provenance": {
+        "source_doc": "TO_exterior_cambios_actual.pdf",
+        "location": "Punto 1.1"
+      }
+    },
+    {
+      "id": "Sujeto_sefyc",
+      "label": "SEFyC (Superintendencia de Entidades Financieras y Cambiarias)",
+      "nivel": "instancia",
+      "instancia_de": "Sujeto_organismo_publico",
+      "alias": [
+        "Superintendencia de Entidades Financieras y Cambiarias"
+      ],
+      "provenance": {
+        "source_doc": "TO_clasificacion_deudores_actual.pdf",
+        "location": "Punto 5.1.1.2"
+      },
+      "parte_de": "Sujeto_bcra"
+    },
+    {
+      "id": "Sujeto_arca",
+      "label": "ARCA (Agencia de Recaudación y Control Aduanero)",
+      "nivel": "instancia",
+      "instancia_de": "Sujeto_organismo_publico",
+      "alias": [
+        "AFIP",
+        "Agencia de Recaudación y Control Aduanero"
+      ],
+      "provenance": {
+        "source_doc": "TO_exterior_cambios_actual.pdf",
+        "location": "Punto 3.16.1"
+      }
+    },
+    {
+      "id": "Sujeto_ministerio_de_economia",
+      "label": "Ministerio de Economía",
+      "nivel": "instancia",
+      "instancia_de": "Sujeto_organismo_publico",
+      "alias": [],
+      "provenance": {
+        "source_doc": "TO_exterior_cambios_actual.pdf",
+        "location": "Punto 2.6.2.2"
+      }
+    },
+    {
+      "id": "Sujeto_secretaria_de_energia",
+      "label": "Secretaría de Energía",
+      "nivel": "instancia",
+      "instancia_de": "Sujeto_organismo_publico",
+      "alias": [],
+      "provenance": {
+        "source_doc": "TO_exterior_cambios_actual.pdf",
+        "location": "Punto 3.17.3"
+      }
+    },
+    {
+      "id": "Sujeto_secretaria_de_comercio",
+      "label": "Secretaría de Comercio",
+      "nivel": "instancia",
+      "instancia_de": "Sujeto_organismo_publico",
+      "alias": [],
+      "provenance": {
+        "source_doc": "TO_exterior_cambios_actual.pdf",
+        "location": "Sección 10"
+      }
+    },
+    {
+      "id": "Sujeto_secretaria_de_transporte",
+      "label": "Secretaría de Transporte",
+      "nivel": "instancia",
+      "instancia_de": "Sujeto_organismo_publico",
+      "alias": [],
+      "provenance": {
+        "source_doc": "TO_exterior_cambios_actual.pdf",
+        "location": "Sección 10"
+      }
+    }
+  ],
+  "roles": [
+    {
+      "id": "Sujeto_rol_sujeto_obligado_proteccion",
+      "label": "Sujetos obligados (Protección de usuarios)",
+      "nivel": "rol",
+      "to": "TO_proteccion_usuarios_servicios_financieros_actual.pdf",
+      "miembros": [
+        "Sujeto_entidad_financiera",
+        "Sujeto_entidad_cambiaria",
+        "Sujeto_fiduciario_de_fideicomiso_financiero",
+        "Sujeto_empresa_no_financiera_emisora_de_tarjetas",
+        "Sujeto_proveedor_no_financiero_de_credito",
+        "Sujeto_pspcp",
+        "Sujeto_psi_billetera_digital"
+      ],
+      "provenance": {
+        "source_doc": "TO_proteccion_usuarios_servicios_financieros_actual.pdf",
+        "location": "Punto 1.1.2"
+      }
+    },
+    {
+      "id": "Sujeto_rol_entidad_autorizada_exterior",
+      "label": "Entidades autorizadas a operar en cambios (Exterior)",
+      "nivel": "rol",
+      "to": "TO_exterior_cambios_actual.pdf",
+      "miembros": [
+        "Sujeto_entidad_financiera",
+        "Sujeto_entidad_cambiaria"
+      ],
+      "provenance": {
+        "source_doc": "TO_exterior_cambios_actual.pdf",
+        "location": "Punto 1.1"
+      }
+    },
+    {
+      "id": "Sujeto_rol_obligado_a_clasificar_clasificacion",
+      "label": "Obligados a clasificar deudores (Clasificación)",
+      "nivel": "rol",
+      "to": "TO_clasificacion_deudores_actual.pdf",
+      "miembros": [
+        "Sujeto_entidad_financiera",
+        "Sujeto_proveedor_no_financiero_de_credito",
+        "Sujeto_fiduciario_de_fideicomiso_financiero",
+        "Sujeto_sociedad_de_garantia_reciproca",
+        "Sujeto_fondo_de_garantia_publico",
+        "Sujeto_pscpp"
+      ],
+      "provenance": {
+        "source_doc": "TO_clasificacion_deudores_actual.pdf",
+        "location": "Secciones 1 y 10"
+      }
+    },
+    {
+      "id": "Sujeto_rol_entidad_comprendida_reginf",
+      "label": "Entidades comprendidas (Régimen Informativo)",
+      "nivel": "rol",
+      "to": "TO_regimen_informativo_contable_mensual_actual.pdf",
+      "miembros": [
+        "Sujeto_entidad_financiera"
+      ],
+      "provenance": {
+        "source_doc": "TO_regimen_informativo_contable_mensual_actual.pdf",
+        "location": "Sección 2"
+      }
+    },
+    {
+      "id": "Sujeto_rol_alcance_capmin",
+      "label": "Entidades alcanzadas (Capitales Mínimos)",
+      "nivel": "rol",
+      "to": "TO_capitales_minimos_actual.pdf",
+      "miembros": [
+        "Sujeto_entidad_financiera"
+      ],
+      "provenance": {
+        "source_doc": "TO_capitales_minimos_actual.pdf",
+        "location": "Sección 1"
+      }
+    }
+  ]
+}

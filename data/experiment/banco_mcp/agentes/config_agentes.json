@@ -1,0 +1,124 @@
+{
+  "unidad": "U-A2.0-banco — entregable 3 (configuración sellada de los agentes, R10)",
+  "claude_code_version_sellada": "2.1.241",
+  "nota_version_cli": "La versión del CLI es variable sellada del instrumento: cambia el comportamiento (p. ej. 2.1.196 no espera servidores MCP pending; ≥2.1.221 sí). El lanzador registra `claude --version` en harness_R10.claude_code_version y marca `coincide_con_sellada`; si se actualiza el CLI, se declara y se re-valida el smoke antes de correr.",
+  "modelo": "claude-sonnet-5",
+  "modo_harness": "--bare",
+  "motivo_modo_harness": "Medido a USD 0 (aislamiento/resultados/init_*.json): bajo --safe-mode el --mcp-config NO carga (mcp_servers=[], tools=[]), coherente con la doc del flag ('MCP servers ... do not load'); bajo --bare carga y los servidores figuran connected. --bare además no lee CLAUDE.md, hooks, skills, plugins ni auto memory (doc: 'Start faster with bare mode'). Consecuencia: --bare 'doesn't use your subscription login' => autenticación por ANTHROPIC_API_KEY o proveedor (Bedrock); ver agentes/config_credenciales.json. P0 de esta configuración: NO medido en fase A (cuesta); se mide como primer paso de fase B y se compara con el 9.412 de --safe-mode (b08095a).",
+  "brazos": {
+    "kg": {
+      "mcp_config": "agentes/mcp_kg.json",
+      "servidor": "kg",
+      "bloque_tools": "agentes/bloque_tools_kg.txt",
+      "allowed_tools": "mcp__kg__*",
+      "tools_esperadas": [
+        "mcp__kg__buscar_nodos",
+        "mcp__kg__ver_nodo",
+        "mcp__kg__ver_vecinos"
+      ]
+    },
+    "vector": {
+      "mcp_config": "agentes/mcp_vector.json",
+      "servidor": "vector",
+      "bloque_tools": "agentes/bloque_tools_vector.txt",
+      "allowed_tools": "mcp__vector__*",
+      "tools_esperadas": [
+        "mcp__vector__buscar_pasajes"
+      ]
+    }
+  },
+  "prompt": {
+    "plantilla": "agentes/plantilla_prompt.txt",
+    "como_se_pasa": "como argumento de `claude -p <prompt>` (precedente: gate fase B; plan v6 (iii): 'el prompt custom entra como argumento ... parte de la configuración sellada (R10), idéntico entre brazos salvo la descripción de la tool'). El prompt de sistema de Claude Code no se toca (--system-prompt/--append-system-prompt NO se usan): ambos brazos comparten la misma caja negra.",
+    "diferencia_entre_brazos": "exclusivamente el bloque {{BLOQUE_TOOLS}} (diff en agentes/resultados/diff_prompt_brazos.txt)"
+  },
+  "corte_R5": {
+    "max_turns": 12,
+    "tope_tool_calls_en_prompt": 10,
+    "max_budget_usd_por_sesion": 0.3,
+    "nota": "Tres cortes, declarados antes de correr y registrados por traza: (1) --max-turns 12 (CLI: 'Limit the number of agentic turns (print mode only). Exits with an error when the limit is reached'); (2) tope de 10 tool calls instruido en el prompt (el agente puede no respetarlo; se registra n_tool_calls real); (3) --max-budget-usd por sesión (CLI: 'Maximum dollar amount to spend on API calls before stopping'). Ninguno se compara numéricamente con hit_tool_limit del harness congelado."
+  },
+  "flags": [
+    {
+      "flag": "--bare",
+      "doc": "cli-reference: 'Minimal mode: skip auto-discovery of hooks, skills, custom commands, subagents, plugins, MCP servers, auto memory, and CLAUDE.md so scripted calls start faster ... Sets CLAUDE_CODE_SIMPLE'; headless: 'In bare mode Claude has access to the Bash, file read, and file edit tools' — por eso se agrega --tools \"\""
+    },
+    {
+      "flag": "-p <prompt>",
+      "doc": "cli-reference: '--print, -p: Print response without interactive mode'"
+    },
+    {
+      "flag": "--model claude-sonnet-5",
+      "doc": "cli-reference: 'Sets the model for the current session with an alias ... or a model's full name'"
+    },
+    {
+      "flag": "--output-format stream-json",
+      "doc": "cli-reference: 'Specify output format for print mode (options: text, json, stream-json)'; headless: 'The last line of the stream is a result message with the final response text, cost, and session metadata' y 'The system/init event reports session metadata including the model, tools, MCP servers'"
+    },
+    {
+      "flag": "--verbose",
+      "doc": "headless: 'Use --output-format stream-json with --verbose and --include-partial-messages to receive tokens as they're generated' (se usa --verbose sin partial messages: un evento por mensaje)"
+    },
+    {
+      "flag": "--tools \"\"",
+      "doc": "cli-reference: 'Restrict which built-in tools Claude can use. Use \"\" to disable all'"
+    },
+    {
+      "flag": "--strict-mcp-config",
+      "doc": "cli-reference: 'Only use MCP servers from --mcp-config, ignoring all other MCP configurations'"
+    },
+    {
+      "flag": "--mcp-config <json>",
+      "doc": "cli-reference: 'Load MCP servers from JSON files or strings'; mcp: expansión ${VAR} y ${VAR:-default} en command/args/env; campo timeout por servidor en ms ('overrides the MCP_TOOL_TIMEOUT environment variable for that server only')"
+    },
+    {
+      "flag": "--permission-mode dontAsk",
+      "doc": "headless: 'dontAsk: Claude Code denies anything not in your permissions.allow rules or the read-only command set, which is useful for locked-down CI runs'"
+    },
+    {
+      "flag": "--allowedTools mcp__<server>__*",
+      "doc": "cli-reference: 'Tools that execute without prompting for permission'; settings-reference (permission rule syntax): 'mcp__server__* — wildcard for all tools from a server'"
+    },
+    {
+      "flag": "--disallowedTools \"Bash,Read,Edit,Write,Glob,Grep,WebFetch,WebSearch,Agent,NotebookEdit\"",
+      "doc": "cli-reference: 'Deny rules. A bare tool name removes the matching tools from Claude's context' (redundante con --tools \"\"; cinturón y tiradores)"
+    },
+    {
+      "flag": "--max-turns 12",
+      "doc": "cli-reference: 'Limit the number of agentic turns (print mode only). Exits with an error when the limit is reached. No limit by default'"
+    },
+    {
+      "flag": "--max-budget-usd 0.30",
+      "doc": "cli-reference: 'Maximum dollar amount to spend on API calls before stopping (print mode only)'"
+    },
+    {
+      "flag": "--no-session-persistence",
+      "doc": "cli-reference: 'Disable session persistence so sessions are not saved to disk and cannot be resumed. Print mode only'. NO se usa en corridas reales: la sesión en disco es el índice (R1); se usa solo en los tests a USD 0"
+    },
+    {
+      "flag": "--session-id <uuid>",
+      "doc": "cli-reference: 'Use a specific session ID for the conversation (must be a valid UUID)' — el lanzador fija el uuid para localizar el jsonl de sesión sin ambigüedad"
+    }
+  ],
+  "env_por_sesion": {
+    "BANCO_REPO": "raíz del repo (expansión en los JSON de MCP)",
+    "BANCO_VENV_VECTOR": "venv 3.12 del servidor vectorial",
+    "BANCO_LOG_R1": "ruta del log R1 de ESA sesión (un archivo por sesión)",
+    "BANCO_SESION_TAG": "id de la pregunta/corrida (se copia a cada línea del log)",
+    "MCP_TIMEOUT": "180000 (arranque del servidor; doc mcp: 'Configure MCP server startup timeout using the MCP_TIMEOUT environment variable')",
+    "MAX_MCP_OUTPUT_TOKENS": "NO se fija: queda el default de 25.000 tokens documentado, para medir el tope en fase B"
+  },
+  "hallazgo_version": "Claude Code 2.1.196 no espera a servidores MCP 'pending' antes del primer turno (la espera requiere v2.1.221 según cli-reference --mcp-config). Mitigación del lado del servidor vectorial: carga perezosa del modelo (initialize/tools/list inmediatos; medido: status connected con la tool en system/init). CONFIRMADO en la corrida 1 de fase B (12/12 sesiones pending, 0 tool calls). Resuelto por laudo C1a: actualización a 2.1.241 (re-sellado) + C1c regla de honestidad en el prompt.",
+  "historial_version_cli": [
+    {
+      "version": "2.1.196",
+      "vigencia": "fase A y corrida 1 de fase B (2026-08-23); el gate de trazabilidad (c09663a, b08095a) queda como evidencia bajo esta versión y NO se re-corre",
+      "motivo_cambio": "no espera servidores MCP pending antes del primer turno: corrida 1 de fase B con tools=[] en 12/12 sesiones (smoke/resultados/faseB/diagnostico_corrida1.md)"
+    },
+    {
+      "version": "2.1.241",
+      "vigencia": "desde el re-sellado posterior al laudo C1 (2026-08-23)",
+      "fundamento": "cli-reference --mcp-config: 'When you pass this flag with -p, Claude Code waits for still-pending servers to connect before running the first turn, up to the MCP_TIMEOUT startup timeout ... The wait requires Claude Code v2.1.221 or later'"
+    }
+  ]
+}

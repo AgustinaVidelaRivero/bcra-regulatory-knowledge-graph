@@ -1,0 +1,59 @@
+{
+  "unidad": "A2.1, tramo 1 — configuración de los agentes de los dos brazos de fragmentos (R10)",
+  "base": {
+    "ruta": "agentes/config_agentes.json",
+    "sha256": "c178d9fd8fb66eeb612e2c8926a374c84504c9af24ac30153aeb1746f1db6274",
+    "que_se_hereda": "modelo, modo del harness, versión sellada del CLI, flags y su doc, plantilla del prompt, cortes R5, env por sesión y precios sellados: los mismos de U-A2.0-banco. Lo único nuevo son los dos brazos de fragmentos."
+  },
+  "claude_code_version_sellada": "2.1.241",
+  "modelo": "claude-sonnet-5",
+  "modo_harness": "--bare",
+  "brazos": {
+    "fragmentos_bm25": {
+      "mcp_config": "mcp_vector/mcp_fragmentos_bm25.json",
+      "servidor": "fragmentos",
+      "bloque_tools": "a2_1/bloque_tools_fragmentos_bm25.txt",
+      "allowed_tools": "mcp__fragmentos__*",
+      "tools_esperadas": [
+        "mcp__fragmentos__buscar_pasajes"
+      ],
+      "config_servidor": "mcp_vector/config_fragmentos_bm25_r2b.json",
+      "archivos_servidor": [
+        "mcp_vector/servidor_mcp_vector.py",
+        "mcp_vector/bm25_fragmentos.py"
+      ]
+    },
+    "fragmentos_denso": {
+      "mcp_config": "mcp_vector/mcp_fragmentos_denso.json",
+      "servidor": "fragmentos",
+      "bloque_tools": "agentes/bloque_tools_vector.txt",
+      "allowed_tools": "mcp__fragmentos__*",
+      "tools_esperadas": [
+        "mcp__fragmentos__buscar_pasajes"
+      ],
+      "config_servidor": "mcp_vector/config_fragmentos_denso_r2b.json",
+      "archivos_servidor": [
+        "mcp_vector/servidor_mcp_vector.py"
+      ]
+    }
+  },
+  "prompt": {
+    "plantilla": "agentes/plantilla_prompt.txt",
+    "como_se_pasa": "como en la base: argumento de `claude -p <prompt>`; el prompt de sistema de Claude Code no se toca.",
+    "diferencia_entre_brazos": "exclusivamente el bloque {{BLOQUE_TOOLS}}: 'búsqueda semántica (embeddings)' en el denso (el bloque del brazo vectorial de la base, sin cambios) y 'búsqueda léxica (BM25)' en el BM25. El nombre del servidor MCP es el mismo en los dos brazos ('fragmentos'), así que la tool que ve el agente se llama igual: mcp__fragmentos__buscar_pasajes."
+  },
+  "corte_R5": {
+    "max_turns": 12,
+    "tope_tool_calls_en_prompt": 10,
+    "max_budget_usd_por_sesion": 0.3,
+    "nota": "Los de la base. El criterio de corte R5 de A2.2 lo fija la autora al firmar el pre-registro, sobre la señal que verifique H-B2. En las sesiones de H-B2 el lanzador de A2.1 pasa el --max-turns del diseño (a2_1/diseno_HB2.json) y lo registra en la metadata (hb2.max_turns_efectivo); el resto de la config no cambia."
+  },
+  "env_por_sesion": {
+    "BANCO_REPO": "raíz del repo (expansión en los JSON de MCP)",
+    "BANCO_VENV_VECTOR": "venv 3.12 del servidor de fragmentos (requirements_vector.txt), el mismo en los dos brazos: el BM25 no usa el modelo, pero corre en el venv sin el driver del grafo",
+    "BANCO_LOG_R1": "ruta del log R1 de ESA sesión (un archivo por sesión)",
+    "BANCO_SESION_TAG": "id de la pregunta/corrida (se copia a cada línea del log)",
+    "MCP_TIMEOUT": "180000 (arranque del servidor; doc mcp: 'Configure MCP server startup timeout using the MCP_TIMEOUT environment variable')",
+    "MAX_MCP_OUTPUT_TOKENS": "NO se fija (como en la base)"
+  }
+}

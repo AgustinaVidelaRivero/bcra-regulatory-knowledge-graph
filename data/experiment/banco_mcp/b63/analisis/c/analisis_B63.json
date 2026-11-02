@@ -1,0 +1,5549 @@
+{
+ "archivos_de_banco_b63_controlados": 2593,
+ "cifra_aparte_sin_la_cola": {
+  "analisis": {
+   "afirmacion_principal": {
+    "el_grafo_supera_a_los_fragmentos": false,
+    "por_configuracion": {
+     "fragmentos_denso": false,
+     "fragmentos_hibrida": false
+    },
+    "regla": "supera a una sola o a ninguna: se informa por configuración, sin la afirmación general"
+   },
+   "por_brazo": {
+    "fragmentos_denso": {
+     "intervalo_95": [
+      0.845878136200717,
+      0.946236559139785
+     ],
+     "media": 0.899641577060932
+    },
+    "fragmentos_hibrida": {
+     "intervalo_95": [
+      0.8709677419354839,
+      0.967741935483871
+     ],
+     "media": 0.9247311827956989
+    },
+    "kg": {
+     "intervalo_95": [
+      0.8315412186379928,
+      0.9247311827956989
+     ],
+     "media": 0.8817204301075269
+    }
+   },
+   "por_comparacion": {
+    "fragmentos_denso": {
+     "holm": {
+      "p": 0.6008339916600834,
+      "rechaza": false,
+      "umbral": 0.05
+     },
+     "intervalo_95": [
+      -0.07168458781362007,
+      0.035842293906810034
+     ],
+     "media_d": -0.017921146953405017,
+     "permutacion": {
+      "mayores_o_iguales": 60083,
+      "media": -0.017921146953405017,
+      "n": 93,
+      "p": 0.6008339916600834
+     },
+     "preguntas": 93
+    },
+    "fragmentos_hibrida": {
+     "holm": {
+      "p": 0.0890591094089059,
+      "rechaza": false,
+      "umbral": 0.025
+     },
+     "intervalo_95": [
+      -0.0896057347670251,
+      0.0035842293906810036
+     ],
+     "media_d": -0.043010752688172046,
+     "permutacion": {
+      "mayores_o_iguales": 8905,
+      "media": -0.043010752688172046,
+      "n": 93,
+      "p": 0.0890591094089059
+     },
+     "preguntas": 93
+    }
+   },
+   "por_tipo": {
+    "dato_directo": {
+     "por_brazo": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        0.9035087719298246,
+        1.0
+       ],
+       "media": 0.9572649572649573
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        1.0,
+        1.0
+       ],
+       "media": 1.0
+      },
+      "kg": {
+       "intervalo_95": [
+        0.9,
+        0.9898989898989898
+       ],
+       "media": 0.9487179487179487
+      }
+     },
+     "por_comparacion": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        -0.07692307692307693,
+        0.0625
+       ],
+       "media_d": -0.008547008547008546
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        -0.1,
+        -0.0101010101010101
+       ],
+       "media_d": -0.05128205128205128
+      }
+     },
+     "preguntas": 39
+    },
+    "varios_puntos": {
+     "por_brazo": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        0.7757575757575758,
+        0.9308176100628931
+       ],
+       "media": 0.8580246913580247
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        0.7847222222222222,
+        0.9444444444444444
+       ],
+       "media": 0.8703703703703703
+      },
+      "kg": {
+       "intervalo_95": [
+        0.7575757575757576,
+        0.9015151515151515
+       ],
+       "media": 0.8333333333333334
+      }
+     },
+     "por_comparacion": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        -0.10062893081761005,
+        0.05357142857142857
+       ],
+       "media_d": -0.024691358024691357
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        -0.10666666666666666,
+        0.03571428571428571
+       ],
+       "media_d": -0.037037037037037035
+      }
+     },
+     "preguntas": 54
+    }
+   },
+   "preguntas": 93,
+   "preguntas_que_salen_por_comparacion": {
+    "fragmentos_denso": 0,
+    "fragmentos_hibrida": 0
+   },
+   "remuestreos_sin_cifra": {},
+   "secundaria": {
+    "fragmentos_denso": {
+     "a_favor_del_grafo_en_varios_puntos": false,
+     "diferencia": -0.016144349477682812,
+     "percentil_5": -0.1021705426356589
+    },
+    "fragmentos_hibrida": {
+     "a_favor_del_grafo_en_varios_puntos": false,
+     "diferencia": 0.014245014245014245,
+     "percentil_5": -0.053858784893267654
+    }
+   },
+   "subtipos_como_casos": {
+    "condicion": {
+     "casos": [
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L02",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.3333333333333333,
+        "fragmentos_hibrida": -0.3333333333333333
+       },
+       "id": "B63-O1-L03-R1",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 0.6666666666666666
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L12",
+       "por_brazo": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0,
+        "kg": 0.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L18",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L21",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L29-R1",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.3333333333333333,
+        "fragmentos_hibrida": -0.3333333333333333
+       },
+       "id": "B63-O3-L09",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 0.6666666666666666
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.6666666666666666,
+        "fragmentos_hibrida": 0.6666666666666666
+       },
+       "id": "B63-O3-L28",
+       "por_brazo": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0,
+        "kg": 0.6666666666666666
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.6666666666666666,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L31",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 0.3333333333333333,
+        "kg": 0.3333333333333333
+       }
+      }
+     ],
+     "preguntas": 9
+    },
+    "definicion": {
+     "casos": [
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L16-R1",
+       "por_brazo": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0,
+        "kg": 0.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.3333333333333333,
+        "fragmentos_hibrida": -0.3333333333333333
+       },
+       "id": "B63-O1-L17",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 0.6666666666666666
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L30",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.3333333333333333,
+        "fragmentos_hibrida": -0.3333333333333333
+       },
+       "id": "B63-O1-L31",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 0.6666666666666666
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.6666666666666666,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L21-R2",
+       "por_brazo": {
+        "fragmentos_denso": 0.3333333333333333,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L02",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L18",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L21",
+       "por_brazo": {
+        "fragmentos_denso": 0.6666666666666666,
+        "fragmentos_hibrida": 0.6666666666666666,
+        "kg": 0.6666666666666666
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L27",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      }
+     ],
+     "preguntas": 9
+    },
+    "remision": {
+     "casos": [
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": -0.6666666666666666
+       },
+       "id": "B63-O1-L01",
+       "por_brazo": {
+        "fragmentos_denso": 0.3333333333333333,
+        "fragmentos_hibrida": 1.0,
+        "kg": 0.3333333333333333
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.3333333333333333,
+        "fragmentos_hibrida": -0.3333333333333333
+       },
+       "id": "B63-O1-L05",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 0.6666666666666666
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L06-R2",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L08",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L09",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.3333333333333333,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L10",
+       "por_brazo": {
+        "fragmentos_denso": 0.6666666666666666,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L22-R1",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L28-R1",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.6666666666666666,
+        "fragmentos_hibrida": -0.3333333333333333
+       },
+       "id": "B63-O1-L29",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 0.6666666666666666,
+        "kg": 0.3333333333333333
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L32",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.3333333333333333,
+        "fragmentos_hibrida": 0.6666666666666666
+       },
+       "id": "B63-O2-L03",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 0.0,
+        "kg": 0.6666666666666666
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.3333333333333333,
+        "fragmentos_hibrida": -0.3333333333333333
+       },
+       "id": "B63-O2-L04",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 0.6666666666666666
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L05",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L07",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L08",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.3333333333333333,
+        "fragmentos_hibrida": -0.3333333333333333
+       },
+       "id": "B63-O2-L09",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 0.6666666666666666
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L10",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L13-R2",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L18",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.3333333333333333,
+        "fragmentos_hibrida": -0.3333333333333333
+       },
+       "id": "B63-O2-L22",
+       "por_brazo": {
+        "fragmentos_denso": 0.6666666666666666,
+        "fragmentos_hibrida": 0.6666666666666666,
+        "kg": 0.3333333333333333
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L23",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L25",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L27",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L30",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L31",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.3333333333333333,
+        "fragmentos_hibrida": 0.6666666666666666
+       },
+       "id": "B63-O3-L01-R2",
+       "por_brazo": {
+        "fragmentos_denso": 0.6666666666666666,
+        "fragmentos_hibrida": 0.3333333333333333,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.6666666666666666,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L03-R3",
+       "por_brazo": {
+        "fragmentos_denso": 0.3333333333333333,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L04",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L05",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L07",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.6666666666666666,
+        "fragmentos_hibrida": -0.6666666666666666
+       },
+       "id": "B63-O3-L08",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 0.3333333333333333
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L11",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L14",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.3333333333333333,
+        "fragmentos_hibrida": -0.3333333333333333
+       },
+       "id": "B63-O3-L17-R2",
+       "por_brazo": {
+        "fragmentos_denso": 0.3333333333333333,
+        "fragmentos_hibrida": 1.0,
+        "kg": 0.6666666666666666
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.6666666666666666,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L20-R2",
+       "por_brazo": {
+        "fragmentos_denso": 0.3333333333333333,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.6666666666666666
+       },
+       "id": "B63-O3-L22",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 0.3333333333333333,
+        "kg": 1.0
+       }
+      }
+     ],
+     "preguntas": 36
+    }
+   },
+   "total_ponderado": {
+    "extremo_alto": {
+     "peso_varios_puntos": 0.4141301415216145,
+     "por_brazo": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        0.8705981375652085,
+        0.9561171611630482
+       ],
+       "valor": 0.9161665719002765
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        0.9108469834224302,
+        0.9769927699154658
+       ],
+       "valor": 0.946316463136087
+      },
+      "kg": {
+       "intervalo_95": [
+        0.8592616379225109,
+        0.9391738019848107
+       ],
+       "valor": 0.9009337016193009
+      }
+     },
+     "por_comparacion": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        -0.0663319207287674,
+        0.03647286057387361
+       ],
+       "valor": -0.015232870280975731
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        -0.08660738656187106,
+        -0.006862114866707341
+       ],
+       "valor": -0.045382761516786115
+      }
+     }
+    },
+    "extremo_bajo": {
+     "peso_varios_puntos": 0.25971872147880376,
+     "por_brazo": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        0.8871144518583777,
+        0.968197707574024
+       ],
+       "valor": 0.9314904022843923
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        0.9440883307927576,
+        0.9855711821400666
+       ],
+       "valor": 0.9663327583268218
+      },
+      "kg": {
+       "intervalo_95": [
+        0.8775174699799977,
+        0.9538936080118
+       ],
+       "valor": 0.918750403931933
+      }
+     },
+     "por_comparacion": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        -0.06769009197946918,
+        0.04281400054831456
+       ],
+       "valor": -0.01273999835245932
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        -0.08894271510962541,
+        -0.012397528260310677
+       ],
+       "valor": -0.04758235439488884
+      }
+     }
+    },
+    "herencia": {
+     "peso_varios_puntos": 0.2944465476913903,
+     "por_brazo": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        0.8841934929677673,
+        0.9652733433043759
+       ],
+       "valor": 0.9280440035766855
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        0.9366122015386591,
+        0.9836418584615895
+       ],
+       "valor": 0.9618310030770421
+      },
+      "kg": {
+       "intervalo_95": [
+        0.8737536033224311,
+        0.9503133478650518
+       ],
+       "valor": 0.9147433470612498
+      }
+     },
+     "por_comparacion": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        -0.06662462146323844,
+        0.041199271830495744
+       ],
+       "valor": -0.01330065651543555
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        -0.08814494064433125,
+        -0.01154263896551707
+       ],
+       "valor": -0.047087656015792165
+      }
+     }
+    },
+    "sellada": {
+     "peso_varios_puntos": 0.3324390393771662,
+     "por_brazo": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        0.8800642518906597,
+        0.962169773816894
+       ],
+       "valor": 0.9242736185993221
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        0.9284332623563045,
+        0.9815311644790463
+       ],
+       "valor": 0.9569060504511082
+      },
+      "kg": {
+       "intervalo_95": [
+        0.8698475987170898,
+        0.9464169946612266
+       ],
+       "valor": 0.9103595980205834
+      }
+     },
+     "por_comparacion": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        -0.06612160642566002,
+        0.039513930838710076
+       ],
+       "valor": -0.013914020578738674
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        -0.08736969246116869,
+        -0.010416589310341296
+       ],
+       "valor": -0.0465464524305247
+      }
+     }
+    }
+   }
+  },
+  "por_causa": {
+   "cola": 3,
+   "las_dos": 0,
+   "total": 3,
+   "unidad_que_falta": 0
+  },
+  "salen": 3
+ },
+ "confirmatorio": {
+  "principal": {
+   "afirmacion_principal": {
+    "el_grafo_supera_a_los_fragmentos": false,
+    "por_configuracion": {
+     "fragmentos_denso": false,
+     "fragmentos_hibrida": false
+    },
+    "regla": "supera a una sola o a ninguna: se informa por configuración, sin la afirmación general"
+   },
+   "por_brazo": {
+    "fragmentos_denso": {
+     "intervalo_95": [
+      0.8402777777777778,
+      0.9409722222222222
+     ],
+     "media": 0.8923611111111112
+    },
+    "fragmentos_hibrida": {
+     "intervalo_95": [
+      0.8715277777777778,
+      0.9652777777777778
+     ],
+     "media": 0.9201388888888888
+    },
+    "kg": {
+     "intervalo_95": [
+      0.8333333333333334,
+      0.9270833333333334
+     ],
+     "media": 0.8819444444444445
+    }
+   },
+   "por_comparacion": {
+    "fragmentos_denso": {
+     "holm": {
+      "p": 0.8000319996800032,
+      "rechaza": false,
+      "umbral": 0.05
+     },
+     "intervalo_95": [
+      -0.0625,
+      0.041666666666666664
+     ],
+     "media_d": -0.010416666666666666,
+     "permutacion": {
+      "mayores_o_iguales": 80003,
+      "media": -0.010416666666666666,
+      "n": 96,
+      "p": 0.8000319996800032
+     },
+     "preguntas": 96
+    },
+    "fragmentos_hibrida": {
+     "holm": {
+      "p": 0.12658873411265886,
+      "rechaza": false,
+      "umbral": 0.025
+     },
+     "intervalo_95": [
+      -0.07986111111111112,
+      0.003472222222222222
+     ],
+     "media_d": -0.03819444444444444,
+     "permutacion": {
+      "mayores_o_iguales": 12658,
+      "media": -0.03819444444444444,
+      "n": 96,
+      "p": 0.12658873411265886
+     },
+     "preguntas": 96
+    }
+   },
+   "por_documento": {
+    "afirmacion_principal": {
+     "el_grafo_supera_a_los_fragmentos": false,
+     "por_configuracion": {
+      "fragmentos_denso": false,
+      "fragmentos_hibrida": false
+     },
+     "regla": "supera a una sola o a ninguna: se informa por configuración, sin la afirmación general"
+    },
+    "documentos": 31,
+    "la_misma_conclusion": {
+     "principal": {
+      "fragmentos_denso": true,
+      "fragmentos_hibrida": true
+     },
+     "secundaria": {
+      "fragmentos_denso": true,
+      "fragmentos_hibrida": true
+     }
+    },
+    "por_comparacion": {
+     "fragmentos_denso": {
+      "holm": {
+       "p": 0.7990120098799012,
+       "rechaza": false,
+       "umbral": 0.05
+      },
+      "permutacion": {
+       "documentos": 31,
+       "mayores_o_iguales": 79901,
+       "media": -0.010416666666666666,
+       "n": 31,
+       "p": 0.7990120098799012,
+       "preguntas": 96
+      }
+     },
+     "fragmentos_hibrida": {
+      "holm": {
+       "p": 0.16444835551644482,
+       "rechaza": false,
+       "umbral": 0.025
+      },
+      "permutacion": {
+       "documentos": 31,
+       "mayores_o_iguales": 16444,
+       "media": -0.03819444444444444,
+       "n": 31,
+       "p": 0.16444835551644482,
+       "preguntas": 96
+      }
+     }
+    },
+    "secundaria": {
+     "fragmentos_denso": {
+      "a_favor_del_grafo_en_varios_puntos": false,
+      "percentil_5": -0.10751237067026542,
+      "remuestreos_sin_cifra": 0
+     },
+     "fragmentos_hibrida": {
+      "a_favor_del_grafo_en_varios_puntos": false,
+      "percentil_5": -0.03761574074074074,
+      "remuestreos_sin_cifra": 0
+     }
+    }
+   },
+   "por_tipo": {
+    "dato_directo": {
+     "por_brazo": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        0.9027777777777778,
+        1.0
+       ],
+       "media": 0.9572649572649573
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        1.0,
+        1.0
+       ],
+       "media": 1.0
+      },
+      "kg": {
+       "intervalo_95": [
+        0.9,
+        0.9895833333333334
+       ],
+       "media": 0.9487179487179487
+      }
+     },
+     "por_comparacion": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        -0.07638888888888888,
+        0.05952380952380953
+       ],
+       "media_d": -0.008547008547008546
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        -0.1,
+        -0.010416666666666666
+       ],
+       "media_d": -0.05128205128205128
+      }
+     },
+     "preguntas": 39
+    },
+    "varios_puntos": {
+     "por_brazo": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        0.764367816091954,
+        0.925287356321839
+       ],
+       "media": 0.847953216374269
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        0.7843137254901961,
+        0.9382716049382716
+       ],
+       "media": 0.8654970760233919
+      },
+      "kg": {
+       "intervalo_95": [
+        0.7619047619047619,
+        0.9022988505747127
+       ],
+       "media": 0.8362573099415205
+      }
+     },
+     "por_comparacion": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        -0.0873015873015873,
+        0.06432748538011696
+       ],
+       "media_d": -0.011695906432748537
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        -0.09523809523809523,
+        0.038461538461538464
+       ],
+       "media_d": -0.029239766081871347
+      }
+     },
+     "preguntas": 57
+    }
+   },
+   "preguntas": 96,
+   "preguntas_que_salen_por_comparacion": {
+    "fragmentos_denso": 0,
+    "fragmentos_hibrida": 0
+   },
+   "remuestreos_sin_cifra": {},
+   "secundaria": {
+    "fragmentos_denso": {
+     "a_favor_del_grafo_en_varios_puntos": false,
+     "diferencia": -0.0031488978857399912,
+     "percentil_5": -0.08727556596409056
+    },
+    "fragmentos_hibrida": {
+     "a_favor_del_grafo_en_varios_puntos": false,
+     "diferencia": 0.022042285200179933,
+     "percentil_5": -0.04404761904761906
+    }
+   },
+   "subtipos_como_casos": {
+    "condicion": {
+     "casos": [
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L02",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.3333333333333333,
+        "fragmentos_hibrida": -0.3333333333333333
+       },
+       "id": "B63-O1-L03-R1",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 0.6666666666666666
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L12",
+       "por_brazo": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0,
+        "kg": 0.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L18",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L21",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L28",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L29-R1",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.3333333333333333,
+        "fragmentos_hibrida": -0.3333333333333333
+       },
+       "id": "B63-O3-L09",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 0.6666666666666666
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.6666666666666666,
+        "fragmentos_hibrida": 0.6666666666666666
+       },
+       "id": "B63-O3-L28",
+       "por_brazo": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0,
+        "kg": 0.6666666666666666
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.6666666666666666,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L31",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 0.3333333333333333,
+        "kg": 0.3333333333333333
+       }
+      }
+     ],
+     "preguntas": 10
+    },
+    "definicion": {
+     "casos": [
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L16-R1",
+       "por_brazo": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0,
+        "kg": 0.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.3333333333333333,
+        "fragmentos_hibrida": -0.3333333333333333
+       },
+       "id": "B63-O1-L17",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 0.6666666666666666
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L30",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.3333333333333333,
+        "fragmentos_hibrida": -0.3333333333333333
+       },
+       "id": "B63-O1-L31",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 0.6666666666666666
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.6666666666666666,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L21-R2",
+       "por_brazo": {
+        "fragmentos_denso": 0.3333333333333333,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L02",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L18",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L21",
+       "por_brazo": {
+        "fragmentos_denso": 0.6666666666666666,
+        "fragmentos_hibrida": 0.6666666666666666,
+        "kg": 0.6666666666666666
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L27",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      }
+     ],
+     "preguntas": 9
+    },
+    "remision": {
+     "casos": [
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": -0.6666666666666666
+       },
+       "id": "B63-O1-L01",
+       "por_brazo": {
+        "fragmentos_denso": 0.3333333333333333,
+        "fragmentos_hibrida": 1.0,
+        "kg": 0.3333333333333333
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.3333333333333333,
+        "fragmentos_hibrida": -0.3333333333333333
+       },
+       "id": "B63-O1-L05",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 0.6666666666666666
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L06-R2",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L08",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L09",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.3333333333333333,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L10",
+       "por_brazo": {
+        "fragmentos_denso": 0.6666666666666666,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L22-R1",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L28-R1",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.6666666666666666,
+        "fragmentos_hibrida": -0.3333333333333333
+       },
+       "id": "B63-O1-L29",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 0.6666666666666666,
+        "kg": 0.3333333333333333
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L32",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.3333333333333333,
+        "fragmentos_hibrida": 0.6666666666666666
+       },
+       "id": "B63-O2-L03",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 0.0,
+        "kg": 0.6666666666666666
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.3333333333333333,
+        "fragmentos_hibrida": -0.3333333333333333
+       },
+       "id": "B63-O2-L04",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 0.6666666666666666
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L05",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L07",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L08",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.3333333333333333,
+        "fragmentos_hibrida": -0.3333333333333333
+       },
+       "id": "B63-O2-L09",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 0.6666666666666666
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L10",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L13-R2",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L18",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.3333333333333333,
+        "fragmentos_hibrida": -0.3333333333333333
+       },
+       "id": "B63-O2-L22",
+       "por_brazo": {
+        "fragmentos_denso": 0.6666666666666666,
+        "fragmentos_hibrida": 0.6666666666666666,
+        "kg": 0.3333333333333333
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L23",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L25",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L26",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L27",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L30",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L31",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.3333333333333333,
+        "fragmentos_hibrida": 0.6666666666666666
+       },
+       "id": "B63-O3-L01-R2",
+       "por_brazo": {
+        "fragmentos_denso": 0.6666666666666666,
+        "fragmentos_hibrida": 0.3333333333333333,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.6666666666666666,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L03-R3",
+       "por_brazo": {
+        "fragmentos_denso": 0.3333333333333333,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L04",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L05",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L07",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.6666666666666666,
+        "fragmentos_hibrida": -0.6666666666666666
+       },
+       "id": "B63-O3-L08",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 0.3333333333333333
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L11",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L14",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.3333333333333333,
+        "fragmentos_hibrida": -0.3333333333333333
+       },
+       "id": "B63-O3-L17-R2",
+       "por_brazo": {
+        "fragmentos_denso": 0.3333333333333333,
+        "fragmentos_hibrida": 1.0,
+        "kg": 0.6666666666666666
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.6666666666666666,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L20-R2",
+       "por_brazo": {
+        "fragmentos_denso": 0.3333333333333333,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.6666666666666666
+       },
+       "id": "B63-O3-L22",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 0.3333333333333333,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.6666666666666666,
+        "fragmentos_hibrida": 0.3333333333333333
+       },
+       "id": "B63-O3-L32",
+       "por_brazo": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.3333333333333333,
+        "kg": 0.6666666666666666
+       }
+      }
+     ],
+     "preguntas": 38
+    }
+   },
+   "total_ponderado": {
+    "extremo_alto": {
+     "peso_varios_puntos": 0.4141301415216145,
+     "por_brazo": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        0.8673627157298324,
+        0.9531173424692512
+       ],
+       "valor": 0.9119956705399224
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        0.9106778126129851,
+        0.9744364110171841
+       ],
+       "valor": 0.9442982850584962
+      },
+      "kg": {
+       "intervalo_95": [
+        0.8604569378925178,
+        0.9391096092514423
+       ],
+       "valor": 0.9021446084658552
+      }
+     },
+     "por_comparacion": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        -0.06114779003753256,
+        0.040940278644841024
+       ],
+       "valor": -0.009851062074067161
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        -0.08117640551290825,
+        -0.005498856592744654
+       ],
+       "valor": -0.04215367659264097
+      }
+     }
+    },
+    "extremo_bajo": {
+     "peso_varios_puntos": 0.25971872147880376,
+     "por_brazo": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        0.8854551114798705,
+        0.9659892150444425
+       ],
+       "valor": 0.9288746516782055
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        0.9439822365437875,
+        0.9839679801556295
+       ],
+       "valor": 0.9650670725496346
+      },
+      "kg": {
+       "intervalo_95": [
+        0.8788841440456486,
+        0.9542591435950828
+       ],
+       "valor": 0.9195098153982453
+      }
+     },
+     "por_comparacion": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        -0.06453882839552263,
+        0.04555725715138939
+       ],
+       "valor": -0.009364836279960246
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        -0.08545987936011816,
+        -0.011216383007896912
+       ],
+       "valor": -0.04555725715138939
+      }
+     }
+    },
+    "herencia": {
+     "peso_varios_puntos": 0.2944465476913903,
+     "por_brazo": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        0.8818721415429739,
+        0.9626045349047128
+       ],
+       "valor": 0.9250784925375585
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        0.9364919210861707,
+        0.9818242871795438
+       ],
+       "valor": 0.9603960783806902
+      },
+      "kg": {
+       "intervalo_95": [
+        0.8750602855305408,
+        0.9508133192967787
+       ],
+       "valor": 0.9156043018790609
+      }
+     },
+     "por_comparacion": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        -0.06352707444005078,
+        0.04411521075784156
+       ],
+       "valor": -0.009474190658497406
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        -0.0845937479855555,
+        -0.010106088421103136
+       ],
+       "valor": -0.04479177650162928
+      }
+     }
+    },
+    "sellada": {
+     "peso_varios_puntos": 0.3324390393771662,
+     "por_brazo": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        0.8777498548735332,
+        0.959480577385804
+       ],
+       "valor": 0.9209254671306112
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        0.9282974620951211,
+        0.9794790716433848
+       ],
+       "valor": 0.9552859771597965
+      },
+      "kg": {
+       "intervalo_95": [
+        0.8709991415500176,
+        0.9469853114535056
+       ],
+       "valor": 0.9113316419953704
+      }
+     },
+     "por_comparacion": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        -0.06289785802211177,
+        0.04302524481795678
+       ],
+       "valor": -0.009593825135240739
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        -0.08333333333333334,
+        -0.00928816633907022
+       ],
+       "valor": -0.04395433516442594
+      }
+     }
+    }
+   }
+  },
+  "sin_las_cortadas": {
+   "afirmacion_principal": {
+    "el_grafo_supera_a_los_fragmentos": false,
+    "por_configuracion": {
+     "fragmentos_denso": false,
+     "fragmentos_hibrida": false
+    },
+    "regla": "supera a una sola o a ninguna: se informa por configuración, sin la afirmación general"
+   },
+   "por_brazo": {
+    "fragmentos_denso": {
+     "intervalo_95": [
+      0.8472222222222222,
+      0.9479166666666666
+     ],
+     "media": 0.8993055555555555
+    },
+    "fragmentos_hibrida": {
+     "intervalo_95": [
+      0.875,
+      0.9652777777777778
+     ],
+     "media": 0.9236111111111112
+    },
+    "kg": {
+     "intervalo_95": [
+      0.8489583333333334,
+      0.9375
+     ],
+     "media": 0.8958333333333334
+    }
+   },
+   "por_comparacion": {
+    "fragmentos_denso": {
+     "holm": {
+      "p": 0.947580524194758,
+      "rechaza": false,
+      "umbral": 0.05
+     },
+     "intervalo_95": [
+      -0.05381944444444445,
+      0.04513888888888889
+     ],
+     "media_d": -0.003472222222222222,
+     "permutacion": {
+      "mayores_o_iguales": 94758,
+      "media": -0.003472222222222222,
+      "n": 96,
+      "p": 0.947580524194758
+     },
+     "preguntas": 96
+    },
+    "fragmentos_hibrida": {
+     "holm": {
+      "p": 0.24990750092499076,
+      "rechaza": false,
+      "umbral": 0.025
+     },
+     "intervalo_95": [
+      -0.06944444444444445,
+      0.015625
+     ],
+     "media_d": -0.027777777777777776,
+     "permutacion": {
+      "mayores_o_iguales": 24990,
+      "media": -0.027777777777777776,
+      "n": 96,
+      "p": 0.24990750092499076
+     },
+     "preguntas": 96
+    }
+   },
+   "por_tipo": {
+    "dato_directo": {
+     "por_brazo": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        0.9130434782608695,
+        1.0
+       ],
+       "media": 0.9658119658119657
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        1.0,
+        1.0
+       ],
+       "media": 1.0
+      },
+      "kg": {
+       "intervalo_95": [
+        0.9202898550724639,
+        1.0
+       ],
+       "media": 0.9658119658119657
+      }
+     },
+     "por_comparacion": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        -0.06306306306306307,
+        0.06349206349206349
+       ],
+       "media_d": 0.0
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        -0.07971014492753623,
+        0.0
+       ],
+       "media_d": -0.034188034188034185
+      }
+     },
+     "preguntas": 39
+    },
+    "varios_puntos": {
+     "por_brazo": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        0.7696969696969698,
+        0.9305555555555555
+       ],
+       "media": 0.8538011695906432
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        0.7891156462585034,
+        0.9432624113475178
+       ],
+       "media": 0.8713450292397661
+      },
+      "kg": {
+       "intervalo_95": [
+        0.7767295597484276,
+        0.9119496855345912
+       ],
+       "media": 0.847953216374269
+      }
+     },
+     "por_comparacion": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        -0.0782312925170068,
+        0.0673076923076923
+       ],
+       "media_d": -0.005847953216374269
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        -0.08908045977011494,
+        0.045454545454545456
+       ],
+       "media_d": -0.023391812865497075
+      }
+     },
+     "preguntas": 57
+    }
+   },
+   "preguntas": 96,
+   "preguntas_que_salen_por_comparacion": {
+    "fragmentos_denso": 0,
+    "fragmentos_hibrida": 0
+   },
+   "remuestreos_sin_cifra": {},
+   "secundaria": {
+    "fragmentos_denso": {
+     "a_favor_del_grafo_en_varios_puntos": false,
+     "diferencia": -0.005847953216374269,
+     "percentil_5": -0.08579234972677596
+    },
+    "fragmentos_hibrida": {
+     "a_favor_del_grafo_en_varios_puntos": false,
+     "diferencia": 0.01079622132253711,
+     "percentil_5": -0.05284552845528455
+    }
+   },
+   "subtipos_como_casos": {
+    "condicion": {
+     "casos": [
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L02",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L03-R1",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L12",
+       "por_brazo": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0,
+        "kg": 0.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L18",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L21",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L28",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L29-R1",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.3333333333333333,
+        "fragmentos_hibrida": -0.3333333333333333
+       },
+       "id": "B63-O3-L09",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 0.6666666666666666
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.6666666666666666,
+        "fragmentos_hibrida": 0.6666666666666666
+       },
+       "id": "B63-O3-L28",
+       "por_brazo": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0,
+        "kg": 0.6666666666666666
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.5,
+        "fragmentos_hibrida": 0.16666666666666666
+       },
+       "id": "B63-O3-L31",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 0.3333333333333333,
+        "kg": 0.5
+       }
+      }
+     ],
+     "preguntas": 10
+    },
+    "definicion": {
+     "casos": [
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L16-R1",
+       "por_brazo": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0,
+        "kg": 0.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.3333333333333333,
+        "fragmentos_hibrida": -0.3333333333333333
+       },
+       "id": "B63-O1-L17",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 0.6666666666666666
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L30",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.3333333333333333,
+        "fragmentos_hibrida": -0.3333333333333333
+       },
+       "id": "B63-O1-L31",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 0.6666666666666666
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.6666666666666666,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L21-R2",
+       "por_brazo": {
+        "fragmentos_denso": 0.3333333333333333,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L02",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L18",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L21",
+       "por_brazo": {
+        "fragmentos_denso": 0.6666666666666666,
+        "fragmentos_hibrida": 0.6666666666666666,
+        "kg": 0.6666666666666666
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L27",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      }
+     ],
+     "preguntas": 9
+    },
+    "remision": {
+     "casos": [
+      {
+       "d": {
+        "fragmentos_denso": 0.16666666666666666,
+        "fragmentos_hibrida": -0.5
+       },
+       "id": "B63-O1-L01",
+       "por_brazo": {
+        "fragmentos_denso": 0.3333333333333333,
+        "fragmentos_hibrida": 1.0,
+        "kg": 0.5
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.3333333333333333,
+        "fragmentos_hibrida": -0.3333333333333333
+       },
+       "id": "B63-O1-L05",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 0.6666666666666666
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L06-R2",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L08",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L09",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L10",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L22-R1",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L28-R1",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.6666666666666666,
+        "fragmentos_hibrida": -0.6666666666666666
+       },
+       "id": "B63-O1-L29",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 0.3333333333333333
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L32",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.3333333333333333,
+        "fragmentos_hibrida": 0.6666666666666666
+       },
+       "id": "B63-O2-L03",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 0.0,
+        "kg": 0.6666666666666666
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.3333333333333333,
+        "fragmentos_hibrida": -0.3333333333333333
+       },
+       "id": "B63-O2-L04",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 0.6666666666666666
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L05",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L07",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L08",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.3333333333333333,
+        "fragmentos_hibrida": -0.3333333333333333
+       },
+       "id": "B63-O2-L09",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 0.6666666666666666
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L10",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L13-R2",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L18",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.3333333333333333,
+        "fragmentos_hibrida": -0.3333333333333333
+       },
+       "id": "B63-O2-L22",
+       "por_brazo": {
+        "fragmentos_denso": 0.6666666666666666,
+        "fragmentos_hibrida": 0.6666666666666666,
+        "kg": 0.3333333333333333
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L23",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L25",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L26",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L27",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L30",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L31",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.3333333333333333,
+        "fragmentos_hibrida": 0.6666666666666666
+       },
+       "id": "B63-O3-L01-R2",
+       "por_brazo": {
+        "fragmentos_denso": 0.6666666666666666,
+        "fragmentos_hibrida": 0.3333333333333333,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.6666666666666666,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L03-R3",
+       "por_brazo": {
+        "fragmentos_denso": 0.3333333333333333,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L04",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L05",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L07",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.6666666666666666,
+        "fragmentos_hibrida": -0.6666666666666666
+       },
+       "id": "B63-O3-L08",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 0.3333333333333333
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L11",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L14",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.3333333333333333,
+        "fragmentos_hibrida": -0.3333333333333333
+       },
+       "id": "B63-O3-L17-R2",
+       "por_brazo": {
+        "fragmentos_denso": 0.3333333333333333,
+        "fragmentos_hibrida": 1.0,
+        "kg": 0.6666666666666666
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.6666666666666666,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L20-R2",
+       "por_brazo": {
+        "fragmentos_denso": 0.3333333333333333,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.6666666666666666
+       },
+       "id": "B63-O3-L22",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 0.3333333333333333,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.6666666666666666,
+        "fragmentos_hibrida": 0.3333333333333333
+       },
+       "id": "B63-O3-L32",
+       "por_brazo": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.3333333333333333,
+        "kg": 0.6666666666666666
+       }
+      }
+     ],
+     "preguntas": 38
+    }
+   },
+   "total_ponderado": {
+    "extremo_alto": {
+     "peso_varios_puntos": 0.4141301415216145,
+     "por_brazo": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        0.8755323765609068,
+        0.958839651127601
+       ],
+       "valor": 0.9194249189208806
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        0.9126664327403398,
+        0.9765032543817523
+       ],
+       "valor": 0.9467200987516051
+      },
+      "kg": {
+       "intervalo_95": [
+        0.8779264715347667,
+        0.9506987926759982
+       ],
+       "valor": 0.9170031052277718
+      }
+     },
+     "por_comparacion": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        -0.05025481470192871,
+        0.045651488686448555
+       ],
+       "valor": -0.0024218136931088564
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        -0.067112160568009,
+        0.005049800511767573
+       ],
+       "valor": -0.029716993523833217
+      }
+     }
+    },
+    "extremo_bajo": {
+     "peso_varios_puntos": 0.25971872147880376,
+     "por_brazo": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        0.8939405107381362,
+        0.9720732557549674
+       ],
+       "valor": 0.9367206650255411
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        0.9452293852663748,
+        0.9852641860153871
+       ],
+       "valor": 0.9665858954822593
+      },
+      "kg": {
+       "intervalo_95": [
+        0.8973019041822686,
+        0.965274756377974
+       ],
+       "valor": 0.9352018420929165
+      }
+     },
+     "por_comparacion": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        -0.051700539247777885,
+        0.04942407576421905
+       ],
+       "valor": -0.0015188229326245832
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        -0.06877723159620112,
+        -0.0006981686061258165
+       ],
+       "valor": -0.03138405338934265
+      }
+     }
+    },
+    "herencia": {
+     "peso_varios_puntos": 0.2944465476913903,
+     "por_brazo": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        0.8904258796673601,
+        0.96891953107702
+       ],
+       "valor": 0.9328307735604335
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        0.9379058300786864,
+        0.9832938128969424
+       ],
+       "valor": 0.9621179880163124
+      },
+      "kg": {
+       "intervalo_95": [
+        0.8932604743443695,
+        0.9617879424448468
+       ],
+       "valor": 0.9311088639248114
+      }
+     },
+     "por_comparacion": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        -0.051013189680137495,
+        0.048439446636068056
+       ],
+       "valor": -0.0017219096356221653
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        -0.06779115268909694,
+        0.00031836371791527096
+       ],
+       "valor": -0.03100912409150096
+      }
+     }
+    },
+    "sellada": {
+     "peso_varios_puntos": 0.3324390393771662,
+     "por_brazo": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        0.8860795177286725,
+        0.9654628894397352
+       ],
+       "valor": 0.9285752043162778
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        0.9298938080225024,
+        0.9811382105317921
+       ],
+       "valor": 0.9572300651093705
+      },
+      "kg": {
+       "intervalo_95": [
+        0.8885665352506185,
+        0.9580253738160145
+       ],
+       "valor": 0.9266311163667037
+      }
+     },
+     "por_comparacion": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        -0.050047827712088835,
+        0.047051809459167315
+       ],
+       "valor": -0.001944087949574071
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        -0.0672606870613842,
+        0.0017314533300894072
+       ],
+       "valor": -0.030598948742666672
+      }
+     }
+    }
+   }
+  },
+  "sin_veredicto_como_no_correctas": {
+   "afirmacion_principal": {
+    "el_grafo_supera_a_los_fragmentos": false,
+    "por_configuracion": {
+     "fragmentos_denso": false,
+     "fragmentos_hibrida": false
+    },
+    "regla": "supera a una sola o a ninguna: se informa por configuración, sin la afirmación general"
+   },
+   "por_brazo": {
+    "fragmentos_denso": {
+     "intervalo_95": [
+      0.8402777777777778,
+      0.9409722222222222
+     ],
+     "media": 0.8923611111111112
+    },
+    "fragmentos_hibrida": {
+     "intervalo_95": [
+      0.8715277777777778,
+      0.9652777777777778
+     ],
+     "media": 0.9201388888888888
+    },
+    "kg": {
+     "intervalo_95": [
+      0.8333333333333334,
+      0.9270833333333334
+     ],
+     "media": 0.8819444444444445
+    }
+   },
+   "por_comparacion": {
+    "fragmentos_denso": {
+     "holm": {
+      "p": 0.8000319996800032,
+      "rechaza": false,
+      "umbral": 0.05
+     },
+     "intervalo_95": [
+      -0.0625,
+      0.041666666666666664
+     ],
+     "media_d": -0.010416666666666666,
+     "permutacion": {
+      "mayores_o_iguales": 80003,
+      "media": -0.010416666666666666,
+      "n": 96,
+      "p": 0.8000319996800032
+     },
+     "preguntas": 96
+    },
+    "fragmentos_hibrida": {
+     "holm": {
+      "p": 0.12658873411265886,
+      "rechaza": false,
+      "umbral": 0.025
+     },
+     "intervalo_95": [
+      -0.07986111111111112,
+      0.003472222222222222
+     ],
+     "media_d": -0.03819444444444444,
+     "permutacion": {
+      "mayores_o_iguales": 12658,
+      "media": -0.03819444444444444,
+      "n": 96,
+      "p": 0.12658873411265886
+     },
+     "preguntas": 96
+    }
+   },
+   "por_tipo": {
+    "dato_directo": {
+     "por_brazo": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        0.9027777777777778,
+        1.0
+       ],
+       "media": 0.9572649572649573
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        1.0,
+        1.0
+       ],
+       "media": 1.0
+      },
+      "kg": {
+       "intervalo_95": [
+        0.9,
+        0.9895833333333334
+       ],
+       "media": 0.9487179487179487
+      }
+     },
+     "por_comparacion": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        -0.07638888888888888,
+        0.05952380952380953
+       ],
+       "media_d": -0.008547008547008546
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        -0.1,
+        -0.010416666666666666
+       ],
+       "media_d": -0.05128205128205128
+      }
+     },
+     "preguntas": 39
+    },
+    "varios_puntos": {
+     "por_brazo": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        0.764367816091954,
+        0.925287356321839
+       ],
+       "media": 0.847953216374269
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        0.7843137254901961,
+        0.9382716049382716
+       ],
+       "media": 0.8654970760233919
+      },
+      "kg": {
+       "intervalo_95": [
+        0.7619047619047619,
+        0.9022988505747127
+       ],
+       "media": 0.8362573099415205
+      }
+     },
+     "por_comparacion": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        -0.0873015873015873,
+        0.06432748538011696
+       ],
+       "media_d": -0.011695906432748537
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        -0.09523809523809523,
+        0.038461538461538464
+       ],
+       "media_d": -0.029239766081871347
+      }
+     },
+     "preguntas": 57
+    }
+   },
+   "preguntas": 96,
+   "preguntas_que_salen_por_comparacion": {
+    "fragmentos_denso": 0,
+    "fragmentos_hibrida": 0
+   },
+   "remuestreos_sin_cifra": {},
+   "secundaria": {
+    "fragmentos_denso": {
+     "a_favor_del_grafo_en_varios_puntos": false,
+     "diferencia": -0.0031488978857399912,
+     "percentil_5": -0.08727556596409056
+    },
+    "fragmentos_hibrida": {
+     "a_favor_del_grafo_en_varios_puntos": false,
+     "diferencia": 0.022042285200179933,
+     "percentil_5": -0.04404761904761906
+    }
+   },
+   "subtipos_como_casos": {
+    "condicion": {
+     "casos": [
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L02",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.3333333333333333,
+        "fragmentos_hibrida": -0.3333333333333333
+       },
+       "id": "B63-O1-L03-R1",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 0.6666666666666666
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L12",
+       "por_brazo": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0,
+        "kg": 0.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L18",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L21",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L28",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L29-R1",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.3333333333333333,
+        "fragmentos_hibrida": -0.3333333333333333
+       },
+       "id": "B63-O3-L09",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 0.6666666666666666
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.6666666666666666,
+        "fragmentos_hibrida": 0.6666666666666666
+       },
+       "id": "B63-O3-L28",
+       "por_brazo": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0,
+        "kg": 0.6666666666666666
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.6666666666666666,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L31",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 0.3333333333333333,
+        "kg": 0.3333333333333333
+       }
+      }
+     ],
+     "preguntas": 10
+    },
+    "definicion": {
+     "casos": [
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L16-R1",
+       "por_brazo": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0,
+        "kg": 0.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.3333333333333333,
+        "fragmentos_hibrida": -0.3333333333333333
+       },
+       "id": "B63-O1-L17",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 0.6666666666666666
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L30",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.3333333333333333,
+        "fragmentos_hibrida": -0.3333333333333333
+       },
+       "id": "B63-O1-L31",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 0.6666666666666666
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.6666666666666666,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L21-R2",
+       "por_brazo": {
+        "fragmentos_denso": 0.3333333333333333,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L02",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L18",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L21",
+       "por_brazo": {
+        "fragmentos_denso": 0.6666666666666666,
+        "fragmentos_hibrida": 0.6666666666666666,
+        "kg": 0.6666666666666666
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L27",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      }
+     ],
+     "preguntas": 9
+    },
+    "remision": {
+     "casos": [
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": -0.6666666666666666
+       },
+       "id": "B63-O1-L01",
+       "por_brazo": {
+        "fragmentos_denso": 0.3333333333333333,
+        "fragmentos_hibrida": 1.0,
+        "kg": 0.3333333333333333
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.3333333333333333,
+        "fragmentos_hibrida": -0.3333333333333333
+       },
+       "id": "B63-O1-L05",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 0.6666666666666666
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L06-R2",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L08",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L09",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.3333333333333333,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L10",
+       "por_brazo": {
+        "fragmentos_denso": 0.6666666666666666,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L22-R1",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L28-R1",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.6666666666666666,
+        "fragmentos_hibrida": -0.3333333333333333
+       },
+       "id": "B63-O1-L29",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 0.6666666666666666,
+        "kg": 0.3333333333333333
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O1-L32",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.3333333333333333,
+        "fragmentos_hibrida": 0.6666666666666666
+       },
+       "id": "B63-O2-L03",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 0.0,
+        "kg": 0.6666666666666666
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.3333333333333333,
+        "fragmentos_hibrida": -0.3333333333333333
+       },
+       "id": "B63-O2-L04",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 0.6666666666666666
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L05",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L07",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L08",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.3333333333333333,
+        "fragmentos_hibrida": -0.3333333333333333
+       },
+       "id": "B63-O2-L09",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 0.6666666666666666
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L10",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L13-R2",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L18",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.3333333333333333,
+        "fragmentos_hibrida": -0.3333333333333333
+       },
+       "id": "B63-O2-L22",
+       "por_brazo": {
+        "fragmentos_denso": 0.6666666666666666,
+        "fragmentos_hibrida": 0.6666666666666666,
+        "kg": 0.3333333333333333
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L23",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L25",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L26",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L27",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L30",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O2-L31",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.3333333333333333,
+        "fragmentos_hibrida": 0.6666666666666666
+       },
+       "id": "B63-O3-L01-R2",
+       "por_brazo": {
+        "fragmentos_denso": 0.6666666666666666,
+        "fragmentos_hibrida": 0.3333333333333333,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.6666666666666666,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L03-R3",
+       "por_brazo": {
+        "fragmentos_denso": 0.3333333333333333,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L04",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L05",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L07",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": -0.6666666666666666,
+        "fragmentos_hibrida": -0.6666666666666666
+       },
+       "id": "B63-O3-L08",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 0.3333333333333333
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L11",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L14",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.3333333333333333,
+        "fragmentos_hibrida": -0.3333333333333333
+       },
+       "id": "B63-O3-L17-R2",
+       "por_brazo": {
+        "fragmentos_denso": 0.3333333333333333,
+        "fragmentos_hibrida": 1.0,
+        "kg": 0.6666666666666666
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.6666666666666666,
+        "fragmentos_hibrida": 0.0
+       },
+       "id": "B63-O3-L20-R2",
+       "por_brazo": {
+        "fragmentos_denso": 0.3333333333333333,
+        "fragmentos_hibrida": 1.0,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.6666666666666666
+       },
+       "id": "B63-O3-L22",
+       "por_brazo": {
+        "fragmentos_denso": 1.0,
+        "fragmentos_hibrida": 0.3333333333333333,
+        "kg": 1.0
+       }
+      },
+      {
+       "d": {
+        "fragmentos_denso": 0.6666666666666666,
+        "fragmentos_hibrida": 0.3333333333333333
+       },
+       "id": "B63-O3-L32",
+       "por_brazo": {
+        "fragmentos_denso": 0.0,
+        "fragmentos_hibrida": 0.3333333333333333,
+        "kg": 0.6666666666666666
+       }
+      }
+     ],
+     "preguntas": 38
+    }
+   },
+   "total_ponderado": {
+    "extremo_alto": {
+     "peso_varios_puntos": 0.4141301415216145,
+     "por_brazo": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        0.8673627157298324,
+        0.9531173424692512
+       ],
+       "valor": 0.9119956705399224
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        0.9106778126129851,
+        0.9744364110171841
+       ],
+       "valor": 0.9442982850584962
+      },
+      "kg": {
+       "intervalo_95": [
+        0.8604569378925178,
+        0.9391096092514423
+       ],
+       "valor": 0.9021446084658552
+      }
+     },
+     "por_comparacion": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        -0.06114779003753256,
+        0.040940278644841024
+       ],
+       "valor": -0.009851062074067161
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        -0.08117640551290825,
+        -0.005498856592744654
+       ],
+       "valor": -0.04215367659264097
+      }
+     }
+    },
+    "extremo_bajo": {
+     "peso_varios_puntos": 0.25971872147880376,
+     "por_brazo": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        0.8854551114798705,
+        0.9659892150444425
+       ],
+       "valor": 0.9288746516782055
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        0.9439822365437875,
+        0.9839679801556295
+       ],
+       "valor": 0.9650670725496346
+      },
+      "kg": {
+       "intervalo_95": [
+        0.8788841440456486,
+        0.9542591435950828
+       ],
+       "valor": 0.9195098153982453
+      }
+     },
+     "por_comparacion": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        -0.06453882839552263,
+        0.04555725715138939
+       ],
+       "valor": -0.009364836279960246
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        -0.08545987936011816,
+        -0.011216383007896912
+       ],
+       "valor": -0.04555725715138939
+      }
+     }
+    },
+    "herencia": {
+     "peso_varios_puntos": 0.2944465476913903,
+     "por_brazo": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        0.8818721415429739,
+        0.9626045349047128
+       ],
+       "valor": 0.9250784925375585
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        0.9364919210861707,
+        0.9818242871795438
+       ],
+       "valor": 0.9603960783806902
+      },
+      "kg": {
+       "intervalo_95": [
+        0.8750602855305408,
+        0.9508133192967787
+       ],
+       "valor": 0.9156043018790609
+      }
+     },
+     "por_comparacion": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        -0.06352707444005078,
+        0.04411521075784156
+       ],
+       "valor": -0.009474190658497406
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        -0.0845937479855555,
+        -0.010106088421103136
+       ],
+       "valor": -0.04479177650162928
+      }
+     }
+    },
+    "sellada": {
+     "peso_varios_puntos": 0.3324390393771662,
+     "por_brazo": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        0.8777498548735332,
+        0.959480577385804
+       ],
+       "valor": 0.9209254671306112
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        0.9282974620951211,
+        0.9794790716433848
+       ],
+       "valor": 0.9552859771597965
+      },
+      "kg": {
+       "intervalo_95": [
+        0.8709991415500176,
+        0.9469853114535056
+       ],
+       "valor": 0.9113316419953704
+      }
+     },
+     "por_comparacion": {
+      "fragmentos_denso": {
+       "intervalo_95": [
+        -0.06289785802211177,
+        0.04302524481795678
+       ],
+       "valor": -0.009593825135240739
+      },
+      "fragmentos_hibrida": {
+       "intervalo_95": [
+        -0.08333333333333334,
+        -0.00928816633907022
+       ],
+       "valor": -0.04395433516442594
+      }
+     }
+    }
+   }
+  }
+ },
+ "corridas_por_estado": {
+  "correcta": 776,
+  "incompleta_otra": 8,
+  "no_correcta": 80
+ },
+ "declarado": {
+  "D10_por_brazo": {
+   "fragmentos_denso": {
+    "con_alguna_marca": 4,
+    "n_respuestas": 286,
+    "por_marca": {
+     "buscar_pasajes": 0,
+     "cita:\\bfragmentos?\\b": 0,
+     "cita:\\bpasajes?\\b": 4,
+     "mcp__fragmentos__buscar_pasajes": 0
+    },
+    "respuestas_editadas": 0
+   },
+   "fragmentos_hibrida": {
+    "con_alguna_marca": 0,
+    "n_respuestas": 287,
+    "por_marca": {
+     "buscar_pasajes": 0,
+     "cita:\\bfragmentos?\\b": 0,
+     "cita:\\bpasajes?\\b": 0,
+     "mcp__fragmentos__buscar_pasajes": 0
+    },
+    "respuestas_editadas": 0
+   },
+   "kg": {
+    "con_alguna_marca": 1,
+    "n_respuestas": 283,
+    "por_marca": {
+     "buscar_nodos": 0,
+     "buscar_puntos": 0,
+     "cita:\\bnodos?\\b": 1,
+     "indice_to": 0,
+     "mcp__kg__buscar_nodos": 0,
+     "mcp__kg__buscar_puntos": 0,
+     "mcp__kg__indice_to": 0,
+     "mcp__kg__tipos_de_relacion": 0,
+     "mcp__kg__vecinos_por_relacion": 0,
+     "mcp__kg__ver_descendientes": 0,
+     "mcp__kg__ver_nodo": 0,
+     "mcp__kg__ver_punto": 0,
+     "mcp__kg__ver_remisiones": 0,
+     "mcp__kg__ver_vecinos": 0,
+     "tipos_de_relacion": 0,
+     "vecinos_por_relacion": 0,
+     "ver_descendientes": 0,
+     "ver_nodo": 0,
+     "ver_punto": 0,
+     "ver_remisiones": 0,
+     "ver_vecinos": 0
+    },
+    "respuestas_editadas": 0
+   }
+  },
+  "adjudicadas_por_brazo": {
+   "fragmentos_denso": 6,
+   "fragmentos_hibrida": 6,
+   "kg": 10
+  },
+  "bloques_con_fechas_distintas": 0,
+  "incompleta_otra": {
+   "con_la_llamada_que_falta_por_brazo": {
+    "kg": 2
+   },
+   "por_brazo": {
+    "fragmentos_denso": 2,
+    "fragmentos_hibrida": 1,
+    "kg": 5
+   },
+   "por_brazo_y_motivo": {
+    "fragmentos_denso | JSON final no parseable: Invalid control character at: line n column n (char n)": 1,
+    "fragmentos_denso | JSON final sin las tres claves del contrato": 1,
+    "fragmentos_hibrida | JSON final sin las tres claves del contrato": 1,
+    "kg | JSON final sin las tres claves del contrato": 3,
+    "kg | log R1 n llamadas vs sesión n tool_use MCP": 2
+   },
+   "total": 8
+  },
+  "lectura_tolerante": {
+   "respuestas_por_brazo": {
+    "fragmentos_denso": 6,
+    "fragmentos_hibrida": 7,
+    "kg": 12
+   },
+   "salidas_por_brazo": {
+    "fragmentos_denso": 17,
+    "fragmentos_hibrida": 21,
+    "kg": 34
+   }
+  },
+  "sesiones_por_brazo_y_fecha": {
+   "fragmentos_denso": {
+    "2026-10-28": 271,
+    "2026-10-29": 17
+   },
+   "fragmentos_hibrida": {
+    "2026-10-28": 271,
+    "2026-10-29": 17
+   },
+   "kg": {
+    "2026-10-28": 271,
+    "2026-10-29": 17
+   }
+  },
+  "sin_veredicto": {
+   "por_brazo": {}
+  },
+  "textos": {
+   "el_cambio_de_P1_de_la_etapa_A": "Acepto el cambio de P1, hecho antes del sello y sin ninguna cifra: una fila de la caché por pedido distinto en lugar de una por respuesta, porque dos respuestas con el mismo pedido comparten fila. P1 sigue exigiendo que cada una de las 856 respuestas tenga la fila de su pedido. Se declara. (decisión de la autora del 29/10/2026, 11:23:04)",
+   "la_llamada_que_falta": "La llamada que falta es la última de la sesión y pide mcp__kg, sin el nombre de ninguna herramienta: el agente pidió una herramienta que no existe y el pedido no llegó al servidor. (decisión de la autora del 29/10/2026, 10:19:04)",
+   "la_numeracion_de_las_pruebas": "Acepto que conserve la numeración de las pruebas de N6: las que el despacho llamaba P2 y P3 son P4 y P6. (decisión de la autora del 29/10/2026, 11:23:04)",
+   "las_8_incompleta_otra": "Las 8 van como las cortadas del §6: en el análisis principal cuentan como no correctas, sin pasar por el juez. La sensibilidad las saca, y si una pregunta queda sin corridas en un brazo, sale de esa comparación. Se declaran por brazo y por motivo. (decisión de la autora del 29/10/2026, 09:54:22)",
+   "las_corridas_sin_veredicto": "Las que siguen sin veredicto después de la lectura tolerante van por la regla 3 de la nota al pie (docs/preregistro_B6_3_evaluacion_final.md:907-910): fuera del análisis principal; en la sensibilidad, como no correctas; listadas por brazo."
+  }
+ },
+ "entradas": {
+  "agregados": "969590df059f88ffa22fefbbc1cc4a384d1dd0f0d0fcc97cb7adaaeb38a5e0e6",
+  "agregados_tolerante": "6243d021984c7a580886042b6ae6173fe30f47eeeb05f1aa55fab0bce5882292",
+  "armado_e0": "71a9a78758b51f04b543dd14348b101e174abb4562ea3a37ebd0d86b9d791557",
+  "banco_b63": "banco_b63",
+  "clave_adjudicacion": "3628d5eb0b8fbdcd54fd5004e3f551844399c17819c25310785417c4de46ea01",
+  "cola": "9c865fc416f4238791d6437df9d64d1e3c0a47724cf7ec98e23f0edc26cb00ab",
+  "d10": "8422f3ba72e1218ef169111247b2031627fe9f382d3d5376d3777d4624adb800",
+  "e0": "e0_acumulado_128_r2b",
+  "entrada": "32e2b18cc2f5c96c67ed46d1f8b21af390d220a6f41b1102a47d3239c482bd54",
+  "estructura_planilla": "f82658719537fd8f02d5bea492bf5fe3b0c8874a0c6d73b87272bcfb2b6de93f",
+  "etapa1": "b63_etapa1",
+  "expertos": "b63_material_expertos",
+  "fechas": "a47684f05b395dbeb4c0abc69d528899c1b9cff303eb16f6b76676ab91194e7b",
+  "kg": "576c97256185a0d5741cb2c35a2a85e91412f3e1119ad7a85d960b7d60c35ad3",
+  "manifiesto_fuera": "9f609ddfa5bd457ba3db4de9a1dff0c6f4759b5cc410fe59b027ad533eadf1cf",
+  "pesos_mesa": "2838a6c1c16a43ab4a1677769b3fcf3eceb6cb2990c2d94686fcfa56df377eca",
+  "planilla": "21be7bb982a34cc5ab5a8ce827ab7fdb23e5a3e9033b2c9d48c63515ac7fe31f",
+  "relevancia": "a814b455e35a176c8d2fae5f303c578f59d56c704bdf1a48c58ca4b11b94875e",
+  "sello_planilla": "ab7052680e7db9858b181582ee8c6ad8fa1ba72bc0ec9ea0b7259acb7309772c",
+  "sello_tabla": "f6e67f87d9a2969b9a8979e56c7139865c6b80db9a5c73b307c8408c9b7ef382",
+  "tabla_cruce": "1147a2e07e0a8141d1a5a833feb4f81a2370fed12c0d54b6f2458d5ea3127d32",
+  "ucita": "3a58e5be33f2e7b1903c7c07ccfba00ef135f3b8da930f62490449577810e920",
+  "veredictos_tolerante": "e456ed147584e5b5731967e3f0b6d1de21cfc4bd8edfdee516092118522ced38"
+ },
+ "exploratorio": {
+  "exactitud_de_cita": {
+   "codigo_de_salida": 1,
+   "corrio": false,
+   "declarado": "el instrumento no terminó bien: su consola queda en trabajo_exactitud_de_cita/consola_ucita.txt",
+   "sesiones": 864
+  },
+  "expertos": {
+   "datos": false,
+   "declarado": "devueltas/ no existe o está vacía: el punto 3 del §9 se declara sin datos",
+   "no_respondibles": []
+  },
+  "nodos_y_distancias": {
+   "anclas_sin_nodo": 3,
+   "cortes_tercios_e0": [
+    2,
+    4
+   ],
+   "por_categoria_grafo": {
+    "0": {
+     "por_comparacion": {
+      "fragmentos_denso": {
+       "media": -0.036231884057971016,
+       "n": 46
+      },
+      "fragmentos_hibrida": {
+       "media": -0.043478260869565216,
+       "n": 46
+      }
+     },
+     "preguntas": 46
+    },
+    "1": {
+     "por_comparacion": {
+      "fragmentos_denso": {
+       "media": 0.0,
+       "n": 1
+      },
+      "fragmentos_hibrida": {
+       "media": 0.0,
+       "n": 1
+      }
+     },
+     "preguntas": 1
+    },
+    "2": {
+     "por_comparacion": {
+      "fragmentos_denso": {
+       "media": 0.05555555555555555,
+       "n": 6
+      },
+      "fragmentos_hibrida": {
+       "media": 0.0,
+       "n": 6
+      }
+     },
+     "preguntas": 6
+    },
+    "3 o más": {
+     "por_comparacion": {
+      "fragmentos_denso": {
+       "media": 0.0,
+       "n": 1
+      },
+      "fragmentos_hibrida": {
+       "media": 0.0,
+       "n": 1
+      }
+     },
+     "preguntas": 1
+    },
+    "sin nodo": {
+     "por_comparacion": {
+      "fragmentos_denso": {
+       "media": 0.2222222222222222,
+       "n": 3
+      },
+      "fragmentos_hibrida": {
+       "media": 0.1111111111111111,
+       "n": 3
+      }
+     },
+     "preguntas": 3
+    }
+   },
+   "por_pregunta": {
+    "B63-O1-L01": {
+     "categoria_grafo": "0",
+     "distancia_e0": 4,
+     "distancia_grafo": 0,
+     "nodos_ancla": 18,
+     "nodos_otro_punto": 4,
+     "tercio_e0": "media"
+    },
+    "B63-O1-L02": {
+     "categoria_grafo": "0",
+     "distancia_e0": 4,
+     "distancia_grafo": 0,
+     "nodos_ancla": 4,
+     "nodos_otro_punto": 8,
+     "tercio_e0": "media"
+    },
+    "B63-O1-L03-R1": {
+     "categoria_grafo": "0",
+     "distancia_e0": 5,
+     "distancia_grafo": 0,
+     "nodos_ancla": 4,
+     "nodos_otro_punto": 8,
+     "tercio_e0": "alta"
+    },
+    "B63-O1-L04": {
+     "nodos_ancla": 10
+    },
+    "B63-O1-L05": {
+     "categoria_grafo": "0",
+     "distancia_e0": 4,
+     "distancia_grafo": 0,
+     "nodos_ancla": 11,
+     "nodos_otro_punto": 2,
+     "tercio_e0": "media"
+    },
+    "B63-O1-L06-R2": {
+     "categoria_grafo": "1",
+     "distancia_e0": "distinto documento",
+     "distancia_grafo": 1,
+     "nodos_ancla": 16,
+     "nodos_otro_punto": 6,
+     "tercio_e0": "distinto documento"
+    },
+    "B63-O1-L07": {
+     "nodos_ancla": 3
+    },
+    "B63-O1-L08": {
+     "categoria_grafo": "2",
+     "distancia_e0": "distinto documento",
+     "distancia_grafo": 2,
+     "nodos_ancla": 4,
+     "nodos_otro_punto": 5,
+     "tercio_e0": "distinto documento"
+    },
+    "B63-O1-L09": {
+     "categoria_grafo": "0",
+     "distancia_e0": 3,
+     "distancia_grafo": 0,
+     "nodos_ancla": 2,
+     "nodos_otro_punto": 15,
+     "tercio_e0": "media"
+    },
+    "B63-O1-L10": {
+     "categoria_grafo": "0",
+     "distancia_e0": 3,
+     "distancia_grafo": 0,
+     "nodos_ancla": 5,
+     "nodos_otro_punto": 4,
+     "tercio_e0": "media"
+    },
+    "B63-O1-L11": {
+     "nodos_ancla": 6
+    },
+    "B63-O1-L12": {
+     "categoria_grafo": "0",
+     "distancia_e0": 4,
+     "distancia_grafo": 0,
+     "nodos_ancla": 9,
+     "nodos_otro_punto": 8,
+     "tercio_e0": "media"
+    },
+    "B63-O1-L13": {
+     "nodos_ancla": 5
+    },
+    "B63-O1-L14": {
+     "nodos_ancla": 9
+    },
+    "B63-O1-L15": {
+     "nodos_ancla": 7
+    },
+    "B63-O1-L16-R1": {
+     "categoria_grafo": "0",
+     "distancia_e0": 4,
+     "distancia_grafo": 0,
+     "nodos_ancla": 12,
+     "nodos_otro_punto": 6,
+     "tercio_e0": "media"
+    },
+    "B63-O1-L17": {
+     "categoria_grafo": "0",
+     "distancia_e0": 7,
+     "distancia_grafo": 0,
+     "nodos_ancla": 6,
+     "nodos_otro_punto": 4,
+     "tercio_e0": "alta"
+    },
+    "B63-O1-L18": {
+     "categoria_grafo": "0",
+     "distancia_e0": 2,
+     "distancia_grafo": 0,
+     "nodos_ancla": 5,
+     "nodos_otro_punto": 5,
+     "tercio_e0": "baja"
+    },
+    "B63-O1-L19": {
+     "nodos_ancla": 3
+    },
+    "B63-O1-L20": {
+     "nodos_ancla": 10
+    },
+    "B63-O1-L21": {
+     "categoria_grafo": "0",
+     "distancia_e0": 3,
+     "distancia_grafo": 0,
+     "nodos_ancla": 4,
+     "nodos_otro_punto": 5,
+     "tercio_e0": "media"
+    },
+    "B63-O1-L22-R1": {
+     "categoria_grafo": "0",
+     "distancia_e0": 2,
+     "distancia_grafo": 0,
+     "nodos_ancla": 4,
+     "nodos_otro_punto": 5,
+     "tercio_e0": "baja"
+    },
+    "B63-O1-L23": {
+     "nodos_ancla": 1
+    },
+    "B63-O1-L24": {
+     "nodos_ancla": 2
+    },
+    "B63-O1-L25": {
+     "nodos_ancla": 16
+    },
+    "B63-O1-L26": {
+     "nodos_ancla": 4
+    },
+    "B63-O1-L27": {
+     "nodos_ancla": 4
+    },
+    "B63-O1-L28-R1": {
+     "categoria_grafo": "2",
+     "distancia_e0": "distinto documento",
+     "distancia_grafo": 2,
+     "nodos_ancla": 13,
+     "nodos_otro_punto": 4,
+     "tercio_e0": "distinto documento"
+    },
+    "B63-O1-L29": {
+     "categoria_grafo": "2",
+     "distancia_e0": "distinto documento",
+     "distancia_grafo": 2,
+     "nodos_ancla": 8,
+     "nodos_otro_punto": 17,
+     "tercio_e0": "distinto documento"
+    },
+    "B63-O1-L30": {
+     "categoria_grafo": "0",
+     "distancia_e0": 2,
+     "distancia_grafo": 0,
+     "nodos_ancla": 2,
+     "nodos_otro_punto": 2,
+     "tercio_e0": "baja"
+    },
+    "B63-O1-L31": {
+     "categoria_grafo": "0",
+     "distancia_e0": 2,
+     "distancia_grafo": 0,
+     "nodos_ancla": 2,
+     "nodos_otro_punto": 2,
+     "tercio_e0": "baja"
+    },
+    "B63-O1-L32": {
+     "categoria_grafo": "0",
+     "distancia_e0": 2,
+     "distancia_grafo": 0,
+     "nodos_ancla": 2,
+     "nodos_otro_punto": 3,
+     "tercio_e0": "baja"
+    },
+    "B63-O2-L01": {
+     "nodos_ancla": 3
+    },
+    "B63-O2-L02": {
+     "nodos_ancla": 3
+    },
+    "B63-O2-L03": {
+     "categoria_grafo": "0",
+     "distancia_e0": 3,
+     "distancia_grafo": 0,
+     "nodos_ancla": 4,
+     "nodos_otro_punto": 1,
+     "tercio_e0": "media"
+    },
+    "B63-O2-L04": {
+     "categoria_grafo": "0",
+     "distancia_e0": 2,
+     "distancia_grafo": 0,
+     "nodos_ancla": 3,
+     "nodos_otro_punto": 3,
+     "tercio_e0": "baja"
+    },
+    "B63-O2-L05": {
+     "categoria_grafo": "0",
+     "distancia_e0": 5,
+     "distancia_grafo": 0,
+     "nodos_ancla": 6,
+     "nodos_otro_punto": 9,
+     "tercio_e0": "alta"
+    },
+    "B63-O2-L06": {
+     "nodos_ancla": 2
+    },
+    "B63-O2-L07": {
+     "categoria_grafo": "0",
+     "distancia_e0": 5,
+     "distancia_grafo": 0,
+     "nodos_ancla": 8,
+     "nodos_otro_punto": 6,
+     "tercio_e0": "alta"
+    },
+    "B63-O2-L08": {
+     "categoria_grafo": "0",
+     "distancia_e0": 5,
+     "distancia_grafo": 0,
+     "nodos_ancla": 4,
+     "nodos_otro_punto": 6,
+     "tercio_e0": "alta"
+    },
+    "B63-O2-L09": {
+     "categoria_grafo": "0",
+     "distancia_e0": "distinto documento",
+     "distancia_grafo": 0,
+     "nodos_ancla": 10,
+     "nodos_otro_punto": 13,
+     "tercio_e0": "distinto documento"
+    },
+    "B63-O2-L10": {
+     "categoria_grafo": "0",
+     "distancia_e0": "distinto documento",
+     "distancia_grafo": 0,
+     "nodos_ancla": 8,
+     "nodos_otro_punto": 10,
+     "tercio_e0": "distinto documento"
+    },
+    "B63-O2-L11": {
+     "nodos_ancla": 1
+    },
+    "B63-O2-L12": {
+     "nodos_ancla": 1
+    },
+    "B63-O2-L13-R2": {
+     "categoria_grafo": "0",
+     "distancia_e0": 1,
+     "distancia_grafo": 0,
+     "nodos_ancla": 34,
+     "nodos_otro_punto": 72,
+     "tercio_e0": "baja"
+    },
+    "B63-O2-L14": {
+     "nodos_ancla": 4
+    },
+    "B63-O2-L15": {
+     "nodos_ancla": 19
+    },
+    "B63-O2-L16-R1": {
+     "nodos_ancla": 5
+    },
+    "B63-O2-L17": {
+     "nodos_ancla": 3
+    },
+    "B63-O2-L18": {
+     "categoria_grafo": "0",
+     "distancia_e0": 6,
+     "distancia_grafo": 0,
+     "nodos_ancla": 4,
+     "nodos_otro_punto": 4,
+     "tercio_e0": "alta"
+    },
+    "B63-O2-L19": {
+     "nodos_ancla": 4
+    },
+    "B63-O2-L20": {
+     "nodos_ancla": 3
+    },
+    "B63-O2-L21-R2": {
+     "categoria_grafo": "0",
+     "distancia_e0": 5,
+     "distancia_grafo": 0,
+     "nodos_ancla": 5,
+     "nodos_otro_punto": 4,
+     "tercio_e0": "alta"
+    },
+    "B63-O2-L22": {
+     "categoria_grafo": "0",
+     "distancia_e0": 4,
+     "distancia_grafo": 0,
+     "nodos_ancla": 5,
+     "nodos_otro_punto": 2,
+     "tercio_e0": "media"
+    },
+    "B63-O2-L23": {
+     "categoria_grafo": "0",
+     "distancia_e0": 2,
+     "distancia_grafo": 0,
+     "nodos_ancla": 12,
+     "nodos_otro_punto": 7,
+     "tercio_e0": "baja"
+    },
+    "B63-O2-L24": {
+     "nodos_ancla": 5
+    },
+    "B63-O2-L25": {
+     "categoria_grafo": "0",
+     "distancia_e0": 4,
+     "distancia_grafo": 0,
+     "nodos_ancla": 1,
+     "nodos_otro_punto": 15,
+     "tercio_e0": "media"
+    },
+    "B63-O2-L26": {
+     "categoria_grafo": "sin nodo",
+     "distancia_e0": 2,
+     "distancia_grafo": "sin nodo",
+     "nodos_ancla": 0,
+     "nodos_otro_punto": 6,
+     "tercio_e0": "baja"
+    },
+    "B63-O2-L27": {
+     "categoria_grafo": "0",
+     "distancia_e0": 5,
+     "distancia_grafo": 0,
+     "nodos_ancla": 2,
+     "nodos_otro_punto": 15,
+     "tercio_e0": "alta"
+    },
+    "B63-O2-L28": {
+     "categoria_grafo": "sin nodo",
+     "distancia_e0": 2,
+     "distancia_grafo": "sin nodo",
+     "nodos_ancla": 6,
+     "nodos_otro_punto": 0,
+     "tercio_e0": "baja"
+    },
+    "B63-O2-L29-R1": {
+     "categoria_grafo": "0",
+     "distancia_e0": 4,
+     "distancia_grafo": 0,
+     "nodos_ancla": 2,
+     "nodos_otro_punto": 4,
+     "tercio_e0": "media"
+    },
+    "B63-O2-L30": {
+     "categoria_grafo": "0",
+     "distancia_e0": 3,
+     "distancia_grafo": 0,
+     "nodos_ancla": 15,
+     "nodos_otro_punto": 61,
+     "tercio_e0": "media"
+    },
+    "B63-O2-L31": {
+     "categoria_grafo": "0",
+     "distancia_e0": 3,
+     "distancia_grafo": 0,
+     "nodos_ancla": 16,
+     "nodos_otro_punto": 75,
+     "tercio_e0": "media"
+    },
+    "B63-O2-L32": {
+     "nodos_ancla": 13
+    },
+    "B63-O3-L01-R2": {
+     "categoria_grafo": "0",
+     "distancia_e0": 3,
+     "distancia_grafo": 0,
+     "nodos_ancla": 5,
+     "nodos_otro_punto": 6,
+     "tercio_e0": "media"
+    },
+    "B63-O3-L02": {
+     "categoria_grafo": "0",
+     "distancia_e0": 5,
+     "distancia_grafo": 0,
+     "nodos_ancla": 3,
+     "nodos_otro_punto": 11,
+     "tercio_e0": "alta"
+    },
+    "B63-O3-L03-R3": {
+     "categoria_grafo": "0",
+     "distancia_e0": 1,
+     "distancia_grafo": 0,
+     "nodos_ancla": 1,
+     "nodos_otro_punto": 6,
+     "tercio_e0": "baja"
+    },
+    "B63-O3-L04": {
+     "categoria_grafo": "0",
+     "distancia_e0": 2,
+     "distancia_grafo": 0,
+     "nodos_ancla": 2,
+     "nodos_otro_punto": 11,
+     "tercio_e0": "baja"
+    },
+    "B63-O3-L05": {
+     "categoria_grafo": "0",
+     "distancia_e0": 2,
+     "distancia_grafo": 0,
+     "nodos_ancla": 3,
+     "nodos_otro_punto": 12,
+     "tercio_e0": "baja"
+    },
+    "B63-O3-L06": {
+     "nodos_ancla": 2
+    },
+    "B63-O3-L07": {
+     "categoria_grafo": "3 o más",
+     "distancia_e0": "distinto documento",
+     "distancia_grafo": 3,
+     "nodos_ancla": 3,
+     "nodos_otro_punto": 10,
+     "tercio_e0": "distinto documento"
+    },
+    "B63-O3-L08": {
+     "categoria_grafo": "0",
+     "distancia_e0": 4,
+     "distancia_grafo": 0,
+     "nodos_ancla": 2,
+     "nodos_otro_punto": 23,
+     "tercio_e0": "media"
+    },
+    "B63-O3-L09": {
+     "categoria_grafo": "0",
+     "distancia_e0": 2,
+     "distancia_grafo": 0,
+     "nodos_ancla": 15,
+     "nodos_otro_punto": 3,
+     "tercio_e0": "baja"
+    },
+    "B63-O3-L10": {
+     "nodos_ancla": 5
+    },
+    "B63-O3-L11": {
+     "categoria_grafo": "0",
+     "distancia_e0": 2,
+     "distancia_grafo": 0,
+     "nodos_ancla": 5,
+     "nodos_otro_punto": 15,
+     "tercio_e0": "baja"
+    },
+    "B63-O3-L12": {
+     "nodos_ancla": 10
+    },
+    "B63-O3-L13": {
+     "nodos_ancla": 3
+    },
+    "B63-O3-L14": {
+     "categoria_grafo": "0",
+     "distancia_e0": 3,
+     "distancia_grafo": 0,
+     "nodos_ancla": 6,
+     "nodos_otro_punto": 23,
+     "tercio_e0": "media"
+    },
+    "B63-O3-L15": {
+     "nodos_ancla": 3
+    },
+    "B63-O3-L16": {
+     "nodos_ancla": 3
+    },
+    "B63-O3-L17-R2": {
+     "categoria_grafo": "2",
+     "distancia_e0": "distinto documento",
+     "distancia_grafo": 2,
+     "nodos_ancla": 3,
+     "nodos_otro_punto": 10,
+     "tercio_e0": "distinto documento"
+    },
+    "B63-O3-L18": {
+     "categoria_grafo": "0",
+     "distancia_e0": 2,
+     "distancia_grafo": 0,
+     "nodos_ancla": 2,
+     "nodos_otro_punto": 2,
+     "tercio_e0": "baja"
+    },
+    "B63-O3-L19": {
+     "nodos_ancla": 3
+    },
+    "B63-O3-L20-R2": {
+     "categoria_grafo": "2",
+     "distancia_e0": "distinto documento",
+     "distancia_grafo": 2,
+     "nodos_ancla": 2,
+     "nodos_otro_punto": 10,
+     "tercio_e0": "distinto documento"
+    },
+    "B63-O3-L21": {
+     "categoria_grafo": "0",
+     "distancia_e0": 2,
+     "distancia_grafo": 0,
+     "nodos_ancla": 5,
+     "nodos_otro_punto": 8,
+     "tercio_e0": "baja"
+    },
+    "B63-O3-L22": {
+     "categoria_grafo": "2",
+     "distancia_e0": "distinto documento",
+     "distancia_grafo": 2,
+     "nodos_ancla": 2,
+     "nodos_otro_punto": 10,
+     "tercio_e0": "distinto documento"
+    },
+    "B63-O3-L23": {
+     "nodos_ancla": 7
+    },
+    "B63-O3-L24": {
+     "nodos_ancla": 3
+    },
+    "B63-O3-L25": {
+     "nodos_ancla": 3
+    },
+    "B63-O3-L26": {
+     "nodos_ancla": 5
+    },
+    "B63-O3-L27": {
+     "categoria_grafo": "0",
+     "distancia_e0": 2,
+     "distancia_grafo": 0,
+     "nodos_ancla": 9,
+     "nodos_otro_punto": 5,
+     "tercio_e0": "baja"
+    },
+    "B63-O3-L28": {
+     "categoria_grafo": "0",
+     "distancia_e0": 6,
+     "distancia_grafo": 0,
+     "nodos_ancla": 7,
+     "nodos_otro_punto": 4,
+     "tercio_e0": "alta"
+    },
+    "B63-O3-L29": {
+     "nodos_ancla": 1
+    },
+    "B63-O3-L30": {
+     "nodos_ancla": 4
+    },
+    "B63-O3-L31": {
+     "categoria_grafo": "0",
+     "distancia_e0": 3,
+     "distancia_grafo": 0,
+     "nodos_ancla": 6,
+     "nodos_otro_punto": 3,
+     "tercio_e0": "media"
+    },
+    "B63-O3-L32": {
+     "categoria_grafo": "sin nodo",
+     "distancia_e0": 6,
+     "distancia_grafo": "sin nodo",
+     "nodos_ancla": 5,
+     "nodos_otro_punto": 0,
+     "tercio_e0": "alta"
+    }
+   },
+   "por_tercio_e0": {
+    "alta": {
+     "por_comparacion": {
+      "fragmentos_denso": {
+       "media": 0.1212121212121212,
+       "n": 11
+      },
+      "fragmentos_hibrida": {
+       "media": 0.0303030303030303,
+       "n": 11
+      }
+     },
+     "preguntas": 11
+    },
+    "baja": {
+     "por_comparacion": {
+      "fragmentos_denso": {
+       "media": -0.018518518518518517,
+       "n": 18
+      },
+      "fragmentos_hibrida": {
+       "media": -0.05555555555555555,
+       "n": 18
+      }
+     },
+     "preguntas": 18
+    },
+    "distinto documento": {
+     "por_comparacion": {
+      "fragmentos_denso": {
+       "media": 0.0,
+       "n": 10
+      },
+      "fragmentos_hibrida": {
+       "media": -0.03333333333333333,
+       "n": 10
+      }
+     },
+     "preguntas": 10
+    },
+    "media": {
+     "por_comparacion": {
+      "fragmentos_denso": {
+       "media": -0.0925925925925926,
+       "n": 18
+      },
+      "fragmentos_hibrida": {
+       "media": -0.037037037037037035,
+       "n": 18
+      }
+     },
+     "preguntas": 18
+    }
+   },
+   "preguntas": 96,
+   "preguntas_con_dos_anclas": 57
+  },
+  "relevancia": {
+   "ponderado_por_la_nota": {
+    "por_brazo": {
+     "fragmentos_denso": {
+      "n": 96,
+      "valor": 0.8927335640138409
+     },
+     "fragmentos_hibrida": {
+      "n": 96,
+      "valor": 0.9192618223760093
+     },
+     "kg": {
+      "n": 96,
+      "valor": 0.889273356401384
+     }
+    },
+    "por_comparacion": {
+     "fragmentos_denso": {
+      "n": 96,
+      "valor": -0.0034602076124567475
+     },
+     "fragmentos_hibrida": {
+      "n": 96,
+      "valor": -0.029988465974625143
+     }
+    }
+   },
+   "por_tercio": {
+    "alta": {
+     "por_brazo": {
+      "fragmentos_denso": {
+       "media": 0.9285714285714286,
+       "n": 28
+      },
+      "fragmentos_hibrida": {
+       "media": 0.9523809523809524,
+       "n": 28
+      },
+      "kg": {
+       "media": 0.9404761904761905,
+       "n": 28
+      }
+     },
+     "por_comparacion": {
+      "fragmentos_denso": {
+       "media": 0.011904761904761904,
+       "n": 28
+      },
+      "fragmentos_hibrida": {
+       "media": -0.011904761904761904,
+       "n": 28
+      }
+     },
+     "preguntas": 28
+    },
+    "baja": {
+     "por_brazo": {
+      "fragmentos_denso": {
+       "media": 0.9316239316239316,
+       "n": 39
+      },
+      "fragmentos_hibrida": {
+       "media": 0.9572649572649573,
+       "n": 39
+      },
+      "kg": {
+       "media": 0.8717948717948718,
+       "n": 39
+      }
+     },
+     "por_comparacion": {
+      "fragmentos_denso": {
+       "media": -0.05982905982905983,
+       "n": 39
+      },
+      "fragmentos_hibrida": {
+       "media": -0.08547008547008547,
+       "n": 39
+      }
+     },
+     "preguntas": 39
+    },
+    "media": {
+     "por_brazo": {
+      "fragmentos_denso": {
+       "media": 0.8045977011494252,
+       "n": 29
+      },
+      "fragmentos_hibrida": {
+       "media": 0.8390804597701149,
+       "n": 29
+      },
+      "kg": {
+       "media": 0.8390804597701149,
+       "n": 29
+      }
+     },
+     "por_comparacion": {
+      "fragmentos_denso": {
+       "media": 0.034482758620689655,
+       "n": 29
+      },
+      "fragmentos_hibrida": {
+       "media": 0.0,
+       "n": 29
+      }
+     },
+     "preguntas": 29
+    }
+   },
+   "preguntas_por_tercio": {
+    "alta": 28,
+    "baja": 39,
+    "media": 29
+   }
+  }
+ },
+ "implementacion": {
+  "cola": "un ancla cae en la cola si su unidad está en la lista, o es una unidad de la lista con más precisión, o la contiene (su prefijo seguido de «.» o de «::»); lo mismo con la unidad que falta",
+  "contexto_maximo": "por sesión, el mayor input_tokens + cache_read_input_tokens + cache_creation_input_tokens de sus llamadas",
+  "costo_por_pregunta": "la suma de tokens_R9.costo_recomputado.total_usd de las sesiones de la pregunta en el brazo",
+  "distancia_en_el_grafo": "el camino más corto, sin dirección, entre los nodos del ancla y los del otro punto: 0 si comparten un nodo; «sin nodo» si alguna no tiene nodos; «sin camino» si no se tocan; las categorías: 0, 1, 2, «3 o más», «sin nodo» y «sin camino»",
+  "distancia_en_la_E0": "los pasos en el árbol de la estructura de la E0 del documento (secciones e hijos) entre las dos unidades; un sufijo «::» o un nivel que la estructura no tiene suman un paso cada uno; con un rango, la menor de sus unidades; «distinto documento» si no son del mismo; los tercios, por rango sobre las de varios puntos con distancia: baja hasta el percentil 1/3, media hasta el 2/3, alta el resto",
+  "exactitud": "las proporciones van por seis veces su valor, en enteros (k = 3), para que la comparación de la permutación sea exacta",
+  "exactitud_de_cita": "el instrumento corre aparte, con sus anclas, la E0 del grafo evaluado y el mapa de las sesiones, sobre copias de meta_<id>.json y log_r1_<id>.jsonl de cada sesión (controladas contra el manifiesto), sin enlaces; su consola va a un archivo; si no termina bien, el resto del análisis se escribe igual y la corrida sale con 11",
+  "expertos": "cada CSV de devueltas/ es un experto (su nombre de archivo); de cada columna de sí o no, la proporción de «sí» con su Wilson al 95 %, sobre las filas respondidas; el acuerdo con P3, la proporción de notas iguales y de puestos iguales; entre expertos, la proporción de respuestas iguales en cada par, por columna; «no respondible»: la mayoría de los que respondieron dice que no; con dos, los dos",
+  "nodos_de_un_ancla": "los nodos del kg.json con alguna procedencia cuyo chunk_id, sin su sufijo, es la unidad o una de sus descendientes en el árbol de la E0 (o empieza con la unidad seguida de «.»); para una unidad con sufijo, el chunk_id que es esa unidad o empieza con ella seguida de «::»",
+  "percentil": "por rango: el valor de la posición ceil(q·B) de los B valores ordenados (q = 0,025 y 0,975; 0,05 en la secundaria); un remuestreo sin preguntas para una cifra no entra en esa cifra, y se cuenta",
+  "permutacion_por_documento": "el estadístico es la suma de los d_q de todas las preguntas; los signos se sortean por documento, sobre la suma de los d_q de sus preguntas",
+  "relevancia_ponderada": "la media de la métrica (o de d_q) con la nota de P3 como peso",
+  "sorteos": "cada prueba y cada bootstrap empiezan un random.Random(semilla) propio; la permutación toma los signos de getrandbits(n), un bit por pregunta (o por documento) en su orden; el bootstrap toma n índices con randrange(n) por remuestreo sobre la lista de las preguntas en el orden de la entrada (o de los documentos, ordenados), y calcula todas sus cifras sobre el mismo remuestreo; los pesos del total ponderado quedan fijos en el bootstrap",
+  "subtipos": "los subtipos de varios puntos van como casos: por subtipo, cada pregunta con su proporción por brazo y su d_q, sin intervalos ni pruebas",
+  "tope_de_llamadas": "más de 30 llamadas del log R1, y al tope (30 o más), las dos por brazo y por tipo",
+  "unidades_de_un_ancla": "un rango a..b son los hermanos de a a b en el árbol de la estructura de la E0 (si a y b tienen el mismo padre; si no, a y b); una unidad con sufijo («::intro», «::rep1»…) es esa sola"
+ },
+ "operativo": {
+  "por_brazo": {
+   "fragmentos_denso": {
+    "al_tope_30_o_mas": 2,
+    "contexto_maximo": {
+     "maximo": 108612,
+     "mediana": 9296
+    },
+    "cortadas": 0,
+    "costo_por_pregunta_usd": {
+     "media": 0.13691644791666666,
+     "total": 13.143979
+    },
+    "incompleta_otra": 2,
+    "infra": {
+     "con_mas_de_un_intento": 0,
+     "intentos_de_mas": 0,
+     "sin_terminar": 0
+    },
+    "llamadas_por_sesion": {
+     "maximo": 39,
+     "media": 3.3229166666666665,
+     "mediana": 2
+    },
+    "mas_de_30_llamadas": 2,
+    "sesiones": 288,
+    "sin_meta_sin_texto": 0
+   },
+   "fragmentos_hibrida": {
+    "al_tope_30_o_mas": 0,
+    "contexto_maximo": {
+     "maximo": 51097,
+     "mediana": 10033
+    },
+    "cortadas": 0,
+    "costo_por_pregunta_usd": {
+     "media": 0.11842836458333333,
+     "total": 11.369123
+    },
+    "incompleta_otra": 1,
+    "infra": {
+     "con_mas_de_un_intento": 0,
+     "intentos_de_mas": 0,
+     "sin_terminar": 0
+    },
+    "llamadas_por_sesion": {
+     "maximo": 13,
+     "media": 2.8958333333333335,
+     "mediana": 2
+    },
+    "mas_de_30_llamadas": 0,
+    "sesiones": 288,
+    "sin_meta_sin_texto": 0
+   },
+   "kg": {
+    "al_tope_30_o_mas": 2,
+    "contexto_maximo": {
+     "maximo": 79619,
+     "mediana": 13369
+    },
+    "cortadas": 0,
+    "costo_por_pregunta_usd": {
+     "media": 0.18021140624999998,
+     "total": 17.300295
+    },
+    "incompleta_otra": 5,
+    "infra": {
+     "con_mas_de_un_intento": 0,
+     "intentos_de_mas": 0,
+     "sin_terminar": 0
+    },
+    "llamadas_por_sesion": {
+     "maximo": 35,
+     "media": 8.694444444444445,
+     "mediana": 8
+    },
+    "mas_de_30_llamadas": 2,
+    "sesiones": 288,
+    "sin_meta_sin_texto": 0
+   }
+  },
+  "por_brazo_y_tipo": {
+   "fragmentos_denso": {
+    "dato_directo": {
+     "al_tope_30_o_mas": 2,
+     "contexto_maximo": {
+      "maximo": 108612,
+      "mediana": 7453
+     },
+     "cortadas": 0,
+     "costo_por_pregunta_usd": {
+      "media": 0.12013094871794873,
+      "total": 4.685107
+     },
+     "incompleta_otra": 1,
+     "infra": {
+      "con_mas_de_un_intento": 0,
+      "intentos_de_mas": 0,
+      "sin_terminar": 0
+     },
+     "llamadas_por_sesion": {
+      "maximo": 39,
+      "media": 3.0598290598290596,
+      "mediana": 2
+     },
+     "mas_de_30_llamadas": 2,
+     "sesiones": 117,
+     "sin_meta_sin_texto": 0
+    },
+    "varios_puntos": {
+     "al_tope_30_o_mas": 0,
+     "contexto_maximo": {
+      "maximo": 46965,
+      "mediana": 11146
+     },
+     "cortadas": 0,
+     "costo_por_pregunta_usd": {
+      "media": 0.14840126315789473,
+      "total": 8.458872
+     },
+     "incompleta_otra": 1,
+     "infra": {
+      "con_mas_de_un_intento": 0,
+      "intentos_de_mas": 0,
+      "sin_terminar": 0
+     },
+     "llamadas_por_sesion": {
+      "maximo": 19,
+      "media": 3.502923976608187,
+      "mediana": 2
+     },
+     "mas_de_30_llamadas": 0,
+     "sesiones": 171,
+     "sin_meta_sin_texto": 0
+    }
+   },
+   "fragmentos_hibrida": {
+    "dato_directo": {
+     "al_tope_30_o_mas": 0,
+     "contexto_maximo": {
+      "maximo": 25922,
+      "mediana": 8558
+     },
+     "cortadas": 0,
+     "costo_por_pregunta_usd": {
+      "media": 0.0913836923076923,
+      "total": 3.563964
+     },
+     "incompleta_otra": 0,
+     "infra": {
+      "con_mas_de_un_intento": 0,
+      "intentos_de_mas": 0,
+      "sin_terminar": 0
+     },
+     "llamadas_por_sesion": {
+      "maximo": 8,
+      "media": 2.5213675213675213,
+      "mediana": 2
+     },
+     "mas_de_30_llamadas": 0,
+     "sesiones": 117,
+     "sin_meta_sin_texto": 0
+    },
+    "varios_puntos": {
+     "al_tope_30_o_mas": 0,
+     "contexto_maximo": {
+      "maximo": 51097,
+      "mediana": 11208
+     },
+     "cortadas": 0,
+     "costo_por_pregunta_usd": {
+      "media": 0.13693261403508772,
+      "total": 7.805159
+     },
+     "incompleta_otra": 1,
+     "infra": {
+      "con_mas_de_un_intento": 0,
+      "intentos_de_mas": 0,
+      "sin_terminar": 0
+     },
+     "llamadas_por_sesion": {
+      "maximo": 13,
+      "media": 3.152046783625731,
+      "mediana": 3
+     },
+     "mas_de_30_llamadas": 0,
+     "sesiones": 171,
+     "sin_meta_sin_texto": 0
+    }
+   },
+   "kg": {
+    "dato_directo": {
+     "al_tope_30_o_mas": 0,
+     "contexto_maximo": {
+      "maximo": 39196,
+      "mediana": 10834
+     },
+     "cortadas": 0,
+     "costo_por_pregunta_usd": {
+      "media": 0.13182941025641023,
+      "total": 5.141347
+     },
+     "incompleta_otra": 2,
+     "infra": {
+      "con_mas_de_un_intento": 0,
+      "intentos_de_mas": 0,
+      "sin_terminar": 0
+     },
+     "llamadas_por_sesion": {
+      "maximo": 22,
+      "media": 6.743589743589744,
+      "mediana": 6
+     },
+     "mas_de_30_llamadas": 0,
+     "sesiones": 117,
+     "sin_meta_sin_texto": 0
+    },
+    "varios_puntos": {
+     "al_tope_30_o_mas": 2,
+     "contexto_maximo": {
+      "maximo": 79619,
+      "mediana": 15216
+     },
+     "cortadas": 0,
+     "costo_por_pregunta_usd": {
+      "media": 0.21331487719298248,
+      "total": 12.158948
+     },
+     "incompleta_otra": 3,
+     "infra": {
+      "con_mas_de_un_intento": 0,
+      "intentos_de_mas": 0,
+      "sin_terminar": 0
+     },
+     "llamadas_por_sesion": {
+      "maximo": 35,
+      "media": 10.029239766081872,
+      "mediana": 9
+     },
+     "mas_de_30_llamadas": 2,
+     "sesiones": 171,
+     "sin_meta_sin_texto": 0
+    }
+   }
+  }
+ },
+ "parametros": {
+  "alfa_holm": [
+   0.025,
+   0.05
+  ],
+  "permutaciones": 100000,
+  "remuestreos": 10000,
+  "semillas": {
+   "bootstrap": "B63:bootstrap:v1",
+   "bootstrap_documento": "B63:bootstrap:documento:v1",
+   "permutacion": "B63:permutacion:v1",
+   "permutacion_documento": "B63:permutacion:documento:v1"
+  }
+ },
+ "pesos": {
+  "detalle": {
+   "herencia": {
+    "depende_de_fuera": {
+     "hi": 0.11672182795453372,
+     "lo": 0.03526785850695881,
+     "n": 289,
+     "n_ef": 147.97576936087094,
+     "p": 0.06498764669970895
+    },
+    "peso_varios_puntos_sobre_las_dos_primeras": {
+     "hi": 0.37470411901277134,
+     "lo": 0.22518851670743475,
+     "n": 263,
+     "n_ef": 139.73274708170987,
+     "p": 0.2944465476913903
+    },
+    "varios_puntos_dentro": {
+     "hi": 0.3519161971704782,
+     "lo": 0.20941146193502483,
+     "n": 289,
+     "n_ef": 147.97576936087094,
+     "p": 0.27496985084533726
+    }
+   },
+   "sellada": {
+    "depende_de_fuera": {
+     "hi": 0.12020401409799936,
+     "lo": 0.0372824718452462,
+     "n": 289,
+     "n_ef": 147.97576936087094,
+     "p": 0.06780739504474913
+    },
+    "peso_varios_puntos_sobre_las_dos_primeras": {
+     "hi": 0.4141301415216145,
+     "lo": 0.25971872147880376,
+     "n": 260,
+     "n_ef": 139.66406364287587,
+     "p": 0.3324390393771662
+    },
+    "varios_puntos_dentro": {
+     "hi": 0.38790334903175966,
+     "lo": 0.24052940641092263,
+     "n": 289,
+     "n_ef": 147.97576936087094,
+     "p": 0.3093934249576273
+    }
+   }
+  },
+  "iguales_a_los_de_la_mesa": true,
+  "pesos": {
+   "extremo_alto": 0.4141301415216145,
+   "extremo_bajo": 0.25971872147880376,
+   "herencia": 0.2944465476913903,
+   "sellada": 0.3324390393771662
+  }
+ },
+ "que": "el análisis de B6.3 (§6, §8 y §9 del pre-registro, con sus notas al pie firmadas)"
+}

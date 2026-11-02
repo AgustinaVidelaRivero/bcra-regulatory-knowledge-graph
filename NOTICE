@@ -1,0 +1,10 @@
+NOTICE
+
+El texto citado dentro del grafo (data/experiment/reaplicacion_unica/acumulado/ens_128_r2b_sincola/r2/kg.json.gz) —en las descripciones de los nodos, en los tramos de la procedencia y en
+la evidencia de las aristas— es texto de la normativa del Banco Central de la República Argentina (BCRA), tomado de
+sus Textos Ordenados publicados en https://www.bcra.gob.ar/. Ese texto es del BCRA.
+
+La licencia CC BY 4.0 de este repositorio (LICENSE-DATA) cubre la estructura del grafo y sus anotaciones: los nodos,
+las aristas, sus tipos y relaciones, las propiedades derivadas y la procedencia. No cubre el texto del BCRA.
+
+Los PDF del BCRA no se redistribuyen: corpus/manifiesto_corpus.csv trae su enlace y su sha256.

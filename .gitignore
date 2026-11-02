@@ -1,0 +1,9 @@
+# Lo que escribe el código publicado y no se versiona
+__pycache__/
+*.pyc
+.venv/
+venvs/
+fuera_del_repo/*
+!fuera_del_repo/b63_etapa1/
+fuera_del_repo/b63_etapa1/*
+!fuera_del_repo/b63_etapa1/scripts/
