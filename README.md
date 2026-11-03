@@ -6,6 +6,40 @@ Un grafo de conocimiento construido sobre Textos Ordenados de la normativa del B
 (BCRA), y el código que lo produce y lo evalúa contra la recuperación por fragmentos. Es el material publicable de un
 proyecto final de Ingeniería en Inteligencia Artificial; la tesis se publica por su propio canal.
 
+## Términos
+
+Cada definición sale del archivo publicado que trae su ancla (`archivo:renglón`).
+
+| Término | Qué es | Dónde |
+|---|---|---|
+| B6.3 | La evaluación final de la tesis: una sola medición, sobre preguntas nuevas de documentos distintos de los del desarrollo, que compara el grafo con el sistema por fragmentos con el mismo agente, las mismas preguntas y el mismo juez. | `docs/preregistro_B6_3_evaluacion_final.md:1`, `:92`, `:96-98` |
+| B6.4 | La segunda evaluación confirmatoria, con su propio pre-registro: mide si el grafo supera a los dos sistemas por fragmentos en preguntas que necesitan juntar información de varios puntos o documentos, y se diseñó después de ver el resultado de B6.3. | `docs/preregistro_B6_4_evaluacion_confirmatoria_varios_puntos.md:1`, `:39-41` |
+| EV2 | Una evaluación anterior de la tesis, con 40 preguntas y 164 criterios, en la que un juez clasifica cada par de respuesta y criterio. | `docs/preregistro_evaluacion_fidelidad_ev2.md:1`, `:23-24` |
+| P1 | La clasificación sellada de unidades de la normativa, con 289 decididas, de la que salen los pesos de los tipos de pregunta en el total ponderado de B6.3 («P1 a P8», en `:902` y `:912` del mismo pre-registro, son otra cosa: las pruebas de un script). | `docs/preregistro_B6_3_evaluacion_final.md:440-441`, `:582` |
+| E0 | La primera etapa del proceso de construcción, E0 a E5, que parte cada Texto Ordenado en las unidades (los chunks) sobre las que trabaja el resto. | `docs/preregistro_tanda0.md:29`, `docs/preregistro_evaluacion_tripletas.md:32`, `docs/preregistro_B6_3_evaluacion_final.md:182` |
+| brazo | Cada sistema que responde las mismas preguntas dentro de una evaluación: el agente con el grafo o el agente con un sistema por fragmentos. | `docs/preregistro_B6_3_evaluacion_final.md:303-308`, `docs/preregistro_B6_4_evaluacion_confirmatoria_varios_puntos.md:182` |
+| tripletas | La evaluación del contenido del grafo a nivel de tripleta (nodo, relación, nodo): si cada relación es correcta según su texto, si merece estar y qué parte de lo más importante de los textos está en el grafo. | `docs/preregistro_evaluacion_tripletas.md:26-27`, `:32` |
+| mandatos | Los documentos firmados que encargan una unidad de trabajo de la tesis y fijan sus etapas; están en `docs/mandatos/` del repositorio de la tesis, y los pre-registros los citan por su ruta. | `docs/preregistro_B6_3_evaluacion_final.md:6-7`, `docs/preregistro_A2_2_sistema_por_fragmentos.md:6`, `:227` |
+
+## Lo que todavía no está
+
+Esta primera versión no trae todo lo que la tesis cita. Lo que sigue se suma antes de la defensa, en commits aparte, con los
+controles del resto del árbol (fuga del gold por texto y por hash, nombres, rutas y secretos) y con `SHA256SUMS` rehecho en cada uno:
+
+| Qué | De dónde sale, en el repo de la tesis | Qué falta para sumarlo |
+|---|---|---|
+| El texto completo de las instrucciones del extractor y del verificador: `prompt_r2b.py` y `prompt_e3.py` están, pero lo arman con datos que todavía no están, así que hoy no importan | 15 archivos de `data/experiment/reextraccion_v2/`, `data/experiment/catalogo_unico/` y `data/experiment/pyd_r2/` | Pasar los controles |
+| Las instrucciones del agente: la plantilla y los bloques de herramientas | `data/experiment/banco_mcp/n7/` | Pasar los controles |
+| El sha256 de todos los documentos del corpus: `corpus/manifiesto_corpus.csv` trae los 129 Textos Ordenados de los que sale el grafo | `data/experiment/escalado_prep/` | Pasar los controles |
+| Las semillas de las muestras del esquema, que la tesis dice registradas | `data/experiment/esq/` | Pasar los controles |
+| El mantenimiento del grafo: el procedimiento de empalme, la tabla de reprocesamiento y el control del sitio | `data/experiment/mantenimiento/` (31 archivos) y `data/experiment/job_actualizacion/` (20) | Pasar los controles |
+| Los reportes y las cifras de las etapas | `data/experiment/tanda1/`, `data/experiment/tanda_final/`, `data/experiment/segmentacion_oficial_e0r2/s2/`, `data/experiment/comp_e1/`, `data/experiment/reext_t0/`, `data/experiment/e3_listas/`, `reports/` | Pasar los controles |
+| Los mandatos que citan los pre-registros | `docs/mandatos/` | Pasar los controles |
+| La evaluación por tripletas: los scripts, las fichas y los resultados | `data/experiment/tripletas_v/` (59 archivos) y `data/experiment/tripletas_t_cob/` (13) | Un control propio: el gold son veredictos ficha por ficha, y un agregado de una sola ficha alcanza para deducir el suyo |
+| Los resultados de EV2 | `data/experiment/ev2_reporte/`, `data/experiment/ev2_adjudicacion/` y `data/experiment/ev2_fidelidad_eval/` | El mismo control, por pregunta y por ficha |
+| La revisión de expertos de B6.4 | `data/experiment/banco_mcp/b64/expertos/` | Su devolución y su análisis, en cifras agregadas |
+| La demostración de la actualización sobre los tres documentos que cambiaron en el sitio | Se corre sobre una copia del grafo: no toca el grafo evaluado | Correrla |
+
 ## Contenido del repositorio
 
 | Ruta | Qué es | Licencia |
@@ -14,7 +48,7 @@ proyecto final de Ingeniería en Inteligencia Artificial; la tesis se publica po
 | `data/experiment/reaplicacion_unica/acumulado/ens_128_r2b_sincola/r2/kg.json.gz.sello.json` | Su sello (sha256 del archivo y del JSON) | CC BY 4.0 |
 | `corpus/manifiesto_corpus.csv` | Enlace y huella de cada documento de origen | CC BY 4.0 |
 | `docs/preregistro_*.md`, `docs/enmienda*`, `docs/adenda*` | Los 11 pre-registros y sus 22 enmiendas y adendas | CC BY 4.0 |
-| `preregistros/FIRMAS.md` | sha256 y commit de firma propuesto de cada pre-registro, enmienda y adenda | CC BY 4.0 |
+| `preregistros/FIRMAS.md` | sha256 de cada pre-registro, enmienda y adenda, tal como se publica | CC BY 4.0 |
 | `docs/formato_del_grafo.md` | Formato del grafo y cómo verificar el sello | CC BY 4.0 |
 | Los 5 archivos de resultados de B6.3 y B6.4 (abajo) | Cifras agregadas de las dos evaluaciones | CC BY 4.0 |
 | `data/experiment/…`, `src/`, `scripts/`, `tests/` | El código (624 archivos), con sus rutas del repo de la tesis | MIT (`LICENSE`) |
@@ -76,7 +110,7 @@ sigan andando.
 | `data/experiment/tanda0/` | 2 | Cierre de los imports: lo importa el código de `data/experiment/banco_mcp/mcp_kg/`, `data/experiment/reaplicacion_unica/` |
 | `docs/` | 34 | Pre-registros, enmiendas, adendas y el formato del grafo |
 | `fuera_del_repo/b63_etapa1/scripts/` | 2 | Las funciones de P1 que carga el análisis de B6.3, tal cual |
-| `preregistros/` | 1 | Firmas de los pre-registros |
+| `preregistros/` | 1 | sha256 de los pre-registros, las enmiendas y las adendas |
 | `scripts/` | 25 | Scripts de verificación y de indicadores |
 | `src/` | 7 | Código común: descarga del corpus y utilidades |
 | `tests/` | 1 | Pruebas del código común |
@@ -108,7 +142,13 @@ Módulos que el código importa y que no tienen archivo en el repo de la tesis (
 
 ## Python
 
-Python. La tesis corrió con dos intérpretes. El código que llama a .venv/bin/python (los agentes, los servidores MCP y lo que corre con ellos) usó Python 3.10.13, con los paquetes de requirements.txt. Los comandos que usan BCRA_KG_PYTHON o python3 usaron el python3 del sistema, que hoy es 3.12.13. Tres archivos (controles_salida_at2_bis.py, controles_salida_at2_bis_pasada1.py y scripts/ucita2_indicadores.py) usan sintaxis de Python 3.12 y no corren con 3.10.
+La tesis corrió con dos intérpretes. El código que llama a `.venv/bin/python` (los agentes, los servidores MCP y lo que corre con
+ellos) usó Python 3.10.13, con los paquetes de `requirements.txt`. Los comandos que usan `BCRA_KG_PYTHON` o `python3` usaron el
+`python3` del sistema, que hoy es 3.12.13. Tres archivos usan sintaxis de Python 3.12 y no corren con 3.10:
+
+- `data/experiment/banco_mcp/b63/analisis/at/at2_bis/controles_salida_at2_bis.py`
+- `data/experiment/banco_mcp/b63/analisis/at/at2_bis/controles_salida_at2_bis_pasada1.py`
+- `scripts/ucita2_indicadores.py`
 
 `torch`, `transformers` y `sentence-transformers` tienen las versiones de `data/experiment/banco_mcp/requirements_vector.txt`, que va tal cual. Su venv no se
 conserva.
@@ -269,16 +309,21 @@ No están en esta lista `prueba_cierre_S1quater.py` y `prueba_cifra_control_S1qu
 
 ## Secretos
 
-El código no trae ninguna clave. Las cadenas con forma de clave de la API que aparecen en el código son señuelos de
-prueba (los controles las usan para verificar que una clave no se filtre) y no son claves válidas:
+El código no trae ninguna clave. Nueve archivos traen cadenas que empiezan con `sk-ant-`, 11 en total, y ninguna es una clave
+válida: son señuelos de prueba (los controles los usan para verificar que una clave no se filtre), un relleno para el modo de
+arranque, que no llega a ningún servidor, y un ejemplo en un mensaje de error:
 
-| Archivo | Señuelos con forma de clave |
-|---|---:|
-| `data/experiment/banco_mcp/b63/seco/herramientas_seco.py` | 1 |
-| `data/experiment/banco_mcp/b63/v2/b1bis/seco/herramientas_b1bis.py` | 1 |
-| `data/experiment/banco_mcp/b63/v2/b2/seco/herramientas_b2.py` | 1 |
-| `data/experiment/banco_mcp/b63/v2/formas_error_b63.py` | 1 |
-| `data/experiment/banco_mcp/b63/v2/seco/herramientas_b1.py` | 1 |
+| Archivo | Renglones | Qué es |
+|---|---|---|
+| `data/experiment/banco_mcp/agentes/lanzar_agente.py` | 141, 157 | Relleno del modo `init`, con la base de la API en un puerto cerrado |
+| `data/experiment/banco_mcp/agentes/selftest_entorno_limpio.py` | 87, 89 | Señuelos de la prueba del entorno limpio |
+| `data/experiment/banco_mcp/aislamiento/testigo_aislamiento_b63_v2.py` | 105 | El relleno del modo `init`, para compararlo |
+| `data/experiment/banco_mcp/b63/seco/herramientas_seco.py` | 105 | Señuelo con forma de clave, para un cliente de prueba sin red |
+| `data/experiment/banco_mcp/b63/v2/seco/herramientas_b1.py` | 134 | Señuelo con forma de clave, para un cliente de prueba sin red |
+| `data/experiment/banco_mcp/b63/v2/b1bis/seco/herramientas_b1bis.py` | 141 | Señuelo con forma de clave, para un cliente de prueba sin red |
+| `data/experiment/banco_mcp/b63/v2/b2/seco/herramientas_b2.py` | 160 | Señuelo con forma de clave, para un cliente de prueba sin red |
+| `data/experiment/banco_mcp/b63/v2/formas_error_b63.py` | 139 | Señuelo armado al correr, para un servidor de prueba local |
+| `data/experiment/evaluacion/harness.py` | 655 | Ejemplo en un mensaje de error, con tres puntos en lugar de la clave |
 
 ## Resultados de B6.3 y B6.4
 
@@ -315,6 +360,10 @@ manifiestos del repo de la tesis; 3 de 4 JSON de origen con su sha256.
 - Las consolas y las listas de `data/experiment/banco_mcp/coincidencias_con_el_grafo/`: identificarían criterios. Por la misma razón no va
   `data/experiment/banco_mcp/coincidencias_con_el_grafo/fechas/fechas_de_los_dos_criterios_de_ev2_mesa.py`: trae el sha256 corto de dos criterios, y con el grafo publicado alcanza para ubicar uno.
 - `data/experiment/banco_mcp/agentes/config_credenciales.json`.
+- El registro de decisiones, el plan, el tablero, las actas de reuniones y el paquete de la mesa de revisión. Los pre-registros los
+  citan (`registro, §n`, `plan, :n`, `decisiones_n_mesa/`), así que esas citas no resuelven en este repositorio.
+- La historia de commits del repo de la tesis. Los hash de commit que citan los documentos son de esa historia, no de la de este
+  repositorio: lo que se puede verificar acá de un pre-registro es su sha256 (`preregistros/FIRMAS.md`).
 - Los índices de los sistemas por fragmentos: se regeneran desde el corpus con el código de
   `data/experiment/banco_mcp/mcp_vector/` (modelo de embeddings y revisión fijados en `construir_indice.py`).
 
