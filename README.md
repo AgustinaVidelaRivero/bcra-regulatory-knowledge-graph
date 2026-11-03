@@ -8,18 +8,39 @@ proyecto final de Ingeniería en Inteligencia Artificial; la tesis se publica po
 
 ## Términos
 
-Cada definición sale del archivo publicado que trae su ancla (`archivo:renglón`).
+Cada definición sale del archivo publicado que trae su ancla (`archivo:renglón`). La tesis no usa estos nombres, salvo E0: la columna «En la tesis» da el nombre que usa y su sección.
 
-| Término | Qué es | Dónde |
-|---|---|---|
-| B6.3 | La evaluación final de la tesis: una sola medición, sobre preguntas nuevas de documentos distintos de los del desarrollo, que compara el grafo con el sistema por fragmentos con el mismo agente, las mismas preguntas y el mismo juez. | `docs/preregistro_B6_3_evaluacion_final.md:1`, `:92`, `:96-98` |
-| B6.4 | La segunda evaluación confirmatoria, con su propio pre-registro: mide si el grafo supera a los dos sistemas por fragmentos en preguntas que necesitan juntar información de varios puntos o documentos, y se diseñó después de ver el resultado de B6.3. | `docs/preregistro_B6_4_evaluacion_confirmatoria_varios_puntos.md:1`, `:39-41` |
-| EV2 | Una evaluación anterior de la tesis, con 40 preguntas y 164 criterios, en la que un juez clasifica cada par de respuesta y criterio. | `docs/preregistro_evaluacion_fidelidad_ev2.md:1`, `:23-24` |
-| P1 | La clasificación sellada de unidades de la normativa, con 289 decididas, de la que salen los pesos de los tipos de pregunta en el total ponderado de B6.3 («P1 a P8», en `:902` y `:912` del mismo pre-registro, son otra cosa: las pruebas de un script). | `docs/preregistro_B6_3_evaluacion_final.md:440-441`, `:582` |
-| E0 | La primera etapa del proceso de construcción, E0 a E5, que parte cada Texto Ordenado en las unidades (los chunks) sobre las que trabaja el resto. | `docs/preregistro_tanda0.md:29`, `docs/preregistro_evaluacion_tripletas.md:32`, `docs/preregistro_B6_3_evaluacion_final.md:182` |
-| brazo | Cada sistema que responde las mismas preguntas dentro de una evaluación: el agente con el grafo o el agente con un sistema por fragmentos. | `docs/preregistro_B6_3_evaluacion_final.md:303-308`, `docs/preregistro_B6_4_evaluacion_confirmatoria_varios_puntos.md:182` |
-| tripletas | La evaluación del contenido del grafo a nivel de tripleta (nodo, relación, nodo): si cada relación es correcta según su texto, si merece estar y qué parte de lo más importante de los textos está en el grafo. | `docs/preregistro_evaluacion_tripletas.md:26-27`, `:32` |
-| mandatos | Los documentos firmados que encargan una unidad de trabajo de la tesis y fijan sus etapas; están en `docs/mandatos/` del repositorio de la tesis, y los pre-registros los citan por su ruta. | `docs/preregistro_B6_3_evaluacion_final.md:6-7`, `docs/preregistro_A2_2_sistema_por_fragmentos.md:6`, `:227` |
+| Término | Qué es | En la tesis | Dónde |
+|---|---|---|---|
+| B6.3 | La evaluación final de la tesis: una sola medición, sobre preguntas nuevas de documentos distintos de los del desarrollo, que compara el grafo con el sistema por fragmentos con el mismo agente, las mismas preguntas y el mismo juez. | «La medición final»: 5.5, 5.6, 5.7.2 y 5.7.3 | `docs/preregistro_B6_3_evaluacion_final.md:1`, `:92`, `:96-98` |
+| B6.4 | La segunda evaluación confirmatoria, con su propio pre-registro: mide si el grafo supera a los dos sistemas por fragmentos en preguntas que necesitan juntar información de varios puntos o documentos, y se diseñó después de ver el resultado de B6.3. | «La segunda comparación»: 5.7.4 y 5.7.5 | `docs/preregistro_B6_4_evaluacion_confirmatoria_varios_puntos.md:1`, `:39-41` |
+| EV2 | Una evaluación anterior de la tesis, con 40 preguntas y 164 criterios, en la que un juez clasifica cada par de respuesta y criterio. | No aparece. Su juez es el de B6.3 y B6.4, el de la sección 5.4 | `docs/preregistro_evaluacion_fidelidad_ev2.md:1`, `:23-24`, `docs/preregistro_B6_3_evaluacion_final.md:383`, `docs/preregistro_B6_4_evaluacion_confirmatoria_varios_puntos.md:197` |
+| P1 | La clasificación sellada de unidades de la normativa, con 289 decididas, de la que salen los pesos de los tipos de pregunta en el total ponderado de B6.3 («P1 a P8», en `:902` y `:912` del mismo pre-registro, son otra cosa: las pruebas de un script). | No aparece. Sus pesos entran en el total ponderado de B6.3 | `docs/preregistro_B6_3_evaluacion_final.md:440-441`, `:582` |
+| E0 | La primera etapa del proceso de construcción, E0 a E5, que parte cada Texto Ordenado en las unidades (los chunks) sobre las que trabaja el resto. | «E0», la segmentación: 4.1 y Apéndice B | `docs/preregistro_tanda0.md:29`, `docs/preregistro_evaluacion_tripletas.md:32`, `docs/preregistro_B6_3_evaluacion_final.md:182` |
+| brazo | El nombre interno de una configuración: cada sistema que responde las mismas preguntas dentro de una evaluación, el agente con el grafo o el agente con un sistema por fragmentos. | «Configuración» | `docs/preregistro_B6_3_evaluacion_final.md:303-308`, `docs/preregistro_B6_4_evaluacion_confirmatoria_varios_puntos.md:182` |
+| tripletas | La evaluación del contenido del grafo a nivel de tripleta (nodo, relación, nodo): si cada relación es correcta según su texto, si merece estar y qué parte de lo más importante de los textos está en el grafo. | «La evaluación del contenido del grafo» (precisión, importancia y cobertura): 5.2 | `docs/preregistro_evaluacion_tripletas.md:26-27`, `:32` |
+| mandatos | Los documentos firmados que encargan una unidad de trabajo de la tesis y fijan sus etapas; están en `docs/mandatos/` del repositorio de la tesis, y los pre-registros los citan por su ruta. | No aparece | `docs/preregistro_B6_3_evaluacion_final.md:6-7`, `docs/preregistro_A2_2_sistema_por_fragmentos.md:6`, `:227` |
+
+## La tesis y este repositorio
+
+Una fila por sección de la tesis, con el nombre que usa y dónde está en este repositorio. «No publicada» quiere decir que la carpeta es del repositorio de la tesis y no está en este; las anclas marcadas «(repositorio de la tesis)» tampoco.
+
+| Sección de la tesis | Nombre en la tesis | En este repositorio | Dónde |
+|---|---|---|---|
+| 3.3.2 | Comparación de estrategias de esquema | Los cinco grafos y su evaluación: `data/experiment/run_1_cookbook/` a `data/experiment/run_5_hybrid/` y `data/experiment/evaluacion/frozen_run/`, no publicadas. De `data/experiment/evaluacion/` van 5 archivos, entre ellos `harness.py` y `judge.py` | `docs/INDICE.md:170-171`, `:182` (repositorio de la tesis) |
+| 3.3.3 | El esquema frente a los documentos | ESQ-1, ESQ-2 y ESQ-3: `data/experiment/esq/`, no publicada salvo 3 archivos de código | `data/experiment/esq/prerregistro_esq1.md:1`, `data/experiment/esq/prerregistro_esq2.md:1`, `data/experiment/esq/laudo_esquema_congelado.md:1` (repositorio de la tesis) |
+| 4.1 y Apéndice B | Segmentación | E0: `data/experiment/segmentacion_oficial_e0r2/` y `data/experiment/reextraccion_v2/e0_chunking/` | `docs/preregistro_tanda_final.md:50`, `docs/preregistro_tanda0.md:626` |
+| 4.2 y Apéndice D | El extractor | Extracción, E1: `data/experiment/reextraccion_v2/e1_extractor/` | `docs/preregistro_tanda0.md:648` |
+| 4.3 | El validador | `data/experiment/reextraccion_v2/e1_extractor/validador_e1.py` y `data/experiment/pyd_r2/code/validador_r2.py` | `docs/preregistro_tanda0.md:625`, y el renglón 2 de cada archivo |
+| 4.4 y Apéndice D | El verificador | E3: `data/experiment/reextraccion_v2/e3_verificador/` | `docs/preregistro_tanda0.md:649` |
+| 4.5 | El ensamblado | E4 y E5: `ensamblar_corpus.py` y `ensamblar_r1.py`, de `data/experiment/reextraccion_v2/corpus_v2/`, y `data/experiment/tanda0/code/ensamblar_tanda0.py` | `docs/preregistro_tanda0.md:650`, `data/experiment/reaplicacion_unica/paquete_UREAPL/ureapl_scripts__cadena_ureapl.sh:17` |
+| 4.6 y Apéndice E | El grafo evaluado y las tandas 0, 1 y final | El grafo: `data/experiment/reaplicacion_unica/acumulado/ens_128_r2b_sincola/r2/`. Las tandas: `data/experiment/reext_t0/`, `data/experiment/tanda1/` y `data/experiment/tanda_final/`, no publicadas, y de `data/experiment/tanda0/` van 2 archivos. Sus pre-registros sí se publican | `docs/formato_del_grafo.md:3`, `docs/preregistro_tanda0.md:1`, `docs/preregistro_tanda1.md:1`, `:1163`, `docs/preregistro_tanda_final.md:1`, `:13`, `docs/insumos_escritura.md:158`, `:293` (repositorio de la tesis) |
+| 5.2 | La evaluación del contenido del grafo (precisión, importancia y cobertura) | Tripletas: `docs/preregistro_evaluacion_tripletas.md` y sus enmiendas. `data/experiment/tripletas_v/` y `data/experiment/tripletas_t_cob/`, no publicadas | `docs/preregistro_evaluacion_tripletas.md:1`, `:26-27` |
+| 5.4 | Cómo se juzgan las respuestas: el juez y su validación | El juez de EV2: `data/experiment/ev2_juez/`, de la que van `juez.py`, `mapping.py` y `prompt_juez_v1.md`. Su validación: `data/experiment/ev2_juez/calibracion/` y `data/experiment/ev2_reporte/reporte_ev2.md`, no publicados. Su control en B6.3 y B6.4: `data/experiment/banco_mcp/b63/control_36/` y `data/experiment/banco_mcp/b64/control_36/`, de las que van los scripts | `docs/preregistro_B6_3_evaluacion_final.md:379-406`, `data/experiment/banco_mcp/b63/control_36/sorteo/sortear_control_36_B63.py:1`, `data/experiment/banco_mcp/b64/control_36/sorteo/sortear_control_36_B64.py:1`, `docs/plan_tesis.md:1291` (repositorio de la tesis) |
+| 5.5, 5.6, 5.7.2 y 5.7.3 | La medición final | B6.3: `data/experiment/banco_mcp/b63/` | `docs/preregistro_B6_3_evaluacion_final.md:1` |
+| 5.7.4 y 5.7.5 | La segunda comparación | B6.4: `data/experiment/banco_mcp/b64/` | `docs/preregistro_B6_4_evaluacion_confirmatoria_varios_puntos.md:1` |
+| 6.4 | La actualización | Mantenimiento: `data/experiment/mantenimiento/` y `data/experiment/job_actualizacion/`, no publicadas | `docs/mandatos/UMANT_mantenimiento.md:3`, `:29`, `:91` (repositorio de la tesis) |
+| Apéndice F | Las instrucciones del agente y del juez | Van con las dos, B6.3 y B6.4. Las del agente: la plantilla y los bloques de herramientas de `data/experiment/banco_mcp/n7/` y `data/experiment/banco_mcp/agentes/bloque_tools_vector.txt`, no publicados. Las del juez: `data/experiment/ev2_juez/prompt_juez_v1.md` | `docs/preregistro_B6_4_evaluacion_confirmatoria_varios_puntos.md:42`, `:55`, `docs/preregistro_N7_UNAV_configuracion_elegida_B63.md:27-29`, `data/experiment/banco_mcp/b63/v2/b2/juez_b63.py:48`, `data/experiment/banco_mcp/b64/v1/juez_b63.py:56`, `data/experiment/banco_mcp/b63/v2/b2/config_agentes_b63.json:112`, `data/experiment/banco_mcp/b64/v1/config_agentes_b64.json:173` (repositorio de la tesis) |
 
 ## Lo que todavía no está
 
@@ -30,7 +51,7 @@ controles del resto del árbol (fuga del gold por texto y por hash, nombres, rut
 |---|---|---|
 | El texto completo de las instrucciones del extractor y del verificador: `prompt_r2b.py` y `prompt_e3.py` están, pero lo arman con datos que todavía no están, así que hoy no importan | 15 archivos de `data/experiment/reextraccion_v2/`, `data/experiment/catalogo_unico/` y `data/experiment/pyd_r2/` | Pasar los controles |
 | Las instrucciones del agente: la plantilla y los bloques de herramientas | `data/experiment/banco_mcp/n7/` | Pasar los controles |
-| El sha256 de todos los documentos del corpus: `corpus/manifiesto_corpus.csv` trae los 129 Textos Ordenados de los que sale el grafo | `data/experiment/escalado_prep/` | Pasar los controles |
+| El sha256 de todos los documentos del corpus: `corpus/manifiesto_corpus.csv` trae solo los 133 archivos que nombra la procedencia del grafo (ver «El corpus») | `data/experiment/escalado_prep/` | Pasar los controles |
 | Las semillas de las muestras del esquema, que la tesis dice registradas | `data/experiment/esq/` | Pasar los controles |
 | El mantenimiento del grafo: el procedimiento de empalme, la tabla de reprocesamiento y el control del sitio | `data/experiment/mantenimiento/` (31 archivos) y `data/experiment/job_actualizacion/` (20) | Pasar los controles |
 | Los reportes y las cifras de las etapas | `data/experiment/tanda1/`, `data/experiment/tanda_final/`, `data/experiment/segmentacion_oficial_e0r2/s2/`, `data/experiment/comp_e1/`, `data/experiment/reext_t0/`, `data/experiment/e3_listas/`, `reports/` | Pasar los controles |
@@ -46,7 +67,7 @@ controles del resto del árbol (fuga del gold por texto y por hash, nombres, rut
 |---|---|---|
 | `data/experiment/reaplicacion_unica/acumulado/ens_128_r2b_sincola/r2/kg.json.gz` | El grafo evaluado en B6.3 y B6.4 | CC BY 4.0 (`LICENSE-DATA`) |
 | `data/experiment/reaplicacion_unica/acumulado/ens_128_r2b_sincola/r2/kg.json.gz.sello.json` | Su sello (sha256 del archivo y del JSON) | CC BY 4.0 |
-| `corpus/manifiesto_corpus.csv` | Enlace y huella de cada documento de origen | CC BY 4.0 |
+| `corpus/manifiesto_corpus.csv` | Los 133 archivos que nombra la procedencia del grafo; de cada PDF, su enlace y su sha256 | CC BY 4.0 |
 | `docs/preregistro_*.md`, `docs/enmienda*`, `docs/adenda*` | Los 11 pre-registros y sus 22 enmiendas y adendas | CC BY 4.0 |
 | `preregistros/FIRMAS.md` | sha256 de cada pre-registro, enmienda y adenda, tal como se publica | CC BY 4.0 |
 | `docs/formato_del_grafo.md` | Formato del grafo y cómo verificar el sello | CC BY 4.0 |
@@ -226,7 +247,7 @@ en los registros, pasarla a un subproceso y expandir una ruta que declara quien 
 
 ## Las pruebas
 
-Las pruebas corren desde la raíz del repositorio con el intérprete de `requirements.txt`, en una ruta que no tenga nombres de brazo
+Las pruebas corren desde la raíz del repositorio con el intérprete de `requirements.txt`, en una ruta que no tenga nombres de configuración
 (como `kg`). Las que necesitan el gold, la API, datos que no se publican o el `.venv` de la tesis no corren con este repositorio solo; son
 estas, con su causa:
 
@@ -344,11 +365,26 @@ El texto del BCRA citado dentro del grafo es del BCRA (ver `NOTICE`).
 
 ## El corpus
 
-Los PDF no se redistribuyen. `corpus/manifiesto_corpus.csv` trae, por cada documento del que sale el grafo, su
-Texto Ordenado, su enlace en `bcra.gob.ar` y su sha256: se baja cada PDF de su enlace y se compara su sha256 con el
-del manifiesto. Verificados sin bajar nada: 129 de 129 PDF con un
-único enlace del BCRA y 129 de 129 con un único sha256 en los
-manifiestos del repo de la tesis; 3 de 4 JSON de origen con su sha256.
+El grafo evaluado reúne 128 Textos Ordenados: son los valores distintos de `provenance.to` en `kg.json.gz`, y cada uno tiene su
+nodo de tipo `TextoOrdenado`.
+
+Los PDF no se redistribuyen. `corpus/manifiesto_corpus.csv` trae los 133 archivos que nombra la procedencia del grafo:
+
+| Archivos | Cuántos | Columna `to` | Enlace y sha256 |
+|---|---:|---|---|
+| PDF de los Textos Ordenados del grafo | 128 | Su Texto Ordenado | Enlace en `bcra.gob.ar` y sha256 |
+| `rdbcra.pdf` | 1 | Vacía | Enlace en `bcra.gob.ar` y sha256 |
+| JSON de origen | 4 | Vacía | Sin enlace; 3 con sha256 |
+
+`rdbcra.pdf` es otro Texto Ordenado del BCRA, el de su régimen disciplinario. Quedó fuera de los 128 porque va al grafo corregido, que no es
+este (`docs/preregistro_B6_3_evaluacion_final.md:247`, `docs/preregistro_tanda_final.md:53`): el grafo no trae su nodo
+`TextoOrdenado` ni ninguna unidad suya. Está en el manifiesto porque el catálogo de sujetos, `catalogo_sujetos_v3.json`, trae un
+sujeto que sale de ese documento, `Sujeto_rol_alcance_rdbcra`, y ese sujeto entra al grafo como un nodo sin aristas cuya
+procedencia nombra el PDF (`data/experiment/reextraccion_v2/corpus_v2/ensamblar_corpus.py:75`).
+
+Para verificar un PDF, se baja de su enlace y se compara su sha256 con el del manifiesto. Verificados sin bajar nada: 129 de 129
+PDF con un único enlace del BCRA y 129 de 129 con un único sha256 en los manifiestos del repo de la tesis; 3 de 4 JSON de origen
+con su sha256.
 
 ## Qué no se publica y por qué
 
@@ -371,7 +407,7 @@ manifiestos del repo de la tesis; 3 de 4 JSON de origen con su sha256.
 
 1. Verificar el árbol: `shasum -a 256 -c SHA256SUMS`.
 2. Verificar el grafo contra su sello (`docs/formato_del_grafo.md`).
-3. Bajar el corpus con los enlaces de `corpus/manifiesto_corpus.csv` y verificar cada sha256.
+3. Bajar los PDF con los enlaces de `corpus/manifiesto_corpus.csv` y verificar cada sha256.
 4. Instalar los paquetes de `requirements.txt` y correr las pruebas que no están declaradas arriba.
 
 ## Licencias
