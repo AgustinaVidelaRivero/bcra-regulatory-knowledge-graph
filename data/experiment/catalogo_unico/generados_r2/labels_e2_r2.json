@@ -1,0 +1,442 @@
+{
+ "Sujeto_sujeto_regulado": {
+  "label": "Sujetos regulados",
+  "nivel": "clase"
+ },
+ "Sujeto_entidad_financiera": {
+  "label": "Entidades financieras",
+  "nivel": "clase"
+ },
+ "Sujeto_banco": {
+  "label": "Bancos",
+  "nivel": "clase"
+ },
+ "Sujeto_banco_comercial": {
+  "label": "Bancos comerciales",
+  "nivel": "clase"
+ },
+ "Sujeto_compania_financiera": {
+  "label": "Compañías financieras",
+  "nivel": "clase"
+ },
+ "Sujeto_caja_de_credito": {
+  "label": "Cajas de crédito",
+  "nivel": "clase"
+ },
+ "Sujeto_caja_de_credito_cooperativa": {
+  "label": "Cajas de crédito cooperativas",
+  "nivel": "clase"
+ },
+ "Sujeto_entidad_cambiaria": {
+  "label": "Entidades cambiarias",
+  "nivel": "clase"
+ },
+ "Sujeto_casa_de_cambio": {
+  "label": "Casas de cambio",
+  "nivel": "clase"
+ },
+ "Sujeto_agencia_de_cambio": {
+  "label": "Agencias de cambio",
+  "nivel": "clase"
+ },
+ "Sujeto_proveedor_de_servicios_de_pago": {
+  "label": "Proveedores de servicios de pago",
+  "nivel": "clase"
+ },
+ "Sujeto_pspcp": {
+  "label": "Proveedores de servicios de pago que ofrecen cuentas de pago (PSPCP)",
+  "nivel": "clase"
+ },
+ "Sujeto_psi_billetera_digital": {
+  "label": "Proveedores de servicios de pago iniciadores que prestan el servicio de billetera digital (PSI)",
+  "nivel": "clase"
+ },
+ "Sujeto_proveedor_no_financiero_de_credito": {
+  "label": "Proveedores no financieros de crédito",
+  "nivel": "clase"
+ },
+ "Sujeto_empresa_no_financiera_emisora_de_tarjetas": {
+  "label": "Empresas no financieras emisoras de tarjetas de crédito y/o compra",
+  "nivel": "clase"
+ },
+ "Sujeto_pscpp": {
+  "label": "Proveedores de servicios de créditos entre particulares a través de plataformas (PSCPP)",
+  "nivel": "clase"
+ },
+ "Sujeto_fiduciario_de_fideicomiso_financiero": {
+  "label": "Fiduciarios de fideicomisos financieros",
+  "nivel": "clase"
+ },
+ "Sujeto_sociedad_de_garantia_reciproca": {
+  "label": "Sociedades de garantía recíproca",
+  "nivel": "clase"
+ },
+ "Sujeto_fondo_de_garantia_publico": {
+  "label": "Fondos de garantía de carácter público",
+  "nivel": "clase"
+ },
+ "Sujeto_entidad_de_contraparte_central": {
+  "label": "Entidades de contraparte central (CCP)",
+  "nivel": "clase"
+ },
+ "Sujeto_ccp_calificada": {
+  "label": "Entidades de contraparte central calificadas",
+  "nivel": "clase"
+ },
+ "Sujeto_ccp_no_calificada": {
+  "label": "Entidades de contraparte central no calificadas",
+  "nivel": "clase"
+ },
+ "Sujeto_miembro_compensador": {
+  "label": "Miembros compensadores",
+  "nivel": "clase"
+ },
+ "Sujeto_ecai": {
+  "label": "Agentes de calificación externa (ECAI)",
+  "nivel": "clase"
+ },
+ "Sujeto_sujeto_del_perimetro_consolidado": {
+  "label": "Sujetos del perímetro de supervisión consolidada",
+  "nivel": "clase"
+ },
+ "Sujeto_aseguradora": {
+  "label": "Aseguradoras",
+  "nivel": "clase"
+ },
+ "Sujeto_entidad_bursatil": {
+  "label": "Entidades bursátiles",
+  "nivel": "clase"
+ },
+ "Sujeto_empresa_de_servicios_complementarios": {
+  "label": "Empresas de servicios complementarios de la actividad financiera",
+  "nivel": "clase"
+ },
+ "Sujeto_entidad_girada": {
+  "label": "Entidades giradas",
+  "nivel": "clase"
+ },
+ "Sujeto_entidad_depositaria": {
+  "label": "Entidades depositarias",
+  "nivel": "clase"
+ },
+ "Sujeto_entidad_originante_de_transferencia": {
+  "label": "Entidades originantes",
+  "nivel": "clase"
+ },
+ "Sujeto_entidad_receptora": {
+  "label": "Entidades receptoras",
+  "nivel": "clase"
+ },
+ "Sujeto_camara_electronica_de_compensacion": {
+  "label": "Cámaras electrónicas de compensación (CEC)",
+  "nivel": "clase"
+ },
+ "Sujeto_titular_de_cuenta_corriente_en_el_bcra": {
+  "label": "Titulares de cuenta corriente en el BCRA",
+  "nivel": "clase"
+ },
+ "Sujeto_instancia_de_gobierno_societario": {
+  "label": "Instancias de gobierno societario",
+  "nivel": "clase"
+ },
+ "Sujeto_directorio": {
+  "label": "Directorio",
+  "nivel": "clase"
+ },
+ "Sujeto_alta_gerencia": {
+  "label": "Alta Gerencia",
+  "nivel": "clase"
+ },
+ "Sujeto_comite_de_auditoria": {
+  "label": "Comité de auditoría",
+  "nivel": "clase"
+ },
+ "Sujeto_contraparte": {
+  "label": "Contrapartes",
+  "nivel": "clase"
+ },
+ "Sujeto_cliente": {
+  "label": "Clientes",
+  "nivel": "clase"
+ },
+ "Sujeto_persona_humana": {
+  "label": "Personas humanas",
+  "nivel": "clase"
+ },
+ "Sujeto_persona_juridica": {
+  "label": "Personas jurídicas",
+  "nivel": "clase"
+ },
+ "Sujeto_universalidad": {
+  "label": "Patrimonios y otras universalidades",
+  "nivel": "clase"
+ },
+ "Sujeto_deudor": {
+  "label": "Deudores",
+  "nivel": "clase"
+ },
+ "Sujeto_usuario_de_servicios_financieros": {
+  "label": "Usuarios de servicios financieros",
+  "nivel": "clase"
+ },
+ "Sujeto_importador": {
+  "label": "Importadores",
+  "nivel": "clase"
+ },
+ "Sujeto_importador_de_bienes": {
+  "label": "Importadores de bienes",
+  "nivel": "clase"
+ },
+ "Sujeto_importador_de_servicios": {
+  "label": "Importadores de servicios",
+  "nivel": "clase"
+ },
+ "Sujeto_exportador": {
+  "label": "Exportadores",
+  "nivel": "clase"
+ },
+ "Sujeto_mipyme": {
+  "label": "MiPyMEs",
+  "nivel": "clase"
+ },
+ "Sujeto_emisor_de_titulos_de_deuda": {
+  "label": "Emisores de títulos de deuda",
+  "nivel": "clase"
+ },
+ "Sujeto_vpu_rigi": {
+  "label": "Vehículos de Proyecto Único (VPU) adheridos al RIGI",
+  "nivel": "clase"
+ },
+ "Sujeto_beneficiario_economia_conocimiento": {
+  "label": "Beneficiarios del Régimen de Promoción de la Economía del Conocimiento",
+  "nivel": "clase"
+ },
+ "Sujeto_sector_publico_no_financiero": {
+  "label": "Sector público no financiero",
+  "nivel": "clase"
+ },
+ "Sujeto_sector_privado_no_financiero": {
+  "label": "Sector privado no financiero",
+  "nivel": "clase"
+ },
+ "Sujeto_entidad_financiera_del_exterior": {
+  "label": "Entidades financieras del exterior",
+  "nivel": "clase"
+ },
+ "Sujeto_banco_del_exterior": {
+  "label": "Bancos del exterior",
+  "nivel": "clase"
+ },
+ "Sujeto_entidad_cambiaria_del_exterior": {
+  "label": "Entidades cambiarias del exterior",
+  "nivel": "clase"
+ },
+ "Sujeto_organismo_publico": {
+  "label": "Organismos públicos",
+  "nivel": "clase"
+ },
+ "Sujeto_gobierno_local": {
+  "label": "Gobiernos locales",
+  "nivel": "clase"
+ },
+ "Sujeto_organismo_internacional": {
+  "label": "Organismos internacionales",
+  "nivel": "clase"
+ },
+ "Sujeto_banco_multilateral_de_desarrollo": {
+  "label": "Bancos multilaterales de desarrollo",
+  "nivel": "clase"
+ },
+ "Sujeto_agencia_oficial_de_credito": {
+  "label": "Agencias oficiales de crédito",
+  "nivel": "clase"
+ },
+ "Sujeto_bcra": {
+  "label": "BCRA (Banco Central de la República Argentina)",
+  "nivel": "instancia"
+ },
+ "Sujeto_sefyc": {
+  "label": "SEFyC (Superintendencia de Entidades Financieras y Cambiarias)",
+  "nivel": "instancia"
+ },
+ "Sujeto_arca": {
+  "label": "ARCA (Agencia de Recaudación y Control Aduanero)",
+  "nivel": "instancia"
+ },
+ "Sujeto_ministerio_de_economia": {
+  "label": "Ministerio de Economía",
+  "nivel": "instancia"
+ },
+ "Sujeto_banco_central_del_exterior": {
+  "label": "Bancos centrales del exterior",
+  "nivel": "clase"
+ },
+ "Sujeto_fmi": {
+  "label": "FMI (Fondo Monetario Internacional)",
+  "nivel": "instancia"
+ },
+ "Sujeto_estructura": {
+  "label": "Estructuras y vehículos",
+  "nivel": "clase"
+ },
+ "Sujeto_fideicomiso": {
+  "label": "Fideicomisos",
+  "nivel": "clase"
+ },
+ "Sujeto_fideicomiso_financiero": {
+  "label": "Fideicomisos financieros",
+  "nivel": "clase"
+ },
+ "Sujeto_sociedad_de_proposito_especial": {
+  "label": "Entes de propósito especial (SPE)",
+  "nivel": "clase"
+ },
+ "Sujeto_fondo_comun_de_inversion": {
+  "label": "Fondos comunes de inversión",
+  "nivel": "clase"
+ },
+ "Sujeto_sujeto": {
+  "label": "Sujetos",
+  "nivel": "clase"
+ },
+ "Sujeto_rol_sujeto_obligado_proteccion": {
+  "label": "Sujetos obligados (Protección de usuarios)",
+  "nivel": "rol"
+ },
+ "Sujeto_rol_entidad_autorizada_exterior": {
+  "label": "Entidades autorizadas a operar en cambios (Exterior)",
+  "nivel": "rol"
+ },
+ "Sujeto_rol_obligado_a_clasificar_clasificacion": {
+  "label": "Obligados a clasificar deudores (Clasificación)",
+  "nivel": "rol"
+ },
+ "Sujeto_rol_entidad_comprendida_reginf": {
+  "label": "Entidades comprendidas (Régimen Informativo)",
+  "nivel": "rol"
+ },
+ "Sujeto_rol_alcance_capmin": {
+  "label": "Entidades alcanzadas (Capitales Mínimos)",
+  "nivel": "rol"
+ },
+ "Sujeto_rol_alcance_adrei": {
+  "label": "Entidades alcanzadas (Agregación de datos sobre riesgos: D-SIB)",
+  "nivel": "rol"
+ },
+ "Sujeto_rol_alcance_autenf": {
+  "label": "Autoridades comprendidas (Autoridades de entidades financieras)",
+  "nivel": "rol"
+ },
+ "Sujeto_rol_alcance_ccbcra": {
+  "label": "Entidades alcanzadas (Cuentas a la vista en el BCRA)",
+  "nivel": "rol"
+ },
+ "Sujeto_rol_alcance_convca": {
+  "label": "Entidades habilitadas (Conversión cambiaria)",
+  "nivel": "rol"
+ },
+ "Sujeto_rol_alcance_cryl": {
+  "label": "Sujetos habilitados (CRyL)",
+  "nivel": "rol"
+ },
+ "Sujeto_rol_alcance_ctacor": {
+  "label": "Entidades intervinientes (Cuentas de corresponsalía)",
+  "nivel": "rol"
+ },
+ "Sujeto_rol_alcance_depaho": {
+  "label": "Entidades intervinientes (Depósitos de ahorro)",
+  "nivel": "rol"
+ },
+ "Sujeto_rol_alcance_efemin": {
+  "label": "Entidades alcanzadas (Efectivo mínimo)",
+  "nivel": "rol"
+ },
+ "Sujeto_rol_alcance_fabcra": {
+  "label": "Entidades registrantes de firmas (Firmas autorizadas ante el BCRA)",
+  "nivel": "rol"
+ },
+ "Sujeto_rol_alcance_icmecma": {
+  "label": "Sujetos alcanzados (Comunicación por medios electrónicos)",
+  "nivel": "rol"
+ },
+ "Sujeto_rol_alcance_lavdin": {
+  "label": "Entidades alcanzadas (Prevención del lavado de activos)",
+  "nivel": "rol"
+ },
+ "Sujeto_rol_alcance_ordcom": {
+  "label": "Destinatarios de Comunicaciones (Ordenamiento de Comunicaciones)",
+  "nivel": "rol"
+ },
+ "Sujeto_rol_alcance_osapsa": {
+  "label": "Sujetos alcanzados (Otros servicios y actividades)",
+  "nivel": "rol"
+ },
+ "Sujeto_rol_alcance_pagjub": {
+  "label": "Entidades participantes (Pago de beneficios ANSES)",
+  "nivel": "rol"
+ },
+ "Sujeto_rol_alcance_pfmipyme": {
+  "label": "Plataformas para el financiamiento MiPyME (PFM)",
+  "nivel": "rol"
+ },
+ "Sujeto_rol_alcance_pimf": {
+  "label": "Infraestructuras del mercado financiero alcanzadas (PIMF)",
+  "nivel": "rol"
+ },
+ "Sujeto_rol_alcance_ratiofn": {
+  "label": "Entidades alcanzadas (Ratio de fondeo neto estable: D-SIB y suc. G-SIB)",
+  "nivel": "rol"
+ },
+ "Sujeto_rol_alcance_rdbcra": {
+  "label": "Personas sumariables (Régimen disciplinario del BCRA)",
+  "nivel": "rol"
+ },
+ "Sujeto_rol_alcance_repefe": {
+  "label": "Representantes de entidades financieras del exterior (Representantes)",
+  "nivel": "rol"
+ },
+ "Sujeto_rol_alcance_retype": {
+  "label": "Entidades bancarias participantes (Pago de retiros y pensiones militares)",
+  "nivel": "rol"
+ },
+ "Sujeto_rol_alcance_rmrtsd": {
+  "label": "Sujetos obligados (Servicios financieros digitales)",
+  "nivel": "rol"
+ },
+ "Sujeto_rol_alcance_rrci": {
+  "label": "Sujetos alcanzados (Respuesta y recuperación ante ciberincidentes)",
+  "nivel": "rol"
+ },
+ "Sujeto_rol_alcance_servco": {
+  "label": "Entidades alcanzadas (Servicios complementarios)",
+  "nivel": "rol"
+ },
+ "Sujeto_rol_alcance_snp_atm": {
+  "label": "Entidades alcanzadas (SNP - Cajeros automáticos)",
+  "nivel": "rol"
+ },
+ "Sujeto_rol_alcance_snp_debin": {
+  "label": "Entidades y PSPCP alcanzados (SNP - Débito Inmediato)",
+  "nivel": "rol"
+ },
+ "Sujeto_rol_alcance_snp_psp": {
+  "label": "Sujetos alcanzados (SNP - Proveedores de servicios de pago)",
+  "nivel": "rol"
+ },
+ "Sujeto_rol_alcance_snp_spd": {
+  "label": "Sujetos alcanzados (SNP - Servicios de pago)",
+  "nivel": "rol"
+ },
+ "Sujeto_rol_alcance_snp_tr_nc": {
+  "label": "Sujetos alcanzados (SNP - Transferencias - Normas complementarias)",
+  "nivel": "rol"
+ },
+ "Sujeto_rol_alcance_supcon": {
+  "label": "Entidades y empresas alcanzadas (Supervisión consolidada)",
+  "nivel": "rol"
+ },
+ "Sujeto_rol_alcance_traval": {
+  "label": "Sujetos comprendidos (Transportadoras de valores)",
+  "nivel": "rol"
+ }
+}

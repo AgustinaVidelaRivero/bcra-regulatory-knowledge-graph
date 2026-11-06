@@ -1,0 +1,5900 @@
+{
+ "corrida_vs_congelado": {
+  "diferencias_de_medicion": {
+   "capmin": {
+    "portada_comunicacion": [
+     "A 8418",
+     "A 8463"
+    ]
+   },
+   "cladeu": {
+    "portada_comunicacion": [
+     "A 8378",
+     "A 8443"
+    ]
+   },
+   "optico": {
+    "portada_comunicacion": [
+     "A 8462",
+     "A 8476"
+    ]
+   },
+   "ri_cm": {
+    "S7_paginas_con_marcador": [
+     8,
+     7
+    ]
+   }
+  },
+  "tos_con_pdf_distinto": [
+   "capmin",
+   "cladeu",
+   "ctacte",
+   "finsec",
+   "optico",
+   "ri_cm",
+   "ri_oc",
+   "ri_secoexpo",
+   "ri_tii",
+   "seggar",
+   "tasint"
+  ]
+ },
+ "fuentes": {
+  "indice_congelado": {
+   "ruta": "data/experiment/escalado_prep/indice_oficial_raw.json",
+   "sha256": "91dc9f864f0822ce363eef6159869194c0c2f51ac878979ab62ff8b47f89fec4"
+  },
+  "indice_corrida_2026_09_07": {
+   "ruta": "data/experiment/job_actualizacion/corridas/2026-09-07/indice_crudo.json",
+   "sha256": "91dc9f864f0822ce363eef6159869194c0c2f51ac878979ab62ff8b47f89fec4"
+  },
+  "indices_byte_identicos": true,
+  "pdfs_congelados": "escalado_prep/pdfs/<id>.pdf (152) y data/experiment/subset/ (5), vía lib_job.linea_base()",
+  "pdfs_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs",
+  "referencia_del_control": "índice y PDFs de la corrida del 2026-09-07 (último estado observado del sitio)"
+ },
+ "parametros": {
+  "claves_entrada": [
+   "archivo",
+   "titulo",
+   "titulo_truncado",
+   "url"
+  ],
+  "listas": [
+   "textos_ordenados",
+   "regimenes_informativos"
+  ],
+  "paginas_cabecera": 3,
+  "paginas_muestra": 5,
+  "re_ext": "\\.pdf$",
+  "re_pie_e0": [
+   "^Vigencia:?$",
+   "^Versi[oó]n:.*P[aá]gina\\s+\\d+",
+   "^\\d{1,2}/\\d{1,2}/\\d{2,4}$",
+   "^P[aá]gina\\s+\\d+$"
+  ],
+  "re_pie_lib_job": "Versi[óo]n\\s*:\\s*(\\d+)\\s*[ºa°]?\\s*\\.?\\s*COMUNICACI[ÓO]N\\s*[\\\"“”']?\\s*([A-Z])\\s*[\\\"“”']?\\s*(\\d{3,5})",
+  "re_portada_lib_job": "[Úú]ltima\\s+comunicaci[óo]n\\s+incorporada\\s*:\\s*[\\\"“”']?\\s*([A-Z])\\s*[\\\"“”']?\\s*(\\d{3,5})",
+  "re_url": "^https://www\\.bcra\\.gob\\.ar/archivos/Pdfs/Texord/(?P<archivo>[^/]+)$",
+  "tol_top_e0": 2.0,
+  "umbral_s7": 0.5
+ },
+ "por_to": {
+  "actgar": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "actgar",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 5,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 18,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     7,
+     10,
+     13,
+     16
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     4,
+     7,
+     10
+    ],
+    "portada_comunicacion": "A 7683",
+    "sha256": "146631df4b04e084d4419b5b702de320744490ebf1315f92a2ab9951b0ff2f40"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/actgar.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/actgar.pdf"
+  },
+  "adfsp": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "adfsp",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 7,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 41,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     7,
+     13,
+     19,
+     25,
+     31
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     7,
+     13,
+     19,
+     25,
+     31
+    ],
+    "portada_comunicacion": "A 6428",
+    "sha256": "952c9d64a06435fdb6cba94be704f04f5ffcc6be12ca4e8e735141caa1e52101"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/adfsp.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/adfsp.pdf"
+  },
+  "adrei": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "adrei",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 7,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 19,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     7,
+     10,
+     13,
+     16
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     4,
+     7,
+     10,
+     13,
+     16
+    ],
+    "portada_comunicacion": "A 6639",
+    "sha256": "44a2eea2e1d374d68e379924ede75896333b7957bde43de6dcf918f34faf5315"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/adrei.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/adrei.pdf"
+  },
+  "afiltr": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "afiltr",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 7,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": "portada_presente_pero_digitos_no_extraidos",
+    "paginas": 40,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     7,
+     13,
+     19,
+     25,
+     31
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     7,
+     13,
+     19,
+     25,
+     31
+    ],
+    "portada_comunicacion": null,
+    "sha256": "f4a50d1204cbaa1d88487a3b36934b037034efddc4d306df1cba1141b22ff37f"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/afiltr.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/afiltr.pdf"
+  },
+  "apnf": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "apnf",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 6,
+    "S7_paginas_con_texto": 7,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 15,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     5,
+     7,
+     9,
+     11
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     5,
+     7,
+     9,
+     11
+    ],
+    "portada_comunicacion": "A 7540",
+    "sha256": "473c26eef1708f823a7bb76b27c011a26d2e0d2cb9fe4964e4dddc9ce1ee5f3d"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/apnf.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/apnf.pdf"
+  },
+  "asomut": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "asomut",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 4,
+    "S7_paginas_con_texto": 6,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 7,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     4,
+     5
+    ],
+    "portada_comunicacion": "A 6428",
+    "sha256": "2d3a8a01e41366c92d9261cc740f8ed72939f228e31a5bc370e68370903d230a"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/asomut.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/asomut.pdf"
+  },
+  "autenf": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "autenf",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 7,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 25,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     5,
+     9,
+     13,
+     17,
+     21
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     5,
+     9,
+     13,
+     17
+    ],
+    "portada_comunicacion": "A 8383",
+    "sha256": "80df9a2712db09833132c4c9aa0a6944629632ece2d7371f0f0fe7b8d55ae6b4"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/autenf.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/autenf.pdf"
+  },
+  "ayccef": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ayccef",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 8,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 47,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     8,
+     15,
+     22,
+     29,
+     36
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     8,
+     15,
+     22,
+     29,
+     36
+    ],
+    "portada_comunicacion": "A 8242",
+    "sha256": "aa5e3e43a920c904d47e81526ea4a61ea6b683418a2d4890b3254a029e6de9c5"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ayccef.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ayccef.pdf"
+  },
+  "cajasc": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "cajasc",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 7,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 68,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     12,
+     23,
+     34,
+     45,
+     56
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     12,
+     23,
+     34,
+     45,
+     56
+    ],
+    "portada_comunicacion": "A 7083",
+    "sha256": "15b0623fd2897cfe7bcd81a5f9bd92ea239c2dfaa04053a9033fbf8c9dfa5d16"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/cajasc.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/cajasc.pdf"
+  },
+  "capmin": {
+   "corrida_igual_a_congelado": false,
+   "id_interno": "cap",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 7,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 206,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     35,
+     69,
+     103,
+     137,
+     171
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     35,
+     69,
+     103,
+     137,
+     171
+    ],
+    "portada_comunicacion": "A 8463",
+    "sha256": "462a6c9394d0cc592a10e03a9d0e8f13f20b1fb83529deb27a39e982b50f56ea"
+   },
+   "medicion_congelado": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 7,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 204,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     35,
+     69,
+     103,
+     137,
+     171
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     35,
+     69,
+     103,
+     137,
+     171
+    ],
+    "portada_comunicacion": "A 8418",
+    "sha256": "f6ab71be7783c4192e67c13ee84f1fc585c6ae5e05aa074961c9c59429280bb8"
+   },
+   "pdf_congelado": "data/experiment/subset/TO_capitales_minimos_actual.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/capmin.pdf"
+  },
+  "cateloc": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "cateloc",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 7,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 67,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     12,
+     23,
+     34,
+     45,
+     56
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     12,
+     23,
+     34,
+     45,
+     56
+    ],
+    "portada_comunicacion": "A 6209",
+    "sha256": "171b10a87cada780d976a90719bf450300ac0097043fc0c72f75d1d8ae311c27"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/cateloc.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/cateloc.pdf"
+  },
+  "ccbcra": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ccbcra",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 4,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 19,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     7,
+     10,
+     13,
+     16
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     4,
+     7
+    ],
+    "portada_comunicacion": "A 8131",
+    "sha256": "47e540cf4ace6c3d5758536c4160041b91bd683cc144bb7a6fdad9fe96824de2"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ccbcra.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ccbcra.pdf"
+  },
+  "cedin": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "cedin",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 7,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 22,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     7,
+     10,
+     13,
+     16
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     4,
+     7,
+     10,
+     13,
+     16
+    ],
+    "portada_comunicacion": "A 8131",
+    "sha256": "8bceea8fc48dba8650df2226119e3d5f5e8fdc123b7fbb729aa0cf630778063d"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/cedin.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/cedin.pdf"
+  },
+  "ceninf": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ceninf",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 8,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 23,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     7,
+     10,
+     13,
+     16
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     4,
+     10,
+     13,
+     16
+    ],
+    "portada_comunicacion": "A 8393",
+    "sha256": "18a0b119a2261c95b570bc091653691f0109365ca3739273e58a0d0a1d6e4b13"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ceninf.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ceninf.pdf"
+  },
+  "cescar": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "cescar",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 5,
+    "S7_paginas_con_texto": 6,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 10,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "portada_comunicacion": "A 8337",
+    "sha256": "e175b7c26173b78b025dd4f8be60b91a4d9a5b9f62798be9f76078c42f5fcb5e"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/cescar.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/cescar.pdf"
+  },
+  "cirmo3": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "cirmo3",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 7,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 107,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     18,
+     35,
+     52,
+     69,
+     86
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     18,
+     35,
+     52,
+     69,
+     86
+    ],
+    "portada_comunicacion": "A 8439",
+    "sha256": "6ffbf997cf218aa1033e2fc77a06779553edc6536f4d9c09f202ebdd6087cba0"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/cirmo3.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/cirmo3.pdf"
+  },
+  "cladeu": {
+   "corrida_igual_a_congelado": false,
+   "id_interno": "cla",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 6,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 60,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     11,
+     21,
+     31,
+     41,
+     51
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     11,
+     21,
+     31,
+     41
+    ],
+    "portada_comunicacion": "A 8443",
+    "sha256": "9717cc822cac66afcf7dbde0996c9904c483d5476b1b5f2641e0115e8e35b01f"
+   },
+   "medicion_congelado": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 6,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 60,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     11,
+     21,
+     31,
+     41,
+     51
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     11,
+     21,
+     31,
+     41
+    ],
+    "portada_comunicacion": "A 8378",
+    "sha256": "6e7f528d3fea7b756f15e1278eecd828f203f0651fc6f778212033de6a0883e2"
+   },
+   "pdf_congelado": "data/experiment/subset/TO_clasificacion_deudores_actual.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/cladeu.pdf"
+  },
+  "coltit": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "coltit",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 5,
+    "S7_paginas_con_texto": 7,
+    "lectura": "ok",
+    "limite_declarado": "portada_presente_pero_digitos_no_extraidos",
+    "paginas": 13,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     5,
+     7,
+     9,
+     11
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     5,
+     7
+    ],
+    "portada_comunicacion": null,
+    "sha256": "b4146c73ee0e88191501097848eabb62abb704d3360b434ec9f3766afcb8f603"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/coltit.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/coltit.pdf"
+  },
+  "consyr": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "consyr",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 5,
+    "S7_paginas_con_texto": 6,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 11,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "portada_comunicacion": "A 611",
+    "sha256": "88943bc138fbb6900a9f5b64c6008da52f9d214554d6064ec35e84282669201c"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/consyr.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/consyr.pdf"
+  },
+  "convca": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "convca",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 5,
+    "S7_paginas_con_texto": 6,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 8,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "portada_comunicacion": "A 3252",
+    "sha256": "76eb02662e453201368cf9414106a8cbfadaf2dc0a15257ccc5efc2b4aec32e0"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/convca.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/convca.pdf"
+  },
+  "cryl": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "cryl",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 7,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 31,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     6,
+     11,
+     16,
+     21,
+     26
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     6,
+     11,
+     16,
+     21,
+     26
+    ],
+    "portada_comunicacion": "A 8404",
+    "sha256": "5885e8e62278af8619791634d8f276a1c243396f2b3379f8dd61b1dae7f7e034"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/cryl.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/cryl.pdf"
+  },
+  "ctacor": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ctacor",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 5,
+    "S7_paginas_con_texto": 6,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 10,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "portada_comunicacion": "A 6709",
+    "sha256": "1ee99b4bd37ac482c133cd5a2a7ba99bb2707b19a0cd414d4a53e1300750589f"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ctacor.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ctacor.pdf"
+  },
+  "ctacte": {
+   "corrida_igual_a_congelado": false,
+   "id_interno": "ctacte",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 6,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 86,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     15,
+     29,
+     43,
+     57,
+     71
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     15,
+     29,
+     43,
+     57
+    ],
+    "portada_comunicacion": "A 8444",
+    "sha256": "40f68d1098e34b72c3aee7344a69c6f14038f01b0a5ebc14feaf86345204741a"
+   },
+   "medicion_congelado": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 6,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 86,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     15,
+     29,
+     43,
+     57,
+     71
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     15,
+     29,
+     43,
+     57
+    ],
+    "portada_comunicacion": "A 8444",
+    "sha256": "06969a2cafb898a7eee888fb524271947290006bc0824b4d50e62fc4bd465a3f"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ctacte.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ctacte.pdf"
+  },
+  "ctavis": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ctavis",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 7,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 54,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     10,
+     19,
+     28,
+     37,
+     46
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     10,
+     19,
+     28,
+     37,
+     46
+    ],
+    "portada_comunicacion": "A 8075",
+    "sha256": "e45db45d30a4c9d08ab92ce486af9bade23f11d90102b749cb16efa00bd93c7c"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ctavis.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ctavis.pdf"
+  },
+  "depaho": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "depaho",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 6,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 107,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     18,
+     35,
+     52,
+     69,
+     86
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     18,
+     35,
+     52,
+     69
+    ],
+    "portada_comunicacion": "A 8444",
+    "sha256": "d98ef03929e9e6604927a42d029f7d0cab30b30961374520a455ac23960b08fd"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/depaho.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/depaho.pdf"
+  },
+  "depinv": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "depinv",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 7,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 53,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     9,
+     17,
+     25,
+     33,
+     41
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     9,
+     17,
+     25,
+     33
+    ],
+    "portada_comunicacion": "A 8246",
+    "sha256": "8a85401c3ca9285b69c102cb2a4a8abd349582d84d7946709fd603d5d65dff3d"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/depinv.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/depinv.pdf"
+  },
+  "disres": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "disres",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 6,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 22,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     7,
+     10,
+     13,
+     16
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     4,
+     7,
+     10,
+     13
+    ],
+    "portada_comunicacion": "A 8410",
+    "sha256": "58d578921aa0181de2d49605bfaa9358c7dfc869e994b87ca21bb5bb4a777537"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/disres.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/disres.pdf"
+  },
+  "dmrd": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "dmrd",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 8,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 72,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     13,
+     25,
+     37,
+     49,
+     61
+    ],
+    "pie_paginas": [
+     1,
+     2,
+     3,
+     13,
+     25,
+     37,
+     49,
+     61
+    ],
+    "portada_comunicacion": null,
+    "sha256": "566c6597fbc2080371d79ae1c23add000e043a31e20ae35e26784cfd3bd30f9d"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/dmrd.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/dmrd.pdf"
+  },
+  "docvig": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "docvig",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 5,
+    "S7_paginas_con_texto": 7,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 14,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     5,
+     7,
+     9,
+     11
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     5,
+     7,
+     9
+    ],
+    "portada_comunicacion": "A 8338",
+    "sha256": "d2d8a0d39d69be8f99eac8aab243142fea370108aa15ad0db3879480f83afb61"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/docvig.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/docvig.pdf"
+  },
+  "efemin": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "efemin",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 5,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 53,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     9,
+     17,
+     25,
+     33,
+     41
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     9,
+     17,
+     25
+    ],
+    "portada_comunicacion": "A 8443",
+    "sha256": "327ab2bb64f67ba4ce6f469798d88ea6c61f61c0dc059ef8e60e624a1a180ea8"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/efemin.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/efemin.pdf"
+  },
+  "evacre": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "evacre",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 4,
+    "S7_paginas_con_texto": 6,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 7,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     4,
+     5
+    ],
+    "portada_comunicacion": "A 6528",
+    "sha256": "4bd834f77aa95fdcf722c160afc1cccf81067b20dbff72c92b8c80228edf6cd7"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/evacre.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/evacre.pdf"
+  },
+  "excbio": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ext",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 7,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 201,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     34,
+     67,
+     100,
+     133,
+     166
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     34,
+     67,
+     100,
+     133,
+     166
+    ],
+    "portada_comunicacion": "A 8307",
+    "sha256": "baea7264918877da132acca5f7ec6df1a3a33fd5be77109b90360a3d586bc130"
+   },
+   "pdf_congelado": "data/experiment/subset/TO_exterior_cambios_actual.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/excbio.pdf"
+  },
+  "expaef": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "expaef",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 6,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 37,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     7,
+     13,
+     19,
+     25,
+     31
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     7,
+     13,
+     19,
+     25
+    ],
+    "portada_comunicacion": "A 8401",
+    "sha256": "9cb78ac9e1c73b217275450031a056799bf7a9198e2575866dc3f85e4e705a25"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/expaef.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/expaef.pdf"
+  },
+  "fabcra": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "fabcra",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 0,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 19,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     7,
+     10,
+     13,
+     16
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     4,
+     7,
+     10,
+     13,
+     16
+    ],
+    "portada_comunicacion": "A 8414",
+    "sha256": "b5ce5bbfa47f9465e65b1a2dc3dd88831095a3e3af59bff982e53b454d2abe8c"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/fabcra.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/fabcra.pdf"
+  },
+  "fclef": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "fclef",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 5,
+    "S7_paginas_con_texto": 7,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 12,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     5,
+     7,
+     9,
+     11
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     5,
+     7,
+     9
+    ],
+    "portada_comunicacion": "A 6305",
+    "sha256": "97003cb27688f0513bb5f6ba746673d5862b4663e5864e99decd6c73fda934a6"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/fclef.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/fclef.pdf"
+  },
+  "fgarcp": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "fgarcp",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 5,
+    "S7_paginas_con_texto": 7,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 14,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     5,
+     7,
+     9,
+     11
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     5,
+     7,
+     9
+    ],
+    "portada_comunicacion": "A 8211",
+    "sha256": "ddf803cee4ec26e6aff3f84de7a6a254b1ebba81613d57aa94abd44df31f8a4b"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/fgarcp.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/fgarcp.pdf"
+  },
+  "fimipyme": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "fimipyme",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 7,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 25,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     5,
+     9,
+     13,
+     17,
+     21
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     5,
+     9,
+     13,
+     17
+    ],
+    "portada_comunicacion": "A 8018",
+    "sha256": "9c93538b24c99a555e594c60358a840bc29a57ccd280e40df2a23ebb44954d0c"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/fimipyme.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/fimipyme.pdf"
+  },
+  "finsec": {
+   "corrida_igual_a_congelado": false,
+   "id_interno": "finsec",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 6,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 62,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     11,
+     21,
+     31,
+     41,
+     51
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     11,
+     21,
+     31
+    ],
+    "portada_comunicacion": "A 8435",
+    "sha256": "30c6869efecdf1a287b95c1026b200cb8fbce7b8edd37de161b2c9c297629309"
+   },
+   "medicion_congelado": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 6,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 62,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     11,
+     21,
+     31,
+     41,
+     51
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     11,
+     21,
+     31
+    ],
+    "portada_comunicacion": "A 8435",
+    "sha256": "05726cbcda94d1cd622459208f6aa55edeea6c42eef073a70bb8f323719c38a9"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/finsec.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/finsec.pdf"
+  },
+  "garant": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "garant",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 7,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 25,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     5,
+     9,
+     13,
+     17,
+     21
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     5,
+     9,
+     13,
+     17
+    ],
+    "portada_comunicacion": "A 8447",
+    "sha256": "3cbe6da99bdfd463cde4f6814bebc4f14bcb97236becc162a3e5d2a4e5e861a9"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/garant.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/garant.pdf"
+  },
+  "garopt": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "garopt",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 5,
+    "S7_paginas_con_texto": 7,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 15,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     5,
+     7,
+     9,
+     11
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     5,
+     7,
+     9
+    ],
+    "portada_comunicacion": "A 6305",
+    "sha256": "8c49aa5783ab3d2455620c4fed18742dca3907ec9ca6cd95f51c35ddc2c378c3"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/garopt.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/garopt.pdf"
+  },
+  "gerc": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "gerc",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 8,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 46,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     8,
+     15,
+     22,
+     29,
+     36
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     8,
+     15,
+     22,
+     29,
+     36
+    ],
+    "portada_comunicacion": "A 8463",
+    "sha256": "bc4deb7d8663a9019b2ec4b82e4eed332144553ec04b55f9830be70cbb9b9c86"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/gerc.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/gerc.pdf"
+  },
+  "gescre": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "gescre",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 6,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 35,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     6,
+     11,
+     16,
+     21,
+     26
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     6,
+     11,
+     16,
+     21
+    ],
+    "portada_comunicacion": "A 8392",
+    "sha256": "4998cebcfc3978579fb4ea4f45d84112610b85e3499d4b1a4fc32204ce022e20"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/gescre.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/gescre.pdf"
+  },
+  "gracre": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "gracre",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 6,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 28,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     5,
+     9,
+     13,
+     17,
+     21
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     5,
+     9,
+     13,
+     17
+    ],
+    "portada_comunicacion": "A 8135",
+    "sha256": "7ab880bfbb6fc201f746e060a6f0682ba29934f147f3f9410adccfc77b99c826"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/gracre.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/gracre.pdf"
+  },
+  "graloc": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "graloc",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 7,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 30,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     6,
+     11,
+     16,
+     21,
+     26
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     6,
+     11,
+     16,
+     21,
+     26
+    ],
+    "portada_comunicacion": "A 6762",
+    "sha256": "27f1dd2368a2fd617b194d255de1fec5bd2fb1c33e97e2dfcca06743015e775d"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/graloc.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/graloc.pdf"
+  },
+  "horari": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "horari",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 0,
+    "S7_paginas_con_texto": 7,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 13,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     5,
+     7,
+     9,
+     11
+    ],
+    "pie_paginas": [
+     3,
+     5
+    ],
+    "portada_comunicacion": "A 3117",
+    "sha256": "93453e7fde903b6c5762db41165cbf24327097490ff0b2651766283ba4622d56"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/horari.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/horari.pdf"
+  },
+  "icmecma": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "icmecma",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 8,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 27,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     5,
+     9,
+     13,
+     17,
+     21
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     5,
+     9,
+     13,
+     17,
+     21
+    ],
+    "portada_comunicacion": "A 8433",
+    "sha256": "ee1626990b9a3de5e8bb22f05693f9fcc8b58f27f2f9ddc1b7165f85de4252c8"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/icmecma.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/icmecma.pdf"
+  },
+  "incuca": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "incuca",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 4,
+    "S7_paginas_con_texto": 7,
+    "lectura": "ok",
+    "limite_declarado": "portada_presente_pero_digitos_no_extraidos",
+    "paginas": 12,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     5,
+     7,
+     9,
+     11
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     5,
+     7
+    ],
+    "portada_comunicacion": null,
+    "sha256": "6d00bdd3e5aed1984d1981c325c7121f1f5f72d4e379f221abfb5fd5fbae5568"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/incuca.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/incuca.pdf"
+  },
+  "inspag": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "inspag",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 6,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 60,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     11,
+     21,
+     31,
+     41,
+     51
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     11,
+     21,
+     31,
+     41,
+     51
+    ],
+    "portada_comunicacion": "A 8424",
+    "sha256": "b6a43af2ef7db30f2835f884c7a4954b1f18d72dd153ead5f1c44bdb8e7c1b56"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/inspag.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/inspag.pdf"
+  },
+  "jafip": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "jafip",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 7,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 31,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     6,
+     11,
+     16,
+     21,
+     26
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     6,
+     11,
+     16,
+     21,
+     26
+    ],
+    "portada_comunicacion": "A 8177",
+    "sha256": "077f9a38af18a62ed444eb968f6c2209aa778d2db96d85e6d3a7e18b28dc24b6"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/jafip.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/jafip.pdf"
+  },
+  "lavdin": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "lavdin",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 5,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": "portada_presente_pero_digitos_no_extraidos",
+    "paginas": 19,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     7,
+     10,
+     13,
+     16
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     4,
+     7
+    ],
+    "portada_comunicacion": null,
+    "sha256": "4d88491ec342b5138bcd86b96f6c707564989314072ff2b632802b8adfc3e85e"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/lavdin.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/lavdin.pdf"
+  },
+  "lingeef": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "lingeef",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 7,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 172,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     29,
+     57,
+     85,
+     113,
+     141
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     29,
+     57,
+     85,
+     113,
+     141
+    ],
+    "portada_comunicacion": "A 8463",
+    "sha256": "0ff1dfcc04e73efc8f53dd551ca257dceb32b23c77d3be015cbc011d6bf9f918"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/lingeef.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/lingeef.pdf"
+  },
+  "lingob": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "lingob",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 7,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 24,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     5,
+     9,
+     13,
+     17,
+     21
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     5,
+     9,
+     17,
+     21
+    ],
+    "portada_comunicacion": "A 7465",
+    "sha256": "e3c7d7b3e689e8e9ebf67da6e3f29498718f5e4ab7bf5b56f50bc8813a6ab3b0"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/lingob.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/lingob.pdf"
+  },
+  "manori": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "manori",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 7,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 99,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     17,
+     33,
+     49,
+     65,
+     81
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     17,
+     33,
+     49,
+     65,
+     81
+    ],
+    "portada_comunicacion": "A 8131",
+    "sha256": "d1758b8f4e9ce6a32d7498f64123b0dab31b3f99229dbcf9590688087b073f09"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/manori.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/manori.pdf"
+  },
+  "manual": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "manual",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 2,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 2037,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     340,
+     679,
+     1018,
+     1357,
+     1696
+    ],
+    "pie_paginas": [
+     340,
+     1357
+    ],
+    "portada_comunicacion": null,
+    "sha256": "31be638ab5a944af8674f701e33a0456202bb370aa2884f551fb8dcd6c2c83a3"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/manual.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/manual.pdf"
+  },
+  "micemp": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "micemp",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 3,
+    "S7_paginas_con_texto": 6,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 8,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "pie_paginas": [
+     2,
+     3
+    ],
+    "portada_comunicacion": "A 7277",
+    "sha256": "47093fca8e4535702f1bd476fae74c48fd8748dae32fc995cca6beb607dfd804"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/micemp.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/micemp.pdf"
+  },
+  "nmaeef": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "nmaeef",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 8,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 69,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     12,
+     23,
+     34,
+     45,
+     56
+    ],
+    "pie_paginas": [
+     1,
+     2,
+     3,
+     12,
+     23,
+     34,
+     45,
+     56
+    ],
+    "portada_comunicacion": null,
+    "sha256": "3bf4a4451ad006441cea317abb04bc3924f11bef661f057fad59b6d0a94fe47e"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/nmaeef.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/nmaeef.pdf"
+  },
+  "nmcief": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "nmcief",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 8,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 36,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     7,
+     13,
+     19,
+     25,
+     31
+    ],
+    "pie_paginas": [
+     1,
+     2,
+     3,
+     7,
+     13,
+     19,
+     25,
+     31
+    ],
+    "portada_comunicacion": null,
+    "sha256": "467d9dc3afa4266c37b750df466925f15f761bcd0528437851aeed1560de6fad"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/nmcief.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/nmcief.pdf"
+  },
+  "opecam": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "opecam",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 7,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 32,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     6,
+     11,
+     16,
+     21,
+     26
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     6,
+     11,
+     16,
+     21
+    ],
+    "portada_comunicacion": "A 8219",
+    "sha256": "71dd714ba0706937fa1641239f4a0acb33c1d07546ccc359b0b396d8a171d40d"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/opecam.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/opecam.pdf"
+  },
+  "opefci": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "opefci",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 7,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 33,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     6,
+     11,
+     16,
+     21,
+     26
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     6,
+     11,
+     16,
+     21
+    ],
+    "portada_comunicacion": "A 8290",
+    "sha256": "1012372fc30d37a948f828b1e57c2e6ce47bf8d2393359d0aef307f6e97bcd89"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/opefci.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/opefci.pdf"
+  },
+  "optico": {
+   "corrida_igual_a_congelado": false,
+   "id_interno": "optico",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": false,
+    "S7_paginas_con_marcador": 0,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 43,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     8,
+     15,
+     22,
+     29,
+     36
+    ],
+    "pie_paginas": [],
+    "portada_comunicacion": "A 8476",
+    "sha256": "bb674ac70498bb3f46a89db4ffcc80aab39a894ab85482bc6c7d0613422d6e79"
+   },
+   "medicion_congelado": {
+    "S5_portada": true,
+    "S6_pie": false,
+    "S7_paginas_con_marcador": 0,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 43,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     8,
+     15,
+     22,
+     29,
+     36
+    ],
+    "pie_paginas": [],
+    "portada_comunicacion": "A 8462",
+    "sha256": "8d7070150294fd5a98768cca5d2c940b95bc0ac1f39f7918b737f827b9420a62"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/optico.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/optico.pdf"
+  },
+  "ordcom": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ordcom",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 8,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 22,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     7,
+     10,
+     13,
+     16
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     4,
+     7,
+     10,
+     13,
+     16
+    ],
+    "portada_comunicacion": "A 8131",
+    "sha256": "610fe53f1b0d8bc78f7d941e062e0e964777591063ad54e25fe90eef661be51e"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ordcom.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ordcom.pdf"
+  },
+  "osapsa": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "osapsa",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 5,
+    "S7_paginas_con_texto": 7,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 12,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     5,
+     7,
+     9,
+     11
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     5,
+     7
+    ],
+    "portada_comunicacion": "A 8128",
+    "sha256": "33698ecbb672e25821b7500db90d8278086dc9c05536d994908f9277fdb88afa"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/osapsa.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/osapsa.pdf"
+  },
+  "pagjub": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "pagjub",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 6,
+    "S7_paginas_con_texto": 7,
+    "lectura": "ok",
+    "limite_declarado": "portada_presente_pero_digitos_no_extraidos",
+    "paginas": 16,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     5,
+     7,
+     9,
+     11
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     5,
+     7,
+     9,
+     11
+    ],
+    "portada_comunicacion": null,
+    "sha256": "908445f273415d29780d19a86e19fddb7d6d75c541b381ef66eb48776474d997"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/pagjub.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/pagjub.pdf"
+  },
+  "pfmipyme": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "pfmipyme",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 7,
+    "S7_paginas_con_texto": 7,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 14,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     5,
+     7,
+     9,
+     11
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     5,
+     7,
+     9,
+     11
+    ],
+    "portada_comunicacion": "A 8176",
+    "sha256": "0f363bb60bd711413099313aed9a162611c43492e5c910769b7e27852174438d"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/pfmipyme.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/pfmipyme.pdf"
+  },
+  "pimf": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "pimf",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 7,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 29,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     5,
+     9,
+     13,
+     17,
+     21
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     5,
+     9,
+     13,
+     17,
+     21
+    ],
+    "portada_comunicacion": "A 8457",
+    "sha256": "fa6d9f606c185024b620a567d0b6f67330246c9e7f8cce682bf9f6509af82216"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/pimf.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/pimf.pdf"
+  },
+  "plandecuentas": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "plandecuentas",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 7,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 77,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     13,
+     25,
+     37,
+     49,
+     61
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     13,
+     25,
+     37,
+     49,
+     61
+    ],
+    "portada_comunicacion": null,
+    "sha256": "b4035d06507f5b28686db7e54952eb8fe44fd875ddb1472c1d4a64e3d61b04a6"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/plandecuentas.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/plandecuentas.pdf"
+  },
+  "pognme": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "pognme",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 4,
+    "S7_paginas_con_texto": 7,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 14,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     5,
+     7,
+     9,
+     11
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     5,
+     7
+    ],
+    "portada_comunicacion": "A 8360",
+    "sha256": "c3ebde1ed97bc5040d20cec6b4ab51c3d3438d6feb9c542b71db77e8fc482731"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/pognme.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/pognme.pdf"
+  },
+  "polcre": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "polcre",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 7,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 32,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     6,
+     11,
+     16,
+     21,
+     26
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     6,
+     11,
+     16,
+     21
+    ],
+    "portada_comunicacion": "A 8446",
+    "sha256": "7b94ea5d8d5f99baacfff7787bf11f94cba23cc0d406261bdcb2764edd409b04"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/polcre.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/polcre.pdf"
+  },
+  "prevmi": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "prevmi",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 6,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 25,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     5,
+     9,
+     13,
+     17,
+     21
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     5,
+     9,
+     13,
+     17
+    ],
+    "portada_comunicacion": "A 7983",
+    "sha256": "9c47e28525186a7f22a341a7424bcf97fd4e084114e4eca30a378699bc48ef9b"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/prevmi.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/prevmi.pdf"
+  },
+  "pscpp": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "pscpp",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 5,
+    "S7_paginas_con_texto": 6,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 10,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "portada_comunicacion": "A 8131",
+    "sha256": "a64a2ce1d08f3b77079b733ee04c25b6c64d650af34225513a7f341a8656029a"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/pscpp.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/pscpp.pdf"
+  },
+  "pusf": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "pro",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 7,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 40,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     7,
+     13,
+     19,
+     25,
+     31
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     7,
+     13,
+     19,
+     25,
+     31
+    ],
+    "portada_comunicacion": "A 8433",
+    "sha256": "48564cc714daa9a8c8bbd7115dfe006307ca7cb1c3d78b106c52555fe75a12ec"
+   },
+   "pdf_congelado": "data/experiment/subset/TO_proteccion_usuarios_servicios_financieros_actual.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/pusf.pdf"
+  },
+  "raapal": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "raapal",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 5,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 20,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     7,
+     10,
+     13,
+     16
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     4,
+     7,
+     10,
+     13,
+     16
+    ],
+    "portada_comunicacion": "A 8109",
+    "sha256": "f091b1d8c6efdf2baa48c53e5eccb6acd8ffa4e13676904a75dca4fa3caa1f75"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/raapal.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/raapal.pdf"
+  },
+  "ratio": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ratio",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 7,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 46,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     8,
+     15,
+     22,
+     29,
+     36
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     8,
+     15,
+     22,
+     29,
+     36
+    ],
+    "portada_comunicacion": "A 8445",
+    "sha256": "35a5ef79c8d20b49dd398859fddf8e0e3b9a861f70db2effa8a369231f9b12df"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ratio.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ratio.pdf"
+  },
+  "ratiofn": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ratiofn",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 8,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 29,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     5,
+     9,
+     13,
+     17,
+     21
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     5,
+     9,
+     13,
+     17,
+     21
+    ],
+    "portada_comunicacion": "A 8445",
+    "sha256": "681a7c3b76a6a023b000dbe3e5ab89cc3364e774f451277a378b7032073dd7b4"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ratiofn.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ratiofn.pdf"
+  },
+  "rdbcra": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "rdbcra",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 8,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 54,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     10,
+     19,
+     28,
+     37,
+     46
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     10,
+     19,
+     28,
+     37,
+     46
+    ],
+    "portada_comunicacion": "A 8415",
+    "sha256": "82eeb02d8c4a5cf4d47b67e14b2edd5128d550a2be0424b0a617dea99f800806"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/rdbcra.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/rdbcra.pdf"
+  },
+  "regpri": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "regpri",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 3,
+    "S7_paginas_con_texto": 6,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 10,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "portada_comunicacion": "A 6639",
+    "sha256": "6196a9b5faac984a0bd39ace303fa901a3ee90a299decec7c9f35d39df16efbd"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/regpri.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/regpri.pdf"
+  },
+  "relact": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "relact",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 5,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 20,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     7,
+     10,
+     13,
+     16
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     4,
+     7,
+     10
+    ],
+    "portada_comunicacion": "A 7683",
+    "sha256": "db015680c1e86fdff9ffc2c77b8df61a208ee9cb01e088adc40a858b0d596a86"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/relact.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/relact.pdf"
+  },
+  "repefe": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "repefe",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 6,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 25,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     5,
+     9,
+     13,
+     17,
+     21
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     5,
+     9,
+     13,
+     17
+    ],
+    "portada_comunicacion": "A 6462",
+    "sha256": "a254d52d3f88e4edab9b6d16b1207a93b36b6cbda869200701e708867b35d2a3"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/repefe.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/repefe.pdf"
+  },
+  "reqcac": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "reqcac",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 5,
+    "S7_paginas_con_texto": 6,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 10,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "portada_comunicacion": "A 6305",
+    "sha256": "d956ac67e61f00ab88c62fe95801ed20d62e545a56e11beea8c1c9674efa294f"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/reqcac.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/reqcac.pdf"
+  },
+  "retype": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "retype",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 2,
+    "S7_paginas_con_texto": 7,
+    "lectura": "ok",
+    "limite_declarado": "portada_presente_pero_digitos_no_extraidos",
+    "paginas": 13,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     5,
+     7,
+     9,
+     11
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     5,
+     7,
+     9
+    ],
+    "portada_comunicacion": null,
+    "sha256": "4aed2d774c5952a5796889dfdaf0898c35b318098b834861bdf6334c9b875a3c"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/retype.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/retype.pdf"
+  },
+  "ri2_ae": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri2_ae",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 8,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 44,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     8,
+     15,
+     22,
+     29,
+     36
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     8,
+     15,
+     22,
+     29,
+     36
+    ],
+    "portada_comunicacion": "A 7721",
+    "sha256": "ff3700f4e6678610cc7189a7655931a1571ae20daf0ade6b8c2323ef6e4b2b65"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri2_ae.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri2_ae.pdf"
+  },
+  "ri2_ci": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri2_ci",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 7,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 26,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     5,
+     9,
+     13,
+     17,
+     21
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     5,
+     9,
+     13,
+     17,
+     21
+    ],
+    "portada_comunicacion": "A 7722",
+    "sha256": "7ed31fcd22c9183751e13b1c3db5a6e88a606fdb2dbe2487db46f90a2b8c9dd1"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri2_ci.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri2_ci.pdf"
+  },
+  "ri2_cs": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri2_cs",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 8,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 31,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     6,
+     11,
+     16,
+     21,
+     26
+    ],
+    "pie_paginas": [
+     1,
+     2,
+     3,
+     6,
+     11,
+     16,
+     21,
+     26
+    ],
+    "portada_comunicacion": null,
+    "sha256": "27d9cca8a2f61c82e0aca1536279dbbd314399ad3b75ae4dd3bf703c296c97f8"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri2_cs.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri2_cs.pdf"
+  },
+  "ri2_pm": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri2_pm",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 3,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 376,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     63,
+     125,
+     187,
+     249,
+     311
+    ],
+    "pie_paginas": [
+     1,
+     2,
+     3,
+     63,
+     125,
+     187,
+     249,
+     311
+    ],
+    "portada_comunicacion": null,
+    "sha256": "fd6b52c23274b5a6df5293d473696517b41761ae60917be801f83209c0c888a9"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri2_pm.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri2_pm.pdf"
+  },
+  "ri_acsf": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_acsf",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 3,
+    "S7_paginas_con_texto": 3,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 3,
+    "paginas_sondeo": [
+     1,
+     2,
+     3
+    ],
+    "pie_paginas": [
+     1,
+     2,
+     3
+    ],
+    "portada_comunicacion": null,
+    "sha256": "14c314c5e6e8571ed5186a44fee7a296694a89c7448bbda3a003c1eea9604a3a"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_acsf.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_acsf.pdf"
+  },
+  "ri_ai": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_ai",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 6,
+    "S7_paginas_con_texto": 6,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 9,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "pie_paginas": [
+     1,
+     2,
+     4,
+     5,
+     6
+    ],
+    "portada_comunicacion": null,
+    "sha256": "51b9b374d3f5043673c5882388234c865da43f10033813f5eba0e8dc8e18f325"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_ai.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_ai.pdf"
+  },
+  "ri_ao": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_ao",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 1,
+    "S7_paginas_con_texto": 1,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 1,
+    "paginas_sondeo": [
+     1
+    ],
+    "pie_paginas": [
+     1
+    ],
+    "portada_comunicacion": null,
+    "sha256": "9be2e3474f5bde16a509efec9ea876cede718dc7a7d61aded7fe27f4f1c7db5f"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_ao.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_ao.pdf"
+  },
+  "ri_bdp": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_bdp",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 3,
+    "S7_paginas_con_texto": 3,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 3,
+    "paginas_sondeo": [
+     1,
+     2,
+     3
+    ],
+    "pie_paginas": [
+     1,
+     2,
+     3
+    ],
+    "portada_comunicacion": null,
+    "sha256": "44de137a7f5162860433fb9e0714cbab09edd56a57fef976dab59d7f8b614af3"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_bdp.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_bdp.pdf"
+  },
+  "ri_cc": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_cc",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": false,
+    "S7_paginas_con_marcador": 8,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": "el_documento_no_imprime_procedencia",
+    "paginas": 118,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     20,
+     39,
+     58,
+     77,
+     96
+    ],
+    "pie_paginas": [],
+    "portada_comunicacion": null,
+    "sha256": "416bbc7813d6f29f2ecc01103559313f736dd8c35f007fdf28b41eea5289f5cd"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_cc.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_cc.pdf"
+  },
+  "ri_ccna": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_ccna",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": false,
+    "S7_paginas_con_marcador": 6,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": "el_documento_no_imprime_procedencia",
+    "paginas": 60,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     11,
+     21,
+     31,
+     41,
+     51
+    ],
+    "pie_paginas": [],
+    "portada_comunicacion": null,
+    "sha256": "d2bfb3c0bb64a3ebdc7fba84077479057e8ced9a07ba59507bd5f336830c7738"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_ccna.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_ccna.pdf"
+  },
+  "ri_ccpnp": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_ccpnp",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": false,
+    "S7_paginas_con_marcador": 6,
+    "S7_paginas_con_texto": 6,
+    "lectura": "ok",
+    "limite_declarado": "el_documento_no_imprime_procedencia",
+    "paginas": 11,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "pie_paginas": [],
+    "portada_comunicacion": null,
+    "sha256": "4f5352573ac2a7895842a43b1eb36cb7659bdb55f211b3024fe9e48ed806ca86"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_ccpnp.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_ccpnp.pdf"
+  },
+  "ri_chr": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_chr",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 1,
+    "S7_paginas_con_texto": 1,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 1,
+    "paginas_sondeo": [
+     1
+    ],
+    "pie_paginas": [
+     1
+    ],
+    "portada_comunicacion": null,
+    "sha256": "463e1ff3940c748ae64c3a0e25fbe162de244f9bc398b04907eb388fcb20ddee"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_chr.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_chr.pdf"
+  },
+  "ri_cm": {
+   "corrida_igual_a_congelado": false,
+   "id_interno": "ric",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 7,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 59,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     10,
+     19,
+     28,
+     37,
+     46
+    ],
+    "pie_paginas": [
+     1,
+     2,
+     3,
+     10,
+     19,
+     28,
+     37,
+     46
+    ],
+    "portada_comunicacion": null,
+    "sha256": "1f3c5d3a47246434b0766bc70669880ba1e182a3e65bacaeeadd60b4780a8223"
+   },
+   "medicion_congelado": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 8,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 59,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     10,
+     19,
+     28,
+     37,
+     46
+    ],
+    "pie_paginas": [
+     1,
+     2,
+     3,
+     10,
+     19,
+     28,
+     37,
+     46
+    ],
+    "portada_comunicacion": null,
+    "sha256": "754c888ae6034f63eb04991c5cad441435b6bf6f8e8fb3669fd2bb279c3b35d5"
+   },
+   "pdf_congelado": "data/experiment/subset/TO_regimen_informativo_contable_mensual_actual.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_cm.pdf"
+  },
+  "ri_con": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_con",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 7,
+    "S7_paginas_con_texto": 7,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 16,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     5,
+     7,
+     9,
+     11
+    ],
+    "pie_paginas": [
+     1,
+     2,
+     3,
+     5,
+     7,
+     9,
+     11
+    ],
+    "portada_comunicacion": null,
+    "sha256": "5acebbbb9f62edf14ee0de953a0bcd72cfdfdc804902c0a6775b9c37587ab0cf"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_con.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_con.pdf"
+  },
+  "ri_cr": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_cr",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 5,
+    "S7_paginas_con_texto": 5,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 5,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "pie_paginas": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "portada_comunicacion": null,
+    "sha256": "f5c6ead3a4df75dbd17b889c91a8f20b7c7484a82f3d2d16a6f75de95481b978"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_cr.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_cr.pdf"
+  },
+  "ri_dcpc": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_dcpc",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 8,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 44,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     8,
+     15,
+     22,
+     29,
+     36
+    ],
+    "pie_paginas": [
+     1,
+     2,
+     3,
+     8,
+     15,
+     22,
+     29,
+     36
+    ],
+    "portada_comunicacion": null,
+    "sha256": "20621470038326adf4c08a45a35284041235270483fb0aa2527acb4b99a00561"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_dcpc.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_dcpc.pdf"
+  },
+  "ri_dsf": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_dsf",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 7,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 31,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     6,
+     11,
+     16,
+     21,
+     26
+    ],
+    "pie_paginas": [
+     1,
+     2,
+     3,
+     6,
+     11,
+     21
+    ],
+    "portada_comunicacion": null,
+    "sha256": "cb7ce9a104ca66e0a33b94604f2cb35586d881f72590356919a283d76d6103ff"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_dsf.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_dsf.pdf"
+  },
+  "ri_esd": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_esd",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 3,
+    "S7_paginas_con_texto": 3,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 3,
+    "paginas_sondeo": [
+     1,
+     2,
+     3
+    ],
+    "pie_paginas": [
+     1,
+     2,
+     3
+    ],
+    "portada_comunicacion": null,
+    "sha256": "c6dde3e130363a35beffeb65e395f86d5cfb91a31c078bbb47fa329594dcea74"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_esd.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_esd.pdf"
+  },
+  "ri_fcem": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_fcem",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 1,
+    "S7_paginas_con_texto": 1,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 1,
+    "paginas_sondeo": [
+     1
+    ],
+    "pie_paginas": [
+     1
+    ],
+    "portada_comunicacion": null,
+    "sha256": "aa0d38a9d1799fcb821bfcf454a5e47af18917f9bdfad540c3e274084c75354a"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_fcem.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_fcem.pdf"
+  },
+  "ri_gerc": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_gerc",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 6,
+    "S7_paginas_con_texto": 6,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 8,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "pie_paginas": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "portada_comunicacion": null,
+    "sha256": "a774cd6053454509b3c133451ba4c8ab604ba0caaaeff8609b633646c3da097e"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_gerc.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_gerc.pdf"
+  },
+  "ri_icpipsp": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_icpipsp",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 1,
+    "S7_paginas_con_texto": 7,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 13,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     5,
+     7,
+     9,
+     11
+    ],
+    "pie_paginas": [
+     1
+    ],
+    "portada_comunicacion": null,
+    "sha256": "abed80a9fa2895881906364c4404e35c822fe108f446d349c2726eded55c83e7"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_icpipsp.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_icpipsp.pdf"
+  },
+  "ri_ieccm": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_ieccm",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 1,
+    "S7_paginas_con_texto": 1,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 1,
+    "paginas_sondeo": [
+     1
+    ],
+    "pie_paginas": [
+     1
+    ],
+    "portada_comunicacion": null,
+    "sha256": "e42f8562b41433bebb2660e29cc906955aa0df8905cc704bab13979ee4fa1657"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_ieccm.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_ieccm.pdf"
+  },
+  "ri_iepsp": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_iepsp",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 1,
+    "S7_paginas_con_texto": 6,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 9,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "pie_paginas": [
+     1
+    ],
+    "portada_comunicacion": null,
+    "sha256": "f0bd6c20796e8db327f77f0cda1d0910c84758b9d26c5dfbb278f3e3d99795dc"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_iepsp.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_iepsp.pdf"
+  },
+  "ri_iesinap": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_iesinap",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 1,
+    "S7_paginas_con_texto": 6,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 6,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "pie_paginas": [
+     1
+    ],
+    "portada_comunicacion": null,
+    "sha256": "4fc49dec690f463ddb7b6c47753ba267bde0b527406b3aab0c0446a469cfb259"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_iesinap.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_iesinap.pdf"
+  },
+  "ri_ii_31_12_19": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_ii_31_12_19",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 6,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 21,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     7,
+     10,
+     13,
+     16
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     10,
+     13,
+     16
+    ],
+    "portada_comunicacion": null,
+    "sha256": "d6cae105f24cbb0cce48a752860f041c1fd6a870a5fe6beea206847188da251e"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_ii_31_12_19.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_ii_31_12_19.pdf"
+  },
+  "ri_itme": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_itme",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 1,
+    "S7_paginas_con_texto": 1,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 1,
+    "paginas_sondeo": [
+     1
+    ],
+    "pie_paginas": [
+     1
+    ],
+    "portada_comunicacion": null,
+    "sha256": "14d06bef02f65f71ee35027a12f96efe3562348ae8eb6ed19da6460465e47adb"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_itme.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_itme.pdf"
+  },
+  "ri_laft": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_laft",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 6,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 45,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     8,
+     15,
+     22,
+     29,
+     36
+    ],
+    "pie_paginas": [
+     1,
+     2,
+     3,
+     8,
+     15,
+     22,
+     29,
+     36
+    ],
+    "portada_comunicacion": null,
+    "sha256": "0426e9d1102f0ba4fac0a88229155ae1aed5ede048651b33c32aebe652ab821e"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_laft.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_laft.pdf"
+  },
+  "ri_mmsef": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_mmsef",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 6,
+    "S7_paginas_con_texto": 6,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 9,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "pie_paginas": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "portada_comunicacion": null,
+    "sha256": "6da98633ca26dbc3f9771860a07980ccc02100174373c53143145a1e227bb84f"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_mmsef.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_mmsef.pdf"
+  },
+  "ri_msrl": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_msrl",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 8,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 20,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     7,
+     10,
+     13,
+     16
+    ],
+    "pie_paginas": [
+     1,
+     2,
+     3,
+     4,
+     7,
+     10,
+     13,
+     16
+    ],
+    "portada_comunicacion": null,
+    "sha256": "0b464c222a762596c6d095673315ac177a22cf085b5f8c71e80c48355275aa5d"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_msrl.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_msrl.pdf"
+  },
+  "ri_nge": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_nge",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 3,
+    "S7_paginas_con_texto": 3,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 3,
+    "paginas_sondeo": [
+     1,
+     2,
+     3
+    ],
+    "pie_paginas": [
+     1,
+     2,
+     3
+    ],
+    "portada_comunicacion": null,
+    "sha256": "e52600be917c525911371e606977d63463a2a78cf0973ed650f9263648fa1b1f"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_nge.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_nge.pdf"
+  },
+  "ri_niif": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_niif",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 8,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 86,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     15,
+     29,
+     43,
+     57,
+     71
+    ],
+    "pie_paginas": [
+     1,
+     2,
+     3,
+     15,
+     29,
+     43,
+     57,
+     71
+    ],
+    "portada_comunicacion": null,
+    "sha256": "7b9d87ea5a6eaa8cac2f90174b5436c05b25a6670fcdc684dff971a83013fda3"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_niif.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_niif.pdf"
+  },
+  "ri_oc": {
+   "corrida_igual_a_congelado": false,
+   "id_interno": "ri_oc",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 8,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 29,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     5,
+     9,
+     13,
+     17,
+     21
+    ],
+    "pie_paginas": [
+     1,
+     2,
+     3,
+     5,
+     9,
+     13,
+     17,
+     21
+    ],
+    "portada_comunicacion": null,
+    "sha256": "f871df59a17963a9b4865d225a3f2050d1fcceb56c8878503346105ddb8fae92"
+   },
+   "medicion_congelado": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 8,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 28,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     5,
+     9,
+     13,
+     17,
+     21
+    ],
+    "pie_paginas": [
+     1,
+     2,
+     3,
+     5,
+     9,
+     13,
+     17,
+     21
+    ],
+    "portada_comunicacion": null,
+    "sha256": "6f539d2c6975dd20e6d7ac30ad42fd08e3aa8b1ef87485448183a370d7e84e34"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_oc.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_oc.pdf"
+  },
+  "ri_ot": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_ot",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 6,
+    "S7_paginas_con_texto": 6,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 6,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "pie_paginas": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "portada_comunicacion": null,
+    "sha256": "d2aa67afb80da2ede2aec85fa9c1a5b83880c5a1eb80a3fdf6291688a6e77833"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_ot.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_ot.pdf"
+  },
+  "ri_pfmipyme": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_pfmipyme",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 1,
+    "S7_paginas_con_texto": 1,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 1,
+    "paginas_sondeo": [
+     1
+    ],
+    "pie_paginas": [
+     1
+    ],
+    "portada_comunicacion": null,
+    "sha256": "aba43a5dd6e95985c376525e813ab29d97cbe946f7233b4208c631ef8fd3da8c"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_pfmipyme.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_pfmipyme.pdf"
+  },
+  "ri_pgn": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_pgn",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 8,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 19,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     7,
+     10,
+     13,
+     16
+    ],
+    "pie_paginas": [
+     1,
+     2,
+     3,
+     4,
+     7,
+     10,
+     13,
+     16
+    ],
+    "portada_comunicacion": null,
+    "sha256": "57ae2dd85117235f734e971f101f70197d47bc5d438829c1a3c89b63ae513a9d"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_pgn.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_pgn.pdf"
+  },
+  "ri_pnp": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_pnp",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 8,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 44,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     8,
+     15,
+     22,
+     29,
+     36
+    ],
+    "pie_paginas": [
+     1,
+     2,
+     3,
+     8,
+     15,
+     22,
+     29,
+     36
+    ],
+    "portada_comunicacion": null,
+    "sha256": "c03bd5ec007e4845dac7f4b9f191fc2d4a79d1baf4a4543504bcd896c9308878"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_pnp.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_pnp.pdf"
+  },
+  "ri_pscpp": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_pscpp",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 1,
+    "S7_paginas_con_texto": 1,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 1,
+    "paginas_sondeo": [
+     1
+    ],
+    "pie_paginas": [
+     1
+    ],
+    "portada_comunicacion": null,
+    "sha256": "8422fbbed7c96476ce9dc9dc6b8c1b22ed1cf94fec46ffdd17926a5d2bb3a553"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_pscpp.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_pscpp.pdf"
+  },
+  "ri_psp": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_psp",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 7,
+    "S7_paginas_con_texto": 7,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 14,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     5,
+     7,
+     9,
+     11
+    ],
+    "pie_paginas": [
+     1,
+     2,
+     3,
+     5,
+     7,
+     9,
+     11
+    ],
+    "portada_comunicacion": null,
+    "sha256": "20f07c8ba05c11e8195eb45bfac61141eb86cb273ea04a5b4284cac039213141"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_psp.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_psp.pdf"
+  },
+  "ri_pspapt": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_pspapt",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 5,
+    "S7_paginas_con_texto": 5,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 5,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "pie_paginas": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "portada_comunicacion": null,
+    "sha256": "ee234c1672698d0faaae2211400fb9bbc1a503b62123f65cc3079f7a543292ad"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_pspapt.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_pspapt.pdf"
+  },
+  "ri_pspii": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_pspii",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 1,
+    "S7_paginas_con_texto": 1,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 1,
+    "paginas_sondeo": [
+     1
+    ],
+    "pie_paginas": [
+     1
+    ],
+    "portada_comunicacion": null,
+    "sha256": "f197b9593dd67c01cabed62915be651f71cfef1ea36ce23fcdb27f17856e4510"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_pspii.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_pspii.pdf"
+  },
+  "ri_psprca": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_psprca",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 6,
+    "S7_paginas_con_texto": 6,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 6,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "pie_paginas": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "portada_comunicacion": null,
+    "sha256": "9b486fb779b55a8b67fb5e98cb522e258c4e65c950d9fa2dfd7eb342dced6e65"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_psprca.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_psprca.pdf"
+  },
+  "ri_rcl": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_rcl",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 2,
+    "S7_paginas_con_texto": 2,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 2,
+    "paginas_sondeo": [
+     1,
+     2
+    ],
+    "pie_paginas": [
+     1,
+     2
+    ],
+    "portada_comunicacion": null,
+    "sha256": "26ed30aaeadc2216e413edf2ee59c4975d200a4d8b4a1e317f7220d1924a19b6"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_rcl.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_rcl.pdf"
+  },
+  "ri_rem": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_rem",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 2,
+    "S7_paginas_con_texto": 2,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 2,
+    "paginas_sondeo": [
+     1,
+     2
+    ],
+    "pie_paginas": [
+     1,
+     2
+    ],
+    "portada_comunicacion": null,
+    "sha256": "7364c4fe6475131dcc0edeb5d719484c95da7311432aec6206d0fee5b5b0c897"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_rem.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_rem.pdf"
+  },
+  "ri_rml": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_rml",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 8,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 77,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     13,
+     25,
+     37,
+     49,
+     61
+    ],
+    "pie_paginas": [
+     1,
+     2,
+     3,
+     13,
+     25,
+     37,
+     49,
+     61
+    ],
+    "portada_comunicacion": null,
+    "sha256": "064499583aac9ee947c5f1c222869ae9959d5acb9e3b038aa5d8699b5b2c1a96"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_rml.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_rml.pdf"
+  },
+  "ri_saofe": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_saofe",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 3,
+    "S7_paginas_con_texto": 3,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 3,
+    "paginas_sondeo": [
+     1,
+     2,
+     3
+    ],
+    "pie_paginas": [
+     1,
+     2,
+     3
+    ],
+    "portada_comunicacion": null,
+    "sha256": "5f676002e294fbf6d98f5f0d3a0eea9abe0441acc2d270e3f7d4942498340991"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_saofe.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_saofe.pdf"
+  },
+  "ri_secoexpo": {
+   "corrida_igual_a_congelado": false,
+   "id_interno": "ri_secoexpo",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 8,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 21,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     7,
+     10,
+     13,
+     16
+    ],
+    "pie_paginas": [
+     1,
+     2,
+     3,
+     4,
+     7,
+     10,
+     13,
+     16
+    ],
+    "portada_comunicacion": null,
+    "sha256": "81099c796d9a3d594fe9ebe6f1915a3f9cb5e094100538b8e2a60686730cefae"
+   },
+   "medicion_congelado": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 8,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 21,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     7,
+     10,
+     13,
+     16
+    ],
+    "pie_paginas": [
+     1,
+     2,
+     3,
+     4,
+     7,
+     10,
+     13,
+     16
+    ],
+    "portada_comunicacion": null,
+    "sha256": "1a5b4b600762557cb22f683cd8865bbba540c0297bf8f077a7b7b2e7aa92c404"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_secoexpo.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_secoexpo.pdf"
+  },
+  "ri_sef": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_sef",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 6,
+    "S7_paginas_con_texto": 6,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 10,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "pie_paginas": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "portada_comunicacion": null,
+    "sha256": "2d33fcfa8e3bd0dae92c978e92f143fce1156c350a65ec4727730ea55b570ff7"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_sef.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_sef.pdf"
+  },
+  "ri_spi": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_spi",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": false,
+    "S7_paginas_con_marcador": 6,
+    "S7_paginas_con_texto": 6,
+    "lectura": "ok",
+    "limite_declarado": "el_documento_no_imprime_procedencia",
+    "paginas": 11,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "pie_paginas": [],
+    "portada_comunicacion": null,
+    "sha256": "6425c5be1105912c7a090361b55b032ce89bbad2c402e1430055a64b27988d0d"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_spi.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_spi.pdf"
+  },
+  "ri_tar": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_tar",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 6,
+    "S7_paginas_con_texto": 6,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 7,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "pie_paginas": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "portada_comunicacion": null,
+    "sha256": "88b7f86304aa2b3db834ad51481043820c06ddd953f5fa05a76b0da6e9a648a3"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_tar.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_tar.pdf"
+  },
+  "ri_tii": {
+   "corrida_igual_a_congelado": false,
+   "id_interno": "ri_tii",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 6,
+    "S7_paginas_con_texto": 6,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 6,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "pie_paginas": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "portada_comunicacion": null,
+    "sha256": "7b7c18a4e72c809a1057e2487d0a7da1d3319758fcde8c7351e661535e055f29"
+   },
+   "medicion_congelado": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 6,
+    "S7_paginas_con_texto": 6,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 6,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "pie_paginas": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "portada_comunicacion": null,
+    "sha256": "585b26b36b9c4031ca82ff51e835a654c08c8f781c3e56f393b7336b48157093"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_tii.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_tii.pdf"
+  },
+  "ri_transpa": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_transpa",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 8,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 23,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     7,
+     10,
+     13,
+     16
+    ],
+    "pie_paginas": [
+     1,
+     2,
+     3,
+     4,
+     7,
+     10,
+     13,
+     16
+    ],
+    "portada_comunicacion": null,
+    "sha256": "ab8186b0ec9ac6825fc316952c670550af3b57f14b1959e0a9a9eff6d94f4700"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_transpa.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_transpa.pdf"
+  },
+  "ri_tsa": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_tsa",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 8,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 92,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     16,
+     31,
+     46,
+     61,
+     76
+    ],
+    "pie_paginas": [
+     1,
+     2,
+     3,
+     16,
+     31,
+     46,
+     61,
+     76
+    ],
+    "portada_comunicacion": null,
+    "sha256": "8c26723e04fd4b749791b9b5bbea483712785e628510c47a5a853ef1148d178b"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_tsa.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_tsa.pdf"
+  },
+  "ri_tvf": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ri_tvf",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 5,
+    "S7_paginas_con_texto": 5,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 5,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "pie_paginas": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "portada_comunicacion": null,
+    "sha256": "add3afe48f730f32db27424e11b0b1c076ecffd801883216710e2662924ae460"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ri_tvf.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ri_tvf.pdf"
+  },
+  "ribspc": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "ribspc",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 0,
+    "S7_paginas_con_texto": 2,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 2,
+    "paginas_sondeo": [
+     1,
+     2
+    ],
+    "pie_paginas": [
+     1
+    ],
+    "portada_comunicacion": "A 4753",
+    "sha256": "712843557ce22c030b8c49bf3fee523d3634ce7e0cde27be4b2fdf358ef43e52"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/ribspc.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/ribspc.pdf"
+  },
+  "rmgcti": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "rmgcti",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 7,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 58,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     10,
+     19,
+     28,
+     37,
+     46
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     10,
+     19,
+     28,
+     37,
+     46
+    ],
+    "portada_comunicacion": "A 8401",
+    "sha256": "d362171378ee6a624b7c2cd7978510c50d25c03edff60b175cace13d4de54e0c"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/rmgcti.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/rmgcti.pdf"
+  },
+  "rmrtsd": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "rmrtsd",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 7,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 20,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     7,
+     10,
+     13,
+     16
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     4,
+     7,
+     10,
+     13,
+     16
+    ],
+    "portada_comunicacion": "A 7783",
+    "sha256": "8f95e2b104437306924296328d4be8be886558e327ff7e6d5426850ec1e3f19a"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/rmrtsd.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/rmrtsd.pdf"
+  },
+  "rrci": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "rrci",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 7,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 20,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     7,
+     10,
+     13,
+     16
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     4,
+     7,
+     10,
+     13,
+     16
+    ],
+    "portada_comunicacion": "A 8280",
+    "sha256": "14d5138378f10cb72bd554b78338ed93face81f608ec1973f09c32720403cdb9"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/rrci.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/rrci.pdf"
+  },
+  "secfin": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "secfin",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 5,
+    "S7_paginas_con_texto": 6,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 10,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "portada_comunicacion": "A 8131",
+    "sha256": "be50e50a3f8367842dc3befc0527c81eaa65c63658fa8f9391033b121c21ea9f"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/secfin.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/secfin.pdf"
+  },
+  "seggar": {
+   "corrida_igual_a_congelado": false,
+   "id_interno": "seggar",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 6,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 26,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     5,
+     9,
+     13,
+     17,
+     21
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     5,
+     9,
+     13
+    ],
+    "portada_comunicacion": "A 8407",
+    "sha256": "b2713bdfd2def1331ccc12c69dd32c9f40250be3b47f761f60b9146334480ef3"
+   },
+   "medicion_congelado": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 6,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 26,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     5,
+     9,
+     13,
+     17,
+     21
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     5,
+     9,
+     13
+    ],
+    "portada_comunicacion": "A 8407",
+    "sha256": "120b4554b5e61ca78f2fa4f27840d458990c2d91d3630bb899ea404253c31041"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/seggar.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/seggar.pdf"
+  },
+  "seguef": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "seguef",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 7,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 25,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     5,
+     9,
+     13,
+     17,
+     21
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     5,
+     9,
+     13,
+     17
+    ],
+    "portada_comunicacion": "A 8241",
+    "sha256": "cb65f5f45333901fd5a55054bcb27b0c8fad9bc9e6b3f66f8af6956c850049db"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/seguef.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/seguef.pdf"
+  },
+  "servco": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "servco",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 6,
+    "S7_paginas_con_texto": 7,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 14,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     5,
+     7,
+     9,
+     11
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     5,
+     7
+    ],
+    "portada_comunicacion": "A 8392",
+    "sha256": "c5aadd56775555625a63215c1295a73724611252c89c65418ad285e41bf04570"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/servco.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/servco.pdf"
+  },
+  "snp_atm": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "snp_atm",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 5,
+    "S7_paginas_con_texto": 6,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 8,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "portada_comunicacion": "A 7392",
+    "sha256": "7b346c404ec0fac88d9da6c8117d5ca262eb7ec5a24cac140f5533818ae0ee8c"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/snp_atm.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/snp_atm.pdf"
+  },
+  "snp_cec": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "snp_cec",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 8,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 34,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     6,
+     11,
+     16,
+     21,
+     26
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     6,
+     11,
+     16,
+     21,
+     26
+    ],
+    "portada_comunicacion": "A 8282",
+    "sha256": "be48b3305f576ccaf1cc0f6486a90d32a27050a9f16f2227b84fa4035bf972d0"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/snp_cec.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/snp_cec.pdf"
+  },
+  "snp_cheq": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "snp_cheq",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 8,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 159,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     27,
+     53,
+     79,
+     105,
+     131
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     53,
+     105,
+     131
+    ],
+    "portada_comunicacion": "A 8458",
+    "sha256": "88748cf77d0eb2fe7f81f39b850b3a463a48e8ed3bc13da593be265a1a8d632a"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/snp_cheq.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/snp_cheq.pdf"
+  },
+  "snp_dd": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "snp_dd",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 7,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 68,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     12,
+     23,
+     34,
+     45,
+     56
+    ],
+    "pie_paginas": [
+     2,
+     23,
+     56
+    ],
+    "portada_comunicacion": "A 8295",
+    "sha256": "f13259d284a7e0b2f5938564d0ba66be30c0505b65629efe40e9671b22f52a55"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/snp_dd.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/snp_dd.pdf"
+  },
+  "snp_debin": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "snp_debin",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 8,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 22,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     7,
+     10,
+     13,
+     16
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     4,
+     7,
+     10,
+     13,
+     16
+    ],
+    "portada_comunicacion": "A 8321",
+    "sha256": "ee6fac45666ae788c3a2a2a0ab5b0ff36e146d365b44e61dcfb883588683eaed"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/snp_debin.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/snp_debin.pdf"
+  },
+  "snp_mep": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "snp_mep",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 7,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 50,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     9,
+     17,
+     25,
+     33,
+     41
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     9,
+     17,
+     25,
+     33
+    ],
+    "portada_comunicacion": "A 8343",
+    "sha256": "f3fd39590f94ee8a5e4d5e36afe6b99c3728df9232d921e04ecc860fc56ded92"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/snp_mep.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/snp_mep.pdf"
+  },
+  "snp_psp": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "snp_psp",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 7,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 23,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     7,
+     10,
+     13,
+     16
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     4,
+     7,
+     10,
+     13,
+     16
+    ],
+    "portada_comunicacion": "A 8454",
+    "sha256": "835bd4be3803a5bcc25852542180467d9f04ca634a9d5b47c98d956bfdf0832c"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/snp_psp.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/snp_psp.pdf"
+  },
+  "snp_spd": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "snp_spd",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 7,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 32,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     6,
+     11,
+     16,
+     21,
+     26
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     6,
+     11,
+     16,
+     21,
+     26
+    ],
+    "portada_comunicacion": "A 8303",
+    "sha256": "4c656247d668d81d8323e99235ffdcfe2e3e0f838121762a4cd92d5e7d3cbf63"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/snp_spd.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/snp_spd.pdf"
+  },
+  "snp_tr": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "snp_tr",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 7,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 62,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     11,
+     21,
+     31,
+     41,
+     51
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     11,
+     21,
+     31,
+     41,
+     51
+    ],
+    "portada_comunicacion": "A 8295",
+    "sha256": "760521827165f671de3b506acd4df1fdfb2da9abdcf22e15e86cb510b742c9a8"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/snp_tr.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/snp_tr.pdf"
+  },
+  "snp_tr_nc": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "snp_tr_nc",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 8,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 31,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     6,
+     11,
+     16,
+     21,
+     26
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     6,
+     11,
+     16,
+     21,
+     26
+    ],
+    "portada_comunicacion": "A 8436",
+    "sha256": "a471bf130c98efc812916e01d5e5dd4a9fa6d0afcc9291ed6daa27870bc11fb2"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/snp_tr_nc.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/snp_tr_nc.pdf"
+  },
+  "socgar": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "socgar",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 5,
+    "S7_paginas_con_texto": 7,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 14,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     5,
+     7,
+     9,
+     11
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     5,
+     7
+    ],
+    "portada_comunicacion": "A 8211",
+    "sha256": "74481abd5efd48a7bd30f0d5a2ec2868f589427a4118d05dc6a2e0eb72ed44a0"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/socgar.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/socgar.pdf"
+  },
+  "supcon": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "supcon",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 5,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 21,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     7,
+     10,
+     13,
+     16
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     4,
+     7,
+     10,
+     13
+    ],
+    "portada_comunicacion": "A 8445",
+    "sha256": "cd955da2a89589de09b1fa77bf7624e0a1e597183c5d30319afe9d708245d2cb"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/supcon.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/supcon.pdf"
+  },
+  "tasint": {
+   "corrida_igual_a_congelado": false,
+   "id_interno": "tasint",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 5,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 29,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     5,
+     9,
+     13,
+     17,
+     21
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     5,
+     9,
+     13,
+     17
+    ],
+    "portada_comunicacion": "A 8057",
+    "sha256": "358df4f47838c38cba422e0e42cff5398c9c82f1f4fedbbcedab7d4952593fe7"
+   },
+   "medicion_congelado": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 5,
+    "S7_paginas_con_texto": 8,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 29,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     5,
+     9,
+     13,
+     17,
+     21
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     5,
+     9,
+     13,
+     17
+    ],
+    "portada_comunicacion": "A 8057",
+    "sha256": "ac2a88520aaa55b73f37279caa4f5e7d5f1151d7b56bb0188ed8c70e40d6b7a5"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/tasint.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/tasint.pdf"
+  },
+  "traval": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "traval",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 7,
+    "S7_paginas_con_texto": 7,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 15,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     5,
+     7,
+     9,
+     11
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     5,
+     7,
+     9,
+     11
+    ],
+    "portada_comunicacion": "A 7447",
+    "sha256": "6156c3b3a1b44074e302a53edf334dbce015e3a4c08f044eda7ad991a7973f02"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/traval.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/traval.pdf"
+  },
+  "venliq": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "venliq",
+   "medicion": {
+    "S5_portada": false,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 5,
+    "S7_paginas_con_texto": 6,
+    "lectura": "ok",
+    "limite_declarado": "portada_presente_pero_digitos_no_extraidos",
+    "paginas": 10,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "pie_paginas": [
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "portada_comunicacion": null,
+    "sha256": "12faa3952d6756e6bad6b3cb4c12abed30772fe237ed8fa851600a02633437f6"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/venliq.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/venliq.pdf"
+  },
+  "verac": {
+   "corrida_igual_a_congelado": true,
+   "id_interno": "verac",
+   "medicion": {
+    "S5_portada": true,
+    "S6_pie": true,
+    "S7_paginas_con_marcador": 2,
+    "S7_paginas_con_texto": 5,
+    "lectura": "ok",
+    "limite_declarado": null,
+    "paginas": 5,
+    "paginas_sondeo": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "pie_paginas": [
+     2,
+     3
+    ],
+    "portada_comunicacion": "A 7944",
+    "sha256": "f2fb17414900329a426d87193c46734d248c29d7c22c7b5516d0e428ff54851b"
+   },
+   "pdf_congelado": "data/experiment/escalado_prep/pdfs/verac.pdf",
+   "pdf_corrida": "data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/verac.pdf"
+  }
+ },
+ "supuestos": {
+  "S1": {
+   "claves_nivel_superior": [
+    "lang",
+    "regimenes_informativos",
+    "success",
+    "textos_ordenados"
+   ],
+   "listas": {
+    "regimenes_informativos": true,
+    "textos_ordenados": true
+   },
+   "success": true
+  },
+  "S2": {
+   "claves": [
+    "archivo",
+    "titulo",
+    "titulo_truncado",
+    "url"
+   ],
+   "con_las_cuatro_claves": 158,
+   "entradas": 158
+  },
+  "S3": {
+   "duplicadas": [
+    "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-optico.pdf"
+   ],
+   "entradas": 158,
+   "ids": [
+    "actgar",
+    "adfsp",
+    "adrei",
+    "afiltr",
+    "apnf",
+    "asomut",
+    "autenf",
+    "ayccef",
+    "cajasc",
+    "capmin",
+    "cateloc",
+    "ccbcra",
+    "cedin",
+    "ceninf",
+    "cescar",
+    "cirmo3",
+    "cladeu",
+    "coltit",
+    "consyr",
+    "convca",
+    "cryl",
+    "ctacor",
+    "ctacte",
+    "ctavis",
+    "depaho",
+    "depinv",
+    "disres",
+    "dmrd",
+    "docvig",
+    "efemin",
+    "evacre",
+    "excbio",
+    "expaef",
+    "fabcra",
+    "fclef",
+    "fgarcp",
+    "fimipyme",
+    "finsec",
+    "garant",
+    "garopt",
+    "gerc",
+    "gescre",
+    "gracre",
+    "graloc",
+    "horari",
+    "icmecma",
+    "incuca",
+    "inspag",
+    "jafip",
+    "lavdin",
+    "lingeef",
+    "lingob",
+    "manori",
+    "manual",
+    "micemp",
+    "nmaeef",
+    "nmcief",
+    "opecam",
+    "opefci",
+    "optico",
+    "ordcom",
+    "osapsa",
+    "pagjub",
+    "pfmipyme",
+    "pimf",
+    "plandecuentas",
+    "pognme",
+    "polcre",
+    "prevmi",
+    "pscpp",
+    "pusf",
+    "raapal",
+    "ratio",
+    "ratiofn",
+    "rdbcra",
+    "regpri",
+    "relact",
+    "repefe",
+    "reqcac",
+    "retype",
+    "ri2_ae",
+    "ri2_ci",
+    "ri2_cs",
+    "ri2_pm",
+    "ri_acsf",
+    "ri_ai",
+    "ri_ao",
+    "ri_bdp",
+    "ri_cc",
+    "ri_ccna",
+    "ri_ccpnp",
+    "ri_chr",
+    "ri_cm",
+    "ri_con",
+    "ri_cr",
+    "ri_dcpc",
+    "ri_dsf",
+    "ri_esd",
+    "ri_fcem",
+    "ri_gerc",
+    "ri_icpipsp",
+    "ri_ieccm",
+    "ri_iepsp",
+    "ri_iesinap",
+    "ri_ii_31_12_19",
+    "ri_itme",
+    "ri_laft",
+    "ri_mmsef",
+    "ri_msrl",
+    "ri_nge",
+    "ri_niif",
+    "ri_oc",
+    "ri_ot",
+    "ri_pfmipyme",
+    "ri_pgn",
+    "ri_pnp",
+    "ri_pscpp",
+    "ri_psp",
+    "ri_pspapt",
+    "ri_pspii",
+    "ri_psprca",
+    "ri_rcl",
+    "ri_rem",
+    "ri_rml",
+    "ri_saofe",
+    "ri_secoexpo",
+    "ri_sef",
+    "ri_spi",
+    "ri_tar",
+    "ri_tii",
+    "ri_transpa",
+    "ri_tsa",
+    "ri_tvf",
+    "ribspc",
+    "rmgcti",
+    "rmrtsd",
+    "rrci",
+    "secfin",
+    "seggar",
+    "seguef",
+    "servco",
+    "snp_atm",
+    "snp_cec",
+    "snp_cheq",
+    "snp_dd",
+    "snp_debin",
+    "snp_mep",
+    "snp_psp",
+    "snp_spd",
+    "snp_tr",
+    "snp_tr_nc",
+    "socgar",
+    "supcon",
+    "tasint",
+    "traval",
+    "venliq",
+    "verac"
+   ],
+   "por_lista": {
+    "regimenes_informativos": 55,
+    "textos_ordenados": 103
+   },
+   "urls_unicas": 157
+  },
+  "S4": {
+   "con_el_patron": 158,
+   "entradas": 158,
+   "patron": "^https://www\\.bcra\\.gob\\.ar/archivos/Pdfs/Texord/(?P<archivo>[^/]+)$"
+  },
+  "S5": {
+   "sin_acierto": [
+    "afiltr",
+    "coltit",
+    "dmrd",
+    "incuca",
+    "lavdin",
+    "manual",
+    "nmaeef",
+    "nmcief",
+    "pagjub",
+    "plandecuentas",
+    "retype",
+    "ri2_cs",
+    "ri2_pm",
+    "ri_acsf",
+    "ri_ai",
+    "ri_ao",
+    "ri_bdp",
+    "ri_cc",
+    "ri_ccna",
+    "ri_ccpnp",
+    "ri_chr",
+    "ri_cm",
+    "ri_con",
+    "ri_cr",
+    "ri_dcpc",
+    "ri_dsf",
+    "ri_esd",
+    "ri_fcem",
+    "ri_gerc",
+    "ri_icpipsp",
+    "ri_ieccm",
+    "ri_iepsp",
+    "ri_iesinap",
+    "ri_ii_31_12_19",
+    "ri_itme",
+    "ri_laft",
+    "ri_mmsef",
+    "ri_msrl",
+    "ri_nge",
+    "ri_niif",
+    "ri_oc",
+    "ri_ot",
+    "ri_pfmipyme",
+    "ri_pgn",
+    "ri_pnp",
+    "ri_pscpp",
+    "ri_psp",
+    "ri_pspapt",
+    "ri_pspii",
+    "ri_psprca",
+    "ri_rcl",
+    "ri_rem",
+    "ri_rml",
+    "ri_saofe",
+    "ri_secoexpo",
+    "ri_sef",
+    "ri_spi",
+    "ri_tar",
+    "ri_tii",
+    "ri_transpa",
+    "ri_tsa",
+    "ri_tvf",
+    "venliq"
+   ],
+   "tos": 157,
+   "tos_con_acierto": 94
+  },
+  "S6": {
+   "sin_acierto": [
+    "optico",
+    "ri_cc",
+    "ri_ccna",
+    "ri_ccpnp",
+    "ri_spi"
+   ],
+   "tos": 157,
+   "tos_con_acierto": 152
+  },
+  "S7": {
+   "paginas_con_marcador": 880,
+   "paginas_sondeadas_con_texto": 1076,
+   "sin_marcador": [
+    "fabcra",
+    "horari",
+    "optico",
+    "ribspc"
+   ],
+   "tos": 157,
+   "tos_con_algun_marcador": 153
+  }
+ },
+ "unidad": "U-MANT M2 — línea de base del control del sitio"
+}

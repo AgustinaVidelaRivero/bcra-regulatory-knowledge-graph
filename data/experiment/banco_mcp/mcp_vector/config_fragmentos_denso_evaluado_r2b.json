@@ -1,0 +1,18 @@
+{
+  "servidor": "mcp_vector",
+  "version": "1.0",
+  "afinidad": "denso",
+  "indice_dir": "indice/e0_evaluado_128tos_denso",
+  "sha256_matriz_esperado": "0dd40904d5eef51aca0e47e9044240f40bedfa9dc15416128669f655b3030b5d",
+  "limite_max": 5,
+  "modelo": "microsoft/harrier-oss-v1-0.6b",
+  "revision": "f9b9dc8d367d443f2479d27aa5d8d2850c0774ee",
+  "dtype": "float32",
+  "max_seq_length": 32768,
+  "prompt_consultas": "web_search_query",
+  "prompt_documentos": null,
+  "similitud": "coseno (embeddings L2-normalizados => producto interno); desempate score desc, id asc",
+  "device": "mps",
+  "corpus": "10680 pasajes de la E0 r2b del grafo evaluado de B6.3, el acumulado de las tandas 0, 1 y final, 128 TOs, tambien los de la cola (manifiestos_e0/e0_evaluado_128tos_r2b.json) en composicion propio+herencia = sha256_completo",
+  "nota": "B6.3 (pre-registro firmado en adf20f3b, §4 y H-5): la configuracion densa del sistema por fragmentos (harrier-oss-v1-0.6b, que no cambia) sobre el manifiesto de E0 del grafo evaluado. La de A2.1 (config_fragmentos_denso_r2b.json), con el mismo servidor, la misma tool y el mismo contrato; solo cambia el indice. limite acotado a 5 por el servidor (D-D). U-INDICES-EVAL: borrador de la etapa a, completado en la etapa b con el sha256_matriz_esperado del indice construido (una construccion; la igualdad byte a byte, sobre una muestra de 200 pasajes)."
+}

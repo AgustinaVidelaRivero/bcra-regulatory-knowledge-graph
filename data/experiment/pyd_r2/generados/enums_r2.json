@@ -1,0 +1,543 @@
+{
+ "perfil": "r2",
+ "catalogo_r2": {
+  "ruta": "data/experiment/catalogo_unico/catalogo_sujetos_r2.json",
+  "commit": "bd2122d",
+  "sha256": "c3ad15811c7ea5fa2d0f6cbd56dc775c38dcffd0ae8874c22f5f45c1e82d3a83"
+ },
+ "tipo_entidad": [
+  "Comunicacion",
+  "TextoOrdenado",
+  "Operacion",
+  "Restriccion",
+  "Excepcion",
+  "Obligacion",
+  "Potestad",
+  "Condicion",
+  "Definicion"
+ ],
+ "predicado": [
+  "establecida_en",
+  "referencia",
+  "modificada_por",
+  "aplica_a",
+  "regula",
+  "exceptua",
+  "exceptua_obligacion",
+  "prohibe",
+  "limita",
+  "ejecuta",
+  "requiere",
+  "condiciona",
+  "condicion_de"
+ ],
+ "predicados_sujeto": [
+  "aplica_a",
+  "ejecuta"
+ ],
+ "firmas_congeladas": {
+  "establecida_en": [
+   [
+    "Restriccion",
+    "Obligacion",
+    "Excepcion",
+    "Operacion",
+    "Potestad",
+    "Condicion",
+    "Definicion"
+   ],
+   [
+    "TextoOrdenado"
+   ]
+  ],
+  "referencia": [
+   [
+    "TextoOrdenado"
+   ],
+   [
+    "Comunicacion"
+   ]
+  ],
+  "modificada_por": [
+   [
+    "TextoOrdenado"
+   ],
+   [
+    "Comunicacion"
+   ]
+  ],
+  "aplica_a": [
+   [
+    "Restriccion",
+    "Obligacion",
+    "Operacion",
+    "Excepcion",
+    "Potestad"
+   ],
+   [
+    "Sujeto"
+   ]
+  ],
+  "regula": [
+   [
+    "Restriccion",
+    "Obligacion"
+   ],
+   [
+    "Operacion"
+   ]
+  ],
+  "exceptua": [
+   [
+    "Excepcion"
+   ],
+   [
+    "Restriccion"
+   ]
+  ],
+  "exceptua_obligacion": [
+   [
+    "Excepcion"
+   ],
+   [
+    "Obligacion"
+   ]
+  ],
+  "prohibe": [
+   [
+    "Restriccion"
+   ],
+   [
+    "Operacion"
+   ]
+  ],
+  "limita": [
+   [
+    "Restriccion"
+   ],
+   [
+    "Operacion"
+   ]
+  ],
+  "ejecuta": [
+   [
+    "Sujeto"
+   ],
+   [
+    "Operacion"
+   ]
+  ],
+  "requiere": [
+   [
+    "Operacion"
+   ],
+   [
+    "Obligacion"
+   ]
+  ],
+  "condiciona": [
+   [
+    "Obligacion"
+   ],
+   [
+    "Operacion"
+   ]
+  ],
+  "condicion_de": [
+   [
+    "Condicion"
+   ],
+   [
+    "Excepcion",
+    "Obligacion",
+    "Restriccion"
+   ]
+  ]
+ },
+ "ampliacion_r2": [
+  [
+   "condicion_de",
+   "Condicion",
+   "Operacion"
+  ],
+  [
+   "condicion_de",
+   "Condicion",
+   "Potestad"
+  ]
+ ],
+ "firmas_r2": {
+  "establecida_en": [
+   [
+    "Restriccion",
+    "Obligacion",
+    "Excepcion",
+    "Operacion",
+    "Potestad",
+    "Condicion",
+    "Definicion"
+   ],
+   [
+    "TextoOrdenado"
+   ]
+  ],
+  "referencia": [
+   [
+    "TextoOrdenado"
+   ],
+   [
+    "Comunicacion"
+   ]
+  ],
+  "modificada_por": [
+   [
+    "TextoOrdenado"
+   ],
+   [
+    "Comunicacion"
+   ]
+  ],
+  "aplica_a": [
+   [
+    "Restriccion",
+    "Obligacion",
+    "Operacion",
+    "Excepcion",
+    "Potestad"
+   ],
+   [
+    "Sujeto"
+   ]
+  ],
+  "regula": [
+   [
+    "Restriccion",
+    "Obligacion"
+   ],
+   [
+    "Operacion"
+   ]
+  ],
+  "exceptua": [
+   [
+    "Excepcion"
+   ],
+   [
+    "Restriccion"
+   ]
+  ],
+  "exceptua_obligacion": [
+   [
+    "Excepcion"
+   ],
+   [
+    "Obligacion"
+   ]
+  ],
+  "prohibe": [
+   [
+    "Restriccion"
+   ],
+   [
+    "Operacion"
+   ]
+  ],
+  "limita": [
+   [
+    "Restriccion"
+   ],
+   [
+    "Operacion"
+   ]
+  ],
+  "ejecuta": [
+   [
+    "Sujeto"
+   ],
+   [
+    "Operacion"
+   ]
+  ],
+  "requiere": [
+   [
+    "Operacion"
+   ],
+   [
+    "Obligacion"
+   ]
+  ],
+  "condiciona": [
+   [
+    "Obligacion"
+   ],
+   [
+    "Operacion"
+   ]
+  ],
+  "condicion_de": [
+   [
+    "Condicion"
+   ],
+   [
+    "Excepcion",
+    "Obligacion",
+    "Restriccion",
+    "Operacion",
+    "Potestad"
+   ]
+  ]
+ },
+ "claves_por_tipo": {
+  "Comunicacion": [
+   "codigo",
+   "tipo",
+   "numero"
+  ],
+  "TextoOrdenado": [
+   "materia",
+   "archivo",
+   "version"
+  ],
+  "Operacion": [
+   "tipo",
+   "descripcion"
+  ],
+  "Restriccion": [
+   "descripcion",
+   "tipo",
+   "umbrales"
+  ],
+  "Excepcion": [
+   "descripcion",
+   "umbrales"
+  ],
+  "Obligacion": [
+   "descripcion",
+   "tipo",
+   "frecuencia",
+   "umbrales"
+  ],
+  "Potestad": [
+   "descripcion"
+  ],
+  "Condicion": [
+   "descripcion",
+   "umbrales"
+  ],
+  "Definicion": [
+   "termino",
+   "descripcion"
+  ]
+ },
+ "claves_heredadas_v3": {
+  "Restriccion": [
+   "umbral"
+  ],
+  "Obligacion": [
+   "plazo"
+  ]
+ },
+ "tipos_con_umbrales": [
+  "Restriccion",
+  "Obligacion",
+  "Condicion",
+  "Excepcion"
+ ],
+ "Obligacion.tipo": [
+  "presentacion_informativa",
+  "calculo",
+  "asignacion",
+  "comunicacion_a_cliente",
+  "reporte_al_supervisor",
+  "otra"
+ ],
+ "Restriccion.tipo": [
+  "prohibicion",
+  "limite_cuantitativo",
+  "limite_cualitativo"
+ ],
+ "Comunicacion.tipo": [
+  "A",
+  "B",
+  "C",
+  "externa"
+ ],
+ "Obligacion.frecuencia": [
+  "diaria",
+  "semanal",
+  "mensual",
+  "trimestral",
+  "semestral",
+  "anual"
+ ],
+ "umbral.comparacion": [
+  "maximo_inclusivo",
+  "maximo_estricto",
+  "minimo_inclusivo",
+  "minimo_estricto",
+  "igual",
+  "coeficiente",
+  "no_determinada"
+ ],
+ "umbral.unidad": [
+  "porcentaje",
+  "moneda",
+  "dias",
+  "meses",
+  "anios",
+  "veces",
+  "uva"
+ ],
+ "umbral.moneda": [
+  "ARS",
+  "USD",
+  "EUR"
+ ],
+ "umbral.dias_tipo": [
+  "corridos",
+  "habiles"
+ ],
+ "omision.categoria": [
+  "meta_normativo",
+  "tabla",
+  "formula",
+  "fuera_de_tipos",
+  "relacion_sin_predicado"
+ ],
+ "mencion_verificada": [
+  "exacta",
+  "tokens",
+  "no",
+  "ausente"
+ ],
+ "tramo_verificado": [
+  "exacta",
+  "tokens",
+  "no",
+  "ausente"
+ ],
+ "coherencia_tipo_predicado": [
+  "coherente",
+  "incoherente",
+  "no_evaluable"
+ ],
+ "sujeto_id": [
+  "Sujeto_sujeto",
+  "Sujeto_sujeto_regulado",
+  "Sujeto_contraparte",
+  "Sujeto_organismo_publico",
+  "Sujeto_estructura",
+  "Sujeto_entidad_financiera",
+  "Sujeto_banco",
+  "Sujeto_banco_comercial",
+  "Sujeto_compania_financiera",
+  "Sujeto_caja_de_credito",
+  "Sujeto_caja_de_credito_cooperativa",
+  "Sujeto_entidad_cambiaria",
+  "Sujeto_casa_de_cambio",
+  "Sujeto_agencia_de_cambio",
+  "Sujeto_proveedor_de_servicios_de_pago",
+  "Sujeto_pspcp",
+  "Sujeto_psi_billetera_digital",
+  "Sujeto_proveedor_no_financiero_de_credito",
+  "Sujeto_empresa_no_financiera_emisora_de_tarjetas",
+  "Sujeto_pscpp",
+  "Sujeto_fiduciario_de_fideicomiso_financiero",
+  "Sujeto_sociedad_de_garantia_reciproca",
+  "Sujeto_fondo_de_garantia_publico",
+  "Sujeto_entidad_de_contraparte_central",
+  "Sujeto_ccp_calificada",
+  "Sujeto_ccp_no_calificada",
+  "Sujeto_miembro_compensador",
+  "Sujeto_ecai",
+  "Sujeto_sujeto_del_perimetro_consolidado",
+  "Sujeto_aseguradora",
+  "Sujeto_entidad_bursatil",
+  "Sujeto_empresa_de_servicios_complementarios",
+  "Sujeto_cliente",
+  "Sujeto_persona_humana",
+  "Sujeto_persona_juridica",
+  "Sujeto_universalidad",
+  "Sujeto_deudor",
+  "Sujeto_usuario_de_servicios_financieros",
+  "Sujeto_importador",
+  "Sujeto_importador_de_bienes",
+  "Sujeto_importador_de_servicios",
+  "Sujeto_exportador",
+  "Sujeto_mipyme",
+  "Sujeto_emisor_de_titulos_de_deuda",
+  "Sujeto_vpu_rigi",
+  "Sujeto_beneficiario_economia_conocimiento",
+  "Sujeto_sector_publico_no_financiero",
+  "Sujeto_sector_privado_no_financiero",
+  "Sujeto_fideicomiso",
+  "Sujeto_fideicomiso_financiero",
+  "Sujeto_sociedad_de_proposito_especial",
+  "Sujeto_fondo_comun_de_inversion",
+  "Sujeto_gobierno_local",
+  "Sujeto_organismo_internacional",
+  "Sujeto_banco_multilateral_de_desarrollo",
+  "Sujeto_agencia_oficial_de_credito",
+  "Sujeto_bcra",
+  "Sujeto_sefyc",
+  "Sujeto_arca",
+  "Sujeto_ministerio_de_economia",
+  "Sujeto_rol_sujeto_obligado_proteccion",
+  "Sujeto_rol_entidad_autorizada_exterior",
+  "Sujeto_rol_obligado_a_clasificar_clasificacion",
+  "Sujeto_rol_entidad_comprendida_reginf",
+  "Sujeto_rol_alcance_capmin",
+  "Sujeto_entidad_girada",
+  "Sujeto_entidad_depositaria",
+  "Sujeto_entidad_originante_de_transferencia",
+  "Sujeto_entidad_receptora",
+  "Sujeto_camara_electronica_de_compensacion",
+  "Sujeto_banco_central_del_exterior",
+  "Sujeto_fmi",
+  "Sujeto_rol_alcance_adrei",
+  "Sujeto_rol_alcance_autenf",
+  "Sujeto_rol_alcance_ccbcra",
+  "Sujeto_rol_alcance_convca",
+  "Sujeto_rol_alcance_cryl",
+  "Sujeto_rol_alcance_ctacor",
+  "Sujeto_rol_alcance_depaho",
+  "Sujeto_rol_alcance_efemin",
+  "Sujeto_rol_alcance_fabcra",
+  "Sujeto_rol_alcance_icmecma",
+  "Sujeto_rol_alcance_lavdin",
+  "Sujeto_rol_alcance_ordcom",
+  "Sujeto_rol_alcance_osapsa",
+  "Sujeto_rol_alcance_pagjub",
+  "Sujeto_rol_alcance_pfmipyme",
+  "Sujeto_rol_alcance_pimf",
+  "Sujeto_rol_alcance_ratiofn",
+  "Sujeto_rol_alcance_rdbcra",
+  "Sujeto_rol_alcance_repefe",
+  "Sujeto_rol_alcance_retype",
+  "Sujeto_rol_alcance_rmrtsd",
+  "Sujeto_rol_alcance_rrci",
+  "Sujeto_rol_alcance_servco",
+  "Sujeto_rol_alcance_snp_atm",
+  "Sujeto_rol_alcance_snp_debin",
+  "Sujeto_rol_alcance_snp_psp",
+  "Sujeto_rol_alcance_snp_spd",
+  "Sujeto_rol_alcance_snp_tr_nc",
+  "Sujeto_rol_alcance_supcon",
+  "Sujeto_rol_alcance_traval",
+  "Sujeto_entidad_financiera_del_exterior",
+  "Sujeto_banco_del_exterior",
+  "Sujeto_entidad_cambiaria_del_exterior",
+  "Sujeto_titular_de_cuenta_corriente_en_el_bcra",
+  "Sujeto_instancia_de_gobierno_societario",
+  "Sujeto_directorio",
+  "Sujeto_alta_gerencia",
+  "Sujeto_comite_de_auditoria"
+ ],
+ "sujeto_lapidas": [
+  "Sujeto_acreedor_del_exterior",
+  "Sujeto_autoridad_nacional_de_aplicacion",
+  "Sujeto_secretaria_de_comercio",
+  "Sujeto_secretaria_de_energia",
+  "Sujeto_secretaria_de_transporte"
+ ]
+}

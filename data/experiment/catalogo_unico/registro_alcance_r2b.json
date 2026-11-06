@@ -1,0 +1,521 @@
+{
+ "ri_ccna.pdf": {
+  "rol_id": "Sujeto_caja_de_credito",
+  "clase_ids": [
+   "Sujeto_caja_de_credito"
+  ],
+  "label": "Cajas de crédito",
+  "miembros_ids": [
+   "Sujeto_caja_de_credito"
+  ],
+  "miembros_labels": [
+   "Cajas de crédito"
+  ]
+ },
+ "ri_rml.pdf": {
+  "rol_id": "Sujeto_rol_entidad_comprendida_reginf",
+  "label": "Entidades comprendidas (Régimen Informativo)",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "ri_gerc.pdf": {
+  "rol_id": "Sujeto_rol_entidad_comprendida_reginf",
+  "label": "Entidades comprendidas (Régimen Informativo)",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "ri_pgn.pdf": {
+  "rol_id": "Sujeto_rol_entidad_comprendida_reginf",
+  "label": "Entidades comprendidas (Régimen Informativo)",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "ri_dcpc.pdf": {
+  "rol_id": "Sujeto_entidad_financiera",
+  "clase_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "label": "Entidades financieras",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "snp_cheq.pdf": {
+  "rol_id": null,
+  "clase_ids": [
+   "Sujeto_entidad_financiera",
+   "Sujeto_camara_electronica_de_compensacion"
+  ],
+  "label": "Entidades financieras / Cámaras electrónicas de compensación (CEC)",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera",
+   "Sujeto_camara_electronica_de_compensacion"
+  ],
+  "miembros_labels": [
+   "Entidades financieras",
+   "Cámaras electrónicas de compensación (CEC)"
+  ]
+ },
+ "snp_tr.pdf": {
+  "rol_id": "Sujeto_rol_alcance_snp_tr_nc",
+  "label": "Sujetos alcanzados (SNP - Transferencias - Normas complementarias)",
+  "miembros_ids": [],
+  "miembros_labels": [
+   "Entidades financieras",
+   "Proveedores de servicios de pago (PSP)"
+  ]
+ },
+ "manori.pdf": {
+  "rol_id": "Sujeto_entidad_financiera",
+  "clase_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "label": "Entidades financieras",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "nmcief.pdf": {
+  "rol_id": null,
+  "clase_ids": [
+   "Sujeto_entidad_financiera",
+   "Sujeto_sujeto_del_perimetro_consolidado"
+  ],
+  "label": "Entidades financieras / Sujetos del perímetro de supervisión consolidada",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera",
+   "Sujeto_sujeto_del_perimetro_consolidado"
+  ],
+  "miembros_labels": [
+   "Entidades financieras",
+   "Sujetos del perímetro de supervisión consolidada"
+  ]
+ },
+ "ri_mmsef.pdf": {
+  "rol_id": "Sujeto_rol_entidad_comprendida_reginf",
+  "label": "Entidades comprendidas (Régimen Informativo)",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "ri_acsf.pdf": {
+  "rol_id": "Sujeto_rol_entidad_comprendida_reginf",
+  "label": "Entidades comprendidas (Régimen Informativo)",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "ri_ai.pdf": {
+  "rol_id": "Sujeto_rol_entidad_comprendida_reginf",
+  "label": "Entidades comprendidas (Régimen Informativo)",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "ri_bdp.pdf": {
+  "rol_id": "Sujeto_rol_entidad_comprendida_reginf",
+  "label": "Entidades comprendidas (Régimen Informativo)",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "ri_esd.pdf": {
+  "rol_id": "Sujeto_rol_entidad_comprendida_reginf",
+  "label": "Entidades comprendidas (Régimen Informativo)",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "ri_ii_31_12_19.pdf": {
+  "rol_id": null,
+  "clase_ids": [
+   "Sujeto_entidad_financiera",
+   "Sujeto_entidad_cambiaria"
+  ],
+  "label": "Entidades financieras / Entidades cambiarias",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera",
+   "Sujeto_entidad_cambiaria"
+  ],
+  "miembros_labels": [
+   "Entidades financieras",
+   "Entidades cambiarias"
+  ]
+ },
+ "ri_msrl.pdf": {
+  "rol_id": "Sujeto_rol_entidad_comprendida_reginf",
+  "label": "Entidades comprendidas (Régimen Informativo)",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "ri_nge.pdf": {
+  "rol_id": "Sujeto_rol_entidad_comprendida_reginf",
+  "label": "Entidades comprendidas (Régimen Informativo)",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "ri_ot.pdf": {
+  "rol_id": "Sujeto_rol_entidad_comprendida_reginf",
+  "label": "Entidades comprendidas (Régimen Informativo)",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "ri_rcl.pdf": {
+  "rol_id": "Sujeto_rol_entidad_comprendida_reginf",
+  "label": "Entidades comprendidas (Régimen Informativo)",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "ri_secoexpo.pdf": {
+  "rol_id": "Sujeto_rol_entidad_comprendida_reginf",
+  "label": "Entidades comprendidas (Régimen Informativo)",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "ri_sef.pdf": {
+  "rol_id": "Sujeto_rol_entidad_comprendida_reginf",
+  "label": "Entidades comprendidas (Régimen Informativo)",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "ri_tar.pdf": {
+  "rol_id": "Sujeto_rol_entidad_comprendida_reginf",
+  "label": "Entidades comprendidas (Régimen Informativo)",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "ri_tvf.pdf": {
+  "rol_id": "Sujeto_rol_entidad_comprendida_reginf",
+  "label": "Entidades comprendidas (Régimen Informativo)",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "ribspc.pdf": {
+  "rol_id": "Sujeto_rol_entidad_comprendida_reginf",
+  "label": "Entidades comprendidas (Régimen Informativo)",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "cateloc.pdf": {
+  "rol_id": "Sujeto_entidad_financiera",
+  "clase_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "label": "Entidades financieras",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "horari.pdf": {
+  "rol_id": "Sujeto_entidad_financiera",
+  "clase_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "label": "Entidades financieras",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "inspag.pdf": {
+  "rol_id": "Sujeto_entidad_financiera",
+  "clase_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "label": "Entidades financieras",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "opecam.pdf": {
+  "rol_id": "Sujeto_entidad_cambiaria",
+  "clase_ids": [
+   "Sujeto_entidad_cambiaria"
+  ],
+  "label": "Entidades cambiarias",
+  "miembros_ids": [
+   "Sujeto_entidad_cambiaria"
+  ],
+  "miembros_labels": [
+   "Entidades cambiarias"
+  ]
+ },
+ "reqcac.pdf": {
+  "rol_id": null,
+  "clase_ids": [
+   "Sujeto_casa_de_cambio",
+   "Sujeto_agencia_de_cambio"
+  ],
+  "label": "Casas de cambio / Agencias de cambio",
+  "miembros_ids": [
+   "Sujeto_casa_de_cambio",
+   "Sujeto_agencia_de_cambio"
+  ],
+  "miembros_labels": [
+   "Casas de cambio",
+   "Agencias de cambio"
+  ]
+ },
+ "ri_iepsp.pdf": {
+  "rol_id": null,
+  "clase_ids": [
+   "Sujeto_empresa_no_financiera_emisora_de_tarjetas",
+   "Sujeto_proveedor_no_financiero_de_credito"
+  ],
+  "label": "Empresas no financieras emisoras de tarjetas de crédito y/o compra / Proveedores no financieros de crédito",
+  "miembros_ids": [
+   "Sujeto_empresa_no_financiera_emisora_de_tarjetas",
+   "Sujeto_proveedor_no_financiero_de_credito"
+  ],
+  "miembros_labels": [
+   "Empresas no financieras emisoras de tarjetas de crédito y/o compra",
+   "Proveedores no financieros de crédito"
+  ]
+ },
+ "ri_psp.pdf": {
+  "rol_id": "Sujeto_pspcp",
+  "clase_ids": [
+   "Sujeto_pspcp"
+  ],
+  "label": "Proveedores de servicios de pago que ofrecen cuentas de pago (PSPCP)",
+  "miembros_ids": [
+   "Sujeto_pspcp"
+  ],
+  "miembros_labels": [
+   "Proveedores de servicios de pago que ofrecen cuentas de pago (PSPCP)"
+  ]
+ },
+ "seguef.pdf": {
+  "rol_id": "Sujeto_entidad_financiera",
+  "clase_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "label": "Entidades financieras",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "cedin.pdf": {
+  "rol_id": "Sujeto_entidad_financiera",
+  "clase_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "label": "Entidades financieras",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "consyr.pdf": {
+  "rol_id": "Sujeto_entidad_financiera",
+  "clase_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "label": "Entidades financieras",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "garant.pdf": {
+  "rol_id": "Sujeto_entidad_financiera",
+  "clase_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "label": "Entidades financieras",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "garopt.pdf": {
+  "rol_id": "Sujeto_entidad_financiera",
+  "clase_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "label": "Entidades financieras",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "jafip.pdf": {
+  "rol_id": "Sujeto_entidad_financiera",
+  "clase_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "label": "Entidades financieras",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "ri_ieccm.pdf": {
+  "rol_id": "Sujeto_entidad_cambiaria",
+  "clase_ids": [
+   "Sujeto_entidad_cambiaria"
+  ],
+  "label": "Entidades cambiarias",
+  "miembros_ids": [
+   "Sujeto_entidad_cambiaria"
+  ],
+  "miembros_labels": [
+   "Entidades cambiarias"
+  ]
+ },
+ "ri_tsa.pdf": {
+  "rol_id": "Sujeto_entidad_financiera",
+  "clase_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "label": "Entidades financieras",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "seggar.pdf": {
+  "rol_id": "Sujeto_entidad_financiera",
+  "clase_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "label": "Entidades financieras",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "snp_dd.pdf": {
+  "rol_id": "Sujeto_entidad_financiera",
+  "clase_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "label": "Entidades financieras",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "venliq.pdf": {
+  "rol_id": "Sujeto_entidad_financiera",
+  "clase_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "label": "Entidades financieras",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "verac.pdf": {
+  "rol_id": "Sujeto_entidad_financiera",
+  "clase_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "label": "Entidades financieras",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ }
+}

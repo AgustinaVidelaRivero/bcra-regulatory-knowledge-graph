@@ -1,0 +1,20 @@
+{
+ "generador": "data/experiment/pyd_r2/code/generar_r2.py",
+ "modelos": {
+  "ruta": "data/experiment/pyd_r2/code/modelos_r2.py",
+  "sha256": "e67f15ae13dd5419ea0ce1a08dbef63c86cbdf9c269772a0b02a4e27b4c3a2ca"
+ },
+ "politica": {
+  "ruta": "data/experiment/pyd_r2/politica_campos_r2.json",
+  "sha256": "82e8752aea1d6ad869d6023d303c0af45182dd9333753681787d7a581ef6d00b"
+ },
+ "catalogo_r2": {
+  "ruta": "data/experiment/catalogo_unico/catalogo_sujetos_r2.json",
+  "commit": "bd2122d",
+  "sha256": "c3ad15811c7ea5fa2d0f6cbd56dc775c38dcffd0ae8874c22f5f45c1e82d3a83"
+ },
+ "archivos": {
+  "tool_schema_r2.json": "0c391f2b23bb7c94ec2606bd0315f3e4589c16a3571eaaa210a27babaa0f8ba2",
+  "enums_r2.json": "abd197ac8bbb818f680dc80d1b9c9df3e1f1f733fce3fd46b35e7440e7ce4241"
+ }
+}

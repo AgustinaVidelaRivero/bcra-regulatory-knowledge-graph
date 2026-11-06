@@ -1,0 +1,1 @@
+- buscar_pasajes(consulta, limite): búsqueda semántica (embeddings) de pasajes del texto de las normas. Devuelve los pasajes más similares a la consulta, cada uno con su documento (to, archivo), punto (unidad), título, páginas y el texto completo del pasaje. Punto de entrada habitual.

@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "kg": {
+      "type": "stdio",
+      "timeout": 600000,
+      "command": "${BANCO_REPO}/.venv/bin/python",
+      "args": [
+        "-B",
+        "${BANCO_REPO}/data/experiment/banco_mcp/mcp_kg/servidor_mcp_kg_nav_cand.py",
+        "--config",
+        "${BANCO_REPO}/data/experiment/banco_mcp/n7/config_mcp_kg_n7_evaluado.json"
+      ],
+      "env": {
+        "BANCO_LOG_R1": "${BANCO_LOG_R1}",
+        "BANCO_SESION_TAG": "${BANCO_SESION_TAG:-sin_tag}",
+        "BANCO_VENV_VECTOR": "${BANCO_VENV_VECTOR}",
+        "HF_HUB_OFFLINE": "1",
+        "TRANSFORMERS_OFFLINE": "1",
+        "PYTHONDONTWRITEBYTECODE": "1"
+      }
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+ "base": "data/experiment/reextraccion_v2/corpus_tanda0/salida",
+ "demostracion": "dirigida",
+ "e2_por_to_afectado": {
+  "cap": {
+   "edges_total": 3459,
+   "igual_al_sellado": true,
+   "nodes_total": 2026,
+   "sha256_grafo": "625c47c6a519cf6ba9bec74d7bacc8f7338b8783594e6c3b5cb1f6a48eff6d37",
+   "sha256_grafo_sellado": "625c47c6a519cf6ba9bec74d7bacc8f7338b8783594e6c3b5cb1f6a48eff6d37"
+  }
+ },
+ "ensamblados": {
+  "ens_cinco": {
+   "codigo_salida": 0,
+   "kg.json": {
+    "igual_al_sellado": true,
+    "sha256": "5e3deca8c0ff03f69d03aff6fc8e8f01087fcb5cef16875735f99ec32243067a",
+    "sha256_sellado": "5e3deca8c0ff03f69d03aff6fc8e8f01087fcb5cef16875735f99ec32243067a"
+   },
+   "r1/kg.json": {
+    "igual_al_sellado": true,
+    "sha256": "4097d4fd3f300cb1c2cf09bef59e3ccb9a30b1de18334e6230102a5a3106d00a",
+    "sha256_sellado": "4097d4fd3f300cb1c2cf09bef59e3ccb9a30b1de18334e6230102a5a3106d00a"
+   }
+  },
+  "ens_desarrollo": {
+   "codigo_salida": 0,
+   "kg.json": {
+    "igual_al_sellado": true,
+    "sha256": "921ec9c4657085c56ebef4961d83bbb3fa645e89c44ccba33c440e0ca5615f20",
+    "sha256_sellado": "921ec9c4657085c56ebef4961d83bbb3fa645e89c44ccba33c440e0ca5615f20"
+   },
+   "r1/kg.json": {
+    "igual_al_sellado": true,
+    "sha256": "eab2fdd01dec4dad026d596a793919e666920fab127d7efb14b5b00857ae64ef",
+    "sha256_sellado": "eab2fdd01dec4dad026d596a793919e666920fab127d7efb14b5b00857ae64ef"
+   }
+  },
+  "ens_diez": {
+   "codigo_salida": 0,
+   "kg.json": {
+    "igual_al_sellado": true,
+    "sha256": "c5be2a345f9aa7908aca2e8be089563053fc59772a5c6027ba1ffbddfd919a5c",
+    "sha256_sellado": "c5be2a345f9aa7908aca2e8be089563053fc59772a5c6027ba1ffbddfd919a5c"
+   },
+   "r1/kg.json": {
+    "igual_al_sellado": true,
+    "sha256": "dd42d6d9c0c8379da90ec4ed4e4659157a960a0d1ceaf8af5a008bdd9cad9010",
+    "sha256_sellado": "dd42d6d9c0c8379da90ec4ed4e4659157a960a0d1ceaf8af5a008bdd9cad9010"
+   }
+  }
+ },
+ "fuente_reextraidas": "data/experiment/reextraccion_v2/corpus_tanda0/salida_dirigida",
+ "kg_iguales_al_sellado": "6 de 6",
+ "sustitucion": {
+  "cap": {
+   "cola_humana.jsonl": {
+    "agregadas": 0,
+    "lineas_base": 5,
+    "quitadas": 0
+   },
+   "extracciones_e1.jsonl": {
+    "agregadas": 6,
+    "lineas_base": 462,
+    "quitadas": 3
+   },
+   "finales.jsonl": {
+    "agregadas": 3,
+    "lineas_base": 458,
+    "quitadas": 0
+   },
+   "veredictos.jsonl": {
+    "agregadas": 4,
+    "lineas_base": 481,
+    "quitadas": 0
+   }
+  }
+ },
+ "unidades_reextraidas": [
+  "cap::3.1.14.1",
+  "cap::4.2.1.2",
+  "cap::4.3.3.1"
+ ],
+ "veredicto": "OK"
+}

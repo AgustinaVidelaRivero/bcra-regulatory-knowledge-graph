@@ -1,0 +1,5774 @@
+{
+ "formato": "catalogo_sujetos_unico/1",
+ "version": "r2",
+ "version_esquema_clases": "3.1",
+ "fuentes": {
+  "bloque_v3": {
+   "ruta": "data/experiment/b54_catalogo_v3/code/prompt_v3_b54.py",
+   "objeto": "BLOQUE_CATALOGO_V3",
+   "sha256": "fb0a2bd81faabe016f5be5ccf907acb3dded8854cad41f7119dd740b4dcf9e27",
+   "prefijo_sha256": "35e88c2dd0a2920302c29005b08ab9689405606d4bd5fcf8fb7ce807b1a3c512"
+  },
+  "enum_v3": {
+   "ruta": "data/experiment/b54_catalogo_v3/code/prompt_v3_b54.py",
+   "objeto": "sujetos_catalogo_v3()",
+   "sha256": "fb0a2bd81faabe016f5be5ccf907acb3dded8854cad41f7119dd740b4dcf9e27"
+  },
+  "definiciones_v3": {
+   "ruta": "data/experiment/b54_catalogo_v3/code/prompt_v3_b54.py",
+   "objeto": "DEFINICIONES_V3",
+   "sha256": "fb0a2bd81faabe016f5be5ccf907acb3dded8854cad41f7119dd740b4dcf9e27"
+  },
+  "adiciones_v3": {
+   "ruta": "data/experiment/b54_catalogo_v3/code/prompt_v3_b54.py",
+   "objeto": "ADICIONES_V3",
+   "sha256": "fb0a2bd81faabe016f5be5ccf907acb3dded8854cad41f7119dd740b4dcf9e27"
+  },
+  "roles_v3": {
+   "ruta": "data/experiment/b54_catalogo_v3/code/prompt_v3_b54.py",
+   "objeto": "ROLES_V3",
+   "sha256": "fb0a2bd81faabe016f5be5ccf907acb3dded8854cad41f7119dd740b4dcf9e27"
+  },
+  "mapeo_clase_v3": {
+   "ruta": "data/experiment/b54_catalogo_v3/code/prompt_v3_b54.py",
+   "objeto": "MAPEO_CLASE_V3",
+   "sha256": "fb0a2bd81faabe016f5be5ccf907acb3dded8854cad41f7119dd740b4dcf9e27"
+  },
+  "rol_por_to_v3": {
+   "ruta": "data/experiment/b54_catalogo_v3/code/prompt_v3_b54.py",
+   "objeto": "ROL_POR_TO_V3",
+   "sha256": "fb0a2bd81faabe016f5be5ccf907acb3dded8854cad41f7119dd740b4dcf9e27"
+  },
+  "retiros_v3": {
+   "ruta": "data/experiment/b54_catalogo_v3/code/prompt_v3_b54.py",
+   "objeto": "RETIROS_V3",
+   "sha256": "fb0a2bd81faabe016f5be5ccf907acb3dded8854cad41f7119dd740b4dcf9e27"
+  },
+  "huecos_v3": {
+   "ruta": "data/experiment/b54_catalogo_v3/code/prompt_v3_b54.py",
+   "objeto": "HUECOS_SIN_ROL",
+   "sha256": "fb0a2bd81faabe016f5be5ccf907acb3dded8854cad41f7119dd740b4dcf9e27"
+  },
+  "rol_por_to_dev": {
+   "ruta": "data/experiment/grafo_v2/code/schema.py",
+   "objeto": "ROL_POR_TO (vía prompt_e1)",
+   "sha256": "cc98e4354cf2ad507954f7fa99f12b8445e6157c9a0bcb026a13908e63de7eab"
+  },
+  "bloque_congelado": {
+   "ruta": "data/experiment/esq/code/prompt_congelado.py",
+   "objeto": "PREFIJO_SISTEMA_CONGELADO",
+   "sha256": "a5a4ba330a02b2b8ce885716e242dafabb84f62463d25c046dc6ff7d40f40710"
+  },
+  "esquema_v3_clases": {
+   "ruta": "data/experiment/esq_v3_miembros/esquema_v3_clases.json",
+   "objeto": "clases, roles, excepciones_s15",
+   "sha256": "dad88cc92afc53e922989cad84eb68b2ef142b66c221f2a566e7fb5da1bcfd36"
+  },
+  "lapidas_md": {
+   "ruta": "data/experiment/b54_catalogo_v3/catalogo_sujetos_v3.md",
+   "objeto": "Retiros (laudo F1.5) — LÁPIDAS",
+   "sha256": "3aa18ff6aa351666e52f59322ac951b5bafc6d5c443b2ac0de71d064232788a8"
+  },
+  "marcas_md": {
+   "ruta": "data/experiment/b54_catalogo_v3/catalogo_sujetos_v3.md",
+   "objeto": "Mantenidos con marca de revisión en r2",
+   "sha256": "3aa18ff6aa351666e52f59322ac951b5bafc6d5c443b2ac0de71d064232788a8"
+  },
+  "laudo_b54_f1": {
+   "ruta": "docs/laudo_B5.4_fase1_catalogo.md",
+   "objeto": "§F1.2, §F1.4, §F1.5",
+   "sha256": "b5b112d6398beea82c8815c55d2803f8cf0fba72eb06c3db57e44b441a1ee966"
+  },
+  "construccion_c1": {
+   "ruta": "data/experiment/catalogo_unico/code/construir_catalogo_v3.py",
+   "objeto": "decisión de construcción declarada: disjunta_con [] y provenance de esqueleto con el patrón de la CEC para las adiciones que no estaban en el JSON v3"
+  },
+  "catalogo_v3": {
+   "ruta": "data/experiment/catalogo_unico/catalogo_sujetos_v3.json",
+   "objeto": "catálogo base de la derivación",
+   "sha256": "9a2522e41e1086d26bb73a37070efd9913f98ec36e2f957e198b460d21ca6c58"
+  },
+  "enmienda_l_esq_r2": {
+   "ruta": "data/experiment/esq/enmienda_L-ESQ-R2_2026-09-30.md",
+   "objeto": "§7.3",
+   "sha256": "66c4a1b9c5edaee1b7c4adeae9534e4829e68241b690eb1e244b8d9128baca72"
+  },
+  "derivacion_r2": {
+   "ruta": "data/experiment/catalogo_unico/code/derivar_catalogo_r2.py",
+   "objeto": "decisión de derivación declarada: los ids nuevos llevan disjunta_con [] (ninguna disyunción anclada) y van al final de los vigentes"
+  },
+  "r2_op_01": {
+   "objeto": "operación de la derivación r2",
+   "tipo": "alta",
+   "id": "Sujeto_entidad_financiera_del_exterior",
+   "decision": "data/experiment/esq/enmienda_L-ESQ-R2_2026-09-30.md §7.3 (firmada en 4ef7650, 30/09/2026); BKL-0028"
+  },
+  "r2_ancla_entidad_financiera_del_exterior_label": {
+   "objeto": "ancla en el corpus (TO::punto), verificada contra el chunk de E0",
+   "anclas": [
+    {
+     "chunk": "ctacor::1.4",
+     "archivo": "ctacor.pdf",
+     "ruta": "data/experiment/segmentacion_84/b584_particion/ctacor/chunks_ctacor.json",
+     "sha256": "21447d1e916a8c9c1698b4ca378583d17666dedbc794e3e077de0b14d72fff77",
+     "texto": "1.4. Entidades financieras del exterior."
+    }
+   ],
+   "nota": "el alias plural del v3 pasa a ser el label del id nuevo"
+  },
+  "r2_ancla_entidad_financiera_del_exterior_alias": {
+   "objeto": "ancla en el corpus (TO::punto), verificada contra el chunk de E0",
+   "anclas": [
+    {
+     "chunk": "ext::5.12.2",
+     "archivo": "TO_exterior_cambios_actual.pdf",
+     "ruta": "data/experiment/reextraccion_v2/e0_chunking/salida_enm01/chunks_ext.json",
+     "sha256": "cbcd1a86f55ea49110610587873881c68c13a9d7975d3fd5e465f26302be2d12",
+     "texto": "una entidad financiera del exterior de propiedad total o mayoritaria de estados extranjeros"
+    }
+   ]
+  },
+  "r2_ancla_entidad_financiera_del_exterior_definicion": {
+   "objeto": "ancla en el corpus (TO::punto), verificada contra el chunk de E0",
+   "anclas": [
+    {
+     "chunk": "ctacor::1.4",
+     "archivo": "ctacor.pdf",
+     "ruta": "data/experiment/segmentacion_84/b584_particion/ctacor/chunks_ctacor.json",
+     "sha256": "21447d1e916a8c9c1698b4ca378583d17666dedbc794e3e077de0b14d72fff77",
+     "texto": "se considerarán entidades financieras del exterior a aquellas que, constituidas de acuerdo con el derecho extranjero aplicable, tengan por actividad permitida desarrollar en las plazas del exterior en que operen, la intermediación habitual entre la oferta y la demanda de recursos financieros -depósitos del público- en los términos de la Ley de Entidades Financieras argentina y su reglamentación independientemente del tipo social que adopten y/o de su carácter público, privado o mixto"
+    }
+   ]
+  },
+  "r2_ancla_entidad_financiera_del_exterior_padre": {
+   "objeto": "ancla en el corpus (TO::punto), verificada contra el chunk de E0",
+   "anclas": [
+    {
+     "chunk": "ext::5.12::intro",
+     "archivo": "TO_exterior_cambios_actual.pdf",
+     "ruta": "data/experiment/reextraccion_v2/e0_chunking/salida_enm01/chunks_ext.json",
+     "sha256": "cbcd1a86f55ea49110610587873881c68c13a9d7975d3fd5e465f26302be2d12",
+     "texto": "Dichas entidades podrán realizar operaciones de arbitrajes y canjes en el exterior siempre que la contraparte sea:"
+    },
+    {
+     "chunk": "ext::5.12.2",
+     "archivo": "TO_exterior_cambios_actual.pdf",
+     "ruta": "data/experiment/reextraccion_v2/e0_chunking/salida_enm01/chunks_ext.json",
+     "sha256": "cbcd1a86f55ea49110610587873881c68c13a9d7975d3fd5e465f26302be2d12",
+     "texto": "una entidad financiera del exterior"
+    }
+   ],
+   "nota": "el TO la nombra como contraparte; no es subclase de Sujeto_entidad_financiera (ctacor::1.1 y 1.4 separan «del país» de «del exterior»)"
+  },
+  "r2_op_02": {
+   "objeto": "operación de la derivación r2",
+   "tipo": "alta",
+   "id": "Sujeto_banco_del_exterior",
+   "decision": "data/experiment/esq/enmienda_L-ESQ-R2_2026-09-30.md §7.3 (firmada en 4ef7650, 30/09/2026); BKL-0028"
+  },
+  "r2_ancla_banco_del_exterior_label": {
+   "objeto": "ancla en el corpus (TO::punto), verificada contra el chunk de E0",
+   "anclas": [
+    {
+     "chunk": "actgar::2.3.3.2",
+     "archivo": "actgar.pdf",
+     "ruta": "data/experiment/segmentacion_84/b584_particion/actgar/chunks_actgar.json",
+     "sha256": "60c1ffdcf67526fba12d40b0507b30e025bd305c4278392b93ae5cb5d11d7f26",
+     "texto": "2.3.3.2. Bancos del exterior que cumplan con lo previsto en el punto 3.1."
+    }
+   ],
+   "nota": "el alias plural del v3 pasa a ser el label del id nuevo"
+  },
+  "r2_ancla_banco_del_exterior_alias": {
+   "objeto": "ancla en el corpus (TO::punto), verificada contra el chunk de E0",
+   "anclas": [
+    {
+     "chunk": "actgar::2.2.1.2",
+     "archivo": "actgar.pdf",
+     "ruta": "data/experiment/segmentacion_84/b584_particion/actgar/chunks_actgar.json",
+     "sha256": "60c1ffdcf67526fba12d40b0507b30e025bd305c4278392b93ae5cb5d11d7f26",
+     "texto": "a) Ser un banco del exterior"
+    }
+   ]
+  },
+  "r2_ancla_banco_del_exterior_definicion": {
+   "objeto": "NO ENCONTRADO",
+   "nota": "ningún punto del corpus define «banco del exterior»; búsqueda de patrones definitorios sobre los 157 TOs sin resultado"
+  },
+  "r2_ancla_banco_del_exterior_padre": {
+   "objeto": "ancla en el corpus (TO::punto), verificada contra el chunk de E0",
+   "anclas": [
+    {
+     "chunk": "actgar::2.2.1.2",
+     "archivo": "actgar.pdf",
+     "ruta": "data/experiment/segmentacion_84/b584_particion/actgar/chunks_actgar.json",
+     "sha256": "60c1ffdcf67526fba12d40b0507b30e025bd305c4278392b93ae5cb5d11d7f26",
+     "texto": "iii) La contraparte deberá: a) Ser un banco del exterior"
+    }
+   ],
+   "nota": "el TO lo nombra como contraparte; que sea subclase de Sujeto_entidad_financiera_del_exterior no está dicho en el texto"
+  },
+  "r2_op_03": {
+   "objeto": "operación de la derivación r2",
+   "tipo": "alta",
+   "id": "Sujeto_entidad_cambiaria_del_exterior",
+   "decision": "data/experiment/esq/enmienda_L-ESQ-R2_2026-09-30.md §7.3 (firmada en 4ef7650, 30/09/2026); BKL-0028"
+  },
+  "r2_ancla_entidad_cambiaria_del_exterior_label": {
+   "objeto": "ancla en el corpus (TO::punto), verificada contra el chunk de E0",
+   "anclas": [
+    {
+     "chunk": "ext::5.12.3",
+     "archivo": "TO_exterior_cambios_actual.pdf",
+     "ruta": "data/experiment/reextraccion_v2/e0_chunking/salida_enm01/chunks_ext.json",
+     "sha256": "cbcd1a86f55ea49110610587873881c68c13a9d7975d3fd5e465f26302be2d12",
+     "texto": "una entidad financiera o cambiaria del exterior"
+    }
+   ],
+   "nota": "forma elíptica («entidad financiera o cambiaria del exterior»); el plural literal no aparece en el corpus"
+  },
+  "r2_ancla_entidad_cambiaria_del_exterior_alias": {
+   "objeto": "NO ENCONTRADO",
+   "nota": "«compañía cambista del exterior» no aparece en los 157 TOs; viene del catálogo v3 (esquema_v2_clases.json) y docs/esquema_v2_diseño.md:204 la lista como concepto #110; el pasaje más cercano es ext::5.12.4 («una compañía del exterior que se dedique a la compraventa de billetes»). Pasa al id nuevo por la decisión, sin ancla literal"
+  },
+  "r2_ancla_entidad_cambiaria_del_exterior_definicion": {
+   "objeto": "NO ENCONTRADO",
+   "nota": "ningún punto del corpus define la entidad cambiaria del exterior"
+  },
+  "r2_ancla_entidad_cambiaria_del_exterior_padre": {
+   "objeto": "ancla en el corpus (TO::punto), verificada contra el chunk de E0",
+   "anclas": [
+    {
+     "chunk": "ext::5.12::intro",
+     "archivo": "TO_exterior_cambios_actual.pdf",
+     "ruta": "data/experiment/reextraccion_v2/e0_chunking/salida_enm01/chunks_ext.json",
+     "sha256": "cbcd1a86f55ea49110610587873881c68c13a9d7975d3fd5e465f26302be2d12",
+     "texto": "Dichas entidades podrán realizar operaciones de arbitrajes y canjes en el exterior siempre que la contraparte sea:"
+    },
+    {
+     "chunk": "ext::5.12.3",
+     "archivo": "TO_exterior_cambios_actual.pdf",
+     "ruta": "data/experiment/reextraccion_v2/e0_chunking/salida_enm01/chunks_ext.json",
+     "sha256": "cbcd1a86f55ea49110610587873881c68c13a9d7975d3fd5e465f26302be2d12",
+     "texto": "una entidad financiera o cambiaria del exterior"
+    }
+   ],
+   "nota": "el TO la nombra como contraparte"
+  },
+  "r2_op_04": {
+   "objeto": "operación de la derivación r2",
+   "tipo": "alta",
+   "id": "Sujeto_titular_de_cuenta_corriente_en_el_bcra",
+   "decision": "data/experiment/esq/enmienda_L-ESQ-R2_2026-09-30.md §7.3 (firmada en 4ef7650, 30/09/2026); BKL-0029"
+  },
+  "r2_ancla_titular_de_cuenta_corriente_en_el_bcra_label": {
+   "objeto": "ancla en el corpus (TO::punto), verificada contra el chunk de E0",
+   "anclas": [
+    {
+     "chunk": "convca::2.1.3",
+     "archivo": "convca.pdf",
+     "ruta": "data/experiment/segmentacion_84/b584_particion/convca/chunks_convca.json",
+     "sha256": "c697c92440284bf204397c6457a235491465b9793117a3f97f6af053451a2259",
+     "texto": "Los titulares de cuentas corrientes en este Banco Central"
+    }
+   ]
+  },
+  "r2_ancla_titular_de_cuenta_corriente_en_el_bcra_alias": {
+   "objeto": "ancla en el corpus (TO::punto), verificada contra el chunk de E0",
+   "anclas": [
+    {
+     "chunk": "convca::2.1::intro",
+     "archivo": "convca.pdf",
+     "ruta": "data/experiment/segmentacion_84/b584_particion/convca/chunks_convca.json",
+     "sha256": "c697c92440284bf204397c6457a235491465b9793117a3f97f6af053451a2259",
+     "texto": "ordenadas por cuentacorrentistas del Banco Central"
+    }
+   ],
+   "nota": "encabezado del punto 2.1 (texto heredado del chunk)"
+  },
+  "r2_ancla_titular_de_cuenta_corriente_en_el_bcra_definicion": {
+   "objeto": "ancla en el corpus (TO::punto), verificada contra el chunk de E0",
+   "anclas": [
+    {
+     "chunk": "ccbcra::1.1",
+     "archivo": "ccbcra.pdf",
+     "ruta": "data/experiment/segmentacion_84/b584_particion/ccbcra/chunks_ccbcra.json",
+     "sha256": "2d45b38c2b1f7534a95cd64195fd590ac9da1cefc85931f4aff06873e5be95bf",
+     "texto": "Las entidades financieras deberán mantener abierta en el Banco Central de la República Argentina una cuenta corriente en pesos. Dicha cuenta tendrá carácter optativo para las cajas de crédito (Ley 25.782) y las entidades cambiarias."
+    }
+   ]
+  },
+  "r2_ancla_titular_de_cuenta_corriente_en_el_bcra_padre": {
+   "objeto": "ancla en el corpus (TO::punto), verificada contra el chunk de E0",
+   "anclas": [
+    {
+     "chunk": "ccbcra::1.1",
+     "archivo": "ccbcra.pdf",
+     "ruta": "data/experiment/segmentacion_84/b584_particion/ccbcra/chunks_ccbcra.json",
+     "sha256": "2d45b38c2b1f7534a95cd64195fd590ac9da1cefc85931f4aff06873e5be95bf",
+     "texto": "Las entidades financieras deberán mantener abierta en el Banco Central de la República Argentina una cuenta corriente en pesos. Dicha cuenta tendrá carácter optativo para las cajas de crédito (Ley 25.782) y las entidades cambiarias."
+    },
+    {
+     "chunk": "convca::1.1",
+     "archivo": "convca.pdf",
+     "ruta": "data/experiment/segmentacion_84/b584_particion/convca/chunks_convca.json",
+     "sha256": "c697c92440284bf204397c6457a235491465b9793117a3f97f6af053451a2259",
+     "texto": "a solicitud de las entidades financieras y otras habilitadas"
+    }
+   ],
+   "nota": "los titulares que enumera ccbcra::1.1 (entidades financieras, cajas de crédito, entidades cambiarias) son clases de Sujeto_sujeto_regulado"
+  },
+  "r2_op_05": {
+   "objeto": "operación de la derivación r2",
+   "tipo": "alta",
+   "id": "Sujeto_instancia_de_gobierno_societario",
+   "decision": "data/experiment/esq/enmienda_L-ESQ-R2_2026-09-30.md §7.3 (firmada en 4ef7650, 30/09/2026); BKL-0034",
+   "nota": "nombre de la clase por decisión de la autora del 01/10/2026 (revisión de C2), en lugar de «órgano de gobierno»: en el corpus «órgano(s) de gobierno» designa a la asamblea de accionistas o socios (lavdin::1.3.1.2; lingeef::1.2::intro)",
+   "anclas": [
+    {
+     "chunk": "lavdin::1.3.1.2",
+     "archivo": "lavdin.pdf",
+     "ruta": "data/experiment/segmentacion_84/b584_particion/lavdin/chunks_lavdin.json",
+     "sha256": "be7c1fa640428e3c01ddb69b874b8410356f6f145f43c355d7f12ac232b9c4c5",
+     "texto": "miembro de los órganos de gobierno (accionistas, socios o equivalentes), de administración (directores, consejeros o autoridades equivalentes)"
+    },
+    {
+     "chunk": "lingeef::1.2::intro",
+     "archivo": "lingeef.pdf",
+     "ruta": "data/experiment/segmentacion_84/b584_particion/lingeef/chunks_lingeef.json",
+     "sha256": "1f8f4e82ac41fb9d907217d6f124d8c181b6b86f573bd863a2c329d72293a0c5",
+     "texto": "la Asamblea de Accionistas u órgano de gobierno de la sociedad"
+    }
+   ]
+  },
+  "r2_ancla_instancia_de_gobierno_societario_label": {
+   "objeto": "ancla en el corpus (TO::punto), verificada contra el chunk de E0",
+   "anclas": [
+    {
+     "chunk": "lingob::1.2::intro",
+     "archivo": "lingob.pdf",
+     "ruta": "data/experiment/segmentacion_84/b584_particion/lingob/chunks_lingob.json",
+     "sha256": "8c502976b7e34989e18ca1be2d7e1a4625fd91d3ef42bf6f9846f8d348dad0b0",
+     "texto": "El código de gobierno societario se refiere a la manera en la que el Directorio y la Alta Gerencia de la entidad financiera dirigen sus actividades"
+    }
+   ],
+   "nota": "el corpus usa «gobierno societario»; el label «Instancias de gobierno societario» no aparece literal (0 apariciones en los 157 TOs)"
+  },
+  "r2_ancla_instancia_de_gobierno_societario_definicion": {
+   "objeto": "NO ENCONTRADO",
+   "nota": "ningún punto del corpus define un colectivo que reúna Directorio, Alta Gerencia y Comité de auditoría"
+  },
+  "r2_ancla_instancia_de_gobierno_societario_padre": {
+   "objeto": "ancla en el corpus (TO::punto), verificada contra el chunk de E0",
+   "anclas": [
+    {
+     "chunk": "lingob::2.1::intro",
+     "archivo": "lingob.pdf",
+     "ruta": "data/experiment/segmentacion_84/b584_particion/lingob/chunks_lingob.json",
+     "sha256": "8c502976b7e34989e18ca1be2d7e1a4625fd91d3ef42bf6f9846f8d348dad0b0",
+     "texto": "El Directorio y cada uno de sus miembros –según corresponda–, deberán velar por la liquidez y solvencia de la entidad financiera"
+    },
+    {
+     "chunk": "lingob::1.2::intro",
+     "archivo": "lingob.pdf",
+     "ruta": "data/experiment/segmentacion_84/b584_particion/lingob/chunks_lingob.json",
+     "sha256": "8c502976b7e34989e18ca1be2d7e1a4625fd91d3ef42bf6f9846f8d348dad0b0",
+     "texto": "El código de gobierno societario se refiere a la manera en la que el Directorio y la Alta Gerencia de la entidad financiera dirigen sus actividades y negocios"
+    }
+   ],
+   "nota": "la norma dirige deberes a los órganos que la clase reúne; padre propuesto por U-CAT-UNICO"
+  },
+  "r2_op_06": {
+   "objeto": "operación de la derivación r2",
+   "tipo": "alta",
+   "id": "Sujeto_directorio",
+   "decision": "data/experiment/esq/enmienda_L-ESQ-R2_2026-09-30.md §7.3 (firmada en 4ef7650, 30/09/2026); BKL-0034"
+  },
+  "r2_ancla_directorio_label": {
+   "objeto": "ancla en el corpus (TO::punto), verificada contra el chunk de E0",
+   "anclas": [
+    {
+     "chunk": "lingob::1.3::intro",
+     "archivo": "lingob.pdf",
+     "ruta": "data/experiment/segmentacion_84/b584_particion/lingob/chunks_lingob.json",
+     "sha256": "8c502976b7e34989e18ca1be2d7e1a4625fd91d3ef42bf6f9846f8d348dad0b0",
+     "texto": "El Directorio de la entidad financiera, entre otros aspectos, será responsable de:"
+    }
+   ]
+  },
+  "r2_ancla_directorio_alias": {
+   "objeto": "ancla en el corpus (TO::punto), verificada contra el chunk de E0",
+   "anclas": [
+    {
+     "chunk": "ctacor::2.1",
+     "archivo": "ctacor.pdf",
+     "ruta": "data/experiment/segmentacion_84/b584_particion/ctacor/chunks_ctacor.json",
+     "sha256": "21447d1e916a8c9c1698b4ca378583d17666dedbc794e3e077de0b14d72fff77",
+     "texto": "aprobada por el Directorio o Consejo de Administración"
+    },
+    {
+     "chunk": "nmcief::S2",
+     "archivo": "nmcief.pdf",
+     "ruta": "data/experiment/segmentacion_84/b584_particion/nmcief/chunks_nmcief.json",
+     "sha256": "379e19b032b229d699d59aa54b801558307b978a74df1db0b68a4854c4cbf163",
+     "texto": "el Directorio o Consejo de Administración de la entidad financiera"
+    }
+   ]
+  },
+  "r2_ancla_directorio_definicion": {
+   "objeto": "ancla en el corpus (TO::punto), verificada contra el chunk de E0",
+   "anclas": [
+    {
+     "chunk": "lingob::1.5",
+     "archivo": "lingob.pdf",
+     "ruta": "data/experiment/segmentacion_84/b584_particion/lingob/chunks_lingob.json",
+     "sha256": "8c502976b7e34989e18ca1be2d7e1a4625fd91d3ef42bf6f9846f8d348dad0b0",
+     "texto": "Asamblea de accionistas o Directorio: órganos o autoridades que cumplan funciones semejantes, independientemente de la designación utilizada por las entidades financieras."
+    }
+   ]
+  },
+  "r2_ancla_directorio_padre": {
+   "objeto": "ancla en el corpus (TO::punto), verificada contra el chunk de E0",
+   "anclas": [
+    {
+     "chunk": "lingob::2.1.7",
+     "archivo": "lingob.pdf",
+     "ruta": "data/experiment/segmentacion_84/b584_particion/lingob/chunks_lingob.json",
+     "sha256": "8c502976b7e34989e18ca1be2d7e1a4625fd91d3ef42bf6f9846f8d348dad0b0",
+     "texto": "Realice la autoevaluación de su desempeño como órgano"
+    },
+    {
+     "chunk": "lingob::1.2::intro",
+     "archivo": "lingob.pdf",
+     "ruta": "data/experiment/segmentacion_84/b584_particion/lingob/chunks_lingob.json",
+     "sha256": "8c502976b7e34989e18ca1be2d7e1a4625fd91d3ef42bf6f9846f8d348dad0b0",
+     "texto": "El código de gobierno societario se refiere a la manera en la que el Directorio y la Alta Gerencia de la entidad financiera dirigen sus actividades y negocios"
+    }
+   ]
+  },
+  "r2_op_07": {
+   "objeto": "operación de la derivación r2",
+   "tipo": "alta",
+   "id": "Sujeto_alta_gerencia",
+   "decision": "data/experiment/esq/enmienda_L-ESQ-R2_2026-09-30.md §7.3 (firmada en 4ef7650, 30/09/2026); BKL-0034"
+  },
+  "r2_ancla_alta_gerencia_label": {
+   "objeto": "ancla en el corpus (TO::punto), verificada contra el chunk de E0",
+   "anclas": [
+    {
+     "chunk": "lingob::1.4::intro",
+     "archivo": "lingob.pdf",
+     "ruta": "data/experiment/segmentacion_84/b584_particion/lingob/chunks_lingob.json",
+     "sha256": "8c502976b7e34989e18ca1be2d7e1a4625fd91d3ef42bf6f9846f8d348dad0b0",
+     "texto": "La Alta Gerencia, entre otros aspectos, será responsable de:"
+    }
+   ]
+  },
+  "r2_ancla_alta_gerencia_definicion": {
+   "objeto": "ancla en el corpus (TO::punto), verificada contra el chunk de E0",
+   "anclas": [
+    {
+     "chunk": "lingob::1.5",
+     "archivo": "lingob.pdf",
+     "ruta": "data/experiment/segmentacion_84/b584_particion/lingob/chunks_lingob.json",
+     "sha256": "8c502976b7e34989e18ca1be2d7e1a4625fd91d3ef42bf6f9846f8d348dad0b0",
+     "texto": "Alta Gerencia: Gerencia General y gerentes que tengan poder decisorio y dependan directamente de ésta o del presidente del Directorio"
+    }
+   ]
+  },
+  "r2_ancla_alta_gerencia_padre": {
+   "objeto": "ancla en el corpus (TO::punto), verificada contra el chunk de E0",
+   "anclas": [
+    {
+     "chunk": "lingob::1.2::intro",
+     "archivo": "lingob.pdf",
+     "ruta": "data/experiment/segmentacion_84/b584_particion/lingob/chunks_lingob.json",
+     "sha256": "8c502976b7e34989e18ca1be2d7e1a4625fd91d3ef42bf6f9846f8d348dad0b0",
+     "texto": "El código de gobierno societario se refiere a la manera en la que el Directorio y la Alta Gerencia de la entidad financiera dirigen sus actividades y negocios"
+    }
+   ]
+  },
+  "r2_op_08": {
+   "objeto": "operación de la derivación r2",
+   "tipo": "alta",
+   "id": "Sujeto_comite_de_auditoria",
+   "decision": "data/experiment/esq/enmienda_L-ESQ-R2_2026-09-30.md §7.3 (firmada en 4ef7650, 30/09/2026); BKL-0034"
+  },
+  "r2_ancla_comite_de_auditoria_label": {
+   "objeto": "ancla en el corpus (TO::punto), verificada contra el chunk de E0",
+   "anclas": [
+    {
+     "chunk": "lingob::4.1",
+     "archivo": "lingob.pdf",
+     "ruta": "data/experiment/segmentacion_84/b584_particion/lingob/chunks_lingob.json",
+     "sha256": "8c502976b7e34989e18ca1be2d7e1a4625fd91d3ef42bf6f9846f8d348dad0b0",
+     "texto": "4.1. Comité de auditoría."
+    }
+   ]
+  },
+  "r2_ancla_comite_de_auditoria_definicion": {
+   "objeto": "ancla en el corpus (TO::punto), verificada contra el chunk de E0",
+   "anclas": [
+    {
+     "chunk": "nmcief::S2",
+     "archivo": "nmcief.pdf",
+     "ruta": "data/experiment/segmentacion_84/b584_particion/nmcief/chunks_nmcief.json",
+     "sha256": "379e19b032b229d699d59aa54b801558307b978a74df1db0b68a4854c4cbf163",
+     "texto": "El Comité de Auditoría será responsable de asistir, en el marco de sus funciones específicas, al Directorio o autoridad equivalente en el monitoreo de: (1) los controles internos, gestión de riesgos individuales y corporativos y el cumplimiento de normas establecidas por la entidad"
+    },
+    {
+     "chunk": "lingob::4.1",
+     "archivo": "lingob.pdf",
+     "ruta": "data/experiment/segmentacion_84/b584_particion/lingob/chunks_lingob.json",
+     "sha256": "8c502976b7e34989e18ca1be2d7e1a4625fd91d3ef42bf6f9846f8d348dad0b0",
+     "texto": "los miembros del Directorio que integren el Comité de auditoría"
+    }
+   ]
+  },
+  "r2_ancla_comite_de_auditoria_padre": {
+   "objeto": "ancla en el corpus (TO::punto), verificada contra el chunk de E0",
+   "anclas": [
+    {
+     "chunk": "lingob::4.1",
+     "archivo": "lingob.pdf",
+     "ruta": "data/experiment/segmentacion_84/b584_particion/lingob/chunks_lingob.json",
+     "sha256": "8c502976b7e34989e18ca1be2d7e1a4625fd91d3ef42bf6f9846f8d348dad0b0",
+     "texto": "los miembros del Directorio que integren el Comité de auditoría"
+    }
+   ],
+   "nota": "Sección 4 («Comités») de los lineamientos para el gobierno societario"
+  },
+  "r2_op_09": {
+   "objeto": "operación de la derivación r2",
+   "tipo": "cambio_alias",
+   "id": "Sujeto_entidad_financiera",
+   "antes": [
+    "Entidades financieras del exterior",
+    "Entidad financiera del exterior",
+    "Entidades financieras emisoras de tarjetas de crédito y/o compra",
+    "Entidad financiera emisora de tarjetas de crédito y/o compra"
+   ],
+   "despues": [
+    "Entidades financieras emisoras de tarjetas de crédito y/o compra",
+    "Entidad financiera emisora de tarjetas de crédito y/o compra"
+   ],
+   "destino": "Sujeto_entidad_financiera_del_exterior",
+   "decision": "data/experiment/esq/enmienda_L-ESQ-R2_2026-09-30.md §7.3 (firmada en 4ef7650, 30/09/2026); BKL-0028"
+  },
+  "r2_op_10": {
+   "objeto": "operación de la derivación r2",
+   "tipo": "cambio_alias",
+   "id": "Sujeto_banco",
+   "antes": [
+    "Bancos del exterior",
+    "Banco del exterior"
+   ],
+   "despues": [],
+   "destino": "Sujeto_banco_del_exterior",
+   "decision": "data/experiment/esq/enmienda_L-ESQ-R2_2026-09-30.md §7.3 (firmada en 4ef7650, 30/09/2026); BKL-0028"
+  },
+  "r2_op_11": {
+   "objeto": "operación de la derivación r2",
+   "tipo": "cambio_alias",
+   "id": "Sujeto_entidad_cambiaria",
+   "antes": [
+    "Operador de cambio",
+    "Operadores de cambio",
+    "Entidades cambiarias del exterior",
+    "Compañía cambista del exterior"
+   ],
+   "despues": [
+    "Operador de cambio",
+    "Operadores de cambio"
+   ],
+   "destino": "Sujeto_entidad_cambiaria_del_exterior",
+   "decision": "data/experiment/esq/enmienda_L-ESQ-R2_2026-09-30.md §7.3 (firmada en 4ef7650, 30/09/2026); BKL-0028"
+  },
+  "r2_op_12": {
+   "objeto": "operación de la derivación r2",
+   "tipo": "cambio_miembro_rol",
+   "id": "Sujeto_rol_alcance_convca",
+   "antes": {
+    "miembros": [
+     "Sujeto_entidad_financiera"
+    ],
+    "colectivo_operativo_sin_id": true
+   },
+   "despues": {
+    "miembros": [
+     "Sujeto_titular_de_cuenta_corriente_en_el_bcra"
+    ],
+    "colectivo_operativo_sin_id": "(campo retirado)"
+   },
+   "anclas": [
+    {
+     "chunk": "convca::1.1",
+     "archivo": "convca.pdf",
+     "ruta": "data/experiment/segmentacion_84/b584_particion/convca/chunks_convca.json",
+     "sha256": "c697c92440284bf204397c6457a235491465b9793117a3f97f6af053451a2259",
+     "texto": "entre sus cuentas corrientes abiertas en el Banco Central"
+    },
+    {
+     "chunk": "convca::2.1.3",
+     "archivo": "convca.pdf",
+     "ruta": "data/experiment/segmentacion_84/b584_particion/convca/chunks_convca.json",
+     "sha256": "c697c92440284bf204397c6457a235491465b9793117a3f97f6af053451a2259",
+     "texto": "Los titulares de cuentas corrientes en este Banco Central"
+    }
+   ],
+   "decision": "data/experiment/esq/enmienda_L-ESQ-R2_2026-09-30.md §7.3 (firmada en 4ef7650, 30/09/2026); BKL-0029"
+  },
+  "r2_op_13": {
+   "objeto": "operación de la derivación r2",
+   "tipo": "cambio_residuo_rol",
+   "id": "Sujeto_rol_alcance_convca",
+   "antes": {
+    "remedio": "abrir id para «titulares de cuenta corriente en el BCRA» — es un caso más del cubo de colectivos sin id, y por lo tanto re-sello del prefijo v3 y unidad propia (ítem de backlog)",
+    "anidacion_no_estricta": {
+     "ancla": "ccbcra::1.1",
+     "regla_general": "las entidades financieras DEBEN mantener cuenta corriente en el BCRA, de modo que el colectivo operativo del TO las contiene",
+     "subclase_afectada": "Sujeto_caja_de_credito",
+     "motivo": "la misma cláusula de ccbcra::1.1 hace la cuenta OPTATIVA para las cajas de crédito (Ley 25.782), que son entidades financieras según el catálogo — de modo que la anidación EF ⊆ titulares no es estricta",
+     "regla_3_no_mitiga": "el bloqueo por excepción corta la herencia cuando una Excepcion nombra una subclase, y esta la nombra — pero esa excepción vive en ccbcra, NO en convca, así que no hay Excepcion en el alcance de convca que la dispare. NO se fabrica una: inventar una Excepcion para que la regla 3 corte sería afirmar en el grafo algo que la norma de convca no dice"
+    }
+   },
+   "despues": {
+    "remedio": "aplicado en r2 (L-ESQ-R2 §7.3, BKL-0029): se abrió Sujeto_titular_de_cuenta_corriente_en_el_bcra y el rol lo tiene como miembro en lugar de Sujeto_entidad_financiera",
+    "anidacion_no_estricta": {
+     "ancla": "ccbcra::1.1",
+     "regla_general": "las entidades financieras DEBEN mantener cuenta corriente en el BCRA, de modo que el colectivo operativo del TO las contiene",
+     "subclase_afectada": "Sujeto_caja_de_credito",
+     "motivo": "la misma cláusula de ccbcra::1.1 hace la cuenta OPTATIVA para las cajas de crédito (Ley 25.782), que son entidades financieras según el catálogo — de modo que la anidación EF ⊆ titulares no es estricta",
+     "estado_r2": "sin efecto sobre el rol en r2: su miembro es Sujeto_titular_de_cuenta_corriente_en_el_bcra, que no tiene subclases ni arista subclase_de con Sujeto_entidad_financiera, de modo que la herencia del rol ya no desciende a Sujeto_caja_de_credito y la regla 3 deja de hacer falta. La anidación EF ⊆ titulares sigue sin ser estricta en el texto (ccbcra::1.1), pero el catálogo r2 no la afirma"
+    }
+   },
+   "decision": "data/experiment/esq/enmienda_L-ESQ-R2_2026-09-30.md §7.3 (firmada en 4ef7650, 30/09/2026); BKL-0029; actualización al estado r2 por decisión de la autora del 01/10/2026 (revisión de C2)"
+  }
+ },
+ "presentacion": {
+  "grupos_bloque": [
+   "## Sujetos regulados",
+   "## Contrapartes",
+   "## Organismos públicos (clases e instancias)",
+   "## Estructuras y vehículos",
+   "## Raíz",
+   "## Roles de alcance por TO"
+  ]
+ },
+ "politicas": {
+  "excepciones_s15": {
+   "enunciado": "roles sin miembro adjudicable, declarados con su causa; S15 exige que la cuenta declarada coincida con la medida",
+   "remedios": {
+    "sin_id_en_catalogo": "abrir id en el catálogo, que es re-sello del prefijo v3 y unidad propia",
+    "aplanamiento_rechazado": "una clase más específica en el catálogo",
+    "instancia_rechazada": "cambiar la firma de miembro_de, que es laudo de la autora sobre el esquema congelado"
+   }
+  },
+  "huecos_sin_rol": [
+   "docvig.pdf",
+   "fimipyme.pdf"
+  ],
+  "procedencia": {
+   "excepciones_s15": "esquema_v3_clases",
+   "huecos_sin_rol": "huecos_v3"
+  }
+ },
+ "sujetos": [
+  {
+   "id": "Sujeto_sujeto",
+   "nivel": "clase",
+   "label": "Sujetos",
+   "alias": [],
+   "definicion": null,
+   "padre": null,
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "esquema_v2_clases.json",
+    "location": "diseño v2.0"
+   },
+   "grupo_bloque": "## Raíz",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_sujeto_regulado",
+   "nivel": "clase",
+   "label": "Sujetos regulados",
+   "alias": [],
+   "definicion": null,
+   "padre": "Sujeto_sujeto",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [
+    "Sujeto_organismo_publico"
+   ],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "esquema_v2_clases.json",
+    "location": "diseño v2.0"
+   },
+   "grupo_bloque": "## Sujetos regulados",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_contraparte",
+   "nivel": "clase",
+   "label": "Contrapartes",
+   "alias": [],
+   "definicion": null,
+   "padre": "Sujeto_sujeto",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "esquema_v2_clases.json",
+    "location": "diseño v2.0"
+   },
+   "grupo_bloque": "## Contrapartes",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_organismo_publico",
+   "nivel": "clase",
+   "label": "Organismos públicos",
+   "alias": [],
+   "definicion": null,
+   "padre": "Sujeto_sujeto",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [
+    "Sujeto_sujeto_regulado"
+   ],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "esquema_v2_clases.json",
+    "location": "diseño v2.0"
+   },
+   "grupo_bloque": "## Organismos públicos (clases e instancias)",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_estructura",
+   "nivel": "clase",
+   "label": "Estructuras y vehículos",
+   "alias": [],
+   "definicion": null,
+   "padre": "Sujeto_sujeto",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "esquema_v2_clases.json",
+    "location": "diseño v2.0"
+   },
+   "grupo_bloque": "## Estructuras y vehículos",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_entidad_financiera",
+   "nivel": "clase",
+   "label": "Entidades financieras",
+   "alias": [
+    "Entidades financieras emisoras de tarjetas de crédito y/o compra",
+    "Entidad financiera emisora de tarjetas de crédito y/o compra"
+   ],
+   "definicion": "ES el intermediario autorizado por el BCRA a operar bajo la Ley de Entidades Financieras (bancos, compañías financieras, cajas de crédito cooperativas). Quien no tiene esa autorización (aseguradoras, PSP, PNFC, transportadoras de valores) no es entidad financiera.",
+   "padre": "Sujeto_sujeto_regulado",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [
+    "Sujeto_entidad_cambiaria",
+    "Sujeto_proveedor_de_servicios_de_pago"
+   ],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_proteccion_usuarios_servicios_financieros_actual.pdf",
+    "location": "Punto 1.1.2.1"
+   },
+   "grupo_bloque": "## Sujetos regulados",
+   "rol": null,
+   "rol_por_to": [
+    "actgar.pdf",
+    "adfsp.pdf",
+    "afiltr.pdf",
+    "ayccef.pdf",
+    "cescar.pdf",
+    "coltit.pdf",
+    "depinv.pdf",
+    "disres.pdf",
+    "evacre.pdf",
+    "expaef.pdf",
+    "finsec.pdf",
+    "gerc.pdf",
+    "gescre.pdf",
+    "gracre.pdf",
+    "graloc.pdf",
+    "incuca.pdf",
+    "lingeef.pdf",
+    "lingob.pdf",
+    "opefci.pdf",
+    "pognme.pdf",
+    "polcre.pdf",
+    "prevmi.pdf",
+    "raapal.pdf",
+    "relact.pdf",
+    "secfin.pdf",
+    "tasint.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "r2_op_09",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "definiciones_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_banco",
+   "nivel": "clase",
+   "label": "Bancos",
+   "alias": [],
+   "definicion": "ES la entidad financiera autorizada como banco (comercial, de inversión o hipotecario).",
+   "padre": "Sujeto_entidad_financiera",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_capitales_minimos_actual.pdf",
+    "location": "Punto 1.2"
+   },
+   "grupo_bloque": "## Sujetos regulados",
+   "rol": null,
+   "rol_por_to": [
+    "ctacte.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "r2_op_10",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "definiciones_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_banco_comercial",
+   "nivel": "clase",
+   "label": "Bancos comerciales",
+   "alias": [],
+   "definicion": "ES el banco habilitado a todas las operaciones activas, pasivas y de servicios de la LEF (art. 21).",
+   "padre": "Sujeto_banco",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_regimen_informativo_contable_mensual_actual.pdf",
+    "location": "Punto 8.1.4"
+   },
+   "grupo_bloque": "## Sujetos regulados",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "definiciones_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_compania_financiera",
+   "nivel": "clase",
+   "label": "Compañías financieras",
+   "alias": [],
+   "definicion": "ES la entidad financiera no bancaria autorizada como compañía financiera (LEF art. 24).",
+   "padre": "Sujeto_entidad_financiera",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_capitales_minimos_actual.pdf",
+    "location": "Punto 1.2"
+   },
+   "grupo_bloque": "## Sujetos regulados",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "definiciones_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_caja_de_credito",
+   "nivel": "clase",
+   "label": "Cajas de crédito",
+   "alias": [],
+   "definicion": "ES la entidad financiera «caja de crédito» de la Ley 25.782; no es la caja de crédito cooperativa (Ley 26.173), que tiene su propio id.",
+   "padre": "Sujeto_entidad_financiera",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_capitales_minimos_actual.pdf",
+    "location": "Punto 1.2"
+   },
+   "grupo_bloque": "## Sujetos regulados",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "definiciones_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_caja_de_credito_cooperativa",
+   "nivel": "clase",
+   "label": "Cajas de crédito cooperativas",
+   "alias": [],
+   "definicion": "ES la cooperativa autorizada por el BCRA a operar como caja de crédito bajo la Ley 26.173.",
+   "padre": "Sujeto_entidad_financiera",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_capitales_minimos_actual.pdf",
+    "location": "Punto 1.2"
+   },
+   "grupo_bloque": "## Sujetos regulados",
+   "rol": null,
+   "rol_por_to": [
+    "cajasc.pdf",
+    "ctavis.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "definiciones_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_entidad_cambiaria",
+   "nivel": "clase",
+   "label": "Entidades cambiarias",
+   "alias": [
+    "Operador de cambio",
+    "Operadores de cambio"
+   ],
+   "definicion": "ES la persona autorizada a operar en cambios sin ser entidad financiera (casas y agencias de cambio, operadores de cambio).",
+   "padre": "Sujeto_sujeto_regulado",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [
+    "Sujeto_entidad_financiera",
+    "Sujeto_proveedor_de_servicios_de_pago"
+   ],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_exterior_cambios_actual.pdf",
+    "location": "Punto 5.4.2.2"
+   },
+   "grupo_bloque": "## Sujetos regulados",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "r2_op_11",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "definiciones_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_casa_de_cambio",
+   "nivel": "clase",
+   "label": "Casas de cambio",
+   "alias": [],
+   "definicion": null,
+   "padre": "Sujeto_entidad_cambiaria",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_exterior_cambios_actual.pdf",
+    "location": "Punto 5.9.2"
+   },
+   "grupo_bloque": "## Sujetos regulados",
+   "rol": null,
+   "rol_por_to": [
+    "ri2_ci.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_agencia_de_cambio",
+   "nivel": "clase",
+   "label": "Agencias de cambio",
+   "alias": [],
+   "definicion": null,
+   "padre": "Sujeto_entidad_cambiaria",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_exterior_cambios_actual.pdf",
+    "location": "Punto 5.9.2"
+   },
+   "grupo_bloque": "## Sujetos regulados",
+   "rol": null,
+   "rol_por_to": [
+    "ri2_ci.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_proveedor_de_servicios_de_pago",
+   "nivel": "clase",
+   "label": "Proveedores de servicios de pago",
+   "alias": [],
+   "definicion": "ES la persona jurídica que, sin ser entidad financiera, cumple funciones de provisión de servicios de pago en el sistema nacional de pagos (registro del BCRA).",
+   "padre": "Sujeto_sujeto_regulado",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [
+    "Sujeto_entidad_financiera",
+    "Sujeto_entidad_cambiaria"
+   ],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_proteccion_usuarios_servicios_financieros_actual.pdf",
+    "location": "Punto 1.1.2.6"
+   },
+   "grupo_bloque": "## Sujetos regulados",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "definiciones_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_pspcp",
+   "nivel": "clase",
+   "label": "Proveedores de servicios de pago que ofrecen cuentas de pago (PSPCP)",
+   "alias": [
+    "PSPCP"
+   ],
+   "definicion": "ES el PSP que ofrece cuentas de pago a sus clientes.",
+   "padre": "Sujeto_proveedor_de_servicios_de_pago",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_proteccion_usuarios_servicios_financieros_actual.pdf",
+    "location": "Punto 1.1.2.6"
+   },
+   "grupo_bloque": "## Sujetos regulados",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "definiciones_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_psi_billetera_digital",
+   "nivel": "clase",
+   "label": "Proveedores de servicios de pago iniciadores que prestan el servicio de billetera digital (PSI)",
+   "alias": [
+    "PSI"
+   ],
+   "definicion": "ES el PSP iniciador que presta el servicio de billetera digital.",
+   "padre": "Sujeto_proveedor_de_servicios_de_pago",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_proteccion_usuarios_servicios_financieros_actual.pdf",
+    "location": "Punto 1.1.2.7"
+   },
+   "grupo_bloque": "## Sujetos regulados",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "definiciones_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_proveedor_no_financiero_de_credito",
+   "nivel": "clase",
+   "label": "Proveedores no financieros de crédito",
+   "alias": [
+    "PNFC"
+   ],
+   "definicion": "ES la persona jurídica que, sin ser entidad financiera, oferta crédito al público de manera habitual (incluye mutuales, cooperativas y empresas emisoras de tarjetas).",
+   "padre": "Sujeto_sujeto_regulado",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_proteccion_usuarios_servicios_financieros_actual.pdf",
+    "location": "Punto 1.1.2.5"
+   },
+   "grupo_bloque": "## Sujetos regulados",
+   "rol": null,
+   "rol_por_to": [
+    "apnf.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "definiciones_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_empresa_no_financiera_emisora_de_tarjetas",
+   "nivel": "clase",
+   "label": "Empresas no financieras emisoras de tarjetas de crédito y/o compra",
+   "alias": [
+    "Empresas emisoras de tarjetas"
+   ],
+   "definicion": "ES el proveedor no financiero de crédito cuya operatoria es emitir tarjetas de crédito y/o compra.",
+   "padre": "Sujeto_proveedor_no_financiero_de_credito",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_proteccion_usuarios_servicios_financieros_actual.pdf",
+    "location": "Punto 1.1.2.4"
+   },
+   "grupo_bloque": "## Sujetos regulados",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "definiciones_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_pscpp",
+   "nivel": "clase",
+   "label": "Proveedores de servicios de créditos entre particulares a través de plataformas (PSCPP)",
+   "alias": [
+    "PSCPP"
+   ],
+   "definicion": null,
+   "padre": "Sujeto_sujeto_regulado",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_clasificacion_deudores_actual.pdf",
+    "location": "Punto 10.4"
+   },
+   "grupo_bloque": "## Sujetos regulados",
+   "rol": null,
+   "rol_por_to": [
+    "pscpp.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_fiduciario_de_fideicomiso_financiero",
+   "nivel": "clase",
+   "label": "Fiduciarios de fideicomisos financieros",
+   "alias": [],
+   "definicion": "ES quien ejerce la fiducia de un fideicomiso financiero (una EF o una sociedad autorizada por la CNV); es distinto del fideicomiso mismo, que es una estructura.",
+   "padre": "Sujeto_sujeto_regulado",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_clasificacion_deudores_actual.pdf",
+    "location": "Punto 10.2"
+   },
+   "grupo_bloque": "## Sujetos regulados",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "definiciones_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_sociedad_de_garantia_reciproca",
+   "nivel": "clase",
+   "label": "Sociedades de garantía recíproca",
+   "alias": [
+    "SGR"
+   ],
+   "definicion": null,
+   "padre": "Sujeto_sujeto_regulado",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_clasificacion_deudores_actual.pdf",
+    "location": "Punto 10.3"
+   },
+   "grupo_bloque": "## Sujetos regulados",
+   "rol": null,
+   "rol_por_to": [
+    "socgar.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_fondo_de_garantia_publico",
+   "nivel": "clase",
+   "label": "Fondos de garantía de carácter público",
+   "alias": [],
+   "definicion": null,
+   "padre": "Sujeto_sujeto_regulado",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_clasificacion_deudores_actual.pdf",
+    "location": "Punto 10.3"
+   },
+   "grupo_bloque": "## Sujetos regulados",
+   "rol": null,
+   "rol_por_to": [
+    "fgarcp.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_entidad_de_contraparte_central",
+   "nivel": "clase",
+   "label": "Entidades de contraparte central (CCP)",
+   "alias": [
+    "CCP"
+   ],
+   "definicion": "ES la infraestructura que se interpone como contraparte entre los participantes de un mercado (ECC/CCP); no es la cámara electrónica de compensación (CEC).",
+   "padre": "Sujeto_sujeto_regulado",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_capitales_minimos_actual.pdf",
+    "location": "Punto 2.5.9"
+   },
+   "grupo_bloque": "## Sujetos regulados",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "definiciones_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_ccp_calificada",
+   "nivel": "clase",
+   "label": "Entidades de contraparte central calificadas",
+   "alias": [
+    "QCCP"
+   ],
+   "definicion": null,
+   "padre": "Sujeto_entidad_de_contraparte_central",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [
+    "Sujeto_ccp_no_calificada"
+   ],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_capitales_minimos_actual.pdf",
+    "location": "Punto 4.3.1.1"
+   },
+   "grupo_bloque": "## Sujetos regulados",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_ccp_no_calificada",
+   "nivel": "clase",
+   "label": "Entidades de contraparte central no calificadas",
+   "alias": [],
+   "definicion": null,
+   "padre": "Sujeto_entidad_de_contraparte_central",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [
+    "Sujeto_ccp_calificada"
+   ],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_capitales_minimos_actual.pdf",
+    "location": "Punto 4.3.4"
+   },
+   "grupo_bloque": "## Sujetos regulados",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_miembro_compensador",
+   "nivel": "clase",
+   "label": "Miembros compensadores",
+   "alias": [],
+   "definicion": "ES el participante que liquida y compensa a través de una entidad de contraparte central, por sí o por cuenta de terceros.",
+   "padre": "Sujeto_sujeto_regulado",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_capitales_minimos_actual.pdf",
+    "location": "Punto 4.3.1.2"
+   },
+   "grupo_bloque": "## Sujetos regulados",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "definiciones_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_ecai",
+   "nivel": "clase",
+   "label": "Agentes de calificación externa (ECAI)",
+   "alias": [
+    "ECAI"
+   ],
+   "definicion": null,
+   "padre": "Sujeto_sujeto_regulado",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_capitales_minimos_actual.pdf",
+    "location": "Sección 10"
+   },
+   "grupo_bloque": "## Sujetos regulados",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_sujeto_del_perimetro_consolidado",
+   "nivel": "clase",
+   "label": "Sujetos del perímetro de supervisión consolidada",
+   "alias": [],
+   "definicion": null,
+   "padre": "Sujeto_sujeto_regulado",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_capitales_minimos_actual.pdf",
+    "location": "Punto 8.2.1.9"
+   },
+   "grupo_bloque": "## Sujetos regulados",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_aseguradora",
+   "nivel": "clase",
+   "label": "Aseguradoras",
+   "alias": [],
+   "definicion": null,
+   "padre": "Sujeto_sujeto_del_perimetro_consolidado",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_capitales_minimos_actual.pdf",
+    "location": "Punto 2.7.1"
+   },
+   "grupo_bloque": "## Sujetos regulados",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_entidad_bursatil",
+   "nivel": "clase",
+   "label": "Entidades bursátiles",
+   "alias": [],
+   "definicion": null,
+   "padre": "Sujeto_sujeto_del_perimetro_consolidado",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_capitales_minimos_actual.pdf",
+    "location": "Punto 2.7.1"
+   },
+   "grupo_bloque": "## Sujetos regulados",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_empresa_de_servicios_complementarios",
+   "nivel": "clase",
+   "label": "Empresas de servicios complementarios de la actividad financiera",
+   "alias": [],
+   "definicion": "ES la empresa no financiera del perímetro de la entidad dedicada a actividades complementarias admitidas (normas de Servicios complementarios).",
+   "padre": "Sujeto_sujeto_del_perimetro_consolidado",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_capitales_minimos_actual.pdf",
+    "location": "Punto 8.4.2.1"
+   },
+   "grupo_bloque": "## Sujetos regulados",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "definiciones_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_cliente",
+   "nivel": "clase",
+   "label": "Clientes",
+   "alias": [],
+   "definicion": "ES la unidad económica receptora de fondos de la entidad o titular de una garantía a su favor, residente o no.",
+   "padre": "Sujeto_contraparte",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_exterior_cambios_actual.pdf",
+    "location": "Punto 1.2"
+   },
+   "grupo_bloque": "## Contrapartes",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "definiciones_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_persona_humana",
+   "nivel": "clase",
+   "label": "Personas humanas",
+   "alias": [],
+   "definicion": null,
+   "padre": "Sujeto_cliente",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [
+    "Sujeto_persona_juridica",
+    "Sujeto_universalidad"
+   ],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_exterior_cambios_actual.pdf",
+    "location": "Punto 1.2"
+   },
+   "grupo_bloque": "## Contrapartes",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_persona_juridica",
+   "nivel": "clase",
+   "label": "Personas jurídicas",
+   "alias": [],
+   "definicion": null,
+   "padre": "Sujeto_cliente",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [
+    "Sujeto_persona_humana",
+    "Sujeto_universalidad"
+   ],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_exterior_cambios_actual.pdf",
+    "location": "Punto 1.2"
+   },
+   "grupo_bloque": "## Contrapartes",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_universalidad",
+   "nivel": "clase",
+   "label": "Patrimonios y otras universalidades",
+   "alias": [],
+   "definicion": null,
+   "padre": "Sujeto_cliente",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [
+    "Sujeto_persona_humana",
+    "Sujeto_persona_juridica"
+   ],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_exterior_cambios_actual.pdf",
+    "location": "Punto 1.2"
+   },
+   "grupo_bloque": "## Contrapartes",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_deudor",
+   "nivel": "clase",
+   "label": "Deudores",
+   "alias": [],
+   "definicion": null,
+   "padre": "Sujeto_cliente",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_clasificacion_deudores_actual.pdf",
+    "location": "Punto 1.1"
+   },
+   "grupo_bloque": "## Contrapartes",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_usuario_de_servicios_financieros",
+   "nivel": "clase",
+   "label": "Usuarios de servicios financieros",
+   "alias": [],
+   "definicion": "ES la persona (humana o jurídica) destinataria final de un servicio financiero, en los términos de las normas de Protección de los usuarios.",
+   "padre": "Sujeto_contraparte",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_proteccion_usuarios_servicios_financieros_actual.pdf",
+    "location": "Punto 1.1.1"
+   },
+   "grupo_bloque": "## Contrapartes",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "definiciones_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_importador",
+   "nivel": "clase",
+   "label": "Importadores",
+   "alias": [],
+   "definicion": null,
+   "padre": "Sujeto_contraparte",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_exterior_cambios_actual.pdf",
+    "location": "Sección 10"
+   },
+   "grupo_bloque": "## Contrapartes",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_importador_de_bienes",
+   "nivel": "clase",
+   "label": "Importadores de bienes",
+   "alias": [],
+   "definicion": null,
+   "padre": "Sujeto_importador",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_exterior_cambios_actual.pdf",
+    "location": "Punto 4.4"
+   },
+   "grupo_bloque": "## Contrapartes",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_importador_de_servicios",
+   "nivel": "clase",
+   "label": "Importadores de servicios",
+   "alias": [],
+   "definicion": null,
+   "padre": "Sujeto_importador",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_exterior_cambios_actual.pdf",
+    "location": "Punto 4.5"
+   },
+   "grupo_bloque": "## Contrapartes",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_exportador",
+   "nivel": "clase",
+   "label": "Exportadores",
+   "alias": [],
+   "definicion": null,
+   "padre": "Sujeto_contraparte",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_exterior_cambios_actual.pdf",
+    "location": "Punto 2.6.3"
+   },
+   "grupo_bloque": "## Contrapartes",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_mipyme",
+   "nivel": "clase",
+   "label": "MiPyMEs",
+   "alias": [],
+   "definicion": null,
+   "padre": "Sujeto_contraparte",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_clasificacion_deudores_actual.pdf",
+    "location": "Punto 10.3"
+   },
+   "grupo_bloque": "## Contrapartes",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_emisor_de_titulos_de_deuda",
+   "nivel": "clase",
+   "label": "Emisores de títulos de deuda",
+   "alias": [],
+   "definicion": null,
+   "padre": "Sujeto_contraparte",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_exterior_cambios_actual.pdf",
+    "location": "Punto 2.4"
+   },
+   "grupo_bloque": "## Contrapartes",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_vpu_rigi",
+   "nivel": "clase",
+   "label": "Vehículos de Proyecto Único (VPU) adheridos al RIGI",
+   "alias": [
+    "VPU"
+   ],
+   "definicion": null,
+   "padre": "Sujeto_contraparte",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_exterior_cambios_actual.pdf",
+    "location": "Sección 14"
+   },
+   "grupo_bloque": "## Contrapartes",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_beneficiario_economia_conocimiento",
+   "nivel": "clase",
+   "label": "Beneficiarios del Régimen de Promoción de la Economía del Conocimiento",
+   "alias": [],
+   "definicion": null,
+   "padre": "Sujeto_contraparte",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_exterior_cambios_actual.pdf",
+    "location": "Punto 2.6.1"
+   },
+   "grupo_bloque": "## Contrapartes",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_sector_publico_no_financiero",
+   "nivel": "clase",
+   "label": "Sector público no financiero",
+   "alias": [],
+   "definicion": "ES el conjunto Gobierno Nacional, provincias, municipios y CABA con sus entes controlados; NO incluye entidades financieras públicas (bancos públicos) ni entidades autorizadas a operar como entidades financieras.",
+   "padre": "Sujeto_contraparte",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [
+    "Sujeto_sector_privado_no_financiero"
+   ],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_capitales_minimos_actual.pdf",
+    "location": "Punto 2.1"
+   },
+   "grupo_bloque": "## Contrapartes",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "definiciones_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_sector_privado_no_financiero",
+   "nivel": "clase",
+   "label": "Sector privado no financiero",
+   "alias": [],
+   "definicion": "ES el residente del sector privado que no es entidad financiera ni ente público.",
+   "padre": "Sujeto_contraparte",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [
+    "Sujeto_sector_publico_no_financiero"
+   ],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_capitales_minimos_actual.pdf",
+    "location": "Punto 2.5.6"
+   },
+   "grupo_bloque": "## Contrapartes",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "definiciones_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_fideicomiso",
+   "nivel": "clase",
+   "label": "Fideicomisos",
+   "alias": [],
+   "definicion": null,
+   "padre": "Sujeto_estructura",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_exterior_cambios_actual.pdf",
+    "location": "Punto 3.7"
+   },
+   "grupo_bloque": "## Estructuras y vehículos",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_fideicomiso_financiero",
+   "nivel": "clase",
+   "label": "Fideicomisos financieros",
+   "alias": [],
+   "definicion": "ES el fideicomiso (contrato/patrimonio) cuyos beneficiarios son titulares de títulos valores respaldados por los bienes fideicomitidos; no es su fiduciario.",
+   "padre": "Sujeto_fideicomiso",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_clasificacion_deudores_actual.pdf",
+    "location": "Punto 10.2"
+   },
+   "grupo_bloque": "## Estructuras y vehículos",
+   "rol": null,
+   "rol_por_to": [
+    "fclef.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "definiciones_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_sociedad_de_proposito_especial",
+   "nivel": "clase",
+   "label": "Entes de propósito especial (SPE)",
+   "alias": [
+    "SPE",
+    "Sociedad de propósito especial"
+   ],
+   "definicion": null,
+   "padre": "Sujeto_estructura",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_capitales_minimos_actual.pdf",
+    "location": "Punto 3.1.1.8"
+   },
+   "grupo_bloque": "## Estructuras y vehículos",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": {
+    "marca": "REVISAR EN r2",
+    "evidencia": "2 menciones (`lingeef::3.3.1.8`); lo sostiene el tamaño de lingeef (613 unidades).",
+    "laudo": "docs/laudo_B5.4_fase1_catalogo.md §F1.5 (commit dea56ba)",
+    "registro": "data/experiment/b54_catalogo_v3/catalogo_sujetos_v3.md:62-63"
+   },
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "marca_revision": "marcas_md",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_fondo_comun_de_inversion",
+   "nivel": "clase",
+   "label": "Fondos comunes de inversión",
+   "alias": [
+    "FCI"
+   ],
+   "definicion": "ES el fondo como vehículo de inversión; es distinto de su sociedad gerente y de su depositaria.",
+   "padre": "Sujeto_estructura",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_exterior_cambios_actual.pdf",
+    "location": "Punto 3.10"
+   },
+   "grupo_bloque": "## Estructuras y vehículos",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "definiciones_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_gobierno_local",
+   "nivel": "clase",
+   "label": "Gobiernos locales",
+   "alias": [],
+   "definicion": null,
+   "padre": "Sujeto_organismo_publico",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_exterior_cambios_actual.pdf",
+    "location": "Punto 3.10"
+   },
+   "grupo_bloque": "## Organismos públicos (clases e instancias)",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_organismo_internacional",
+   "nivel": "clase",
+   "label": "Organismos internacionales",
+   "alias": [],
+   "definicion": null,
+   "padre": "Sujeto_organismo_publico",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_capitales_minimos_actual.pdf",
+    "location": "Punto 5.4.1"
+   },
+   "grupo_bloque": "## Organismos públicos (clases e instancias)",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_banco_multilateral_de_desarrollo",
+   "nivel": "clase",
+   "label": "Bancos multilaterales de desarrollo",
+   "alias": [
+    "BMD"
+   ],
+   "definicion": null,
+   "padre": "Sujeto_organismo_internacional",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_capitales_minimos_actual.pdf",
+    "location": "Punto 2.12.3"
+   },
+   "grupo_bloque": "## Organismos públicos (clases e instancias)",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_agencia_oficial_de_credito",
+   "nivel": "clase",
+   "label": "Agencias oficiales de crédito",
+   "alias": [],
+   "definicion": null,
+   "padre": "Sujeto_organismo_publico",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_exterior_cambios_actual.pdf",
+    "location": "Punto 3.13.1"
+   },
+   "grupo_bloque": "## Organismos públicos (clases e instancias)",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_bcra",
+   "nivel": "instancia",
+   "label": "BCRA (Banco Central de la República Argentina)",
+   "alias": [],
+   "definicion": "ES el Banco Central de la República Argentina como autoridad. Las potestades de autorizar, reglamentar, fiscalizar o sancionar son SUYAS: se atribuyen a este id y nunca al sujeto regulado por la norma.",
+   "padre": null,
+   "instancia_de": "Sujeto_organismo_publico",
+   "parte_de": null,
+   "disjunta_con": null,
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_exterior_cambios_actual.pdf",
+    "location": "Punto 1.1"
+   },
+   "grupo_bloque": "## Organismos públicos (clases e instancias)",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "definiciones_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "instancia_de": "esquema_v3_clases",
+    "parte_de": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_sefyc",
+   "nivel": "instancia",
+   "label": "SEFyC (Superintendencia de Entidades Financieras y Cambiarias)",
+   "alias": [
+    "Superintendencia de Entidades Financieras y Cambiarias"
+   ],
+   "definicion": "ES la Superintendencia de Entidades Financieras y Cambiarias como órgano de supervisión (califica, inspecciona, sanciona).",
+   "padre": null,
+   "instancia_de": "Sujeto_organismo_publico",
+   "parte_de": "Sujeto_bcra",
+   "disjunta_con": null,
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_clasificacion_deudores_actual.pdf",
+    "location": "Punto 5.1.1.2"
+   },
+   "grupo_bloque": "## Organismos públicos (clases e instancias)",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "definiciones_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "instancia_de": "esquema_v3_clases",
+    "parte_de": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_arca",
+   "nivel": "instancia",
+   "label": "ARCA (Agencia de Recaudación y Control Aduanero)",
+   "alias": [
+    "AFIP",
+    "Agencia de Recaudación y Control Aduanero"
+   ],
+   "definicion": null,
+   "padre": null,
+   "instancia_de": "Sujeto_organismo_publico",
+   "parte_de": null,
+   "disjunta_con": null,
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_exterior_cambios_actual.pdf",
+    "location": "Punto 3.16.1"
+   },
+   "grupo_bloque": "## Organismos públicos (clases e instancias)",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "instancia_de": "esquema_v3_clases",
+    "parte_de": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_ministerio_de_economia",
+   "nivel": "instancia",
+   "label": "Ministerio de Economía",
+   "alias": [],
+   "definicion": null,
+   "padre": null,
+   "instancia_de": "Sujeto_organismo_publico",
+   "parte_de": null,
+   "disjunta_con": null,
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_exterior_cambios_actual.pdf",
+    "location": "Punto 2.6.2.2"
+   },
+   "grupo_bloque": "## Organismos públicos (clases e instancias)",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": {
+    "marca": "REVISAR EN r2",
+    "evidencia": "evidencia débil (7 menciones/4 TOs, casi todas citas de resoluciones); lo sostiene `fabcra::S1::chapeau_seccion` (sujeto real de la operatoria de firmas).",
+    "laudo": "docs/laudo_B5.4_fase1_catalogo.md §F1.5 (commit dea56ba)",
+    "registro": "data/experiment/b54_catalogo_v3/catalogo_sujetos_v3.md:59-61"
+   },
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "instancia_de": "esquema_v3_clases",
+    "parte_de": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "marca_revision": "marcas_md",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_rol_sujeto_obligado_proteccion",
+   "nivel": "rol",
+   "label": "Sujetos obligados (Protección de usuarios)",
+   "alias": [],
+   "definicion": null,
+   "padre": null,
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": null,
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_proteccion_usuarios_servicios_financieros_actual.pdf",
+    "location": "Punto 1.1.2"
+   },
+   "grupo_bloque": "## Roles de alcance por TO",
+   "rol": {
+    "miembros": [
+     "Sujeto_entidad_financiera",
+     "Sujeto_entidad_cambiaria",
+     "Sujeto_fiduciario_de_fideicomiso_financiero",
+     "Sujeto_empresa_no_financiera_emisora_de_tarjetas",
+     "Sujeto_proveedor_no_financiero_de_credito",
+     "Sujeto_pspcp",
+     "Sujeto_psi_billetera_digital"
+    ],
+    "sin_miembro_adjudicable": null,
+    "residuo_declarado": null,
+    "miembros_ids_mensaje": [
+     "Sujeto_entidad_financiera",
+     "Sujeto_entidad_cambiaria",
+     "Sujeto_fiduciario_de_fideicomiso_financiero",
+     "Sujeto_empresa_no_financiera_emisora_de_tarjetas",
+     "Sujeto_proveedor_no_financiero_de_credito",
+     "Sujeto_pspcp",
+     "Sujeto_psi_billetera_digital"
+    ],
+    "miembros_labels_mensaje": [
+     "Entidades financieras",
+     "Entidades cambiarias",
+     "Fiduciarios de fideicomisos financieros",
+     "Empresas no financieras emisoras de tarjetas de crédito y/o compra",
+     "Proveedores no financieros de crédito",
+     "Proveedores de servicios de pago que ofrecen cuentas de pago (PSPCP)",
+     "Proveedores de servicios de pago iniciadores que prestan el servicio de billetera digital (PSI)"
+    ]
+   },
+   "rol_por_to": [
+    "TO_proteccion_usuarios_servicios_financieros_actual.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol.miembros": "esquema_v3_clases",
+    "rol.sin_miembro_adjudicable": "esquema_v3_clases",
+    "rol.residuo_declarado": "esquema_v3_clases",
+    "rol.miembros_ids_mensaje": "rol_por_to_v3",
+    "rol.miembros_labels_mensaje": "rol_por_to_dev",
+    "rol_por_to": "bloque_v3",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_rol_entidad_autorizada_exterior",
+   "nivel": "rol",
+   "label": "Entidades autorizadas a operar en cambios (Exterior)",
+   "alias": [],
+   "definicion": null,
+   "padre": null,
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": null,
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_exterior_cambios_actual.pdf",
+    "location": "Punto 1.1"
+   },
+   "grupo_bloque": "## Roles de alcance por TO",
+   "rol": {
+    "miembros": [
+     "Sujeto_entidad_financiera",
+     "Sujeto_entidad_cambiaria"
+    ],
+    "sin_miembro_adjudicable": null,
+    "residuo_declarado": null,
+    "miembros_ids_mensaje": [
+     "Sujeto_entidad_financiera",
+     "Sujeto_entidad_cambiaria"
+    ],
+    "miembros_labels_mensaje": [
+     "Entidades financieras",
+     "Entidades cambiarias"
+    ]
+   },
+   "rol_por_to": [
+    "TO_exterior_cambios_actual.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol.miembros": "esquema_v3_clases",
+    "rol.sin_miembro_adjudicable": "esquema_v3_clases",
+    "rol.residuo_declarado": "esquema_v3_clases",
+    "rol.miembros_ids_mensaje": "rol_por_to_v3",
+    "rol.miembros_labels_mensaje": "rol_por_to_dev",
+    "rol_por_to": "bloque_v3",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_rol_obligado_a_clasificar_clasificacion",
+   "nivel": "rol",
+   "label": "Obligados a clasificar deudores (Clasificación)",
+   "alias": [],
+   "definicion": null,
+   "padre": null,
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": null,
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_clasificacion_deudores_actual.pdf",
+    "location": "Secciones 1 y 10"
+   },
+   "grupo_bloque": "## Roles de alcance por TO",
+   "rol": {
+    "miembros": [
+     "Sujeto_entidad_financiera",
+     "Sujeto_proveedor_no_financiero_de_credito",
+     "Sujeto_fiduciario_de_fideicomiso_financiero",
+     "Sujeto_sociedad_de_garantia_reciproca",
+     "Sujeto_fondo_de_garantia_publico",
+     "Sujeto_pscpp"
+    ],
+    "sin_miembro_adjudicable": null,
+    "residuo_declarado": null,
+    "miembros_ids_mensaje": [
+     "Sujeto_entidad_financiera",
+     "Sujeto_proveedor_no_financiero_de_credito",
+     "Sujeto_fiduciario_de_fideicomiso_financiero",
+     "Sujeto_sociedad_de_garantia_reciproca",
+     "Sujeto_fondo_de_garantia_publico",
+     "Sujeto_pscpp"
+    ],
+    "miembros_labels_mensaje": [
+     "Entidades financieras",
+     "Proveedores no financieros de crédito",
+     "Fiduciarios de fideicomisos financieros",
+     "Sociedades de garantía recíproca",
+     "Fondos de garantía de carácter público",
+     "Proveedores de servicios de créditos entre particulares a través de plataformas (PSCPP)"
+    ]
+   },
+   "rol_por_to": [
+    "TO_clasificacion_deudores_actual.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol.miembros": "esquema_v3_clases",
+    "rol.sin_miembro_adjudicable": "esquema_v3_clases",
+    "rol.residuo_declarado": "esquema_v3_clases",
+    "rol.miembros_ids_mensaje": "rol_por_to_v3",
+    "rol.miembros_labels_mensaje": "rol_por_to_dev",
+    "rol_por_to": "bloque_v3",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_rol_entidad_comprendida_reginf",
+   "nivel": "rol",
+   "label": "Entidades comprendidas (Régimen Informativo)",
+   "alias": [],
+   "definicion": null,
+   "padre": null,
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": null,
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_regimen_informativo_contable_mensual_actual.pdf",
+    "location": "Sección 2"
+   },
+   "grupo_bloque": "## Roles de alcance por TO",
+   "rol": {
+    "miembros": [
+     "Sujeto_entidad_financiera"
+    ],
+    "sin_miembro_adjudicable": null,
+    "residuo_declarado": null,
+    "miembros_ids_mensaje": [
+     "Sujeto_entidad_financiera"
+    ],
+    "miembros_labels_mensaje": [
+     "Entidades financieras"
+    ]
+   },
+   "rol_por_to": [
+    "TO_regimen_informativo_contable_mensual_actual.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol.miembros": "esquema_v3_clases",
+    "rol.sin_miembro_adjudicable": "esquema_v3_clases",
+    "rol.residuo_declarado": "esquema_v3_clases",
+    "rol.miembros_ids_mensaje": "rol_por_to_v3",
+    "rol.miembros_labels_mensaje": "rol_por_to_dev",
+    "rol_por_to": "bloque_v3",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_rol_alcance_capmin",
+   "nivel": "rol",
+   "label": "Entidades alcanzadas (Capitales Mínimos)",
+   "alias": [],
+   "definicion": null,
+   "padre": null,
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": null,
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_capitales_minimos_actual.pdf",
+    "location": "Sección 1"
+   },
+   "grupo_bloque": "## Roles de alcance por TO",
+   "rol": {
+    "miembros": [
+     "Sujeto_entidad_financiera"
+    ],
+    "sin_miembro_adjudicable": null,
+    "residuo_declarado": null,
+    "miembros_ids_mensaje": [
+     "Sujeto_entidad_financiera"
+    ],
+    "miembros_labels_mensaje": [
+     "Entidades financieras"
+    ]
+   },
+   "rol_por_to": [
+    "TO_capitales_minimos_actual.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "catálogo del prefijo congelado (data/experiment/esq/code/prompt_congelado.py, SUJETOS_CATALOGO; laudo de esquema congelado, commit 2593d4d)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol.miembros": "esquema_v3_clases",
+    "rol.sin_miembro_adjudicable": "esquema_v3_clases",
+    "rol.residuo_declarado": "esquema_v3_clases",
+    "rol.miembros_ids_mensaje": "rol_por_to_v3",
+    "rol.miembros_labels_mensaje": "rol_por_to_dev",
+    "rol_por_to": "bloque_v3",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_entidad_girada",
+   "nivel": "clase",
+   "label": "Entidades giradas",
+   "alias": [
+    "entidad girada",
+    "banco girado"
+   ],
+   "definicion": "ES la entidad sobre la cual está girado el cheque u otro instrumento compensable, obligada a su pago o rechazo.",
+   "padre": "Sujeto_sujeto_regulado",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "catalogo_sujetos_v3.json",
+    "location": "adición del catálogo v3 (laudo B5.4 fase 1)"
+   },
+   "grupo_bloque": "## Sujetos regulados",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "docs/laudo_B5.4_fase1_catalogo.md §F1.4 (commit dea56ba, 05/09/2026)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "adiciones_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "adiciones_v3",
+    "disjunta_con": "construccion_c1",
+    "provenance_esqueleto": "construccion_c1",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_entidad_depositaria",
+   "nivel": "clase",
+   "label": "Entidades depositarias",
+   "alias": [
+    "entidad depositaria"
+   ],
+   "definicion": "ES la entidad en la que se deposita el instrumento compensable y que lo presenta a la compensación.",
+   "padre": "Sujeto_sujeto_regulado",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "catalogo_sujetos_v3.json",
+    "location": "adición del catálogo v3 (laudo B5.4 fase 1)"
+   },
+   "grupo_bloque": "## Sujetos regulados",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "docs/laudo_B5.4_fase1_catalogo.md §F1.4 (commit dea56ba, 05/09/2026)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "adiciones_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "adiciones_v3",
+    "disjunta_con": "construccion_c1",
+    "provenance_esqueleto": "construccion_c1",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_entidad_originante_de_transferencia",
+   "nivel": "clase",
+   "label": "Entidades originantes",
+   "alias": [
+    "entidad originante"
+   ],
+   "definicion": "ES la entidad que origina o ingresa la transacción al esquema de pago (transferencias, débitos directos, DEBIN). NO es el originante de una securitización o fideicomiso: ese sujeto sigue en sujeto_propuesto.",
+   "padre": "Sujeto_sujeto_regulado",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "catalogo_sujetos_v3.json",
+    "location": "adición del catálogo v3 (laudo B5.4 fase 1)"
+   },
+   "grupo_bloque": "## Sujetos regulados",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "docs/laudo_B5.4_fase1_catalogo.md §F1.4 (commit dea56ba, 05/09/2026); id renombrado desde Sujeto_entidad_originante por docs/laudo_B5.4_cierre_catalogo.md H1(a) (06/09/2026); registro en data/experiment/b54_catalogo_v3/catalogo_sujetos_v3.md:157-160"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "adiciones_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "adiciones_v3",
+    "disjunta_con": "construccion_c1",
+    "provenance_esqueleto": "construccion_c1",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_entidad_receptora",
+   "nivel": "clase",
+   "label": "Entidades receptoras",
+   "alias": [
+    "entidad receptora"
+   ],
+   "definicion": "ES la entidad que recibe la transacción del esquema de pago con destino a cuentas de sus clientes.",
+   "padre": "Sujeto_sujeto_regulado",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "catalogo_sujetos_v3.json",
+    "location": "adición del catálogo v3 (laudo B5.4 fase 1)"
+   },
+   "grupo_bloque": "## Sujetos regulados",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "docs/laudo_B5.4_fase1_catalogo.md §F1.4 (commit dea56ba, 05/09/2026)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "adiciones_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "adiciones_v3",
+    "disjunta_con": "construccion_c1",
+    "provenance_esqueleto": "construccion_c1",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_camara_electronica_de_compensacion",
+   "nivel": "clase",
+   "label": "Cámaras electrónicas de compensación (CEC)",
+   "alias": [
+    "CEC",
+    "cámaras compensadoras"
+   ],
+   "definicion": "ES la cámara que compensa y liquida las posiciones entre entidades en el sistema nacional de pagos; no es la entidad de contraparte central (CCP).",
+   "padre": "Sujeto_sujeto_regulado",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": true,
+   "provenance_esqueleto": {
+    "source_doc": "esquema_v3_clases.json",
+    "location": "adición del catálogo v3 (laudo B5.4 fase 1)"
+   },
+   "grupo_bloque": "## Sujetos regulados",
+   "rol": null,
+   "rol_por_to": [
+    "snp_cec.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "docs/laudo_B5.4_fase1_catalogo.md §F1.4 (commit dea56ba, 05/09/2026)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "adiciones_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "padre_inferido": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_banco_central_del_exterior",
+   "nivel": "clase",
+   "label": "Bancos centrales del exterior",
+   "alias": [
+    "bancos centrales de otros estados soberanos",
+    "Banco Central Europeo"
+   ],
+   "definicion": "ES el banco central de otro estado soberano (incluido el Banco Central Europeo); no es el BCRA.",
+   "padre": "Sujeto_organismo_publico",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "catalogo_sujetos_v3.json",
+    "location": "adición del catálogo v3 (laudo B5.4 fase 1)"
+   },
+   "grupo_bloque": "## Organismos públicos (clases e instancias)",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "docs/laudo_B5.4_fase1_catalogo.md §F1.4 (commit dea56ba, 05/09/2026)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "adiciones_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "padre": "adiciones_v3",
+    "disjunta_con": "construccion_c1",
+    "provenance_esqueleto": "construccion_c1",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_fmi",
+   "nivel": "instancia",
+   "label": "FMI (Fondo Monetario Internacional)",
+   "alias": [
+    "Fondo Monetario Internacional"
+   ],
+   "definicion": null,
+   "padre": null,
+   "instancia_de": "Sujeto_organismo_internacional",
+   "parte_de": null,
+   "disjunta_con": null,
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "catalogo_sujetos_v3.json",
+    "location": "adición del catálogo v3 (laudo B5.4 fase 1)"
+   },
+   "grupo_bloque": "## Organismos públicos (clases e instancias)",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "docs/laudo_B5.4_fase1_catalogo.md §F1.4 (commit dea56ba, 05/09/2026)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol_por_to": "mapeo_clase_v3",
+    "instancia_de": "adiciones_v3",
+    "provenance_esqueleto": "construccion_c1",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_rol_alcance_adrei",
+   "nivel": "rol",
+   "label": "Entidades alcanzadas (Agregación de datos sobre riesgos: D-SIB)",
+   "alias": [],
+   "definicion": null,
+   "padre": null,
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": null,
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "adrei.pdf",
+    "location": "Punto 1.1"
+   },
+   "grupo_bloque": "## Roles de alcance por TO",
+   "rol": {
+    "miembros": [],
+    "sin_miembro_adjudicable": "aplanamiento_rechazado",
+    "residuo_declarado": null,
+    "miembros_ids_mensaje": [],
+    "miembros_labels_mensaje": [
+     "Entidades financieras de importancia sistémica local (D-SIB)"
+    ]
+   },
+   "rol_por_to": [
+    "adrei.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "docs/laudo_B5.4_fase1_catalogo.md §F1.2 (commit dea56ba, 05/09/2026)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol.miembros": "esquema_v3_clases",
+    "rol.sin_miembro_adjudicable": "esquema_v3_clases",
+    "rol.residuo_declarado": "esquema_v3_clases",
+    "rol.miembros_ids_mensaje": "rol_por_to_v3",
+    "rol.miembros_labels_mensaje": "roles_v3",
+    "rol_por_to": "bloque_v3",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_rol_alcance_autenf",
+   "nivel": "rol",
+   "label": "Autoridades comprendidas (Autoridades de entidades financieras)",
+   "alias": [],
+   "definicion": null,
+   "padre": null,
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": null,
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "autenf.pdf",
+    "location": "Punto 1.1"
+   },
+   "grupo_bloque": "## Roles de alcance por TO",
+   "rol": {
+    "miembros": [],
+    "sin_miembro_adjudicable": "sin_id_en_catalogo",
+    "residuo_declarado": null,
+    "miembros_ids_mensaje": [],
+    "miembros_labels_mensaje": [
+     "Personas que ejercen cargos de administración, fiscalización o gerencia en entidades financieras"
+    ]
+   },
+   "rol_por_to": [
+    "autenf.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "docs/laudo_B5.4_fase1_catalogo.md §F1.2 (commit dea56ba, 05/09/2026)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol.miembros": "esquema_v3_clases",
+    "rol.sin_miembro_adjudicable": "esquema_v3_clases",
+    "rol.residuo_declarado": "esquema_v3_clases",
+    "rol.miembros_ids_mensaje": "rol_por_to_v3",
+    "rol.miembros_labels_mensaje": "roles_v3",
+    "rol_por_to": "bloque_v3",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_rol_alcance_ccbcra",
+   "nivel": "rol",
+   "label": "Entidades alcanzadas (Cuentas a la vista en el BCRA)",
+   "alias": [],
+   "definicion": null,
+   "padre": null,
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": null,
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "ccbcra.pdf",
+    "location": "Punto 1.1"
+   },
+   "grupo_bloque": "## Roles de alcance por TO",
+   "rol": {
+    "miembros": [
+     "Sujeto_caja_de_credito",
+     "Sujeto_entidad_cambiaria",
+     "Sujeto_entidad_financiera"
+    ],
+    "sin_miembro_adjudicable": null,
+    "residuo_declarado": null,
+    "miembros_ids_mensaje": [],
+    "miembros_labels_mensaje": [
+     "Entidades financieras",
+     "Cajas de crédito (Ley 25.782)",
+     "Entidades cambiarias"
+    ]
+   },
+   "rol_por_to": [
+    "ccbcra.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "docs/laudo_B5.4_fase1_catalogo.md §F1.2 (commit dea56ba, 05/09/2026)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol.miembros": "esquema_v3_clases",
+    "rol.sin_miembro_adjudicable": "esquema_v3_clases",
+    "rol.residuo_declarado": "esquema_v3_clases",
+    "rol.miembros_ids_mensaje": "rol_por_to_v3",
+    "rol.miembros_labels_mensaje": "roles_v3",
+    "rol_por_to": "bloque_v3",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_rol_alcance_convca",
+   "nivel": "rol",
+   "label": "Entidades habilitadas (Conversión cambiaria)",
+   "alias": [],
+   "definicion": null,
+   "padre": null,
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": null,
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "convca.pdf",
+    "location": "Punto 1.1"
+   },
+   "grupo_bloque": "## Roles de alcance por TO",
+   "rol": {
+    "miembros": [
+     "Sujeto_titular_de_cuenta_corriente_en_el_bcra"
+    ],
+    "sin_miembro_adjudicable": null,
+    "residuo_declarado": {
+     "colectivo_operativo_del_to": "titulares de cuenta corriente en el BCRA",
+     "colectivo_faltante": "otras habilitadas a conversión cambiaria",
+     "lectura_adoptada": "llana: «las entidades financieras» y «otras habilitadas» son dos colectivos coordinados. Laudo de la autora, no resolución de esta unidad ni del TO, que no la resuelve",
+     "parseo_alternativo_registrado": "«(EF y otras) habilitadas»: el calificador alcanzaría también a las EF y volvería a ser aplanamiento",
+     "anidacion_no_estricta": {
+      "ancla": "ccbcra::1.1",
+      "regla_general": "las entidades financieras DEBEN mantener cuenta corriente en el BCRA, de modo que el colectivo operativo del TO las contiene",
+      "subclase_afectada": "Sujeto_caja_de_credito",
+      "motivo": "la misma cláusula de ccbcra::1.1 hace la cuenta OPTATIVA para las cajas de crédito (Ley 25.782), que son entidades financieras según el catálogo — de modo que la anidación EF ⊆ titulares no es estricta",
+      "estado_r2": "sin efecto sobre el rol en r2: su miembro es Sujeto_titular_de_cuenta_corriente_en_el_bcra, que no tiene subclases ni arista subclase_de con Sujeto_entidad_financiera, de modo que la herencia del rol ya no desciende a Sujeto_caja_de_credito y la regla 3 deja de hacer falta. La anidación EF ⊆ titulares sigue sin ser estricta en el texto (ccbcra::1.1), pero el catálogo r2 no la afirma"
+     },
+     "remedio": "aplicado en r2 (L-ESQ-R2 §7.3, BKL-0029): se abrió Sujeto_titular_de_cuenta_corriente_en_el_bcra y el rol lo tiene como miembro en lugar de Sujeto_entidad_financiera"
+    },
+    "miembros_ids_mensaje": [],
+    "miembros_labels_mensaje": [
+     "Entidades financieras y otras habilitadas a conversión cambiaria"
+    ]
+   },
+   "rol_por_to": [
+    "convca.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "docs/laudo_B5.4_fase1_catalogo.md §F1.2 (commit dea56ba, 05/09/2026)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol.miembros": "r2_op_12",
+    "rol.sin_miembro_adjudicable": "esquema_v3_clases",
+    "rol.residuo_declarado": "r2_op_13",
+    "rol.miembros_ids_mensaje": "rol_por_to_v3",
+    "rol.miembros_labels_mensaje": "roles_v3",
+    "rol_por_to": "bloque_v3",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_rol_alcance_cryl",
+   "nivel": "rol",
+   "label": "Sujetos habilitados (CRyL)",
+   "alias": [],
+   "definicion": null,
+   "padre": null,
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": null,
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "cryl.pdf",
+    "location": "Punto 3.1"
+   },
+   "grupo_bloque": "## Roles de alcance por TO",
+   "rol": {
+    "miembros": [
+     "Sujeto_camara_electronica_de_compensacion",
+     "Sujeto_entidad_financiera",
+     "Sujeto_fondo_comun_de_inversion"
+    ],
+    "sin_miembro_adjudicable": null,
+    "residuo_declarado": null,
+    "miembros_ids_mensaje": [],
+    "miembros_labels_mensaje": [
+     "Entidades financieras",
+     "Mercados de Valores del país",
+     "Fondos comunes de inversión",
+     "Centrales depositarias de valores",
+     "Cámaras electrónicas de compensación (CEC)"
+    ]
+   },
+   "rol_por_to": [
+    "cryl.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "docs/laudo_B5.4_fase1_catalogo.md §F1.2 (commit dea56ba, 05/09/2026)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol.miembros": "esquema_v3_clases",
+    "rol.sin_miembro_adjudicable": "esquema_v3_clases",
+    "rol.residuo_declarado": "esquema_v3_clases",
+    "rol.miembros_ids_mensaje": "rol_por_to_v3",
+    "rol.miembros_labels_mensaje": "roles_v3",
+    "rol_por_to": "bloque_v3",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_rol_alcance_ctacor",
+   "nivel": "rol",
+   "label": "Entidades intervinientes (Cuentas de corresponsalía)",
+   "alias": [],
+   "definicion": null,
+   "padre": null,
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": null,
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "ctacor.pdf",
+    "location": "Punto 1.1"
+   },
+   "grupo_bloque": "## Roles de alcance por TO",
+   "rol": {
+    "miembros": [
+     "Sujeto_casa_de_cambio"
+    ],
+    "sin_miembro_adjudicable": null,
+    "residuo_declarado": null,
+    "miembros_ids_mensaje": [],
+    "miembros_labels_mensaje": [
+     "Entidades financieras del país",
+     "Casas de cambio (Sección 3)"
+    ]
+   },
+   "rol_por_to": [
+    "ctacor.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "docs/laudo_B5.4_fase1_catalogo.md §F1.2 (commit dea56ba, 05/09/2026)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol.miembros": "esquema_v3_clases",
+    "rol.sin_miembro_adjudicable": "esquema_v3_clases",
+    "rol.residuo_declarado": "esquema_v3_clases",
+    "rol.miembros_ids_mensaje": "rol_por_to_v3",
+    "rol.miembros_labels_mensaje": "roles_v3",
+    "rol_por_to": "bloque_v3",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_rol_alcance_depaho",
+   "nivel": "rol",
+   "label": "Entidades intervinientes (Depósitos de ahorro)",
+   "alias": [],
+   "definicion": null,
+   "padre": null,
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": null,
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "depaho.pdf",
+    "location": "Punto 1.1.1"
+   },
+   "grupo_bloque": "## Roles de alcance por TO",
+   "rol": {
+    "miembros": [
+     "Sujeto_caja_de_credito",
+     "Sujeto_compania_financiera"
+    ],
+    "sin_miembro_adjudicable": null,
+    "residuo_declarado": null,
+    "miembros_ids_mensaje": [],
+    "miembros_labels_mensaje": [
+     "Bancos comerciales de primer grado",
+     "Compañías financieras",
+     "Cajas de crédito",
+     "Sociedades de ahorro y préstamo para la vivienda u otros inmuebles"
+    ]
+   },
+   "rol_por_to": [
+    "depaho.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "docs/laudo_B5.4_fase1_catalogo.md §F1.2 (commit dea56ba, 05/09/2026)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol.miembros": "esquema_v3_clases",
+    "rol.sin_miembro_adjudicable": "esquema_v3_clases",
+    "rol.residuo_declarado": "esquema_v3_clases",
+    "rol.miembros_ids_mensaje": "rol_por_to_v3",
+    "rol.miembros_labels_mensaje": "roles_v3",
+    "rol_por_to": "bloque_v3",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_rol_alcance_efemin",
+   "nivel": "rol",
+   "label": "Entidades alcanzadas (Efectivo mínimo)",
+   "alias": [],
+   "definicion": null,
+   "padre": null,
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": null,
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "efemin.pdf",
+    "location": "Punto 4.1"
+   },
+   "grupo_bloque": "## Roles de alcance por TO",
+   "rol": {
+    "miembros": [
+     "Sujeto_entidad_financiera"
+    ],
+    "sin_miembro_adjudicable": null,
+    "residuo_declarado": null,
+    "miembros_ids_mensaje": [],
+    "miembros_labels_mensaje": [
+     "Entidades financieras (filiales del país)"
+    ]
+   },
+   "rol_por_to": [
+    "efemin.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "docs/laudo_B5.4_fase1_catalogo.md §F1.2 (commit dea56ba, 05/09/2026)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol.miembros": "esquema_v3_clases",
+    "rol.sin_miembro_adjudicable": "esquema_v3_clases",
+    "rol.residuo_declarado": "esquema_v3_clases",
+    "rol.miembros_ids_mensaje": "rol_por_to_v3",
+    "rol.miembros_labels_mensaje": "roles_v3",
+    "rol_por_to": "bloque_v3",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_rol_alcance_fabcra",
+   "nivel": "rol",
+   "label": "Entidades registrantes de firmas (Firmas autorizadas ante el BCRA)",
+   "alias": [],
+   "definicion": null,
+   "padre": null,
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": null,
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "fabcra.pdf",
+    "location": "Sección 1"
+   },
+   "grupo_bloque": "## Roles de alcance por TO",
+   "rol": {
+    "miembros": [
+     "Sujeto_camara_electronica_de_compensacion",
+     "Sujeto_compania_financiera",
+     "Sujeto_entidad_cambiaria",
+     "Sujeto_entidad_financiera"
+    ],
+    "sin_miembro_adjudicable": null,
+    "residuo_declarado": null,
+    "miembros_ids_mensaje": [],
+    "miembros_labels_mensaje": [
+     "Entidades financieras",
+     "Operadores de cambio",
+     "Cámaras electrónicas de compensación",
+     "Cajas de valores",
+     "Mercados",
+     "Compañías financieras",
+     "Agentes de liquidación y compensación",
+     "Ministerio de Economía",
+     "ANSES"
+    ]
+   },
+   "rol_por_to": [
+    "fabcra.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "docs/laudo_B5.4_fase1_catalogo.md §F1.2 (commit dea56ba, 05/09/2026)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol.miembros": "esquema_v3_clases",
+    "rol.sin_miembro_adjudicable": "esquema_v3_clases",
+    "rol.residuo_declarado": "esquema_v3_clases",
+    "rol.miembros_ids_mensaje": "rol_por_to_v3",
+    "rol.miembros_labels_mensaje": "roles_v3",
+    "rol_por_to": "bloque_v3",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_rol_alcance_icmecma",
+   "nivel": "rol",
+   "label": "Sujetos alcanzados (Comunicación por medios electrónicos)",
+   "alias": [],
+   "definicion": null,
+   "padre": null,
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": null,
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "icmecma.pdf",
+    "location": "Punto 1.1.1"
+   },
+   "grupo_bloque": "## Roles de alcance por TO",
+   "rol": {
+    "miembros": [
+     "Sujeto_empresa_no_financiera_emisora_de_tarjetas",
+     "Sujeto_entidad_financiera",
+     "Sujeto_fiduciario_de_fideicomiso_financiero"
+    ],
+    "sin_miembro_adjudicable": null,
+    "residuo_declarado": null,
+    "miembros_ids_mensaje": [],
+    "miembros_labels_mensaje": [
+     "Entidades financieras",
+     "Empresas no financieras emisoras de tarjetas de crédito y/o compra",
+     "Fiduciarios de fideicomisos financieros",
+     "Administradores de carteras crediticias de ex-entidades financieras",
+     "Otros proveedores no financieros de crédito"
+    ]
+   },
+   "rol_por_to": [
+    "icmecma.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "docs/laudo_B5.4_fase1_catalogo.md §F1.2 (commit dea56ba, 05/09/2026)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol.miembros": "esquema_v3_clases",
+    "rol.sin_miembro_adjudicable": "esquema_v3_clases",
+    "rol.residuo_declarado": "esquema_v3_clases",
+    "rol.miembros_ids_mensaje": "rol_por_to_v3",
+    "rol.miembros_labels_mensaje": "roles_v3",
+    "rol_por_to": "bloque_v3",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_rol_alcance_lavdin",
+   "nivel": "rol",
+   "label": "Entidades alcanzadas (Prevención del lavado de activos)",
+   "alias": [],
+   "definicion": null,
+   "padre": null,
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": null,
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "lavdin.pdf",
+    "location": "Punto 1.1"
+   },
+   "grupo_bloque": "## Roles de alcance por TO",
+   "rol": {
+    "miembros": [
+     "Sujeto_entidad_cambiaria",
+     "Sujeto_entidad_financiera"
+    ],
+    "sin_miembro_adjudicable": null,
+    "residuo_declarado": null,
+    "miembros_ids_mensaje": [],
+    "miembros_labels_mensaje": [
+     "Entidades financieras",
+     "Entidades cambiarias"
+    ]
+   },
+   "rol_por_to": [
+    "lavdin.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "docs/laudo_B5.4_fase1_catalogo.md §F1.2 (commit dea56ba, 05/09/2026)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol.miembros": "esquema_v3_clases",
+    "rol.sin_miembro_adjudicable": "esquema_v3_clases",
+    "rol.residuo_declarado": "esquema_v3_clases",
+    "rol.miembros_ids_mensaje": "rol_por_to_v3",
+    "rol.miembros_labels_mensaje": "roles_v3",
+    "rol_por_to": "bloque_v3",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_rol_alcance_ordcom",
+   "nivel": "rol",
+   "label": "Destinatarios de Comunicaciones (Ordenamiento de Comunicaciones)",
+   "alias": [],
+   "definicion": null,
+   "padre": null,
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": null,
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "ordcom.pdf",
+    "location": "Punto 1.5"
+   },
+   "grupo_bloque": "## Roles de alcance por TO",
+   "rol": {
+    "miembros": [],
+    "sin_miembro_adjudicable": "instancia_rechazada",
+    "residuo_declarado": null,
+    "miembros_ids_mensaje": [],
+    "miembros_labels_mensaje": [
+     "BCRA (emisor)",
+     "Destinatarios de Comunicaciones (entidades financieras, cajas de crédito cooperativas, etc.)"
+    ]
+   },
+   "rol_por_to": [
+    "ordcom.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "docs/laudo_B5.4_fase1_catalogo.md §F1.2 (commit dea56ba, 05/09/2026)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol.miembros": "esquema_v3_clases",
+    "rol.sin_miembro_adjudicable": "esquema_v3_clases",
+    "rol.residuo_declarado": "esquema_v3_clases",
+    "rol.miembros_ids_mensaje": "rol_por_to_v3",
+    "rol.miembros_labels_mensaje": "roles_v3",
+    "rol_por_to": "bloque_v3",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_rol_alcance_osapsa",
+   "nivel": "rol",
+   "label": "Sujetos alcanzados (Otros servicios y actividades)",
+   "alias": [],
+   "definicion": null,
+   "padre": null,
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": null,
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "osapsa.pdf",
+    "location": "Punto 1.1"
+   },
+   "grupo_bloque": "## Roles de alcance por TO",
+   "rol": {
+    "miembros": [
+     "Sujeto_entidad_financiera"
+    ],
+    "sin_miembro_adjudicable": null,
+    "residuo_declarado": null,
+    "miembros_ids_mensaje": [],
+    "miembros_labels_mensaje": [
+     "Entidades financieras (Secciones 2, 4 y 5)",
+     "Empresas no financieras emisoras de tarjetas (Secciones 3 y 5)",
+     "Operadores de cambio y empresas de cobranzas extrabancarias (Sección 5)"
+    ]
+   },
+   "rol_por_to": [
+    "osapsa.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "docs/laudo_B5.4_fase1_catalogo.md §F1.2 (commit dea56ba, 05/09/2026)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol.miembros": "esquema_v3_clases",
+    "rol.sin_miembro_adjudicable": "esquema_v3_clases",
+    "rol.residuo_declarado": "esquema_v3_clases",
+    "rol.miembros_ids_mensaje": "rol_por_to_v3",
+    "rol.miembros_labels_mensaje": "roles_v3",
+    "rol_por_to": "bloque_v3",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_rol_alcance_pagjub",
+   "nivel": "rol",
+   "label": "Entidades participantes (Pago de beneficios ANSES)",
+   "alias": [],
+   "definicion": null,
+   "padre": null,
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": null,
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "pagjub.pdf",
+    "location": "Punto 1.1"
+   },
+   "grupo_bloque": "## Roles de alcance por TO",
+   "rol": {
+    "miembros": [],
+    "sin_miembro_adjudicable": "aplanamiento_rechazado",
+    "residuo_declarado": null,
+    "miembros_ids_mensaje": [],
+    "miembros_labels_mensaje": [
+     "Entidades financieras participantes del pago de beneficios ANSES"
+    ]
+   },
+   "rol_por_to": [
+    "pagjub.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "docs/laudo_B5.4_fase1_catalogo.md §F1.2 (commit dea56ba, 05/09/2026)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol.miembros": "esquema_v3_clases",
+    "rol.sin_miembro_adjudicable": "esquema_v3_clases",
+    "rol.residuo_declarado": "esquema_v3_clases",
+    "rol.miembros_ids_mensaje": "rol_por_to_v3",
+    "rol.miembros_labels_mensaje": "roles_v3",
+    "rol_por_to": "bloque_v3",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_rol_alcance_pfmipyme",
+   "nivel": "rol",
+   "label": "Plataformas para el financiamiento MiPyME (PFM)",
+   "alias": [],
+   "definicion": null,
+   "padre": null,
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": null,
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "pfmipyme.pdf",
+    "location": "Punto 1.1.1"
+   },
+   "grupo_bloque": "## Roles de alcance por TO",
+   "rol": {
+    "miembros": [],
+    "sin_miembro_adjudicable": "sin_id_en_catalogo",
+    "residuo_declarado": null,
+    "miembros_ids_mensaje": [],
+    "miembros_labels_mensaje": [
+     "Plataformas para el financiamiento MiPyME (PFM)"
+    ]
+   },
+   "rol_por_to": [
+    "pfmipyme.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "docs/laudo_B5.4_fase1_catalogo.md §F1.2 (commit dea56ba, 05/09/2026)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol.miembros": "esquema_v3_clases",
+    "rol.sin_miembro_adjudicable": "esquema_v3_clases",
+    "rol.residuo_declarado": "esquema_v3_clases",
+    "rol.miembros_ids_mensaje": "rol_por_to_v3",
+    "rol.miembros_labels_mensaje": "roles_v3",
+    "rol_por_to": "bloque_v3",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_rol_alcance_pimf",
+   "nivel": "rol",
+   "label": "Infraestructuras del mercado financiero alcanzadas (PIMF)",
+   "alias": [],
+   "definicion": null,
+   "padre": null,
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": null,
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "pimf.pdf",
+    "location": "Punto 5.1"
+   },
+   "grupo_bloque": "## Roles de alcance por TO",
+   "rol": {
+    "miembros": [],
+    "sin_miembro_adjudicable": "sin_id_en_catalogo",
+    "residuo_declarado": null,
+    "miembros_ids_mensaje": [],
+    "miembros_labels_mensaje": [
+     "Infraestructuras del mercado financiero (IMF) nominadas en la Sección 5"
+    ]
+   },
+   "rol_por_to": [
+    "pimf.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "docs/laudo_B5.4_fase1_catalogo.md §F1.2 (commit dea56ba, 05/09/2026)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol.miembros": "esquema_v3_clases",
+    "rol.sin_miembro_adjudicable": "esquema_v3_clases",
+    "rol.residuo_declarado": "esquema_v3_clases",
+    "rol.miembros_ids_mensaje": "rol_por_to_v3",
+    "rol.miembros_labels_mensaje": "roles_v3",
+    "rol_por_to": "bloque_v3",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_rol_alcance_ratiofn",
+   "nivel": "rol",
+   "label": "Entidades alcanzadas (Ratio de fondeo neto estable: D-SIB y suc. G-SIB)",
+   "alias": [],
+   "definicion": null,
+   "padre": null,
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": null,
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "ratiofn.pdf",
+    "location": "Punto 1.1"
+   },
+   "grupo_bloque": "## Roles de alcance por TO",
+   "rol": {
+    "miembros": [],
+    "sin_miembro_adjudicable": "aplanamiento_rechazado",
+    "residuo_declarado": null,
+    "miembros_ids_mensaje": [],
+    "miembros_labels_mensaje": [
+     "Entidades financieras D-SIB",
+     "Sucursales o subsidiarias de bancos del exterior G-SIB"
+    ]
+   },
+   "rol_por_to": [
+    "ratiofn.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "docs/laudo_B5.4_fase1_catalogo.md §F1.2 (commit dea56ba, 05/09/2026)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol.miembros": "esquema_v3_clases",
+    "rol.sin_miembro_adjudicable": "esquema_v3_clases",
+    "rol.residuo_declarado": "esquema_v3_clases",
+    "rol.miembros_ids_mensaje": "rol_por_to_v3",
+    "rol.miembros_labels_mensaje": "roles_v3",
+    "rol_por_to": "bloque_v3",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_rol_alcance_rdbcra",
+   "nivel": "rol",
+   "label": "Personas sumariables (Régimen disciplinario del BCRA)",
+   "alias": [],
+   "definicion": null,
+   "padre": null,
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": null,
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "rdbcra.pdf",
+    "location": "Punto 1.1.1.1"
+   },
+   "grupo_bloque": "## Roles de alcance por TO",
+   "rol": {
+    "miembros": [],
+    "sin_miembro_adjudicable": "aplanamiento_rechazado",
+    "residuo_declarado": null,
+    "miembros_ids_mensaje": [],
+    "miembros_labels_mensaje": [
+     "Personas jurídicas y humanas sometidas al ámbito de la Ley de Entidades Financieras"
+    ]
+   },
+   "rol_por_to": [
+    "rdbcra.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "docs/laudo_B5.4_fase1_catalogo.md §F1.2 (commit dea56ba, 05/09/2026)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol.miembros": "esquema_v3_clases",
+    "rol.sin_miembro_adjudicable": "esquema_v3_clases",
+    "rol.residuo_declarado": "esquema_v3_clases",
+    "rol.miembros_ids_mensaje": "rol_por_to_v3",
+    "rol.miembros_labels_mensaje": "roles_v3",
+    "rol_por_to": "bloque_v3",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_rol_alcance_repefe",
+   "nivel": "rol",
+   "label": "Representantes de entidades financieras del exterior (Representantes)",
+   "alias": [],
+   "definicion": null,
+   "padre": null,
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": null,
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "repefe.pdf",
+    "location": "Punto 1.1"
+   },
+   "grupo_bloque": "## Roles de alcance por TO",
+   "rol": {
+    "miembros": [],
+    "sin_miembro_adjudicable": "sin_id_en_catalogo",
+    "residuo_declarado": null,
+    "miembros_ids_mensaje": [],
+    "miembros_labels_mensaje": [
+     "Representantes de entidades financieras del exterior no autorizadas"
+    ]
+   },
+   "rol_por_to": [
+    "repefe.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "docs/laudo_B5.4_fase1_catalogo.md §F1.2 (commit dea56ba, 05/09/2026)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol.miembros": "esquema_v3_clases",
+    "rol.sin_miembro_adjudicable": "esquema_v3_clases",
+    "rol.residuo_declarado": "esquema_v3_clases",
+    "rol.miembros_ids_mensaje": "rol_por_to_v3",
+    "rol.miembros_labels_mensaje": "roles_v3",
+    "rol_por_to": "bloque_v3",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_rol_alcance_retype",
+   "nivel": "rol",
+   "label": "Entidades bancarias participantes (Pago de retiros y pensiones militares)",
+   "alias": [],
+   "definicion": null,
+   "padre": null,
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": null,
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "retype.pdf",
+    "location": "Punto 1.1.2"
+   },
+   "grupo_bloque": "## Roles de alcance por TO",
+   "rol": {
+    "miembros": [],
+    "sin_miembro_adjudicable": "sin_id_en_catalogo",
+    "residuo_declarado": null,
+    "miembros_ids_mensaje": [],
+    "miembros_labels_mensaje": [
+     "Banco de la Nación Argentina",
+     "Otros bancos públicos participantes (IAF)"
+    ]
+   },
+   "rol_por_to": [
+    "retype.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "docs/laudo_B5.4_fase1_catalogo.md §F1.2 (commit dea56ba, 05/09/2026)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol.miembros": "esquema_v3_clases",
+    "rol.sin_miembro_adjudicable": "esquema_v3_clases",
+    "rol.residuo_declarado": "esquema_v3_clases",
+    "rol.miembros_ids_mensaje": "rol_por_to_v3",
+    "rol.miembros_labels_mensaje": "roles_v3",
+    "rol_por_to": "bloque_v3",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_rol_alcance_rmrtsd",
+   "nivel": "rol",
+   "label": "Sujetos obligados (Servicios financieros digitales)",
+   "alias": [],
+   "definicion": null,
+   "padre": null,
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": null,
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "rmrtsd.pdf",
+    "location": "Punto 1.1.1"
+   },
+   "grupo_bloque": "## Roles de alcance por TO",
+   "rol": {
+    "miembros": [
+     "Sujeto_entidad_financiera",
+     "Sujeto_proveedor_de_servicios_de_pago"
+    ],
+    "sin_miembro_adjudicable": null,
+    "residuo_declarado": null,
+    "miembros_ids_mensaje": [],
+    "miembros_labels_mensaje": [
+     "Entidades financieras",
+     "Proveedores de servicios de pago (PSP)"
+    ]
+   },
+   "rol_por_to": [
+    "rmrtsd.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "docs/laudo_B5.4_fase1_catalogo.md §F1.2 (commit dea56ba, 05/09/2026)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol.miembros": "esquema_v3_clases",
+    "rol.sin_miembro_adjudicable": "esquema_v3_clases",
+    "rol.residuo_declarado": "esquema_v3_clases",
+    "rol.miembros_ids_mensaje": "rol_por_to_v3",
+    "rol.miembros_labels_mensaje": "roles_v3",
+    "rol_por_to": "bloque_v3",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_rol_alcance_rrci",
+   "nivel": "rol",
+   "label": "Sujetos alcanzados (Respuesta y recuperación ante ciberincidentes)",
+   "alias": [],
+   "definicion": null,
+   "padre": null,
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": null,
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "rrci.pdf",
+    "location": "Punto 1.2"
+   },
+   "grupo_bloque": "## Roles de alcance por TO",
+   "rol": {
+    "miembros": [
+     "Sujeto_entidad_financiera"
+    ],
+    "sin_miembro_adjudicable": null,
+    "residuo_declarado": null,
+    "miembros_ids_mensaje": [],
+    "miembros_labels_mensaje": [
+     "Entidades financieras",
+     "PSP incluidos en el Registro del BCRA",
+     "Infraestructuras del mercado financiero de importancia sistémica"
+    ]
+   },
+   "rol_por_to": [
+    "rrci.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "docs/laudo_B5.4_fase1_catalogo.md §F1.2 (commit dea56ba, 05/09/2026)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol.miembros": "esquema_v3_clases",
+    "rol.sin_miembro_adjudicable": "esquema_v3_clases",
+    "rol.residuo_declarado": "esquema_v3_clases",
+    "rol.miembros_ids_mensaje": "rol_por_to_v3",
+    "rol.miembros_labels_mensaje": "roles_v3",
+    "rol_por_to": "bloque_v3",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_rol_alcance_servco",
+   "nivel": "rol",
+   "label": "Entidades alcanzadas (Servicios complementarios)",
+   "alias": [],
+   "definicion": null,
+   "padre": null,
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": null,
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "servco.pdf",
+    "location": "Punto 1.1"
+   },
+   "grupo_bloque": "## Roles de alcance por TO",
+   "rol": {
+    "miembros": [
+     "Sujeto_entidad_financiera"
+    ],
+    "sin_miembro_adjudicable": null,
+    "residuo_declarado": null,
+    "miembros_ids_mensaje": [],
+    "miembros_labels_mensaje": [
+     "Entidades financieras (Sección 2: bancos comerciales y compañías financieras)"
+    ]
+   },
+   "rol_por_to": [
+    "servco.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "docs/laudo_B5.4_fase1_catalogo.md §F1.2 (commit dea56ba, 05/09/2026)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol.miembros": "esquema_v3_clases",
+    "rol.sin_miembro_adjudicable": "esquema_v3_clases",
+    "rol.residuo_declarado": "esquema_v3_clases",
+    "rol.miembros_ids_mensaje": "rol_por_to_v3",
+    "rol.miembros_labels_mensaje": "roles_v3",
+    "rol_por_to": "bloque_v3",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_rol_alcance_snp_atm",
+   "nivel": "rol",
+   "label": "Entidades alcanzadas (SNP - Cajeros automáticos)",
+   "alias": [],
+   "definicion": null,
+   "padre": null,
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": null,
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "snp_atm.pdf",
+    "location": "Punto 1.1.1"
+   },
+   "grupo_bloque": "## Roles de alcance por TO",
+   "rol": {
+    "miembros": [],
+    "sin_miembro_adjudicable": "aplanamiento_rechazado",
+    "residuo_declarado": null,
+    "miembros_ids_mensaje": [],
+    "miembros_labels_mensaje": [
+     "Entidades financieras que ofrezcan cuentas a la vista",
+     "Empresas no financieras operadoras de cajeros automáticos"
+    ]
+   },
+   "rol_por_to": [
+    "snp_atm.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "docs/laudo_B5.4_fase1_catalogo.md §F1.2 (commit dea56ba, 05/09/2026)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol.miembros": "esquema_v3_clases",
+    "rol.sin_miembro_adjudicable": "esquema_v3_clases",
+    "rol.residuo_declarado": "esquema_v3_clases",
+    "rol.miembros_ids_mensaje": "rol_por_to_v3",
+    "rol.miembros_labels_mensaje": "roles_v3",
+    "rol_por_to": "bloque_v3",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_rol_alcance_snp_debin",
+   "nivel": "rol",
+   "label": "Entidades y PSPCP alcanzados (SNP - Débito Inmediato)",
+   "alias": [],
+   "definicion": null,
+   "padre": null,
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": null,
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "snp_debin.pdf",
+    "location": "Punto 2.1"
+   },
+   "grupo_bloque": "## Roles de alcance por TO",
+   "rol": {
+    "miembros": [
+     "Sujeto_entidad_financiera",
+     "Sujeto_pspcp"
+    ],
+    "sin_miembro_adjudicable": null,
+    "residuo_declarado": null,
+    "miembros_ids_mensaje": [],
+    "miembros_labels_mensaje": [
+     "Entidades financieras",
+     "PSPCP"
+    ]
+   },
+   "rol_por_to": [
+    "snp_debin.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "docs/laudo_B5.4_fase1_catalogo.md §F1.2 (commit dea56ba, 05/09/2026)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol.miembros": "esquema_v3_clases",
+    "rol.sin_miembro_adjudicable": "esquema_v3_clases",
+    "rol.residuo_declarado": "esquema_v3_clases",
+    "rol.miembros_ids_mensaje": "rol_por_to_v3",
+    "rol.miembros_labels_mensaje": "roles_v3",
+    "rol_por_to": "bloque_v3",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_rol_alcance_snp_psp",
+   "nivel": "rol",
+   "label": "Sujetos alcanzados (SNP - Proveedores de servicios de pago)",
+   "alias": [],
+   "definicion": null,
+   "padre": null,
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": null,
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "snp_psp.pdf",
+    "location": "Punto 1.1.2"
+   },
+   "grupo_bloque": "## Roles de alcance por TO",
+   "rol": {
+    "miembros": [
+     "Sujeto_entidad_financiera",
+     "Sujeto_proveedor_de_servicios_de_pago"
+    ],
+    "sin_miembro_adjudicable": null,
+    "residuo_declarado": null,
+    "miembros_ids_mensaje": [],
+    "miembros_labels_mensaje": [
+     "Proveedores de servicios de pago (PSP)",
+     "Entidades financieras"
+    ]
+   },
+   "rol_por_to": [
+    "snp_psp.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "docs/laudo_B5.4_fase1_catalogo.md §F1.2 (commit dea56ba, 05/09/2026)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol.miembros": "esquema_v3_clases",
+    "rol.sin_miembro_adjudicable": "esquema_v3_clases",
+    "rol.residuo_declarado": "esquema_v3_clases",
+    "rol.miembros_ids_mensaje": "rol_por_to_v3",
+    "rol.miembros_labels_mensaje": "roles_v3",
+    "rol_por_to": "bloque_v3",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_rol_alcance_snp_spd",
+   "nivel": "rol",
+   "label": "Sujetos alcanzados (SNP - Servicios de pago)",
+   "alias": [],
+   "definicion": null,
+   "padre": null,
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": null,
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "snp_spd.pdf",
+    "location": "Sección 1"
+   },
+   "grupo_bloque": "## Roles de alcance por TO",
+   "rol": {
+    "miembros": [
+     "Sujeto_entidad_financiera",
+     "Sujeto_proveedor_de_servicios_de_pago"
+    ],
+    "sin_miembro_adjudicable": null,
+    "residuo_declarado": null,
+    "miembros_ids_mensaje": [],
+    "miembros_labels_mensaje": [
+     "Entidades financieras",
+     "PSP (según el servicio)"
+    ]
+   },
+   "rol_por_to": [
+    "snp_spd.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "docs/laudo_B5.4_fase1_catalogo.md §F1.2 (commit dea56ba, 05/09/2026)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol.miembros": "esquema_v3_clases",
+    "rol.sin_miembro_adjudicable": "esquema_v3_clases",
+    "rol.residuo_declarado": "esquema_v3_clases",
+    "rol.miembros_ids_mensaje": "rol_por_to_v3",
+    "rol.miembros_labels_mensaje": "roles_v3",
+    "rol_por_to": "bloque_v3",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_rol_alcance_snp_tr_nc",
+   "nivel": "rol",
+   "label": "Sujetos alcanzados (SNP - Transferencias - Normas complementarias)",
+   "alias": [],
+   "definicion": null,
+   "padre": null,
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": null,
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "snp_tr_nc.pdf",
+    "location": "Punto 1.2.1"
+   },
+   "grupo_bloque": "## Roles de alcance por TO",
+   "rol": {
+    "miembros": [
+     "Sujeto_entidad_financiera",
+     "Sujeto_proveedor_de_servicios_de_pago"
+    ],
+    "sin_miembro_adjudicable": null,
+    "residuo_declarado": null,
+    "miembros_ids_mensaje": [],
+    "miembros_labels_mensaje": [
+     "Entidades financieras",
+     "Proveedores de servicios de pago (PSP)"
+    ]
+   },
+   "rol_por_to": [
+    "snp_tr_nc.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "docs/laudo_B5.4_fase1_catalogo.md §F1.2 (commit dea56ba, 05/09/2026)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol.miembros": "esquema_v3_clases",
+    "rol.sin_miembro_adjudicable": "esquema_v3_clases",
+    "rol.residuo_declarado": "esquema_v3_clases",
+    "rol.miembros_ids_mensaje": "rol_por_to_v3",
+    "rol.miembros_labels_mensaje": "roles_v3",
+    "rol_por_to": "bloque_v3",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_rol_alcance_supcon",
+   "nivel": "rol",
+   "label": "Entidades y empresas alcanzadas (Supervisión consolidada)",
+   "alias": [],
+   "definicion": null,
+   "padre": null,
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": null,
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "supcon.pdf",
+    "location": "Punto 2.2"
+   },
+   "grupo_bloque": "## Roles de alcance por TO",
+   "rol": {
+    "miembros": [
+     "Sujeto_entidad_financiera"
+    ],
+    "sin_miembro_adjudicable": null,
+    "residuo_declarado": null,
+    "miembros_ids_mensaje": [],
+    "miembros_labels_mensaje": [
+     "Entidades financieras",
+     "Empresas del perímetro de supervisión consolidada"
+    ]
+   },
+   "rol_por_to": [
+    "supcon.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "docs/laudo_B5.4_fase1_catalogo.md §F1.2 (commit dea56ba, 05/09/2026)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol.miembros": "esquema_v3_clases",
+    "rol.sin_miembro_adjudicable": "esquema_v3_clases",
+    "rol.residuo_declarado": "esquema_v3_clases",
+    "rol.miembros_ids_mensaje": "rol_por_to_v3",
+    "rol.miembros_labels_mensaje": "roles_v3",
+    "rol_por_to": "bloque_v3",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_rol_alcance_traval",
+   "nivel": "rol",
+   "label": "Sujetos comprendidos (Transportadoras de valores)",
+   "alias": [],
+   "definicion": null,
+   "padre": null,
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": null,
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "traval.pdf",
+    "location": "Punto 1.1"
+   },
+   "grupo_bloque": "## Roles de alcance por TO",
+   "rol": {
+    "miembros": [],
+    "sin_miembro_adjudicable": "sin_id_en_catalogo",
+    "residuo_declarado": null,
+    "miembros_ids_mensaje": [],
+    "miembros_labels_mensaje": [
+     "Transportadoras de valores (TV)",
+     "Prestadoras de Servicios de Transporte de Valores (PSTV)",
+     "Transportadoras de Valores Propias (TVP)"
+    ]
+   },
+   "rol_por_to": [
+    "traval.pdf"
+   ],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "docs/laudo_B5.4_fase1_catalogo.md §F1.2 (commit dea56ba, 05/09/2026)"
+   },
+   "procedencia": {
+    "id": "enum_v3",
+    "nivel": "bloque_v3",
+    "label": "bloque_v3",
+    "alias": "bloque_v3",
+    "grupo_bloque": "bloque_v3",
+    "definicion": "bloque_v3",
+    "rol.miembros": "esquema_v3_clases",
+    "rol.sin_miembro_adjudicable": "esquema_v3_clases",
+    "rol.residuo_declarado": "esquema_v3_clases",
+    "rol.miembros_ids_mensaje": "rol_por_to_v3",
+    "rol.miembros_labels_mensaje": "roles_v3",
+    "rol_por_to": "bloque_v3",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "estado": "enum_v3"
+   }
+  },
+  {
+   "id": "Sujeto_entidad_financiera_del_exterior",
+   "nivel": "clase",
+   "label": "Entidades financieras del exterior",
+   "alias": [
+    "Entidad financiera del exterior"
+   ],
+   "definicion": "ES la entidad que, constituida de acuerdo con el derecho extranjero aplicable, tiene por actividad permitida desarrollar en las plazas del exterior en que opera la intermediación habitual entre la oferta y la demanda de recursos financieros (depósitos del público) en los términos de la Ley de Entidades Financieras argentina, independientemente del tipo social que adopte y de su carácter público, privado o mixto.",
+   "padre": "Sujeto_contraparte",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "ctacor.pdf",
+    "location": "Punto 1.4"
+   },
+   "grupo_bloque": "## Contrapartes",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "data/experiment/esq/enmienda_L-ESQ-R2_2026-09-30.md §7.3 (firmada en 4ef7650, 30/09/2026); BKL-0028"
+   },
+   "procedencia": {
+    "id": "r2_op_01",
+    "nivel": "r2_op_01",
+    "grupo_bloque": "r2_op_01",
+    "rol_por_to": "r2_op_01",
+    "estado": "r2_op_01",
+    "disjunta_con": "derivacion_r2",
+    "label": "r2_ancla_entidad_financiera_del_exterior_label",
+    "alias": "r2_ancla_entidad_financiera_del_exterior_alias",
+    "definicion": "r2_ancla_entidad_financiera_del_exterior_definicion",
+    "padre": "r2_ancla_entidad_financiera_del_exterior_padre",
+    "provenance_esqueleto": "r2_ancla_entidad_financiera_del_exterior_label"
+   }
+  },
+  {
+   "id": "Sujeto_banco_del_exterior",
+   "nivel": "clase",
+   "label": "Bancos del exterior",
+   "alias": [
+    "Banco del exterior"
+   ],
+   "definicion": null,
+   "padre": "Sujeto_contraparte",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "actgar.pdf",
+    "location": "Punto 2.3.3.2"
+   },
+   "grupo_bloque": "## Contrapartes",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "data/experiment/esq/enmienda_L-ESQ-R2_2026-09-30.md §7.3 (firmada en 4ef7650, 30/09/2026); BKL-0028"
+   },
+   "procedencia": {
+    "id": "r2_op_02",
+    "nivel": "r2_op_02",
+    "grupo_bloque": "r2_op_02",
+    "rol_por_to": "r2_op_02",
+    "estado": "r2_op_02",
+    "disjunta_con": "derivacion_r2",
+    "label": "r2_ancla_banco_del_exterior_label",
+    "alias": "r2_ancla_banco_del_exterior_alias",
+    "definicion": "r2_ancla_banco_del_exterior_definicion",
+    "padre": "r2_ancla_banco_del_exterior_padre",
+    "provenance_esqueleto": "r2_ancla_banco_del_exterior_label"
+   }
+  },
+  {
+   "id": "Sujeto_entidad_cambiaria_del_exterior",
+   "nivel": "clase",
+   "label": "Entidades cambiarias del exterior",
+   "alias": [
+    "Compañía cambista del exterior"
+   ],
+   "definicion": null,
+   "padre": "Sujeto_contraparte",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_exterior_cambios_actual.pdf",
+    "location": "Punto 5.12.3"
+   },
+   "grupo_bloque": "## Contrapartes",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "data/experiment/esq/enmienda_L-ESQ-R2_2026-09-30.md §7.3 (firmada en 4ef7650, 30/09/2026); BKL-0028"
+   },
+   "procedencia": {
+    "id": "r2_op_03",
+    "nivel": "r2_op_03",
+    "grupo_bloque": "r2_op_03",
+    "rol_por_to": "r2_op_03",
+    "estado": "r2_op_03",
+    "disjunta_con": "derivacion_r2",
+    "label": "r2_ancla_entidad_cambiaria_del_exterior_label",
+    "alias": "r2_ancla_entidad_cambiaria_del_exterior_alias",
+    "definicion": "r2_ancla_entidad_cambiaria_del_exterior_definicion",
+    "padre": "r2_ancla_entidad_cambiaria_del_exterior_padre",
+    "provenance_esqueleto": "r2_ancla_entidad_cambiaria_del_exterior_label"
+   }
+  },
+  {
+   "id": "Sujeto_titular_de_cuenta_corriente_en_el_bcra",
+   "nivel": "clase",
+   "label": "Titulares de cuenta corriente en el BCRA",
+   "alias": [
+    "Cuentacorrentistas del Banco Central"
+   ],
+   "definicion": "ES la entidad que mantiene abierta una cuenta corriente en el Banco Central de la República Argentina, obligatoria para las entidades financieras y optativa para las cajas de crédito (Ley 25.782) y las entidades cambiarias.",
+   "padre": "Sujeto_sujeto_regulado",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "convca.pdf",
+    "location": "Punto 2.1.3"
+   },
+   "grupo_bloque": "## Sujetos regulados",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "data/experiment/esq/enmienda_L-ESQ-R2_2026-09-30.md §7.3 (firmada en 4ef7650, 30/09/2026); BKL-0029"
+   },
+   "procedencia": {
+    "id": "r2_op_04",
+    "nivel": "r2_op_04",
+    "grupo_bloque": "r2_op_04",
+    "rol_por_to": "r2_op_04",
+    "estado": "r2_op_04",
+    "disjunta_con": "derivacion_r2",
+    "label": "r2_ancla_titular_de_cuenta_corriente_en_el_bcra_label",
+    "alias": "r2_ancla_titular_de_cuenta_corriente_en_el_bcra_alias",
+    "definicion": "r2_ancla_titular_de_cuenta_corriente_en_el_bcra_definicion",
+    "padre": "r2_ancla_titular_de_cuenta_corriente_en_el_bcra_padre",
+    "provenance_esqueleto": "r2_ancla_titular_de_cuenta_corriente_en_el_bcra_label"
+   }
+  },
+  {
+   "id": "Sujeto_instancia_de_gobierno_societario",
+   "nivel": "clase",
+   "label": "Instancias de gobierno societario",
+   "alias": [],
+   "definicion": null,
+   "padre": "Sujeto_sujeto_regulado",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "lingob.pdf",
+    "location": "Punto 1.2"
+   },
+   "grupo_bloque": "## Sujetos regulados",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "data/experiment/esq/enmienda_L-ESQ-R2_2026-09-30.md §7.3 (firmada en 4ef7650, 30/09/2026); BKL-0034"
+   },
+   "procedencia": {
+    "id": "r2_op_05",
+    "nivel": "r2_op_05",
+    "grupo_bloque": "r2_op_05",
+    "rol_por_to": "r2_op_05",
+    "estado": "r2_op_05",
+    "disjunta_con": "derivacion_r2",
+    "label": "r2_ancla_instancia_de_gobierno_societario_label",
+    "definicion": "r2_ancla_instancia_de_gobierno_societario_definicion",
+    "padre": "r2_ancla_instancia_de_gobierno_societario_padre",
+    "alias": "r2_op_05",
+    "provenance_esqueleto": "r2_ancla_instancia_de_gobierno_societario_label"
+   }
+  },
+  {
+   "id": "Sujeto_directorio",
+   "nivel": "clase",
+   "label": "Directorio",
+   "alias": [
+    "Consejo de Administración"
+   ],
+   "definicion": "ES el Directorio de la entidad financiera o el órgano o autoridad que cumpla funciones semejantes, independientemente de la designación que utilice la entidad.",
+   "padre": "Sujeto_instancia_de_gobierno_societario",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "lingob.pdf",
+    "location": "Punto 1.3"
+   },
+   "grupo_bloque": "## Sujetos regulados",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "data/experiment/esq/enmienda_L-ESQ-R2_2026-09-30.md §7.3 (firmada en 4ef7650, 30/09/2026); BKL-0034"
+   },
+   "procedencia": {
+    "id": "r2_op_06",
+    "nivel": "r2_op_06",
+    "grupo_bloque": "r2_op_06",
+    "rol_por_to": "r2_op_06",
+    "estado": "r2_op_06",
+    "disjunta_con": "derivacion_r2",
+    "label": "r2_ancla_directorio_label",
+    "alias": "r2_ancla_directorio_alias",
+    "definicion": "r2_ancla_directorio_definicion",
+    "padre": "r2_ancla_directorio_padre",
+    "provenance_esqueleto": "r2_ancla_directorio_label"
+   }
+  },
+  {
+   "id": "Sujeto_alta_gerencia",
+   "nivel": "clase",
+   "label": "Alta Gerencia",
+   "alias": [],
+   "definicion": "ES la Gerencia General y los gerentes que tienen poder decisorio y dependen directamente de ella o del presidente del Directorio.",
+   "padre": "Sujeto_instancia_de_gobierno_societario",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "lingob.pdf",
+    "location": "Punto 1.4"
+   },
+   "grupo_bloque": "## Sujetos regulados",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "data/experiment/esq/enmienda_L-ESQ-R2_2026-09-30.md §7.3 (firmada en 4ef7650, 30/09/2026); BKL-0034"
+   },
+   "procedencia": {
+    "id": "r2_op_07",
+    "nivel": "r2_op_07",
+    "grupo_bloque": "r2_op_07",
+    "rol_por_to": "r2_op_07",
+    "estado": "r2_op_07",
+    "disjunta_con": "derivacion_r2",
+    "label": "r2_ancla_alta_gerencia_label",
+    "definicion": "r2_ancla_alta_gerencia_definicion",
+    "padre": "r2_ancla_alta_gerencia_padre",
+    "alias": "r2_op_07",
+    "provenance_esqueleto": "r2_ancla_alta_gerencia_label"
+   }
+  },
+  {
+   "id": "Sujeto_comite_de_auditoria",
+   "nivel": "clase",
+   "label": "Comité de auditoría",
+   "alias": [],
+   "definicion": "ES el comité, integrado por miembros del Directorio, que asiste al Directorio o autoridad equivalente en el monitoreo de los controles internos, la gestión de riesgos y el cumplimiento de normas, del proceso de emisión de los estados financieros, de la idoneidad e independencia del auditor externo y del desempeño de las auditorías interna y externa.",
+   "padre": "Sujeto_instancia_de_gobierno_societario",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "lingob.pdf",
+    "location": "Punto 4.1"
+   },
+   "grupo_bloque": "## Sujetos regulados",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "vigente",
+    "alta": "data/experiment/esq/enmienda_L-ESQ-R2_2026-09-30.md §7.3 (firmada en 4ef7650, 30/09/2026); BKL-0034"
+   },
+   "procedencia": {
+    "id": "r2_op_08",
+    "nivel": "r2_op_08",
+    "grupo_bloque": "r2_op_08",
+    "rol_por_to": "r2_op_08",
+    "estado": "r2_op_08",
+    "disjunta_con": "derivacion_r2",
+    "label": "r2_ancla_comite_de_auditoria_label",
+    "definicion": "r2_ancla_comite_de_auditoria_definicion",
+    "padre": "r2_ancla_comite_de_auditoria_padre",
+    "alias": "r2_op_08",
+    "provenance_esqueleto": "r2_ancla_comite_de_auditoria_label"
+   }
+  },
+  {
+   "id": "Sujeto_acreedor_del_exterior",
+   "nivel": "clase",
+   "label": "Acreedores del exterior",
+   "alias": [],
+   "definicion": null,
+   "padre": "Sujeto_contraparte",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_exterior_cambios_actual.pdf",
+    "location": "Punto 7.10.2"
+   },
+   "grupo_bloque": "## Contrapartes",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "lapida",
+    "evidencia": "0 usos en 2.525 unidades del universo primario, aun con su TO natural (`ext`) en dev; 1 mención léxica en los 68 (`fimipyme::3.2.2`)",
+    "fecha": "2026-09-05",
+    "laudo": "docs/laudo_B5.4_fase1_catalogo.md §F1.5 (commit dea56ba)",
+    "destino": "r2 si reaparece demanda documental",
+    "registro": "data/experiment/b54_catalogo_v3/catalogo_sujetos_v3.md:51"
+   },
+   "procedencia": {
+    "id": "retiros_v3",
+    "nivel": "esquema_v3_clases",
+    "label": "esquema_v3_clases",
+    "alias": "esquema_v3_clases",
+    "padre": "esquema_v3_clases",
+    "instancia_de": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "grupo_bloque": "bloque_congelado",
+    "estado": "lapidas_md"
+   }
+  },
+  {
+   "id": "Sujeto_autoridad_nacional_de_aplicacion",
+   "nivel": "clase",
+   "label": "Autoridad Nacional de Aplicación",
+   "alias": [],
+   "definicion": null,
+   "padre": "Sujeto_organismo_publico",
+   "instancia_de": null,
+   "parte_de": null,
+   "disjunta_con": [],
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_proteccion_usuarios_servicios_financieros_actual.pdf",
+    "location": "Punto 1.3"
+   },
+   "grupo_bloque": "## Organismos públicos (clases e instancias)",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "lapida",
+    "evidencia": "0 usos; 0 menciones de «autoridad nacional de aplicación» en los 68 (las 9 de «autoridad de aplicación» genérica no son este id)",
+    "fecha": "2026-09-05",
+    "laudo": "docs/laudo_B5.4_fase1_catalogo.md §F1.5 (commit dea56ba)",
+    "destino": "r2 si reaparece demanda documental",
+    "registro": "data/experiment/b54_catalogo_v3/catalogo_sujetos_v3.md:52"
+   },
+   "procedencia": {
+    "id": "retiros_v3",
+    "nivel": "esquema_v3_clases",
+    "label": "esquema_v3_clases",
+    "alias": "esquema_v3_clases",
+    "padre": "esquema_v3_clases",
+    "instancia_de": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "grupo_bloque": "bloque_congelado",
+    "estado": "lapidas_md"
+   }
+  },
+  {
+   "id": "Sujeto_secretaria_de_comercio",
+   "nivel": "instancia",
+   "label": "Secretaría de Comercio",
+   "alias": [],
+   "definicion": null,
+   "padre": null,
+   "instancia_de": "Sujeto_organismo_publico",
+   "parte_de": null,
+   "disjunta_con": null,
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_exterior_cambios_actual.pdf",
+    "location": "Sección 10"
+   },
+   "grupo_bloque": "## Organismos públicos (clases e instancias)",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "lapida",
+    "evidencia": "0 usos; 0 menciones en los 68",
+    "fecha": "2026-09-05",
+    "laudo": "docs/laudo_B5.4_fase1_catalogo.md §F1.5 (commit dea56ba)",
+    "destino": "r2 si reaparece demanda documental",
+    "registro": "data/experiment/b54_catalogo_v3/catalogo_sujetos_v3.md:53"
+   },
+   "procedencia": {
+    "id": "retiros_v3",
+    "nivel": "esquema_v3_clases",
+    "label": "esquema_v3_clases",
+    "alias": "esquema_v3_clases",
+    "padre": "esquema_v3_clases",
+    "instancia_de": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "grupo_bloque": "bloque_congelado",
+    "estado": "lapidas_md"
+   }
+  },
+  {
+   "id": "Sujeto_secretaria_de_energia",
+   "nivel": "instancia",
+   "label": "Secretaría de Energía",
+   "alias": [],
+   "definicion": null,
+   "padre": null,
+   "instancia_de": "Sujeto_organismo_publico",
+   "parte_de": null,
+   "disjunta_con": null,
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_exterior_cambios_actual.pdf",
+    "location": "Punto 3.17.3"
+   },
+   "grupo_bloque": "## Organismos públicos (clases e instancias)",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "lapida",
+    "evidencia": "0 usos; 0 menciones en los 68",
+    "fecha": "2026-09-05",
+    "laudo": "docs/laudo_B5.4_fase1_catalogo.md §F1.5 (commit dea56ba)",
+    "destino": "r2 si reaparece demanda documental",
+    "registro": "data/experiment/b54_catalogo_v3/catalogo_sujetos_v3.md:54"
+   },
+   "procedencia": {
+    "id": "retiros_v3",
+    "nivel": "esquema_v3_clases",
+    "label": "esquema_v3_clases",
+    "alias": "esquema_v3_clases",
+    "padre": "esquema_v3_clases",
+    "instancia_de": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "grupo_bloque": "bloque_congelado",
+    "estado": "lapidas_md"
+   }
+  },
+  {
+   "id": "Sujeto_secretaria_de_transporte",
+   "nivel": "instancia",
+   "label": "Secretaría de Transporte",
+   "alias": [],
+   "definicion": null,
+   "padre": null,
+   "instancia_de": "Sujeto_organismo_publico",
+   "parte_de": null,
+   "disjunta_con": null,
+   "padre_inferido": null,
+   "provenance_esqueleto": {
+    "source_doc": "TO_exterior_cambios_actual.pdf",
+    "location": "Sección 10"
+   },
+   "grupo_bloque": "## Organismos públicos (clases e instancias)",
+   "rol": null,
+   "rol_por_to": [],
+   "marca_revision": null,
+   "estado": {
+    "valor": "lapida",
+    "evidencia": "0 usos; 0 menciones en los 68",
+    "fecha": "2026-09-05",
+    "laudo": "docs/laudo_B5.4_fase1_catalogo.md §F1.5 (commit dea56ba)",
+    "destino": "r2 si reaparece demanda documental",
+    "registro": "data/experiment/b54_catalogo_v3/catalogo_sujetos_v3.md:55"
+   },
+   "procedencia": {
+    "id": "retiros_v3",
+    "nivel": "esquema_v3_clases",
+    "label": "esquema_v3_clases",
+    "alias": "esquema_v3_clases",
+    "padre": "esquema_v3_clases",
+    "instancia_de": "esquema_v3_clases",
+    "disjunta_con": "esquema_v3_clases",
+    "provenance_esqueleto": "esquema_v3_clases",
+    "grupo_bloque": "bloque_congelado",
+    "estado": "lapidas_md"
+   }
+  }
+ ]
+}

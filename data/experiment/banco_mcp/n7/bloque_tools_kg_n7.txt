@@ -1,0 +1,3 @@
+- buscar_nodos(consulta, limite): búsqueda léxica de nodos del grafo de conocimiento regulatorio por palabras de su label o id. Devuelve id, type, label y un resumen de propiedades. Punto de entrada habitual.
+- ver_nodo(id): devuelve el nodo completo por su id exacto: type, label, properties y provenances (documento fuente + punto).
+- ver_vecinos(id, direccion): devuelve las relaciones del nodo con sus vecinos (relation, vecino, provenances del edge). direccion: "ambas", "salientes" o "entrantes".

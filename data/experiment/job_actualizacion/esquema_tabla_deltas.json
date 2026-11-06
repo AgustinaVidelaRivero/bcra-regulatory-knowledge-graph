@@ -1,0 +1,75 @@
+{
+ "version": "1",
+ "nombre": "tabla_deltas",
+ "descripcion": "Una fila por Texto Ordenado observado en una corrida del job. La tabla es acumulativa: las corridas agregan observaciones y actualizan visto_ultima_vez, nunca reescriben el inventario sellado que sirve de linea base.",
+ "linea_base": {
+  "regla": "SOLO LECTURA. La linea base son los artefactos sellados; el job los lee y compara, jamas los escribe.",
+  "inventariados_152": {
+   "sha": "data/experiment/escalado_prep/manifest_pdfs.sha256 y descarga_log.json (campo sha256)",
+   "url": "data/experiment/escalado_prep/inventario_tos.csv (campo url_pdf)",
+   "paginas": "data/experiment/escalado_prep/inventario_unidades.csv (campo paginas)"
+  },
+  "desarrollo_5": {
+   "sha": "data/experiment/reextraccion_v2/manifiestos/desarrollo_5tos.json (campo sha256_pdf)",
+   "url": "no esta en el manifiesto; se resuelve contra indice_oficial_raw.json por titulo exacto, mapeo verificado en verificacion_alcance.json (indice_oficial.url_por_id_desarrollo)",
+   "paginas": "data/experiment/escalado_prep/referencia_subset.json (campo paginas)"
+  }
+ },
+ "clave_primaria": ["id"],
+ "campos": [
+  {"campo": "id", "tipo": "str", "origen": "linea base (152) o manifiesto de desarrollo (5); para altas, se deriva del archivo publicado con la misma regla de construir_inventario.py: stem sin prefijo 't-', minusculas, no alfanumericos a '_'", "descripcion": "Identidad documental interna. Estable porque es funcion del nombre de archivo que publica la fuente."},
+  {"campo": "grupo", "tipo": "enum", "valores": ["inventariado_152", "desarrollo_5", "alta_posterior"], "descripcion": "De que linea base viene la fila. 'alta_posterior' es un TO que no estaba en ninguna de las dos."},
+  {"campo": "categoria", "tipo": "enum", "valores": ["normativa_general", "regimen_informativo", "desconocida"], "origen": "lista del indice en la que aparece la entrada", "descripcion": "Las dos listas del indice oficial."},
+  {"campo": "titulo_indice", "tipo": "str|null", "descripcion": "Titulo publicado en el indice en esta corrida. null si el TO ya no figura."},
+  {"campo": "archivo_indice", "tipo": "str|null", "descripcion": "Nombre de archivo publicado en el indice en esta corrida."},
+  {"campo": "url", "tipo": "str", "descripcion": "URL de descarga vigente en esta corrida, o la de la linea base si el TO desaparecio del indice."},
+  {"campo": "url_linea_base", "tipo": "str|null", "descripcion": "URL con la que se descargo originalmente. Distinta de 'url' indica republicacion bajo otro nombre."},
+  {"campo": "sha_anterior", "tipo": "str|null", "descripcion": "sha256 del PDF en la linea base (o de la corrida previa del job, si ya hubo una)."},
+  {"campo": "sha_actual", "tipo": "str|null", "descripcion": "sha256 del PDF descargado en esta corrida. null si no se pudo descargar."},
+  {"campo": "bytes_anterior", "tipo": "int|null"},
+  {"campo": "bytes_actual", "tipo": "int|null"},
+  {"campo": "paginas_anterior", "tipo": "int|null", "origen": "inventario_unidades.csv o referencia_subset.json"},
+  {"campo": "paginas_actual", "tipo": "int|null", "descripcion": "Contadas sobre el PDF descargado."},
+  {"campo": "visto_primera_vez", "tipo": "fecha ISO-8601", "descripcion": "Primera corrida (o fecha de adquisicion de la linea base) en la que este id fue observado. Para los 152: fecha del commit de alta de descarga_log.json. Para los 5: fecha_descarga del manifiesto crudo."},
+  {"campo": "visto_ultima_vez", "tipo": "fecha ISO-8601", "descripcion": "Ultima corrida en la que el id figuro en el indice. NO se actualiza cuando el TO desaparece: esa es justamente la evidencia de cuando dejo de estar."},
+  {"campo": "corridas_observado", "tipo": "int", "descripcion": "Cuantas corridas del job vieron este id."},
+  {"campo": "clasificacion", "tipo": "enum", "valores": ["sin_cambio", "contenido_modificado", "nuevo_en_indice", "desaparecido_del_indice", "no_verificable"], "descripcion": "Ver 'clasificacion' abajo."},
+  {"campo": "causa_no_verificable", "tipo": "str|null", "descripcion": "Cuando clasificacion == 'no_verificable': el error textual (HTTP, timeout, contenido no-PDF). Un fallo de descarga NO se clasifica como desaparicion."},
+  {"campo": "presunta_renombrada_de", "tipo": "str|null", "descripcion": "Anotacion, no clasificacion: para un 'nuevo_en_indice' cuyo titulo coincide exactamente con el de un 'desaparecido_del_indice' de la misma corrida. La adjudicacion es de la autora."},
+  {"campo": "procedencia_anterior", "tipo": "objeto|null", "descripcion": "Procedencia documental leida del PDF de la linea base. Ver 'procedencia'."},
+  {"campo": "procedencia_actual", "tipo": "objeto|null", "descripcion": "Idem sobre el PDF de esta corrida."},
+  {"campo": "cabeceras_http", "tipo": "objeto", "descripcion": "Last-Modified, ETag, Content-Length y Content-Type tal como los devuelve el servidor. Se REGISTRAN para habilitar pedidos condicionales en corridas futuras; NO son la senal de cambio (la senal es el sha256)."},
+  {"campo": "paginas_modificadas", "tipo": "lista[int]|null", "descripcion": "Solo si clasificacion == 'contenido_modificado' y ambos PDFs estan disponibles: numeros de pagina cuyo texto extraido difiere. null si el diff por pagina no es aplicable (distinta cantidad de paginas sin alineacion resoluble)."},
+  {"campo": "mapeo_grafo", "tipo": "objeto|null", "descripcion": "Solo para TOs que el grafo cubre. Ver 'mapeo_grafo'."}
+ ],
+ "clasificacion": {
+  "sin_cambio": "El id figura en el indice y sha_actual == sha_anterior.",
+  "contenido_modificado": "El id figura en el indice y sha_actual != sha_anterior. Es la unica clase que dispara el mapeo al grafo.",
+  "nuevo_en_indice": "El id no tiene linea base: el indice publica un TO que no estaba. sha_anterior es null.",
+  "desaparecido_del_indice": "El id tiene linea base y NO figura en el indice de esta corrida. La fila se CONSERVA con su ultima observacion; no se borra. La baja de un documento regulatorio es un hecho a declarar.",
+  "no_verificable": "El id figura en el indice pero la descarga fallo o no devolvio un PDF valido. Clase agregada sobre las cuatro del mandato porque sin ella un fallo de red se confundiria con una desaparicion; se resuelve reintentando en la corrida siguiente."
+ },
+ "procedencia": {
+  "descripcion": "De que comunicacion proviene la version. Se LEE de lo que la fuente imprime en el propio PDF; no se infiere. Cobertura medida sobre los 157 en sonda_procedencia.json.",
+  "campos": {
+   "portada_comunicacion": "str|null — de «-Ultima comunicacion incorporada: \"A\" NNNN-» en la caratula.",
+   "texto_ordenado_al": "str|null — de «Texto ordenado al DD/MM/AA» en la caratula.",
+   "pie_comunicaciones": "lista[str] — de «Version: Na. COMUNICACION \"A\" NNNN» al pie. Es por PAGINA: habilita atribuir un cambio de pagina a una comunicacion concreta.",
+   "pie_por_pagina": "objeto {numero_de_pagina: {version, letra, numero}}",
+   "limite_declarado": "str|null — motivo por el que no hay procedencia legible (el documento no la imprime, o los digitos no se extraen por glifos no mapeados)."
+  }
+ },
+ "mapeo_grafo": {
+  "descripcion": "Partes del grafo vigente que provienen del TO cambiado. Medicion de cobertura en sonda_mapeo_grafo.json.",
+  "campos": {
+   "grafo": "ruta y sha256 del grafo contra el que se mapeo",
+   "nodos_afectados": "int — nodos con alguna procedencia cuyo 'to' es este TO",
+   "aristas_afectadas": "int",
+   "nodos_afectados_por_pagina": "int|null — restringido a paginas_modificadas, cuando el diff por pagina es aplicable",
+   "aristas_afectadas_por_pagina": "int|null",
+   "chunk_ids_afectados": "lista[str] — los chunk_id distintos alcanzados",
+   "compartidos_con_otros_tos": "lista — elementos afectados que ademas tienen procedencia de OTRO TO: no se pueden reemplazar por TO sin revisar el otro origen",
+   "fuera_de_alcance": "str|null — para un TO cambiado que el grafo no cubre: el mapeo no aplica y se declara"
+  }
+ }
+}

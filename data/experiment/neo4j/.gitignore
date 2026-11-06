@@ -1,0 +1,8 @@
+# Volúmenes del contenedor Neo4j (docker-compose.yml): db y logs locales,
+# regenerables desde los kg.json sellados con cargar_kg.py. Precedente:
+# data/experiment/ev2_juez/.gitignore (gitignore local; el raíz no se toca).
+volumen/
+# dumps eventuales de la db (neo4j-admin database dump)
+dumps/
+*.dump
+__pycache__/

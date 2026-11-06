@@ -1,0 +1,151 @@
+## Sujetos regulados
+Sujeto_sujeto_regulado — Sujetos regulados
+Sujeto_entidad_financiera — Entidades financieras (alias: Entidades financieras emisoras de tarjetas de crédito y/o compra, Entidad financiera emisora de tarjetas de crédito y/o compra)
+  def: ES el intermediario autorizado por el BCRA a operar bajo la Ley de Entidades Financieras (bancos, compañías financieras, cajas de crédito cooperativas). Quien no tiene esa autorización (aseguradoras, PSP, PNFC, transportadoras de valores) no es entidad financiera.
+Sujeto_banco — Bancos
+  def: ES la entidad financiera autorizada como banco (comercial, de inversión o hipotecario).
+Sujeto_banco_comercial — Bancos comerciales
+  def: ES el banco habilitado a todas las operaciones activas, pasivas y de servicios de la LEF (art. 21).
+Sujeto_compania_financiera — Compañías financieras
+  def: ES la entidad financiera no bancaria autorizada como compañía financiera (LEF art. 24).
+Sujeto_caja_de_credito — Cajas de crédito
+  def: ES la entidad financiera «caja de crédito» de la Ley 25.782; no es la caja de crédito cooperativa (Ley 26.173), que tiene su propio id.
+Sujeto_caja_de_credito_cooperativa — Cajas de crédito cooperativas
+  def: ES la cooperativa autorizada por el BCRA a operar como caja de crédito bajo la Ley 26.173.
+Sujeto_entidad_cambiaria — Entidades cambiarias (alias: Operador de cambio, Operadores de cambio)
+  def: ES la persona autorizada a operar en cambios sin ser entidad financiera (casas y agencias de cambio, operadores de cambio).
+Sujeto_casa_de_cambio — Casas de cambio
+Sujeto_agencia_de_cambio — Agencias de cambio
+Sujeto_proveedor_de_servicios_de_pago — Proveedores de servicios de pago
+  def: ES la persona jurídica que, sin ser entidad financiera, cumple funciones de provisión de servicios de pago en el sistema nacional de pagos (registro del BCRA).
+Sujeto_pspcp — Proveedores de servicios de pago que ofrecen cuentas de pago (PSPCP) (alias: PSPCP)
+  def: ES el PSP que ofrece cuentas de pago a sus clientes.
+Sujeto_psi_billetera_digital — Proveedores de servicios de pago iniciadores que prestan el servicio de billetera digital (PSI) (alias: PSI)
+  def: ES el PSP iniciador que presta el servicio de billetera digital.
+Sujeto_proveedor_no_financiero_de_credito — Proveedores no financieros de crédito (alias: PNFC)
+  def: ES la persona jurídica que, sin ser entidad financiera, oferta crédito al público de manera habitual (incluye mutuales, cooperativas y empresas emisoras de tarjetas).
+Sujeto_empresa_no_financiera_emisora_de_tarjetas — Empresas no financieras emisoras de tarjetas de crédito y/o compra (alias: Empresas emisoras de tarjetas)
+  def: ES el proveedor no financiero de crédito cuya operatoria es emitir tarjetas de crédito y/o compra.
+Sujeto_pscpp — Proveedores de servicios de créditos entre particulares a través de plataformas (PSCPP) (alias: PSCPP)
+Sujeto_fiduciario_de_fideicomiso_financiero — Fiduciarios de fideicomisos financieros
+  def: ES quien ejerce la fiducia de un fideicomiso financiero (una EF o una sociedad autorizada por la CNV); es distinto del fideicomiso mismo, que es una estructura.
+Sujeto_sociedad_de_garantia_reciproca — Sociedades de garantía recíproca (alias: SGR)
+Sujeto_fondo_de_garantia_publico — Fondos de garantía de carácter público
+Sujeto_entidad_de_contraparte_central — Entidades de contraparte central (CCP) (alias: CCP)
+  def: ES la infraestructura que se interpone como contraparte entre los participantes de un mercado (ECC/CCP); no es la cámara electrónica de compensación (CEC).
+Sujeto_ccp_calificada — Entidades de contraparte central calificadas (alias: QCCP)
+Sujeto_ccp_no_calificada — Entidades de contraparte central no calificadas
+Sujeto_miembro_compensador — Miembros compensadores
+  def: ES el participante que liquida y compensa a través de una entidad de contraparte central, por sí o por cuenta de terceros.
+Sujeto_ecai — Agentes de calificación externa (ECAI) (alias: ECAI)
+Sujeto_sujeto_del_perimetro_consolidado — Sujetos del perímetro de supervisión consolidada
+Sujeto_aseguradora — Aseguradoras
+Sujeto_entidad_bursatil — Entidades bursátiles
+Sujeto_empresa_de_servicios_complementarios — Empresas de servicios complementarios de la actividad financiera
+  def: ES la empresa no financiera del perímetro de la entidad dedicada a actividades complementarias admitidas (normas de Servicios complementarios).
+Sujeto_entidad_girada — Entidades giradas (alias: entidad girada, banco girado)
+  def: ES la entidad sobre la cual está girado el cheque u otro instrumento compensable, obligada a su pago o rechazo.
+Sujeto_entidad_depositaria — Entidades depositarias (alias: entidad depositaria)
+  def: ES la entidad en la que se deposita el instrumento compensable y que lo presenta a la compensación.
+Sujeto_entidad_originante_de_transferencia — Entidades originantes (alias: entidad originante)
+  def: ES la entidad que origina o ingresa la transacción al esquema de pago (transferencias, débitos directos, DEBIN). NO es el originante de una securitización o fideicomiso: ese sujeto sigue en sujeto_propuesto.
+Sujeto_entidad_receptora — Entidades receptoras (alias: entidad receptora)
+  def: ES la entidad que recibe la transacción del esquema de pago con destino a cuentas de sus clientes.
+Sujeto_camara_electronica_de_compensacion — Cámaras electrónicas de compensación (CEC) (alias: CEC, cámaras compensadoras)
+  def: ES la cámara que compensa y liquida las posiciones entre entidades en el sistema nacional de pagos; no es la entidad de contraparte central (CCP).
+Sujeto_titular_de_cuenta_corriente_en_el_bcra — Titulares de cuenta corriente en el BCRA (alias: Cuentacorrentistas del Banco Central)
+  def: ES la entidad que mantiene abierta una cuenta corriente en el Banco Central de la República Argentina, obligatoria para las entidades financieras y optativa para las cajas de crédito (Ley 25.782) y las entidades cambiarias.
+Sujeto_instancia_de_gobierno_societario — Instancias de gobierno societario
+Sujeto_directorio — Directorio (alias: Consejo de Administración)
+  def: ES el Directorio de la entidad financiera o el órgano o autoridad que cumpla funciones semejantes, independientemente de la designación que utilice la entidad.
+Sujeto_alta_gerencia — Alta Gerencia
+  def: ES la Gerencia General y los gerentes que tienen poder decisorio y dependen directamente de ella o del presidente del Directorio.
+Sujeto_comite_de_auditoria — Comité de auditoría
+  def: ES el comité, integrado por miembros del Directorio, que asiste al Directorio o autoridad equivalente en el monitoreo de los controles internos, la gestión de riesgos y el cumplimiento de normas, del proceso de emisión de los estados financieros, de la idoneidad e independencia del auditor externo y del desempeño de las auditorías interna y externa.
+## Contrapartes
+Sujeto_contraparte — Contrapartes
+Sujeto_cliente — Clientes
+  def: ES la unidad económica receptora de fondos de la entidad o titular de una garantía a su favor, residente o no.
+Sujeto_persona_humana — Personas humanas
+Sujeto_persona_juridica — Personas jurídicas
+Sujeto_universalidad — Patrimonios y otras universalidades
+Sujeto_deudor — Deudores
+Sujeto_usuario_de_servicios_financieros — Usuarios de servicios financieros
+  def: ES la persona (humana o jurídica) destinataria final de un servicio financiero, en los términos de las normas de Protección de los usuarios.
+Sujeto_importador — Importadores
+Sujeto_importador_de_bienes — Importadores de bienes
+Sujeto_importador_de_servicios — Importadores de servicios
+Sujeto_exportador — Exportadores
+Sujeto_mipyme — MiPyMEs
+Sujeto_emisor_de_titulos_de_deuda — Emisores de títulos de deuda
+Sujeto_vpu_rigi — Vehículos de Proyecto Único (VPU) adheridos al RIGI (alias: VPU)
+Sujeto_beneficiario_economia_conocimiento — Beneficiarios del Régimen de Promoción de la Economía del Conocimiento
+Sujeto_sector_publico_no_financiero — Sector público no financiero
+  def: ES el conjunto Gobierno Nacional, provincias, municipios y CABA con sus entes controlados; NO incluye entidades financieras públicas (bancos públicos) ni entidades autorizadas a operar como entidades financieras.
+Sujeto_sector_privado_no_financiero — Sector privado no financiero
+  def: ES el residente del sector privado que no es entidad financiera ni ente público.
+Sujeto_entidad_financiera_del_exterior — Entidades financieras del exterior (alias: Entidad financiera del exterior)
+  def: ES la entidad que, constituida de acuerdo con el derecho extranjero aplicable, tiene por actividad permitida desarrollar en las plazas del exterior en que opera la intermediación habitual entre la oferta y la demanda de recursos financieros (depósitos del público) en los términos de la Ley de Entidades Financieras argentina, independientemente del tipo social que adopte y de su carácter público, privado o mixto.
+Sujeto_banco_del_exterior — Bancos del exterior (alias: Banco del exterior)
+Sujeto_entidad_cambiaria_del_exterior — Entidades cambiarias del exterior (alias: Compañía cambista del exterior)
+## Organismos públicos (clases e instancias)
+Sujeto_organismo_publico — Organismos públicos
+Sujeto_gobierno_local — Gobiernos locales
+Sujeto_organismo_internacional — Organismos internacionales
+Sujeto_banco_multilateral_de_desarrollo — Bancos multilaterales de desarrollo (alias: BMD)
+Sujeto_agencia_oficial_de_credito — Agencias oficiales de crédito
+Sujeto_bcra — BCRA (Banco Central de la República Argentina) [instancia]
+  def: ES el Banco Central de la República Argentina como autoridad. Las potestades de autorizar, reglamentar, fiscalizar o sancionar son SUYAS: se atribuyen a este id y nunca al sujeto regulado por la norma.
+Sujeto_sefyc — SEFyC (Superintendencia de Entidades Financieras y Cambiarias) (alias: Superintendencia de Entidades Financieras y Cambiarias) [instancia]
+  def: ES la Superintendencia de Entidades Financieras y Cambiarias como órgano de supervisión (califica, inspecciona, sanciona).
+Sujeto_arca — ARCA (Agencia de Recaudación y Control Aduanero) (alias: AFIP, Agencia de Recaudación y Control Aduanero) [instancia]
+Sujeto_ministerio_de_economia — Ministerio de Economía [instancia]
+Sujeto_banco_central_del_exterior — Bancos centrales del exterior (alias: bancos centrales de otros estados soberanos, Banco Central Europeo)
+  def: ES el banco central de otro estado soberano (incluido el Banco Central Europeo); no es el BCRA.
+Sujeto_fmi — FMI (Fondo Monetario Internacional) (alias: Fondo Monetario Internacional) [instancia]
+## Estructuras y vehículos
+Sujeto_estructura — Estructuras y vehículos
+Sujeto_fideicomiso — Fideicomisos
+Sujeto_fideicomiso_financiero — Fideicomisos financieros
+  def: ES el fideicomiso (contrato/patrimonio) cuyos beneficiarios son titulares de títulos valores respaldados por los bienes fideicomitidos; no es su fiduciario.
+Sujeto_sociedad_de_proposito_especial — Entes de propósito especial (SPE) (alias: SPE, Sociedad de propósito especial)
+Sujeto_fondo_comun_de_inversion — Fondos comunes de inversión (alias: FCI)
+  def: ES el fondo como vehículo de inversión; es distinto de su sociedad gerente y de su depositaria.
+## Raíz
+Sujeto_sujeto — Sujetos
+## Roles de alcance por TO
+Sujeto_rol_sujeto_obligado_proteccion — Sujetos obligados (Protección de usuarios) [rol del TO TO_proteccion_usuarios_servicios_financieros_actual.pdf]
+Sujeto_rol_entidad_autorizada_exterior — Entidades autorizadas a operar en cambios (Exterior) [rol del TO TO_exterior_cambios_actual.pdf]
+Sujeto_rol_obligado_a_clasificar_clasificacion — Obligados a clasificar deudores (Clasificación) [rol del TO TO_clasificacion_deudores_actual.pdf]
+Sujeto_rol_entidad_comprendida_reginf — Entidades comprendidas (Régimen Informativo) [rol del TO TO_regimen_informativo_contable_mensual_actual.pdf]
+Sujeto_rol_alcance_capmin — Entidades alcanzadas (Capitales Mínimos) [rol del TO TO_capitales_minimos_actual.pdf]
+Sujeto_rol_alcance_adrei — Entidades alcanzadas (Agregación de datos sobre riesgos: D-SIB) [rol del TO adrei.pdf]
+Sujeto_rol_alcance_autenf — Autoridades comprendidas (Autoridades de entidades financieras) [rol del TO autenf.pdf]
+Sujeto_rol_alcance_ccbcra — Entidades alcanzadas (Cuentas a la vista en el BCRA) [rol del TO ccbcra.pdf]
+Sujeto_rol_alcance_convca — Entidades habilitadas (Conversión cambiaria) [rol del TO convca.pdf]
+Sujeto_rol_alcance_cryl — Sujetos habilitados (CRyL) [rol del TO cryl.pdf]
+Sujeto_rol_alcance_ctacor — Entidades intervinientes (Cuentas de corresponsalía) [rol del TO ctacor.pdf]
+Sujeto_rol_alcance_depaho — Entidades intervinientes (Depósitos de ahorro) [rol del TO depaho.pdf]
+Sujeto_rol_alcance_efemin — Entidades alcanzadas (Efectivo mínimo) [rol del TO efemin.pdf]
+Sujeto_rol_alcance_fabcra — Entidades registrantes de firmas (Firmas autorizadas ante el BCRA) [rol del TO fabcra.pdf]
+Sujeto_rol_alcance_icmecma — Sujetos alcanzados (Comunicación por medios electrónicos) [rol del TO icmecma.pdf]
+Sujeto_rol_alcance_lavdin — Entidades alcanzadas (Prevención del lavado de activos) [rol del TO lavdin.pdf]
+Sujeto_rol_alcance_ordcom — Destinatarios de Comunicaciones (Ordenamiento de Comunicaciones) [rol del TO ordcom.pdf]
+Sujeto_rol_alcance_osapsa — Sujetos alcanzados (Otros servicios y actividades) [rol del TO osapsa.pdf]
+Sujeto_rol_alcance_pagjub — Entidades participantes (Pago de beneficios ANSES) [rol del TO pagjub.pdf]
+Sujeto_rol_alcance_pfmipyme — Plataformas para el financiamiento MiPyME (PFM) [rol del TO pfmipyme.pdf]
+Sujeto_rol_alcance_pimf — Infraestructuras del mercado financiero alcanzadas (PIMF) [rol del TO pimf.pdf]
+Sujeto_rol_alcance_ratiofn — Entidades alcanzadas (Ratio de fondeo neto estable: D-SIB y suc. G-SIB) [rol del TO ratiofn.pdf]
+Sujeto_rol_alcance_rdbcra — Personas sumariables (Régimen disciplinario del BCRA) [rol del TO rdbcra.pdf]
+Sujeto_rol_alcance_repefe — Representantes de entidades financieras del exterior (Representantes) [rol del TO repefe.pdf]
+Sujeto_rol_alcance_retype — Entidades bancarias participantes (Pago de retiros y pensiones militares) [rol del TO retype.pdf]
+Sujeto_rol_alcance_rmrtsd — Sujetos obligados (Servicios financieros digitales) [rol del TO rmrtsd.pdf]
+Sujeto_rol_alcance_rrci — Sujetos alcanzados (Respuesta y recuperación ante ciberincidentes) [rol del TO rrci.pdf]
+Sujeto_rol_alcance_servco — Entidades alcanzadas (Servicios complementarios) [rol del TO servco.pdf]
+Sujeto_rol_alcance_snp_atm — Entidades alcanzadas (SNP - Cajeros automáticos) [rol del TO snp_atm.pdf]
+Sujeto_rol_alcance_snp_debin — Entidades y PSPCP alcanzados (SNP - Débito Inmediato) [rol del TO snp_debin.pdf]
+Sujeto_rol_alcance_snp_psp — Sujetos alcanzados (SNP - Proveedores de servicios de pago) [rol del TO snp_psp.pdf]
+Sujeto_rol_alcance_snp_spd — Sujetos alcanzados (SNP - Servicios de pago) [rol del TO snp_spd.pdf]
+Sujeto_rol_alcance_snp_tr_nc — Sujetos alcanzados (SNP - Transferencias - Normas complementarias) [rol del TO snp_tr_nc.pdf]
+Sujeto_rol_alcance_supcon — Entidades y empresas alcanzadas (Supervisión consolidada) [rol del TO supcon.pdf]
+Sujeto_rol_alcance_traval — Sujetos comprendidos (Transportadoras de valores) [rol del TO traval.pdf]

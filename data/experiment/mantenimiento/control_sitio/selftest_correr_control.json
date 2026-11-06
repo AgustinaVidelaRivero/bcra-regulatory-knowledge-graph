@@ -1,0 +1,84 @@
+{
+ "casos": [
+  {
+   "aviso_latido": true,
+   "caso": "T1",
+   "codigo": 3,
+   "ok": true,
+   "pedidos": 1
+  },
+  {
+   "aviso_latido": false,
+   "caso": "T2",
+   "codigo": 3,
+   "ok": true,
+   "pedidos": 1
+  },
+  {
+   "aviso_latido": true,
+   "caso": "T3",
+   "codigo": 3,
+   "ok": true,
+   "pedidos": 1
+  },
+  {
+   "caso": "T4",
+   "codigo": 0,
+   "latido": "2026-10-02",
+   "ok": true,
+   "pedidos": 1
+  },
+  {
+   "caso": "T5",
+   "clasificacion_snp_psp": {
+    "clase": "nada",
+    "fila_m1": "F18a + F05",
+    "paginas_actual": 22,
+    "paginas_anterior": 23,
+    "paginas_de_unidades_tocadas": [],
+    "paginas_viejas_tocadas": [
+     1
+    ]
+   },
+   "clasificados_desde_congelado": {
+    "capmin": "F18b + F05",
+    "cladeu": "F18b",
+    "ctacte": "F18a",
+    "finsec": "F18a",
+    "optico": "F18b",
+    "ri_cm": "F18b",
+    "ri_oc": "F18b + F05",
+    "ri_secoexpo": "F18b",
+    "ri_tii": "F18b",
+    "seggar": "F18a",
+    "snp_psp": "F18a + F05",
+    "tasint": "F18a"
+   },
+   "codigo": 1,
+   "condicionales_en_todos_los_pdfs": true,
+   "estados": {
+    "descargado": 2,
+    "error": 1,
+    "no_modificado": 154
+   },
+   "ok": true,
+   "pedidos": 158,
+   "rotos": [
+    "S5"
+   ]
+  },
+  {
+   "caso": "T6",
+   "codigo": 1,
+   "ok": true,
+   "pedidos": 1,
+   "rotos": [
+    "S1"
+   ]
+  }
+ ],
+ "casos_ok": 6,
+ "casos_total": 6,
+ "selftest": "U-MANT M3 — runner del control del sitio, sin red",
+ "veredicto": "OK"
+}

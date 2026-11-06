@@ -1,0 +1,159 @@
+{
+ "politica": "politica_campos_r2",
+ "version": "3",
+ "perfil": "r2",
+ "fuentes": {
+  "enmienda_l_esq_r2": {
+   "ruta": "data/experiment/esq/enmienda_L-ESQ-R2_2026-09-30.md",
+   "commit_firma": "4ef7650",
+   "sha256_version_firmada": "66c4a1b9c5edaee1b7c4adeae9534e4829e68241b690eb1e244b8d9128baca72",
+   "secciones": ["§1.3", "§2.3", "§3.3", "§5.3", "§6.3", "§6.4", "§1.1 (BKL-0038)"]
+  },
+  "diseno": {
+   "ruta": "reports/u_listas_nomap/diseno_listas_nomap.md",
+   "propuestas": ["P-a0", "P-a1", "P-a2", "P-a3", "P-a4", "P-a5", "P-a6", "P-a7", "P-a8", "P-a9", "P-a10", "P-b3", "P-b4", "P-e2", "P-e3"]
+  },
+  "catalogo_r2": {
+   "ruta": "data/experiment/catalogo_unico/catalogo_sujetos_r2.json",
+   "commit": "bd2122d",
+   "sha256": "c3ad15811c7ea5fa2d0f6cbd56dc775c38dcffd0ae8874c22f5f45c1e82d3a83"
+  }
+ },
+ "modos": {
+  "rechazar": "el elemento no entra; el rechazo queda registrado con motivo",
+  "normalizar": "el valor se reemplaza por uno de la lista; el original queda en `originales` y el reemplazo se cuenta",
+  "registrar": "el valor queda sin cambiar, con la marca `fuera_de_lista` y contador; el original queda en `originales`"
+ },
+ "campos": {
+  "tipo_entidad": {
+   "propuesta": "P-a1, P-e3; L-ESQ-R2 §2.3 (alias de forma)",
+   "pasos": ["en_lista", "forma", "alias"],
+   "forma": "sin espacios en los extremos, sin diacríticos y sin distinguir mayúsculas contra los nueve tipos",
+   "si_no_resuelve": "rechazar",
+   "omision_del_rechazo": "fuera_de_tipos"
+  },
+  "predicado": {
+   "propuesta": "P-a2; L-ESQ-R2 §2.3 (alias de forma y alias semántico)",
+   "pasos": ["en_lista", "forma", "alias"],
+   "forma": "se quitan los espacios y saltos internos, camelCase pasa a snake_case, minúsculas y sin diacríticos; sin distancia de edición",
+   "si_no_resuelve": "rechazar"
+  },
+  "sujeto_id": {
+   "propuesta": "P-a3, P-b2; L-ESQ-R2 §3.3 (3)",
+   "rol": "sugerencia del modelo, guardada como `sujeto_id_modelo`",
+   "si_fuera_de_catalogo": "conservar_relacion_y_pendiente_no_mapeados",
+   "motivo_no_mapeado": "id_fuera_de_catalogo",
+   "si_ninguno": "rechazar"
+  },
+  "padre_sugerido": {
+   "propuesta": "P-a4",
+   "si_fuera_de_catalogo": "anular_conservando_original",
+   "si_sin_mencion": "descartar_padre_conservando_original; la relación se acepta con su sujeto_id (decisión de la autora sobre P1)"
+  },
+  "sujeto_mencion": {
+   "propuesta": "P-b1, P-b3, P-b4; L-ESQ-R2 §3.3 (3) y (4)",
+   "lectura_crudo_v3": "`sujeto_propuesto` se lee como mención (L-ESQ-R2 §3.4)",
+   "niveles": ["exacta", "tokens"],
+   "si_no_verifica": "aceptar_con_marca",
+   "si_ausente_en_predicado_de_sujeto": "aceptar_con_marca",
+   "nunca_rechaza_la_relacion": true,
+   "limite_declarado": "la verificación prueba presencia de la mención en el texto del chunk (propio y heredado), no pertenencia al chunk: 6 de las 63 menciones del crudo de diez aparecen literalmente en el chunk ajeno del mismo TO sorteado con semilla (resultados/mediciones_p2.json, ventana.tabla, ajenas_exactas)",
+   "motivo_no_mapeado_sin_sugerencia": "mencion_no_verificada"
+  },
+  "Obligacion.tipo": {
+   "propuesta": "P-a5; L-ESQ-R2 §2.3",
+   "pasos": ["en_lista"],
+   "si_no_resuelve": "normalizar",
+   "valor_normalizado": "otra",
+   "ausente": "normalizar, con contador aparte"
+  },
+  "Restriccion.tipo": {
+   "propuesta": "P-a6; L-ESQ-R2 §2.3 (opción iii, sin valor nuevo)",
+   "pasos": ["en_lista"],
+   "si_no_resuelve": "registrar"
+  },
+  "Comunicacion.tipo": {
+   "propuesta": "P-a7; L-ESQ-R2 §2.3 y §2.4",
+   "pasos": ["en_lista", "derivar_de_codigo_o_label", "externa_por_lexico"],
+   "derivar_de_codigo_o_label": "el `codigo` o el `label` tiene la forma de una Comunicación: letra A, B o C y número («A 7825», «A-7825», «Com. A 7825»)",
+   "externa_por_lexico": "el valor, o en su defecto el `codigo` o el `label`, nombra una ley, un decreto o una resolución",
+   "lexico_externa": ["ley", "leyes", "decreto", "decretos", "resolucion", "resoluciones", "res"],
+   "si_no_resuelve": "registrar"
+  },
+  "Obligacion.frecuencia": {
+   "propuesta": "L-ESQ-R2 §1.3, decisión 1",
+   "pasos": ["en_lista", "desde_tramo"],
+   "desde_tramo": "el valor normalizado contiene una sola de las seis frecuencias (adjetivo en cualquier género y número, o adverbio en -mente)",
+   "si_no_resuelve": "registrar"
+  },
+  "claves": {
+   "propuesta": "P-a8; L-ESQ-R2 §2.3 (sin renombres de claves) y §1.3 decisión 5",
+   "fuera_de_definicion": "a_properties_no_definidas",
+   "nunca_rechaza": true,
+   "heredadas_v3": {"Restriccion": ["umbral"], "Obligacion": ["plazo"]},
+   "modo_heredadas_v3": "a_campos_heredados_v3, insumo del paso de r2a (L-ESQ-R2 §1.4)",
+   "otras_propiedades": "campo opcional del ítem de entidad (objeto de strings) para lo que la definición del tipo no prevé; va a properties_no_definidas con contador; una clave definida o ya presente va a campos_no_definidos (decisión de la autora sobre P1)"
+  },
+  "valores": {
+   "propuesta": "P-a9",
+   "vacio": "equivale a ausente; en un campo con lista cuenta como fuera de lista",
+   "texto": "string no vacío",
+   "numero": "entero; un string de dígitos (con puntos de miles) se normaliza a entero con contador",
+   "si_no_tipado": "registrar"
+  },
+  "campos_del_item": {
+   "propuesta": "P-a8, extendida a los campos del ítem de entidad y de relación",
+   "fuera_de_definicion": "a_campos_no_definidos",
+   "extremo_sujeto_en_source_o_target": "se ignora y se cuenta (slip heredado del v2)"
+  },
+  "omisiones": {
+   "propuesta": "P-a10, P-e1, P-e2, P-e3; L-ESQ-R2 §5.3 y §5.4",
+   "lectura_crudo_v3": "cada string no vacío de `omisiones_no_prosa` es una omisión sin categoría y sin tramo, con el string como nota",
+   "string_no_vacio": "lista_de_uno",
+   "string_lista_json": "un string con forma de lista JSON se decodifica, como entities y relations (calibración P3, decisión 8)",
+   "string_vacio": "ausente, con contador",
+   "categoria_fuera_de_lista": "registrar",
+   "tramo": "subcadena normalizada del texto propio; si no, tokens dentro de la ventana; si no, `no`; se conserva siempre",
+   "tabla_o_formula_sin_marca_de_e0": "senal_tabla_no_detectada, con contador",
+   "marcado_con_extraccion_sin_omision": "contador visible",
+   "tipo_rechazado": "omision fuera_de_tipos, con label y tipo propuesto como nota, sin tramo"
+  },
+  "firma": {
+   "propuesta": "L-ESQ-R2 §6.3 y §6.4",
+   "matriz": "congelada más la ampliación de condicion_de",
+   "ampliacion": [["condicion_de", "Condicion", "Operacion"], ["condicion_de", "Condicion", "Potestad"]],
+   "firma_nueva": "aceptar_con_marca_no_verificada_e3",
+   "fuera_de_matriz": "rechazar"
+  },
+  "coherencia_tipo_predicado": {
+   "propuesta": "BKL-0038; L-ESQ-R2 §1.1",
+   "modo": "marcar, sin rechazar",
+   "reglas": {"prohibicion": "prohibe", "limite_*": "limita"}
+  },
+  "umbral": {
+   "propuesta": "L-ESQ-R2 §1.3 (a), decisiones 2 y 4",
+   "comparacion": "registrar",
+   "unidad": "registrar",
+   "moneda": "registrar",
+   "dias_tipo": "registrar"
+  }
+ },
+ "alias": {
+  "tipo_entidad": {"Restriction": "Restriccion"},
+  "predicado": {"exceptua_restriccion": "exceptua"}
+ },
+ "parametros": {
+  "mencion_holgura_tokens": {
+   "valor": 2,
+   "estado": "decisión de la autora sobre la medición de P2 (calibración P3, decisión 6)",
+   "definicion": "ventana = cantidad de tokens distintos de la mención más la holgura; la mención verifica por tokens si una ventana contigua del texto de ese largo contiene todos sus tokens",
+   "medicion": "resultados/mediciones_p2.json, ventana: con h = 2, 48 de 63 menciones propias aceptadas y 4 de 39.076 pares ajenos por tokens"
+  },
+  "omision_largo_minimo_tokens": {
+   "valor": 11,
+   "estado": "provisional, decisión de la autora sobre la medición de P2 (calibración P3, decisión 7); definitivo en r2b",
+   "definicion": "un tramo de omisión con menos tokens normalizados se marca `tramo_corto`",
+   "medicion": "resultados/mediciones_p2.json, largo_tramo: extensión posterior A-LARGO, n = 11 (0,9533 de n-gramas únicos en su chunk); la medición definitiva es de r2b"
+  }
+ }
+}

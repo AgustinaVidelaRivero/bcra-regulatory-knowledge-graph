@@ -7,3 +7,7 @@ fuera_del_repo/*
 !fuera_del_repo/b63_etapa1/
 fuera_del_repo/b63_etapa1/*
 !fuera_del_repo/b63_etapa1/scripts/
+*.pdf
+data/experiment/reaplicacion_unica/acumulado/ens_128_r2b_sincola/r2/kg.json
+data/experiment/banco_mcp/mcp_kg/indice_puntos/
+data/experiment/banco_mcp/mcp_vector/indice/

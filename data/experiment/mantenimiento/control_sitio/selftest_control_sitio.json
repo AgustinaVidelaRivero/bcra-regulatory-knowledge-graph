@@ -1,0 +1,363 @@
+{
+ "bloques_de_pie_quitados": {
+  "A5_bloques_quitados": 320,
+  "A7_bloques_quitados": 146
+ },
+ "casos": [
+  {
+   "aviso_md_escrito": false,
+   "caso": "base",
+   "codigo_salida": 0,
+   "detalle_rotos": [],
+   "esperado": [],
+   "estado_por_supuesto": {
+    "S1": "ok",
+    "S2": "ok",
+    "S3": "ok",
+    "S4": "ok",
+    "S5": "ok",
+    "S6": "ok",
+    "S7": "ok"
+   },
+   "mediciones_reutilizadas_por_sha": 0,
+   "ok": true,
+   "pdfs_medidos": 157,
+   "rotos": [],
+   "supuestos_en_aviso_md": []
+  },
+  {
+   "aviso_md_escrito": true,
+   "caso": "A1_clave_faltante",
+   "codigo_salida": 1,
+   "detalle_rotos": [
+    {
+     "linea_base": {
+      "claves": [
+       "archivo",
+       "titulo",
+       "titulo_truncado",
+       "url"
+      ],
+      "entradas_con_las_cuatro_claves": 158
+     },
+     "observado": {
+      "con_las_cuatro_claves": 157,
+      "entradas": 158
+     },
+     "supuesto": "S2"
+    }
+   ],
+   "esperado": [
+    "S2"
+   ],
+   "estado_por_supuesto": {
+    "S1": "ok",
+    "S2": "roto",
+    "S3": "ok",
+    "S4": "ok",
+    "S5": "ok",
+    "S6": "ok",
+    "S7": "ok"
+   },
+   "mediciones_reutilizadas_por_sha": 157,
+   "ok": true,
+   "pdfs_medidos": 157,
+   "rotos": [
+    "S2"
+   ],
+   "supuestos_en_aviso_md": [
+    "S2"
+   ]
+  },
+  {
+   "aviso_md_escrito": true,
+   "caso": "A2_entrada_menos",
+   "codigo_salida": 1,
+   "detalle_rotos": [
+    {
+     "linea_base": {
+      "duplicadas": [
+       "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-optico.pdf"
+      ],
+      "entradas": 158,
+      "ids": 157,
+      "por_lista": {
+       "regimenes_informativos": 55,
+       "textos_ordenados": 103
+      },
+      "urls_unicas": 157
+     },
+     "observado": {
+      "duplicadas": [
+       "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-optico.pdf"
+      ],
+      "entradas": 157,
+      "ids": 156,
+      "por_lista": {
+       "regimenes_informativos": 54,
+       "textos_ordenados": 103
+      },
+      "urls_unicas": 156
+     },
+     "supuesto": "S3"
+    }
+   ],
+   "esperado": [
+    "S3"
+   ],
+   "estado_por_supuesto": {
+    "S1": "ok",
+    "S2": "ok",
+    "S3": "roto",
+    "S4": "ok",
+    "S5": "ok",
+    "S6": "ok",
+    "S7": "ok"
+   },
+   "mediciones_reutilizadas_por_sha": 157,
+   "ok": true,
+   "pdfs_medidos": 157,
+   "rotos": [
+    "S3"
+   ],
+   "supuestos_en_aviso_md": [
+    "S3"
+   ]
+  },
+  {
+   "aviso_md_escrito": true,
+   "caso": "A3_url_otro_patron",
+   "codigo_salida": 1,
+   "detalle_rotos": [
+    {
+     "linea_base": {
+      "con_el_patron": 158,
+      "patron": "^https://www\\.bcra\\.gob\\.ar/archivos/Pdfs/Texord/(?P<archivo>[^/]+)$"
+     },
+     "observado": {
+      "con_el_patron": 157,
+      "entradas": 158
+     },
+     "supuesto": "S4"
+    }
+   ],
+   "esperado": [
+    "S4"
+   ],
+   "estado_por_supuesto": {
+    "S1": "ok",
+    "S2": "ok",
+    "S3": "ok",
+    "S4": "roto",
+    "S5": "ok",
+    "S6": "ok",
+    "S7": "ok"
+   },
+   "mediciones_reutilizadas_por_sha": 157,
+   "ok": true,
+   "pdfs_medidos": 157,
+   "rotos": [
+    "S4"
+   ],
+   "supuestos_en_aviso_md": [
+    "S4"
+   ]
+  },
+  {
+   "aviso_md_escrito": true,
+   "caso": "A6_lista_faltante",
+   "codigo_salida": 1,
+   "detalle_rotos": [
+    {
+     "linea_base": {
+      "claves_nivel_superior": [
+       "lang",
+       "regimenes_informativos",
+       "success",
+       "textos_ordenados"
+      ],
+      "listas": {
+       "regimenes_informativos": true,
+       "textos_ordenados": true
+      },
+      "success": true
+     },
+     "observado": {
+      "claves_nivel_superior": [
+       "lang",
+       "regimenes_informativos",
+       "success"
+      ],
+      "json": true,
+      "listas": {
+       "regimenes_informativos": true,
+       "textos_ordenados": false
+      },
+      "success": true,
+      "tipo": "dict"
+     },
+     "supuesto": "S1"
+    }
+   ],
+   "esperado": [
+    "S1"
+   ],
+   "estado_por_supuesto": {
+    "S1": "roto",
+    "S2": "no medido (S1 roto)",
+    "S3": "no medido (S1 roto)",
+    "S4": "no medido (S1 roto)",
+    "S5": "ok",
+    "S6": "ok",
+    "S7": "ok"
+   },
+   "mediciones_reutilizadas_por_sha": 157,
+   "ok": true,
+   "pdfs_medidos": 157,
+   "rotos": [
+    "S1"
+   ],
+   "supuestos_en_aviso_md": [
+    "S1"
+   ]
+  },
+  {
+   "aviso_md_escrito": true,
+   "caso": "A4_pdf_sin_portada",
+   "codigo_salida": 1,
+   "detalle_rotos": [
+    {
+     "linea_base": {
+      "tos": 157,
+      "tos_con_acierto": 94
+     },
+     "observado": {
+      "tos_medidos": 157,
+      "tos_que_fallan": 1
+     },
+     "supuesto": "S5"
+    }
+   ],
+   "esperado": [
+    "S5"
+   ],
+   "estado_por_supuesto": {
+    "S1": "ok",
+    "S2": "ok",
+    "S3": "ok",
+    "S4": "ok",
+    "S5": "roto",
+    "S6": "ok",
+    "S7": "ok"
+   },
+   "mediciones_reutilizadas_por_sha": 156,
+   "ok": true,
+   "pdfs_medidos": 157,
+   "rotos": [
+    "S5"
+   ],
+   "supuestos_en_aviso_md": [
+    "S5"
+   ]
+  },
+  {
+   "aviso_md_escrito": true,
+   "caso": "A5_pdf_sin_marcadores",
+   "codigo_salida": 1,
+   "detalle_rotos": [
+    {
+     "linea_base": {
+      "tos": 157,
+      "tos_con_algun_marcador": 153,
+      "umbral": "fracción < 0.5 × la de la línea de base"
+     },
+     "observado": {
+      "tos_medidos": 157,
+      "tos_que_fallan": 1
+     },
+     "supuesto": "S7"
+    }
+   ],
+   "esperado": [
+    "S7"
+   ],
+   "estado_por_supuesto": {
+    "S1": "ok",
+    "S2": "ok",
+    "S3": "ok",
+    "S4": "ok",
+    "S5": "ok",
+    "S6": "ok",
+    "S7": "roto"
+   },
+   "mediciones_reutilizadas_por_sha": 156,
+   "ok": true,
+   "pdfs_medidos": 157,
+   "rotos": [
+    "S7"
+   ],
+   "supuestos_en_aviso_md": [
+    "S7"
+   ]
+  },
+  {
+   "aviso_md_escrito": true,
+   "caso": "A7_pdf_sin_pie",
+   "codigo_salida": 1,
+   "detalle_rotos": [
+    {
+     "linea_base": {
+      "tos": 157,
+      "tos_con_acierto": 152
+     },
+     "observado": {
+      "tos_medidos": 157,
+      "tos_que_fallan": 1
+     },
+     "supuesto": "S6"
+    }
+   ],
+   "esperado": [
+    "S6"
+   ],
+   "estado_por_supuesto": {
+    "S1": "ok",
+    "S2": "ok",
+    "S3": "ok",
+    "S4": "ok",
+    "S5": "ok",
+    "S6": "roto",
+    "S7": "ok"
+   },
+   "mediciones_reutilizadas_por_sha": 156,
+   "ok": true,
+   "pdfs_medidos": 157,
+   "rotos": [
+    "S6"
+   ],
+   "supuestos_en_aviso_md": [
+    "S6"
+   ]
+  }
+ ],
+ "casos_ok": 8,
+ "casos_total": 8,
+ "linea_base_sha256": "f274f77e4bdc0a18dabd169f25e48a228fbed55be5f3944e4fcc49fd59816d79",
+ "pdf_alterado": "capmin",
+ "replica_lineas_e0": {
+  "ri_spi": {
+   "iguales": true,
+   "paginas_comparadas": 6
+  },
+  "ribspc": {
+   "iguales": true,
+   "paginas_comparadas": 2
+  },
+  "snp_psp": {
+   "iguales": true,
+   "paginas_comparadas": 8
+  }
+ },
+ "selftest": "U-MANT M2 — control de los supuestos del sitio",
+ "veredicto": "OK"
+}

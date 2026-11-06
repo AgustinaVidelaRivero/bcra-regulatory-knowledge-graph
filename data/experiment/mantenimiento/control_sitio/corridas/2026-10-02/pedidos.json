@@ -1,0 +1,1900 @@
+{
+ "actgar": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "actgar",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-actgar.pdf"
+ },
+ "adfsp": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "adfsp",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-adfsp.pdf"
+ },
+ "adrei": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "adrei",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-adrei.pdf"
+ },
+ "afiltr": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "afiltr",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-afiltr.pdf"
+ },
+ "apnf": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "apnf",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-apnf.pdf"
+ },
+ "asomut": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "asomut",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-asomut.pdf"
+ },
+ "autenf": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "autenf",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-autenf.pdf"
+ },
+ "ayccef": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ayccef",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-ayccef.pdf"
+ },
+ "cajasc": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "cajasc",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-cajasc.pdf"
+ },
+ "capmin": {
+  "bytes": 6347945,
+  "cabeceras": {
+   "content_length": "6347945",
+   "content_type": "application/pdf",
+   "etag": "\"6aa7e6a4-60dca9\"",
+   "last_modified": "Mon, 14 Sep 2026 12:20:52 GMT"
+  },
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "descargado",
+  "http": 200,
+  "id": "capmin",
+  "igual_a_2026_09_07": false,
+  "intentos": 1,
+  "sha256": "5eb5a43079b7a0d5d1126bce1142ee0cecd296550762f044ef7d55f0172bebd8",
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-capmin.pdf"
+ },
+ "cateloc": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "cateloc",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-cateloc.pdf"
+ },
+ "ccbcra": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ccbcra",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-ccbcra.pdf"
+ },
+ "cedin": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "cedin",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-cedin.pdf"
+ },
+ "ceninf": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ceninf",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-ceninf.pdf"
+ },
+ "cescar": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "cescar",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-cescar.PDF"
+ },
+ "cirmo3": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "cirmo3",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-cirmo3.pdf"
+ },
+ "cladeu": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "cladeu",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-cladeu.pdf"
+ },
+ "coltit": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "coltit",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-coltit.pdf"
+ },
+ "consyr": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "consyr",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-consyr.pdf"
+ },
+ "convca": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "convca",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-convca.pdf"
+ },
+ "cryl": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "cryl",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-cryl.pdf"
+ },
+ "ctacor": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ctacor",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-ctacor.pdf"
+ },
+ "ctacte": {
+  "bytes": 3713344,
+  "cabeceras": {
+   "content_length": "3713344",
+   "content_type": "application/pdf",
+   "etag": "\"6abe93b6-38a940\"",
+   "last_modified": "Thu, 01 Oct 2026 17:09:10 GMT"
+  },
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "descargado",
+  "http": 200,
+  "id": "ctacte",
+  "igual_a_2026_09_07": false,
+  "intentos": 1,
+  "sha256": "11e76738b2f308e00a2aabf350d8f7d7d0772f873ef790d76f86740248909345",
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-ctacte.pdf"
+ },
+ "ctavis": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ctavis",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-ctavis.pdf"
+ },
+ "depaho": {
+  "bytes": 3926483,
+  "cabeceras": {
+   "content_length": "3926483",
+   "content_type": "application/pdf",
+   "etag": "\"6aa7ea57-3be9d3\"",
+   "last_modified": "Mon, 14 Sep 2026 12:36:39 GMT"
+  },
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "descargado",
+  "http": 200,
+  "id": "depaho",
+  "igual_a_2026_09_07": false,
+  "intentos": 1,
+  "sha256": "2ff44e7e60912c23fd69eb4dd506120335acc4d0f12ef2ac1d16f4ceed3efc91",
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-depaho.pdf"
+ },
+ "depinv": {
+  "bytes": 2335754,
+  "cabeceras": {
+   "content_length": "2335754",
+   "content_type": "application/pdf",
+   "etag": "\"6aa7e0e4-23a40a\"",
+   "last_modified": "Mon, 14 Sep 2026 11:56:20 GMT"
+  },
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "descargado",
+  "http": 200,
+  "id": "depinv",
+  "igual_a_2026_09_07": false,
+  "intentos": 1,
+  "sha256": "2c24217441bece93955e5f2ba29ee08bf8fabe87d3e7837e960e80ded2c4f512",
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-depinv.pdf"
+ },
+ "disres": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "disres",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-disres.pdf"
+ },
+ "dmrd": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "dmrd",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-dmrd.pdf"
+ },
+ "docvig": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "docvig",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-docvig.pdf"
+ },
+ "efemin": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "efemin",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-efemin.pdf"
+ },
+ "evacre": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "evacre",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-evacre.pdf"
+ },
+ "excbio": {
+  "bytes": 5325118,
+  "cabeceras": {
+   "content_length": "5325118",
+   "content_type": "application/pdf",
+   "etag": "\"6aa957ee-51413e\"",
+   "last_modified": "Tue, 15 Sep 2026 14:36:30 GMT"
+  },
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "descargado",
+  "http": 200,
+  "id": "excbio",
+  "igual_a_2026_09_07": false,
+  "intentos": 1,
+  "sha256": "b952d5cbc74a9b208edeca2bfd11bf0922a69a453116ddbd310a5b775fdd5759",
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-excbio.pdf"
+ },
+ "expaef": {
+  "bytes": 1574552,
+  "cabeceras": {
+   "content_length": "1574552",
+   "content_type": "application/pdf",
+   "etag": "\"6abd0d7d-180698\"",
+   "last_modified": "Wed, 30 Sep 2026 13:24:13 GMT"
+  },
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "descargado",
+  "http": 200,
+  "id": "expaef",
+  "igual_a_2026_09_07": false,
+  "intentos": 1,
+  "sha256": "a03091d42e37a312614d80483546eba202d869245ddd72f73a0a44347c1153c0",
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-expaef.pdf"
+ },
+ "fabcra": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "fabcra",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-fabcra.pdf"
+ },
+ "fclef": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "fclef",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-fclef.pdf"
+ },
+ "fgarcp": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "fgarcp",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-fgarcp.pdf"
+ },
+ "fimipyme": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "fimipyme",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-fimipyme.pdf"
+ },
+ "finsec": {
+  "bytes": 2633691,
+  "cabeceras": {
+   "content_length": "2633691",
+   "content_type": "application/pdf",
+   "etag": "\"6aac2bbe-282fdb\"",
+   "last_modified": "Thu, 17 Sep 2026 18:04:46 GMT"
+  },
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "descargado",
+  "http": 200,
+  "id": "finsec",
+  "igual_a_2026_09_07": false,
+  "intentos": 1,
+  "sha256": "e72ad4eac619de645fb260bdac31d1776bfb2ba05d2931a5ec8d962d48f89f20",
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-finsec.pdf"
+ },
+ "garant": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "garant",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-garant.pdf"
+ },
+ "garopt": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "garopt",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-garopt.pdf"
+ },
+ "gerc": {
+  "bytes": 2212698,
+  "cabeceras": {
+   "content_length": "2212698",
+   "content_type": "application/pdf",
+   "etag": "\"6aa7e86c-21c35a\"",
+   "last_modified": "Mon, 14 Sep 2026 12:28:28 GMT"
+  },
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "descargado",
+  "http": 200,
+  "id": "gerc",
+  "igual_a_2026_09_07": false,
+  "intentos": 1,
+  "sha256": "dc8249b5b81e4d28cd9b1835e80066d476604238d45c8d25d175b774b3437ffd",
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-gerc.pdf"
+ },
+ "gescre": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "gescre",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-gescre.pdf"
+ },
+ "gracre": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "gracre",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-gracre.pdf"
+ },
+ "graloc": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "graloc",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-graloc.pdf"
+ },
+ "horari": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "horari",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-horari.pdf"
+ },
+ "icmecma": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "icmecma",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-icmecma.pdf"
+ },
+ "incuca": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "incuca",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-incuca.pdf"
+ },
+ "inspag": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "inspag",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-inspag.pdf"
+ },
+ "jafip": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "jafip",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-jAFIP.pdf"
+ },
+ "lavdin": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "lavdin",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-lavdin.pdf"
+ },
+ "lingeef": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "lingeef",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-lingeef.pdf"
+ },
+ "lingob": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "lingob",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-lingob.pdf"
+ },
+ "manori": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "manori",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-manori.pdf"
+ },
+ "manual": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "manual",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/manual.pdf"
+ },
+ "micemp": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "micemp",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-micemp.pdf"
+ },
+ "nmaeef": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "nmaeef",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-nmaeef.pdf"
+ },
+ "nmcief": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "nmcief",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-nmcief.pdf"
+ },
+ "opecam": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "opecam",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-opecam.pdf"
+ },
+ "opefci": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "opefci",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-opefci.pdf"
+ },
+ "optico": {
+  "bytes": 2159034,
+  "cabeceras": {
+   "content_length": "2159034",
+   "content_type": "application/pdf",
+   "etag": "\"6aad28c9-20f1ba\"",
+   "last_modified": "Fri, 18 Sep 2026 12:04:25 GMT"
+  },
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "descargado",
+  "http": 200,
+  "id": "optico",
+  "igual_a_2026_09_07": false,
+  "intentos": 1,
+  "sha256": "5ee830346daf480451292de5d8b2bd75f23754bec5be2d79059c5ce6b483af6a",
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-optico.pdf"
+ },
+ "ordcom": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ordcom",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-ordcom.pdf"
+ },
+ "osapsa": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "osapsa",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-osapsa.pdf"
+ },
+ "pagjub": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "pagjub",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-pagjub.pdf"
+ },
+ "pfmipyme": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "pfmipyme",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-pfmipyme.pdf"
+ },
+ "pimf": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "pimf",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-pimf.pdf"
+ },
+ "plandecuentas": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "plandecuentas",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/plandecuentas.pdf"
+ },
+ "pognme": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "pognme",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-pognme.pdf"
+ },
+ "polcre": {
+  "bytes": 1905145,
+  "cabeceras": {
+   "content_length": "1905145",
+   "content_type": "application/pdf",
+   "etag": "\"6aa7e6f3-1d11f9\"",
+   "last_modified": "Mon, 14 Sep 2026 12:22:11 GMT"
+  },
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "descargado",
+  "http": 200,
+  "id": "polcre",
+  "igual_a_2026_09_07": false,
+  "intentos": 1,
+  "sha256": "841b1dfc543b74233bb295002b26a57727d3cfa5ccecd10a4064a1de94c59b3b",
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-polcre.pdf"
+ },
+ "prevmi": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "prevmi",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-prevmi.pdf"
+ },
+ "pscpp": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "pscpp",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-pscpp.pdf"
+ },
+ "pusf": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "pusf",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-pusf.pdf"
+ },
+ "raapal": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "raapal",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-raapal.pdf"
+ },
+ "ratio": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ratio",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-ratio.pdf"
+ },
+ "ratiofn": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ratiofn",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-ratiofn.pdf"
+ },
+ "rdbcra": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "rdbcra",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-rdbcra.pdf"
+ },
+ "regpri": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "regpri",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-regpri.pdf"
+ },
+ "relact": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "relact",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-relact.pdf"
+ },
+ "repefe": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "repefe",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-repefe.pdf"
+ },
+ "reqcac": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "reqcac",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-reqcac.pdf"
+ },
+ "retype": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "retype",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-retype.pdf"
+ },
+ "ri2_ae": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri2_ae",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI2-AE.pdf"
+ },
+ "ri2_ci": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri2_ci",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI2-CI.pdf"
+ },
+ "ri2_cs": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri2_cs",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI2-CS.pdf"
+ },
+ "ri2_pm": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri2_pm",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI2-PM.pdf"
+ },
+ "ri_acsf": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri_acsf",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-ACSF.pdf"
+ },
+ "ri_ai": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri_ai",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-AI.pdf"
+ },
+ "ri_ao": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri_ao",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-AO.pdf"
+ },
+ "ri_bdp": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri_bdp",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-BDP.pdf"
+ },
+ "ri_cc": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri_cc",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-ri-cc.pdf"
+ },
+ "ri_ccna": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri_ccna",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-CcNA.pdf"
+ },
+ "ri_ccpnp": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri_ccpnp",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-CCPNP.pdf"
+ },
+ "ri_chr": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri_chr",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-CHR.pdf"
+ },
+ "ri_cm": {
+  "bytes": 2323479,
+  "cabeceras": {
+   "content_length": "2323479",
+   "content_type": "application/pdf",
+   "etag": "\"6aa806c3-237417\"",
+   "last_modified": "Mon, 14 Sep 2026 14:37:55 GMT"
+  },
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "descargado",
+  "http": 200,
+  "id": "ri_cm",
+  "igual_a_2026_09_07": false,
+  "intentos": 1,
+  "sha256": "73c3c925f4f801d515f001460ae7c1092848d030ac572a137c27e77f657c57f7",
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-CM.pdf"
+ },
+ "ri_con": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri_con",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-Con.pdf"
+ },
+ "ri_cr": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri_cr",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-CR.pdf"
+ },
+ "ri_dcpc": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri_dcpc",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/RI-DCPC.pdf"
+ },
+ "ri_dsf": {
+  "bytes": 836013,
+  "cabeceras": {
+   "content_length": "836013",
+   "content_type": "application/pdf",
+   "etag": "\"6ab13ff4-cc1ad\"",
+   "last_modified": "Mon, 21 Sep 2026 14:32:20 GMT"
+  },
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "descargado",
+  "http": 200,
+  "id": "ri_dsf",
+  "igual_a_2026_09_07": false,
+  "intentos": 1,
+  "sha256": "9cc2268a7c12079fde7a0ffa242019a8bc175a3c1162ad93a79f6a6ff2a3dc1c",
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-DSF.pdf"
+ },
+ "ri_esd": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri_esd",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-ESD.PDF"
+ },
+ "ri_fcem": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri_fcem",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-FCEM.pdf"
+ },
+ "ri_gerc": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri_gerc",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-GERC.pdf"
+ },
+ "ri_icpipsp": {
+  "bytes": 282340,
+  "cabeceras": {
+   "content_length": "282340",
+   "content_type": "application/pdf",
+   "etag": "\"6aaaa9c0-44ee4\"",
+   "last_modified": "Wed, 16 Sep 2026 14:37:52 GMT"
+  },
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "descargado",
+  "http": 200,
+  "id": "ri_icpipsp",
+  "igual_a_2026_09_07": false,
+  "intentos": 1,
+  "sha256": "08af06700008a4fb0899b8450097b27e0944ffe80a506ad7ce2a2525dc005be0",
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-ICPIPSP.pdf"
+ },
+ "ri_ieccm": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri_ieccm",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-IECCM.pdf"
+ },
+ "ri_iepsp": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri_iepsp",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-IEPSP.pdf"
+ },
+ "ri_iesinap": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri_iesinap",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-IESINAP.pdf"
+ },
+ "ri_ii_31_12_19": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri_ii_31_12_19",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-II-31-12-19.pdf"
+ },
+ "ri_itme": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri_itme",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-ITME.pdf"
+ },
+ "ri_laft": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri_laft",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-LAFT.pdf"
+ },
+ "ri_mmsef": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri_mmsef",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-MMSEF.pdf"
+ },
+ "ri_msrl": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri_msrl",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-MSRL.pdf"
+ },
+ "ri_nge": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri_nge",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-nge.pdf"
+ },
+ "ri_niif": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri_niif",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/RI-NIIF.pdf"
+ },
+ "ri_oc": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri_oc",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-OC.pdf"
+ },
+ "ri_ot": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri_ot",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-OT.pdf"
+ },
+ "ri_pfmipyme": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri_pfmipyme",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-PFMIPYME.pdf"
+ },
+ "ri_pgn": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri_pgn",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-PGN.pdf"
+ },
+ "ri_pnp": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri_pnp",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-ri-pnp.pdf"
+ },
+ "ri_pscpp": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri_pscpp",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-PSCPP.pdf"
+ },
+ "ri_psp": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri_psp",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-PSP.pdf"
+ },
+ "ri_pspapt": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri_pspapt",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-PSPAPT.pdf"
+ },
+ "ri_pspii": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri_pspii",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-PSPII.pdf"
+ },
+ "ri_psprca": {
+  "bytes": 278289,
+  "cabeceras": {
+   "content_length": "278289",
+   "content_type": "application/pdf",
+   "etag": "\"6abbb1b8-43f11\"",
+   "last_modified": "Tue, 29 Sep 2026 12:40:24 GMT"
+  },
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "descargado",
+  "http": 200,
+  "id": "ri_psprca",
+  "igual_a_2026_09_07": false,
+  "intentos": 1,
+  "sha256": "594cfce911836fe320aa16c737dea76778d95f884663d3d4c6435e958e5a365d",
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-PSPRCA.pdf"
+ },
+ "ri_rcl": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri_rcl",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-RCL.pdf"
+ },
+ "ri_rem": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri_rem",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-Rem.pdf"
+ },
+ "ri_rml": {
+  "bytes": 2860563,
+  "cabeceras": {
+   "content_length": "2860563",
+   "content_type": "application/pdf",
+   "etag": "\"6aa7e5cb-2ba613\"",
+   "last_modified": "Mon, 14 Sep 2026 12:17:15 GMT"
+  },
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "descargado",
+  "http": 200,
+  "id": "ri_rml",
+  "igual_a_2026_09_07": false,
+  "intentos": 1,
+  "sha256": "54dd9014868d8baaf4a234bf40c9e6eef0a1f356cfe956a5372b0b2a468bfa90",
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-RML.pdf"
+ },
+ "ri_saofe": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri_saofe",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-SAOFE.pdf"
+ },
+ "ri_secoexpo": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri_secoexpo",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-SECOEXPO.pdf"
+ },
+ "ri_sef": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri_sef",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-SEF.pdf"
+ },
+ "ri_spi": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri_spi",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI–SPI.pdf"
+ },
+ "ri_tar": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri_tar",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-TAR.pdf"
+ },
+ "ri_tii": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri_tii",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-TII.pdf"
+ },
+ "ri_transpa": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri_transpa",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-Transpa.pdf"
+ },
+ "ri_tsa": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri_tsa",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-TSA.pdf"
+ },
+ "ri_tvf": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ri_tvf",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-TVF.pdf"
+ },
+ "ribspc": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "ribspc",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RIbspc.pdf"
+ },
+ "rmgcti": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "rmgcti",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-rmgcti.pdf"
+ },
+ "rmrtsd": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "rmrtsd",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-rmrtsd.pdf"
+ },
+ "rrci": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "rrci",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-rrci.pdf"
+ },
+ "secfin": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "secfin",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-secfin.pdf"
+ },
+ "seggar": {
+  "bytes": 1389123,
+  "cabeceras": {
+   "content_length": "1389123",
+   "content_type": "application/pdf",
+   "etag": "\"6abbc927-153243\"",
+   "last_modified": "Tue, 29 Sep 2026 14:20:23 GMT"
+  },
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "descargado",
+  "http": 200,
+  "id": "seggar",
+  "igual_a_2026_09_07": false,
+  "intentos": 1,
+  "sha256": "bdd76f6b048d4c127c36e066aefd7856d1307bf4295a62c88172087561f451f3",
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-seggar.pdf"
+ },
+ "seguef": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "seguef",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-seguef.pdf"
+ },
+ "servco": {
+  "bytes": 1004823,
+  "cabeceras": {
+   "content_length": "1004823",
+   "content_type": "application/pdf",
+   "etag": "\"6abcfa91-f5517\"",
+   "last_modified": "Wed, 30 Sep 2026 12:03:29 GMT"
+  },
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "descargado",
+  "http": 200,
+  "id": "servco",
+  "igual_a_2026_09_07": false,
+  "intentos": 1,
+  "sha256": "d113cd40c93a87c276f46cafe5378fd4c5adb7ba8a990a991b5175b29121ac5b",
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-servco.pdf"
+ },
+ "snp_atm": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "snp_atm",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-snp-atm.pdf"
+ },
+ "snp_cec": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "snp_cec",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-snp-cec.pdf"
+ },
+ "snp_cheq": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "snp_cheq",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-snp-cheq.pdf"
+ },
+ "snp_dd": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "snp_dd",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-snp-dd.pdf"
+ },
+ "snp_debin": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "snp_debin",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-snp-debin.pdf"
+ },
+ "snp_mep": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "snp_mep",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-snp-mep.pdf"
+ },
+ "snp_psp": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "snp_psp",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-snp-psp.pdf"
+ },
+ "snp_spd": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "snp_spd",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-snp-spd.pdf"
+ },
+ "snp_tr": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "snp_tr",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-SNP-tr.pdf"
+ },
+ "snp_tr_nc": {
+  "bytes": 1152167,
+  "cabeceras": {
+   "content_length": "1152167",
+   "content_type": "application/pdf",
+   "etag": "\"6aa14515-1194a7\"",
+   "last_modified": "Wed, 09 Sep 2026 11:37:57 GMT"
+  },
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "descargado",
+  "http": 200,
+  "id": "snp_tr_nc",
+  "igual_a_2026_09_07": false,
+  "intentos": 1,
+  "sha256": "c5bc606a307f4bc32980275baea7ab4d374b425df7607ca97a26188734881dcd",
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-snp-tr-nc.pdf"
+ },
+ "socgar": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "socgar",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-socgar.pdf"
+ },
+ "supcon": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "supcon",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-supcon.pdf"
+ },
+ "tasint": {
+  "bytes": 1360527,
+  "cabeceras": {
+   "content_length": "1360527",
+   "content_type": "application/pdf",
+   "etag": "\"6abf9e9f-14c28f\"",
+   "last_modified": "Fri, 02 Oct 2026 12:07:59 GMT"
+  },
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "descargado",
+  "http": 200,
+  "id": "tasint",
+  "igual_a_2026_09_07": false,
+  "intentos": 1,
+  "sha256": "4ae4f442b44786ed9dc7e7a67e9bff8f2c51e9308f7a22d53059042545f5c83a",
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-tasint.pdf"
+ },
+ "traval": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "traval",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-traval.pdf"
+ },
+ "venliq": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "venliq",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-venliq.pdf"
+ },
+ "verac": {
+  "condicionales_enviados": [
+   "If-Modified-Since",
+   "If-None-Match"
+  ],
+  "estado": "no_modificado",
+  "http": 304,
+  "id": "verac",
+  "intentos": 1,
+  "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-verac.pdf"
+ }
+}

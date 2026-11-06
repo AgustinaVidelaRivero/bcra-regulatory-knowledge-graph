@@ -1,0 +1,32 @@
+{
+  "servidor": "mcp_kg",
+  "version": "1.0-nav-rel-amp",
+  "backend": "neo4j",
+  "grafo": "KG_Acumulado_Tandas0y1yFinal_r2b_sincola",
+  "modo": "fulltext",
+  "kg_sha256_esperado": "576c97256185a0d5741cb2c35a2a85e91412f3e1119ad7a85d960b7d60c35ad3",
+  "firma_tools": "v1 (harness.TOOLS, laudo R2 opcion B) + familias 1 a 5 de U-NAV-DISENO (diseño de N2) + ver_descendientes en la familia 2 (protocolo de N4, §9)",
+  "familias": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "indice_puntos": "indice_puntos/KG_Acumulado_Tandas0y1yFinal_r2b_sincola",
+  "sha256_manifiesto_indice": "ef036b67032175f32996513a81198f65ed29850bc336ba35ae445f7f20c152d6",
+  "denso": {
+    "requerido": true,
+    "python_env": "BANCO_VENV_VECTOR",
+    "modelo": "microsoft/harrier-oss-v1-0.6b",
+    "revision": "f9b9dc8d367d443f2479d27aa5d8d2850c0774ee"
+  },
+  "rrf_k": 60,
+  "hubs_esperados": {
+    "umbral": 51,
+    "n": 376,
+    "sha256": "bbfa2ccc1e5002fb6575f1aa8824639adc144a3a3bd3068355533e06ec283fca"
+  },
+  "nota": "N7 de U-NAV-DISENO: la configuración elegida en N6 (T-F6) sobre el grafo evaluado de B6.3. La config del evaluado de HEAD (mcp_kg/config_mcp_kg_nav_evaluado.json) con las familias, la firma de las herramientas, el denso y la versión del servidor de n6/config_mcp_kg_n6_T-F6.json; la sirve servidor_mcp_kg_nav_cand.py, como en N6.",
+  "configuracion_n7": "T-F6"
+}

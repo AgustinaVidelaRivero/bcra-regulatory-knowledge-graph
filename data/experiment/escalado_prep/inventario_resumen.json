@@ -1,0 +1,37 @@
+{
+ "entradas_indice": 158,
+ "urls_unicas": 157,
+ "duplicados_descartados": [
+  {
+   "url": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-optico.pdf",
+   "titulo": "Presentación de informaciones al BCRA"
+  }
+ ],
+ "subset_excluido": [
+  {
+   "id_interno": "cap",
+   "titulo": "Capitales mínimos de las entidades financieras"
+  },
+  {
+   "id_interno": "cla",
+   "titulo": "Clasificación de deudores"
+  },
+  {
+   "id_interno": "ext",
+   "titulo": "Exterior y cambios."
+  },
+  {
+   "id_interno": "pro",
+   "titulo": "Protección de los usuarios de servicios financieros"
+  },
+  {
+   "id_interno": "ric",
+   "titulo": "RI Cont. Mensual - Exigencia e integración de capitales mínimos"
+  }
+ ],
+ "filas_inventario": 152,
+ "por_categoria": {
+  "normativa_general": 99,
+  "regimen_informativo": 53
+ }
+}

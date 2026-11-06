@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "fragmentos": {
+      "type": "stdio",
+      "timeout": 600000,
+      "command": "${BANCO_VENV_VECTOR}/bin/python",
+      "args": ["-B", "${BANCO_REPO}/data/experiment/banco_mcp/mcp_vector/servidor_mcp_vector.py",
+               "--config", "${BANCO_REPO}/data/experiment/banco_mcp/mcp_vector/config_fragmentos_denso_evaluado_r2b.json"],
+      "env": {
+        "BANCO_LOG_R1": "${BANCO_LOG_R1}",
+        "BANCO_SESION_TAG": "${BANCO_SESION_TAG:-sin_tag}",
+        "HF_HUB_OFFLINE": "1",
+        "TRANSFORMERS_OFFLINE": "1",
+        "PYTHONDONTWRITEBYTECODE": "1"
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+# docker-compose.yml — Neo4j Community para el backend experimental del grafo
+# (data/experiment/neo4j/, U-A1.1). Reemplaza al `docker run` manual del
+# README original con una definición reproducible y pinneada.
+#
+# Uso (desde este directorio):
+#   docker compose up -d          # levanta (o reutiliza) el contenedor
+#   docker compose ps             # estado + healthcheck
+#   docker compose down           # baja el contenedor; el volumen ./volumen/ persiste
+#   docker compose down -v        # idem (los bind mounts NO se borran con -v: borrar
+#                                 #   ./volumen/ a mano si se quiere una db virgen)
+#
+# Decisiones:
+#   - Imagen pinneada a la MISMA versión que usó la unidad original (5.26.9,
+#     serie LTS, edición Community/GPLv3; sin Enterprise, sin Aura).
+#   - Community NO soporta multi-database: los dos grafos conviven en la db
+#     `neo4j` separados por un label de grafo por nodo (:KG_Refinado /
+#     :KG_Reextraido) con constraints e índices full-text POR LABEL (ver README
+#     §estado post-A1.1). Una sola instancia, un solo puerto bolt.
+#   - Volúmenes como bind mounts locales bajo ./volumen/ (gitignorados en el
+#     .gitignore LOCAL de este directorio; el .gitignore raíz no se toca). La
+#     db persiste entre reinicios del contenedor; la fuente de verdad sigue
+#     siendo el kg.json sellado (recargar = mismo estado, ver cargar_kg.py).
+#   - Memoria fijada (heap 1G / pagecache 512M) para que el benchmark de
+#     latencia no dependa de la autoconfiguración de la máquina.
+#   - Password de desarrollo local `bcra-kg-local` (la misma del README
+#     original; configurable vía NEO4J_PASSWORD en conexion.py). No es una
+#     credencial real.
+#   - Puertos 7474 (browser) / 7687 (bolt) en localhost: son los defaults de
+#     conexion.py. Si el contenedor legacy `neo4j-bcra-kg` (docker run) sigue
+#     corriendo, detenerlo antes: `docker stop neo4j-bcra-kg`.
+
+services:
+  neo4j:
+    image: neo4j:5.26.9-community
+    container_name: neo4j-bcra-kg-compose
+    ports:
+      - "127.0.0.1:7474:7474"
+      - "127.0.0.1:7687:7687"
+    environment:
+      NEO4J_AUTH: neo4j/bcra-kg-local
+      NEO4J_server_memory_heap_initial__size: 1G
+      NEO4J_server_memory_heap_max__size: 1G
+      NEO4J_server_memory_pagecache_size: 512M
+      # Sin plugins (ni APOC ni GDS): las tools se resuelven con Cypher +
+      # índices full-text nativos (Lucene, Apache 2.0).
+      NEO4J_PLUGINS: '[]'
+    volumes:
+      - ./volumen/data:/data
+      - ./volumen/logs:/logs
+    healthcheck:
+      test: ["CMD", "cypher-shell", "-u", "neo4j", "-p", "bcra-kg-local", "RETURN 1"]
+      interval: 10s
+      timeout: 10s
+      retries: 12
+      start_period: 20s
+    restart: unless-stopped
