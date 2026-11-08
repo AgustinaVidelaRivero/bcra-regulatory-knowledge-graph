@@ -12,6 +12,7 @@ sigan andando.
 | `(raíz)` | 8 | `README.md`, licencias, `NOTICE`, `CITATION.cff`, `requirements.txt`, `.gitignore` y `SHA256SUMS` |
 | `corpus/` | 3 | Manifiesto del corpus; los Textos Ordenados con su enlace y su sha256 |
 | `evaluacion/` | 7 | Las 192 preguntas de B6.3 y B6.4 con sus criterios, la respuesta final del agente y su veredicto en cada corrida, y el programa que reproduce la fidelidad |
+| `evaluacion_contenido/` | 15 | Las 400 tripletas y los 130 hechos de la evaluación del contenido del grafo, con su veredicto, el código sellado de sus análisis y el programa que rehace sus cifras |
 | `data/experiment/b54_catalogo_v3/` | 1 | Cierre de los imports: lo importa el código de `data/experiment/reextraccion_v2/` |
 | `data/experiment/banco_mcp/` | 4 | Cierre de los imports: lo importa el código de `data/experiment/banco_mcp/a2_1/`, `data/experiment/banco_mcp/adaptador/`, `data/experiment/banco_mcp/agentes/`, `data/experiment/banco_mcp/aislamiento/`, `data/experiment/banco_mcp/b63/`, `data/experiment/banco_mcp/b64/`, `data/experiment/banco_mcp/mcp_kg/`, `data/experiment/banco_mcp/mcp_vector/`, `data/experiment/banco_mcp/n6/`, `data/experiment/banco_mcp/paralelo/`, `data/experiment/banco_mcp/smoke/`, `scripts/` |
 | `data/experiment/banco_mcp/a2_1/` | 4 | Cierre de los imports: lo importa el código de `data/experiment/banco_mcp/agentes/`, `data/experiment/banco_mcp/b63/`, `data/experiment/banco_mcp/b64/`, `data/experiment/banco_mcp/paralelo/`; 1 dato(s) chico(s) |
@@ -50,8 +51,8 @@ sigan andando.
 | `data/experiment/segmentacion_oficial_e0r2/` | 270 | Segmentación oficial de los Textos Ordenados en puntos (E0) |
 | `data/experiment/tanda0/` | 3 | Cierre de los imports: lo importa el código de `data/experiment/banco_mcp/mcp_kg/`, `data/experiment/reaplicacion_unica/`; suma lo del tramo de las instrucciones, los planes y la 6.3 |
 | `data/experiment/tanda_final/` | 2 | Planes derivados de la tanda final |
-| `data/experiment/tripletas_v/` | 2 | Instrucciones sin casos del juez de las tripletas |
-| `docs/` | 55 | Pre-registros, enmiendas, adendas y el formato del grafo; suma lo del tramo de las instrucciones, los planes y la 6.3 |
+| `data/experiment/tripletas_v/` | 4 | Instrucciones sin casos del juez de las tripletas; la entrada del análisis de las 400 tripletas y el programa que calcula sus intervalos, los 2 que usa `evaluacion_contenido/reproducir_contenido.py` |
+| `docs/` | 57 | Pre-registros, enmiendas, adendas y el formato del grafo; suma lo del tramo de las instrucciones, los planes, la 6.3 y las instrucciones completas de los 2 jueces del contenido del grafo |
 | `ejemplos/` | 2 | Los 2 programas de ejemplo |
 | `fuera_del_repo/b63_etapa1/scripts/` | 2 | Las funciones de P1 que carga el análisis de B6.3, tal cual |
 | `preregistros/` | 1 | sha256 de los pre-registros, las enmiendas y las adendas |
@@ -59,7 +60,7 @@ sigan andando.
 | `src/` | 7 | Código común: descarga del corpus y utilidades |
 | `tests/` | 1 | Pruebas del código común |
 
-La columna cuenta todos los archivos del árbol bajo cada carpeta, y suma 820, los de `SHA256SUMS` más ese archivo.
+La columna cuenta todos los archivos del árbol bajo cada carpeta, y suma 839, los de `SHA256SUMS` más ese archivo.
 
 ## El cierre de los imports
 
@@ -78,6 +79,8 @@ Módulos que el código importa y que no tienen archivo en el repo de la tesis (
 | Módulo | Lo importan |
 |---|---|
 | `muestra_memoria` | `data/experiment/reaplicacion_unica/paquete_UREAPL/ureapl_scripts__censo_c1_pasos.py`, `data/experiment/reaplicacion_unica/paquete_UREAPL/ureapl_scripts__control_cegamiento_salidas.py`, `data/experiment/reaplicacion_unica/paquete_UREAPL/ureapl_scripts__medir_paso.py`, `data/experiment/reaplicacion_unica/paquete_UREAPL/ureapl_scripts__tablas_compuestas.py` |
+
+El código de `evaluacion_contenido/codigo/` no pasó por este cierre. Importa 14 módulos que no se publican, de las corridas de los jueces y de la lectura de la autora, así que no corre solo. `evaluacion_contenido/reproducir_contenido.py` lo carga con su sha256 y pone en lugar de esos módulos rellenos vacíos que ninguna cifra usa.
 
 `requirements.txt` lleva los paquetes de terceros, con las versiones del `.venv`.
 
@@ -125,7 +128,7 @@ otros archivos sellados que no se publican.
 
 ## Archivos sellados
 
-Otro archivo del repositorio verifica el sha256 de estos 10, así que van tal cual, sin ninguna edición.
+Otro archivo del repositorio verifica el sha256 de estos 22, así que van tal cual, sin ninguna edición.
 Sus renglones con rutas se conservan (`Path.home()`, la carpeta `INGENIERIA IA/TESIS/`, `~/`) y solo resuelven en una
 máquina con esa forma:
 
@@ -140,6 +143,18 @@ máquina con esa forma:
 | `data/experiment/banco_mcp/b64/v1/comun_b63.py` | 5 |
 | `data/experiment/banco_mcp/b64/v1/correr_b63.py` | 11 |
 | `data/experiment/banco_mcp/comun_banco.py` | 1 |
+| `data/experiment/tripletas_v/analisis/wilson_kish_tripletas_mesa.py` | 0 |
+| `data/experiment/tripletas_v/juez_v3/entrada_analisis_400_T.json` | 0 |
+| `evaluacion_contenido/codigo/tripletas_t_cob/codigo/acuerdo_juez_cob_t.py` | 0 |
+| `evaluacion_contenido/codigo/tripletas_t_cob/codigo/cifras_600_cob_t.py` | 0 |
+| `evaluacion_contenido/codigo/tripletas_t_cob/codigo/cifras_cob_t.py` | 0 |
+| `evaluacion_contenido/codigo/tripletas_v_juez/codigo/analisis_gold_juez_v.py` | 0 |
+| `evaluacion_contenido/codigo/tripletas_v_juez/codigo/juez_v.py` | 0 |
+| `evaluacion_contenido/codigo/tripletas_v_juez/v2/codigo/analisis_T_v2.py` | 0 |
+| `evaluacion_contenido/codigo/tripletas_v_juez/v2/codigo/juez_v2.py` | 0 |
+| `evaluacion_contenido/codigo/tripletas_v_juez/v3/codigo/analisis_400_v3.py` | 0 |
+| `evaluacion_contenido/codigo/tripletas_v_juez/v3/codigo/analisis_validacion_v3.py` | 0 |
+| `evaluacion_contenido/codigo/tripletas_v_juez/v3/codigo/juez_v3.py` | 0 |
 | `scripts/ucita2_indicadores_banco.py` | 2 |
 
 `data/experiment/banco_mcp/agentes/lanzar_agente.py` va aparte: ningún archivo verifica su sha256, pero `docs/preregistro_A2_2_sistema_por_fragmentos.md:39` lo cita, así que también va

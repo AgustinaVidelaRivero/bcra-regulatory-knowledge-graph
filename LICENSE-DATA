@@ -11,6 +11,7 @@ International (CC BY 4.0):
   preregistros/FIRMAS.md;
 - los archivos de resultados de B6.3 y B6.4 y los datos chicos que lista el README;
 - la carpeta evaluacion/, salvo reproducir_fidelidad.py, cuyos archivos llevan una marca que pide excluirlos del entrenamiento de modelos;
+- la carpeta evaluacion_contenido/, salvo reproducir_contenido.py y codigo/, cuyos archivos llevan la misma marca;
 - la documentación nueva de este repositorio (README.md, docs/formato_del_grafo.md, NOTICE).
 
 En el grafo, la licencia cubre la estructura y las anotaciones. El texto del BCRA citado dentro del grafo es del BCRA

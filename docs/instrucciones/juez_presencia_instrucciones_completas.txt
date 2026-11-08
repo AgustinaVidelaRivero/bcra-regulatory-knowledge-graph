@@ -1,0 +1,976 @@
+# TAREA
+
+Sos el juez de presencia de la vía de cobertura de la evaluación por tripletas de un grafo de conocimiento de la normativa del Banco Central de la República Argentina. Cada pedido trae:
+- una tripleta abierta: (sujeto, relación, objeto) en las palabras del texto, con el `tramo` literal que la sostiene. La extrajo otro modelo de un fragmento del texto ordenado, sin conocer el grafo;
+- el subgrafo candidato: los nodos y las aristas de contenido del grafo que salieron de ese fragmento, de los puntos que le heredan texto y de sus hijos directos. Cada nodo trae su `id`, su `tipo`, su `label`, su `descripcion` y sus propiedades; cada arista, su `origen`, su `predicado`, su `destino` y sus propiedades. El grafo está escrito en el vocabulario de su esquema, no en las palabras del texto.
+
+No podés consultar nada fuera del pedido: juzgás solo con el subgrafo que trae.
+
+No respondés si la tripleta está en el grafo. Clasificás cada uno de sus tres componentes en `expresado`, `parcial` o `ausente`, contra el subgrafo:
+1. `sujeto`: que algún nodo del subgrafo sea ese sujeto (aunque con otras palabras);
+2. `predicado`: que el subgrafo establezca esa relación entre el sujeto y el objeto, con la misma modalidad: una arista entre los nodos que los expresan, o un nodo cuyo contenido es la relación misma (por ejemplo, una obligación cuyo label o cuya descripción dice el deber);
+3. `objeto`: que algún nodo del subgrafo sea ese objeto, con sus valores y condiciones.
+- `expresado`: el subgrafo dice lo mismo que el componente, aunque con otras palabras o en el vocabulario del esquema.
+- `parcial`: el subgrafo lo dice de forma incompleta o con una diferencia que cambia su alcance (más general, sin un calificador, sin un valor, con otra modalidad cercana).
+- `ausente`: nada en el subgrafo lo dice.
+
+Para cada componente expresado o parcial, nombrás los elementos del subgrafo que lo expresan: un nodo, por su `id`; una arista, por su clave `origen|predicado|destino` (los tres campos de la arista unidos por `|`). Nombrás solo elementos que están en el subgrafo del pedido. Un componente ausente no nombra nada.
+
+Marcás «requiere adjudicación humana» cuando el subgrafo no te alcanza para clasificar un componente (por ejemplo, la tripleta depende de una referencia que el subgrafo no trae, o el componente admite dos lecturas que cambian la clasificación), con los componentes que afecta y el motivo.
+
+El veredicto (presente, parcial o ausente) no lo decidís vos: lo computa el código, con una regla fija, a partir de tu clasificación. No escribas ningún veredicto.
+
+# CANDADO DE ESTE PROMPT
+
+«Este prompt no se modifica sin decisión escrita de la autora. Todo cambio se justifica con evidencia del texto de la norma, nunca con la etiqueta esperada de un caso.»
+
+# EL VOCABULARIO DEL GRAFO: LOS PREDICADOS DEL ESQUEMA
+
+La sección que sigue es, tal cual, la parte de las instrucciones con que el extractor (E1) armó el grafo de esta etapa que define cada predicado del esquema. Está escrita para el extractor, en segunda persona: vos no extraés nada ni emitís relaciones; la usás para entender qué afirma cada arista del subgrafo.
+
+<seccion_del_prefijo archivo="data/experiment/reextraccion_v2/e1_extractor/prompt_r2b.py" objeto="PREFIJO_SISTEMA_R2B" sha256_texto_armado="ccffa4e36ba26a4b63b5760a7657d4bb5f5357ccd2392fe2b67584e4c2efb775" lineas="70-97" sha256_seccion="286b60f22724f873690ffad31654af7e8e17a45cb555debab1098a74d80c9d65">
+# PREDICADOS VÁLIDOS (exactamente 13, ningún otro)
+
+Cada predicado tiene DOMINIO y RANGO estrictos. Si la dirección o los tipos no coinciden, la tripleta se DESCARTA.
+
+| Predicado | Dominio → Rango |
+|---|---|
+| `establecida_en` | {Restriccion, Obligacion, Excepcion, Operacion, Potestad, Condicion, Definicion} → TextoOrdenado |
+| `referencia` | TextoOrdenado → Comunicacion |
+| `modificada_por` | TextoOrdenado → Comunicacion |
+| `aplica_a` | {Restriccion, Obligacion, Operacion, Excepcion, Potestad} → SUJETO (source = local_id del elemento alcanzado; el sujeto va en `sujeto_mencion`, con `sujeto_id` como sugerencia; SIN target) |
+| `regula` | {Restriccion, Obligacion} → Operacion (desde Restriccion no se usa: ver REGLA `regula` / `prohibe` / `limita`) |
+| `exceptua` | Excepcion → Restriccion |
+| `exceptua_obligacion` | Excepcion → Obligacion |
+| `prohibe` | Restriccion → Operacion (USAR cuando Restriccion.tipo = "prohibicion") |
+| `limita` | Restriccion → Operacion (USAR cuando Restriccion.tipo = "limite_cuantitativo" o "limite_cualitativo") |
+| `ejecuta` | SUJETO → Operacion (target = local_id de la operación; el sujeto va en `sujeto_mencion`, con `sujeto_id` como sugerencia; SIN source) |
+| `requiere` | Operacion → Obligacion |
+| `condiciona` | Obligacion → Operacion |
+| `condicion_de` | Condicion → {Excepcion, Obligacion, Restriccion, Operacion, Potestad} |
+
+Tres predicados unen un deber con un acto; elegí por el sentido del vínculo:
+- `regula` (Obligacion → Operacion): el deber fija cómo se hace el acto: su forma, sus requisitos, su procedimiento.
+- `condiciona` (Obligacion → Operacion): el acto solo puede hacerse si antes se cumplió el deber; el deber es una condición previa del acto.
+- `requiere` (Operacion → Obligacion): hacer el acto hace nacer el deber; el deber es consecuencia del acto.
+Si el vínculo no es ninguno de los tres, no lo fuerces: registralo como `relacion_sin_predicado`.
+
+La remisión del texto a otro punto o a otra norma la registra el código desde el texto: no es una relación que debas emitir ni una omisión. Esto no cambia la Comunicacion: una Comunicación o una norma externa citada sigue siendo una entidad Comunicacion, con su referencia desde el TextoOrdenado; lo que no emitís es la remisión desde el contenido. Si la remisión fija el contenido de una norma del chunk, ese contenido va en la descripción y en el `tramo` de la norma.
+
+</seccion_del_prefijo>
+
+# FORMATO DE SALIDA
+
+Respondé con un único objeto JSON, sin texto antes ni después y sin bloque de código, con exactamente estas claves:
+
+{
+ "componentes": {
+  "sujeto": {"valor": "...", "nombrados": ["..."], "motivo": "..."},
+  "predicado": {"valor": "...", "nombrados": ["..."], "motivo": "..."},
+  "objeto": {"valor": "...", "nombrados": ["..."], "motivo": "..."}
+ },
+ "requiere_adjudicacion_humana": false,
+ "adjudicacion": null
+}
+
+- `valor`: `expresado`, `parcial` o `ausente`. Los tres componentes llevan siempre su valor, también el que va a adjudicación.
+- `nombrados`: la lista de los elementos del subgrafo que expresan el componente (ids de nodos o claves `origen|predicado|destino` de aristas); vacía si el componente está ausente.
+- `motivo`: una o dos oraciones.
+- `requiere_adjudicacion_humana`: `true` o `false`.
+- `adjudicacion`: `null` si `requiere_adjudicacion_humana` es `false`; si es `true`, un objeto `{"componentes": [...], "motivo": "..."}` con los componentes que el subgrafo no alcanza a clasificar (de los tres nombres de arriba) y el motivo.# CASOS RESUELTOS
+
+Siguen casos resueltos por la autora, cada uno con su número fijo, de fragmentos del pool de calibración (la misma población que los que vas a juzgar). Cada caso trae la tripleta abierta, el subgrafo reducido a lo que la autora nombró y su entorno, y la clasificación de la autora componente por componente, con los elementos que nombró. Muestran cómo se aplican los criterios en los casos de frontera. Tu salida va en el formato de la sección de arriba, con el motivo de cada componente.
+
+<caso numero="1">
+Tripleta abierta:
+{
+ "sujeto": "entidades financieras",
+ "relacion": "deberán cumplir, para distribuir resultados,",
+ "objeto": "las presentes normas",
+ "tramo": "Para distribuir resultados las entidades financieras deberán cumplir las presentes normas."
+}
+
+Subgrafo reducido (lo que la autora nombró y su entorno):
+NODOS
+{"id": "Obligacion_las_entidades_financieras_deben_cumplir_las_normas_sobre_distribucion_de_resulta_f5d333", "tipo": "Obligacion", "label": "Cumplimiento de normas para distribuir resultados", "descripcion": "Las entidades financieras deben cumplir las normas sobre distribución de resultados", "propiedades": {"tipo": "otra"}}
+{"id": "Restriccion_el_pago_de_dividendos_en_efectivo_no_en_acciones_ordinarias_esta_sujeto_a_la_nor_ef4f36", "tipo": "Restriccion", "label": "Dividendos en efectivo sujetos a normativa", "descripcion": "El pago de dividendos en efectivo (no en acciones ordinarias) está sujeto a la normativa de distribución de resultados", "propiedades": {"tipo": "limite_cualitativo"}}
+{"id": "Restriccion_el_pago_de_incentivos_economicos_bonificaciones_al_personal_esta_sujeto_a_la_nor_e13c68", "tipo": "Restriccion", "label": "Pagos de incentivos económicos al personal sujetos a normativa", "descripcion": "El pago de incentivos económicos (bonificaciones) al personal está sujeto a la normativa de distribución de resultados y a las regulaciones de orden público laboral que rigen las relaciones de las entidades financieras con su personal", "propiedades": {"tipo": "limite_cualitativo"}}
+{"id": "Restriccion_las_compras_de_acciones_propias_estan_sujetas_a_la_normativa_de_distribucion_de__34aad8", "tipo": "Restriccion", "label": "Compras de acciones propias sujetas a normativa", "descripcion": "Las compras de acciones propias están sujetas a la normativa de distribución de resultados", "propiedades": {"tipo": "limite_cualitativo"}}
+{"id": "Sujeto_entidad_financiera", "tipo": "Sujeto", "label": "Entidades financieras", "descripcion": null, "propiedades": {"nivel": "clase", "alias": ["Entidades financieras emisoras de tarjetas de crédito y/o compra", "Entidad financiera emisora de tarjetas de crédito y/o compra"]}}
+ARISTAS
+{"origen": "Obligacion_las_entidades_financieras_deben_cumplir_las_normas_sobre_distribucion_de_resulta_f5d333", "predicado": "aplica_a", "destino": "Sujeto_entidad_financiera", "propiedades": {"sujeto_mencion": "las entidades financieras"}}
+{"origen": "Restriccion_el_pago_de_dividendos_en_efectivo_no_en_acciones_ordinarias_esta_sujeto_a_la_nor_ef4f36", "predicado": "aplica_a", "destino": "Sujeto_entidad_financiera", "propiedades": {"sujeto_mencion": "las entidades financieras"}}
+{"origen": "Restriccion_el_pago_de_incentivos_economicos_bonificaciones_al_personal_esta_sujeto_a_la_nor_e13c68", "predicado": "aplica_a", "destino": "Sujeto_entidad_financiera", "propiedades": {"sujeto_mencion": "las entidades financieras"}}
+{"origen": "Restriccion_las_compras_de_acciones_propias_estan_sujetas_a_la_normativa_de_distribucion_de__34aad8", "predicado": "aplica_a", "destino": "Sujeto_entidad_financiera", "propiedades": {"sujeto_mencion": "las entidades financieras"}}
+
+Clasificación de la autora:
+{
+ "componentes": {
+  "sujeto": {
+   "valor": "expresado",
+   "nombrados": [
+    "Sujeto_entidad_financiera"
+   ]
+  },
+  "predicado": {
+   "valor": "expresado",
+   "nombrados": [
+    "Obligacion_las_entidades_financieras_deben_cumplir_las_normas_sobre_distribucion_de_resulta_f5d333",
+    "Obligacion_las_entidades_financieras_deben_cumplir_las_normas_sobre_distribucion_de_resulta_f5d333|aplica_a|Sujeto_entidad_financiera"
+   ]
+  },
+  "objeto": {
+   "valor": "expresado",
+   "nombrados": [
+    "Obligacion_las_entidades_financieras_deben_cumplir_las_normas_sobre_distribucion_de_resulta_f5d333"
+   ]
+  }
+ },
+ "requiere_adjudicacion_humana": false
+}
+</caso>
+
+<caso numero="2">
+Tripleta abierta:
+{
+ "sujeto": "deficiencias, inconsistencias o falta de cumplimiento detectadas en la presentación",
+ "relacion": "serán comunicadas al solicitante",
+ "objeto": "dentro de los 10 días hábiles de efectuada la solicitud",
+ "tramo": "Si de la presentación se detectaren deficiencias, inconsistencias o falta de cumpli-\nmiento sobre algunos de los puntos de la norma, estas serán comunicadas al solici-\ntante dentro de los 10 días hábiles de efectuada la solicitud."
+}
+
+Subgrafo reducido (lo que la autora nombró y su entorno):
+NODOS
+{"id": "Condicion_deteccion_de_deficiencias_inconsistencias_o_incumplimiento__se_verifica_la_exist_685223", "tipo": "Condicion", "label": "Detección de deficiencias, inconsistencias o incumplimiento", "descripcion": "Se verifica la existencia de deficiencias, inconsistencias o falta de cumplimiento en la presentación respecto de los puntos de la norma", "propiedades": {}}
+{"id": "Obligacion_las_deficiencias_inconsistencias_o_falta_de_cumplimiento_detectadas_seran_comuni_c1fc36", "tipo": "Obligacion", "label": "Comunicación de deficiencias al solicitante", "descripcion": "Las deficiencias, inconsistencias o falta de cumplimiento detectadas serán comunicadas al solicitante", "propiedades": {"tipo": "comunicacion_a_cliente", "umbrales": [{"valor": "10", "unidad": "dias", "comparacion": "maximo_inclusivo", "dias_tipo": "habiles", "tramo": "dentro de los 10 días hábiles de efectuada la solicitud"}]}}
+ARISTAS
+{"origen": "Condicion_deteccion_de_deficiencias_inconsistencias_o_incumplimiento__se_verifica_la_exist_685223", "predicado": "condicion_de", "destino": "Obligacion_las_deficiencias_inconsistencias_o_falta_de_cumplimiento_detectadas_seran_comuni_c1fc36", "propiedades": {}}
+
+Clasificación de la autora:
+{
+ "componentes": {
+  "sujeto": {
+   "valor": "expresado",
+   "nombrados": [
+    "Condicion_deteccion_de_deficiencias_inconsistencias_o_incumplimiento__se_verifica_la_exist_685223",
+    "Obligacion_las_deficiencias_inconsistencias_o_falta_de_cumplimiento_detectadas_seran_comuni_c1fc36"
+   ]
+  },
+  "predicado": {
+   "valor": "expresado",
+   "nombrados": [
+    "Obligacion_las_deficiencias_inconsistencias_o_falta_de_cumplimiento_detectadas_seran_comuni_c1fc36"
+   ]
+  },
+  "objeto": {
+   "valor": "expresado",
+   "nombrados": [
+    "Obligacion_las_deficiencias_inconsistencias_o_falta_de_cumplimiento_detectadas_seran_comuni_c1fc36"
+   ]
+  }
+ },
+ "requiere_adjudicacion_humana": false
+}
+</caso>
+
+<caso numero="3">
+Tripleta abierta:
+{
+ "sujeto": "el IAF",
+ "relacion": "hará llegar con anticipación suficiente a cada fecha de pago",
+ "objeto": "a las casas bancarias afectadas al servicio la siguiente documentación",
+ "tramo": "Con anticipación suficiente a cada fecha de pago, el IAF hará llegar a las casas\nbancarias afectadas al servicio la siguiente documentación"
+}
+
+Subgrafo reducido (lo que la autora nombró y su entorno):
+NODOS
+{"id": "Obligacion_el_iaf_debe_enviar_con_anticipacion_suficiente_a_cada_fecha_de_pago_a_las_casas__21ad18", "tipo": "Obligacion", "label": "Envío de nota con documentación — IAF", "descripcion": "El IAF debe enviar con anticipación suficiente a cada fecha de pago a las casas bancarias afectadas al servicio una nota confeccionada por triplicado con numeración correlativa de los sucesivos envíos, en la que se consigne la cantidad de recibos que se acompañan y su importe total", "propiedades": {"tipo": "comunicacion_a_cliente"}}
+{"id": "Obligacion_el_iaf_debe_enviar_con_anticipacion_suficiente_a_cada_fecha_de_pago_la_documenta_124223", "tipo": "Obligacion", "label": "Envío de documentación al IAF", "descripcion": "El IAF debe enviar con anticipación suficiente a cada fecha de pago la documentación requerida a las casas bancarias afectadas al servicio.", "propiedades": {"tipo": "otra", "frecuencia": "a cada fecha de pago"}}
+{"id": "Obligacion_el_iaf_hara_llegar_a_las_casas_bancarias_afectadas_al_servicio_listados_de_pagos_541fcc", "tipo": "Obligacion", "label": "Cursar nóminas por duplicado", "descripcion": "El IAF hará llegar a las casas bancarias afectadas al servicio listados de pagos (nóminas) por duplicado, con un ejemplar para el banco y otro para el IAF, con anticipación suficiente a cada fecha de pago.", "propiedades": {"tipo": "presentacion_informativa"}}
+{"id": "Operacion_confeccion_de_nota_con_documentacion_de_envio__retype_2_2_1_cba2ae", "tipo": "Operacion", "label": "Confección de nota con documentación de envío", "descripcion": "Confección de nota por triplicado con numeración correlativa de envíos, en la que se consigna la cantidad de recibos acompañados y su importe total", "propiedades": {"tipo": "presentación de documentación"}}
+{"id": "Sujeto_rol_alcance_retype", "tipo": "Sujeto", "label": "Entidades bancarias participantes (Pago de retiros y pensiones militares)", "descripcion": null, "propiedades": {"nivel": "rol"}}
+ARISTAS
+{"origen": "Obligacion_el_iaf_debe_enviar_con_anticipacion_suficiente_a_cada_fecha_de_pago_a_las_casas__21ad18", "predicado": "aplica_a", "destino": "Sujeto_rol_alcance_retype", "propiedades": {"sujeto_mencion": "el IAF"}}
+{"origen": "Obligacion_el_iaf_debe_enviar_con_anticipacion_suficiente_a_cada_fecha_de_pago_la_documenta_124223", "predicado": "aplica_a", "destino": "Sujeto_rol_alcance_retype", "propiedades": {"sujeto_mencion": "el IAF"}}
+{"origen": "Obligacion_el_iaf_hara_llegar_a_las_casas_bancarias_afectadas_al_servicio_listados_de_pagos_541fcc", "predicado": "aplica_a", "destino": "Sujeto_rol_alcance_retype", "propiedades": {"sujeto_mencion": "el IAF"}}
+{"origen": "Operacion_confeccion_de_nota_con_documentacion_de_envio__retype_2_2_1_cba2ae", "predicado": "requiere", "destino": "Obligacion_el_iaf_debe_enviar_con_anticipacion_suficiente_a_cada_fecha_de_pago_a_las_casas__21ad18", "propiedades": {}}
+
+Clasificación de la autora:
+{
+ "componentes": {
+  "sujeto": {
+   "valor": "parcial",
+   "nombrados": [
+    "Obligacion_el_iaf_debe_enviar_con_anticipacion_suficiente_a_cada_fecha_de_pago_la_documenta_124223",
+    "Obligacion_el_iaf_debe_enviar_con_anticipacion_suficiente_a_cada_fecha_de_pago_la_documenta_124223|aplica_a|Sujeto_rol_alcance_retype"
+   ]
+  },
+  "predicado": {
+   "valor": "expresado",
+   "nombrados": [
+    "Obligacion_el_iaf_debe_enviar_con_anticipacion_suficiente_a_cada_fecha_de_pago_la_documenta_124223",
+    "Obligacion_el_iaf_debe_enviar_con_anticipacion_suficiente_a_cada_fecha_de_pago_la_documenta_124223|aplica_a|Sujeto_rol_alcance_retype"
+   ]
+  },
+  "objeto": {
+   "valor": "expresado",
+   "nombrados": [
+    "Obligacion_el_iaf_debe_enviar_con_anticipacion_suficiente_a_cada_fecha_de_pago_la_documenta_124223"
+   ]
+  }
+ },
+ "requiere_adjudicacion_humana": false
+}
+</caso>
+
+<caso numero="4">
+Tripleta abierta:
+{
+ "sujeto": "entidades financieras",
+ "relacion": "deben dar a conocer al público de manera regular, a través de sus páginas de Internet o reportes",
+ "objeto": "información cualitativa que posibilite a los participantes del mercado conocer la manera en que gestionan el riesgo de titulización",
+ "tramo": "Información cualitativa que posibilite a los participantes del mercado conocer la manera\nen que gestionan el riesgo de titulización."
+}
+
+Subgrafo reducido (lo que la autora nombró y su entorno):
+NODOS
+{"id": "Obligacion_las_entidades_financieras_deben_dar_a_conocer_al_publico_de_manera_regular_a_tra_80dd3d", "tipo": "Obligacion", "label": "Divulgación información cualitativa gestión riesgo titulización", "descripcion": "Las entidades financieras deben dar a conocer al público de manera regular, a través de sus páginas de Internet o reportes, información cualitativa que posibilite a los participantes del mercado conocer la manera en que gestionan el riesgo de titulización.", "propiedades": {"tipo": "comunicacion_a_cliente", "frecuencia": "de manera regular"}}
+{"id": "Obligacion_las_entidades_financieras_deben_dar_a_conocer_al_publico_de_manera_regular_a_tra_fb301b", "tipo": "Obligacion", "label": "Divulgación pública regular de información", "descripcion": "Las entidades financieras deben dar a conocer al público de manera regular a través de sus páginas de Internet o reportes", "propiedades": {"tipo": "presentacion_informativa", "frecuencia": "de manera regular"}}
+{"id": "Sujeto_entidad_financiera", "tipo": "Sujeto", "label": "Entidades financieras", "descripcion": null, "propiedades": {"nivel": "clase", "alias": ["Entidades financieras emisoras de tarjetas de crédito y/o compra", "Entidad financiera emisora de tarjetas de crédito y/o compra"]}}
+ARISTAS
+{"origen": "Obligacion_las_entidades_financieras_deben_dar_a_conocer_al_publico_de_manera_regular_a_tra_80dd3d", "predicado": "aplica_a", "destino": "Sujeto_entidad_financiera", "propiedades": {"sujeto_mencion": "Las entidades financieras"}}
+{"origen": "Obligacion_las_entidades_financieras_deben_dar_a_conocer_al_publico_de_manera_regular_a_tra_fb301b", "predicado": "aplica_a", "destino": "Sujeto_entidad_financiera", "propiedades": {"sujeto_mencion": "Las entidades financieras"}}
+
+Clasificación de la autora:
+{
+ "componentes": {
+  "sujeto": {
+   "valor": "expresado",
+   "nombrados": [
+    "Sujeto_entidad_financiera"
+   ]
+  },
+  "predicado": {
+   "valor": "expresado",
+   "nombrados": [
+    "Obligacion_las_entidades_financieras_deben_dar_a_conocer_al_publico_de_manera_regular_a_tra_80dd3d",
+    "Obligacion_las_entidades_financieras_deben_dar_a_conocer_al_publico_de_manera_regular_a_tra_80dd3d|aplica_a|Sujeto_entidad_financiera"
+   ]
+  },
+  "objeto": {
+   "valor": "expresado",
+   "nombrados": [
+    "Obligacion_las_entidades_financieras_deben_dar_a_conocer_al_publico_de_manera_regular_a_tra_80dd3d"
+   ]
+  }
+ },
+ "requiere_adjudicacion_humana": false
+}
+</caso>
+
+<caso numero="5">
+Tripleta abierta:
+{
+ "sujeto": "entidades financieras definidas en el punto 1.1. de las normas sobre “Ratio de fondeo neto estable”",
+ "relacion": "deberá ser cumplido por",
+ "objeto": "el presente requerimiento",
+ "tramo": "El presente requerimiento deberá ser cumplido por las entidades financieras definidas en el punto\n1.1. de las normas sobre “Ratio de fondeo neto estable”."
+}
+
+Subgrafo reducido (lo que la autora nombró y su entorno):
+NODOS
+{"id": "Obligacion_cumplimiento_del_requerimiento_por_las_entidades_financieras_definidas_en_el_pun_c9f61c", "tipo": "Obligacion", "label": "Cumplimiento por entidades financieras definidas", "descripcion": "Cumplimiento del requerimiento por las entidades financieras definidas en el punto 1.1. de las normas sobre Ratio de fondeo neto estable", "propiedades": {"tipo": "otra"}}
+{"id": "Sujeto_entidad_financiera", "tipo": "Sujeto", "label": "Entidades financieras", "descripcion": null, "propiedades": {"nivel": "clase", "alias": ["Entidades financieras emisoras de tarjetas de crédito y/o compra", "Entidad financiera emisora de tarjetas de crédito y/o compra"]}}
+ARISTAS
+{"origen": "Obligacion_cumplimiento_del_requerimiento_por_las_entidades_financieras_definidas_en_el_pun_c9f61c", "predicado": "aplica_a", "destino": "Sujeto_entidad_financiera", "propiedades": {"sujeto_mencion": "las entidades financieras"}}
+
+Clasificación de la autora:
+{
+ "componentes": {
+  "sujeto": {
+   "valor": "expresado",
+   "nombrados": [
+    "Sujeto_entidad_financiera",
+    "Obligacion_cumplimiento_del_requerimiento_por_las_entidades_financieras_definidas_en_el_pun_c9f61c"
+   ]
+  },
+  "predicado": {
+   "valor": "expresado",
+   "nombrados": [
+    "Obligacion_cumplimiento_del_requerimiento_por_las_entidades_financieras_definidas_en_el_pun_c9f61c",
+    "Obligacion_cumplimiento_del_requerimiento_por_las_entidades_financieras_definidas_en_el_pun_c9f61c|aplica_a|Sujeto_entidad_financiera"
+   ]
+  },
+  "objeto": {
+   "valor": "expresado",
+   "nombrados": [
+    "Obligacion_cumplimiento_del_requerimiento_por_las_entidades_financieras_definidas_en_el_pun_c9f61c"
+   ]
+  }
+ },
+ "requiere_adjudicacion_humana": false
+}
+</caso>
+
+<caso numero="6">
+Tripleta abierta:
+{
+ "sujeto": "entidades financieras",
+ "relacion": "deberán gestionar",
+ "objeto": "sus dependencias respecto de sus relaciones con terceras partes, incluyendo aquellas con entidades pertenecientes a su grupo económico, para la provisión de operaciones críticas",
+ "tramo": "Gestionar sus dependencias respecto de sus relaciones con terceras partes, incluyen-\ndo, entre otras, aquellas con entidades pertenecientes a su grupo económico, para la\nprovisión de operaciones críticas."
+}
+
+Subgrafo reducido (lo que la autora nombró y su entorno):
+NODOS
+{"id": "Obligacion_asumir_que_pueden_producirse_disrupciones_al_considerar_su_resiliencia_operacion_4e12fe", "tipo": "Obligacion", "label": "Asumir posibilidad de disrupciones — resiliencia operacional", "descripcion": "asumir que pueden producirse disrupciones al considerar su resiliencia operacional", "propiedades": {"tipo": "otra"}}
+{"id": "Obligacion_identificar_cuales_son_sus_operaciones_criticas_al_considerar_su_resiliencia_ope_ebf923", "tipo": "Obligacion", "label": "Identificar operaciones críticas — resiliencia operacional", "descripcion": "identificar cuáles son sus operaciones críticas al considerar su resiliencia operacional", "propiedades": {"tipo": "otra"}}
+{"id": "Obligacion_las_entidades_financieras_deberan_gestionar_sus_dependencias_respecto_de_sus_rel_23eae0", "tipo": "Obligacion", "label": "Gestionar dependencias de terceras partes", "descripcion": "Las entidades financieras deberán gestionar sus dependencias respecto de sus relaciones con terceras partes, incluidas aquellas con entidades pertenecientes a su grupo económico, para la provisión de operaciones críticas", "propiedades": {"tipo": "otra"}}
+{"id": "Operacion_gestion_de_dependencias_de_terceras_partes__lingeef_12_6_1_1b9bb6", "tipo": "Operacion", "label": "Gestión de dependencias de terceras partes", "descripcion": "Gestionar las dependencias respecto de las relaciones con terceras partes, incluidas aquellas con entidades pertenecientes al grupo económico, para la provisión de operaciones críticas", "propiedades": {"tipo": "Gestión de dependencias"}}
+{"id": "Sujeto_entidad_financiera", "tipo": "Sujeto", "label": "Entidades financieras", "descripcion": null, "propiedades": {"nivel": "clase", "alias": ["Entidades financieras emisoras de tarjetas de crédito y/o compra", "Entidad financiera emisora de tarjetas de crédito y/o compra"]}}
+ARISTAS
+{"origen": "Obligacion_asumir_que_pueden_producirse_disrupciones_al_considerar_su_resiliencia_operacion_4e12fe", "predicado": "aplica_a", "destino": "Sujeto_entidad_financiera", "propiedades": {"sujeto_mencion": "las entidades financieras"}}
+{"origen": "Obligacion_identificar_cuales_son_sus_operaciones_criticas_al_considerar_su_resiliencia_ope_ebf923", "predicado": "aplica_a", "destino": "Sujeto_entidad_financiera", "propiedades": {"sujeto_mencion": "las entidades financieras"}}
+{"origen": "Obligacion_las_entidades_financieras_deberan_gestionar_sus_dependencias_respecto_de_sus_rel_23eae0", "predicado": "aplica_a", "destino": "Sujeto_entidad_financiera", "propiedades": {"sujeto_mencion": "Las entidades financieras"}}
+{"origen": "Obligacion_las_entidades_financieras_deberan_gestionar_sus_dependencias_respecto_de_sus_rel_23eae0", "predicado": "regula", "destino": "Operacion_gestion_de_dependencias_de_terceras_partes__lingeef_12_6_1_1b9bb6", "propiedades": {}}
+
+Clasificación de la autora:
+{
+ "componentes": {
+  "sujeto": {
+   "valor": "expresado",
+   "nombrados": [
+    "Sujeto_entidad_financiera"
+   ]
+  },
+  "predicado": {
+   "valor": "expresado",
+   "nombrados": [
+    "Obligacion_las_entidades_financieras_deberan_gestionar_sus_dependencias_respecto_de_sus_rel_23eae0",
+    "Obligacion_las_entidades_financieras_deberan_gestionar_sus_dependencias_respecto_de_sus_rel_23eae0|aplica_a|Sujeto_entidad_financiera"
+   ]
+  },
+  "objeto": {
+   "valor": "expresado",
+   "nombrados": [
+    "Obligacion_las_entidades_financieras_deberan_gestionar_sus_dependencias_respecto_de_sus_rel_23eae0",
+    "Operacion_gestion_de_dependencias_de_terceras_partes__lingeef_12_6_1_1b9bb6"
+   ]
+  }
+ },
+ "requiere_adjudicacion_humana": false
+}
+</caso>
+
+<caso numero="7">
+Tripleta abierta:
+{
+ "sujeto": "Los representantes legales de los destinatarios de las comunicaciones “D”",
+ "relacion": "deberán suscribir y certificar ante escribano público",
+ "objeto": "la solicitud de habilitación y compromiso según el modelo detallado (habilitación para acceder al sitio restringido www3.bcra.gob.ar, con compromiso de ingreso diario)",
+ "tramo": "Los representantes legales de los destinatarios de las comunicaciones “D” deberán suscribir y\ncertificar ante escribano público la solicitud de habilitación y compromiso cuyo modelo se deta-\nlla a continuación"
+}
+
+Subgrafo reducido (lo que la autora nombró y su entorno):
+NODOS
+{"id": "Obligacion_asumir_el_compromiso_de_ingresar_al_sitio_restringido_www3_bcra_gob_ar_en_forma__ca17de", "tipo": "Obligacion", "label": "Ingreso diario al sitio restringido", "descripcion": "Asumir el compromiso de ingresar al sitio restringido www3.bcra.gob.ar en forma diaria con la finalidad de tomar conocimiento de todas las comunicaciones \"D\" emitidas por el Banco Central de la República Argentina.", "propiedades": {"tipo": "otra", "frecuencia": "diaria"}}
+{"id": "Obligacion_los_representantes_legales_de_los_destinatarios_de_las_comunicaciones_d_deberan__807717", "tipo": "Obligacion", "label": "Suscripción y certificación de solicitud de habilitación", "descripcion": "Los representantes legales de los destinatarios de las comunicaciones \"D\" deberán suscribir y certificar ante escribano público la solicitud de habilitación y compromiso cuyo modelo se detalla a continuación.", "propiedades": {"tipo": "otra"}}
+{"id": "Sujeto_rol_alcance_ordcom", "tipo": "Sujeto", "label": "Destinatarios de Comunicaciones (Ordenamiento de Comunicaciones)", "descripcion": null, "propiedades": {"nivel": "rol"}}
+ARISTAS
+{"origen": "Obligacion_asumir_el_compromiso_de_ingresar_al_sitio_restringido_www3_bcra_gob_ar_en_forma__ca17de", "predicado": "aplica_a", "destino": "Sujeto_rol_alcance_ordcom", "propiedades": {"sujeto_mencion": "Los representantes legales de los destinatarios de las comunicaciones \"D\""}}
+{"origen": "Obligacion_los_representantes_legales_de_los_destinatarios_de_las_comunicaciones_d_deberan__807717", "predicado": "aplica_a", "destino": "Sujeto_rol_alcance_ordcom", "propiedades": {"sujeto_mencion": "Los representantes legales de los destinatarios de las comunicaciones \"D\""}}
+
+Clasificación de la autora:
+{
+ "componentes": {
+  "sujeto": {
+   "valor": "expresado",
+   "nombrados": [
+    "Obligacion_los_representantes_legales_de_los_destinatarios_de_las_comunicaciones_d_deberan__807717",
+    "Obligacion_los_representantes_legales_de_los_destinatarios_de_las_comunicaciones_d_deberan__807717|aplica_a|Sujeto_rol_alcance_ordcom"
+   ]
+  },
+  "predicado": {
+   "valor": "expresado",
+   "nombrados": [
+    "Obligacion_los_representantes_legales_de_los_destinatarios_de_las_comunicaciones_d_deberan__807717",
+    "Obligacion_los_representantes_legales_de_los_destinatarios_de_las_comunicaciones_d_deberan__807717|aplica_a|Sujeto_rol_alcance_ordcom"
+   ]
+  },
+  "objeto": {
+   "valor": "expresado",
+   "nombrados": [
+    "Obligacion_los_representantes_legales_de_los_destinatarios_de_las_comunicaciones_d_deberan__807717",
+    "Obligacion_asumir_el_compromiso_de_ingresar_al_sitio_restringido_www3_bcra_gob_ar_en_forma__ca17de"
+   ]
+  }
+ },
+ "requiere_adjudicacion_humana": false
+}
+</caso>
+
+<caso numero="8">
+Tripleta abierta:
+{
+ "sujeto": "Las entidades intervinientes",
+ "relacion": "no podrán facilitar con su gestión",
+ "objeto": "la realización de transacciones financieras entre terceros en las que la captación de recursos, proveniente de residentes o no en el país, implique que su devolución se encuentre garantizada por otra entidad financiera local o del exterior",
+ "tramo": "Facilitar con su gestión la realización de transacciones financieras entre terceros en\nlas que la captación de recursos que se verifique, proveniente de residentes o no en\nel país, impliquen que su devolución se encuentre garantizada por otra entidad fi-\nnanciera local o del exterior."
+}
+
+Subgrafo reducido (lo que la autora nombró y su entorno):
+NODOS
+{"id": "Operacion_realizacion_de_transacciones_financieras_entre_terceros__garopt_1_7_1_5ab806", "tipo": "Operacion", "label": "Realización de transacciones financieras entre terceros", "descripcion": "Transacción financiera entre terceros con captación de recursos de residentes o no residentes, cuya devolución está garantizada por otra entidad financiera local o del exterior", "propiedades": {"tipo": "transacción financiera"}}
+{"id": "Restriccion_las_entidades_intervinientes_no_podran_facilitar_con_su_gestion_la_realizacion_d_c4a9d0", "tipo": "Restriccion", "label": "Prohibición de facilitar transacciones con garantía de otra entidad", "descripcion": "Las entidades intervinientes no podrán facilitar con su gestión la realización de transacciones financieras entre terceros en las que la captación de recursos, proveniente de residentes o no residentes, implique que su devolución se encuentre garantizada por otra entidad financiera local o del exterior", "propiedades": {"tipo": "prohibicion"}}
+{"id": "Sujeto_entidad_financiera", "tipo": "Sujeto", "label": "Entidades financieras", "descripcion": null, "propiedades": {"nivel": "clase", "alias": ["Entidades financieras emisoras de tarjetas de crédito y/o compra", "Entidad financiera emisora de tarjetas de crédito y/o compra"]}}
+ARISTAS
+{"origen": "Restriccion_las_entidades_intervinientes_no_podran_facilitar_con_su_gestion_la_realizacion_d_c4a9d0", "predicado": "aplica_a", "destino": "Sujeto_entidad_financiera", "propiedades": {"sujeto_mencion": "Las entidades intervinientes"}}
+{"origen": "Restriccion_las_entidades_intervinientes_no_podran_facilitar_con_su_gestion_la_realizacion_d_c4a9d0", "predicado": "prohibe", "destino": "Operacion_realizacion_de_transacciones_financieras_entre_terceros__garopt_1_7_1_5ab806", "propiedades": {}}
+
+Clasificación de la autora:
+{
+ "componentes": {
+  "sujeto": {
+   "valor": "expresado",
+   "nombrados": [
+    "Sujeto_entidad_financiera",
+    "Restriccion_las_entidades_intervinientes_no_podran_facilitar_con_su_gestion_la_realizacion_d_c4a9d0|aplica_a|Sujeto_entidad_financiera"
+   ]
+  },
+  "predicado": {
+   "valor": "expresado",
+   "nombrados": [
+    "Restriccion_las_entidades_intervinientes_no_podran_facilitar_con_su_gestion_la_realizacion_d_c4a9d0",
+    "Restriccion_las_entidades_intervinientes_no_podran_facilitar_con_su_gestion_la_realizacion_d_c4a9d0|aplica_a|Sujeto_entidad_financiera",
+    "Restriccion_las_entidades_intervinientes_no_podran_facilitar_con_su_gestion_la_realizacion_d_c4a9d0|prohibe|Operacion_realizacion_de_transacciones_financieras_entre_terceros__garopt_1_7_1_5ab806"
+   ]
+  },
+  "objeto": {
+   "valor": "expresado",
+   "nombrados": [
+    "Restriccion_las_entidades_intervinientes_no_podran_facilitar_con_su_gestion_la_realizacion_d_c4a9d0",
+    "Operacion_realizacion_de_transacciones_financieras_entre_terceros__garopt_1_7_1_5ab806"
+   ]
+  }
+ },
+ "requiere_adjudicacion_humana": false
+}
+</caso>
+
+<caso numero="9">
+Tripleta abierta:
+{
+ "sujeto": "Otros proveedores no financieros de crédito alcanzados por las normas sobre “Proveedores no financieros de crédito”",
+ "relacion": "son sujetos alcanzados, excepto",
+ "objeto": "que se trate de asociaciones mutuales o cooperativas",
+ "tramo": "Otros proveedores no financieros de crédito alcanzados por las normas sobre “Provee-\ndores no financieros de crédito”, excepto que se trate de asociaciones mutuales o co-\noperativas."
+}
+
+Subgrafo reducido (lo que la autora nombró y su entorno):
+NODOS
+{"id": "Definicion_otros_proveedores_no_financieros_de_credito_alcanzados__otros_proveedores_no_fin_96d34f", "tipo": "Definicion", "label": "Otros proveedores no financieros de crédito alcanzados", "descripcion": "Otros proveedores no financieros de crédito que están alcanzados por las normas sobre proveedores no financieros de crédito, con exclusión de asociaciones mutuales o cooperativas", "propiedades": {"termino": "Otros proveedores no financieros de crédito alcanzados por las normas sobre \"Proveedores no financieros de crédito\""}}
+ARISTAS
+
+Clasificación de la autora:
+{
+ "componentes": {
+  "sujeto": {
+   "valor": "expresado",
+   "nombrados": [
+    "Definicion_otros_proveedores_no_financieros_de_credito_alcanzados__otros_proveedores_no_fin_96d34f"
+   ]
+  },
+  "predicado": {
+   "valor": "parcial",
+   "nombrados": [
+    "Definicion_otros_proveedores_no_financieros_de_credito_alcanzados__otros_proveedores_no_fin_96d34f"
+   ]
+  },
+  "objeto": {
+   "valor": "expresado",
+   "nombrados": [
+    "Definicion_otros_proveedores_no_financieros_de_credito_alcanzados__otros_proveedores_no_fin_96d34f"
+   ]
+  }
+ },
+ "requiere_adjudicacion_humana": false
+}
+</caso>
+
+<caso numero="10">
+Tripleta abierta:
+{
+ "sujeto": "Fraude interno",
+ "relacion": "es categoría de clasificación de eventos de pérdida derivados del riesgo operacional, que incluye",
+ "objeto": "información falsa sobre posiciones –propias o de clientes–, robos por parte de empleados, utilización de información confidencial de la entidad financiera en beneficio del empleado, etc.",
+ "tramo": "Fraude interno: información falsa sobre posiciones –propias o de clientes–, robos\npor parte de empleados, utilización de información confidencial de la entidad fi-\nnanciera en beneficio del empleado, etc."
+}
+
+Subgrafo reducido (lo que la autora nombró y su entorno):
+NODOS
+{"id": "Definicion_fraude_interno_categoria_de_evento_de_perdida__categoria_de_evento_de_perdida_op_ca14f8", "tipo": "Definicion", "label": "Fraude interno — categoría de evento de pérdida", "descripcion": "Categoría de evento de pérdida operacional que incluye información falsa sobre posiciones propias o de clientes, robos por parte de empleados, utilización de información confidencial de la entidad financiera en beneficio del empleado, y otros actos similares.", "propiedades": {"termino": "Fraude interno"}}
+ARISTAS
+
+Clasificación de la autora:
+{
+ "componentes": {
+  "sujeto": {
+   "valor": "expresado",
+   "nombrados": [
+    "Definicion_fraude_interno_categoria_de_evento_de_perdida__categoria_de_evento_de_perdida_op_ca14f8"
+   ]
+  },
+  "predicado": {
+   "valor": "expresado",
+   "nombrados": [
+    "Definicion_fraude_interno_categoria_de_evento_de_perdida__categoria_de_evento_de_perdida_op_ca14f8"
+   ]
+  },
+  "objeto": {
+   "valor": "expresado",
+   "nombrados": [
+    "Definicion_fraude_interno_categoria_de_evento_de_perdida__categoria_de_evento_de_perdida_op_ca14f8"
+   ]
+  }
+ },
+ "requiere_adjudicacion_humana": false
+}
+</caso>
+
+<caso numero="11">
+Tripleta abierta:
+{
+ "sujeto": "indicadores de alerta temprana de las entidades",
+ "relacion": "pueden incluir",
+ "objeto": "los deterioros significativos en las ganancias de la entidad, la calidad de los activos o en la condición financiera en general",
+ "tramo": "Los deterioros significativos en las ganancias de la entidad, la calidad de los ac-\ntivos o en la condición financiera en general"
+}
+
+Subgrafo reducido (lo que la autora nombró y su entorno):
+NODOS
+{"id": "Obligacion_las_entidades_deben_disenar_un_conjunto_de_indicadores_que_les_permitan_identifi_e10e3f", "tipo": "Obligacion", "label": "Diseñar indicadores de alerta temprana", "descripcion": "Las entidades deben diseñar un conjunto de indicadores que les permitan identificar potenciales riesgos en su posición de liquidez, incluyendo indicadores de deterioros significativos en ganancias, calidad de activos o condición financiera general, como tendencias negativas que originen evaluación y respuesta de gestión para mitigar exposición a riesgo emergente", "propiedades": {"tipo": "otra"}}
+{"id": "Operacion_indicador_de_deterioro_en_calidad_de_activos__lingeef_3_3_4_7_ea85fb", "tipo": "Operacion", "label": "Indicador de deterioro en calidad de activos", "descripcion": "Indicador cualitativo o cuantitativo que identifica deterioros significativos en la calidad de los activos como tendencia negativa en la posición de liquidez", "propiedades": {"tipo": "indicador de alerta temprana"}}
+{"id": "Operacion_indicador_de_deterioro_en_condicion_financiera__lingeef_3_3_4_7_10ab76", "tipo": "Operacion", "label": "Indicador de deterioro en condición financiera", "descripcion": "Indicador cualitativo o cuantitativo que identifica deterioros significativos en la condición financiera general como tendencia negativa en la posición de liquidez", "propiedades": {"tipo": "indicador de alerta temprana"}}
+{"id": "Operacion_indicador_de_deterioro_en_ganancias__lingeef_3_3_4_7_771397", "tipo": "Operacion", "label": "Indicador de deterioro en ganancias", "descripcion": "Indicador cualitativo o cuantitativo que identifica deterioros significativos en las ganancias de la entidad como tendencia negativa en su posición de liquidez", "propiedades": {"tipo": "indicador de alerta temprana"}}
+{"id": "Sujeto_entidad_financiera", "tipo": "Sujeto", "label": "Entidades financieras", "descripcion": null, "propiedades": {"nivel": "clase", "alias": ["Entidades financieras emisoras de tarjetas de crédito y/o compra", "Entidad financiera emisora de tarjetas de crédito y/o compra"]}}
+ARISTAS
+{"origen": "Obligacion_las_entidades_deben_disenar_un_conjunto_de_indicadores_que_les_permitan_identifi_e10e3f", "predicado": "aplica_a", "destino": "Sujeto_entidad_financiera", "propiedades": {"sujeto_mencion": "Las entidades"}}
+{"origen": "Operacion_indicador_de_deterioro_en_calidad_de_activos__lingeef_3_3_4_7_ea85fb", "predicado": "requiere", "destino": "Obligacion_las_entidades_deben_disenar_un_conjunto_de_indicadores_que_les_permitan_identifi_e10e3f", "propiedades": {}}
+{"origen": "Operacion_indicador_de_deterioro_en_condicion_financiera__lingeef_3_3_4_7_10ab76", "predicado": "requiere", "destino": "Obligacion_las_entidades_deben_disenar_un_conjunto_de_indicadores_que_les_permitan_identifi_e10e3f", "propiedades": {}}
+
+Clasificación de la autora:
+{
+ "componentes": {
+  "sujeto": {
+   "valor": "expresado",
+   "nombrados": [
+    "Obligacion_las_entidades_deben_disenar_un_conjunto_de_indicadores_que_les_permitan_identifi_e10e3f"
+   ]
+  },
+  "predicado": {
+   "valor": "parcial",
+   "nombrados": [
+    "Obligacion_las_entidades_deben_disenar_un_conjunto_de_indicadores_que_les_permitan_identifi_e10e3f"
+   ]
+  },
+  "objeto": {
+   "valor": "expresado",
+   "nombrados": [
+    "Obligacion_las_entidades_deben_disenar_un_conjunto_de_indicadores_que_les_permitan_identifi_e10e3f",
+    "Operacion_indicador_de_deterioro_en_ganancias__lingeef_3_3_4_7_771397",
+    "Operacion_indicador_de_deterioro_en_calidad_de_activos__lingeef_3_3_4_7_ea85fb",
+    "Operacion_indicador_de_deterioro_en_condicion_financiera__lingeef_3_3_4_7_10ab76"
+   ]
+  }
+ },
+ "requiere_adjudicacion_humana": false
+}
+</caso>
+
+<caso numero="12">
+Tripleta abierta:
+{
+ "sujeto": "Nacionalidad de los accionistas de las entidades financieras y cambiarias",
+ "relacion": "se informará",
+ "objeto": "el país que corresponda ingresando el pertinente código Swift de país",
+ "tramo": "Se informará el país que corresponda ingresando el pertinente código Swift de\npaís."
+}
+
+Subgrafo reducido (lo que la autora nombró y su entorno):
+NODOS
+{"id": "Obligacion_se_informara_el_pais_que_corresponda_ingresando_el_pertinente_codigo_swift_de_pa_413c25", "tipo": "Obligacion", "label": "Informar nacionalidad con código Swift", "descripcion": "Se informará el país que corresponda ingresando el pertinente código Swift de país.", "propiedades": {"tipo": "presentacion_informativa"}}
+ARISTAS
+
+Clasificación de la autora:
+{
+ "componentes": {
+  "sujeto": {
+   "valor": "parcial",
+   "nombrados": [
+    "Obligacion_se_informara_el_pais_que_corresponda_ingresando_el_pertinente_codigo_swift_de_pa_413c25"
+   ]
+  },
+  "predicado": {
+   "valor": "expresado",
+   "nombrados": [
+    "Obligacion_se_informara_el_pais_que_corresponda_ingresando_el_pertinente_codigo_swift_de_pa_413c25"
+   ]
+  },
+  "objeto": {
+   "valor": "expresado",
+   "nombrados": [
+    "Obligacion_se_informara_el_pais_que_corresponda_ingresando_el_pertinente_codigo_swift_de_pa_413c25"
+   ]
+  }
+ },
+ "requiere_adjudicacion_humana": false
+}
+</caso>
+
+<caso numero="13">
+Tripleta abierta:
+{
+ "sujeto": "La CBU",
+ "relacion": "se debe integrar de acuerdo con",
+ "objeto": "la fórmula estándar y las reglas detalladas en este punto",
+ "tramo": "La CBU se debe integrar de acuerdo con la fórmula estándar y las reglas detalladas en este\npunto."
+}
+
+Subgrafo reducido (lo que la autora nombró y su entorno):
+NODOS
+{"id": "Obligacion_la_clave_bancaria_uniforme_debe_integrarse_de_acuerdo_con_la_formula_estandar_y__bc0d70", "tipo": "Obligacion", "label": "Integración CBU según fórmula estándar", "descripcion": "La Clave Bancaria Uniforme debe integrarse de acuerdo con la fórmula estándar y las reglas detalladas en el punto 1.1", "propiedades": {"tipo": "otra"}}
+ARISTAS
+
+Clasificación de la autora:
+{
+ "componentes": {
+  "sujeto": {
+   "valor": "expresado",
+   "nombrados": [
+    "Obligacion_la_clave_bancaria_uniforme_debe_integrarse_de_acuerdo_con_la_formula_estandar_y__bc0d70"
+   ]
+  },
+  "predicado": {
+   "valor": "expresado",
+   "nombrados": [
+    "Obligacion_la_clave_bancaria_uniforme_debe_integrarse_de_acuerdo_con_la_formula_estandar_y__bc0d70"
+   ]
+  },
+  "objeto": {
+   "valor": "expresado",
+   "nombrados": [
+    "Obligacion_la_clave_bancaria_uniforme_debe_integrarse_de_acuerdo_con_la_formula_estandar_y__bc0d70"
+   ]
+  }
+ },
+ "requiere_adjudicacion_humana": false
+}
+</caso>
+
+<caso numero="14">
+Tripleta abierta:
+{
+ "sujeto": "El gobierno de las actividades de respuesta y recuperación",
+ "relacion": "forma parte de",
+ "objeto": "el gobierno general de la organización",
+ "tramo": "El gobierno de las actividades de respuesta y recuperación forma parte del go-\nbierno general de la organización."
+}
+
+Subgrafo reducido (lo que la autora nombró y su entorno):
+NODOS
+{"id": "Definicion_gobierno_de_actividades_de_respuesta_y_recuperacion__forma_parte_del_gobierno_ge_6cb8eb", "tipo": "Definicion", "label": "Gobierno de actividades de respuesta y recuperación", "descripcion": "Forma parte del gobierno general de la organización", "propiedades": {"termino": "gobierno de las actividades de respuesta y recuperación"}}
+ARISTAS
+
+Clasificación de la autora:
+{
+ "componentes": {
+  "sujeto": {
+   "valor": "expresado",
+   "nombrados": [
+    "Definicion_gobierno_de_actividades_de_respuesta_y_recuperacion__forma_parte_del_gobierno_ge_6cb8eb"
+   ]
+  },
+  "predicado": {
+   "valor": "expresado",
+   "nombrados": [
+    "Definicion_gobierno_de_actividades_de_respuesta_y_recuperacion__forma_parte_del_gobierno_ge_6cb8eb"
+   ]
+  },
+  "objeto": {
+   "valor": "expresado",
+   "nombrados": [
+    "Definicion_gobierno_de_actividades_de_respuesta_y_recuperacion__forma_parte_del_gobierno_ge_6cb8eb"
+   ]
+  }
+ },
+ "requiere_adjudicacion_humana": false
+}
+</caso>
+
+<caso numero="15">
+Tripleta abierta:
+{
+ "sujeto": "Cámaras electrónicas de compensación y empresas administradoras de tarjetas de crédito",
+ "relacion": "les serán de aplicación",
+ "objeto": "las disposiciones contenidas en la Sección 4",
+ "tramo": "Cámaras electrónicas de compensación y empresas administradoras de tarjetas de crédito.\nSerán de aplicación las disposiciones contenidas en la Sección 4."
+}
+
+Subgrafo reducido (lo que la autora nombró y su entorno):
+NODOS
+{"id": "Definicion_alcance_seccion_1_3_remision_a_seccion_4__las_disposiciones_aplicables_a_camaras_65a5f0", "tipo": "Definicion", "label": "Alcance Sección 1.3 — remisión a Sección 4", "descripcion": "Las disposiciones aplicables a cámaras electrónicas de compensación y empresas administradoras de tarjetas de crédito se encuentran contenidas en la Sección 4", "propiedades": {"termino": "Cámaras electrónicas de compensación y empresas administradoras de tarjetas de crédito"}}
+ARISTAS
+
+Clasificación de la autora:
+{
+ "componentes": {
+  "sujeto": {
+   "valor": "expresado",
+   "nombrados": [
+    "Definicion_alcance_seccion_1_3_remision_a_seccion_4__las_disposiciones_aplicables_a_camaras_65a5f0"
+   ]
+  },
+  "predicado": {
+   "valor": "expresado",
+   "nombrados": [
+    "Definicion_alcance_seccion_1_3_remision_a_seccion_4__las_disposiciones_aplicables_a_camaras_65a5f0"
+   ]
+  },
+  "objeto": {
+   "valor": "expresado",
+   "nombrados": [
+    "Definicion_alcance_seccion_1_3_remision_a_seccion_4__las_disposiciones_aplicables_a_camaras_65a5f0"
+   ]
+  }
+ },
+ "requiere_adjudicacion_humana": false
+}
+</caso>
+
+<caso numero="16">
+Tripleta abierta:
+{
+ "sujeto": "entidades financieras",
+ "relacion": "deben gestionar adecuadamente",
+ "objeto": "los riesgos y las necesidades de fondos de modo tal de poder efectuar los pagos vinculados a las operaciones de cambio de forma oportuna",
+ "tramo": "Las entidades financieras deben gestionar adecuadamente los riesgos y las necesidades de\nfondos de modo tal de poder efectuar los pagos vinculados a las operaciones de cambio de\nforma oportuna"
+}
+
+Subgrafo reducido (lo que la autora nombró y su entorno):
+NODOS
+{"id": "Obligacion_el_marco_para_la_gestion_del_riesgo_de_liquidez_debe_contemplar_los_elementos_qu_e28bb2", "tipo": "Obligacion", "label": "Marco para la gestión del riesgo de liquidez debe contemplar", "descripcion": "El marco para la gestión del riesgo de liquidez debe contemplar los elementos que se enumeran a continuación", "propiedades": {"tipo": "otra"}}
+{"id": "Obligacion_las_entidades_deben_hacer_los_ajustes_necesarios_en_sus_politicas_de_gestion_de__be1495", "tipo": "Obligacion", "label": "Ajustes en políticas y procedimientos de gestión de liquidez", "descripcion": "Las entidades deben hacer los ajustes necesarios en sus políticas de gestión de liquidez, sus procedimientos y planes de fondeo contingentes como resultado de las pruebas de estrés", "propiedades": {"tipo": "otra"}}
+{"id": "Obligacion_las_entidades_deben_incorporar_escenarios_de_riesgo_severos_pero_probables_en_su_a509db", "tipo": "Obligacion", "label": "Incorporar escenarios de riesgo en pruebas de estrés", "descripcion": "Las entidades deben incorporar escenarios de riesgo severos pero probables en sus pruebas de estrés de liquidez, teniendo en cuenta que los acuerdos de fondeo usuales podrían no estar disponibles", "propiedades": {"tipo": "otra"}}
+{"id": "Obligacion_las_entidades_financieras_deben_gestionar_adecuadamente_los_riesgos_y_las_necesi_e0bd2c", "tipo": "Obligacion", "label": "Gestionar adecuadamente riesgos y necesidades de fondos", "descripcion": "Las entidades financieras deben gestionar adecuadamente los riesgos y las necesidades de fondos de modo tal de poder efectuar los pagos vinculados a las operaciones de cambio de forma oportuna.", "propiedades": {"tipo": "otra"}}
+{"id": "Sujeto_entidad_financiera", "tipo": "Sujeto", "label": "Entidades financieras", "descripcion": null, "propiedades": {"nivel": "clase", "alias": ["Entidades financieras emisoras de tarjetas de crédito y/o compra", "Entidad financiera emisora de tarjetas de crédito y/o compra"]}}
+ARISTAS
+{"origen": "Obligacion_el_marco_para_la_gestion_del_riesgo_de_liquidez_debe_contemplar_los_elementos_qu_e28bb2", "predicado": "aplica_a", "destino": "Sujeto_entidad_financiera", "propiedades": {"sujeto_mencion": "Las entidades financieras"}}
+{"origen": "Obligacion_las_entidades_deben_hacer_los_ajustes_necesarios_en_sus_politicas_de_gestion_de__be1495", "predicado": "aplica_a", "destino": "Sujeto_entidad_financiera", "propiedades": {"sujeto_mencion": "Las entidades"}}
+{"origen": "Obligacion_las_entidades_deben_incorporar_escenarios_de_riesgo_severos_pero_probables_en_su_a509db", "predicado": "aplica_a", "destino": "Sujeto_entidad_financiera", "propiedades": {"sujeto_mencion": "Las entidades"}}
+{"origen": "Obligacion_las_entidades_financieras_deben_gestionar_adecuadamente_los_riesgos_y_las_necesi_e0bd2c", "predicado": "aplica_a", "destino": "Sujeto_entidad_financiera", "propiedades": {"sujeto_mencion": "Las entidades financieras"}}
+
+Clasificación de la autora:
+{
+ "componentes": {
+  "sujeto": {
+   "valor": "expresado",
+   "nombrados": [
+    "Sujeto_entidad_financiera"
+   ]
+  },
+  "predicado": {
+   "valor": "expresado",
+   "nombrados": [
+    "Obligacion_las_entidades_financieras_deben_gestionar_adecuadamente_los_riesgos_y_las_necesi_e0bd2c",
+    "Obligacion_las_entidades_financieras_deben_gestionar_adecuadamente_los_riesgos_y_las_necesi_e0bd2c|aplica_a|Sujeto_entidad_financiera"
+   ]
+  },
+  "objeto": {
+   "valor": "expresado",
+   "nombrados": [
+    "Obligacion_las_entidades_financieras_deben_gestionar_adecuadamente_los_riesgos_y_las_necesi_e0bd2c"
+   ]
+  }
+ },
+ "requiere_adjudicacion_humana": false
+}
+</caso>
+
+<caso numero="17">
+Tripleta abierta:
+{
+ "sujeto": "Comunicados de Prensa “P”",
+ "relacion": "tienen como modelo de carátula",
+ "objeto": "BANCO CENTRAL DE LA REPÚBLICA ARGENTINA / COMUNICADO Nro. / / / Ref.:",
+ "tramo": "Comunicados de Prensa “P”.\nEl modelo de carátula es el siguiente:\nBANCO CENTRAL DE LA REPÚBLICA ARGENTINA\nCOMUNICADO Nro. / /\nRef.:"
+}
+
+Subgrafo reducido (lo que la autora nombró y su entorno):
+NODOS
+{"id": "TextoOrdenado_ordcom_pdf", "tipo": "TextoOrdenado", "label": "Ordenamiento de Comunicaciones", "descripcion": null, "propiedades": {"archivo": "ordcom.pdf", "materia": "Ordenamiento, emisión y  divulgación de Comunicaciones y Comunicados de Prensa", "version": "Comunicación A 8131 (vigencia 13/11/2024)"}}
+ARISTAS
+
+Clasificación de la autora:
+{
+ "componentes": {
+  "sujeto": {
+   "valor": "ausente",
+   "nombrados": []
+  },
+  "predicado": {
+   "valor": "ausente",
+   "nombrados": []
+  },
+  "objeto": {
+   "valor": "ausente",
+   "nombrados": []
+  }
+ },
+ "requiere_adjudicacion_humana": false
+}
+</caso>
+
+<caso numero="18">
+Tripleta abierta:
+{
+ "sujeto": "las entidades financieras",
+ "relacion": "deben implementar",
+ "objeto": "políticas y procedimientos para controlar esos riesgos residuales y revisar en forma periódica que tales procedimientos sean operativos, adecuados y eficaces",
+ "tramo": "las entidades financieras deben implementar políticas y procedi-\nmientos para controlar esos riesgos residuales y revisar en forma periódica que tales\nprocedimientos sean operativos, adecuados y eficaces"
+}
+
+Subgrafo reducido (lo que la autora nombró y su entorno):
+NODOS
+{"id": "Obligacion_las_entidades_financieras_deben_implementar_politicas_y_procedimientos_para_cont_468ea8", "tipo": "Obligacion", "label": "Implementar políticas y procedimientos para controlar riesgos residuales", "descripcion": "Las entidades financieras deben implementar políticas y procedimientos para controlar los riesgos residuales generados en la utilización de técnicas de cobertura del riesgo de crédito", "propiedades": {"tipo": "otra"}}
+{"id": "Obligacion_las_entidades_financieras_deben_revisar_en_forma_periodica_que_los_procedimiento_8c10af", "tipo": "Obligacion", "label": "Revisar periódicamente procedimientos de control de riesgos residuales", "descripcion": "Las entidades financieras deben revisar en forma periódica que los procedimientos de control de riesgos residuales sean operativos, adecuados y eficaces", "propiedades": {"tipo": "otra", "frecuencia": "en forma periódica"}}
+{"id": "Operacion_utilizacion_de_tecnicas_de_cobertura_del_riesgo_de_credito__lingeef_2_5_1_f094e6", "tipo": "Operacion", "label": "Utilización de técnicas de cobertura del riesgo de crédito", "descripcion": "Técnicas de cobertura del riesgo de crédito (CRC) que pueden generar riesgos residuales que afecten su eficacia", "propiedades": {"tipo": "Cobertura del riesgo de crédito"}}
+{"id": "Sujeto_entidad_financiera", "tipo": "Sujeto", "label": "Entidades financieras", "descripcion": null, "propiedades": {"nivel": "clase", "alias": ["Entidades financieras emisoras de tarjetas de crédito y/o compra", "Entidad financiera emisora de tarjetas de crédito y/o compra"]}}
+ARISTAS
+{"origen": "Obligacion_las_entidades_financieras_deben_implementar_politicas_y_procedimientos_para_cont_468ea8", "predicado": "aplica_a", "destino": "Sujeto_entidad_financiera", "propiedades": {"sujeto_mencion": "las entidades financieras"}}
+{"origen": "Obligacion_las_entidades_financieras_deben_revisar_en_forma_periodica_que_los_procedimiento_8c10af", "predicado": "aplica_a", "destino": "Sujeto_entidad_financiera", "propiedades": {"sujeto_mencion": "las entidades financieras"}}
+{"origen": "Sujeto_entidad_financiera", "predicado": "ejecuta", "destino": "Operacion_utilizacion_de_tecnicas_de_cobertura_del_riesgo_de_credito__lingeef_2_5_1_f094e6", "propiedades": {"sujeto_mencion": "las entidades financieras"}}
+
+Clasificación de la autora:
+{
+ "componentes": {
+  "sujeto": {
+   "valor": "expresado",
+   "nombrados": [
+    "Sujeto_entidad_financiera"
+   ]
+  },
+  "predicado": {
+   "valor": "expresado",
+   "nombrados": [
+    "Obligacion_las_entidades_financieras_deben_implementar_politicas_y_procedimientos_para_cont_468ea8",
+    "Obligacion_las_entidades_financieras_deben_implementar_politicas_y_procedimientos_para_cont_468ea8|aplica_a|Sujeto_entidad_financiera"
+   ]
+  },
+  "objeto": {
+   "valor": "expresado",
+   "nombrados": [
+    "Obligacion_las_entidades_financieras_deben_implementar_politicas_y_procedimientos_para_cont_468ea8",
+    "Obligacion_las_entidades_financieras_deben_revisar_en_forma_periodica_que_los_procedimiento_8c10af"
+   ]
+  }
+ },
+ "requiere_adjudicacion_humana": false
+}
+</caso>
+
+<caso numero="19">
+Tripleta abierta:
+{
+ "sujeto": "las políticas, procedimientos y límites de gestión de riesgos de las entidades financieras",
+ "relacion": "deben incluir",
+ "objeto": "un cronograma y procesos para revisar y actualizar las políticas, procedimientos y límites en función de las necesidades",
+ "tramo": "Incluir un cronograma y procesos para revisar y actualizar las políticas, procedi-\nmientos y límites en función de las necesidades."
+}
+
+Subgrafo reducido (lo que la autora nombró y su entorno):
+NODOS
+{"id": "Obligacion_la_gestion_de_riesgos_debe_ser_integral_abarcando_a_la_entidad_en_su_conjunto_e__adb683", "tipo": "Obligacion", "label": "Gestión integral de riesgos con políticas y límites", "descripcion": "La gestión de riesgos debe ser integral, abarcando a la entidad en su conjunto, e incluir políticas detalladas y límites prudenciales para los principales riesgos en función de las actividades de la entidad financiera.", "propiedades": {"tipo": "otra"}}
+{"id": "Obligacion_las_entidades_financieras_deben_contar_con_los_elementos_que_se_enumeran_a_conti_9f7d1f", "tipo": "Obligacion", "label": "Contar con — gestión de riesgos", "descripcion": "Las entidades financieras deben contar con los elementos que se enumeran a continuación en el marco de los principios generales de gestión de riesgos.", "propiedades": {"tipo": "otra"}}
+{"id": "Obligacion_las_entidades_financieras_deben_incluir_un_cronograma_y_procesos_para_revisar_y__85bec2", "tipo": "Obligacion", "label": "Cronograma y procesos para revisar y actualizar políticas", "descripcion": "Las entidades financieras deben incluir un cronograma y procesos para revisar y actualizar las políticas, procedimientos y límites en función de las necesidades", "propiedades": {"tipo": "otra"}}
+{"id": "Obligacion_las_estrategias_politicas_practicas_procedimientos_y_limites_deben_documentarse__eebab9", "tipo": "Obligacion", "label": "Documentar, revisar, actualizar y comunicar estrategias y límites", "descripcion": "Las estrategias, políticas, prácticas, procedimientos y límites deben documentarse adecuadamente, revisarse, actualizarse, comunicarse a todas las áreas de la entidad directa o indirectamente involucradas e implementarse.", "propiedades": {"tipo": "otra"}}
+{"id": "Sujeto_entidad_financiera", "tipo": "Sujeto", "label": "Entidades financieras", "descripcion": null, "propiedades": {"nivel": "clase", "alias": ["Entidades financieras emisoras de tarjetas de crédito y/o compra", "Entidad financiera emisora de tarjetas de crédito y/o compra"]}}
+ARISTAS
+{"origen": "Obligacion_la_gestion_de_riesgos_debe_ser_integral_abarcando_a_la_entidad_en_su_conjunto_e__adb683", "predicado": "aplica_a", "destino": "Sujeto_entidad_financiera", "propiedades": {"sujeto_mencion": "la entidad financiera"}}
+{"origen": "Obligacion_las_entidades_financieras_deben_contar_con_los_elementos_que_se_enumeran_a_conti_9f7d1f", "predicado": "aplica_a", "destino": "Sujeto_entidad_financiera", "propiedades": {"sujeto_mencion": "Las entidades financieras"}}
+{"origen": "Obligacion_las_entidades_financieras_deben_incluir_un_cronograma_y_procesos_para_revisar_y__85bec2", "predicado": "aplica_a", "destino": "Sujeto_entidad_financiera", "propiedades": {"sujeto_mencion": "Las entidades financieras"}}
+{"origen": "Obligacion_las_estrategias_politicas_practicas_procedimientos_y_limites_deben_documentarse__eebab9", "predicado": "aplica_a", "destino": "Sujeto_entidad_financiera", "propiedades": {"sujeto_mencion": "la entidad"}}
+
+Clasificación de la autora:
+{
+ "componentes": {
+  "sujeto": {
+   "valor": "parcial",
+   "nombrados": [
+    "Sujeto_entidad_financiera",
+    "Obligacion_las_entidades_financieras_deben_incluir_un_cronograma_y_procesos_para_revisar_y__85bec2"
+   ]
+  },
+  "predicado": {
+   "valor": "expresado",
+   "nombrados": [
+    "Obligacion_las_entidades_financieras_deben_incluir_un_cronograma_y_procesos_para_revisar_y__85bec2",
+    "Obligacion_las_entidades_financieras_deben_incluir_un_cronograma_y_procesos_para_revisar_y__85bec2|aplica_a|Sujeto_entidad_financiera"
+   ]
+  },
+  "objeto": {
+   "valor": "expresado",
+   "nombrados": [
+    "Obligacion_las_entidades_financieras_deben_incluir_un_cronograma_y_procesos_para_revisar_y__85bec2"
+   ]
+  }
+ },
+ "requiere_adjudicacion_humana": false
+}
+</caso>
+
+<caso numero="20">
+Tripleta abierta:
+{
+ "sujeto": "bienes tomados en defensa de créditos",
+ "relacion": "se incorporarán en forma transitoria en esta cuenta hasta tanto la entidad haya resuelto su destino, momento en que se reclasificarán",
+ "objeto": "en las cuentas habilitadas para propiedad, planta y equipo, propiedades de inversión u otros activos mantenidos para la venta, según corresponda",
+ "tramo": "Esta cuenta se utilizará en forma transitoria para incorporar los bienes tomados en defensa de\ncréditos, hasta tanto la entidad haya resuelto su destino, momento en que se reclasificarán en las\ncuentas habilitadas para propiedad, planta y equipo, propiedades de inversión u otros activos\nmantenidos para la venta, según corresponda"
+}
+
+Subgrafo reducido (lo que la autora nombró y su entorno):
+NODOS
+{"id": "Condicion_resolucion_destino_bienes_defensa_creditos__la_entidad_ha_resuelto_el_destino_de_e08881", "tipo": "Condicion", "label": "Resolución destino bienes defensa créditos", "descripcion": "La entidad ha resuelto el destino de los bienes tomados en defensa de créditos", "propiedades": {}}
+{"id": "Obligacion_realizacion_de_la_medicion_posterior_de_los_bienes_reclasificados_de_acuerdo_con_693515", "tipo": "Obligacion", "label": "Medición posterior bienes defensa créditos", "descripcion": "Realización de la medición posterior de los bienes reclasificados de acuerdo con la normativa aplicable en cada caso", "propiedades": {"tipo": "calculo"}}
+{"id": "Operacion_incorporacion_transitoria_bienes_defensa_creditos__ri_dcpc_3_5_3_060b3b", "tipo": "Operacion", "label": "Incorporación transitoria bienes defensa créditos", "descripcion": "Utilización transitoria de una cuenta para incorporar bienes tomados en defensa de créditos, hasta tanto la entidad haya resuelto su destino", "propiedades": {"tipo": "Incorporación de bienes en cuenta transitoria"}}
+{"id": "Operacion_reclasificacion_bienes_defensa_creditos__ri_dcpc_3_5_3_92bfab", "tipo": "Operacion", "label": "Reclasificación bienes defensa créditos", "descripcion": "Reclasificación de los bienes tomados en defensa de créditos en las cuentas habilitadas para propiedad, planta y equipo, propiedades de inversión u otros activos mantenidos para la venta, según corresponda", "propiedades": {"tipo": "Reclasificación de bienes"}}
+ARISTAS
+{"origen": "Condicion_resolucion_destino_bienes_defensa_creditos__la_entidad_ha_resuelto_el_destino_de_e08881", "predicado": "condicion_de", "destino": "Operacion_reclasificacion_bienes_defensa_creditos__ri_dcpc_3_5_3_92bfab", "propiedades": {}}
+{"origen": "Operacion_reclasificacion_bienes_defensa_creditos__ri_dcpc_3_5_3_92bfab", "predicado": "requiere", "destino": "Obligacion_realizacion_de_la_medicion_posterior_de_los_bienes_reclasificados_de_acuerdo_con_693515", "propiedades": {}}
+
+Clasificación de la autora:
+{
+ "componentes": {
+  "sujeto": {
+   "valor": "expresado",
+   "nombrados": [
+    "Operacion_incorporacion_transitoria_bienes_defensa_creditos__ri_dcpc_3_5_3_060b3b",
+    "Operacion_reclasificacion_bienes_defensa_creditos__ri_dcpc_3_5_3_92bfab"
+   ]
+  },
+  "predicado": {
+   "valor": "expresado",
+   "nombrados": [
+    "Operacion_incorporacion_transitoria_bienes_defensa_creditos__ri_dcpc_3_5_3_060b3b",
+    "Condicion_resolucion_destino_bienes_defensa_creditos__la_entidad_ha_resuelto_el_destino_de_e08881|condicion_de|Operacion_reclasificacion_bienes_defensa_creditos__ri_dcpc_3_5_3_92bfab"
+   ]
+  },
+  "objeto": {
+   "valor": "expresado",
+   "nombrados": [
+    "Operacion_reclasificacion_bienes_defensa_creditos__ri_dcpc_3_5_3_92bfab"
+   ]
+  }
+ },
+ "requiere_adjudicacion_humana": false
+}
+</caso>
