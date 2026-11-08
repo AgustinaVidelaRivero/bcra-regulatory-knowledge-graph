@@ -315,7 +315,7 @@ diferencia cambia de signo, ningún intervalo que excluía el cero pasa a inclui
 preguntas de B6.3 y B6.4 con alguna coincidencia, 5 están en las muestras de control del juez (1 de B6.3 y 4 de B6.4); de esas
 cinco respuestas sorteadas, cuatro eran correctas y una, parcial o incorrecta.
 
-**Scripts que sostienen estas cifras.** Están en `data/experiment/banco_mcp/coincidencias_con_el_grafo/` y leen el gold y las sesiones, que no se publican, así que no corren con este repositorio solo:
+**Scripts que sostienen estas cifras.** Están en `data/experiment/banco_mcp/coincidencias_con_el_grafo/` y leen las sesiones, el gold de EV2 y los archivos originales de las preguntas de B6.3 y B6.4, que no se publican (esas preguntas están en `evaluacion/`, en otro formato), así que no corren con este repositorio solo:
 
 | Cifra | Script |
 |---|---|

@@ -11,15 +11,16 @@ sigan andando.
 |---|---:|---|
 | `(raíz)` | 8 | `README.md`, licencias, `NOTICE`, `CITATION.cff`, `requirements.txt`, `.gitignore` y `SHA256SUMS` |
 | `corpus/` | 3 | Manifiesto del corpus; los Textos Ordenados con su enlace y su sha256 |
+| `evaluacion/` | 7 | Las 192 preguntas de B6.3 y B6.4 con sus criterios, la respuesta final del agente y su veredicto en cada corrida, y el programa que reproduce la fidelidad |
 | `data/experiment/b54_catalogo_v3/` | 1 | Cierre de los imports: lo importa el código de `data/experiment/reextraccion_v2/` |
 | `data/experiment/banco_mcp/` | 4 | Cierre de los imports: lo importa el código de `data/experiment/banco_mcp/a2_1/`, `data/experiment/banco_mcp/adaptador/`, `data/experiment/banco_mcp/agentes/`, `data/experiment/banco_mcp/aislamiento/`, `data/experiment/banco_mcp/b63/`, `data/experiment/banco_mcp/b64/`, `data/experiment/banco_mcp/mcp_kg/`, `data/experiment/banco_mcp/mcp_vector/`, `data/experiment/banco_mcp/n6/`, `data/experiment/banco_mcp/paralelo/`, `data/experiment/banco_mcp/smoke/`, `scripts/` |
 | `data/experiment/banco_mcp/a2_1/` | 4 | Cierre de los imports: lo importa el código de `data/experiment/banco_mcp/agentes/`, `data/experiment/banco_mcp/b63/`, `data/experiment/banco_mcp/b64/`, `data/experiment/banco_mcp/paralelo/`; 1 dato(s) chico(s) |
 | `data/experiment/banco_mcp/adaptador/` | 1 | Cierre de los imports: lo importa el código de `data/experiment/banco_mcp/a2_1/`, `data/experiment/banco_mcp/smoke/` |
 | `data/experiment/banco_mcp/agentes/` | 8 | Lanzador de agentes y su entorno limpio; 1 dato(s) chico(s); suma lo del tramo de las instrucciones, los planes y la 6.3 |
 | `data/experiment/banco_mcp/aislamiento/` | 2 | Cierre de los imports: lo importa el código de `data/experiment/banco_mcp/b63/` |
-| `data/experiment/banco_mcp/b63/` | 86 | B6.3: corrida de evaluación (código y resultados agregados; sin preguntas ni respuestas) |
-| `data/experiment/banco_mcp/b64/` | 54 | B6.4: análisis confirmatorio y exactitud de cita (código y resultados agregados; sin preguntas ni respuestas) |
-| `data/experiment/banco_mcp/coincidencias_con_el_grafo/` | 12 | Scripts que sostienen la declaración de las coincidencias del grafo con criterios (`docs/formato_del_grafo.md`) |
+| `data/experiment/banco_mcp/b63/` | 87 | B6.3: corrida de evaluación (código y resultados agregados; las preguntas, las respuestas y los veredictos están en `evaluacion/`) |
+| `data/experiment/banco_mcp/b64/` | 54 | B6.4: análisis confirmatorio y exactitud de cita (código y resultados agregados; las preguntas, las respuestas y los veredictos están en `evaluacion/`) |
+| `data/experiment/banco_mcp/coincidencias_con_el_grafo/` | 15 | Scripts que sostienen la declaración de las coincidencias del grafo con criterios (`docs/formato_del_grafo.md`) |
 | `data/experiment/banco_mcp/gate/` | 2 | Cierre de los imports: lo importa el código de `data/experiment/banco_mcp/adaptador/`, `data/experiment/banco_mcp/mcp_kg/`, `data/experiment/banco_mcp/smoke/`, `scripts/` |
 | `data/experiment/banco_mcp/mcp_kg/` | 22 | Servidor MCP del grafo (navegación por el grafo) |
 | `data/experiment/banco_mcp/mcp_vector/` | 11 | Servidor MCP de recuperación por fragmentos (BM25, denso e híbrido; los índices se regeneran desde el corpus); suma lo del tramo de las instrucciones, los planes y la 6.3 |
@@ -58,7 +59,7 @@ sigan andando.
 | `src/` | 7 | Código común: descarga del corpus y utilidades |
 | `tests/` | 1 | Pruebas del código común |
 
-La columna cuenta todos los archivos del árbol bajo cada carpeta, y suma 809, los de `SHA256SUMS` más ese archivo.
+La columna cuenta todos los archivos del árbol bajo cada carpeta, y suma 820, los de `SHA256SUMS` más ese archivo.
 
 ## El cierre de los imports
 
@@ -167,7 +168,7 @@ en los registros, pasarla a un subproceso y expandir una ruta que declara quien 
 ## Las pruebas
 
 Las pruebas corren desde la raíz del repositorio con el intérprete de `requirements.txt`, en una ruta que no tenga nombres de configuración
-(como `kg`). Las que necesitan el gold, la API, datos que no se publican o el `.venv` de la tesis no corren con este repositorio solo; son
+(como `kg`). Las que necesitan el gold de otras evaluaciones, la API, otros datos que no se publican o el `.venv` de la tesis no corren con este repositorio solo; son
 estas, con su causa:
 
 | Prueba | Causa |
