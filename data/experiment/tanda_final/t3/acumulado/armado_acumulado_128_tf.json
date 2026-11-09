@@ -1,0 +1,4518 @@
+{
+ "manifiestos_de_origen": {
+  "tanda0": {
+   "ruta": "data/experiment/reextraccion_v2/manifiestos/tanda0_10tos_r2b.json",
+   "sha256": "72d84607d3e52d7f9646c85b70d3d680ca64ebb2c84911efb5cefec601a0ece8"
+  },
+  "tanda1": {
+   "ruta": "data/experiment/reextraccion_v2/manifiestos/tanda1_20tos_r2b.json",
+   "sha256": "818a62cfde403a453d0551916022f928f7cd9cb62d7947801eadb587f2385d9d"
+  },
+  "tanda_final": {
+   "ruta": "data/experiment/reextraccion_v2/manifiestos/tanda_final_98tos_r2b.json",
+   "sha256": "e9993b9dc87e866850a0357572f03c54a3b08dd56f5cb272e42da5d33c81dfeb"
+  }
+ },
+ "e0": [
+  {
+   "to": "pro",
+   "archivo": "chunks_pro.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/chunks_pro.json",
+   "sha256": "d8717d1c7423bb5f4d80cc830ff97635ce4d9839f8490b73860ea272568620e2",
+   "igual_al_origen": true
+  },
+  {
+   "to": "pro",
+   "archivo": "estructura_pro.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/estructura_pro.json",
+   "sha256": "4126ec9e20b2d53094a1f77dd4d5676e117995c8338ce0883a5a9dd3b5d318ae",
+   "igual_al_origen": true
+  },
+  {
+   "to": "pro",
+   "archivo": "indice_pro.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/indice_pro.json",
+   "sha256": "5aface9ce284099998aae3c400800b26a6186bcc06be94868cd0b3c236221f18",
+   "igual_al_origen": true
+  },
+  {
+   "to": "pro",
+   "archivo": "pies_pro.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/pies_pro.json",
+   "sha256": "0eab441c4cbe2cea03cdc8212c4832f1ee342ae820ec786c6ffd51b97995e8af",
+   "igual_al_origen": true
+  },
+  {
+   "to": "pro",
+   "archivo": "tablas_pro.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/tablas_pro.json",
+   "sha256": "91c435c0abe490d7f7d846e00693d7f506905acafb1c7970f53f1814ca123061",
+   "igual_al_origen": true
+  },
+  {
+   "to": "cla",
+   "archivo": "chunks_cla.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/chunks_cla.json",
+   "sha256": "98808886a406d8321c678836a55f92eea983d594d95358dd21ceb537487ac0b1",
+   "igual_al_origen": true
+  },
+  {
+   "to": "cla",
+   "archivo": "estructura_cla.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/estructura_cla.json",
+   "sha256": "3cd26083fee7355ef3d8027ac353a744c2f1cfa35830535fe1be2b9505eaf917",
+   "igual_al_origen": true
+  },
+  {
+   "to": "cla",
+   "archivo": "indice_cla.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/indice_cla.json",
+   "sha256": "0143cf29d2fa905da94af1f1ab2bf4eaae945eacd756f85b81ab2f0eba00b62b",
+   "igual_al_origen": true
+  },
+  {
+   "to": "cla",
+   "archivo": "pies_cla.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/pies_cla.json",
+   "sha256": "d52f8ab5d841606a0612569d182eab96758752e2708a77616603ad79ed16ee84",
+   "igual_al_origen": true
+  },
+  {
+   "to": "cla",
+   "archivo": "tablas_cla.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/tablas_cla.json",
+   "sha256": "698c45816baebf3007f10aa7d8e9bc3342b02b3743886eddc37104eaa0736b5c",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ric",
+   "archivo": "chunks_ric.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/chunks_ric.json",
+   "sha256": "22602508ee37a96087c668badfd452ea38ac7603e4ff7b635f8cc6fa43a6d973",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ric",
+   "archivo": "estructura_ric.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/estructura_ric.json",
+   "sha256": "46a5db3c66568d5998a5c79c5daa3ec98988f18c1dfe9b86699e3e185fdb5c87",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ric",
+   "archivo": "indice_ric.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/indice_ric.json",
+   "sha256": "c3e6a6f9e8447db29c587fe1b858c48b34ca36cf8c13135603f6a51e1e021094",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ric",
+   "archivo": "pies_ric.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/pies_ric.json",
+   "sha256": "938ef68b1d0f2304138958cc11d690a2d28fadd971c3a9a7056534163fc005d4",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ric",
+   "archivo": "tablas_ric.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/tablas_ric.json",
+   "sha256": "f4a9028a9ce93aad32f53d767706e99ed9038f1c516ecb92bf786a724b6716af",
+   "igual_al_origen": true
+  },
+  {
+   "to": "cap",
+   "archivo": "chunks_cap.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/chunks_cap.json",
+   "sha256": "9d0fa5fb3c443793b4ae0c40ee11662e544fc13efa07ad5b6f092b8011f06ef1",
+   "igual_al_origen": true
+  },
+  {
+   "to": "cap",
+   "archivo": "estructura_cap.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/estructura_cap.json",
+   "sha256": "e19ee990469e0d718e65fbaf399e18248cdfdde36a39144edea80afb452df5b1",
+   "igual_al_origen": true
+  },
+  {
+   "to": "cap",
+   "archivo": "indice_cap.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/indice_cap.json",
+   "sha256": "fa6c793fc95754b0079e6a34ecfbbd8305a6dc5ccab777b41bdcbfe14ec4b3e1",
+   "igual_al_origen": true
+  },
+  {
+   "to": "cap",
+   "archivo": "pies_cap.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/pies_cap.json",
+   "sha256": "c5e04bd05585aecf8f8fa46d3d84be552b474c29b1fa4435c759bf425b416433",
+   "igual_al_origen": true
+  },
+  {
+   "to": "cap",
+   "archivo": "tablas_cap.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/tablas_cap.json",
+   "sha256": "f6dc87522f8da3d73de457d7a456027defc5046215787ccac825cf2891e4607f",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ext",
+   "archivo": "chunks_ext.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/chunks_ext.json",
+   "sha256": "143b997ee9252145d80d7329fc6477f581efea17aaba98bb56d3465d6ac50abd",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ext",
+   "archivo": "estructura_ext.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/estructura_ext.json",
+   "sha256": "3ddf72126ba351d54821a4e09b722e1c8f4f22efd4620bdead0de9a92b46f6dc",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ext",
+   "archivo": "indice_ext.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/indice_ext.json",
+   "sha256": "e2c9285277486331a7f29f8f4e9cfcd5e023f0b4652b6f354d426dc1712301f9",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ext",
+   "archivo": "pies_ext.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/pies_ext.json",
+   "sha256": "08f3f67d4e76f0b423fc6579161c14a398bae2eb6c245d77c0652fc0bdfdf2d5",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ext",
+   "archivo": "tablas_ext.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/tablas_ext.json",
+   "sha256": "40915c2bb9d95f5bcdddd7ccb51eae93d537a32db4de862842ae39e11c18cc11",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ctacte",
+   "archivo": "chunks_ctacte.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/chunks_ctacte.json",
+   "sha256": "7b5aa09d18dddaab8032e33e1cc78469def9a34aae8f1a46d9d5d1ab42530d06",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ctacte",
+   "archivo": "estructura_ctacte.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/estructura_ctacte.json",
+   "sha256": "5e05350fce10288354a0d257c25e011a168eb4a8145416518837861252937804",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ctacte",
+   "archivo": "indice_ctacte.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/indice_ctacte.json",
+   "sha256": "ed1b2d93f2e1c6471af6c4313f73909a73cab8950825cca6bb72108380a48fef",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ctacte",
+   "archivo": "pies_ctacte.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/pies_ctacte.json",
+   "sha256": "2a391eb66faf97a1345afd8a6a180f19d9591c664d7b28fedc1eb1660d94a89c",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ctacte",
+   "archivo": "tablas_ctacte.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/tablas_ctacte.json",
+   "sha256": "ea0a09d6d599a02eb68ac9c0cb33abdf2dc8990927762bb5b2bd67051a0636a1",
+   "igual_al_origen": true
+  },
+  {
+   "to": "lingob",
+   "archivo": "chunks_lingob.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/chunks_lingob.json",
+   "sha256": "8c502976b7e34989e18ca1be2d7e1a4625fd91d3ef42bf6f9846f8d348dad0b0",
+   "igual_al_origen": true
+  },
+  {
+   "to": "lingob",
+   "archivo": "estructura_lingob.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/estructura_lingob.json",
+   "sha256": "97e94f968b8b894b15cb57658c9697816e1a022d008161748efa10f8b2538a22",
+   "igual_al_origen": true
+  },
+  {
+   "to": "lingob",
+   "archivo": "indice_lingob.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/indice_lingob.json",
+   "sha256": "36e419a25083e9265068fdd94fefccfa947c00525580a934fac8ea89890c2203",
+   "igual_al_origen": true
+  },
+  {
+   "to": "lingob",
+   "archivo": "pies_lingob.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/pies_lingob.json",
+   "sha256": "5c6fec86a085ace3de91921025f0d8f8d85ed24a366d395defb5deb55992d45e",
+   "igual_al_origen": true
+  },
+  {
+   "to": "lingob",
+   "archivo": "tablas_lingob.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/tablas_lingob.json",
+   "sha256": "433570d4c5111014af8048583f77c1b23265e1232bc7b33232535e2b6a78b25c",
+   "igual_al_origen": true
+  },
+  {
+   "to": "polcre",
+   "archivo": "chunks_polcre.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/chunks_polcre.json",
+   "sha256": "9f6518549f4fbade3b5791f3b25062bd65a74e684a264d6df4ac9ecfdf11815b",
+   "igual_al_origen": true
+  },
+  {
+   "to": "polcre",
+   "archivo": "estructura_polcre.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/estructura_polcre.json",
+   "sha256": "a914ce9e6b3159c48744d7ef125ffb9faf602f075b0cd05da5508fe502179341",
+   "igual_al_origen": true
+  },
+  {
+   "to": "polcre",
+   "archivo": "indice_polcre.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/indice_polcre.json",
+   "sha256": "605d7afc416a823a554d012e78ed7cc13d7ab5112e2b727694df1cf50719579c",
+   "igual_al_origen": true
+  },
+  {
+   "to": "polcre",
+   "archivo": "pies_polcre.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/pies_polcre.json",
+   "sha256": "7d1ca0114ed7fae1a3cc24505c228dc91cd04a1643a30bb6f3b7edfab6ce78e3",
+   "igual_al_origen": true
+  },
+  {
+   "to": "polcre",
+   "archivo": "tablas_polcre.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/tablas_polcre.json",
+   "sha256": "51460e7faf85db22e39ca168a32bb2474a32f7c58d4355f42a776411ec01f5a9",
+   "igual_al_origen": true
+  },
+  {
+   "to": "pagjub",
+   "archivo": "chunks_pagjub.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/chunks_pagjub.json",
+   "sha256": "1bba0713dae796c4ba811bac3ed64f411d9f0372771cf36dbd9e4150be312c38",
+   "igual_al_origen": true
+  },
+  {
+   "to": "pagjub",
+   "archivo": "estructura_pagjub.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/estructura_pagjub.json",
+   "sha256": "e299e736a61f1851940a0575749679e0d11a634fcc23966e0d887058ced82572",
+   "igual_al_origen": true
+  },
+  {
+   "to": "pagjub",
+   "archivo": "indice_pagjub.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/indice_pagjub.json",
+   "sha256": "5aca6f18d359c57ecd21195e6006ff9a98c8ab23cfa7474e17f427f672d94512",
+   "igual_al_origen": true
+  },
+  {
+   "to": "pagjub",
+   "archivo": "pies_pagjub.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/pies_pagjub.json",
+   "sha256": "5aae51cad3afa90ccb70800520eb255a85825baefe094037a063ce28ea2367ea",
+   "igual_al_origen": true
+  },
+  {
+   "to": "pagjub",
+   "archivo": "tablas_pagjub.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/tablas_pagjub.json",
+   "sha256": "b914cb91902a6c5ed52069795a90c4db615b101d09bd8214500a703b3e25787b",
+   "igual_al_origen": true
+  },
+  {
+   "to": "docvig",
+   "archivo": "chunks_docvig.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/chunks_docvig.json",
+   "sha256": "97b62c050d8880b3e9d5fe0df69b2b908e6faaecfac317f02ded831bdbf435dd",
+   "igual_al_origen": true
+  },
+  {
+   "to": "docvig",
+   "archivo": "estructura_docvig.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/estructura_docvig.json",
+   "sha256": "007396183c651c6cf5191b60627ab878dca171b395f62c0b5b1a8f6a21a524e0",
+   "igual_al_origen": true
+  },
+  {
+   "to": "docvig",
+   "archivo": "indice_docvig.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/indice_docvig.json",
+   "sha256": "970d7f90ffb9aa0391bb3c0ff0103c34d8c746e4872dccf395840fa43cfe2785",
+   "igual_al_origen": true
+  },
+  {
+   "to": "docvig",
+   "archivo": "pies_docvig.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/pies_docvig.json",
+   "sha256": "75ce984d5dd74da20d0b37745f0e6657a78a57d5c8e3ea1a7662c172cbed3a8d",
+   "igual_al_origen": true
+  },
+  {
+   "to": "docvig",
+   "archivo": "tablas_docvig.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/tablas_docvig.json",
+   "sha256": "e7e9ffd6a7a9c7ec62b54bdb51702b3ba40ff1cf5f530c67a2033d47fb9b9916",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_gerc",
+   "archivo": "chunks_ri_gerc.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/chunks_ri_gerc.json",
+   "sha256": "9ec87c500b447b7dcc23cb49f2bcee14aa6fe9d36185d0d746f51be45c0d1984",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_gerc",
+   "archivo": "estructura_ri_gerc.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/estructura_ri_gerc.json",
+   "sha256": "bcc5529371910de06a2d61a65866788d4355ecd2a0e5743296d919fc2af5b6b8",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_gerc",
+   "archivo": "indice_ri_gerc.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/indice_ri_gerc.json",
+   "sha256": "57121d3195efe02b5c23c5eb8d0f36d82b94ad972a8f44700e83e0c5a1f65537",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_gerc",
+   "archivo": "pies_ri_gerc.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/pies_ri_gerc.json",
+   "sha256": "36827504cb0fced40774a2bb23f5f9d25ba56e42b36ecda7eb9db876bc1117ff",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_gerc",
+   "archivo": "tablas_ri_gerc.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/tablas_ri_gerc.json",
+   "sha256": "8a11cc049a6f24b1894274631dcd943d310e68774652b9aa736da67faf285aed",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_pgn",
+   "archivo": "chunks_ri_pgn.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/chunks_ri_pgn.json",
+   "sha256": "8f96617821cb05524cb8f5904610d3eeeef7af72bfa1d279cefed3427f13e898",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_pgn",
+   "archivo": "estructura_ri_pgn.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/estructura_ri_pgn.json",
+   "sha256": "301e40bb495a13d9165b6bd3dcb9a86932ea0d69ff8abe0d376abe94ed78fbe2",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_pgn",
+   "archivo": "indice_ri_pgn.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/indice_ri_pgn.json",
+   "sha256": "b5476657cd4dbba005524f4a7eb0f61147bb90cd4010b804cbd6607a202da416",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_pgn",
+   "archivo": "pies_ri_pgn.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/pies_ri_pgn.json",
+   "sha256": "2ff4beed23ae940af2d21c5eedb3813711555a7a5f26c1331039f8660e72d60a",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_pgn",
+   "archivo": "tablas_ri_pgn.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/tablas_ri_pgn.json",
+   "sha256": "73033366b19dd655542ff4555de73c3987e36217d0c4bfa862f1c552c0781797",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ceninf",
+   "archivo": "chunks_ceninf.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/chunks_ceninf.json",
+   "sha256": "5024532270c2302f962577c0ac02191106ae5c7d1bdec4b76b9e288d20f2bd0a",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ceninf",
+   "archivo": "estructura_ceninf.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/estructura_ceninf.json",
+   "sha256": "8907ff62c7dc596c80c10ffe14ce7f3bd73278668d414d3cf1e48af1d44981ca",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ceninf",
+   "archivo": "indice_ceninf.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/indice_ceninf.json",
+   "sha256": "77a487c2354a327e33556e39dae19f09b13280ef01027a6283dee6433cd519c9",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ceninf",
+   "archivo": "pies_ceninf.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/pies_ceninf.json",
+   "sha256": "a05d0dd7cc64fbfe4e7f9d07b9bcdc44ff8c4fe7eb94a635784ffbe2ef8ae05f",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ceninf",
+   "archivo": "tablas_ceninf.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/tablas_ceninf.json",
+   "sha256": "42de13684389272ea9abc9f6bf1d8b0bb2cb1fde178a7453c110a71f3ffad04e",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_rml",
+   "archivo": "chunks_ri_rml.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/chunks_ri_rml.json",
+   "sha256": "2201258e7b84269f23e7b0df0f6a29a9995f165e0264f3273888d5e430958af0",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_rml",
+   "archivo": "estructura_ri_rml.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/estructura_ri_rml.json",
+   "sha256": "74925829ffda57cdb628551e2a5aa1b556abf12103495416eecb204d4cdbf191",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_rml",
+   "archivo": "indice_ri_rml.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/indice_ri_rml.json",
+   "sha256": "b9a4da45b99c6667ffb9a9e63b144d6cc8e6902bbd45481d359aab5021e8e2d2",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_rml",
+   "archivo": "pies_ri_rml.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/pies_ri_rml.json",
+   "sha256": "11a9c1c070cdf92b9c27f7a2456e6e0768811b34fd2e1021409357457066c1ed",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_rml",
+   "archivo": "tablas_ri_rml.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/tablas_ri_rml.json",
+   "sha256": "b589fb93fa1d537911d906cce3acffd043447ca4f3548ff50ce3c5621a82aceb",
+   "igual_al_origen": true
+  },
+  {
+   "to": "nmcief",
+   "archivo": "chunks_nmcief.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/chunks_nmcief.json",
+   "sha256": "d44fbe51e12b9acbddf814e2f08b445ed0633cd696acc85a653390a430751499",
+   "igual_al_origen": true
+  },
+  {
+   "to": "nmcief",
+   "archivo": "estructura_nmcief.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/estructura_nmcief.json",
+   "sha256": "acea0a0de54a4da8592b2c54c68ab1f0e5d6b60a5672f51f09aefd33a0d472e5",
+   "igual_al_origen": true
+  },
+  {
+   "to": "nmcief",
+   "archivo": "indice_nmcief.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/indice_nmcief.json",
+   "sha256": "825fcf76b6668566c035c03098725bf0568f00ba313b71a8d65e356292348ed4",
+   "igual_al_origen": true
+  },
+  {
+   "to": "nmcief",
+   "archivo": "pies_nmcief.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/pies_nmcief.json",
+   "sha256": "b123b1bc91aaacd5ac2a84685dee71635024b7c069ba0a7ca9d2adfaa5cd4242",
+   "igual_al_origen": true
+  },
+  {
+   "to": "nmcief",
+   "archivo": "tablas_nmcief.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/tablas_nmcief.json",
+   "sha256": "8b8615e56300af29baccdee4f1134d60b3e5e60e1a935d99c5ce641ebb62d2ba",
+   "igual_al_origen": true
+  },
+  {
+   "to": "adrei",
+   "archivo": "chunks_adrei.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/chunks_adrei.json",
+   "sha256": "fad86c47c9cb2a2a097f04f90830c0d44f2264336ac9fba031558da9548f331f",
+   "igual_al_origen": true
+  },
+  {
+   "to": "adrei",
+   "archivo": "estructura_adrei.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/estructura_adrei.json",
+   "sha256": "0fae68bd9129de59572c780ad15f792ade9eab44d28d198085aa614824d98462",
+   "igual_al_origen": true
+  },
+  {
+   "to": "adrei",
+   "archivo": "indice_adrei.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/indice_adrei.json",
+   "sha256": "741d0c5653bfe8536845fe104b4a0a093c46b21173703fc16d5777e217d4a24c",
+   "igual_al_origen": true
+  },
+  {
+   "to": "adrei",
+   "archivo": "pies_adrei.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/pies_adrei.json",
+   "sha256": "5b190c20679f14f92581f4be37eab321d0ee894a118ef7f4dbb5be7baa97ee9a",
+   "igual_al_origen": true
+  },
+  {
+   "to": "adrei",
+   "archivo": "tablas_adrei.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/tablas_adrei.json",
+   "sha256": "ef2f00272045c12ad4100e0acabd4bc95ce30a842144965f2b3d7925bfd4c9d5",
+   "igual_al_origen": true
+  },
+  {
+   "to": "opefci",
+   "archivo": "chunks_opefci.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/chunks_opefci.json",
+   "sha256": "8b4ee0fc3152b4b0b4bd6c7bb0f62c3f10ac464ea37128ffae50b022f60efec6",
+   "igual_al_origen": true
+  },
+  {
+   "to": "opefci",
+   "archivo": "estructura_opefci.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/estructura_opefci.json",
+   "sha256": "bf7fae5cd5cb367a81388918c8f05059d52d0d658d77bc3dfeb8c9f13a154fca",
+   "igual_al_origen": true
+  },
+  {
+   "to": "opefci",
+   "archivo": "indice_opefci.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/indice_opefci.json",
+   "sha256": "4f8c05047e650ce571916b9f07fd24dd36e20a57d385b582295b6ca85ebc1d6c",
+   "igual_al_origen": true
+  },
+  {
+   "to": "opefci",
+   "archivo": "pies_opefci.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/pies_opefci.json",
+   "sha256": "4c7258205aa314dffb0b17d08560cf60da8d5c3f41c82c75d4779313f2ff771c",
+   "igual_al_origen": true
+  },
+  {
+   "to": "opefci",
+   "archivo": "tablas_opefci.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/tablas_opefci.json",
+   "sha256": "18b094ce60df26bdcadcaf710d052435d54847b0352b57c57991b815b990de8a",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_dcpc",
+   "archivo": "chunks_ri_dcpc.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/chunks_ri_dcpc.json",
+   "sha256": "8cc337167edd047d12476ac7b870c7221cfc8f13ff993f096596f3ca57f23b49",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_dcpc",
+   "archivo": "estructura_ri_dcpc.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/estructura_ri_dcpc.json",
+   "sha256": "c55771ef28ea8ef80554aca5de1b1c93deecb8a024fb38f53375af5996a72c15",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_dcpc",
+   "archivo": "indice_ri_dcpc.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/indice_ri_dcpc.json",
+   "sha256": "81f7559e9dc4d624ff44eca3dee2704716e93daeaf658910d1e76b8c3389a02f",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_dcpc",
+   "archivo": "pies_ri_dcpc.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/pies_ri_dcpc.json",
+   "sha256": "c546878a13aad79260d383af50ed691101632f94306593deb38c9eaeea88369a",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_dcpc",
+   "archivo": "tablas_ri_dcpc.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/tablas_ri_dcpc.json",
+   "sha256": "85de30b453767a0937ac9eb9f67cc01f1a09c5ab7005a75d70bb1a29fa5ac32a",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_tr",
+   "archivo": "chunks_snp_tr.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/chunks_snp_tr.json",
+   "sha256": "c037da5bac65bb962247a0590a91e854f7b24abdaaf0572f7fdb4ba1c6bd2feb",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_tr",
+   "archivo": "estructura_snp_tr.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/estructura_snp_tr.json",
+   "sha256": "ed7a871027a91249c3dcf5203f4ff9cf610b89a43ace855e88b372393e7ded1d",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_tr",
+   "archivo": "indice_snp_tr.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/indice_snp_tr.json",
+   "sha256": "3bb3affd4b786f4c66ac34dc5eb0e51af2d473ef6b427a71785b0e7df05c7944",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_tr",
+   "archivo": "pies_snp_tr.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/pies_snp_tr.json",
+   "sha256": "774c29ae05c39553b7611a6ebf7728c5f21a86303fe9228196d5c7fd588acda5",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_tr",
+   "archivo": "tablas_snp_tr.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/tablas_snp_tr.json",
+   "sha256": "e55919b5a428d8b61ff96564ee9226a9f5081a8bf71d02831533804c5dd99b8c",
+   "igual_al_origen": true
+  },
+  {
+   "to": "efemin",
+   "archivo": "chunks_efemin.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/chunks_efemin.json",
+   "sha256": "fe1a29f82f4d80638c894f205b59b4768d6aab8c8d4c6ff1850e2d820e01744e",
+   "igual_al_origen": true
+  },
+  {
+   "to": "efemin",
+   "archivo": "estructura_efemin.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/estructura_efemin.json",
+   "sha256": "63dc92e071b99f038f77a81c86cf2e7de323df1028f93311e2ed7e08b419a8fb",
+   "igual_al_origen": true
+  },
+  {
+   "to": "efemin",
+   "archivo": "indice_efemin.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/indice_efemin.json",
+   "sha256": "a0f52349609507b9aaa54d14aaef3e44560ea4986ed2c55cc2ca52c6be190afb",
+   "igual_al_origen": true
+  },
+  {
+   "to": "efemin",
+   "archivo": "pies_efemin.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/pies_efemin.json",
+   "sha256": "1405c212db0e76daddd1370cb0d906c88eff6737e97cc864787f108c57339239",
+   "igual_al_origen": true
+  },
+  {
+   "to": "efemin",
+   "archivo": "tablas_efemin.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/tablas_efemin.json",
+   "sha256": "5c18c5be10921d80c7f0f21d875c331a9552ff12661e0e3bc8302d17ba930482",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_mmsef",
+   "archivo": "chunks_ri_mmsef.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/chunks_ri_mmsef.json",
+   "sha256": "01de100960d8f18d591c6a03e7ec87421b119bf2a913adf42ae3901068e77fc8",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_mmsef",
+   "archivo": "estructura_ri_mmsef.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/estructura_ri_mmsef.json",
+   "sha256": "615b16a36b5df9ad1f9a4afc595b223fbd8c3c568be3c9ccc5995bca9e1d5306",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_mmsef",
+   "archivo": "indice_ri_mmsef.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/indice_ri_mmsef.json",
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_mmsef",
+   "archivo": "pies_ri_mmsef.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/pies_ri_mmsef.json",
+   "sha256": "3a66c7beffea63f204fe2e3e18b4812092fe65b906e0d6b5ea13ffff3d9f8dc4",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_mmsef",
+   "archivo": "tablas_ri_mmsef.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/tablas_ri_mmsef.json",
+   "sha256": "c832f37307981ffb2fe599fc15a6f92e5b32386f44d34df7a9181b77f15859b9",
+   "igual_al_origen": true
+  },
+  {
+   "to": "manori",
+   "archivo": "chunks_manori.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/chunks_manori.json",
+   "sha256": "18db947cd3793054757311b721092094621d0e03d303956b27126037a90f6761",
+   "igual_al_origen": true
+  },
+  {
+   "to": "manori",
+   "archivo": "estructura_manori.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/estructura_manori.json",
+   "sha256": "072897ca1fdab3e42657fa25b9ed7ab9471348242e0d0fa6ac42732508b07c16",
+   "igual_al_origen": true
+  },
+  {
+   "to": "manori",
+   "archivo": "indice_manori.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/indice_manori.json",
+   "sha256": "77a73b43d144125c52d52fd4aabe46fe06f20271cea8c1b56cc0424f390e65d0",
+   "igual_al_origen": true
+  },
+  {
+   "to": "manori",
+   "archivo": "pies_manori.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/pies_manori.json",
+   "sha256": "57e0609743aa4c926d45feafe9f892ce7856bf04acddef9e47b8e440cfa0dc6b",
+   "igual_al_origen": true
+  },
+  {
+   "to": "manori",
+   "archivo": "tablas_manori.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/tablas_manori.json",
+   "sha256": "9992132f56a962b65abd5650d7d7398cf1648556be413ec253891454806c00b7",
+   "igual_al_origen": true
+  },
+  {
+   "to": "expaef",
+   "archivo": "chunks_expaef.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/chunks_expaef.json",
+   "sha256": "f5dcbda425f6d1208a2e1d438de173a9401b69698ba3c9ee04dd74ca58aacb0c",
+   "igual_al_origen": true
+  },
+  {
+   "to": "expaef",
+   "archivo": "estructura_expaef.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/estructura_expaef.json",
+   "sha256": "812db7cc930d743f2c0f480fa4b7cf43cbab23f5eed5365181840de3bee5f66d",
+   "igual_al_origen": true
+  },
+  {
+   "to": "expaef",
+   "archivo": "indice_expaef.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/indice_expaef.json",
+   "sha256": "70d213b5f9fc271a47bebbc77d4a96ff87b89329422945b7804a63d013930edf",
+   "igual_al_origen": true
+  },
+  {
+   "to": "expaef",
+   "archivo": "pies_expaef.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/pies_expaef.json",
+   "sha256": "e9e373abf1a576ae52398cc64af696bfea298542685278eda304569efcd02e0d",
+   "igual_al_origen": true
+  },
+  {
+   "to": "expaef",
+   "archivo": "tablas_expaef.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/tablas_expaef.json",
+   "sha256": "07fe9b33b4d7e4a98055fe6ecbb4eefe6ce7067a655cab20a36965445b3a587b",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_ccna",
+   "archivo": "chunks_ri_ccna.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/chunks_ri_ccna.json",
+   "sha256": "29af8e8ef97274d701f09d1a51cef9a9cb0594db043c6fb9ccb457d91eba2c89",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_ccna",
+   "archivo": "estructura_ri_ccna.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/estructura_ri_ccna.json",
+   "sha256": "78d6889d5567fb9bc3f7f86d27c3c7ba351a59a128b397a3c80535476809035a",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_ccna",
+   "archivo": "indice_ri_ccna.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/indice_ri_ccna.json",
+   "sha256": "0c63398573877f43eaaae5d425fe072587b220a89cf9b242fdaf24954d3fce81",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_ccna",
+   "archivo": "pies_ri_ccna.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/pies_ri_ccna.json",
+   "sha256": "4b3a4e0249859bb5e8e240f6c47309dc6fce5fdd15cd786db66ad75e53eaa229",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_ccna",
+   "archivo": "tablas_ri_ccna.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/tablas_ri_ccna.json",
+   "sha256": "d3254ac3683e5647b66bbc61bd2fb576649bf881eeae372389f79182b1a0278d",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ayccef",
+   "archivo": "chunks_ayccef.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/chunks_ayccef.json",
+   "sha256": "78b2bd32b7fd41c2384e40acfa011f0389f8139d779e2a3b5ce6a6d7302622d7",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ayccef",
+   "archivo": "estructura_ayccef.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/estructura_ayccef.json",
+   "sha256": "c0e0c87ef788f0b010dc2fbfbb471fa3e4b6abb137df3cd77ca54de82e7340f6",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ayccef",
+   "archivo": "indice_ayccef.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/indice_ayccef.json",
+   "sha256": "83772205732864113b426fa2aae4d542cacea189ab627fa3b9a1fea42ecb0bb1",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ayccef",
+   "archivo": "pies_ayccef.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/pies_ayccef.json",
+   "sha256": "3b7f9f8d7fec28faf036f16225d5ea6a0a3ff68a664c2c95cc84e77ef625c46f",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ayccef",
+   "archivo": "tablas_ayccef.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/tablas_ayccef.json",
+   "sha256": "77926de14bb33aea0207ce83812e39e381c43a966a250a36c15e7dcc1d093f6e",
+   "igual_al_origen": true
+  },
+  {
+   "to": "cirmo3",
+   "archivo": "chunks_cirmo3.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/chunks_cirmo3.json",
+   "sha256": "2c6407e113d83520f196b877f981f7a7172704b5fa7f279f60a0bb3d441f8087",
+   "igual_al_origen": true
+  },
+  {
+   "to": "cirmo3",
+   "archivo": "estructura_cirmo3.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/estructura_cirmo3.json",
+   "sha256": "96fc0a0f9f193add595ac30646ec61400ef9306195f127f440b76cd0f75e21c2",
+   "igual_al_origen": true
+  },
+  {
+   "to": "cirmo3",
+   "archivo": "indice_cirmo3.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/indice_cirmo3.json",
+   "sha256": "1c4680efeea824102bc738909831d8e87ad0d1c76e7993e84f4c2b146e7304ec",
+   "igual_al_origen": true
+  },
+  {
+   "to": "cirmo3",
+   "archivo": "pies_cirmo3.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/pies_cirmo3.json",
+   "sha256": "95686283c802b57f5c33f22c92c93baecaf136ec4ceabba53f8c3fe1e622e4de",
+   "igual_al_origen": true
+  },
+  {
+   "to": "cirmo3",
+   "archivo": "tablas_cirmo3.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/tablas_cirmo3.json",
+   "sha256": "c359f4dbfb3b1f44827b77848d672c957db06f9a5857ea02961a1e2bb910403d",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_cheq",
+   "archivo": "chunks_snp_cheq.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/chunks_snp_cheq.json",
+   "sha256": "405239ea7491f07daec8d5346d1436bcb935933373f00025c543258f5b98e348",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_cheq",
+   "archivo": "estructura_snp_cheq.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/estructura_snp_cheq.json",
+   "sha256": "2e67aac3d20a2de4eac2c61c79a2829ef06096ae40dbc7cfa86c6b65cf862fc6",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_cheq",
+   "archivo": "indice_snp_cheq.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/indice_snp_cheq.json",
+   "sha256": "b4c004e0dd6aa854cfc95f3406e8d49750dc795796676110773de8a1d5dce99a",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_cheq",
+   "archivo": "pies_snp_cheq.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/pies_snp_cheq.json",
+   "sha256": "72e76acd9cc485488e4dcaf3f4dc732afd58efd6d3335a6c33951ad649b1b363",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_cheq",
+   "archivo": "tablas_snp_cheq.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/tablas_snp_cheq.json",
+   "sha256": "5fa77d1325195561fdb8ce0ac97b46bc0ee4dcf0cac160a42b6229fc713ce93b",
+   "igual_al_origen": true
+  },
+  {
+   "to": "cajasc",
+   "archivo": "chunks_cajasc.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/chunks_cajasc.json",
+   "sha256": "68758bb6b2437a1d8bd2f0e670bab279dea18b4485e688e5ac422468bedae2fc",
+   "igual_al_origen": true
+  },
+  {
+   "to": "cajasc",
+   "archivo": "estructura_cajasc.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/estructura_cajasc.json",
+   "sha256": "f1ef1c60150b80f1d49eb183ad9f3abfc28f26b1ca94bbf88ab400d824db2cbf",
+   "igual_al_origen": true
+  },
+  {
+   "to": "cajasc",
+   "archivo": "indice_cajasc.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/indice_cajasc.json",
+   "sha256": "ce335972826d07304d0b71c77862fc60bac23f5ae098aa439f81a011626f0a60",
+   "igual_al_origen": true
+  },
+  {
+   "to": "cajasc",
+   "archivo": "pies_cajasc.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/pies_cajasc.json",
+   "sha256": "52197800d292b4223abf956875d8e71ba42a6ed5b20cc1694c030408f80c4d8d",
+   "igual_al_origen": true
+  },
+  {
+   "to": "cajasc",
+   "archivo": "tablas_cajasc.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/tablas_cajasc.json",
+   "sha256": "6b523b10ab647da516a0aa047ac5cfa5516885386f99fad30ff7e90f01c7c3cd",
+   "igual_al_origen": true
+  },
+  {
+   "to": "depaho",
+   "archivo": "chunks_depaho.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/chunks_depaho.json",
+   "sha256": "d366bad60414d9ab92483ae3d1363a94af341ee0ac38857313984f66e5d2a730",
+   "igual_al_origen": true
+  },
+  {
+   "to": "depaho",
+   "archivo": "estructura_depaho.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/estructura_depaho.json",
+   "sha256": "690ebee6edbc91a0d5e30b5a30cdc09ab7d645fe480e1bd60684bf1c6483775c",
+   "igual_al_origen": true
+  },
+  {
+   "to": "depaho",
+   "archivo": "indice_depaho.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/indice_depaho.json",
+   "sha256": "e496e3b62d19febe2ac22d4bf863706b6d329ebdc47e79979facf490c09aacaa",
+   "igual_al_origen": true
+  },
+  {
+   "to": "depaho",
+   "archivo": "pies_depaho.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/pies_depaho.json",
+   "sha256": "a33322b99fed9582a04e6eb3e99c7dd51d2e55439a543315c29587960c2a8a34",
+   "igual_al_origen": true
+  },
+  {
+   "to": "depaho",
+   "archivo": "tablas_depaho.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/tablas_depaho.json",
+   "sha256": "10e64de5f88530faadee78a9e1b90e3a7402cd6b31bf8b4e643d872656ef6122",
+   "igual_al_origen": true
+  },
+  {
+   "to": "lingeef",
+   "archivo": "chunks_lingeef.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/chunks_lingeef.json",
+   "sha256": "1dccc4d570218b4540ad9e323f2d2b79a07b74c8aaa41f94da48de28610a571b",
+   "igual_al_origen": true
+  },
+  {
+   "to": "lingeef",
+   "archivo": "estructura_lingeef.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/estructura_lingeef.json",
+   "sha256": "b0db61e3481ab19706e5f5d53a1f5250983533727da776820d58a3297731ce8a",
+   "igual_al_origen": true
+  },
+  {
+   "to": "lingeef",
+   "archivo": "indice_lingeef.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/indice_lingeef.json",
+   "sha256": "73138493b8f5e2544a548d1ab0118a49b4727f6b20f9de2280707d38517a9490",
+   "igual_al_origen": true
+  },
+  {
+   "to": "lingeef",
+   "archivo": "pies_lingeef.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/pies_lingeef.json",
+   "sha256": "eb121fe24358fb4d4ccb13eabf9cbc4330428aef5b1bfe497ab101817165cac4",
+   "igual_al_origen": true
+  },
+  {
+   "to": "lingeef",
+   "archivo": "tablas_lingeef.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b/tablas_lingeef.json",
+   "sha256": "df48488f13ad10afdd12ff6074a664716f4563034791e165c0ae3111b8b61478",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_bdp",
+   "archivo": "chunks_ri_bdp.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_ri_bdp.json",
+   "sha256": "4adbab5f7e5fbf5744cebebce6da0e7303d28609576834c468c1a43dd85a3e9d",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_bdp",
+   "archivo": "estructura_ri_bdp.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_ri_bdp.json",
+   "sha256": "31344e7fb122a0cf4609f3d3cfc5ef3c7f3fcfbbfffc09f5baa6821d19d26875",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_bdp",
+   "archivo": "indice_ri_bdp.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_ri_bdp.json",
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_bdp",
+   "archivo": "pies_ri_bdp.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_ri_bdp.json",
+   "sha256": "918642572774f8c1c76b19b1a2a96b8101fd47cbc7ec028b3eaa88eb2c2818c9",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_bdp",
+   "archivo": "tablas_ri_bdp.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_ri_bdp.json",
+   "sha256": "249289885b4c0e2ee2360434939257bb2307ddd1d296111832591f7cd41b5de4",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_ieccm",
+   "archivo": "chunks_ri_ieccm.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_ri_ieccm.json",
+   "sha256": "9d104f6ba5d457d12d574085606881c4280e0089162f5486886cfc360b3031e0",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_ieccm",
+   "archivo": "estructura_ri_ieccm.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_ri_ieccm.json",
+   "sha256": "e9f55a85c7335d9803e44632ce41d8055c86fd0adf79757ed9477c0295883baf",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_ieccm",
+   "archivo": "indice_ri_ieccm.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_ri_ieccm.json",
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_ieccm",
+   "archivo": "pies_ri_ieccm.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_ri_ieccm.json",
+   "sha256": "d28eb6de48825dec9748e3ad70d6e66b9736492ae01abcde2eaf803bd7af1150",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_ieccm",
+   "archivo": "tablas_ri_ieccm.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_ri_ieccm.json",
+   "sha256": "24bf41024e4d6d876db9eb50978aade2923441d40bcd2e8f4a15cd73ebf65204",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_rcl",
+   "archivo": "chunks_ri_rcl.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_ri_rcl.json",
+   "sha256": "9d546d528f5d7b4b6e473784c6abb792daaaa9347d3a47feadf8f09e4f1c76ec",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_rcl",
+   "archivo": "estructura_ri_rcl.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_ri_rcl.json",
+   "sha256": "d01211f42105c4d8e1af839b2146aa141f85a23609440f1cac09a691ceae6d14",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_rcl",
+   "archivo": "indice_ri_rcl.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_ri_rcl.json",
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_rcl",
+   "archivo": "pies_ri_rcl.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_ri_rcl.json",
+   "sha256": "e665a14f9398ad9a7b5cb75511d8b93427e36debdc130e8dec77417d87f95f88",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_rcl",
+   "archivo": "tablas_ri_rcl.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_ri_rcl.json",
+   "sha256": "37f755d31875127afae69bdd26d4e50028a8e5806672ddf290ec4d0245e093bb",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_esd",
+   "archivo": "chunks_ri_esd.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_ri_esd.json",
+   "sha256": "8e2489efd26af9aa93b21ae50c027f5de44b5a245c585e40a683d672a9c1196f",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_esd",
+   "archivo": "estructura_ri_esd.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_ri_esd.json",
+   "sha256": "983b9bbae9e8155e90158ff9e6e64b8c2325976ec33246ac24b75d80a02c0971",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_esd",
+   "archivo": "indice_ri_esd.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_ri_esd.json",
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_esd",
+   "archivo": "pies_ri_esd.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_ri_esd.json",
+   "sha256": "b1783b8688634d7fb1b1111163be6ae71f845ef8f3d533651d12641853ab2122",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_esd",
+   "archivo": "tablas_ri_esd.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_ri_esd.json",
+   "sha256": "127e901045605c0b51d20ac20a06dad4cc6bd6068482c2df448e625e205818bf",
+   "igual_al_origen": true
+  },
+  {
+   "to": "verac",
+   "archivo": "chunks_verac.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_verac.json",
+   "sha256": "cfd7b6cd7306e15c0864600af057d8d4ae139205d016c57142b15d0b84be6e84",
+   "igual_al_origen": true
+  },
+  {
+   "to": "verac",
+   "archivo": "estructura_verac.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_verac.json",
+   "sha256": "996d74a81d41929b1370e80cdf5b6c40c217d358d69fc1ea969bfb899d6763c4",
+   "igual_al_origen": true
+  },
+  {
+   "to": "verac",
+   "archivo": "indice_verac.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_verac.json",
+   "sha256": "8f62b8e158b43a7a9e29c9261b6bfc2f3a4fe17ef2db13f23a1bc679e04dc302",
+   "igual_al_origen": true
+  },
+  {
+   "to": "verac",
+   "archivo": "pies_verac.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_verac.json",
+   "sha256": "85dabfbab299dfdddcdcf631e4cdfec4518914062f7c5eaf764d6dc851d07901",
+   "igual_al_origen": true
+  },
+  {
+   "to": "verac",
+   "archivo": "tablas_verac.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_verac.json",
+   "sha256": "bba224ec0d847c406f7efe5cfd7ea8af529fb4aa6747c1d1853f60d5d09b816b",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_acsf",
+   "archivo": "chunks_ri_acsf.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_ri_acsf.json",
+   "sha256": "8d6239dc955ecc86042640e29157a3f516dc461c89d09e1f88a2ba9de4e7eea5",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_acsf",
+   "archivo": "estructura_ri_acsf.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_ri_acsf.json",
+   "sha256": "1a874461f32c71ce0f2b3a3c27bdc7655e856561a205a98850855cb138fb9bbc",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_acsf",
+   "archivo": "indice_ri_acsf.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_ri_acsf.json",
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_acsf",
+   "archivo": "pies_ri_acsf.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_ri_acsf.json",
+   "sha256": "44fda9ee296eea1123d2e6fccddd8a250ea6342f0064f851c7d67c40305ffc38",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_acsf",
+   "archivo": "tablas_ri_acsf.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_ri_acsf.json",
+   "sha256": "3136aa9bd58ebe2398c199c08fb72f93644520832528b6137642519ba10aeb9c",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_cr",
+   "archivo": "chunks_ri_cr.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_ri_cr.json",
+   "sha256": "2c08ba6288bde7a452f2f6154015bddcb0e0511dfdc64655a9f91a13a947e0d7",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_cr",
+   "archivo": "estructura_ri_cr.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_ri_cr.json",
+   "sha256": "41cf9c16d4510469eccfbdfc07dbb735a6e9bb05f2781528c32a6c764b328dcc",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_cr",
+   "archivo": "indice_ri_cr.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_ri_cr.json",
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_cr",
+   "archivo": "pies_ri_cr.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_ri_cr.json",
+   "sha256": "a8cc6e47cab7d95ded6d1b74c57f31dcdcdf4d9a9c3e797f2c2b8418eaaf555e",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_cr",
+   "archivo": "tablas_ri_cr.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_ri_cr.json",
+   "sha256": "48abdb6411ed93ca317acc4d09cbe20897bc19acc7feaf4b43b520753c560319",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_tvf",
+   "archivo": "chunks_ri_tvf.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_ri_tvf.json",
+   "sha256": "5819b33b117f1b966d8184954e959790bacd320f1d6a63c1984a72e1ac4711fa",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_tvf",
+   "archivo": "estructura_ri_tvf.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_ri_tvf.json",
+   "sha256": "858b22b5dde19094bac7459d3c594f007974ea43880574a7e83fdb19d659611d",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_tvf",
+   "archivo": "indice_ri_tvf.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_ri_tvf.json",
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_tvf",
+   "archivo": "pies_ri_tvf.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_ri_tvf.json",
+   "sha256": "753b4b4afbc734b0de224c261f6d49da229c08cb371396d35175cdea171daf6c",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_tvf",
+   "archivo": "tablas_ri_tvf.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_ri_tvf.json",
+   "sha256": "630b63d817d1f8fb145228e5aa2542e4db99be1f156294539c60366572f7479c",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ribspc",
+   "archivo": "chunks_ribspc.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_ribspc.json",
+   "sha256": "80e1ff88e4559aab74c6c1fd888996f739be02a426d188db56a0306264dd76aa",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ribspc",
+   "archivo": "estructura_ribspc.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_ribspc.json",
+   "sha256": "7555440908648621b1c73abbfd38bea3da204cabe25c859920b71e7152d86322",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ribspc",
+   "archivo": "indice_ribspc.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_ribspc.json",
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ribspc",
+   "archivo": "pies_ribspc.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_ribspc.json",
+   "sha256": "9dea649ed6865eaa6460981b70cbc3b18589456a818e5bd4eecd875a45400e93",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ribspc",
+   "archivo": "tablas_ribspc.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_ribspc.json",
+   "sha256": "037601cf5ea885892e2dba2bf6487004fe24622515e1986255090c725177eebc",
+   "igual_al_origen": true
+  },
+  {
+   "to": "asomut",
+   "archivo": "chunks_asomut.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_asomut.json",
+   "sha256": "48fd07b551dc5daf3a8536313003cb7c497927f3c96ea5b67d1677699a3b34e7",
+   "igual_al_origen": true
+  },
+  {
+   "to": "asomut",
+   "archivo": "estructura_asomut.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_asomut.json",
+   "sha256": "6b0a0ed4f8a557262918133e8cc45c2e282176e5835a206e245817a803a8ddb3",
+   "igual_al_origen": true
+  },
+  {
+   "to": "asomut",
+   "archivo": "indice_asomut.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_asomut.json",
+   "sha256": "1e1486785d9b30fffd6ffecbd6aa4582e2d6625a61cc5c3c23062089ba685e45",
+   "igual_al_origen": true
+  },
+  {
+   "to": "asomut",
+   "archivo": "pies_asomut.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_asomut.json",
+   "sha256": "f9c6bbb397311fe76d69bd1bcfeaf7a73802519f3e8ba45a5e946d385f1ea55e",
+   "igual_al_origen": true
+  },
+  {
+   "to": "asomut",
+   "archivo": "tablas_asomut.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_asomut.json",
+   "sha256": "b3b1e41037f9e56287239d20dce11895bec10bdabe3d9eb0fcbc32d9dcc7824c",
+   "igual_al_origen": true
+  },
+  {
+   "to": "micemp",
+   "archivo": "chunks_micemp.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_micemp.json",
+   "sha256": "e524fcaae7fb31433c3a4e6d1f7104684cc4ad754842b4f3f3e5688a5e299429",
+   "igual_al_origen": true
+  },
+  {
+   "to": "micemp",
+   "archivo": "estructura_micemp.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_micemp.json",
+   "sha256": "dd2ebb979b65392c6bee68c0e272cea637d041f3d6f844df46d807e53f95c179",
+   "igual_al_origen": true
+  },
+  {
+   "to": "micemp",
+   "archivo": "indice_micemp.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_micemp.json",
+   "sha256": "9cc18393d7f2dc48fcb1fc24914ff204ff8c6e80b71e5f946c4831bb3143c300",
+   "igual_al_origen": true
+  },
+  {
+   "to": "micemp",
+   "archivo": "pies_micemp.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_micemp.json",
+   "sha256": "5e6723ae93535e8c02f3972cac34ecce06719983c12a1e8bcff3afb3851626f3",
+   "igual_al_origen": true
+  },
+  {
+   "to": "micemp",
+   "archivo": "tablas_micemp.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_micemp.json",
+   "sha256": "8766bd97fa054cab17478582572e7a451df61a1f90e4b33fccf0aa575e656fed",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_psp",
+   "archivo": "chunks_ri_psp.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_ri_psp.json",
+   "sha256": "44db4ef6415f94be20de1d2c90b6147da480f774e6cb27c34fbec670ac31ad19",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_psp",
+   "archivo": "estructura_ri_psp.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_ri_psp.json",
+   "sha256": "79518e53b459b84aebc1c26a12da7130d4d6120ebffa6c0c4f09c207bcdcc1f6",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_psp",
+   "archivo": "indice_ri_psp.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_ri_psp.json",
+   "sha256": "e5620a458c6388db7fad907112039ddb9ff30fdb32110605ede91b1423692637",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_psp",
+   "archivo": "pies_ri_psp.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_ri_psp.json",
+   "sha256": "323b3bebc54fa2d79ba3ede0995ee7c3065294fecf742b11d3c36828ee2d8c04",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_psp",
+   "archivo": "tablas_ri_psp.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_ri_psp.json",
+   "sha256": "7d32c220d693c50e25851f669156878ef1d4bb504d848d215d176cdf0880e154",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_transpa",
+   "archivo": "chunks_ri_transpa.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_ri_transpa.json",
+   "sha256": "6176874c691f70fbb540c43aa96dab4cf0136820c37c808f1c282131c444d860",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_transpa",
+   "archivo": "estructura_ri_transpa.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_ri_transpa.json",
+   "sha256": "954f95947865a8989c149d9a8e538760a078048d9f757a828984966fa4d662bc",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_transpa",
+   "archivo": "indice_ri_transpa.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_ri_transpa.json",
+   "sha256": "23473ee9c360ef0712a87a805078589d58e42b11b1ba85d663e26e43ca6d4321",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_transpa",
+   "archivo": "pies_ri_transpa.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_ri_transpa.json",
+   "sha256": "4b223f59b0180daceaac41bee528646942cd70cb27c322867f3f505d84128676",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_transpa",
+   "archivo": "tablas_ri_transpa.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_ri_transpa.json",
+   "sha256": "5818e5270953206d6f9307cbb72e0345c0b668eef0a516a0be8dabea16ab10ea",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_iesinap",
+   "archivo": "chunks_ri_iesinap.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_ri_iesinap.json",
+   "sha256": "851505c0952556e81aeb439e612d6c646d6082087ca600c3e717b1412b33d7b5",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_iesinap",
+   "archivo": "estructura_ri_iesinap.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_ri_iesinap.json",
+   "sha256": "3f7807c503e68cdf011c01abe47003c7f51e0fb0573cfbc7ce7efe394362eef4",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_iesinap",
+   "archivo": "indice_ri_iesinap.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_ri_iesinap.json",
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_iesinap",
+   "archivo": "pies_ri_iesinap.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_ri_iesinap.json",
+   "sha256": "97e05666d181c48d0a032a940963e77d89c92e992fe28e352a280d8112bcfcaa",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_iesinap",
+   "archivo": "tablas_ri_iesinap.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_ri_iesinap.json",
+   "sha256": "df51dd038f6cca82ecacf78c13df320966ef1ca27ea907c5637463222bb3e924",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_msrl",
+   "archivo": "chunks_ri_msrl.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_ri_msrl.json",
+   "sha256": "94d9e297483890c11b1570f7bd33b3ac0718f6934f327b5b15c222a005d5359e",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_msrl",
+   "archivo": "estructura_ri_msrl.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_ri_msrl.json",
+   "sha256": "8cfa0a2df53c419ab3a6b820b1d0b4501c194ce1ff7ae10ed276e05107f7c6d2",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_msrl",
+   "archivo": "indice_ri_msrl.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_ri_msrl.json",
+   "sha256": "0a9a06577b52731f1cc4d756d8d670859763b31bcae608c460dacacd7c7d6f8b",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_msrl",
+   "archivo": "pies_ri_msrl.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_ri_msrl.json",
+   "sha256": "71e540be81f9f0974f7f7e46204875676e88af14d26bd8e981a6f59ee5465cf3",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_msrl",
+   "archivo": "tablas_ri_msrl.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_ri_msrl.json",
+   "sha256": "b9e0f38586b895f7c1832dcf652eb569a8993723d3ca60431c5b9eb5a3479087",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_iepsp",
+   "archivo": "chunks_ri_iepsp.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_ri_iepsp.json",
+   "sha256": "267cb0588962c09ef02eb4e3cdf01464e08c3ede42ab3f9bb55b284ea12fb988",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_iepsp",
+   "archivo": "estructura_ri_iepsp.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_ri_iepsp.json",
+   "sha256": "f69720bab5ed0da79bce19623b5c58399ac4c4b87c99515fcc5b93876a95cdcb",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_iepsp",
+   "archivo": "indice_ri_iepsp.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_ri_iepsp.json",
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_iepsp",
+   "archivo": "pies_ri_iepsp.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_ri_iepsp.json",
+   "sha256": "109b2969eef089145a834b346abed2485772b4f89b7157b4e322f632e3022e81",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_iepsp",
+   "archivo": "tablas_ri_iepsp.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_ri_iepsp.json",
+   "sha256": "aa82fefd3c397419c9882563faa94ae2505518299252554521d725217602c7a1",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_ai",
+   "archivo": "chunks_ri_ai.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_ri_ai.json",
+   "sha256": "35ca610f5279290123259a75fe4072a5f11baa762450eb3b9229f0d169f6812b",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_ai",
+   "archivo": "estructura_ri_ai.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_ri_ai.json",
+   "sha256": "edf366af8424d140fa87bb7ca437feb28a306be5c6b779e5481a991c51eccaeb",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_ai",
+   "archivo": "indice_ri_ai.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_ri_ai.json",
+   "sha256": "87034f7eaba8d32b32a2cd598945a875db16f7343cc18f74cb4b255ad16642e7",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_ai",
+   "archivo": "pies_ri_ai.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_ri_ai.json",
+   "sha256": "65f95f96c01a20d6268838ccec915b6e6ea66f5c3c55ca893e386da5d02d7d87",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_ai",
+   "archivo": "tablas_ri_ai.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_ri_ai.json",
+   "sha256": "6fd82f333eb395f7745ff43a416e270118a985a14cf191ec8f0984a0deaa551c",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_pspapt",
+   "archivo": "chunks_ri_pspapt.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_ri_pspapt.json",
+   "sha256": "d1b395f8f33a662df636f0c1e52320725179a2e964e8db2be56b5e5c0cd2cf99",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_pspapt",
+   "archivo": "estructura_ri_pspapt.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_ri_pspapt.json",
+   "sha256": "86de3b8794831ffd1558876fe217559fcf4e2caa88607a2dd5eb6711d5700f3f",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_pspapt",
+   "archivo": "indice_ri_pspapt.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_ri_pspapt.json",
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_pspapt",
+   "archivo": "pies_ri_pspapt.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_ri_pspapt.json",
+   "sha256": "49334b4c7a62a5cc34825ed56b71e7692d6844bb8fa51722bb244e427b6e5a95",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_pspapt",
+   "archivo": "tablas_ri_pspapt.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_ri_pspapt.json",
+   "sha256": "45464c1f27bc6c1412bb4c8696bc22eb18924dc409500c130cbb12ac325b85e9",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_tsa",
+   "archivo": "chunks_ri_tsa.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_ri_tsa.json",
+   "sha256": "dd454a1e580b20520b96eec2e2d813c8afba40b88f72638cad8735e99b032d1e",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_tsa",
+   "archivo": "estructura_ri_tsa.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_ri_tsa.json",
+   "sha256": "a5614121e0f0d4d6b9a937ba4a2d2e4181acba46a3346dfe35084b3cd5619a5d",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_tsa",
+   "archivo": "indice_ri_tsa.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_ri_tsa.json",
+   "sha256": "e6ad904900c66426c7534964d8619ec63e6c564d00ea5946c64221627143e9e8",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_tsa",
+   "archivo": "pies_ri_tsa.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_ri_tsa.json",
+   "sha256": "f2aa25f869ecd6c9a9dcfd391e4b56bf5d86de11a995fa0f232be468f0ca2bcd",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_tsa",
+   "archivo": "tablas_ri_tsa.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_ri_tsa.json",
+   "sha256": "4a21fc90d5e3ed1a4f1831f1cc4144e709d445ab0608311290c882abbabb8321",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_tar",
+   "archivo": "chunks_ri_tar.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_ri_tar.json",
+   "sha256": "06b26feca62803d3ac161892045be5e8917b153fbf3dd7f632a8600da168bfa4",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_tar",
+   "archivo": "estructura_ri_tar.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_ri_tar.json",
+   "sha256": "55af8dfe8ca0e860f6a440c532bb580240160ccd8f660dec0ef63864dede6269",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_tar",
+   "archivo": "indice_ri_tar.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_ri_tar.json",
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_tar",
+   "archivo": "pies_ri_tar.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_ri_tar.json",
+   "sha256": "97bddabc6cbfe0326922c43375014410a9c7e97461d65e8bea82de1d8340ac94",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_tar",
+   "archivo": "tablas_ri_tar.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_ri_tar.json",
+   "sha256": "41a90714602141fe030194276cdc813a94b5688b81abbc0040fe501631f366dc",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_laft",
+   "archivo": "chunks_ri_laft.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_ri_laft.json",
+   "sha256": "6d3e4a0b107499ec942197739979b6e642fb7467d46057bca1d0404dfeb73d85",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_laft",
+   "archivo": "estructura_ri_laft.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_ri_laft.json",
+   "sha256": "f680e7683e0b9b40c4da26f11ae23dbe1cd488d2271eeb104f60d530ab747cfd",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_laft",
+   "archivo": "indice_ri_laft.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_ri_laft.json",
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_laft",
+   "archivo": "pies_ri_laft.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_ri_laft.json",
+   "sha256": "f92851be8b4586acef9f49ea1008fe7a8d258f8da51614802f926f86ff9a824c",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_laft",
+   "archivo": "tablas_ri_laft.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_ri_laft.json",
+   "sha256": "dfe641bede159aa5d9ceb0dab7c81e02416f353cb53856af9d6cc038e156b37f",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_dsf",
+   "archivo": "chunks_ri_dsf.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_ri_dsf.json",
+   "sha256": "5fc720e82bc1eb5451fec3a30c84452275b58ce68a43ba1bc37a8a8771d9aabc",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_dsf",
+   "archivo": "estructura_ri_dsf.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_ri_dsf.json",
+   "sha256": "13bef9e73ecac70bb639a714e1977572094d55bdc52d8229173ddd8adce55360",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_dsf",
+   "archivo": "indice_ri_dsf.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_ri_dsf.json",
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_dsf",
+   "archivo": "pies_ri_dsf.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_ri_dsf.json",
+   "sha256": "d35f3a46a85c5c0028bd0173c275f94b57d49ce0423823aa891d5ac72633ded3",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_dsf",
+   "archivo": "tablas_ri_dsf.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_ri_dsf.json",
+   "sha256": "e24daa2f632c5b7ffecae706ba10475d01ce926a6cdbcaff08eecdc5bb1480db",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_nge",
+   "archivo": "chunks_ri_nge.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_ri_nge.json",
+   "sha256": "fa655bdfb5c45aea9d1b6140729bca359d488007ce4bcf4e44bbbe8913107cb1",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_nge",
+   "archivo": "estructura_ri_nge.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_ri_nge.json",
+   "sha256": "e8c57ee30b53e261efa42b08a53f74807245be0976a57b95e0632ccd193ba57c",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_nge",
+   "archivo": "indice_ri_nge.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_ri_nge.json",
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_nge",
+   "archivo": "pies_ri_nge.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_ri_nge.json",
+   "sha256": "7c7c12f7d6125e5dc6fe1bb6e9f314bfc5f81503fa93f671433c948338150a8f",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_nge",
+   "archivo": "tablas_ri_nge.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_ri_nge.json",
+   "sha256": "91e3a2e974c6640b4f2516a15891ed853acc11f95e91dcfd909afa046be61a2b",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_ot",
+   "archivo": "chunks_ri_ot.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_ri_ot.json",
+   "sha256": "969ce538d04b70a8a68ac335f0e60d48689014f59b02bd4b8f2a63ff4b0a69cd",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_ot",
+   "archivo": "estructura_ri_ot.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_ri_ot.json",
+   "sha256": "9db4508d6550033e79b073823a6b4ceedc56470eec7288c4fab7402e1b1d6b84",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_ot",
+   "archivo": "indice_ri_ot.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_ri_ot.json",
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_ot",
+   "archivo": "pies_ri_ot.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_ri_ot.json",
+   "sha256": "9e3705b32720e159ac11fd755fd7b035176941a2236f63bd94db1dc35b4df7a0",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_ot",
+   "archivo": "tablas_ri_ot.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_ri_ot.json",
+   "sha256": "ede3986dbcd96210483f79214e1b4830b2c9227ac3c43dcd6d0ac6a16423dcb1",
+   "igual_al_origen": true
+  },
+  {
+   "to": "consyr",
+   "archivo": "chunks_consyr.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_consyr.json",
+   "sha256": "c6b39ef9dbb319552c98b379742aca35a113d039149552920b1827e5224998bd",
+   "igual_al_origen": true
+  },
+  {
+   "to": "consyr",
+   "archivo": "estructura_consyr.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_consyr.json",
+   "sha256": "1c5f8236aa8a1ce32b9870b08dbe7c3ac33ad0dde0088cb825b7d88a13404e93",
+   "igual_al_origen": true
+  },
+  {
+   "to": "consyr",
+   "archivo": "indice_consyr.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_consyr.json",
+   "sha256": "63674cddeb58e03bca02cd641f2343c2f3747b6c288ffeb562e6a3ebc033030d",
+   "igual_al_origen": true
+  },
+  {
+   "to": "consyr",
+   "archivo": "pies_consyr.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_consyr.json",
+   "sha256": "618f99047739965d77cb3b8cee859597dc694555662bc661119301a4198459be",
+   "igual_al_origen": true
+  },
+  {
+   "to": "consyr",
+   "archivo": "tablas_consyr.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_consyr.json",
+   "sha256": "e7e7e12a1c9afa42cc8512a3926635380234702c08f78e336ca0a7745c43a7c8",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_secoexpo",
+   "archivo": "chunks_ri_secoexpo.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_ri_secoexpo.json",
+   "sha256": "4946e322ae49dfdea7732c15156f9ae47bcaf26999c3185af3b26122ffdad150",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_secoexpo",
+   "archivo": "estructura_ri_secoexpo.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_ri_secoexpo.json",
+   "sha256": "5c61e60cf91692f3120f4ef1bdad122af02fe33c846567bd08513fbc0c4a5b66",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_secoexpo",
+   "archivo": "indice_ri_secoexpo.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_ri_secoexpo.json",
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_secoexpo",
+   "archivo": "pies_ri_secoexpo.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_ri_secoexpo.json",
+   "sha256": "e18095267d54c5ea0b7a251c9722624238126b4c3962c75d68bf89065f7621af",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_secoexpo",
+   "archivo": "tablas_ri_secoexpo.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_ri_secoexpo.json",
+   "sha256": "aa21c4729266d7e900a71e9120243dfbfbbf3d0219d0ad4ca3e5b2985910309b",
+   "igual_al_origen": true
+  },
+  {
+   "to": "seggar",
+   "archivo": "chunks_seggar.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_seggar.json",
+   "sha256": "a42ed77fe89418d6682ef52dfac8168618a80da8c868a32a1470f953ff2b4bea",
+   "igual_al_origen": true
+  },
+  {
+   "to": "seggar",
+   "archivo": "estructura_seggar.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_seggar.json",
+   "sha256": "014b49c2478ade09935387d07dd68ec61bd266c1ca9c1016dbd7be89b74398c1",
+   "igual_al_origen": true
+  },
+  {
+   "to": "seggar",
+   "archivo": "indice_seggar.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_seggar.json",
+   "sha256": "c06058e3ae05512fb796214c6bd8aadd37be4fd750d8d3d24fdcef56e0a04af3",
+   "igual_al_origen": true
+  },
+  {
+   "to": "seggar",
+   "archivo": "pies_seggar.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_seggar.json",
+   "sha256": "7f16a2d0f11be80e558009b6725ce2a04322c7374e3f5907f2236aa0d3ca7d5d",
+   "igual_al_origen": true
+  },
+  {
+   "to": "seggar",
+   "archivo": "tablas_seggar.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_seggar.json",
+   "sha256": "392177212a1c9c5c5640fe6220a0388e650cf4424afe3122beff1f77165c2a12",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_sef",
+   "archivo": "chunks_ri_sef.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_ri_sef.json",
+   "sha256": "04f83257790497f4b950a57de98733468736ebeccda0894a4b965156c1e7c3bb",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_sef",
+   "archivo": "estructura_ri_sef.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_ri_sef.json",
+   "sha256": "235006c9325d2937c2d97cee9dd1cb0a4711826cb16d84b3f0a65aed9db55341",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_sef",
+   "archivo": "indice_ri_sef.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_ri_sef.json",
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_sef",
+   "archivo": "pies_ri_sef.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_ri_sef.json",
+   "sha256": "a9830bcad7e15b709dcd8c15a9d7274d7e1a1991c953fda4b80b48804d599905",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_sef",
+   "archivo": "tablas_ri_sef.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_ri_sef.json",
+   "sha256": "223453c11308ad7d682212fadf2b794d779dd8f5eed716b4e37d19cf1dad0a99",
+   "igual_al_origen": true
+  },
+  {
+   "to": "cedin",
+   "archivo": "chunks_cedin.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_cedin.json",
+   "sha256": "44de44a996ea0bf7453cf3d2ddaabed9c1c1c5e44a46b848a23d251f492fd82a",
+   "igual_al_origen": true
+  },
+  {
+   "to": "cedin",
+   "archivo": "estructura_cedin.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_cedin.json",
+   "sha256": "74ae2e9ca405636625892c9b17eec168d46745405672876a76a6a811754c311a",
+   "igual_al_origen": true
+  },
+  {
+   "to": "cedin",
+   "archivo": "indice_cedin.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_cedin.json",
+   "sha256": "e91b14ad5af8c685e034f543747c91bce379769a39b82439ebf23f5e54ecda1e",
+   "igual_al_origen": true
+  },
+  {
+   "to": "cedin",
+   "archivo": "pies_cedin.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_cedin.json",
+   "sha256": "7e932b88f6f6ac722c173d86a17bc772712e77c70b82e732f497b7a11974af40",
+   "igual_al_origen": true
+  },
+  {
+   "to": "cedin",
+   "archivo": "tablas_cedin.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_cedin.json",
+   "sha256": "8a30bd98c8c54656f6d120ced57c62d05879b181a53d811715f718c3a983ca0e",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_ii_31_12_19",
+   "archivo": "chunks_ri_ii_31_12_19.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_ri_ii_31_12_19.json",
+   "sha256": "30f8cabac87d10dbfa9a9a5f7fac0c3a0fdef1e53b2bd344b74b7810f047fff6",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_ii_31_12_19",
+   "archivo": "estructura_ri_ii_31_12_19.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_ri_ii_31_12_19.json",
+   "sha256": "65cd5683c63fefdc618dca4037d4be029f56d6944782c13dd62b16f089098a44",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_ii_31_12_19",
+   "archivo": "indice_ri_ii_31_12_19.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_ri_ii_31_12_19.json",
+   "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_ii_31_12_19",
+   "archivo": "pies_ri_ii_31_12_19.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_ri_ii_31_12_19.json",
+   "sha256": "ff382b255026a4b358d5f1299ade0f2861286009e6aeaf33e8e2496562576a0c",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri_ii_31_12_19",
+   "archivo": "tablas_ri_ii_31_12_19.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_ri_ii_31_12_19.json",
+   "sha256": "92a92d13c0693a773ea4621542547684f214be29c4f4bb3303a5a7449501a96b",
+   "igual_al_origen": true
+  },
+  {
+   "to": "reqcac",
+   "archivo": "chunks_reqcac.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_reqcac.json",
+   "sha256": "85de7cf61434f2696c8cc565c5740491425dc60c98762147fe344d441569b87c",
+   "igual_al_origen": true
+  },
+  {
+   "to": "reqcac",
+   "archivo": "estructura_reqcac.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_reqcac.json",
+   "sha256": "3fbba807f540a98c6c2d949a7f76691c1b9327dacdcc9093e721977f9e695bc8",
+   "igual_al_origen": true
+  },
+  {
+   "to": "reqcac",
+   "archivo": "indice_reqcac.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_reqcac.json",
+   "sha256": "2777c523dfcf3f0896eaf00c6ae0f4d2a7cbb270cbb41559f7aab48abfcb0c12",
+   "igual_al_origen": true
+  },
+  {
+   "to": "reqcac",
+   "archivo": "pies_reqcac.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_reqcac.json",
+   "sha256": "822bbf25aaed35ed0e844c5a995415187849665782133c99c3a4fd4983c973c6",
+   "igual_al_origen": true
+  },
+  {
+   "to": "reqcac",
+   "archivo": "tablas_reqcac.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_reqcac.json",
+   "sha256": "1876ab64b61ffd3ae676a3671921743e896a09df18d6ae647ca7c4341f6af919",
+   "igual_al_origen": true
+  },
+  {
+   "to": "cateloc",
+   "archivo": "chunks_cateloc.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_cateloc.json",
+   "sha256": "51044059bc7ffaeaac0d0db587ef1cd45be53a019965cb7a56f2e9980fd3ae35",
+   "igual_al_origen": true
+  },
+  {
+   "to": "cateloc",
+   "archivo": "estructura_cateloc.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_cateloc.json",
+   "sha256": "027f1bfc44f7ef2eccec8aef154aa12cf6fd2b027be9598af65e83dbe9614a26",
+   "igual_al_origen": true
+  },
+  {
+   "to": "cateloc",
+   "archivo": "indice_cateloc.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_cateloc.json",
+   "sha256": "2a250bff274860bf4a36a459045ad150c1e869eb1a9034c14579676097ab44fd",
+   "igual_al_origen": true
+  },
+  {
+   "to": "cateloc",
+   "archivo": "pies_cateloc.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_cateloc.json",
+   "sha256": "658e5c1c87d498fbf109a74cfd2fbbe11fda2f64f811aa47ffc7d0c2cff6bdc6",
+   "igual_al_origen": true
+  },
+  {
+   "to": "cateloc",
+   "archivo": "tablas_cateloc.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_cateloc.json",
+   "sha256": "e74bd3a295890520591be2eb5a7da255a2c34f0932679b1fff27ebe0a3254058",
+   "igual_al_origen": true
+  },
+  {
+   "to": "convca",
+   "archivo": "chunks_convca.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_convca.json",
+   "sha256": "66ff260d403ebcbec28facaca20944e88465b97c203b0436e05fdda37eb8e433",
+   "igual_al_origen": true
+  },
+  {
+   "to": "convca",
+   "archivo": "estructura_convca.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_convca.json",
+   "sha256": "a12e4cec417ed94bbc4f991abd4574625778cd841d2f25bafda5641dd821ebde",
+   "igual_al_origen": true
+  },
+  {
+   "to": "convca",
+   "archivo": "indice_convca.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_convca.json",
+   "sha256": "79d762556614e83c3c90aa534f564af72f3582ea79094a268fdb9c05de9c1232",
+   "igual_al_origen": true
+  },
+  {
+   "to": "convca",
+   "archivo": "pies_convca.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_convca.json",
+   "sha256": "d25aff16cfa2f5f790682c37a57127285d9ee139ecd5c52a05308910bd51db3e",
+   "igual_al_origen": true
+  },
+  {
+   "to": "convca",
+   "archivo": "tablas_convca.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_convca.json",
+   "sha256": "1be929bb097c42fb7f9686970075f93b64e9125ef5fe99c949e19d866b7cb4ac",
+   "igual_al_origen": true
+  },
+  {
+   "to": "socgar",
+   "archivo": "chunks_socgar.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_socgar.json",
+   "sha256": "88cfb91785bfb133f472b91f45e19195691a44e31a72c0759f1020f93809d37f",
+   "igual_al_origen": true
+  },
+  {
+   "to": "socgar",
+   "archivo": "estructura_socgar.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_socgar.json",
+   "sha256": "19eb2e9c179eac0a45f03903f63e5f7e42156131a247f966c2582f76383e68a4",
+   "igual_al_origen": true
+  },
+  {
+   "to": "socgar",
+   "archivo": "indice_socgar.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_socgar.json",
+   "sha256": "7074e8769d1fd39041c382ba03bc5225de3c72d33e9aee1f3bf6206ed4338341",
+   "igual_al_origen": true
+  },
+  {
+   "to": "socgar",
+   "archivo": "pies_socgar.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_socgar.json",
+   "sha256": "2ae987c31d7cc482a37298f8992a492efb2cb8fbe9e1dedc8a2f48f141b05a80",
+   "igual_al_origen": true
+  },
+  {
+   "to": "socgar",
+   "archivo": "tablas_socgar.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_socgar.json",
+   "sha256": "028348d7a6fd586aa0e9991a79de9592f2df66d7d80ff79131a0cbf380f22e3f",
+   "igual_al_origen": true
+  },
+  {
+   "to": "horari",
+   "archivo": "chunks_horari.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_horari.json",
+   "sha256": "77d4924383e44fe1e665b8d8b78d481c54466bb98642c8c45ee2c90c1b988fcf",
+   "igual_al_origen": true
+  },
+  {
+   "to": "horari",
+   "archivo": "estructura_horari.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_horari.json",
+   "sha256": "52178dc4c8f4b45cc8e1887a5b556f3f4d25199b5bcefa5ffe17f85636ab241f",
+   "igual_al_origen": true
+  },
+  {
+   "to": "horari",
+   "archivo": "indice_horari.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_horari.json",
+   "sha256": "b4c16281b43dd2ea1cf2835e7bebad8508452104827dff34e5523169c6ea7115",
+   "igual_al_origen": true
+  },
+  {
+   "to": "horari",
+   "archivo": "pies_horari.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_horari.json",
+   "sha256": "c1b893e16ac87de1a235b20e690c48294adb538cadfa9e776936d1fd6f9c2bfd",
+   "igual_al_origen": true
+  },
+  {
+   "to": "horari",
+   "archivo": "tablas_horari.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_horari.json",
+   "sha256": "9b4950c2f8e9ce2c5878afdfa15d0bd1a771dfa9d53f679d8070e98c6ca0403f",
+   "igual_al_origen": true
+  },
+  {
+   "to": "osapsa",
+   "archivo": "chunks_osapsa.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_osapsa.json",
+   "sha256": "7c6b2e34587e762e5e16571fdeacc1ce98c5c63c220246141baea05c85a45f65",
+   "igual_al_origen": true
+  },
+  {
+   "to": "osapsa",
+   "archivo": "estructura_osapsa.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_osapsa.json",
+   "sha256": "926dd74a93ae3ac9faa91f5dbc46160de541d957c5c2135be3a257a15b6f5aac",
+   "igual_al_origen": true
+  },
+  {
+   "to": "osapsa",
+   "archivo": "indice_osapsa.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_osapsa.json",
+   "sha256": "91483eedae2163bf9751b0d50fb7b22f4ecf3f1fc4517e00d51759aaf7721c5a",
+   "igual_al_origen": true
+  },
+  {
+   "to": "osapsa",
+   "archivo": "pies_osapsa.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_osapsa.json",
+   "sha256": "03dced38ba23bc583fae8ea0e65e50792929be253f932764d72222b49711f6bd",
+   "igual_al_origen": true
+  },
+  {
+   "to": "osapsa",
+   "archivo": "tablas_osapsa.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_osapsa.json",
+   "sha256": "85327d4c7fa62777d5fb8fcc2e5e0d25df11ce66861e99098e959b2a630552d7",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_atm",
+   "archivo": "chunks_snp_atm.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_snp_atm.json",
+   "sha256": "ad9068d2f9c51905a0a75c85caebe0ead4b1415f7b5a6cbe52a62b9d7d87bb9f",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_atm",
+   "archivo": "estructura_snp_atm.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_snp_atm.json",
+   "sha256": "d84965ac47f2156753ecd0ca5ab1633bfa774f78c8b518568b3b6ea03b5b5101",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_atm",
+   "archivo": "indice_snp_atm.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_snp_atm.json",
+   "sha256": "20e91d694945a71ba68ce8cacc4a0fc8ebec25359f1fa34c14fa481137d233a4",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_atm",
+   "archivo": "pies_snp_atm.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_snp_atm.json",
+   "sha256": "dad0bbfbff8342371a135a59d5e63f522facf22c6a556d8153c1384b64cd5573",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_atm",
+   "archivo": "tablas_snp_atm.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_snp_atm.json",
+   "sha256": "9e4c7358ed3129e872e2b6ad7388dc9a36ce7e1378ac52df503041cd3de4e801",
+   "igual_al_origen": true
+  },
+  {
+   "to": "pognme",
+   "archivo": "chunks_pognme.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_pognme.json",
+   "sha256": "dc687c60e20591d479ce791d7cf9789667efcd323d9e2ab70215635d41494a34",
+   "igual_al_origen": true
+  },
+  {
+   "to": "pognme",
+   "archivo": "estructura_pognme.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_pognme.json",
+   "sha256": "6aa334292d638f45abf223af4185b04d3c08432da716c3e1472a9b622004b3b7",
+   "igual_al_origen": true
+  },
+  {
+   "to": "pognme",
+   "archivo": "indice_pognme.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_pognme.json",
+   "sha256": "0ad24008ed75b229ac955780de0a214f6f012316a3bca62953fedfe12d77c2aa",
+   "igual_al_origen": true
+  },
+  {
+   "to": "pognme",
+   "archivo": "pies_pognme.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_pognme.json",
+   "sha256": "96c32119533b42f8a491558a7e253e7744abe14f3659b4465db8633e0a8dbebf",
+   "igual_al_origen": true
+  },
+  {
+   "to": "pognme",
+   "archivo": "tablas_pognme.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_pognme.json",
+   "sha256": "4ee1c7bd74236204d35dac0f84344eeee9ea2fdc1e9528378887d78d07e8c773",
+   "igual_al_origen": true
+  },
+  {
+   "to": "evacre",
+   "archivo": "chunks_evacre.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_evacre.json",
+   "sha256": "b21ed26fb8983c8fb75b66d8021842ed12bf4005426f4b1e7bf723d598dd470f",
+   "igual_al_origen": true
+  },
+  {
+   "to": "evacre",
+   "archivo": "estructura_evacre.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_evacre.json",
+   "sha256": "70eb46710fdff22d29bc61f4b48b6fe3429a87242b8bee2485bad6a768d39747",
+   "igual_al_origen": true
+  },
+  {
+   "to": "evacre",
+   "archivo": "indice_evacre.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_evacre.json",
+   "sha256": "80e4a598a6c615d7e72aedb684b0d9d9e5d2c60824768ca5915e043a18a3c644",
+   "igual_al_origen": true
+  },
+  {
+   "to": "evacre",
+   "archivo": "pies_evacre.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_evacre.json",
+   "sha256": "22339dcbdb091740995a02b2f3c030244e54da88416fe3d49494d860a9b44c95",
+   "igual_al_origen": true
+  },
+  {
+   "to": "evacre",
+   "archivo": "tablas_evacre.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_evacre.json",
+   "sha256": "ddab737553b8a1bc50245ea3835b954226c8304bff2f836bb092e59739db81f5",
+   "igual_al_origen": true
+  },
+  {
+   "to": "regpri",
+   "archivo": "chunks_regpri.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_regpri.json",
+   "sha256": "e7e6520dbf0394b9f83aa192054aba8fdc6b3ea4d22582f92dc70edffa987031",
+   "igual_al_origen": true
+  },
+  {
+   "to": "regpri",
+   "archivo": "estructura_regpri.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_regpri.json",
+   "sha256": "25140f9b4f583f676efd6e0566048c2b34322c5e729f90e1d157a40ed22f9cc6",
+   "igual_al_origen": true
+  },
+  {
+   "to": "regpri",
+   "archivo": "indice_regpri.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_regpri.json",
+   "sha256": "9ca0ac7adc90fbe9df3f3fcfe0cc3a9c1a0bd74d4b1390587e3eb868329c9e1c",
+   "igual_al_origen": true
+  },
+  {
+   "to": "regpri",
+   "archivo": "pies_regpri.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_regpri.json",
+   "sha256": "19efbe87ec032fd976f46a0b86f1a96d28681ee380ca8c19b2df95fd9848278c",
+   "igual_al_origen": true
+  },
+  {
+   "to": "regpri",
+   "archivo": "tablas_regpri.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_regpri.json",
+   "sha256": "f9bce8632ebbbb225a7cb4e77c7e1d4f1062015ae5500f70c16249cf2d7a0309",
+   "igual_al_origen": true
+  },
+  {
+   "to": "cescar",
+   "archivo": "chunks_cescar.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_cescar.json",
+   "sha256": "3ba47e3cdd684b142caa8129569dc8b29107023325222927a2179f0a5fb15bdd",
+   "igual_al_origen": true
+  },
+  {
+   "to": "cescar",
+   "archivo": "estructura_cescar.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_cescar.json",
+   "sha256": "b347f6b46fe8b4dab601c7995123e3605dbd4446203bbf8839ec5fbce2fea1b7",
+   "igual_al_origen": true
+  },
+  {
+   "to": "cescar",
+   "archivo": "indice_cescar.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_cescar.json",
+   "sha256": "eb0a600eb97ab1f2e6320bf1200eb8b333743730ae2774408dda6158705be38b",
+   "igual_al_origen": true
+  },
+  {
+   "to": "cescar",
+   "archivo": "pies_cescar.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_cescar.json",
+   "sha256": "866a2c20aacb25c36bd3f500770a92701b71a57d580089eed1ad1d92f9cc0fda",
+   "igual_al_origen": true
+  },
+  {
+   "to": "cescar",
+   "archivo": "tablas_cescar.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_cescar.json",
+   "sha256": "52602573d9d604a1cf5c1cb785a4e30991477d1ec59c4d2fc3d0c2411571037f",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ctacor",
+   "archivo": "chunks_ctacor.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_ctacor.json",
+   "sha256": "bdfaa7388b7e1e33554b7e5ba84982b05c4cd7feaf5fb6af1784dbd156233c5b",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ctacor",
+   "archivo": "estructura_ctacor.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_ctacor.json",
+   "sha256": "abb21f6cbf90f5ebc3aa83ffae7a1d7df11d1f70caffacd3c59f5d28f9fc0875",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ctacor",
+   "archivo": "indice_ctacor.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_ctacor.json",
+   "sha256": "3edc40fdb7950cfd05a566be862045c9cb3be03953f88f63a9c1fd520ae76e6c",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ctacor",
+   "archivo": "pies_ctacor.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_ctacor.json",
+   "sha256": "f1bdf21913ef6887637940c99fecac8ce3f2c6e0cf19d8ad08ebb7ef4ce0261c",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ctacor",
+   "archivo": "tablas_ctacor.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_ctacor.json",
+   "sha256": "40110bf082905b9e466ed52f28d8adaeeefd26bcae54e9633480f503806ffeb8",
+   "igual_al_origen": true
+  },
+  {
+   "to": "fgarcp",
+   "archivo": "chunks_fgarcp.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_fgarcp.json",
+   "sha256": "6e26a12de2eda5425a1eaf8045dc60fdebfec9a9fb560624c348df0022470815",
+   "igual_al_origen": true
+  },
+  {
+   "to": "fgarcp",
+   "archivo": "estructura_fgarcp.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_fgarcp.json",
+   "sha256": "cf7af7efaf5f70efcc773436558b322ea284dccc32b7678f634042082491ac46",
+   "igual_al_origen": true
+  },
+  {
+   "to": "fgarcp",
+   "archivo": "indice_fgarcp.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_fgarcp.json",
+   "sha256": "b12b5105cf4c9a47e86c91c12b557b82d8ef033049836eda41fa1ab8a958f97d",
+   "igual_al_origen": true
+  },
+  {
+   "to": "fgarcp",
+   "archivo": "pies_fgarcp.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_fgarcp.json",
+   "sha256": "c1aa86e9ca8149bf425eb7bf048b913bb619fb6955acf55dee0a491185f461b0",
+   "igual_al_origen": true
+  },
+  {
+   "to": "fgarcp",
+   "archivo": "tablas_fgarcp.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_fgarcp.json",
+   "sha256": "b9ee96f4889daa4763f817f3b063b418a9b2e86850edd52ddf2b3ce5403c6028",
+   "igual_al_origen": true
+  },
+  {
+   "to": "pscpp",
+   "archivo": "chunks_pscpp.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_pscpp.json",
+   "sha256": "91a51c1cfe3ab2cf6393e4edf5c394171a39025681dfdc4dcbe0fc56e1178cec",
+   "igual_al_origen": true
+  },
+  {
+   "to": "pscpp",
+   "archivo": "estructura_pscpp.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_pscpp.json",
+   "sha256": "273af7419061b3def384aee979682124b6d5af98954bb8f302bcef097797e8ae",
+   "igual_al_origen": true
+  },
+  {
+   "to": "pscpp",
+   "archivo": "indice_pscpp.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_pscpp.json",
+   "sha256": "20f55d463fb0abe87ad6fcb52430bce5adc93fe99771ecf429a126b524c097f7",
+   "igual_al_origen": true
+  },
+  {
+   "to": "pscpp",
+   "archivo": "pies_pscpp.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_pscpp.json",
+   "sha256": "a243753057d2baa60d788b54481467c1b09ef490ee408c60b3fe5a2a9b336e3e",
+   "igual_al_origen": true
+  },
+  {
+   "to": "pscpp",
+   "archivo": "tablas_pscpp.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_pscpp.json",
+   "sha256": "45cc4bdf79526b8b79a3b4fa52717f98c488e5018dc30826851fc83191f1ed2a",
+   "igual_al_origen": true
+  },
+  {
+   "to": "secfin",
+   "archivo": "chunks_secfin.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_secfin.json",
+   "sha256": "287b620c03f6f3143be025915a9d5e097da46beb2df749261dcc26fb20b20351",
+   "igual_al_origen": true
+  },
+  {
+   "to": "secfin",
+   "archivo": "estructura_secfin.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_secfin.json",
+   "sha256": "fb58592b75c247b540370b770771524df0c0c0b80ade9de2cf6b92ae2bd38a8a",
+   "igual_al_origen": true
+  },
+  {
+   "to": "secfin",
+   "archivo": "indice_secfin.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_secfin.json",
+   "sha256": "320f253e906caa65aa87eb5037363b9ebb3f68e37fbdb08f0d4f6a220686f2dc",
+   "igual_al_origen": true
+  },
+  {
+   "to": "secfin",
+   "archivo": "pies_secfin.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_secfin.json",
+   "sha256": "ead66f6eec43dd87ec706a92ac717b0983111fbbe45adb07ddf6080c5698a272",
+   "igual_al_origen": true
+  },
+  {
+   "to": "secfin",
+   "archivo": "tablas_secfin.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_secfin.json",
+   "sha256": "ebf11d171a8358c11a7b1f73fadab06a63f47c69d6bbd968b210f9f4f70aea3a",
+   "igual_al_origen": true
+  },
+  {
+   "to": "incuca",
+   "archivo": "chunks_incuca.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_incuca.json",
+   "sha256": "2a2e6a3065bc63f4fa3f343c6bb1baf3178acdd9cc32322228bc6c6362583f03",
+   "igual_al_origen": true
+  },
+  {
+   "to": "incuca",
+   "archivo": "estructura_incuca.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_incuca.json",
+   "sha256": "5d6076daf2df3d045c5365ae61a8441772e7f3c1d382ab2e64f355e3a63e1339",
+   "igual_al_origen": true
+  },
+  {
+   "to": "incuca",
+   "archivo": "indice_incuca.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_incuca.json",
+   "sha256": "722b9d95577d3fd4d3acb4a0307b15d46873ea224ff43db3e031e63135f5d357",
+   "igual_al_origen": true
+  },
+  {
+   "to": "incuca",
+   "archivo": "pies_incuca.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_incuca.json",
+   "sha256": "13cbf8e1e1acb01a8bc391ddabdd03d34879b4c37c80b54b63ccfdfe3fade12d",
+   "igual_al_origen": true
+  },
+  {
+   "to": "incuca",
+   "archivo": "tablas_incuca.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_incuca.json",
+   "sha256": "e0161da437f3fd2cc0bacc738f3373133a78a1b150c464d804cd29da6728fb7c",
+   "igual_al_origen": true
+  },
+  {
+   "to": "venliq",
+   "archivo": "chunks_venliq.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_venliq.json",
+   "sha256": "fc5f7873960db674b00efc3ead7bf5a54bb318d9957827707a9103200544d97f",
+   "igual_al_origen": true
+  },
+  {
+   "to": "venliq",
+   "archivo": "estructura_venliq.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_venliq.json",
+   "sha256": "f78ff814b0fd01e52006582a5ca754f3aef751a26b4086e5e3d5473a3b7450ef",
+   "igual_al_origen": true
+  },
+  {
+   "to": "venliq",
+   "archivo": "indice_venliq.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_venliq.json",
+   "sha256": "aed9fd5301451ff8f6530a97ed558db484d6a83ba6bdd8069a46b7ed018ac4a5",
+   "igual_al_origen": true
+  },
+  {
+   "to": "venliq",
+   "archivo": "pies_venliq.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_venliq.json",
+   "sha256": "d7a345830507fc03d996cd32646106464744e5511216b32d94c99a7cb713a2fa",
+   "igual_al_origen": true
+  },
+  {
+   "to": "venliq",
+   "archivo": "tablas_venliq.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_venliq.json",
+   "sha256": "8c664ad3a33d79b1867cc009a74dc507330dc5a9e081107b0a8b6b20692dec68",
+   "igual_al_origen": true
+  },
+  {
+   "to": "fclef",
+   "archivo": "chunks_fclef.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_fclef.json",
+   "sha256": "80d5bfb435fccc71139bc0bc4b756e6d7b7a48c61b28e7b590b9047e3972a138",
+   "igual_al_origen": true
+  },
+  {
+   "to": "fclef",
+   "archivo": "estructura_fclef.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_fclef.json",
+   "sha256": "11f9bfc253b560c3dbf8f00d87d3d43b30f421ce5138f0b7a2bc967f65cec53d",
+   "igual_al_origen": true
+  },
+  {
+   "to": "fclef",
+   "archivo": "indice_fclef.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_fclef.json",
+   "sha256": "81e545c0dd633937701120c20f9646ed909347ce97e294a4be9c9391bb2ec703",
+   "igual_al_origen": true
+  },
+  {
+   "to": "fclef",
+   "archivo": "pies_fclef.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_fclef.json",
+   "sha256": "3357513a592786dc65d45c86d1cb9e85059c58409fbd6e8dd188d88e4bc2dd27",
+   "igual_al_origen": true
+  },
+  {
+   "to": "fclef",
+   "archivo": "tablas_fclef.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_fclef.json",
+   "sha256": "f71f8b952a9441e04336d7587a6cffe7bce1bfcbbb487d1b09c1a15c87b72c03",
+   "igual_al_origen": true
+  },
+  {
+   "to": "lavdin",
+   "archivo": "chunks_lavdin.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_lavdin.json",
+   "sha256": "2c9821e3dbd879e54fb75df7f92d6ed3a5e558712b2c3ebefca9d350bc30a6ea",
+   "igual_al_origen": true
+  },
+  {
+   "to": "lavdin",
+   "archivo": "estructura_lavdin.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_lavdin.json",
+   "sha256": "c39d79da826fca7f6517a79b9c5e90739410c4cdcfb71fe76ed07831b64fbd52",
+   "igual_al_origen": true
+  },
+  {
+   "to": "lavdin",
+   "archivo": "indice_lavdin.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_lavdin.json",
+   "sha256": "74b0fef5d5cb7141a937f22f2a53aa2a1a087744d59e2fa8006558fa5f5696b9",
+   "igual_al_origen": true
+  },
+  {
+   "to": "lavdin",
+   "archivo": "pies_lavdin.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_lavdin.json",
+   "sha256": "9df7dc5d5bddf3c28988184741acc7d49f8901b6d2442cc8b5aa8bc10a497616",
+   "igual_al_origen": true
+  },
+  {
+   "to": "lavdin",
+   "archivo": "tablas_lavdin.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_lavdin.json",
+   "sha256": "0352363052838455c4e65336d7faa47e4fc9fae4c907eedcd70bc518cc4d4b54",
+   "igual_al_origen": true
+  },
+  {
+   "to": "rmrtsd",
+   "archivo": "chunks_rmrtsd.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_rmrtsd.json",
+   "sha256": "e27be20edb54997b449c7c4eab94132d54096bdf83b048dceaf42e96b2e2eb72",
+   "igual_al_origen": true
+  },
+  {
+   "to": "rmrtsd",
+   "archivo": "estructura_rmrtsd.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_rmrtsd.json",
+   "sha256": "425d112c461d5083c465c74389a588b731457e4d67b7b979308289fd7d7a8b5c",
+   "igual_al_origen": true
+  },
+  {
+   "to": "rmrtsd",
+   "archivo": "indice_rmrtsd.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_rmrtsd.json",
+   "sha256": "219b3e2e1dd13c3c82b4810bf32e327f111a5958f08845adbdf6bfa5d15c3cda",
+   "igual_al_origen": true
+  },
+  {
+   "to": "rmrtsd",
+   "archivo": "pies_rmrtsd.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_rmrtsd.json",
+   "sha256": "3ae24dffdfaeeb0158510fa374fe5001570e70565068e7a0615d52fc5514d188",
+   "igual_al_origen": true
+  },
+  {
+   "to": "rmrtsd",
+   "archivo": "tablas_rmrtsd.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_rmrtsd.json",
+   "sha256": "64cc29bea7bb5f6a55d05bd552c763dd2f2b61c872f23e6e3de7a68f57a8c029",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ccbcra",
+   "archivo": "chunks_ccbcra.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_ccbcra.json",
+   "sha256": "2d45b38c2b1f7534a95cd64195fd590ac9da1cefc85931f4aff06873e5be95bf",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ccbcra",
+   "archivo": "estructura_ccbcra.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_ccbcra.json",
+   "sha256": "a5846aa84c25740b74c1c842045dcf18285e73223a9705dcfccf31dfcbad2e86",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ccbcra",
+   "archivo": "indice_ccbcra.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_ccbcra.json",
+   "sha256": "8859ab3dfee578425f165af37fc59eac93e4f60fe6d1cb00440bff93059ffe40",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ccbcra",
+   "archivo": "pies_ccbcra.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_ccbcra.json",
+   "sha256": "15f41589144103196c4da74cb12ba524f2cf05eaa7c5809d4888fd9c31e18e21",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ccbcra",
+   "archivo": "tablas_ccbcra.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_ccbcra.json",
+   "sha256": "c9f16a5f8bd6c3aafeae893b8fc3c5d47cf9042977e4d5761192d423306d6503",
+   "igual_al_origen": true
+  },
+  {
+   "to": "apnf",
+   "archivo": "chunks_apnf.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_apnf.json",
+   "sha256": "08fc41a09bf9c7c94cedd59fb8e90df0614ab5e6024c19cb6f2ee617e7dee22a",
+   "igual_al_origen": true
+  },
+  {
+   "to": "apnf",
+   "archivo": "estructura_apnf.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_apnf.json",
+   "sha256": "8c715f61687c18312ef05ed07e2cb10a47c71c7389cb397719935629c68b5859",
+   "igual_al_origen": true
+  },
+  {
+   "to": "apnf",
+   "archivo": "indice_apnf.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_apnf.json",
+   "sha256": "d882be2a089e5ea7c27d9164108f62261956689813d6b7872b4cecb55a97c035",
+   "igual_al_origen": true
+  },
+  {
+   "to": "apnf",
+   "archivo": "pies_apnf.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_apnf.json",
+   "sha256": "9feb582099392ab848d005d5f37f62af4a979e4f954415b683752f35a05f8c7a",
+   "igual_al_origen": true
+  },
+  {
+   "to": "apnf",
+   "archivo": "tablas_apnf.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_apnf.json",
+   "sha256": "bbd43b65f242472bedaf4c76801626f021370862992d0f8fcbf2093a5b69b400",
+   "igual_al_origen": true
+  },
+  {
+   "to": "traval",
+   "archivo": "chunks_traval.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_traval.json",
+   "sha256": "a25ac11c4e0ab2f06f6f5f7aea5a07ad5f1970542053c64e242662f389a19f88",
+   "igual_al_origen": true
+  },
+  {
+   "to": "traval",
+   "archivo": "estructura_traval.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_traval.json",
+   "sha256": "a55afe3401b323d47d30f697f60863da29ee67cf1e0c7f2f4bb02002bd412078",
+   "igual_al_origen": true
+  },
+  {
+   "to": "traval",
+   "archivo": "indice_traval.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_traval.json",
+   "sha256": "696517ef73cd84b053f44c790455bd6c2feb833d65eacfa943da35b95f482462",
+   "igual_al_origen": true
+  },
+  {
+   "to": "traval",
+   "archivo": "pies_traval.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_traval.json",
+   "sha256": "59bca72b1dfab55ffdc80882dea222c44afeb5601d4ce9a552d5d11e3cf83ed6",
+   "igual_al_origen": true
+  },
+  {
+   "to": "traval",
+   "archivo": "tablas_traval.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_traval.json",
+   "sha256": "326ba86063758c5d86ba6b4db43b7fe75cd8ef1b171b0f56a61e2916e00770a2",
+   "igual_al_origen": true
+  },
+  {
+   "to": "disres",
+   "archivo": "chunks_disres.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_disres.json",
+   "sha256": "c6effd0271c8547b42d44b6a514ba4051d88df08d27791c353721dfb84c6199e",
+   "igual_al_origen": true
+  },
+  {
+   "to": "disres",
+   "archivo": "estructura_disres.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_disres.json",
+   "sha256": "85328481d89123b9073dde5e48b5b049a41df4bb99712968d1a0fe99e092a675",
+   "igual_al_origen": true
+  },
+  {
+   "to": "disres",
+   "archivo": "indice_disres.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_disres.json",
+   "sha256": "c142a9e691f9758029bae275e486adb1687efa36fe1406a1f78a33c85b48f988",
+   "igual_al_origen": true
+  },
+  {
+   "to": "disres",
+   "archivo": "pies_disres.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_disres.json",
+   "sha256": "f7dd6dd2c8a2d90441a1178e7c1fe5fb4235ef19c7f9b3c5cfec745d225a774f",
+   "igual_al_origen": true
+  },
+  {
+   "to": "disres",
+   "archivo": "tablas_disres.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_disres.json",
+   "sha256": "4fa893376a0af7eaf3ab3c27cb6fc379ca66e267e24b3256bec64fbf8592e229",
+   "igual_al_origen": true
+  },
+  {
+   "to": "relact",
+   "archivo": "chunks_relact.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_relact.json",
+   "sha256": "f0b8107d43187d3954883857162dd0a2055ca927dda3212863215bba171a0801",
+   "igual_al_origen": true
+  },
+  {
+   "to": "relact",
+   "archivo": "estructura_relact.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_relact.json",
+   "sha256": "c742e57050d2ab25e916710e479475274055ebbf738ebe6c2dfdd3645b8283bc",
+   "igual_al_origen": true
+  },
+  {
+   "to": "relact",
+   "archivo": "indice_relact.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_relact.json",
+   "sha256": "22ecbcf04def103e82ba6123bedc621ccc1e0ada2f1f01f013f0a0f023779b9e",
+   "igual_al_origen": true
+  },
+  {
+   "to": "relact",
+   "archivo": "pies_relact.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_relact.json",
+   "sha256": "107a46fc4edbd9d0a8a4fab197ea86c7854e14603568263d10e8232db8ba9eda",
+   "igual_al_origen": true
+  },
+  {
+   "to": "relact",
+   "archivo": "tablas_relact.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_relact.json",
+   "sha256": "87d2a66e5b2aeb233e61850af9c3a580a10c0d2af790a5464c683d361eac9f08",
+   "igual_al_origen": true
+  },
+  {
+   "to": "coltit",
+   "archivo": "chunks_coltit.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_coltit.json",
+   "sha256": "815d982359699e9513df85e5d7336835d555e0be00c3320eda369f14e44a0a50",
+   "igual_al_origen": true
+  },
+  {
+   "to": "coltit",
+   "archivo": "estructura_coltit.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_coltit.json",
+   "sha256": "3acb1943e7a7275a78e7edd8b5dc249adc2a8ed7bf762007a9c4f15ebbb079fe",
+   "igual_al_origen": true
+  },
+  {
+   "to": "coltit",
+   "archivo": "indice_coltit.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_coltit.json",
+   "sha256": "696833bbaf1b0ac441d28aacb747210a57bbc5e13f2de4a39855d18326b0c219",
+   "igual_al_origen": true
+  },
+  {
+   "to": "coltit",
+   "archivo": "pies_coltit.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_coltit.json",
+   "sha256": "b8d47ba22378ca444023269ac35d567951e6d0ab90f0ceebb90221f6b9f25c2b",
+   "igual_al_origen": true
+  },
+  {
+   "to": "coltit",
+   "archivo": "tablas_coltit.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_coltit.json",
+   "sha256": "ed72252cc6be048e39db07feb3de7c3a4b4bd36816db4459a39abf64de562df5",
+   "igual_al_origen": true
+  },
+  {
+   "to": "raapal",
+   "archivo": "chunks_raapal.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_raapal.json",
+   "sha256": "7512662b10f33ae75d2324b6e78a88f3cdd37f962386a1181243487617dad17f",
+   "igual_al_origen": true
+  },
+  {
+   "to": "raapal",
+   "archivo": "estructura_raapal.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_raapal.json",
+   "sha256": "53520b5d8ff702af21469601c9f43e54a351607127517e3a33e3590e9aa51cc6",
+   "igual_al_origen": true
+  },
+  {
+   "to": "raapal",
+   "archivo": "indice_raapal.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_raapal.json",
+   "sha256": "74a3dc8db6e59f49a150ccc0801edaa8697a31491597e5b1b2017f303b6f2920",
+   "igual_al_origen": true
+  },
+  {
+   "to": "raapal",
+   "archivo": "pies_raapal.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_raapal.json",
+   "sha256": "dc62526d2ac9692f00c00408fb541d6ea3a9f15e76b6f688db922a88d11be954",
+   "igual_al_origen": true
+  },
+  {
+   "to": "raapal",
+   "archivo": "tablas_raapal.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_raapal.json",
+   "sha256": "264cbae62acc6540ee8a2a4c46b76502416dee03637d7ea64a5e1f936b96c099",
+   "igual_al_origen": true
+  },
+  {
+   "to": "servco",
+   "archivo": "chunks_servco.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_servco.json",
+   "sha256": "430aecd1e64c0f4559d7e97e02b1d578e351d18e89bfe0974b10a280a7838ca5",
+   "igual_al_origen": true
+  },
+  {
+   "to": "servco",
+   "archivo": "estructura_servco.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_servco.json",
+   "sha256": "959f29d5ef94358c902ea2ffbd3dad25c4f11f0492b1339d0533a7de6bd3042d",
+   "igual_al_origen": true
+  },
+  {
+   "to": "servco",
+   "archivo": "indice_servco.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_servco.json",
+   "sha256": "8ae46211e0f7f3b6cb5c4583f9f5057a2936ff7ec5220ec212ac927e47083b93",
+   "igual_al_origen": true
+  },
+  {
+   "to": "servco",
+   "archivo": "pies_servco.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_servco.json",
+   "sha256": "59b87ac4334589a95537a5c4ec1691325309af63a0beb152a449075f13632866",
+   "igual_al_origen": true
+  },
+  {
+   "to": "servco",
+   "archivo": "tablas_servco.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_servco.json",
+   "sha256": "d64a890df22a3b7e1adf14243566246a83ab40c7b2af448e3d0166183a1a80c3",
+   "igual_al_origen": true
+  },
+  {
+   "to": "retype",
+   "archivo": "chunks_retype.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_retype.json",
+   "sha256": "c87fc83efff9e70ca6ba5b21a1528c284bd62bb9117dccbc5dc85e4159589fec",
+   "igual_al_origen": true
+  },
+  {
+   "to": "retype",
+   "archivo": "estructura_retype.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_retype.json",
+   "sha256": "7e45d16316acb4e70c2ab7e908748cf49a06ff460bac94ebcf6dcdf6aa97d4bf",
+   "igual_al_origen": true
+  },
+  {
+   "to": "retype",
+   "archivo": "indice_retype.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_retype.json",
+   "sha256": "ade5bb14e22100a82cea58ac8f17a293fe2a72882ee7c0ea435ae1598036b839",
+   "igual_al_origen": true
+  },
+  {
+   "to": "retype",
+   "archivo": "pies_retype.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_retype.json",
+   "sha256": "1e942e2d634ee9e6f913894a24f8f4bd56211d6eab10cde509870668c4fedb87",
+   "igual_al_origen": true
+  },
+  {
+   "to": "retype",
+   "archivo": "tablas_retype.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_retype.json",
+   "sha256": "b76eff63970454280d3b70498f27f918cb1b6cf684442a52d0f7a86357009cb4",
+   "igual_al_origen": true
+  },
+  {
+   "to": "fabcra",
+   "archivo": "chunks_fabcra.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_fabcra.json",
+   "sha256": "209041ce1bdb3e435656568e150fa6f2d55d2965170a89fbd45bab53160e3835",
+   "igual_al_origen": true
+  },
+  {
+   "to": "fabcra",
+   "archivo": "estructura_fabcra.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_fabcra.json",
+   "sha256": "c35b7fdf3ee7f508e9474098a321f7df203402b5423161acc79c91b3464afe40",
+   "igual_al_origen": true
+  },
+  {
+   "to": "fabcra",
+   "archivo": "indice_fabcra.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_fabcra.json",
+   "sha256": "efbfa81333d5b2d1ec22e88e654a1c160441d63525ef177586bfafa91bff7e81",
+   "igual_al_origen": true
+  },
+  {
+   "to": "fabcra",
+   "archivo": "pies_fabcra.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_fabcra.json",
+   "sha256": "abd982cfbecebcb88e637ee65666c688e0b05e36cfcfc9455a0575d20ed50938",
+   "igual_al_origen": true
+  },
+  {
+   "to": "fabcra",
+   "archivo": "tablas_fabcra.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_fabcra.json",
+   "sha256": "7ec45ee264ffdb7e91984cf190e9e90dce2fc1ad20ae526fff8d4b5d3cff1aec",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri2_ci",
+   "archivo": "chunks_ri2_ci.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_ri2_ci.json",
+   "sha256": "cd329627a39163c808bcc0e3957657712708196943dcc736ac98f414a2511683",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri2_ci",
+   "archivo": "estructura_ri2_ci.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_ri2_ci.json",
+   "sha256": "0f8c7f76ef71858f84b0bead3333cc69b311f5aaba5b7db8685df5bc564e4402",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri2_ci",
+   "archivo": "indice_ri2_ci.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_ri2_ci.json",
+   "sha256": "b403f8f8e01f0ff134bdfbbd0dbcbec9651c9c9762d9d7132615271a56dd06c5",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri2_ci",
+   "archivo": "pies_ri2_ci.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_ri2_ci.json",
+   "sha256": "9403416c50174cc9370c9c41eefaf2444faf64ede5495fe9bd8df1254abb20c6",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ri2_ci",
+   "archivo": "tablas_ri2_ci.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_ri2_ci.json",
+   "sha256": "9d4b670d64972649809f147d2d53925528917cbb1fd96cca6d3d5fe4d3e52b82",
+   "igual_al_origen": true
+  },
+  {
+   "to": "icmecma",
+   "archivo": "chunks_icmecma.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_icmecma.json",
+   "sha256": "a36edc4042e73a8d0597a1f9eda45ce152be36147b6783a558ac59e4ccadd6b2",
+   "igual_al_origen": true
+  },
+  {
+   "to": "icmecma",
+   "archivo": "estructura_icmecma.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_icmecma.json",
+   "sha256": "acd9d4969f8b8b417af78b2463110befdf4bc12dc211ea56c5ae5a177a2cf0a0",
+   "igual_al_origen": true
+  },
+  {
+   "to": "icmecma",
+   "archivo": "indice_icmecma.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_icmecma.json",
+   "sha256": "3a86a5086adf497df8f8fa6fbf9ad52f87b44b44bf40af739b3977b667392d73",
+   "igual_al_origen": true
+  },
+  {
+   "to": "icmecma",
+   "archivo": "pies_icmecma.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_icmecma.json",
+   "sha256": "8ed8104208bc3ae5cdef8299f4cd70f2e1d5806b4b0e3c69c46dfb2ccd9654f5",
+   "igual_al_origen": true
+  },
+  {
+   "to": "icmecma",
+   "archivo": "tablas_icmecma.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_icmecma.json",
+   "sha256": "1ae2780a2e8972c9af5d16507fe05c72eb372337ae53317e969720e6196b8f2f",
+   "igual_al_origen": true
+  },
+  {
+   "to": "pfmipyme",
+   "archivo": "chunks_pfmipyme.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_pfmipyme.json",
+   "sha256": "27126cd89df6a6f945bdb9fd81bbffff95989fc8d61356503392eb6032ce5214",
+   "igual_al_origen": true
+  },
+  {
+   "to": "pfmipyme",
+   "archivo": "estructura_pfmipyme.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_pfmipyme.json",
+   "sha256": "9581fa88a304941ecad9e0d1acbfc63d7473de91266d076bd02d9245e1affb06",
+   "igual_al_origen": true
+  },
+  {
+   "to": "pfmipyme",
+   "archivo": "indice_pfmipyme.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_pfmipyme.json",
+   "sha256": "f701ca79568b362d5f1506ec2859d1ad97f812fae462eddc9bbd9e43c404482d",
+   "igual_al_origen": true
+  },
+  {
+   "to": "pfmipyme",
+   "archivo": "pies_pfmipyme.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_pfmipyme.json",
+   "sha256": "4a42752a1a159d7fb451c1a6a4274025b2e425d5ece9479ec2d20ba3a3516327",
+   "igual_al_origen": true
+  },
+  {
+   "to": "pfmipyme",
+   "archivo": "tablas_pfmipyme.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_pfmipyme.json",
+   "sha256": "719da5c9da7419bfcd15ec7c1144d345998eb79ace2f43436d5326e8818c1ae6",
+   "igual_al_origen": true
+  },
+  {
+   "to": "prevmi",
+   "archivo": "chunks_prevmi.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_prevmi.json",
+   "sha256": "d89a4e3ee2710d83b93e97f6e5d315b630d1ac28765f25ffc51d1f91cc00c4de",
+   "igual_al_origen": true
+  },
+  {
+   "to": "prevmi",
+   "archivo": "estructura_prevmi.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_prevmi.json",
+   "sha256": "6c448707f385110c7dbd958f03cc2d0ab23efee24cc43145d0c7940e3cdaee11",
+   "igual_al_origen": true
+  },
+  {
+   "to": "prevmi",
+   "archivo": "indice_prevmi.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_prevmi.json",
+   "sha256": "c78aea5d3ead7e94f1b638e79d7cfaacd46d2e429930f75820bdf22f6a6d4dfb",
+   "igual_al_origen": true
+  },
+  {
+   "to": "prevmi",
+   "archivo": "pies_prevmi.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_prevmi.json",
+   "sha256": "ccd422e686439bf0ff84dddf6cbf64c5bc69d47b59c929ece25d298cb97155e1",
+   "igual_al_origen": true
+  },
+  {
+   "to": "prevmi",
+   "archivo": "tablas_prevmi.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_prevmi.json",
+   "sha256": "6508e9bd273240a3e0496fdd279265ab318e35b3b52f5a3f4dc640dd17a8fc14",
+   "igual_al_origen": true
+  },
+  {
+   "to": "fimipyme",
+   "archivo": "chunks_fimipyme.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_fimipyme.json",
+   "sha256": "40bb6e5ba8037bcf9227da391979f2eb28f3d41510a846bf8f28ee8789910581",
+   "igual_al_origen": true
+  },
+  {
+   "to": "fimipyme",
+   "archivo": "estructura_fimipyme.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_fimipyme.json",
+   "sha256": "beac804a5b1c6645a9d19e0a754ff77779a187a97eaee6e8289e86dc11018986",
+   "igual_al_origen": true
+  },
+  {
+   "to": "fimipyme",
+   "archivo": "indice_fimipyme.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_fimipyme.json",
+   "sha256": "d779842a09fd2d8f1a42a99d760a75ccf4fcc408bab185e5ca3fb2c40830e780",
+   "igual_al_origen": true
+  },
+  {
+   "to": "fimipyme",
+   "archivo": "pies_fimipyme.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_fimipyme.json",
+   "sha256": "048c8d510a433b7e95a0cdfad5830fcf4f7c6a7896dad1f6bafead92f02d8599",
+   "igual_al_origen": true
+  },
+  {
+   "to": "fimipyme",
+   "archivo": "tablas_fimipyme.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_fimipyme.json",
+   "sha256": "db48e30e9aa485053378292777f33c4dbb382f110f9d429d1b5bbb325642e00a",
+   "igual_al_origen": true
+  },
+  {
+   "to": "garopt",
+   "archivo": "chunks_garopt.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_garopt.json",
+   "sha256": "9bed2d40590c00cca9ee5a817cfcd37d371caf4338e4eef76403c7d7949918cf",
+   "igual_al_origen": true
+  },
+  {
+   "to": "garopt",
+   "archivo": "estructura_garopt.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_garopt.json",
+   "sha256": "8896dfbd841333f762a47e7d8347a2748c1f6d27975f7b594d997d4da362c930",
+   "igual_al_origen": true
+  },
+  {
+   "to": "garopt",
+   "archivo": "indice_garopt.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_garopt.json",
+   "sha256": "f6a4d633d4cbb7bf9e58da846dbbae2e67782cf9c1369ef8bc34a10a44398d62",
+   "igual_al_origen": true
+  },
+  {
+   "to": "garopt",
+   "archivo": "pies_garopt.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_garopt.json",
+   "sha256": "344a476623120360be0308dc60e43352b34495aeda58737fedd3ed5ecfff8854",
+   "igual_al_origen": true
+  },
+  {
+   "to": "garopt",
+   "archivo": "tablas_garopt.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_garopt.json",
+   "sha256": "5381eb02ff509137f49defb8489e25a474de22c028d300b458e2f765ba290d05",
+   "igual_al_origen": true
+  },
+  {
+   "to": "actgar",
+   "archivo": "chunks_actgar.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_actgar.json",
+   "sha256": "ee3d64eee336d551fb6840274b299826d21893eac6599eecc73119c6458e5bcb",
+   "igual_al_origen": true
+  },
+  {
+   "to": "actgar",
+   "archivo": "estructura_actgar.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_actgar.json",
+   "sha256": "5cbda45970553482d58d2e09bbdb8d87621fa2fb781024e82171e894b1c0a8db",
+   "igual_al_origen": true
+  },
+  {
+   "to": "actgar",
+   "archivo": "indice_actgar.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_actgar.json",
+   "sha256": "3f450bb70161471a6f535d34b660aa58fcbf1df284bb9e1d40420165a0208144",
+   "igual_al_origen": true
+  },
+  {
+   "to": "actgar",
+   "archivo": "pies_actgar.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_actgar.json",
+   "sha256": "222a27268886ed3149533ed88e88dfc168b4ca42d5fcf297e07c3f0f0c83e092",
+   "igual_al_origen": true
+  },
+  {
+   "to": "actgar",
+   "archivo": "tablas_actgar.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_actgar.json",
+   "sha256": "f9e0143ef903da83f5881c89e18ea468380341b97a182891882a35856b0556cd",
+   "igual_al_origen": true
+  },
+  {
+   "to": "gescre",
+   "archivo": "chunks_gescre.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_gescre.json",
+   "sha256": "d68b359a535c48a98b35f0950eb69a5eaee2a5a75cd16293218431a5bb5eab9b",
+   "igual_al_origen": true
+  },
+  {
+   "to": "gescre",
+   "archivo": "estructura_gescre.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_gescre.json",
+   "sha256": "d992b7b46eff1f0cd44534d8653a1a4d9fbc241117ce7f943af99f51f9dee43b",
+   "igual_al_origen": true
+  },
+  {
+   "to": "gescre",
+   "archivo": "indice_gescre.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_gescre.json",
+   "sha256": "9b6a414a06a4d8b3586652f9154206e33ef78a4ec1b2ab31bbb5cf981401f4fa",
+   "igual_al_origen": true
+  },
+  {
+   "to": "gescre",
+   "archivo": "pies_gescre.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_gescre.json",
+   "sha256": "4003f9bc82aa5038b06914e25645ff6af8d25e546077e04cf05f59c404a52cc3",
+   "igual_al_origen": true
+  },
+  {
+   "to": "gescre",
+   "archivo": "tablas_gescre.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_gescre.json",
+   "sha256": "66a1c7cd27927514507be94d8b6a50fc757911a11eddea36fb5c218977590454",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_mep",
+   "archivo": "chunks_snp_mep.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_snp_mep.json",
+   "sha256": "7cd1710e37055340cf642b588605d388e1f63897a3646a8a38deeb36cd466a5e",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_mep",
+   "archivo": "estructura_snp_mep.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_snp_mep.json",
+   "sha256": "34e1ee8fe1876d8ff8ce6690cfa351f0d4077ec186e8bf23a3228c4ce50cd4c9",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_mep",
+   "archivo": "indice_snp_mep.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_snp_mep.json",
+   "sha256": "8fc3c5e5965a178aa6fcae76f0936b0761313f0294d30bb4e1c083f76f40a0c3",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_mep",
+   "archivo": "pies_snp_mep.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_snp_mep.json",
+   "sha256": "3c8ad471530643472ac860f9bc8a2a41272825333b48a8df933355d0effd80b5",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_mep",
+   "archivo": "tablas_snp_mep.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_snp_mep.json",
+   "sha256": "0f7adfe2c2ff34a9d676546192a3a0c9b569b1d6a6001af4cf96eec7d667d2e5",
+   "igual_al_origen": true
+  },
+  {
+   "to": "opecam",
+   "archivo": "chunks_opecam.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_opecam.json",
+   "sha256": "32edd67c5b8f95f83e4fab38834ecdc2b789848466a8d6a895ce649db75513aa",
+   "igual_al_origen": true
+  },
+  {
+   "to": "opecam",
+   "archivo": "estructura_opecam.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_opecam.json",
+   "sha256": "dfaef72b84333dbf0411f4a6ae84999ad8695bc38338f23fccb93adb9f035315",
+   "igual_al_origen": true
+  },
+  {
+   "to": "opecam",
+   "archivo": "indice_opecam.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_opecam.json",
+   "sha256": "b9947cdcf53827093888759208d7d89d8926796bac712ae3d79aa9a95783ee66",
+   "igual_al_origen": true
+  },
+  {
+   "to": "opecam",
+   "archivo": "pies_opecam.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_opecam.json",
+   "sha256": "f72c5d2c1b3aab57804e734c048b7b55f9b5198eb5ff5992cb4b91d6e3f9e0d5",
+   "igual_al_origen": true
+  },
+  {
+   "to": "opecam",
+   "archivo": "tablas_opecam.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_opecam.json",
+   "sha256": "d477ef498d40b4e6732ec15ec95e996671fca2687a1e96d8a396e12c8d07fc9b",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ordcom",
+   "archivo": "chunks_ordcom.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_ordcom.json",
+   "sha256": "8c51a65a2001690b9b189d35ce96960f9047e956f62728d1e682a6cff293b524",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ordcom",
+   "archivo": "estructura_ordcom.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_ordcom.json",
+   "sha256": "c8352e918f125d6d86bb90bcddd5d77e573bb79902d433ede785578f7a834966",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ordcom",
+   "archivo": "indice_ordcom.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_ordcom.json",
+   "sha256": "91949783ec5014ed0b8a32e0ceb1781d228bdc4ee4f7dc1810961ed3bd231bef",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ordcom",
+   "archivo": "pies_ordcom.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_ordcom.json",
+   "sha256": "ad6ff5f47bafea6c9b220bf164cb0f400acdf49c892ac7ddfb1c22033d48144a",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ordcom",
+   "archivo": "tablas_ordcom.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_ordcom.json",
+   "sha256": "ac04803a66267a9b1ebaf23d47956dcf5b4a6a1c7a909498e39797b7703522a8",
+   "igual_al_origen": true
+  },
+  {
+   "to": "gracre",
+   "archivo": "chunks_gracre.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_gracre.json",
+   "sha256": "e8d2de9c58d85d35e679491f1c141547c6450c5397fbe51aec8c356df0343225",
+   "igual_al_origen": true
+  },
+  {
+   "to": "gracre",
+   "archivo": "estructura_gracre.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_gracre.json",
+   "sha256": "864bcc02bc72571ac3735adb3650b0cae371635d2003a5945d77a6204d15ccaf",
+   "igual_al_origen": true
+  },
+  {
+   "to": "gracre",
+   "archivo": "indice_gracre.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_gracre.json",
+   "sha256": "eb861c4a221a3b6dfda19a87230a16d5fa0c104d112190f792a4fe778fbf89dc",
+   "igual_al_origen": true
+  },
+  {
+   "to": "gracre",
+   "archivo": "pies_gracre.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_gracre.json",
+   "sha256": "e4e0f3ec8c4bd2c7cea15f5dad06a1a79a11c61fcaf4e8601f96147dfbd9df47",
+   "igual_al_origen": true
+  },
+  {
+   "to": "gracre",
+   "archivo": "tablas_gracre.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_gracre.json",
+   "sha256": "e697ab1f12e72b1da5b9e93683955924cade314d2b6952e5b17d6fe0d6a27fe3",
+   "igual_al_origen": true
+  },
+  {
+   "to": "supcon",
+   "archivo": "chunks_supcon.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_supcon.json",
+   "sha256": "1f382c9167f4aa4befafe4e419c3f1f5172145dc47c821829782d3e41b274d65",
+   "igual_al_origen": true
+  },
+  {
+   "to": "supcon",
+   "archivo": "estructura_supcon.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_supcon.json",
+   "sha256": "2327a714289dc03791c040b6075961849cfa572a5ee9b917dae7083df4092fb8",
+   "igual_al_origen": true
+  },
+  {
+   "to": "supcon",
+   "archivo": "indice_supcon.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_supcon.json",
+   "sha256": "8cffb17b9827ded3d957cdd6d6ab1adbe91fc01137c5aeaf2357966c171d70a4",
+   "igual_al_origen": true
+  },
+  {
+   "to": "supcon",
+   "archivo": "pies_supcon.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_supcon.json",
+   "sha256": "11255d5f9d62f411620ff02f7be325ef3104fbf828ec1c575035f0d292a4e9c7",
+   "igual_al_origen": true
+  },
+  {
+   "to": "supcon",
+   "archivo": "tablas_supcon.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_supcon.json",
+   "sha256": "75506ba1c7d3136088f130a0660bab51e735b03defff4736eb1683b1a1a47229",
+   "igual_al_origen": true
+  },
+  {
+   "to": "cryl",
+   "archivo": "chunks_cryl.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_cryl.json",
+   "sha256": "da8ce647cadf5d05963fab8e7b82925904ae31524cf84d02a6be2cca103b8d17",
+   "igual_al_origen": true
+  },
+  {
+   "to": "cryl",
+   "archivo": "estructura_cryl.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_cryl.json",
+   "sha256": "cfe686ab06bd287e6a7dbd7f67c06511ae83a7f5389b793d3f2250265975c469",
+   "igual_al_origen": true
+  },
+  {
+   "to": "cryl",
+   "archivo": "indice_cryl.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_cryl.json",
+   "sha256": "2ef7763d25d21d5b9617562c577fa08bc758f51bdf2c71af0dbd1c410f1c9e55",
+   "igual_al_origen": true
+  },
+  {
+   "to": "cryl",
+   "archivo": "pies_cryl.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_cryl.json",
+   "sha256": "a4f14933a904f48358d586fe9c82ed25e0a1ae770c0a272074c9a87156dde329",
+   "igual_al_origen": true
+  },
+  {
+   "to": "cryl",
+   "archivo": "tablas_cryl.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_cryl.json",
+   "sha256": "6a2acf241de7b08a86c19909c32081a5647204ded89c0b22b591787af754c905",
+   "igual_al_origen": true
+  },
+  {
+   "to": "tasint",
+   "archivo": "chunks_tasint.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_tasint.json",
+   "sha256": "725cf031bcbe73c61aacc72400e03c36c28dfa6f98aa6b15bb69b63a2319a96d",
+   "igual_al_origen": true
+  },
+  {
+   "to": "tasint",
+   "archivo": "estructura_tasint.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_tasint.json",
+   "sha256": "0c1e25e6498adafdab05a513846e6b38ddfe7799be33768d9e6fdbbfb3293cd7",
+   "igual_al_origen": true
+  },
+  {
+   "to": "tasint",
+   "archivo": "indice_tasint.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_tasint.json",
+   "sha256": "38aadbfe8330b0d92b74fc0fdf421a9bfb19b1f4c2f781d0177ffc39cfb7732f",
+   "igual_al_origen": true
+  },
+  {
+   "to": "tasint",
+   "archivo": "pies_tasint.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_tasint.json",
+   "sha256": "d2223cb6e6683030c36b5c69ea7160f1420e0719dfc4c6265a7af54aeab2b6e6",
+   "igual_al_origen": true
+  },
+  {
+   "to": "tasint",
+   "archivo": "tablas_tasint.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_tasint.json",
+   "sha256": "a146533406f8a5f4ad947fddc47222dd27c966dc9fd963fc26f3a5d38f1503d5",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_debin",
+   "archivo": "chunks_snp_debin.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_snp_debin.json",
+   "sha256": "2edc16777cd347a3bcbf7af99dfe947eed5050c23423f0dc67532b29734166bb",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_debin",
+   "archivo": "estructura_snp_debin.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_snp_debin.json",
+   "sha256": "6c486da944012370b48782aeea90f058a546b349a6bf9ac83547b98b5821052e",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_debin",
+   "archivo": "indice_snp_debin.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_snp_debin.json",
+   "sha256": "0d39c665a367a3b5cbcebe232526d21f673284277490d1b4fee038c7357fe090",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_debin",
+   "archivo": "pies_snp_debin.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_snp_debin.json",
+   "sha256": "523adb040063376df11582a3ca8c76537bb71556379772c4be2c638234c1f447",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_debin",
+   "archivo": "tablas_snp_debin.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_snp_debin.json",
+   "sha256": "236e87766c098c4a4a6dfe69979a723703d43d271ef251ba14f5032f7cba6b5b",
+   "igual_al_origen": true
+  },
+  {
+   "to": "afiltr",
+   "archivo": "chunks_afiltr.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_afiltr.json",
+   "sha256": "a7aab066dd264a73561465db01a8ea65363fb45f0630f09f2b0477808dbc1609",
+   "igual_al_origen": true
+  },
+  {
+   "to": "afiltr",
+   "archivo": "estructura_afiltr.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_afiltr.json",
+   "sha256": "c71d198e4560064d784ef147e975c25663b15be62b89d7676268c2868f080c5e",
+   "igual_al_origen": true
+  },
+  {
+   "to": "afiltr",
+   "archivo": "indice_afiltr.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_afiltr.json",
+   "sha256": "926c8a072e6d05fcde7937247d50d3acecbe3eead2e813e8e62fe43c8887bebb",
+   "igual_al_origen": true
+  },
+  {
+   "to": "afiltr",
+   "archivo": "pies_afiltr.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_afiltr.json",
+   "sha256": "f2376e9b592c3ef6d146c91d0851be28345b3c68effa069c453adf71300614eb",
+   "igual_al_origen": true
+  },
+  {
+   "to": "afiltr",
+   "archivo": "tablas_afiltr.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_afiltr.json",
+   "sha256": "601e3c9de902999036945ae0a121bbff2ecca82e60e959ac07772fad8905918d",
+   "igual_al_origen": true
+  },
+  {
+   "to": "autenf",
+   "archivo": "chunks_autenf.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_autenf.json",
+   "sha256": "fac3a3d9fb77dc3e7cbdd2a2f9f950c74934fca50fca66038972961ff02189e7",
+   "igual_al_origen": true
+  },
+  {
+   "to": "autenf",
+   "archivo": "estructura_autenf.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_autenf.json",
+   "sha256": "1d598fdf92d4ae9e32f4dc756bf009cdffd8d801c1272766d4f4eb651a63e04d",
+   "igual_al_origen": true
+  },
+  {
+   "to": "autenf",
+   "archivo": "indice_autenf.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_autenf.json",
+   "sha256": "e070db53ef803350228c2c6ce4c13dd5b1826fb638bc8e84d4676af17874e41e",
+   "igual_al_origen": true
+  },
+  {
+   "to": "autenf",
+   "archivo": "pies_autenf.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_autenf.json",
+   "sha256": "1baedb4405f38ce82159af81e8809ebbe17a605a51d8756d921296e02c061d5e",
+   "igual_al_origen": true
+  },
+  {
+   "to": "autenf",
+   "archivo": "tablas_autenf.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_autenf.json",
+   "sha256": "36142b6abb992867d31b12690c4f4d4c8ea4f2045a579de35be90cf3e7103e55",
+   "igual_al_origen": true
+  },
+  {
+   "to": "rrci",
+   "archivo": "chunks_rrci.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_rrci.json",
+   "sha256": "38808b17d76bf55a8cd02b60a4190d59f684e1adfa52dbf3337533bd885c7ce3",
+   "igual_al_origen": true
+  },
+  {
+   "to": "rrci",
+   "archivo": "estructura_rrci.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_rrci.json",
+   "sha256": "df2a97098ca66de6ebf46727b543d885ee2cb0c5a9ac57126d938aa943ea900c",
+   "igual_al_origen": true
+  },
+  {
+   "to": "rrci",
+   "archivo": "indice_rrci.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_rrci.json",
+   "sha256": "63266022a38042f628ffdc280166f2fb77f0037b86b16d5595a4eb87d73cbedf",
+   "igual_al_origen": true
+  },
+  {
+   "to": "rrci",
+   "archivo": "pies_rrci.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_rrci.json",
+   "sha256": "f32c2f36cc703ceb5f948f3721eff9321f3efa6e2b3a7c7c041c50f7566e70e2",
+   "igual_al_origen": true
+  },
+  {
+   "to": "rrci",
+   "archivo": "tablas_rrci.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_rrci.json",
+   "sha256": "c2fa93f03eeb6d26a7e0881f6703d5f98cff3d5174268ea1d1d165f84d4a78c2",
+   "igual_al_origen": true
+  },
+  {
+   "to": "rmgcti",
+   "archivo": "chunks_rmgcti.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_rmgcti.json",
+   "sha256": "7b28265ddcc4c58b250f5dc9f14d8a801a064065899d2bab69b39098fbd01493",
+   "igual_al_origen": true
+  },
+  {
+   "to": "rmgcti",
+   "archivo": "estructura_rmgcti.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_rmgcti.json",
+   "sha256": "7728dfadd2ba26d48cc099c0f576c335b8c2930377cc2b3ab71bbb244f0e0675",
+   "igual_al_origen": true
+  },
+  {
+   "to": "rmgcti",
+   "archivo": "indice_rmgcti.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_rmgcti.json",
+   "sha256": "e9adf0d4142d2ecc7620712537ed04336a66dc9dae7f042ce867820d6a1cbb2b",
+   "igual_al_origen": true
+  },
+  {
+   "to": "rmgcti",
+   "archivo": "pies_rmgcti.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_rmgcti.json",
+   "sha256": "6b27074162d05156cffacb7366347c0b7a13bd94a45c9b9e1ff3cbfafd5e3062",
+   "igual_al_origen": true
+  },
+  {
+   "to": "rmgcti",
+   "archivo": "tablas_rmgcti.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_rmgcti.json",
+   "sha256": "6a03521fd4e941a56eeeb5336973706c8b45c7b58530d3a1f2384dbb6630fe9f",
+   "igual_al_origen": true
+  },
+  {
+   "to": "repefe",
+   "archivo": "chunks_repefe.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_repefe.json",
+   "sha256": "3b5ee7e85c8a0b0f117ecda4232c7c91e7bf82250e32b61630c23f56872ca693",
+   "igual_al_origen": true
+  },
+  {
+   "to": "repefe",
+   "archivo": "estructura_repefe.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_repefe.json",
+   "sha256": "e50c754c2f39a200e1f81690548462efa59afbb03da18fe7dd2b7986019c1c97",
+   "igual_al_origen": true
+  },
+  {
+   "to": "repefe",
+   "archivo": "indice_repefe.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_repefe.json",
+   "sha256": "f604b29c29a0acc93d4891effea800bad11e7258bd9bac00c5b41be60b3228ce",
+   "igual_al_origen": true
+  },
+  {
+   "to": "repefe",
+   "archivo": "pies_repefe.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_repefe.json",
+   "sha256": "fa265f897e7b42d44022d667512afd32a7576a17bbcf2ae4ee621a8c134d0aa3",
+   "igual_al_origen": true
+  },
+  {
+   "to": "repefe",
+   "archivo": "tablas_repefe.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_repefe.json",
+   "sha256": "4fa35c9a61abc221b69635ff2417ac77b97ff6b0f8dadfab407ff647da4fff7d",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_psp",
+   "archivo": "chunks_snp_psp.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_snp_psp.json",
+   "sha256": "d1ad1f38dfd9f35605e6237a8bbc8798085e386db6f1369d5f73acbd8933c799",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_psp",
+   "archivo": "estructura_snp_psp.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_snp_psp.json",
+   "sha256": "4e7910fc7bdcead400a89c31f67a56ee21d4079e539d146e79438de815e01c3f",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_psp",
+   "archivo": "indice_snp_psp.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_snp_psp.json",
+   "sha256": "68a7a50956f8f92254c480d10e58aeb0c7a6ede5db27221487480eff690f08bf",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_psp",
+   "archivo": "pies_snp_psp.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_snp_psp.json",
+   "sha256": "0b2a5b9afa8d43f1b41f36400474adceb2c2ef3cb125c6a33218853abf5dccf8",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_psp",
+   "archivo": "tablas_snp_psp.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_snp_psp.json",
+   "sha256": "d24322e830e169d539379b473af3b5f6f5fdeeafef91f175d9536a4b602c0fd5",
+   "igual_al_origen": true
+  },
+  {
+   "to": "jafip",
+   "archivo": "chunks_jafip.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_jafip.json",
+   "sha256": "7be49906bfaa43bb9e00a5347a3ee08613b43817271c32bb6bdb363bbf93ff45",
+   "igual_al_origen": true
+  },
+  {
+   "to": "jafip",
+   "archivo": "estructura_jafip.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_jafip.json",
+   "sha256": "6ccfb909277ef86ddfa350d9ef5e18b485ff3a019bd1d4bad97de5834c6720d7",
+   "igual_al_origen": true
+  },
+  {
+   "to": "jafip",
+   "archivo": "indice_jafip.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_jafip.json",
+   "sha256": "0445b63afaf97bfa920b94d1b6a2fab17d178df3b816315aaab5e9d083dae87c",
+   "igual_al_origen": true
+  },
+  {
+   "to": "jafip",
+   "archivo": "pies_jafip.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_jafip.json",
+   "sha256": "9afc2861676ff00e385af68f2492324325801a263fe9475aadfe9152361b0370",
+   "igual_al_origen": true
+  },
+  {
+   "to": "jafip",
+   "archivo": "tablas_jafip.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_jafip.json",
+   "sha256": "3a4e425fdc8388b5ffc0c25b4357afd0da0b361eeaba9d2a9df903931a6b7954",
+   "igual_al_origen": true
+  },
+  {
+   "to": "inspag",
+   "archivo": "chunks_inspag.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_inspag.json",
+   "sha256": "1256c1cde42de4ed3a2e75b7c9b110517005105f3cd6417656654a5b72f19194",
+   "igual_al_origen": true
+  },
+  {
+   "to": "inspag",
+   "archivo": "estructura_inspag.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_inspag.json",
+   "sha256": "c3bc4732913dd6e4110b97e475a18fe71414cc98dbe6d55ad6d85865842408f3",
+   "igual_al_origen": true
+  },
+  {
+   "to": "inspag",
+   "archivo": "indice_inspag.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_inspag.json",
+   "sha256": "2b40cc21b6c56cf65af30dd69a7f985ebf98575461100882c37ca66acb04e7b2",
+   "igual_al_origen": true
+  },
+  {
+   "to": "inspag",
+   "archivo": "pies_inspag.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_inspag.json",
+   "sha256": "205e68865b1b178d67b82b93b8468576abae447a8cf5e42d61ec589c47d83015",
+   "igual_al_origen": true
+  },
+  {
+   "to": "inspag",
+   "archivo": "tablas_inspag.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_inspag.json",
+   "sha256": "90f6030a919882fa783935d1d19399bb16562a08183159e0e1a7d961c2d8635c",
+   "igual_al_origen": true
+  },
+  {
+   "to": "graloc",
+   "archivo": "chunks_graloc.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_graloc.json",
+   "sha256": "567e39bf36e56c18b0f48a07518d4927bbdb44bc7a0d6725b87f4957aef895c3",
+   "igual_al_origen": true
+  },
+  {
+   "to": "graloc",
+   "archivo": "estructura_graloc.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_graloc.json",
+   "sha256": "95998cd1b7ca5937f10a18c12c8cd23e9ca0172b8e7e64dcf83b9c6936998bf7",
+   "igual_al_origen": true
+  },
+  {
+   "to": "graloc",
+   "archivo": "indice_graloc.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_graloc.json",
+   "sha256": "63dbc1dd167b0308972c758efb59cd1fcb5a93dd2204c8d9732c0f28148c8719",
+   "igual_al_origen": true
+  },
+  {
+   "to": "graloc",
+   "archivo": "pies_graloc.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_graloc.json",
+   "sha256": "122369c795ddb2b9af0ca24762f6d48e62ef631851c5fd5a6c9a984dcfe3104e",
+   "igual_al_origen": true
+  },
+  {
+   "to": "graloc",
+   "archivo": "tablas_graloc.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_graloc.json",
+   "sha256": "9ef2b6691d636423438668116fc1c24b680d44e28c716a58969295ac0dc96e84",
+   "igual_al_origen": true
+  },
+  {
+   "to": "adfsp",
+   "archivo": "chunks_adfsp.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_adfsp.json",
+   "sha256": "5d132b538b8e34dda990ca07fdb77b1e877cc8be5cf7fdfc358459891ebb55b6",
+   "igual_al_origen": true
+  },
+  {
+   "to": "adfsp",
+   "archivo": "estructura_adfsp.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_adfsp.json",
+   "sha256": "9009888481c83d97fcc420c797ab1cd6751b6c69a933017d8ad19f233cf39a09",
+   "igual_al_origen": true
+  },
+  {
+   "to": "adfsp",
+   "archivo": "indice_adfsp.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_adfsp.json",
+   "sha256": "f8fc8a2c7b95ea91c8e478c9df2f1d69cf8f9af2e80f4b8e5df978486be42902",
+   "igual_al_origen": true
+  },
+  {
+   "to": "adfsp",
+   "archivo": "pies_adfsp.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_adfsp.json",
+   "sha256": "6bd227fb42438c1ccf58d7a47186ef96e01c60aadef72c3fa85f9976599c5c1b",
+   "igual_al_origen": true
+  },
+  {
+   "to": "adfsp",
+   "archivo": "tablas_adfsp.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_adfsp.json",
+   "sha256": "da3770f5672fb15771e66481c89490a8ad99045908f1e02d5e29c4b36412d127",
+   "igual_al_origen": true
+  },
+  {
+   "to": "seguef",
+   "archivo": "chunks_seguef.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_seguef.json",
+   "sha256": "9b6f6ddbada626595b005a23a1ea5a9e8215858bc7e96c1346667f3af6d6eae7",
+   "igual_al_origen": true
+  },
+  {
+   "to": "seguef",
+   "archivo": "estructura_seguef.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_seguef.json",
+   "sha256": "b1bc23dc80460fd1ee5728f8e970861dab8ff967ee703f1ae3b992c41007f805",
+   "igual_al_origen": true
+  },
+  {
+   "to": "seguef",
+   "archivo": "indice_seguef.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_seguef.json",
+   "sha256": "310ee4a2ceb6f108e60f8aef4b3cadd00d6ff177cc210a528c25847156c63ff5",
+   "igual_al_origen": true
+  },
+  {
+   "to": "seguef",
+   "archivo": "pies_seguef.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_seguef.json",
+   "sha256": "905f0a49089c4eac2dbe7e84e3536e997ee1b05fc129ad448c3d94ad0ef85557",
+   "igual_al_origen": true
+  },
+  {
+   "to": "seguef",
+   "archivo": "tablas_seguef.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_seguef.json",
+   "sha256": "16ebdc28575a2984b69dd8fca99ddd93978f980eea7a538f0e4860d53852589e",
+   "igual_al_origen": true
+  },
+  {
+   "to": "garant",
+   "archivo": "chunks_garant.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_garant.json",
+   "sha256": "2dcbddc2cf2e179eb205e4db9c442aa60aaa227eff2eef1e8129e63490644b73",
+   "igual_al_origen": true
+  },
+  {
+   "to": "garant",
+   "archivo": "estructura_garant.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_garant.json",
+   "sha256": "7108edecab37676bfea1a039b61dbc6682b961431b054342999ef4cee21beb0b",
+   "igual_al_origen": true
+  },
+  {
+   "to": "garant",
+   "archivo": "indice_garant.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_garant.json",
+   "sha256": "e3ab0485c2886ab953b886689366e0517ee45ccca696c8afde5da87d9454c95d",
+   "igual_al_origen": true
+  },
+  {
+   "to": "garant",
+   "archivo": "pies_garant.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_garant.json",
+   "sha256": "d71d6efa85ead37b0bf3ed7cb0297f120ad156ccfaefab56a48aeb85a41f1912",
+   "igual_al_origen": true
+  },
+  {
+   "to": "garant",
+   "archivo": "tablas_garant.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_garant.json",
+   "sha256": "0851c0b746d7a9a7e7cc2454c2c491cbfab3be1945666cdc4155f92b56596ac3",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_cec",
+   "archivo": "chunks_snp_cec.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_snp_cec.json",
+   "sha256": "f743108e8d7e498fd90e4c061a9cdeb76f538940641ab7ed878dac93e5e2c8ab",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_cec",
+   "archivo": "estructura_snp_cec.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_snp_cec.json",
+   "sha256": "1b3c1beb34ae6db807e077fd2249ae5d92abc765a40392fb2e3c308450ff855f",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_cec",
+   "archivo": "indice_snp_cec.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_snp_cec.json",
+   "sha256": "6585726de7520d8c0e35a2f2a1ea001e2efb2b866be1bec743f7a02d70e7ed15",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_cec",
+   "archivo": "pies_snp_cec.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_snp_cec.json",
+   "sha256": "d9648c58ac24c8a0c33407aeea05ed8bd4c058dc14e95c5e6baabea4f76ff97b",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_cec",
+   "archivo": "tablas_snp_cec.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_snp_cec.json",
+   "sha256": "d5a994b71280c35aa6b0747201415c450c7ea8d6f67f39091d1cbc44731488bc",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_spd",
+   "archivo": "chunks_snp_spd.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_snp_spd.json",
+   "sha256": "4ff9744a053e072a47cac8becac43f3ea7097a53f801b57d1e6d8f7a17c46b1d",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_spd",
+   "archivo": "estructura_snp_spd.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_snp_spd.json",
+   "sha256": "0468c34a022b7ae88893d485764e2204a30a3e4e25f1de0611b5eee768ed9f94",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_spd",
+   "archivo": "indice_snp_spd.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_snp_spd.json",
+   "sha256": "5fba78e0326ecc8eadff68dce56081f61b110aea6d248f76dc061705f0f0e024",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_spd",
+   "archivo": "pies_snp_spd.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_snp_spd.json",
+   "sha256": "182a5dc202430993790eb299f719dbde1148560164aaacfc3ee6009694b4315b",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_spd",
+   "archivo": "tablas_snp_spd.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_snp_spd.json",
+   "sha256": "50ced181b5757855c93e744b0b39ccc1dc2f406a877eea3d37e8543aaa8b5d75",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_dd",
+   "archivo": "chunks_snp_dd.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_snp_dd.json",
+   "sha256": "72f46c2c29aaca44e5dc96a6675e0afa54c4fc03d1f3cee381c2d8992a9a0ce1",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_dd",
+   "archivo": "estructura_snp_dd.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_snp_dd.json",
+   "sha256": "0e5f7deb845542abb992e596e7e4086885d4d8f3ee9801b5b5335dfb19e4b347",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_dd",
+   "archivo": "indice_snp_dd.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_snp_dd.json",
+   "sha256": "71716a98bcf477489f95f771c0dfa98395f81566335b90f84ae54f92716ae540",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_dd",
+   "archivo": "pies_snp_dd.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_snp_dd.json",
+   "sha256": "25b1440591f7d990b20b42b4a3156003b1781026224080f2273e323589c2761b",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_dd",
+   "archivo": "tablas_snp_dd.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_snp_dd.json",
+   "sha256": "21f69fc5be2cce24e2a7ba557dd3d58ff05ea4bd28d0ae2c7532b651bb0e376a",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ratio",
+   "archivo": "chunks_ratio.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_ratio.json",
+   "sha256": "2d07e564aabd594d2e398d82e85cde80bf22609b9e236d4190c2e1e625150ae3",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ratio",
+   "archivo": "estructura_ratio.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_ratio.json",
+   "sha256": "a5ca297cbc422e9440e662c4e03decb3b6167eb9d751e9167715bc4dc8fe97b9",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ratio",
+   "archivo": "indice_ratio.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_ratio.json",
+   "sha256": "3426e85abff7908f5eb9f9d4e4309ed7b47bbdf507c56adc6aaf485d2e5551ee",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ratio",
+   "archivo": "pies_ratio.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_ratio.json",
+   "sha256": "2867e82b45a2997f8a8250a58c0d86b906e0ac0f64449c7058b38d2a7cc98ce7",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ratio",
+   "archivo": "tablas_ratio.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_ratio.json",
+   "sha256": "7a29c7347784c41ac62db6b6f058d9f57e2e88c669db24a9c888e413ba0e500a",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ratiofn",
+   "archivo": "chunks_ratiofn.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_ratiofn.json",
+   "sha256": "e583c42d18b0be8081a593cefc187a351b57fed04c6e5b37721fb4ce5fa9e84f",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ratiofn",
+   "archivo": "estructura_ratiofn.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_ratiofn.json",
+   "sha256": "3ef76dcab58c1fa33dcf363e423f7aede61c774d598b60517808382ba9a7d3e4",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ratiofn",
+   "archivo": "indice_ratiofn.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_ratiofn.json",
+   "sha256": "062a38e0b62faa9edfede2b8e338d055bdf532bea1b0c28a937b2f61eb41fe70",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ratiofn",
+   "archivo": "pies_ratiofn.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_ratiofn.json",
+   "sha256": "6dea4bc6b90fe6c1a85a060b46ad1750622daeecba2581f3d6ed58c2ae6805ab",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ratiofn",
+   "archivo": "tablas_ratiofn.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_ratiofn.json",
+   "sha256": "c8b63e079da480c80d81eec728c6f301de9b725f7138daccee093024be38b9c9",
+   "igual_al_origen": true
+  },
+  {
+   "to": "finsec",
+   "archivo": "chunks_finsec.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_finsec.json",
+   "sha256": "af824d1f42fd40dbe65b030cf2059bb1f550c358183ba187b8e7f036a617bcfc",
+   "igual_al_origen": true
+  },
+  {
+   "to": "finsec",
+   "archivo": "estructura_finsec.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_finsec.json",
+   "sha256": "0842990c2e959d434a95d54777ac474d64f2157efca84ad589cd5f88f706a590",
+   "igual_al_origen": true
+  },
+  {
+   "to": "finsec",
+   "archivo": "indice_finsec.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_finsec.json",
+   "sha256": "f220204fc900e9475a14f3dd1fe14c196f152f3a2c32e08549f07dd1f69abe3c",
+   "igual_al_origen": true
+  },
+  {
+   "to": "finsec",
+   "archivo": "pies_finsec.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_finsec.json",
+   "sha256": "ec5043a09c6361f61d1f3c29dd3e1a9e37ee4ff78672e62ecf300ad0536b7227",
+   "igual_al_origen": true
+  },
+  {
+   "to": "finsec",
+   "archivo": "tablas_finsec.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_finsec.json",
+   "sha256": "af1e7a52ceeb90151b9fc47c8cb56ab5979bbe80480315e7823c2e4cf8e01c05",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_tr_nc",
+   "archivo": "chunks_snp_tr_nc.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_snp_tr_nc.json",
+   "sha256": "0193bfc619f245e890c60b6cb2295ef5eae8a328dadc4055173a4ef83855583c",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_tr_nc",
+   "archivo": "estructura_snp_tr_nc.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_snp_tr_nc.json",
+   "sha256": "0c423fb87c01063b3ab230bfe2206c2def9205b155c81959bf6ff244a9cc38d7",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_tr_nc",
+   "archivo": "indice_snp_tr_nc.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_snp_tr_nc.json",
+   "sha256": "a9004a7e260bb697d4ded9b18ad2caf071038c360180029b2da92b2a7b74881c",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_tr_nc",
+   "archivo": "pies_snp_tr_nc.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_snp_tr_nc.json",
+   "sha256": "6e750fe5220fe9952365593ca55ac3cc295d1ebe10cc7f2e228ba954ad4765c8",
+   "igual_al_origen": true
+  },
+  {
+   "to": "snp_tr_nc",
+   "archivo": "tablas_snp_tr_nc.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_snp_tr_nc.json",
+   "sha256": "360bebe5e6117aad286308309e29a225fcd1d905b9f2171062fdc81729492878",
+   "igual_al_origen": true
+  },
+  {
+   "to": "pimf",
+   "archivo": "chunks_pimf.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_pimf.json",
+   "sha256": "3e007ed7f7ad7034c6293d089468eb9c6ad981270372be2e74815e9daf203f84",
+   "igual_al_origen": true
+  },
+  {
+   "to": "pimf",
+   "archivo": "estructura_pimf.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_pimf.json",
+   "sha256": "67800f6fbf41ffff207f7c5c496d6d0cbb4684dcf5de997c18969cd0e20b06ff",
+   "igual_al_origen": true
+  },
+  {
+   "to": "pimf",
+   "archivo": "indice_pimf.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_pimf.json",
+   "sha256": "551fbeba9209b76d6317ef0cc729f35b3acbd2c2f9c3bb3be8e428bb4492570b",
+   "igual_al_origen": true
+  },
+  {
+   "to": "pimf",
+   "archivo": "pies_pimf.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_pimf.json",
+   "sha256": "25821b9698ba0414de7c371ac359358a781959541b54dd0d8798d8d9e1cb79c6",
+   "igual_al_origen": true
+  },
+  {
+   "to": "pimf",
+   "archivo": "tablas_pimf.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_pimf.json",
+   "sha256": "f16e6b1c2ad8a6a464d433535515b2d159a3d880a8394857be97fc8b1afd3e0f",
+   "igual_al_origen": true
+  },
+  {
+   "to": "depinv",
+   "archivo": "chunks_depinv.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_depinv.json",
+   "sha256": "055b1c4e9d5744c0af5058dd6372933880ea72051cdc1eabe912133ebb7e99f1",
+   "igual_al_origen": true
+  },
+  {
+   "to": "depinv",
+   "archivo": "estructura_depinv.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_depinv.json",
+   "sha256": "d2bf2e92aeed81ff95308d4484c2cc6221e4ad6423c13c1640c5a66f3b6b7efd",
+   "igual_al_origen": true
+  },
+  {
+   "to": "depinv",
+   "archivo": "indice_depinv.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_depinv.json",
+   "sha256": "a2b5b17f11fe8e94ece940fa1f3a262a3cfec967145b27f037941d7d553f4ba8",
+   "igual_al_origen": true
+  },
+  {
+   "to": "depinv",
+   "archivo": "pies_depinv.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_depinv.json",
+   "sha256": "0a0684513158d15aa255c02909645f55697a5d5cc88c6ea8649aa07b54e9e805",
+   "igual_al_origen": true
+  },
+  {
+   "to": "depinv",
+   "archivo": "tablas_depinv.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_depinv.json",
+   "sha256": "a7b2bdb3433ac9dba08846b7a8dd435a42c5fc2b07e0f0f74512b117e09bf46d",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ctavis",
+   "archivo": "chunks_ctavis.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/chunks_ctavis.json",
+   "sha256": "e3d636d298daf4e2bfc68f3073ead84342dbd55356e6bdf3ccf5276e2008ce0d",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ctavis",
+   "archivo": "estructura_ctavis.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/estructura_ctavis.json",
+   "sha256": "c93cf2ac582536777b0ce0e61f33db9c498f8a26a46379df1667b106f8838524",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ctavis",
+   "archivo": "indice_ctavis.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/indice_ctavis.json",
+   "sha256": "b3238757c4965b27d4c3656c03ff9c2af513dde5a3760acf1b61b1e498b0714a",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ctavis",
+   "archivo": "pies_ctavis.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/pies_ctavis.json",
+   "sha256": "340166aacd2854e0bc9ade970bb815b494289772335b053ff8481b21328310f8",
+   "igual_al_origen": true
+  },
+  {
+   "to": "ctavis",
+   "archivo": "tablas_ctavis.json",
+   "origen": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda_final_r2b/tablas_ctavis.json",
+   "sha256": "7508e4f1abaf03d917c2220806fecfb73db966b55a0788e403889af0c49b0d7c",
+   "igual_al_origen": true
+  }
+ ],
+ "entrada": {
+  "archivos": 2295,
+  "bytes": 530323665,
+  "sha256_de_la_lista": "e19d926a1a9e5fb6153342d0c15a027b17c048613e792e8be31342ba61616cff",
+  "todos_iguales_al_origen": true
+ },
+ "manifiesto": {
+  "ruta": "data/experiment/tanda_final/t3/acumulado/manifiestos/acumulado_128tos_r2b.json",
+  "sha256": "7a17222c1579cd02f0d17882068e51adeb9a0b0adc35b2b458a788b184848c56"
+ },
+ "conteos": {
+  "tos": 128,
+  "tanda0": 10,
+  "tanda1": 20,
+  "tanda_final": 98,
+  "archivos_e0": 640,
+  "archivos_entrada": 2295,
+  "bytes_entrada": 530323665,
+  "todos_iguales_al_origen": true
+ }
+}

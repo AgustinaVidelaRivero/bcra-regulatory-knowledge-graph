@@ -1,0 +1,216 @@
+{
+ "version": "1",
+ "nombre": "tanda0_10tos_r2b",
+ "descripcion": "U-PROMPT-R2, P2 (03/10/2026): perfil r2b (prefijo r2 congelado tras el FRENO P1, variante B de la regla de frecuencia; e1_extractor/prompt_r2b.py, hash 14d6b63b508e) sobre la E0 e0-r2 de los diez TOs (salida_tanda0_r2, f8dedd4). Copia de tanda0_10tos.json con perfil_e1 y e0_salida cambiados; el original no se toca. estimado_usd por TO = unidades de e0-r2 x tarifa por unidad de la estimación central B del censo de P1 (data/experiment/prompt_r2/p1/salida/censo_p1.json, costos.B_central). EXTRACCION E0-E3 para U-REEXT-T0; tope_global_usd = USD 69, el tope de U-REEXT-T0 fijado por la autora en el FRENO P1 (03/10/2026). U-REEXT-T0, T1, punto 1 (05/10/2026; mandato firmado en e2027dd): rutas.e0_salida pasa a salida_tanda0_r2b (9f6361e), los sellos son los del prefijo re-congelado en P3c-2 de U-PROMPT-R2 (322c5a23e9b7, 66cde30) con la temperatura de P5 (53b7708), y tope_global_usd pasa a USD 80 (decisión de la autora al firmar).",
+ "tos": [
+  {
+   "id": "pro",
+   "archivo": "TO_proteccion_usuarios_servicios_financieros_actual.pdf",
+   "pdf": "data/experiment/subset/TO_proteccion_usuarios_servicios_financieros_actual.pdf",
+   "sha256_pdf": "48564cc714daa9a8c8bbd7115dfe006307ca7cb1c3d78b106c52555fe75a12ec",
+   "rol_alcance": "Sujeto_rol_sujeto_obligado_proteccion",
+   "nombres_remision": [
+    "proteccion de los usuarios de servicios financieros",
+    "proteccion de usuarios de servicios financieros"
+   ]
+  },
+  {
+   "id": "cla",
+   "archivo": "TO_clasificacion_deudores_actual.pdf",
+   "pdf": "data/experiment/subset/TO_clasificacion_deudores_actual.pdf",
+   "sha256_pdf": "6e7f528d3fea7b756f15e1278eecd828f203f0651fc6f778212033de6a0883e2",
+   "rol_alcance": "Sujeto_rol_obligado_a_clasificar_clasificacion",
+   "nombres_remision": [
+    "clasificacion de deudores"
+   ]
+  },
+  {
+   "id": "ric",
+   "archivo": "TO_regimen_informativo_contable_mensual_actual.pdf",
+   "pdf": "data/experiment/subset/TO_regimen_informativo_contable_mensual_actual.pdf",
+   "sha256_pdf": "754c888ae6034f63eb04991c5cad441435b6bf6f8e8fb3669fd2bb279c3b35d5",
+   "rol_alcance": "Sujeto_rol_entidad_comprendida_reginf",
+   "nombres_remision": [
+    "regimen informativo contable mensual"
+   ]
+  },
+  {
+   "id": "cap",
+   "archivo": "TO_capitales_minimos_actual.pdf",
+   "pdf": "data/experiment/subset/TO_capitales_minimos_actual.pdf",
+   "sha256_pdf": "f6ab71be7783c4192e67c13ee84f1fc585c6ae5e05aa074961c9c59429280bb8",
+   "rol_alcance": "Sujeto_rol_alcance_capmin",
+   "nombres_remision": [
+    "capitales minimos"
+   ]
+  },
+  {
+   "id": "ext",
+   "archivo": "TO_exterior_cambios_actual.pdf",
+   "pdf": "data/experiment/subset/TO_exterior_cambios_actual.pdf",
+   "sha256_pdf": "baea7264918877da132acca5f7ec6df1a3a33fd5be77109b90360a3d586bc130",
+   "rol_alcance": "Sujeto_rol_entidad_autorizada_exterior",
+   "nombres_remision": [
+    "exterior y cambios"
+   ]
+  },
+  {
+   "id": "ctacte",
+   "archivo": "ctacte.pdf",
+   "pdf": "data/experiment/escalado_prep/pdfs/ctacte.pdf",
+   "sha256_pdf": "06969a2cafb898a7eee888fb524271947290006bc0824b4d50e62fc4bd465a3f",
+   "rol_alcance": "Sujeto_banco",
+   "nombres_remision": [
+    "reglamentacion de la cuenta corriente bancaria",
+    "cuenta corriente bancaria"
+   ]
+  },
+  {
+   "id": "lingob",
+   "archivo": "lingob.pdf",
+   "pdf": "data/experiment/escalado_prep/pdfs/lingob.pdf",
+   "sha256_pdf": "e3c7d7b3e689e8e9ebf67da6e3f29498718f5e4ab7bf5b56f50bc8813a6ab3b0",
+   "rol_alcance": "Sujeto_entidad_financiera",
+   "nombres_remision": [
+    "lineamientos para el gobierno societario en entidades financieras",
+    "gobierno societario en entidades financieras"
+   ]
+  },
+  {
+   "id": "polcre",
+   "archivo": "polcre.pdf",
+   "pdf": "data/experiment/escalado_prep/pdfs/polcre.pdf",
+   "sha256_pdf": "7b94ea5d8d5f99baacfff7787bf11f94cba23cc0d406261bdcb2764edd409b04",
+   "rol_alcance": "Sujeto_entidad_financiera",
+   "nombres_remision": [
+    "politica de credito"
+   ]
+  },
+  {
+   "id": "pagjub",
+   "archivo": "pagjub.pdf",
+   "pdf": "data/experiment/escalado_prep/pdfs/pagjub.pdf",
+   "sha256_pdf": "908445f273415d29780d19a86e19fddb7d6d75c541b381ef66eb48776474d997",
+   "rol_alcance": "Sujeto_rol_alcance_pagjub",
+   "nombres_remision": [
+    "pago de beneficios de la seguridad social por cuenta de la administracion nacional de la seguridad social (anses)",
+    "pago de beneficios de la seguridad social"
+   ]
+  },
+  {
+   "id": "docvig",
+   "archivo": "docvig.pdf",
+   "pdf": "data/experiment/escalado_prep/pdfs/docvig.pdf",
+   "sha256_pdf": "d2d8a0d39d69be8f99eac8aab243142fea370108aa15ad0db3879480f83afb61",
+   "rol_alcance": null,
+   "nombres_remision": [
+    "documentos de identificacion en vigencia"
+   ]
+  }
+ ],
+ "orden_corrida": [
+  "pro",
+  "cla",
+  "ric",
+  "cap",
+  "ext",
+  "ctacte",
+  "lingob",
+  "polcre",
+  "pagjub",
+  "docvig"
+ ],
+ "perfil_e1": "r2b",
+ "rutas": {
+  "e0_salida": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b"
+ },
+ "oraculo": {
+  "mapa_territorio": null,
+  "limitaciones_e0": []
+ },
+ "limites": {
+  "tope_global_usd": 80.0,
+  "margen_unidad_usd": 0.35,
+  "estimado_usd": {
+   "pro": {
+    "e1": 1.0458,
+    "e3": 0.993
+   },
+   "cla": {
+    "e1": 1.4806,
+    "e3": 1.4059
+   },
+   "ric": {
+    "e1": 0.8698,
+    "e3": 0.8259
+   },
+   "cap": {
+    "e1": 4.7836,
+    "e3": 4.5423
+   },
+   "ext": {
+    "e1": 10.0746,
+    "e3": 9.5663
+   },
+   "ctacte": {
+    "e1": 4.0174,
+    "e3": 3.8147
+   },
+   "lingob": {
+    "e1": 1.4392,
+    "e3": 1.3666
+   },
+   "polcre": {
+    "e1": 0.6316,
+    "e3": 0.5997
+   },
+   "pagjub": {
+    "e1": 0.5384,
+    "e3": 0.5113
+   },
+   "docvig": {
+    "e1": 0.321,
+    "e3": 0.3048
+   }
+  },
+  "checkpoint_cada": {
+   "cap": 150,
+   "ext": 150,
+   "ctacte": 150
+  },
+  "chequeos_hits": []
+ },
+ "tests_respuesta_conocida": null,
+ "sellos": {
+  "unidad": "U-REEXT-T0 (T1, punto 1; mandato firmado en e2027dd)",
+  "commit_codigo": "53b7708",
+  "e0": {
+   "ruta": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b",
+   "commit": "9f6361e",
+   "archivos": 57
+  },
+  "prefijo_e1": {
+   "hash": "322c5a23e9b7",
+   "sha256": "ccffa4e36ba26a4b63b5760a7657d4bb5f5357ccd2392fe2b67584e4c2efb775",
+   "caracteres": 59909,
+   "commit": "66cde30",
+   "parche_p3c_sha256": "5e3761c16d13a83d2071cb05494aea04a2c862259d39c7333e40db490f11c678",
+   "base_p3b2_sha256": "8d84364fc3b6f6b586ff09e11833a2328408ae6f93b081c8ae64a059ea839c8b"
+  },
+  "tool_schema_sha256": "0c391f2b23bb7c94ec2606bd0315f3e4589c16a3571eaaa210a27babaa0f8ba2",
+  "namespace_e1": "e1_extraccion|cv=e1-extractor-v1-p322c5a23e9b7|think=0",
+  "namespace_reintento_forma": "e1_extraccion|cv=e1-extractor-v1-p322c5a23e9b7-rforma1|think=0",
+  "temperatura_e1": 0,
+  "temperatura_reintento_forma": 1,
+  "prefijo_e3_hash": "21a836c7de6d",
+  "namespace_e3": "e3_verificacion|cv=e3-verificador-v1-p21a836c7de6d|think=0",
+  "candados": {
+   "tablas_forzadas_sha256": "98cc96b2fec4cd7febb1fba71df8490ea420c0c0419711a122daaf4f12c2bc67",
+   "candado_mensaje_r2b_json_sha256": "4d69f7f4c8a542bf09d25c1bcc4343a06a70226240eb595e3d4285a516e0fa6d",
+   "mensaje_r2b_sha256": "a9cb702c0d243582d27345b78d2595b44e6cf0f4d9a2560fdd262aaa92955a56",
+   "candado_mensaje_e3_json_sha256": "e8fa5dc47408d5f311d5677886cf9e90ab54e1808c64bd4514f66507d2375a82",
+   "mensaje_e3_sha256": "da17c22e6c988c6e2fea12e4369caf96d27fe8cbc98f8861f9470901410c6e01"
+  }
+ },
+ "indice_fragmentos": null
+}

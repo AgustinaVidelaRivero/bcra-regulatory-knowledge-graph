@@ -1,0 +1,111 @@
+{
+ "veredicto": "OK",
+ "comprobaciones_fallidas": [],
+ "inventariados_152": {
+  "manifest_pdfs_sha256_lineas": 152,
+  "descarga_log_entradas": 152,
+  "descarga_log_con_sha256": 152,
+  "descarga_log_con_url": 152,
+  "inventario_tos_filas": 152,
+  "inventario_unidades_filas": 152,
+  "paginas": 6757,
+  "sha_manifiesto_vs_log_discrepantes": []
+ },
+ "desarrollo_5": {
+  "manifiesto_tos": 5,
+  "con_sha256_pdf": 5,
+  "con_url_en_el_manifiesto": 0,
+  "paginas": 564,
+  "sha_declarado_vs_disco": {
+   "pro": {
+    "declarado": "48564cc714daa9a8c8bbd7115dfe006307ca7cb1c3d78b106c52555fe75a12ec",
+    "en_disco": "48564cc714daa9a8c8bbd7115dfe006307ca7cb1c3d78b106c52555fe75a12ec",
+    "coincide": true
+   },
+   "cla": {
+    "declarado": "6e7f528d3fea7b756f15e1278eecd828f203f0651fc6f778212033de6a0883e2",
+    "en_disco": "6e7f528d3fea7b756f15e1278eecd828f203f0651fc6f778212033de6a0883e2",
+    "coincide": true
+   },
+   "ric": {
+    "declarado": "754c888ae6034f63eb04991c5cad441435b6bf6f8e8fb3669fd2bb279c3b35d5",
+    "en_disco": "754c888ae6034f63eb04991c5cad441435b6bf6f8e8fb3669fd2bb279c3b35d5",
+    "coincide": true
+   },
+   "cap": {
+    "declarado": "f6ab71be7783c4192e67c13ee84f1fc585c6ae5e05aa074961c9c59429280bb8",
+    "en_disco": "f6ab71be7783c4192e67c13ee84f1fc585c6ae5e05aa074961c9c59429280bb8",
+    "coincide": true
+   },
+   "ext": {
+    "declarado": "baea7264918877da132acca5f7ec6df1a3a33fd5be77109b90360a3d586bc130",
+    "en_disco": "baea7264918877da132acca5f7ec6df1a3a33fd5be77109b90360a3d586bc130",
+    "coincide": true
+   }
+  }
+ },
+ "indice_oficial": {
+  "entradas": 158,
+  "por_lista": {
+   "textos_ordenados": 103,
+   "regimenes_informativos": 55
+  },
+  "urls_unicas": 157,
+  "urls_duplicadas": [
+   "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-optico.pdf"
+  ],
+  "urls_solo_en_indice": [
+   "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-CM.pdf",
+   "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-capmin.pdf",
+   "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-cladeu.pdf",
+   "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-excbio.pdf",
+   "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-pusf.pdf"
+  ],
+  "coincide_con_subset_excluido": true,
+  "url_por_id_desarrollo": {
+   "cap": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-capmin.pdf",
+   "cla": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-cladeu.pdf",
+   "ext": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-excbio.pdf",
+   "pro": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-pusf.pdf",
+   "ric": "https://www.bcra.gob.ar/archivos/Pdfs/Texord/t-RI-CM.pdf"
+  }
+ },
+ "total_157": {
+  "tos": 157,
+  "paginas": 7321,
+  "bytes_declarados": 174286597
+ },
+ "ancla_temporal": {
+  "los_152": {
+   "evidencia": "commit de alta de escalado_prep/descarga_log.json",
+   "comando": "git log --diff-filter=A --format='%ad %h' --date=short -- data/experiment/escalado_prep/descarga_log.json"
+  },
+  "los_5_desarrollo": {
+   "ext": {
+    "fecha_descarga": "2026-05-07T11:26:08+00:00",
+    "fecha_documento_extraida": "2025-08-25",
+    "url_origen": "https://www.bcra.gob.ar/Pdfs/Texord/t-excbio.pdf"
+   },
+   "cap": {
+    "fecha_descarga": "2026-05-10T22:19:52+00:00",
+    "fecha_documento_extraida": "2025-01-01",
+    "url_origen": "https://www.bcra.gob.ar/pdfs/texord/t-capmin.pdf"
+   },
+   "cla": {
+    "fecha_descarga": "2026-05-10T22:20:07+00:00",
+    "fecha_documento_extraida": "2025-12-19",
+    "url_origen": "https://www.bcra.gob.ar/pdfs/texord/t-cladeu.pdf"
+   },
+   "pro": {
+    "fecha_descarga": "2026-05-10T22:20:23+00:00",
+    "fecha_documento_extraida": "2024-02-23",
+    "url_origen": "https://www.bcra.gob.ar/pdfs/texord/t-pusf.pdf"
+   },
+   "ric": {
+    "fecha_descarga": "2026-05-10T22:20:36+00:00",
+    "fecha_documento_extraida": "2015-12-01",
+    "url_origen": "https://www.bcra.gob.ar/pdfs/texord/t-ri-cm.pdf"
+   }
+  }
+ }
+}

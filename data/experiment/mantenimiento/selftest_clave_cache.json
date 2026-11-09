@@ -1,0 +1,7515 @@
+{
+ "anclaje": {
+  "constantes_runner": {
+   "MAX_TOKENS_REINTENTO": 16384,
+   "MAX_TOKENS_REINTENTO_linea": 89,
+   "MODEL_E1": "claude-haiku-4-5",
+   "MODEL_E1_linea": 91,
+   "MODEL_E3": "claude-sonnet-5",
+   "MODEL_E3_linea": 94
+  },
+  "e1": {
+   "calculadas_presentes_en_db": 2434,
+   "claves_calculadas": 2434,
+   "claves_db_en_namespace": 2437,
+   "claves_db_no_calculadas": 3,
+   "estado": "OK",
+   "explicadas_por_dirigida_max_tokens": {
+    "max_tokens": 16384,
+    "unidades": [
+     "cap::3.1.14.1",
+     "cap::4.2.1.2",
+     "cap::4.3.3.1"
+    ]
+   }
+  },
+  "e3": {
+   "calculadas_presentes_en_db": 2430,
+   "claves_calculadas": 2430,
+   "claves_db_en_namespace": 7721,
+   "estado": "OK",
+   "nota": "la db de E3 guarda también re-verificaciones del ratchet y las corridas previas con el mismo namespace; solo se exige que las claves calculadas estén",
+   "pares_aceptados_e1": 2430
+  },
+  "model_e1": "claude-haiku-4-5",
+  "model_e3": "claude-sonnet-5",
+  "namespace_e1": "e1_extraccion|cv=e1-extractor-v1-p54a111e2175f|think=0",
+  "namespace_e3": "e3_verificacion|cv=e3-verificador-v1-p21a836c7de6d|think=0",
+  "prefijo_hash_e1": "54a111e2175f",
+  "prefijo_hash_e3": "21a836c7de6d",
+  "unidades_e0_tanda0": 2434
+ },
+ "contraste_tabla": {
+  "discrepancias": [],
+  "estado": "OK",
+  "filas": [
+   {
+    "clase": "E1 y E3 de las afectadas",
+    "fila": "F01",
+    "observado": [
+     {
+      "coincide": true,
+      "e1": "cambia",
+      "e3": "cambia",
+      "variacion": "R01"
+     }
+    ],
+    "tabla_e1": "cambia (esa unidad)",
+    "tabla_e3": "cambia (esa unidad)"
+   },
+   {
+    "clase": "E1 y E3 de las afectadas",
+    "fila": "F02",
+    "observado": [
+     {
+      "coincide": true,
+      "e1": "cambia",
+      "e3": "cambia",
+      "variacion": "R02"
+     }
+    ],
+    "tabla_e1": "cambia (las que lo heredan)",
+    "tabla_e3": "cambia (las que lo heredan)"
+   },
+   {
+    "clase": "E1 y E3 de las afectadas",
+    "fila": "F03",
+    "observado": [
+     {
+      "coincide": true,
+      "e1": "cambia",
+      "e3": "cambia",
+      "variacion": "R03"
+     }
+    ],
+    "tabla_e1": "cambia (los descendientes que lo heredan)",
+    "tabla_e3": "cambia (solo los ítems cuyo bloque que abre la lista es ese, con la forma r2; los demás descendientes, no, con la salida de E1 fija)"
+   },
+   {
+    "clase": "E1 y E3 de las afectadas",
+    "fila": "F04",
+    "observado": [
+     {
+      "coincide": true,
+      "e1": "cambia",
+      "e3": "cambia",
+      "variacion": "R04"
+     },
+     {
+      "coincide": true,
+      "e1": "cambia",
+      "e3": "cambia",
+      "variacion": "R04b"
+     }
+    ],
+    "tabla_e1": "cambia (las re-marcadas)",
+    "tabla_e3": "cambia (las re-marcadas)"
+   },
+   {
+    "clase": "frena; re-sellada, E1 y E3 de las afectadas",
+    "fila": "F04b",
+    "observado": [
+     {
+      "coincide": true,
+      "e1": "frena",
+      "e3": "frena",
+      "variacion": "R32"
+     }
+    ],
+    "tabla_e1": "frena (candado de la lista)",
+    "tabla_e3": "frena (sin perfil no hay salida validada de E1)"
+   },
+   {
+    "clase": "solo código sobre lo guardado (difiere del protocolo, `a304b89:82`; lo fija la enmienda 3 al protocolo entre tandas, firmada el 04/10/2026 en `0cb0c70`, §1, punto 1)",
+    "fila": "F05",
+    "observado": [
+     {
+      "coincide": true,
+      "e1": "no cambia",
+      "e3": "no cambia",
+      "variacion": "R05"
+     },
+     {
+      "coincide": true,
+      "e1": "no cambia",
+      "e3": "no cambia",
+      "variacion": "R06"
+     }
+    ],
+    "tabla_e1": "no cambia",
+    "tabla_e3": "no cambia"
+   },
+   {
+    "clase": "todo",
+    "fila": "F06",
+    "observado": [
+     {
+      "coincide": true,
+      "e1": "cambia",
+      "e3": "no cambia",
+      "variacion": "R08"
+     }
+    ],
+    "tabla_e1": "cambia (todas, con namespace nuevo)",
+    "tabla_e3": "no cambia (con la salida de E1 fija)"
+   },
+   {
+    "clase": "todo",
+    "fila": "F07",
+    "observado": [
+     {
+      "coincide": true,
+      "e1": "cambia",
+      "e3": "no cambia",
+      "variacion": "R09"
+     }
+    ],
+    "tabla_e1": "cambia (todas, con namespace nuevo)",
+    "tabla_e3": "no cambia (con la salida de E1 fija)"
+   },
+   {
+    "clase": "todo",
+    "fila": "F08",
+    "observado": [
+     {
+      "coincide": true,
+      "e1": "cambia",
+      "e3": "no cambia",
+      "variacion": "R12"
+     },
+     {
+      "coincide": true,
+      "e1": "cambia",
+      "e3": "no cambia",
+      "variacion": "R13"
+     }
+    ],
+    "tabla_e1": "cambia (todas)",
+    "tabla_e3": "no cambia (con la salida de E1 fija)"
+   },
+   {
+    "clase": "E1 y E3 de las afectadas",
+    "fila": "F08b",
+    "observado": [
+     {
+      "coincide": true,
+      "e1": "cambia",
+      "e3": "no cambia",
+      "variacion": "R13b"
+     }
+    ],
+    "tabla_e1": "cambia (solo los requests de reintento)",
+    "tabla_e3": "no cambia (con la salida de E1 fija)"
+   },
+   {
+    "clase": "E1 y E3 de las afectadas",
+    "fila": "F08c",
+    "observado": [
+     {
+      "coincide": true,
+      "e1": "cambia",
+      "e3": "no cambia",
+      "variacion": "R25"
+     },
+     {
+      "coincide": true,
+      "e1": "cambia",
+      "e3": "no cambia",
+      "variacion": "R25b"
+     }
+    ],
+    "tabla_e1": "cambia (solo los reintentos de las mal formadas)",
+    "tabla_e3": "no cambia (con la salida de E1 fija)"
+   },
+   {
+    "clase": "E1 y E3 de las afectadas",
+    "fila": "F08d",
+    "observado": [
+     {
+      "coincide": true,
+      "e1": "cambia",
+      "e3": "no cambia",
+      "variacion": "R13c"
+     }
+    ],
+    "tabla_e1": "cambia (solo esos requests)",
+    "tabla_e3": "no cambia (con la salida de E1 fija)"
+   },
+   {
+    "clase": "todo",
+    "fila": "F08e",
+    "observado": [
+     {
+      "coincide": true,
+      "e1": "cambia",
+      "e3": "no cambia",
+      "variacion": "R14"
+     }
+    ],
+    "tabla_e1": "cambia (todas)",
+    "tabla_e3": "no cambia (con la salida de E1 fija)"
+   },
+   {
+    "clase": "E3 de las afectadas",
+    "fila": "F08f",
+    "observado": [
+     {
+      "coincide": true,
+      "e1": "no cambia",
+      "e3": "cambia",
+      "variacion": "R18"
+     }
+    ],
+    "tabla_e1": "no cambia",
+    "tabla_e3": "cambia (las reparadas: su validación es otra)"
+   },
+   {
+    "clase": "todo",
+    "fila": "F09",
+    "observado": [
+     {
+      "coincide": true,
+      "e1": "cambia",
+      "e3": "no cambia",
+      "variacion": "R15"
+     }
+    ],
+    "tabla_e1": "cambia (todas)",
+    "tabla_e3": "no cambia"
+   },
+   {
+    "clase": "todo, con E3 de todas (difiere del protocolo, `a304b89:84-85`; lo fija la enmienda 3 al protocolo entre tandas, firmada el 04/10/2026 en `0cb0c70`, §1, punto 2)",
+    "fila": "F10",
+    "observado": [
+     {
+      "coincide": true,
+      "e1": "no cambia",
+      "e3": "cambia",
+      "variacion": "R16"
+     },
+     {
+      "coincide": true,
+      "e1": "no cambia",
+      "e3": "cambia",
+      "variacion": "R17"
+     }
+    ],
+    "tabla_e1": "no cambia",
+    "tabla_e3": "cambia (todas, con namespace nuevo si cambia el prefijo; antes frena el candado: F10b)"
+   },
+   {
+    "clase": "frena; re-sellado, todo (F10)",
+    "fila": "F10b",
+    "observado": [
+     {
+      "coincide": true,
+      "e1": "no cambia",
+      "e3": "frena",
+      "variacion": "R22d"
+     }
+    ],
+    "tabla_e1": "no cambia",
+    "tabla_e3": "frena (candado del prefijo de E3)"
+   },
+   {
+    "clase": "todo",
+    "fila": "F11",
+    "observado": [
+     {
+      "coincide": true,
+      "e1": "cambia",
+      "e3": "no cambia",
+      "variacion": "R10"
+     },
+     {
+      "coincide": true,
+      "e1": "cambia",
+      "e3": "no cambia",
+      "variacion": "R10b"
+     }
+    ],
+    "tabla_e1": "cambia (todas, con namespace nuevo)",
+    "tabla_e3": "no cambia (con la salida de E1 fija)"
+   },
+   {
+    "clase": "frena; re-sellado, la clase de la fila del contenido",
+    "fila": "F11b",
+    "observado": [
+     {
+      "coincide": true,
+      "e1": "frena",
+      "e3": "frena",
+      "variacion": "R21"
+     },
+     {
+      "coincide": true,
+      "e1": "frena",
+      "e3": "frena",
+      "variacion": "R22"
+     },
+     {
+      "coincide": true,
+      "e1": "frena",
+      "e3": "frena",
+      "variacion": "R22b"
+     }
+    ],
+    "tabla_e1": "frena (candado al construir el perfil)",
+    "tabla_e3": "frena (sin perfil no hay salida validada de E1)"
+   },
+   {
+    "clase": "E1 y E3 de las afectadas",
+    "fila": "F12",
+    "observado": [
+     {
+      "coincide": true,
+      "e1": "cambia",
+      "e3": "no cambia",
+      "variacion": "R11"
+     }
+    ],
+    "tabla_e1": "cambia (las del TO)",
+    "tabla_e3": "no cambia (con la salida de E1 fija)"
+   },
+   {
+    "clase": "solo código sobre lo guardado",
+    "fila": "F13",
+    "observado": [
+     {
+      "coincide": true,
+      "e1": "no cambia",
+      "e3": "no cambia",
+      "variacion": "R20"
+     }
+    ],
+    "tabla_e1": "no cambia",
+    "tabla_e3": "no cambia"
+   },
+   {
+    "clase": "frena; re-sellado, todo (F11)",
+    "fila": "F13b",
+    "observado": [
+     {
+      "coincide": true,
+      "e1": "frena",
+      "e3": "frena",
+      "variacion": "R22c"
+     }
+    ],
+    "tabla_e1": "frena (candado del catálogo)",
+    "tabla_e3": "frena (sin perfil no hay salida validada de E1)"
+   },
+   {
+    "clase": "E1 y E3 de las afectadas (F12); sin unidades ya extraídas del documento, solo código sobre lo guardado",
+    "fila": "F13c",
+    "observado": [
+     {
+      "coincide": true,
+      "e1": "cambia",
+      "e3": "no cambia",
+      "variacion": "R34"
+     }
+    ],
+    "tabla_e1": "cambia (las unidades del documento que recibe alcance, como F12; con el derivado regenerado y sin re-sellar, el candado frena)",
+    "tabla_e3": "no cambia (con la salida de E1 fija)"
+   },
+   {
+    "clase": "E1 y E3 de las afectadas (difiere del protocolo, `a304b89:79-80`; lo fija la enmienda 3 al protocolo entre tandas, firmada el 04/10/2026 en `0cb0c70`, §1, punto 3, con la regla de cruce del §3, `bd77541`)",
+    "fila": "F14",
+    "observado": [
+     {
+      "coincide": true,
+      "e1": "no cambia",
+      "e3": "cambia",
+      "variacion": "R18"
+     }
+    ],
+    "tabla_e1": "no cambia",
+    "tabla_e3": "cambia (las unidades cuya salida validada cambia)"
+   },
+   {
+    "clase": "solo código sobre lo guardado",
+    "fila": "F14b",
+    "observado": [
+     {
+      "coincide": true,
+      "e1": "no cambia",
+      "e3": "no cambia",
+      "variacion": "R19"
+     }
+    ],
+    "tabla_e1": "no cambia",
+    "tabla_e3": "no cambia"
+   },
+   {
+    "clase": "solo código sobre lo guardado",
+    "fila": "F15",
+    "observado": [
+     {
+      "coincide": true,
+      "e1": "no cambia",
+      "e3": "no cambia",
+      "variacion": "R19"
+     }
+    ],
+    "tabla_e1": "no cambia",
+    "tabla_e3": "no cambia"
+   },
+   {
+    "clase": "solo código sobre lo guardado",
+    "fila": "F15b",
+    "observado": [
+     {
+      "coincide": true,
+      "e1": "no cambia",
+      "e3": "no cambia",
+      "variacion": "R19"
+     }
+    ],
+    "tabla_e1": "no cambia",
+    "tabla_e3": "no cambia"
+   },
+   {
+    "clase": "solo código sobre lo guardado",
+    "fila": "F15c",
+    "observado": [
+     {
+      "coincide": true,
+      "e1": "no cambia",
+      "e3": "no cambia",
+      "variacion": "R19"
+     }
+    ],
+    "tabla_e1": "no cambia",
+    "tabla_e3": "no cambia"
+   },
+   {
+    "clase": "solo código sobre lo guardado",
+    "fila": "F15d",
+    "observado": [
+     {
+      "coincide": true,
+      "e1": "no cambia",
+      "e3": "no cambia",
+      "variacion": "R19"
+     }
+    ],
+    "tabla_e1": "no cambia",
+    "tabla_e3": "no cambia"
+   },
+   {
+    "clase": "solo código sobre lo guardado",
+    "fila": "F15e",
+    "observado": [
+     {
+      "coincide": true,
+      "e1": "no cambia",
+      "e3": "no cambia",
+      "variacion": "R19"
+     }
+    ],
+    "tabla_e1": "no cambia",
+    "tabla_e3": "no cambia"
+   },
+   {
+    "clase": "solo código sobre lo guardado",
+    "fila": "F16",
+    "observado": [
+     {
+      "coincide": true,
+      "e1": "no cambia",
+      "e3": "no cambia",
+      "variacion": "R19"
+     }
+    ],
+    "tabla_e1": "no cambia",
+    "tabla_e3": "no cambia"
+   },
+   {
+    "clase": "solo código sobre lo guardado",
+    "fila": "F16b",
+    "observado": [
+     {
+      "coincide": true,
+      "e1": "no cambia",
+      "e3": "no cambia",
+      "variacion": "R28"
+     }
+    ],
+    "tabla_e1": "no cambia",
+    "tabla_e3": "no cambia"
+   },
+   {
+    "clase": "E1 y E3 de las afectadas",
+    "fila": "F17",
+    "observado": [
+     {
+      "coincide": true,
+      "e1": "cambia",
+      "e3": "no aplica",
+      "variacion": "R23"
+     }
+    ],
+    "tabla_e1": "cambia (todas las del TO nuevo: sin clave previa)",
+    "tabla_e3": "cambia (todas las del TO nuevo; no verificable en el selftest: no hay salida de E1 previa)"
+   },
+   {
+    "clase": "nada; solo código si cambia la versión del pie (F16b)",
+    "fila": "F18a",
+    "observado": [
+     {
+      "anclaje": "OK",
+      "variacion": "A1"
+     },
+     {
+      "anclaje": "OK",
+      "variacion": "A3"
+     },
+     {
+      "anclaje": "OK",
+      "variacion": "A1r"
+     },
+     {
+      "anclaje": "OK",
+      "variacion": "A3r"
+     },
+     {
+      "coincide": true,
+      "e1": "no cambia",
+      "e3": "no cambia",
+      "variacion": "R00"
+     }
+    ],
+    "tabla_e1": "no cambia (unidades idénticas)",
+    "tabla_e3": "no cambia (unidades idénticas)"
+   },
+   {
+    "clase": "E1 y E3 de las afectadas",
+    "fila": "F18b",
+    "observado": [
+     {
+      "coincide": true,
+      "e1": "cambia",
+      "e3": "cambia",
+      "variacion": "R01"
+     },
+     {
+      "coincide": true,
+      "e1": "cambia",
+      "e3": "cambia",
+      "variacion": "R02"
+     },
+     {
+      "coincide": true,
+      "e1": "cambia",
+      "e3": "cambia",
+      "variacion": "R04"
+     },
+     {
+      "coincide": true,
+      "e1": "cambia",
+      "e3": "cambia",
+      "variacion": "R07"
+     }
+    ],
+    "tabla_e1": "cambia (las unidades cuyo request cambia)",
+    "tabla_e3": "cambia (las unidades cuyo request cambia)"
+   },
+   {
+    "clase": "E1 y E3 de las afectadas",
+    "fila": "F19",
+    "observado": [
+     {
+      "coincide": true,
+      "e1": "cambia",
+      "e3": "cambia",
+      "variacion": "R24"
+     },
+     {
+      "coincide": true,
+      "e1": "cambia",
+      "e3": "cambia",
+      "variacion": "R07"
+     }
+    ],
+    "tabla_e1": "cambia (nueva, renumeradas y descendientes)",
+    "tabla_e3": "cambia (renumeradas y descendientes)"
+   },
+   {
+    "clase": "E1 y E3 de las afectadas",
+    "fila": "F19b",
+    "observado": [
+     {
+      "coincide": true,
+      "e1": "cambia",
+      "e3": "cambia",
+      "variacion": "R24"
+     }
+    ],
+    "tabla_e1": "cambia (nuevas: sin clave previa)",
+    "tabla_e3": "cambia (nuevas)"
+   },
+   {
+    "clase": "ninguna en la tanda 0",
+    "fila": "F19d",
+    "observado": [
+     {
+      "coincide": true,
+      "e1": "cambia",
+      "e3": "cambia",
+      "variacion": "R24"
+     }
+    ],
+    "tabla_e1": "cambia (en las tandas siguientes: las unidades nuevas y las que cambian texto o herencia; en la tanda 0, no cambia)",
+    "tabla_e3": "cambia (en las tandas siguientes, las mismas; en la tanda 0, no cambia)"
+   },
+   {
+    "clase": "E1 y E3 de las afectadas",
+    "fila": "F20",
+    "observado": [
+     {
+      "coincide": true,
+      "e1": "cambia",
+      "e3": "cambia",
+      "variacion": "R26"
+     }
+    ],
+    "tabla_e1": "cambia (las partes: sin clave previa)",
+    "tabla_e3": "cambia (las partes)"
+   },
+   {
+    "clase": "E1 y E3 de las afectadas",
+    "fila": "F21",
+    "observado": [
+     {
+      "coincide": true,
+      "e1": "cambia",
+      "e3": "cambia",
+      "variacion": "R27"
+     }
+    ],
+    "tabla_e1": "cambia (las recortadas)",
+    "tabla_e3": "cambia (solo los ítems cuyo bloque que abre la lista se recorta, con la forma r2; las demás, no: encabezados enteros, con la salida de E1 fija)"
+   },
+   {
+    "clase": "frena; re-sellado, todo",
+    "fila": "F22",
+    "observado": [
+     {
+      "coincide": true,
+      "e1": "frena",
+      "e3": "frena",
+      "variacion": "R29b"
+     }
+    ],
+    "tabla_e1": "frena (candado del mensaje de E1)",
+    "tabla_e3": "frena (sin perfil no hay salida validada de E1)"
+   },
+   {
+    "clase": "frena; re-sellado, E1 y E3 de las afectadas",
+    "fila": "F22b",
+    "observado": [
+     {
+      "coincide": true,
+      "e1": "frena",
+      "e3": "frena",
+      "variacion": "R29"
+     }
+    ],
+    "tabla_e1": "frena (candado del mensaje de E1)",
+    "tabla_e3": "frena (sin perfil no hay salida validada de E1)"
+   },
+   {
+    "clase": "frena; re-sellado, E1 y E3 de las afectadas",
+    "fila": "F23",
+    "observado": [
+     {
+      "coincide": true,
+      "e1": "no cambia",
+      "e3": "frena",
+      "variacion": "R30"
+     }
+    ],
+    "tabla_e1": "no cambia",
+    "tabla_e3": "frena (candado del mensaje de E3)"
+   },
+   {
+    "clase": "E1 y E3 de las afectadas",
+    "fila": "F24",
+    "observado": [
+     {
+      "coincide": true,
+      "e1": "cambia",
+      "e3": "no cambia",
+      "variacion": "R31"
+     }
+    ],
+    "tabla_e1": "cambia (solo los requests de reintento)",
+    "tabla_e3": "no cambia (primera verificación)"
+   },
+   {
+    "clase": "frena; re-sellado, E3 de las afectadas (los ítems)",
+    "fila": "F23b",
+    "observado": [
+     {
+      "coincide": true,
+      "e1": "no cambia",
+      "e3": "frena",
+      "variacion": "R33"
+     },
+     {
+      "coincide": true,
+      "e1": "no cambia",
+      "e3": "frena",
+      "variacion": "R33b"
+     },
+     {
+      "anclaje": "OK",
+      "variacion": "A3r"
+     }
+    ],
+    "tabla_e1": "no cambia",
+    "tabla_e3": "frena (candado del mensaje de E3)"
+   }
+  ]
+ },
+ "insumos": {
+  "e0_tanda0": {
+   "cap": "1931138dac0a107a69a7ff6312400f00465b991d52135457735beeb3e442c825",
+   "cla": "98808886a406d8321c678836a55f92eea983d594d95358dd21ceb537487ac0b1",
+   "ctacte": "e65fd5e7defc68c0ed2f2054f36757099175a0e68305704e5bde6474fbdc1a9d",
+   "docvig": "97b62c050d8880b3e9d5fe0df69b2b908e6faaecfac317f02ded831bdbf435dd",
+   "ext": "cbcd1a86f55ea49110610587873881c68c13a9d7975d3fd5e465f26302be2d12",
+   "lingob": "8c502976b7e34989e18ca1be2d7e1a4625fd91d3ef42bf6f9846f8d348dad0b0",
+   "pagjub": "1bba0713dae796c4ba811bac3ed64f411d9f0372771cf36dbd9e4150be312c38",
+   "polcre": "9f6518549f4fbade3b5791f3b25062bd65a74e684a264d6df4ac9ecfdf11815b",
+   "pro": "d8717d1c7423bb5f4d80cc830ff97635ce4d9839f8490b73860ea272568620e2",
+   "ric": "fafebb82e07b34191b60022c1c179ea7d2213fd1f5d5f3a408b518c836c94c0d"
+  },
+  "tabla_md_presente": true
+ },
+ "inventario_del_armado": {
+  "control_reproduce_claves_del_padre": true,
+  "datos_leidos_al_construir_prefijos_y_perfil": [
+   "data/experiment/catalogo_unico/generados_r2/bloque_catalogo_r2.txt",
+   "data/experiment/catalogo_unico/generados_r2/labels_e2_r2.json",
+   "data/experiment/catalogo_unico/generados_r2/rol_por_to_r2.json",
+   "data/experiment/catalogo_unico/registro_alcance_r2b.json",
+   "data/experiment/grafo_v2/esquema_v2_clases.json",
+   "data/experiment/pyd_r2/generados/tool_schema_r2.json",
+   "data/experiment/reextraccion_v2/e0_chunking/salida/chunks_cla.json",
+   "data/experiment/reextraccion_v2/e0_chunking/salida/chunks_pro.json",
+   "data/experiment/reextraccion_v2/e0_chunking/salida/chunks_ric.json",
+   "data/experiment/reextraccion_v2/e1_extractor/candado_mensaje_r2b.json",
+   "data/experiment/reextraccion_v2/e1_extractor/prompt_r2b_parche_p3b.json",
+   "data/experiment/reextraccion_v2/e1_extractor/prompt_r2b_parche_p3c.json",
+   "data/experiment/reextraccion_v2/e1_extractor/prompt_r2b_reemplazos.json",
+   "data/experiment/reextraccion_v2/e1_extractor/salida/faseB_pro/extracciones.jsonl",
+   "data/experiment/reextraccion_v2/e1_extractor/tablas_residuales_forzadas_r2b.json",
+   "data/experiment/reextraccion_v2/e3_verificador/candado_mensaje_e3.json"
+  ],
+  "datos_leidos_por_unidad": [
+   "data/experiment/reextraccion_v2/corpus_tanda0/salida_dirigida/cap/extracciones_e1_compact.jsonl",
+   "data/experiment/reextraccion_v2/corpus_tanda0/salida_dirigida/cla/extracciones_e1_compact.jsonl",
+   "data/experiment/reextraccion_v2/corpus_tanda0/salida_dirigida/ctacte/extracciones_e1_compact.jsonl",
+   "data/experiment/reextraccion_v2/corpus_tanda0/salida_dirigida/docvig/extracciones_e1_compact.jsonl",
+   "data/experiment/reextraccion_v2/corpus_tanda0/salida_dirigida/ext/extracciones_e1_compact.jsonl",
+   "data/experiment/reextraccion_v2/corpus_tanda0/salida_dirigida/lingob/extracciones_e1_compact.jsonl",
+   "data/experiment/reextraccion_v2/corpus_tanda0/salida_dirigida/pagjub/extracciones_e1_compact.jsonl",
+   "data/experiment/reextraccion_v2/corpus_tanda0/salida_dirigida/polcre/extracciones_e1_compact.jsonl",
+   "data/experiment/reextraccion_v2/corpus_tanda0/salida_dirigida/pro/extracciones_e1_compact.jsonl",
+   "data/experiment/reextraccion_v2/corpus_tanda0/salida_dirigida/ric/extracciones_e1_compact.jsonl",
+   "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0/chunks_cap.json",
+   "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0/chunks_cla.json",
+   "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0/chunks_ctacte.json",
+   "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0/chunks_docvig.json",
+   "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0/chunks_ext.json",
+   "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0/chunks_lingob.json",
+   "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0/chunks_pagjub.json",
+   "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0/chunks_polcre.json",
+   "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0/chunks_pro.json",
+   "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0/chunks_ric.json"
+  ],
+  "modulos_del_repo_cargados": [
+   "data/experiment/b54_catalogo_v3/code/prompt_v3_b54.py",
+   "data/experiment/esq/code/prompt_congelado.py",
+   "data/experiment/esq/code/prompt_esq3b.py",
+   "data/experiment/esq/code/prompt_esq3b_v2.py",
+   "data/experiment/evaluacion/llm_cache.py",
+   "data/experiment/grafo_v2/code/schema.py",
+   "data/experiment/mantenimiento/code/selftest_clave_cache.py",
+   "data/experiment/reextraccion_v2/e1_extractor/cliente_e1.py",
+   "data/experiment/reextraccion_v2/e1_extractor/comun_e1.py",
+   "data/experiment/reextraccion_v2/e1_extractor/perfil_e1.py",
+   "data/experiment/reextraccion_v2/e1_extractor/prompt_e1.py",
+   "data/experiment/reextraccion_v2/e1_extractor/prompt_r2b.py",
+   "data/experiment/reextraccion_v2/e3_verificador/calibradores_e3.py",
+   "data/experiment/reextraccion_v2/e3_verificador/cliente_e3.py",
+   "data/experiment/reextraccion_v2/e3_verificador/comun_e3.py",
+   "data/experiment/reextraccion_v2/e3_verificador/prompt_e3.py"
+  ],
+  "modulos_solo_codigo_cargados": []
+ },
+ "muestra": {
+  "cap::4.3.3.1": {
+   "clave_e1": "e44770df0009e343694cf853ec119eb1045b0ed53b5d59f750fd905c86ed1bc2",
+   "clave_e3": "b8bd0ca79fc0534ec8a25b327b7a371956137218261d02eecedaf47014547be1",
+   "con_validacion_e1": true,
+   "flags_tabular": false,
+   "herencia": [
+    "encabezado",
+    "encabezado",
+    "intro",
+    "encabezado"
+   ],
+   "tipo": "punto_terminal"
+  },
+  "cla::2.2.4::intro": {
+   "clave_e1": "97254978ea8b690e6cbb8feae7c71bad378d1aa033a330416775394a05868628",
+   "clave_e3": "e41fb58a23a09d2ab067a931dc78a0d880baaa50b05fd166674c231c9cfff7df",
+   "con_validacion_e1": true,
+   "flags_tabular": false,
+   "herencia": [
+    "encabezado",
+    "encabezado",
+    "encabezado"
+   ],
+   "tipo": "mini_chunk"
+  },
+  "ctacte::1.3.1.1": {
+   "clave_e1": "97a18b813d90c4b2f5fca72b74fbb2d72ecd3e5550b6e4fe8e139e6192644374",
+   "clave_e3": "d82959a5ddcc0da6b974047063f30d3ff52d4f146dbea30183c5b89012c4971a",
+   "con_validacion_e1": true,
+   "flags_tabular": false,
+   "herencia": [
+    "encabezado",
+    "encabezado",
+    "intro",
+    "encabezado",
+    "intro",
+    "cierre"
+   ],
+   "tipo": "punto_terminal"
+  },
+  "docvig::3.3.1": {
+   "clave_e1": "1d07884040f13568203bda7cca55d7a14537c51ac168da6e120878d23c22457c",
+   "clave_e3": "ef15712badc0a61b02c2400418f1e06daf5697da349fcf3bb529d915d9e948cb",
+   "con_validacion_e1": true,
+   "flags_tabular": false,
+   "herencia": [
+    "encabezado",
+    "encabezado",
+    "intro",
+    "cierre"
+   ],
+   "tipo": "punto_terminal"
+  },
+  "ext::7.1.1.3": {
+   "clave_e1": "9e28d9cd7b7988f1d11c87a86715c7472cb5771c5fe72e5e7ad45c3748f8249a",
+   "clave_e3": "c60bb5c1511872e02132ce27d81fd01bb6526c103db6a119b91979dcd46d9d70",
+   "con_validacion_e1": true,
+   "flags_tabular": true,
+   "herencia": [
+    "encabezado",
+    "encabezado",
+    "encabezado",
+    "intro",
+    "cierre"
+   ],
+   "tipo": "punto_terminal"
+  },
+  "lingob::1.1": {
+   "clave_e1": "e35a48d6922bc844797a28bf2cf034f7d56c2bf7efc62bfa1b3e0598c6e77a3c",
+   "clave_e3": "bdbee010a7c2a143603251f8abed1981dea6a5e1bcc7e8954e24f0b41d6b8618",
+   "con_validacion_e1": true,
+   "flags_tabular": false,
+   "herencia": [
+    "encabezado"
+   ],
+   "tipo": "punto_terminal"
+  },
+  "pagjub::2.7::intro": {
+   "clave_e1": "9b37d1431a76b38d6f3f53f22c72a4442dbfe19d92cf1b298f6a5407bb4e6620",
+   "clave_e3": "7c520dea9907df4414ff9cf37e02f94d71747b0b913648915310f829d6bb327c",
+   "con_validacion_e1": true,
+   "flags_tabular": false,
+   "herencia": [
+    "encabezado",
+    "encabezado"
+   ],
+   "tipo": "mini_chunk"
+  },
+  "polcre::2.1.1": {
+   "clave_e1": "bf4cf726b5f261fab942fa11afd1e736556d702b275e4cdb4d5002468f2fa91a",
+   "clave_e3": "edaf884a46711e7fc0615e760b9ec00aef1fe72b74d12dadf31b6ebb6785981b",
+   "con_validacion_e1": true,
+   "flags_tabular": false,
+   "herencia": [
+    "encabezado",
+    "encabezado",
+    "intro",
+    "cierre",
+    "cierre",
+    "cierre",
+    "cierre",
+    "cierre",
+    "cierre",
+    "cierre",
+    "cierre",
+    "cierre",
+    "cierre"
+   ],
+   "tipo": "punto_terminal"
+  },
+  "pro::2.3.1.1": {
+   "clave_e1": "64ef5c1f3a5bd561eb5fbc783c4cdcda3be5cbc7e85cf24cf2a6c78a2e63709b",
+   "clave_e3": "2d21392e7b06830b21f3f75ecba9ed63a6e10aea4e98dcd173975209b19c3823",
+   "con_validacion_e1": true,
+   "flags_tabular": false,
+   "herencia": [
+    "encabezado",
+    "encabezado",
+    "encabezado",
+    "intro"
+   ],
+   "tipo": "punto_terminal"
+  },
+  "ric::3.1.4": {
+   "clave_e1": "8ab186421dcf3197e4a496374de02feb31faf62f4f4f437c1e2f4d6fcea1d416",
+   "clave_e3": "7d87b9a3096911f0399b498ba9d507189f39b413453e3ccff4ff1a55e2c6a83c",
+   "con_validacion_e1": true,
+   "flags_tabular": true,
+   "herencia": [
+    "encabezado",
+    "encabezado"
+   ],
+   "tipo": "punto_terminal"
+  }
+ },
+ "perfil_e1": "v3_b54",
+ "perfil_r2b": {
+  "anclaje": {
+   "claves_db_e1_en_namespace_r2b": 2449,
+   "claves_db_e1_en_namespace_reintento_forma": 8,
+   "claves_db_e1_en_namespace_segundo_reintento_forma": 2,
+   "e0": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b",
+   "e1": {
+    "calculadas_presentes_en_db": 2449,
+    "claves_calculadas": 2449,
+    "claves_reintento_forma_calculadas": 8,
+    "claves_segundo_reintento_forma_calculadas": 2,
+    "estado": "OK",
+    "registros_e1": 2441,
+    "reintento_forma_presentes_en_db": 8,
+    "segundo_reintento_forma_presentes_en_db": 2
+   },
+   "e3": {
+    "ausentes": 1034,
+    "ausentes_listadas": [
+     "cap::1.4.1",
+     "cap::10.2.1.1",
+     "cap::10.2.1.2",
+     "cap::10.2.2.1",
+     "cap::10.2.2.2",
+     "cap::10.2.2.3",
+     "cap::10.2.2.4",
+     "cap::10.2.2.5",
+     "cap::10.2.2.6",
+     "cap::2.11.3.1",
+     "cap::2.11.3.2",
+     "cap::2.11.3.3",
+     "cap::2.11.3.4",
+     "cap::2.11.3.5",
+     "cap::2.2.3.1",
+     "cap::2.2.3.2",
+     "cap::2.2.3.3",
+     "cap::2.2.3.4",
+     "cap::2.6.2.1",
+     "cap::2.6.2.2",
+     "cap::2.6.2.3",
+     "cap::2.7.2.1",
+     "cap::2.7.2.2",
+     "cap::2.7.2.3",
+     "cap::3.1.3.1",
+     "cap::3.1.3.2",
+     "cap::3.1.3.3",
+     "cap::3.1.4.1",
+     "cap::3.1.4.2",
+     "cap::3.1.4.3",
+     "cap::4.2.1.2::parte2",
+     "cap::5.4.1",
+     "cap::5.4.2",
+     "cap::5.4.3",
+     "cap::5.4.4",
+     "cap::5.4.5",
+     "cap::5.4.6",
+     "cap::6.10.1.1",
+     "cap::6.10.1.2",
+     "cap::6.10.1.3",
+     "cap::6.6.2.1",
+     "cap::6.6.2.2",
+     "cap::6.7.1.1",
+     "cap::6.7.1.2",
+     "cap::6.8.1",
+     "cap::6.8.2",
+     "cap::6.8.3.1",
+     "cap::6.8.3.2",
+     "cap::6.8.3.3",
+     "cap::6.8.4",
+     "cap::6.8.5",
+     "cap::6.8.6",
+     "cap::6.8.7",
+     "cap::6.9.1",
+     "cap::6.9.2.1",
+     "cap::6.9.2.2",
+     "cap::6.9.2.3",
+     "cap::6.9.2.4",
+     "cap::6.9.2.5",
+     "cap::6.9.2.6",
+     "cap::6.9.3",
+     "cap::7.1.3.1",
+     "cap::7.1.3.2",
+     "cap::7.3.1",
+     "cap::7.3.2",
+     "cap::8.2.1.1",
+     "cap::8.2.1.2",
+     "cap::8.2.1.3",
+     "cap::8.2.1.4",
+     "cap::8.2.1.5",
+     "cap::8.2.1.6",
+     "cap::8.2.1.7",
+     "cap::8.2.1.8",
+     "cap::8.2.1.9",
+     "cap::8.2.3.1",
+     "cap::8.2.3.2",
+     "cap::8.2.3.3",
+     "cap::8.2.3.4",
+     "cap::8.3.3.1",
+     "cap::8.3.3.2",
+     "cap::8.3.3.3",
+     "cap::8.3.3.4",
+     "cap::8.3.3.5",
+     "cap::8.3.3.6",
+     "cap::8.3.3.7",
+     "cap::8.3.3.8",
+     "cap::8.3.3.9",
+     "cap::8.5.1",
+     "cap::8.5.2",
+     "cap::8.5.3",
+     "cap::8.6.1",
+     "cap::8.6.2",
+     "cap::8.6.3",
+     "cla::2.2.1.1",
+     "cla::2.2.1.2",
+     "cla::2.2.1.3",
+     "cla::2.2.1.4",
+     "cla::2.2.1.5",
+     "cla::2.2.1.6",
+     "cla::2.2.1.7",
+     "cla::2.2.2.1",
+     "cla::2.2.2.2",
+     "cla::2.2.4.1",
+     "cla::2.2.4.2",
+     "cla::2.2.4.3",
+     "cla::2.2.4.4",
+     "cla::3.3.1",
+     "cla::3.3.2",
+     "cla::3.3.3",
+     "cla::3.3.4",
+     "cla::3.3.5",
+     "cla::3.3.6",
+     "cla::3.3.7",
+     "cla::3.3.8",
+     "cla::3.5.1",
+     "cla::3.5.2",
+     "cla::3.5.3",
+     "cla::5.1.1.1",
+     "cla::5.1.1.2",
+     "cla::5.1.2.1",
+     "cla::5.1.2.2",
+     "cla::5.1.2.3",
+     "cla::5.1.2.4",
+     "cla::6.3.1",
+     "cla::6.3.2",
+     "cla::6.3.3",
+     "cla::6.4.1",
+     "cla::6.4.2",
+     "cla::6.4.3",
+     "cla::6.4.4",
+     "cla::6.5.1.1",
+     "cla::6.5.1.2",
+     "cla::6.5.1.3",
+     "cla::6.5.1.4",
+     "cla::6.5.1.5",
+     "cla::6.5.1.6",
+     "cla::6.5.3.1",
+     "cla::6.5.3.10",
+     "cla::6.5.3.11",
+     "cla::6.5.3.12",
+     "cla::6.5.3.2",
+     "cla::6.5.3.3",
+     "cla::6.5.3.4",
+     "cla::6.5.3.5",
+     "cla::6.5.3.6",
+     "cla::6.5.3.7",
+     "cla::6.5.3.8",
+     "cla::6.5.3.9",
+     "cla::6.5.4.1",
+     "cla::6.5.4.10",
+     "cla::6.5.4.2",
+     "cla::6.5.4.3",
+     "cla::6.5.4.4",
+     "cla::6.5.4.5",
+     "cla::6.5.4.6",
+     "cla::6.5.4.7",
+     "cla::6.5.4.8",
+     "cla::6.5.4.9",
+     "cla::6.5.5.1",
+     "cla::6.5.5.2",
+     "cla::6.5.5.3",
+     "cla::6.5.5.4",
+     "cla::6.5.5.5",
+     "cla::6.5.5.6",
+     "cla::6.5.5.7",
+     "cla::6.5.5.8",
+     "cla::6.5.5.9",
+     "ctacte::1.5.3",
+     "ctacte::1.5.4.1",
+     "ctacte::1.5.4.2",
+     "ctacte::1.5.4.3",
+     "ctacte::1.5.4.4",
+     "ctacte::1.5.5",
+     "ctacte::1.5.6",
+     "ctacte::12.1.2.1",
+     "ctacte::12.1.2.10",
+     "ctacte::12.1.2.11",
+     "ctacte::12.1.2.2",
+     "ctacte::12.1.2.3",
+     "ctacte::12.1.2.4",
+     "ctacte::12.1.2.5",
+     "ctacte::12.1.2.6",
+     "ctacte::12.1.2.7",
+     "ctacte::12.1.2.8",
+     "ctacte::12.1.2.9",
+     "ctacte::12.10.1.1",
+     "ctacte::12.10.1.2",
+     "ctacte::12.10.1.3",
+     "ctacte::12.11.1.1",
+     "ctacte::12.11.1.2",
+     "ctacte::12.11.1.3",
+     "ctacte::12.11.1.4",
+     "ctacte::12.11.1.5",
+     "ctacte::12.7.1.1",
+     "ctacte::12.7.1.2",
+     "ctacte::12.8.1",
+     "ctacte::12.8.2",
+     "ctacte::2.1.1.1",
+     "ctacte::2.1.1.2",
+     "ctacte::2.1.1.3",
+     "ctacte::2.1.1.4",
+     "ctacte::2.1.1.5",
+     "ctacte::2.1.1.6",
+     "ctacte::2.3.4.1",
+     "ctacte::2.3.4.2",
+     "ctacte::2.3.4.3",
+     "ctacte::2.3.5.1",
+     "ctacte::2.3.5.2",
+     "ctacte::3.2.1.1",
+     "ctacte::3.2.1.2",
+     "ctacte::3.2.1.3",
+     "ctacte::3.2.1.4",
+     "ctacte::3.2.1.5",
+     "ctacte::3.2.1.6",
+     "ctacte::3.2.1.7",
+     "ctacte::3.2.1.8",
+     "ctacte::3.2.1.9",
+     "ctacte::3.2.2",
+     "ctacte::3.2.3",
+     "ctacte::3.2.4",
+     "ctacte::3.2.5",
+     "ctacte::3.3.6.1",
+     "ctacte::3.3.6.2",
+     "ctacte::3.3.8.1",
+     "ctacte::3.3.8.2",
+     "ctacte::3.3.8.3",
+     "ctacte::3.3.8.4",
+     "ctacte::3.3.8.5",
+     "ctacte::4.5.1.1",
+     "ctacte::4.5.1.2",
+     "ctacte::4.5.2.1",
+     "ctacte::4.5.2.2",
+     "ctacte::5.1.1.1",
+     "ctacte::5.1.1.2",
+     "ctacte::5.1.2.1",
+     "ctacte::5.1.2.2",
+     "ctacte::5.1.2.3",
+     "ctacte::6.1.2.1",
+     "ctacte::6.1.2.2",
+     "ctacte::6.1.2.3",
+     "ctacte::6.1.2.4",
+     "ctacte::6.1.2.5",
+     "ctacte::6.1.2.6",
+     "ctacte::6.1.2.7",
+     "ctacte::6.1.3.1",
+     "ctacte::6.1.3.10",
+     "ctacte::6.1.3.2",
+     "ctacte::6.1.3.3",
+     "ctacte::6.1.3.4",
+     "ctacte::6.1.3.5",
+     "ctacte::6.1.3.6",
+     "ctacte::6.1.3.7",
+     "ctacte::6.1.3.8",
+     "ctacte::6.1.3.9",
+     "ctacte::6.2.1",
+     "ctacte::6.2.2",
+     "ctacte::6.2.3",
+     "ctacte::6.2.4",
+     "ctacte::6.2.5",
+     "ctacte::6.3.1",
+     "ctacte::6.3.2",
+     "ctacte::6.3.3",
+     "ctacte::6.4.1.1",
+     "ctacte::6.4.1.2",
+     "ctacte::6.4.1.3",
+     "ctacte::6.4.1.4",
+     "ctacte::6.4.1.5",
+     "ctacte::6.4.6.1",
+     "ctacte::6.4.6.2",
+     "ctacte::6.4.6.3",
+     "ctacte::6.4.6.4",
+     "ctacte::6.4.6.5",
+     "ctacte::6.4.7.1",
+     "ctacte::6.4.7.2",
+     "ctacte::6.4.7.3",
+     "ctacte::7.2.2.1",
+     "ctacte::7.2.2.2",
+     "ctacte::7.2.2.3",
+     "ctacte::7.2.2.4",
+     "ctacte::7.2.2.5",
+     "ctacte::8.2.1.1",
+     "ctacte::8.2.1.2",
+     "ctacte::8.2.1.3",
+     "ctacte::8.3.1",
+     "ctacte::8.3.2",
+     "ctacte::8.3.3",
+     "ctacte::8.3.4",
+     "ctacte::8.3.5",
+     "ctacte::8.4.1",
+     "ctacte::8.4.2",
+     "ctacte::8.8.2.1",
+     "ctacte::8.8.2.2",
+     "docvig::3.3.1",
+     "ext::10.10.2.1",
+     "ext::10.10.2.10",
+     "ext::10.10.2.11",
+     "ext::10.10.2.12",
+     "ext::10.10.2.13",
+     "ext::10.10.2.14",
+     "ext::10.10.2.2",
+     "ext::10.10.2.3",
+     "ext::10.10.2.4",
+     "ext::10.10.2.5",
+     "ext::10.10.2.6",
+     "ext::10.10.2.7",
+     "ext::10.10.2.8",
+     "ext::10.10.2.9",
+     "ext::10.11.1",
+     "ext::10.11.2",
+     "ext::10.11.3",
+     "ext::10.11.4",
+     "ext::10.11.5",
+     "ext::10.11.6",
+     "ext::10.2.1.1",
+     "ext::10.2.1.2",
+     "ext::10.2.4.1",
+     "ext::10.2.4.2",
+     "ext::10.2.4.3",
+     "ext::10.2.4.4",
+     "ext::10.2.4.5",
+     "ext::10.2.4.6",
+     "ext::10.2.4.7",
+     "ext::10.2.4.8",
+     "ext::10.2.4.9",
+     "ext::10.2.8.1",
+     "ext::10.2.8.2",
+     "ext::10.2.8.3",
+     "ext::10.2.8.4",
+     "ext::10.3.1.1",
+     "ext::10.3.1.2",
+     "ext::10.3.1.3",
+     "ext::10.3.2.1",
+     "ext::10.3.2.2",
+     "ext::10.3.2.3",
+     "ext::10.3.2.4",
+     "ext::10.3.2.5",
+     "ext::10.3.2.6",
+     "ext::10.3.4.1",
+     "ext::10.3.4.2",
+     "ext::10.3.4.3",
+     "ext::10.3.4.4",
+     "ext::10.3.5.1",
+     "ext::10.3.5.2",
+     "ext::10.3.5.3",
+     "ext::10.3.5.4",
+     "ext::10.4.1.1",
+     "ext::10.4.1.2",
+     "ext::10.4.1.3",
+     "ext::10.4.1.4",
+     "ext::10.4.2.1",
+     "ext::10.4.2.2",
+     "ext::10.4.2.3",
+     "ext::10.4.2.4",
+     "ext::10.4.2.5",
+     "ext::10.4.2.6",
+     "ext::10.4.2.7",
+     "ext::10.4.2.8",
+     "ext::10.4.2.9",
+     "ext::10.4.3.1",
+     "ext::10.4.3.2",
+     "ext::10.4.3.3",
+     "ext::10.4.3.4",
+     "ext::10.4.3.5",
+     "ext::10.4.3.6",
+     "ext::10.4.3.7",
+     "ext::10.4.3.8",
+     "ext::10.6.6.1",
+     "ext::10.6.6.2",
+     "ext::11.1.1.1",
+     "ext::11.1.1.10",
+     "ext::11.1.1.11",
+     "ext::11.1.1.12",
+     "ext::11.1.1.13",
+     "ext::11.1.1.14",
+     "ext::11.1.1.15",
+     "ext::11.1.1.2",
+     "ext::11.1.1.3",
+     "ext::11.1.1.4",
+     "ext::11.1.1.5",
+     "ext::11.1.1.6",
+     "ext::11.1.1.7",
+     "ext::11.1.1.8",
+     "ext::11.1.1.9",
+     "ext::11.1.3.1",
+     "ext::11.1.3.10",
+     "ext::11.1.3.11",
+     "ext::11.1.3.12",
+     "ext::11.1.3.2",
+     "ext::11.1.3.3",
+     "ext::11.1.3.4",
+     "ext::11.1.3.5",
+     "ext::11.1.3.6",
+     "ext::11.1.3.7",
+     "ext::11.1.3.8",
+     "ext::11.1.3.9",
+     "ext::11.1.4.1",
+     "ext::11.1.4.10",
+     "ext::11.1.4.11",
+     "ext::11.1.4.2",
+     "ext::11.1.4.3",
+     "ext::11.1.4.4",
+     "ext::11.1.4.5",
+     "ext::11.1.4.6",
+     "ext::11.1.4.7",
+     "ext::11.1.4.8",
+     "ext::11.1.4.9",
+     "ext::11.1.5.1",
+     "ext::11.1.5.2",
+     "ext::11.1.5.3",
+     "ext::11.1.5.4",
+     "ext::11.1.5.5",
+     "ext::11.1.5.6",
+     "ext::11.1.6.1",
+     "ext::11.1.6.2",
+     "ext::11.1.6.3",
+     "ext::11.1.6.4",
+     "ext::11.2.1.1",
+     "ext::11.2.1.2",
+     "ext::11.2.1.3",
+     "ext::11.2.1.4",
+     "ext::11.2.1.5",
+     "ext::11.2.1.6",
+     "ext::11.2.1.7",
+     "ext::11.2.1.8",
+     "ext::13.1.1",
+     "ext::13.1.2",
+     "ext::13.1.3",
+     "ext::13.1.4",
+     "ext::13.1.5",
+     "ext::13.2.1",
+     "ext::13.2.2",
+     "ext::13.2.3",
+     "ext::13.2.4",
+     "ext::13.2.5",
+     "ext::13.2.6",
+     "ext::13.2.7.1",
+     "ext::13.2.7.2",
+     "ext::13.3.1",
+     "ext::13.3.2",
+     "ext::13.3.3",
+     "ext::13.3.4",
+     "ext::13.3.5",
+     "ext::13.3.6",
+     "ext::13.3.7",
+     "ext::13.3.8",
+     "ext::13.3.9",
+     "ext::13.4.1",
+     "ext::13.4.2",
+     "ext::13.4.3",
+     "ext::13.4.4",
+     "ext::13.4.5",
+     "ext::13.4.6",
+     "ext::13.4.7",
+     "ext::13.4.8",
+     "ext::14.1.1",
+     "ext::14.1.2",
+     "ext::14.1.3",
+     "ext::14.1.4",
+     "ext::14.1.5",
+     "ext::14.2.1.1",
+     "ext::14.2.1.10",
+     "ext::14.2.1.11",
+     "ext::14.2.1.2",
+     "ext::14.2.1.3",
+     "ext::14.2.1.4",
+     "ext::14.2.1.5",
+     "ext::14.2.1.6",
+     "ext::14.2.1.7",
+     "ext::14.2.1.8",
+     "ext::14.2.1.9",
+     "ext::14.2.2",
+     "ext::14.2.3",
+     "ext::14.2.4",
+     "ext::14.4.1",
+     "ext::14.4.2",
+     "ext::15.1",
+     "ext::15.2",
+     "ext::2.2.2.1",
+     "ext::2.2.2.2",
+     "ext::2.2.2.3",
+     "ext::2.6.1.3",
+     "ext::2.6.2.1",
+     "ext::2.6.2.2",
+     "ext::2.6.2.3",
+     "ext::2.7.1",
+     "ext::2.7.2",
+     "ext::2.7.3",
+     "ext::2.7.4",
+     "ext::3.11.1.1",
+     "ext::3.11.1.2",
+     "ext::3.11.1.3",
+     "ext::3.11.1.4",
+     "ext::3.11.1.5",
+     "ext::3.11.2.1",
+     "ext::3.11.2.2",
+     "ext::3.11.2.3",
+     "ext::3.11.3.1",
+     "ext::3.11.3.2",
+     "ext::3.13.1.11",
+     "ext::3.13.1.12",
+     "ext::3.13.1.13",
+     "ext::3.13.1.2",
+     "ext::3.13.1.3",
+     "ext::3.13.1.4",
+     "ext::3.13.1.5",
+     "ext::3.13.1.7",
+     "ext::3.13.1.8",
+     "ext::3.13.1.9",
+     "ext::3.14.1",
+     "ext::3.14.2",
+     "ext::3.14.3",
+     "ext::3.14.4",
+     "ext::3.14.5.1",
+     "ext::3.14.5.2",
+     "ext::3.14.5.3",
+     "ext::3.14.5.4",
+     "ext::3.14.5.5",
+     "ext::3.14.6",
+     "ext::3.15.2.1",
+     "ext::3.15.2.2",
+     "ext::3.15.2.3",
+     "ext::3.15.2.4",
+     "ext::3.15.2.5",
+     "ext::3.15.2.6",
+     "ext::3.16.2.2",
+     "ext::3.16.3.1",
+     "ext::3.16.3.2",
+     "ext::3.16.3.3",
+     "ext::3.16.3.4",
+     "ext::3.16.3.5",
+     "ext::3.16.3.6",
+     "ext::3.16.3.7",
+     "ext::3.17.1.1",
+     "ext::3.17.1.2",
+     "ext::3.17.1.3",
+     "ext::3.17.1.4",
+     "ext::3.17.1.5",
+     "ext::3.17.1.6",
+     "ext::3.17.2.1",
+     "ext::3.17.2.2",
+     "ext::3.17.3.1",
+     "ext::3.17.3.2",
+     "ext::3.17.3.3",
+     "ext::3.17.3.4",
+     "ext::3.17.3.5",
+     "ext::3.17.4.1",
+     "ext::3.17.4.2",
+     "ext::3.17.4.3",
+     "ext::3.18.1.2",
+     "ext::3.18.1.3",
+     "ext::3.18.2.1",
+     "ext::3.18.2.2",
+     "ext::3.18.2.3",
+     "ext::3.18.2.4",
+     "ext::3.18.2.5",
+     "ext::3.18.2.6",
+     "ext::3.18.3.1",
+     "ext::3.18.3.2",
+     "ext::3.18.3.3",
+     "ext::3.3.1",
+     "ext::3.3.2",
+     "ext::3.3.3.3",
+     "ext::3.3.3.4",
+     "ext::3.4.1",
+     "ext::3.4.2",
+     "ext::3.4.3",
+     "ext::3.4.4.1",
+     "ext::3.4.4.2",
+     "ext::3.4.4.3",
+     "ext::3.4.4.4",
+     "ext::3.4.4.5",
+     "ext::3.4.4.6",
+     "ext::3.4.4.7",
+     "ext::3.5.1.1",
+     "ext::3.5.1.10",
+     "ext::3.5.1.11",
+     "ext::3.5.1.12",
+     "ext::3.5.1.2",
+     "ext::3.5.1.3",
+     "ext::3.5.1.4",
+     "ext::3.5.1.5",
+     "ext::3.5.1.6",
+     "ext::3.5.1.7",
+     "ext::3.5.1.8",
+     "ext::3.5.1.9",
+     "ext::3.5.2",
+     "ext::3.5.3.1",
+     "ext::3.5.3.2",
+     "ext::3.5.3.3",
+     "ext::3.5.3.4",
+     "ext::3.5.4.1",
+     "ext::3.5.4.2",
+     "ext::3.5.5",
+     "ext::3.5.6.10",
+     "ext::3.5.6.11",
+     "ext::3.5.6.3",
+     "ext::3.5.6.4",
+     "ext::3.5.6.5",
+     "ext::3.5.6.6",
+     "ext::3.5.6.8",
+     "ext::3.5.6.9",
+     "ext::3.6.1.3",
+     "ext::3.6.1.4",
+     "ext::3.6.1.5",
+     "ext::3.6.4.3",
+     "ext::3.6.4.4",
+     "ext::3.6.4.5",
+     "ext::3.6.4.6",
+     "ext::3.6.4.7",
+     "ext::3.8.1",
+     "ext::3.8.2",
+     "ext::3.8.3",
+     "ext::3.8.4",
+     "ext::3.9.1",
+     "ext::3.9.2",
+     "ext::3.9.3",
+     "ext::3.9.4",
+     "ext::3.9.5",
+     "ext::4.1.4.1",
+     "ext::4.1.4.2",
+     "ext::4.1.4.3",
+     "ext::4.1.4.4",
+     "ext::4.1.4.5",
+     "ext::4.1.4.6",
+     "ext::4.1.4.7",
+     "ext::4.2.1",
+     "ext::4.2.2",
+     "ext::4.2.3",
+     "ext::4.2.4",
+     "ext::4.2.5",
+     "ext::4.2.6",
+     "ext::4.2.7",
+     "ext::4.2.8",
+     "ext::4.2.9",
+     "ext::4.3.2.1",
+     "ext::4.3.2.2",
+     "ext::4.3.2.3",
+     "ext::4.4.1",
+     "ext::4.4.2",
+     "ext::4.4.3",
+     "ext::4.4.4",
+     "ext::4.4.5",
+     "ext::4.5.1",
+     "ext::4.5.2",
+     "ext::4.5.3",
+     "ext::4.5.4",
+     "ext::4.6.1.1",
+     "ext::4.6.1.2",
+     "ext::4.6.1.3",
+     "ext::4.6.1.4",
+     "ext::4.6.2.1",
+     "ext::4.6.2.2",
+     "ext::4.6.2.3",
+     "ext::4.7.1",
+     "ext::4.7.2",
+     "ext::4.7.3",
+     "ext::4.7.4.1",
+     "ext::4.7.4.2",
+     "ext::4.7.4.3",
+     "ext::4.8.1.1",
+     "ext::4.8.1.2",
+     "ext::4.8.1.3",
+     "ext::4.8.1.4",
+     "ext::4.8.1.5",
+     "ext::4.8.4.1",
+     "ext::4.8.4.2",
+     "ext::4.8.4.3",
+     "ext::4.8.6.1",
+     "ext::4.8.6.2",
+     "ext::4.8.6.3",
+     "ext::5.10.1.1",
+     "ext::5.10.1.2",
+     "ext::5.12.1",
+     "ext::5.12.2",
+     "ext::5.12.3",
+     "ext::5.12.4",
+     "ext::5.4.1",
+     "ext::5.4.2.1",
+     "ext::5.4.2.2",
+     "ext::5.5.1.1",
+     "ext::5.5.1.2",
+     "ext::5.5.2",
+     "ext::5.5.3",
+     "ext::5.5.4",
+     "ext::5.7.3.1",
+     "ext::5.7.3.2",
+     "ext::5.7.3.3",
+     "ext::5.7.3.4",
+     "ext::5.8.2.1",
+     "ext::5.8.2.2",
+     "ext::5.8.2.3",
+     "ext::5.8.2.4",
+     "ext::6.10",
+     "ext::6.11",
+     "ext::6.12",
+     "ext::6.3",
+     "ext::6.4",
+     "ext::6.6",
+     "ext::6.7",
+     "ext::6.8",
+     "ext::6.9",
+     "ext::7.1.1.1",
+     "ext::7.1.1.2",
+     "ext::7.1.1.3",
+     "ext::7.1.1.4",
+     "ext::7.1.1.5",
+     "ext::7.10.1.1",
+     "ext::7.10.1.2",
+     "ext::7.10.1.3",
+     "ext::7.10.1.4",
+     "ext::7.10.2.1",
+     "ext::7.10.2.2",
+     "ext::7.10.2.3",
+     "ext::7.10.2.4",
+     "ext::7.10.2.5",
+     "ext::7.11.1.1",
+     "ext::7.11.1.2",
+     "ext::7.11.1.3",
+     "ext::7.11.1.4",
+     "ext::7.11.1.5",
+     "ext::7.11.1.6",
+     "ext::7.11.2.1",
+     "ext::7.11.2.2",
+     "ext::7.11.2.3",
+     "ext::7.11.2.4",
+     "ext::7.11.2.5",
+     "ext::7.11.2.6",
+     "ext::7.11.2.7",
+     "ext::7.11.2.8",
+     "ext::7.11.3.1",
+     "ext::7.11.3.2",
+     "ext::7.11.3.3",
+     "ext::7.5.1",
+     "ext::7.5.2",
+     "ext::7.5.3",
+     "ext::7.5.5.1",
+     "ext::7.5.5.2",
+     "ext::7.5.6",
+     "ext::7.5.7.1",
+     "ext::7.5.7.2",
+     "ext::7.6.1.1",
+     "ext::7.6.1.2",
+     "ext::7.6.2.1",
+     "ext::7.6.2.2",
+     "ext::7.6.3.1",
+     "ext::7.6.3.2",
+     "ext::7.6.3.3",
+     "ext::7.6.3.4",
+     "ext::7.8.1.1",
+     "ext::7.8.1.2",
+     "ext::7.8.2.1",
+     "ext::7.8.2.2",
+     "ext::7.8.2.3",
+     "ext::7.8.2.4",
+     "ext::7.8.2.5",
+     "ext::7.8.4.1",
+     "ext::7.8.4.2",
+     "ext::7.8.4.3",
+     "ext::7.8.5.1",
+     "ext::7.8.5.2",
+     "ext::7.9.1.1",
+     "ext::7.9.1.10",
+     "ext::7.9.1.11",
+     "ext::7.9.1.2",
+     "ext::7.9.1.3",
+     "ext::7.9.1.4",
+     "ext::7.9.1.5",
+     "ext::7.9.1.6",
+     "ext::7.9.1.7",
+     "ext::7.9.1.8",
+     "ext::7.9.1.9",
+     "ext::7.9.2.1",
+     "ext::7.9.2.2",
+     "ext::7.9.3.1",
+     "ext::7.9.3.2",
+     "ext::7.9.3.3",
+     "ext::7.9.3.4",
+     "ext::7.9.3.5",
+     "ext::7.9.3.6",
+     "ext::8.2.1",
+     "ext::8.2.2",
+     "ext::8.4.3.1",
+     "ext::8.4.3.2",
+     "ext::8.4.3.3",
+     "ext::8.5.13.1",
+     "ext::8.5.13.2",
+     "ext::8.5.13.3",
+     "ext::8.5.13.4",
+     "ext::8.5.14.1",
+     "ext::8.5.14.2",
+     "ext::8.5.14.3",
+     "ext::8.5.17.1",
+     "ext::8.5.17.10",
+     "ext::8.5.17.11",
+     "ext::8.5.17.12",
+     "ext::8.5.17.13",
+     "ext::8.5.17.14",
+     "ext::8.5.17.15",
+     "ext::8.5.17.16",
+     "ext::8.5.17.17",
+     "ext::8.5.17.18",
+     "ext::8.5.17.19",
+     "ext::8.5.17.2",
+     "ext::8.5.17.20",
+     "ext::8.5.17.21",
+     "ext::8.5.17.22",
+     "ext::8.5.17.23",
+     "ext::8.5.17.24",
+     "ext::8.5.17.25",
+     "ext::8.5.17.26",
+     "ext::8.5.17.27",
+     "ext::8.5.17.28",
+     "ext::8.5.17.3",
+     "ext::8.5.17.4",
+     "ext::8.5.17.5",
+     "ext::8.5.17.6",
+     "ext::8.5.17.7",
+     "ext::8.5.17.8",
+     "ext::8.5.17.9",
+     "ext::8.5.18.1",
+     "ext::8.5.18.2",
+     "ext::8.5.18.3",
+     "ext::8.5.18.4",
+     "ext::8.5.19.1",
+     "ext::8.5.19.2",
+     "ext::8.5.20.1",
+     "ext::8.5.20.2",
+     "ext::8.5.20.3",
+     "ext::8.5.3.1",
+     "ext::8.5.3.2",
+     "ext::8.5.3.3",
+     "ext::8.5.3.4",
+     "ext::8.5.7.1",
+     "ext::8.5.7.2",
+     "ext::8.5.7.3",
+     "ext::9.3.1.1",
+     "ext::9.3.1.2",
+     "ext::9.3.1.3",
+     "ext::9.3.10.1",
+     "ext::9.3.10.2",
+     "ext::9.3.10.3",
+     "ext::9.3.10.4",
+     "ext::9.3.10.5",
+     "ext::9.3.12.1",
+     "ext::9.3.12.2",
+     "ext::9.3.12.3",
+     "ext::9.3.3.1",
+     "ext::9.3.3.2",
+     "ext::9.3.5.1",
+     "ext::9.3.5.2",
+     "ext::9.3.5.3",
+     "lingob::1.2.1",
+     "lingob::1.2.2",
+     "lingob::1.2.3",
+     "lingob::1.2.4",
+     "lingob::1.2.5",
+     "lingob::1.2.6",
+     "lingob::1.3.1",
+     "lingob::1.3.2",
+     "lingob::1.3.3",
+     "lingob::1.4.1",
+     "lingob::1.4.2",
+     "lingob::1.4.3",
+     "lingob::2.1.1",
+     "lingob::2.1.10",
+     "lingob::2.1.11",
+     "lingob::2.1.12",
+     "lingob::2.1.13",
+     "lingob::2.1.14",
+     "lingob::2.1.15",
+     "lingob::2.1.16",
+     "lingob::2.1.17",
+     "lingob::2.1.18",
+     "lingob::2.1.19",
+     "lingob::2.1.2",
+     "lingob::2.1.20",
+     "lingob::2.1.3",
+     "lingob::2.1.4",
+     "lingob::2.1.5",
+     "lingob::2.1.6",
+     "lingob::2.1.7",
+     "lingob::2.1.8",
+     "lingob::2.1.9",
+     "lingob::2.2.1",
+     "lingob::2.2.2",
+     "lingob::2.2.3",
+     "lingob::2.3.1",
+     "lingob::2.3.2.1",
+     "lingob::2.3.2.2",
+     "lingob::2.4.1",
+     "lingob::2.4.2",
+     "lingob::2.4.3",
+     "lingob::2.4.4",
+     "lingob::2.4.5",
+     "lingob::2.4.6",
+     "lingob::2.4.7",
+     "lingob::3.1.1",
+     "lingob::3.1.2",
+     "lingob::3.1.3",
+     "lingob::3.1.4",
+     "lingob::3.1.5",
+     "lingob::3.1.6",
+     "lingob::3.1.7",
+     "lingob::3.2.1",
+     "lingob::3.2.2",
+     "lingob::3.2.3",
+     "lingob::4.2.1",
+     "lingob::4.2.2",
+     "lingob::4.2.3",
+     "lingob::4.2.4",
+     "lingob::4.2.5",
+     "lingob::5.1.1.1",
+     "lingob::5.1.1.2",
+     "lingob::5.1.1.3",
+     "lingob::5.1.1.4",
+     "lingob::5.1.2.1",
+     "lingob::5.1.2.2",
+     "lingob::5.1.2.3",
+     "lingob::5.1.2.4",
+     "lingob::6.2.2.1",
+     "lingob::6.2.2.2",
+     "lingob::6.2.2.3",
+     "lingob::6.2.2.4",
+     "lingob::6.2.4.1",
+     "lingob::6.2.4.2",
+     "lingob::6.2.4.3",
+     "lingob::6.2.4.4",
+     "lingob::6.2.4.5",
+     "lingob::6.2.4.6",
+     "lingob::6.2.4.7",
+     "lingob::6.2.4.8",
+     "lingob::6.2.4.9",
+     "lingob::7.1.1",
+     "lingob::7.1.10",
+     "lingob::7.1.11",
+     "lingob::7.1.2",
+     "lingob::7.1.3",
+     "lingob::7.1.4",
+     "lingob::7.1.5",
+     "lingob::7.1.6",
+     "lingob::7.1.7",
+     "lingob::7.1.8",
+     "lingob::7.1.9",
+     "lingob::7.2.1",
+     "lingob::7.2.2",
+     "lingob::7.2.3.1",
+     "lingob::7.2.3.2",
+     "lingob::7.2.3.3",
+     "lingob::7.2.3.4",
+     "lingob::7.2.3.5",
+     "lingob::7.2.3.6",
+     "lingob::7.2.3.7",
+     "lingob::7.2.3.8",
+     "pagjub::2.7.1",
+     "pagjub::2.7.2",
+     "pagjub::2.7.3",
+     "pagjub::2.7.4",
+     "pagjub::2.7.5",
+     "pagjub::2.8.1.1",
+     "pagjub::2.8.1.2",
+     "pagjub::2.8.2.1",
+     "pagjub::2.8.2.2",
+     "pagjub::2.8.2.3",
+     "pagjub::2.8.3.1",
+     "pagjub::2.8.3.2",
+     "pagjub::2.8.3.3",
+     "pagjub::2.8.4.1",
+     "pagjub::2.8.4.2",
+     "pagjub::2.8.4.3",
+     "pagjub::2.8.4.4",
+     "pagjub::2.8.5.1",
+     "pagjub::2.8.5.2",
+     "polcre::2.1.1",
+     "polcre::2.1.10",
+     "polcre::2.1.11",
+     "polcre::2.1.12",
+     "polcre::2.1.13",
+     "polcre::2.1.14",
+     "polcre::2.1.15",
+     "polcre::2.1.16",
+     "polcre::2.1.17",
+     "polcre::2.1.2",
+     "polcre::2.1.3.1",
+     "polcre::2.1.3.2",
+     "polcre::2.1.4",
+     "polcre::2.1.5",
+     "polcre::2.1.6",
+     "polcre::2.1.7",
+     "polcre::2.1.8",
+     "polcre::2.1.9",
+     "polcre::6.1.1.1",
+     "polcre::6.1.1.2",
+     "polcre::6.1.1.3",
+     "polcre::6.2.1.1",
+     "polcre::6.2.1.2",
+     "polcre::6.2.1.3",
+     "polcre::6.2.1.4",
+     "polcre::6.2.1.5",
+     "polcre::7.1.1",
+     "polcre::7.1.2",
+     "pro::2.3.6.1",
+     "pro::2.3.6.2",
+     "pro::2.3.9.1",
+     "pro::2.3.9.2",
+     "pro::2.3.9.3",
+     "pro::2.3.9.4",
+     "pro::2.3.9.5",
+     "pro::2.3.9.6",
+     "pro::2.3.9.7",
+     "pro::2.3.9.8",
+     "pro::2.7.1",
+     "pro::2.7.2",
+     "pro::3.1.1.1",
+     "pro::3.1.1.2",
+     "pro::3.1.1.3",
+     "pro::3.1.1.4",
+     "pro::3.1.1.5",
+     "pro::3.1.1.6",
+     "pro::3.1.1.7",
+     "pro::3.1.1.8",
+     "pro::3.2.3.1",
+     "pro::3.2.3.2",
+     "pro::3.2.3.3",
+     "pro::3.2.3.4",
+     "pro::3.2.3.5",
+     "pro::3.2.3.6",
+     "pro::3.2.3.7",
+     "pro::3.2.3.8",
+     "pro::4.2.1.1",
+     "pro::4.2.1.2",
+     "pro::4.2.1.3",
+     "pro::4.2.1.4",
+     "pro::4.2.1.5",
+     "pro::4.2.1.6"
+    ],
+    "calculadas_presentes_en_db": 1406,
+    "claves_calculadas": 2440,
+    "esperados_r0": "data/experiment/reextraccion_v2/r0/esperados_r0.json",
+    "esperados_r0_sha256": "81598c9704a1e66b53c501c7fff34ce1d9b71d20ae0b5a91548ecbf4aba8bfa6",
+    "esperados_r0_sha256_ok": true,
+    "estado": "OK",
+    "items": 1054,
+    "items_no_r0": 1034,
+    "items_no_r0_presentes": [],
+    "items_presentes": [
+     "docvig::3.3.2",
+     "ext::2.6.1.1",
+     "ext::2.6.1.2",
+     "ext::3.13.1.1",
+     "ext::3.13.1.10",
+     "ext::3.13.1.6",
+     "ext::3.16.2.1",
+     "ext::3.18.1.1",
+     "ext::3.3.3.1",
+     "ext::3.3.3.2",
+     "ext::3.5.3.5",
+     "ext::3.5.4.3",
+     "ext::3.5.6.1",
+     "ext::3.5.6.2",
+     "ext::3.5.6.7",
+     "ext::3.6.1.1",
+     "ext::3.6.1.2",
+     "ext::3.6.1.6",
+     "ext::3.6.4.1",
+     "ext::3.6.4.2"
+    ],
+    "no_items": 1386,
+    "no_items_ausentes": [],
+    "pares_aceptados_e1": 2440,
+    "r0_ausentes": [],
+    "regla": "R0 (enmienda 7 al protocolo entre tandas, §1.5): presentes en la db las claves de E3 de los no ítems y las 20 de R0 (verificacion de r0/esperados_r0.json); ausentes, exactamente, las de los ítems (prompt_r2b.es_item) que no son de R0. Antes de R0, la de U-E3-LISTAS (D5): ausentes, exactamente, los ítems",
+    "unidades_r0": [
+     "docvig::3.3.2",
+     "ext::2.6.1.1",
+     "ext::2.6.1.2",
+     "ext::3.13.1.1",
+     "ext::3.13.1.10",
+     "ext::3.13.1.6",
+     "ext::3.16.2.1",
+     "ext::3.18.1.1",
+     "ext::3.3.3.1",
+     "ext::3.3.3.2",
+     "ext::3.5.3.5",
+     "ext::3.5.4.3",
+     "ext::3.5.6.1",
+     "ext::3.5.6.2",
+     "ext::3.5.6.7",
+     "ext::3.6.1.1",
+     "ext::3.6.1.2",
+     "ext::3.6.1.6",
+     "ext::3.6.4.1",
+     "ext::3.6.4.2"
+    ],
+    "variaciones_de_control": [
+     {
+      "descripcion": "una de las 20 claves de R0 ausente de la db",
+      "esperado": "DISCREPANCIA",
+      "id": "A3r_v1",
+      "observado": "DISCREPANCIA",
+      "ok": true,
+      "unidad": "docvig::3.3.2"
+     },
+     {
+      "descripcion": "la clave de un ítem que no es de R0 presente en la db",
+      "esperado": "DISCREPANCIA",
+      "id": "A3r_v2",
+      "observado": "DISCREPANCIA",
+      "ok": true,
+      "unidad": "cap::1.4.1"
+     }
+    ]
+   },
+   "namespace_e1": "e1_extraccion|cv=e1-extractor-v1-p322c5a23e9b7|think=0",
+   "namespace_e1_reintento_forma": "e1_extraccion|cv=e1-extractor-v1-p322c5a23e9b7-rforma1|think=0",
+   "namespace_e1_segundo_reintento_forma": "e1_extraccion|cv=e1-extractor-v1-p322c5a23e9b7-rforma2|think=0",
+   "namespace_e3": "e3_verificacion|cv=e3-verificador-v1-p21a836c7de6d|think=0",
+   "prefijo_hash_e1": "322c5a23e9b7",
+   "prefijo_hash_e3": "21a836c7de6d",
+   "salida_u_reext_t0": "data/experiment/reextraccion_v2/corpus_tanda0/salida_r2b"
+  },
+  "anclaje_declarado": "el del perfil sellado (v3_b54) sobre las dbs de la tanda 0; el del perfil r2b queda NO_VERIFICABLE hasta que existan las dbs de U-REEXT-T0 (decisión 3 de la autora al firmar el mandato de U-TABLA-REPROC)",
+  "insumos": {
+   "e0_tanda0_r2b": {
+    "cap": "9d0fa5fb3c443793b4ae0c40ee11662e544fc13efa07ad5b6f092b8011f06ef1",
+    "cla": "98808886a406d8321c678836a55f92eea983d594d95358dd21ceb537487ac0b1",
+    "ctacte": "7b5aa09d18dddaab8032e33e1cc78469def9a34aae8f1a46d9d5d1ab42530d06",
+    "docvig": "97b62c050d8880b3e9d5fe0df69b2b908e6faaecfac317f02ded831bdbf435dd",
+    "ext": "143b997ee9252145d80d7329fc6477f581efea17aaba98bb56d3465d6ac50abd",
+    "lingob": "8c502976b7e34989e18ca1be2d7e1a4625fd91d3ef42bf6f9846f8d348dad0b0",
+    "pagjub": "1bba0713dae796c4ba811bac3ed64f411d9f0372771cf36dbd9e4150be312c38",
+    "polcre": "9f6518549f4fbade3b5791f3b25062bd65a74e684a264d6df4ac9ecfdf11815b",
+    "pro": "d8717d1c7423bb5f4d80cc830ff97635ce4d9839f8490b73860ea272568620e2",
+    "ric": "22602508ee37a96087c668badfd452ea38ac7603e4ff7b635f8cc6fa43a6d973"
+   }
+  },
+  "inventario_del_armado": {
+   "control_reproduce_claves_del_padre": true,
+   "datos_leidos": {
+    "al_armar_los_requests_de_e3": [],
+    "al_cargar_la_muestra": [
+     "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/chunks_cap.json",
+     "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/chunks_cla.json",
+     "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/chunks_ctacte.json",
+     "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/chunks_docvig.json",
+     "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/chunks_ext.json",
+     "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/chunks_lingob.json",
+     "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/chunks_pagjub.json",
+     "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/chunks_polcre.json",
+     "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/chunks_pro.json",
+     "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/chunks_ric.json"
+    ],
+    "al_construir_el_perfil_de_e1": [
+     "data/experiment/catalogo_unico/catalogo_sujetos_r2.json",
+     "data/experiment/catalogo_unico/generados_r2/bloque_catalogo_r2.txt",
+     "data/experiment/catalogo_unico/generados_r2/enums_tool_schema_r2.json",
+     "data/experiment/catalogo_unico/generados_r2/labels_e2_r2.json",
+     "data/experiment/catalogo_unico/generados_r2/rol_por_to_r2.json",
+     "data/experiment/catalogo_unico/registro_alcance_r2b.json",
+     "data/experiment/grafo_v2/esquema_v2_clases.json",
+     "data/experiment/pyd_r2/generados/tool_schema_r2.json",
+     "data/experiment/reextraccion_v2/e1_extractor/candado_mensaje_r2b.json",
+     "data/experiment/reextraccion_v2/e1_extractor/prompt_r2b_parche_p3b.json",
+     "data/experiment/reextraccion_v2/e1_extractor/prompt_r2b_parche_p3c.json",
+     "data/experiment/reextraccion_v2/e1_extractor/prompt_r2b_reemplazos.json",
+     "data/experiment/reextraccion_v2/e1_extractor/tablas_residuales_forzadas_r2b.json"
+    ],
+    "al_importar_e3": [
+     "data/experiment/reextraccion_v2/e0_chunking/salida/chunks_cla.json",
+     "data/experiment/reextraccion_v2/e0_chunking/salida/chunks_pro.json",
+     "data/experiment/reextraccion_v2/e0_chunking/salida/chunks_ric.json",
+     "data/experiment/reextraccion_v2/e1_extractor/salida/faseB_pro/extracciones.jsonl",
+     "data/experiment/reextraccion_v2/e3_verificador/candado_mensaje_e3.json"
+    ],
+    "al_validar_la_salida_de_e1": [
+     "data/experiment/pyd_r2/politica_campos_r2.json"
+    ]
+   },
+   "modulos_cargados_al_armar": [
+    "data/experiment/b54_catalogo_v3/code/prompt_v3_b54.py",
+    "data/experiment/esq/code/prompt_congelado.py",
+    "data/experiment/esq/code/prompt_esq3b.py",
+    "data/experiment/esq/code/prompt_esq3b_v2.py",
+    "data/experiment/evaluacion/llm_cache.py",
+    "data/experiment/grafo_v2/code/schema.py",
+    "data/experiment/mantenimiento/code/selftest_clave_cache.py",
+    "data/experiment/pyd_r2/code/modelos_r2.py",
+    "data/experiment/reextraccion_v2/e1_extractor/cliente_e1.py",
+    "data/experiment/reextraccion_v2/e1_extractor/comun_e1.py",
+    "data/experiment/reextraccion_v2/e1_extractor/perfil_e1.py",
+    "data/experiment/reextraccion_v2/e1_extractor/prompt_e1.py",
+    "data/experiment/reextraccion_v2/e1_extractor/prompt_r2b.py",
+    "data/experiment/reextraccion_v2/e3_verificador/calibradores_e3.py",
+    "data/experiment/reextraccion_v2/e3_verificador/cliente_e3.py",
+    "data/experiment/reextraccion_v2/e3_verificador/comun_e3.py",
+    "data/experiment/reextraccion_v2/e3_verificador/prompt_e3.py"
+   ],
+   "modulos_cargados_al_validar": [
+    "data/experiment/pyd_r2/code/validador_r2.py",
+    "data/experiment/reextraccion_v2/e1_extractor/validador_e1.py"
+   ],
+   "modulos_solo_codigo_cargados_al_armar": []
+  },
+  "muestra": {
+   "cap::4.3.3.1": {
+    "clave_e1": "54791fb8e389c5c50827d75ecc25042e880cc3ed760363483f0fb281210f72f1",
+    "clave_e3": "3c5ccdd50b3bf6e792a0b2a99a2713cfee8c419ad0c7c12f66419f8cdf841f49",
+    "con_validacion_sintetica": true,
+    "herencia": [
+     "encabezado",
+     "encabezado",
+     "intro",
+     "encabezado"
+    ],
+    "herencia_recortada": false,
+    "omision_sintetica": false,
+    "tablas_serializadas": [],
+    "tipo": "punto_terminal"
+   },
+   "cla::2.2.4::intro": {
+    "clave_e1": "1dd3d4c2a99c59015b4fca5330f55b064024dc020c8e4708d4ad8e5f1df04e06",
+    "clave_e3": "baca56503b14f804e11a14ddaceb32cfbd8168efb02f0488f3d6f90319dff5f9",
+    "con_validacion_sintetica": true,
+    "herencia": [
+     "encabezado",
+     "encabezado",
+     "encabezado"
+    ],
+    "herencia_recortada": false,
+    "omision_sintetica": false,
+    "tablas_serializadas": [],
+    "tipo": "mini_chunk"
+   },
+   "ctacte::1.3.1.1": {
+    "clave_e1": "4bdf0694f021d67564595f4c0ba58883117701be95bbcd562a7027f2f0aea7e5",
+    "clave_e3": "567588375340be08f3a0e5efbbbea11c8bd7fcc614a2146582e5e12e132ecd97",
+    "con_validacion_sintetica": true,
+    "herencia": [
+     "encabezado",
+     "encabezado",
+     "intro",
+     "encabezado",
+     "intro",
+     "cierre"
+    ],
+    "herencia_recortada": false,
+    "omision_sintetica": false,
+    "tablas_serializadas": [],
+    "tipo": "punto_terminal"
+   },
+   "docvig::3.3.1": {
+    "clave_e1": "0e29c3eb67aeab67b284edacfc946e2aa1241e2e09a5f10c068b281b0a6f6646",
+    "clave_e3": "4403056f55675be1c20a306c366c740133eb8a58f6ab564cb09a0b96e3b3ece7",
+    "con_validacion_sintetica": true,
+    "herencia": [
+     "encabezado",
+     "encabezado",
+     "intro",
+     "cierre"
+    ],
+    "herencia_recortada": false,
+    "omision_sintetica": false,
+    "tablas_serializadas": [],
+    "tipo": "punto_terminal"
+   },
+   "ext::7.1.1.3": {
+    "clave_e1": "204c0ff8e988417fa3d24ffd072cf3404bfb01acc4f93ef64d164545f1e40162",
+    "clave_e3": "cda37ea3246697527d7f6b8787149b7ec77fa2232d3240678833ae2eb94e80ea",
+    "con_validacion_sintetica": true,
+    "herencia": [
+     "encabezado",
+     "encabezado",
+     "encabezado",
+     "intro",
+     "cierre"
+    ],
+    "herencia_recortada": false,
+    "omision_sintetica": true,
+    "tablas_serializadas": [],
+    "tipo": "punto_terminal"
+   },
+   "lingob::1.1": {
+    "clave_e1": "76bf2a4658c281a4a7f73ab2e8c7f64d85d7f76733fe5f04bbe6d4ba38a998b7",
+    "clave_e3": "6d5c370fd293c20db03eb431065bada87c9d15e409877f93257ec9619fbcb411",
+    "con_validacion_sintetica": true,
+    "herencia": [
+     "encabezado"
+    ],
+    "herencia_recortada": false,
+    "omision_sintetica": true,
+    "tablas_serializadas": [],
+    "tipo": "punto_terminal"
+   },
+   "pagjub::2.7::intro": {
+    "clave_e1": "e0bf739b343bdaeb909a23c16cc509181b3867983dd714ba7f03625ec8488615",
+    "clave_e3": "3248434357949e018d2dab6911c58a2332464a023d561404b8bb50f09f9fe3ea",
+    "con_validacion_sintetica": true,
+    "herencia": [
+     "encabezado",
+     "encabezado"
+    ],
+    "herencia_recortada": false,
+    "omision_sintetica": true,
+    "tablas_serializadas": [],
+    "tipo": "mini_chunk"
+   },
+   "polcre::2.1.1": {
+    "clave_e1": "711ca405f75861ed8bc8b9c51df745f3b96c110f4a484309235504ea4538a2a4",
+    "clave_e3": "3a091fcef8ca33f1e4035df61372080628ace75b46bec6ab01551a56b4402ed7",
+    "con_validacion_sintetica": true,
+    "herencia": [
+     "encabezado",
+     "encabezado",
+     "intro",
+     "cierre",
+     "cierre",
+     "cierre",
+     "cierre",
+     "cierre",
+     "cierre",
+     "cierre",
+     "cierre",
+     "cierre",
+     "cierre"
+    ],
+    "herencia_recortada": false,
+    "omision_sintetica": false,
+    "tablas_serializadas": [],
+    "tipo": "punto_terminal"
+   },
+   "pro::2.3.1.1": {
+    "clave_e1": "b7988d4709af7eb3e50fd7f67ca59cd37933a30dabec5c16186e4ae3a7977afb",
+    "clave_e3": "2640e4e5f55fe465c5aeda25ea1df42ae687b0bb03be55fe22bc07c5d8d6cb86",
+    "con_validacion_sintetica": true,
+    "herencia": [
+     "encabezado",
+     "encabezado",
+     "encabezado",
+     "intro"
+    ],
+    "herencia_recortada": false,
+    "omision_sintetica": true,
+    "tablas_serializadas": [],
+    "tipo": "punto_terminal"
+   },
+   "ric::11.2.3": {
+    "clave_e1": "e07095cacdd08dbc2c30b6709ca8a88bd146fa1f06bc4c6c6a3040d6eb40d468",
+    "clave_e3": "24eabecf22e86ac9a14e6c860853d18a62b290bf70147441765b0ee3a06a9053",
+    "con_validacion_sintetica": true,
+    "herencia": [
+     "encabezado",
+     "encabezado",
+     "intro",
+     "intro",
+     "intro"
+    ],
+    "herencia_recortada": true,
+    "omision_sintetica": true,
+    "tablas_serializadas": [
+     "ric::tabla032"
+    ],
+    "tipo": "punto_terminal"
+   },
+   "ric::3.1.4": {
+    "clave_e1": "bd5a0b495eec9c3d828c978e58bbd3461ef8ca2532fee861f13aad778a28a1c0",
+    "clave_e3": "8e50e8bf1fe4fe9beb40c318c732339cb1a47fb509aa41f3acec11000803f3cc",
+    "con_validacion_sintetica": true,
+    "herencia": [
+     "encabezado",
+     "encabezado"
+    ],
+    "herencia_recortada": false,
+    "omision_sintetica": true,
+    "tablas_serializadas": [],
+    "tipo": "punto_terminal"
+   },
+   "ric::3.1.5": {
+    "clave_e1": "c4f0b5d6a8705dd297d87ddab7e46577f73921d0c8ade02b0ad145d731246784",
+    "clave_e3": "8cdb42e7fdb7fa73144e8fa54e006a04e49e94e2afa1fd55abee7774d7525091",
+    "con_validacion_sintetica": true,
+    "herencia": [
+     "encabezado",
+     "encabezado"
+    ],
+    "herencia_recortada": false,
+    "omision_sintetica": true,
+    "tablas_serializadas": [
+     "ric::tabla002"
+    ],
+    "tipo": "punto_terminal"
+   },
+   "ric::4.4.1": {
+    "clave_e1": "7bdb15cf1dfd671a19882bb5053e65efd78074b888fa8cc9d531415cda0a5081",
+    "clave_e3": "b9937a6701366783bc0d7df3eab661bd26401479905dec85cb048d8c70561e6f",
+    "con_validacion_sintetica": true,
+    "herencia": [
+     "encabezado",
+     "encabezado",
+     "intro"
+    ],
+    "herencia_recortada": false,
+    "omision_sintetica": false,
+    "tablas_serializadas": [
+     "ric::tabla004"
+    ],
+    "tipo": "punto_terminal"
+   }
+  },
+  "perfil_e1": "r2b",
+  "variaciones": [
+   {
+    "descripcion": "control: sin alteración, otro proceso arma la misma clave",
+    "e1": {
+     "esperadas_que_cambian": [],
+     "observadas_que_cambian": [],
+     "ok": true,
+     "token": "no cambia",
+     "universo": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ]
+    },
+    "e3": {
+     "esperadas_que_cambian": [],
+     "observadas_que_cambian": [],
+     "ok": true,
+     "token": "no cambia",
+     "universo": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ]
+    },
+    "id": "R00",
+    "ok": true,
+    "unidades_aplicables": [
+     "pro::2.3.1.1",
+     "cla::2.2.4::intro",
+     "ric::3.1.4",
+     "cap::4.3.3.1",
+     "ext::7.1.1.3",
+     "ctacte::1.3.1.1",
+     "lingob::1.1",
+     "polcre::2.1.1",
+     "pagjub::2.7::intro",
+     "docvig::3.3.1",
+     "ric::3.1.5",
+     "ric::4.4.1",
+     "ric::11.2.3"
+    ]
+   },
+   {
+    "descripcion": "texto propio de la unidad",
+    "e1": {
+     "esperadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "observadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "ok": true,
+     "token": "cambia"
+    },
+    "e3": {
+     "esperadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "observadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "ok": true,
+     "token": "cambia",
+     "universo": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ]
+    },
+    "id": "R01",
+    "ok": true,
+    "unidades_aplicables": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::11.2.3",
+     "ric::3.1.4",
+     "ric::3.1.5",
+     "ric::4.4.1"
+    ]
+   },
+   {
+    "descripcion": "texto de un bloque heredado de tipo encabezado",
+    "e1": {
+     "esperadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "observadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "ok": true,
+     "token": "cambia"
+    },
+    "e3": {
+     "esperadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "observadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "ok": true,
+     "token": "cambia",
+     "universo": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ]
+    },
+    "id": "R02",
+    "ok": true,
+    "unidades_aplicables": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::11.2.3",
+     "ric::3.1.4",
+     "ric::3.1.5",
+     "ric::4.4.1"
+    ]
+   },
+   {
+    "descripcion": "texto de un bloque heredado de prosa (intro, cierre, chapeau, intersticial)",
+    "e1": {
+     "esperadas_que_cambian": [
+      "cap::4.3.3.1",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::4.4.1"
+     ],
+     "observadas_que_cambian": [
+      "cap::4.3.3.1",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::4.4.1"
+     ],
+     "ok": true,
+     "token": "cambia"
+    },
+    "e3": {
+     "esperadas_que_cambian": [
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "polcre::2.1.1"
+     ],
+     "observadas_que_cambian": [
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "polcre::2.1.1"
+     ],
+     "ok": true,
+     "token": "cambia",
+     "universo": [
+      "cap::4.3.3.1",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::4.4.1"
+     ]
+    },
+    "id": "R03",
+    "ok": true,
+    "unidades_aplicables": [
+     "cap::4.3.3.1",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::11.2.3",
+     "ric::4.4.1"
+    ]
+   },
+   {
+    "descripcion": "marcas de contenido tabular de E0 invertidas (contenido_tabular y, si está, contenido_tabular_residual), mismo texto",
+    "e1": {
+     "esperadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "observadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "ok": true,
+     "token": "cambia"
+    },
+    "e3": {
+     "esperadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "observadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "ok": true,
+     "token": "cambia",
+     "universo": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ]
+    },
+    "id": "R04",
+    "ok": true,
+    "unidades_aplicables": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::11.2.3",
+     "ric::3.1.4",
+     "ric::3.1.5",
+     "ric::4.4.1"
+    ]
+   },
+   {
+    "descripcion": "metadatos de una tabla serializada por e0-r2: una fila de subtítulo más, mismo texto",
+    "e1": {
+     "esperadas_que_cambian": [
+      "ric::11.2.3",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "observadas_que_cambian": [
+      "ric::11.2.3",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "ok": true,
+     "token": "cambia"
+    },
+    "e3": {
+     "esperadas_que_cambian": [
+      "ric::11.2.3",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "observadas_que_cambian": [
+      "ric::11.2.3",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "ok": true,
+     "token": "cambia",
+     "universo": [
+      "ric::11.2.3",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ]
+    },
+    "id": "R04b",
+    "ok": true,
+    "unidades_aplicables": [
+     "ric::11.2.3",
+     "ric::3.1.5",
+     "ric::4.4.1"
+    ]
+   },
+   {
+    "descripcion": "páginas de la unidad y de su herencia, mismo texto",
+    "e1": {
+     "esperadas_que_cambian": [],
+     "observadas_que_cambian": [],
+     "ok": true,
+     "token": "no cambia"
+    },
+    "e3": {
+     "esperadas_que_cambian": [],
+     "observadas_que_cambian": [],
+     "ok": true,
+     "token": "no cambia",
+     "universo": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ]
+    },
+    "id": "R05",
+    "ok": true,
+    "unidades_aplicables": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::11.2.3",
+     "ric::3.1.4",
+     "ric::3.1.5",
+     "ric::4.4.1"
+    ]
+   },
+   {
+    "descripcion": "id, sha256 y conteos de caracteres de la unidad",
+    "e1": {
+     "esperadas_que_cambian": [],
+     "observadas_que_cambian": [],
+     "ok": true,
+     "token": "no cambia"
+    },
+    "e3": {
+     "esperadas_que_cambian": [],
+     "observadas_que_cambian": [],
+     "ok": true,
+     "token": "no cambia",
+     "universo": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ]
+    },
+    "id": "R06",
+    "ok": true,
+    "unidades_aplicables": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::11.2.3",
+     "ric::3.1.4",
+     "ric::3.1.5",
+     "ric::4.4.1"
+    ]
+   },
+   {
+    "descripcion": "número de la unidad (unidad y numeral del texto)",
+    "e1": {
+     "esperadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "observadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "ok": true,
+     "token": "cambia"
+    },
+    "e3": {
+     "esperadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "observadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "ok": true,
+     "token": "cambia",
+     "universo": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ]
+    },
+    "id": "R07",
+    "ok": true,
+    "unidades_aplicables": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::11.2.3",
+     "ric::3.1.4",
+     "ric::3.1.5",
+     "ric::4.4.1"
+    ]
+   },
+   {
+    "descripcion": "prefijo de E1 r2b: un salto de línea al final del texto de sistema",
+    "detalle": {
+     "namespace_base": "e1_extraccion|cv=e1-extractor-v1-p322c5a23e9b7|think=0",
+     "namespace_nuevo": [
+      "e1_extraccion|cv=e1-extractor-v1-p5cc622dd3524|think=0"
+     ]
+    },
+    "e1": {
+     "esperadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "observadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "ok": true,
+     "token": "cambia"
+    },
+    "e3": {
+     "esperadas_que_cambian": [],
+     "observadas_que_cambian": [],
+     "ok": true,
+     "token": "no cambia",
+     "universo": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ]
+    },
+    "id": "R08",
+    "ok": true,
+    "unidades_aplicables": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::11.2.3",
+     "ric::3.1.4",
+     "ric::3.1.5",
+     "ric::4.4.1"
+    ]
+   },
+   {
+    "descripcion": "tool schema de E1 r2b: un espacio al final de la descripción",
+    "detalle": {
+     "namespace_nuevo": [
+      "e1_extraccion|cv=e1-extractor-v1-pd5ae3158534d|think=0"
+     ]
+    },
+    "e1": {
+     "esperadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "observadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "ok": true,
+     "token": "cambia"
+    },
+    "e3": {
+     "esperadas_que_cambian": [],
+     "observadas_que_cambian": [],
+     "ok": true,
+     "token": "no cambia",
+     "universo": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ]
+    },
+    "id": "R09",
+    "ok": true,
+    "unidades_aplicables": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::11.2.3",
+     "ric::3.1.4",
+     "ric::3.1.5",
+     "ric::4.4.1"
+    ]
+   },
+   {
+    "descripcion": "catálogo en el bloque del prefijo r2b: una línea de sujeto más",
+    "detalle": {
+     "namespace_nuevo": [
+      "e1_extraccion|cv=e1-extractor-v1-p985e65813090|think=0"
+     ]
+    },
+    "e1": {
+     "esperadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "observadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "ok": true,
+     "token": "cambia"
+    },
+    "e3": {
+     "esperadas_que_cambian": [],
+     "observadas_que_cambian": [],
+     "ok": true,
+     "token": "no cambia",
+     "universo": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ]
+    },
+    "id": "R10",
+    "ok": true,
+    "unidades_aplicables": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::11.2.3",
+     "ric::3.1.4",
+     "ric::3.1.5",
+     "ric::4.4.1"
+    ]
+   },
+   {
+    "descripcion": "catálogo en el enum `sujeto_id` del tool schema r2b: un id más",
+    "detalle": {
+     "namespace_nuevo": [
+      "e1_extraccion|cv=e1-extractor-v1-p5843f02d28a5|think=0"
+     ]
+    },
+    "e1": {
+     "esperadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "observadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "ok": true,
+     "token": "cambia"
+    },
+    "e3": {
+     "esperadas_que_cambian": [],
+     "observadas_que_cambian": [],
+     "ok": true,
+     "token": "no cambia",
+     "universo": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ]
+    },
+    "id": "R10b",
+    "ok": true,
+    "unidades_aplicables": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::11.2.3",
+     "ric::3.1.4",
+     "ric::3.1.5",
+     "ric::4.4.1"
+    ]
+   },
+   {
+    "descripcion": "tabla TO→rol del perfil r2b en memoria: un miembro menos en el rol de cla",
+    "e1": {
+     "esperadas_que_cambian": [
+      "cla::2.2.4::intro"
+     ],
+     "observadas_que_cambian": [
+      "cla::2.2.4::intro"
+     ],
+     "ok": true,
+     "token": "cambia"
+    },
+    "e3": {
+     "esperadas_que_cambian": [],
+     "observadas_que_cambian": [],
+     "ok": true,
+     "token": "no cambia",
+     "universo": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ]
+    },
+    "id": "R11",
+    "ok": true,
+    "unidades_aplicables": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::11.2.3",
+     "ric::3.1.4",
+     "ric::3.1.5",
+     "ric::4.4.1"
+    ]
+   },
+   {
+    "descripcion": "modelo de E1",
+    "e1": {
+     "esperadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "observadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "ok": true,
+     "token": "cambia"
+    },
+    "e3": {
+     "esperadas_que_cambian": [],
+     "observadas_que_cambian": [],
+     "ok": true,
+     "token": "no cambia",
+     "universo": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ]
+    },
+    "id": "R12",
+    "ok": true,
+    "unidades_aplicables": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::11.2.3",
+     "ric::3.1.4",
+     "ric::3.1.5",
+     "ric::4.4.1"
+    ]
+   },
+   {
+    "descripcion": "max_tokens del primer intento de E1",
+    "e1": {
+     "esperadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "observadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "ok": true,
+     "token": "cambia"
+    },
+    "e3": {
+     "esperadas_que_cambian": [],
+     "observadas_que_cambian": [],
+     "ok": true,
+     "token": "no cambia",
+     "universo": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ]
+    },
+    "id": "R13",
+    "ok": true,
+    "unidades_aplicables": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::11.2.3",
+     "ric::3.1.4",
+     "ric::3.1.5",
+     "ric::4.4.1"
+    ]
+   },
+   {
+    "descripcion": "techo del reintento por corte del perfil r2: 16384 → 32768",
+    "detalle": {
+     "clave_del_primer_intento_sin_cambio": true,
+     "lectura": "cambia = la clave del request del reintento",
+     "reintento_con_clave_distinta_del_primer_intento": true
+    },
+    "e1": {
+     "esperadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "observadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "ok": true,
+     "token": "cambia"
+    },
+    "e3": {
+     "esperadas_que_cambian": [],
+     "observadas_que_cambian": [],
+     "ok": true,
+     "token": "no cambia",
+     "universo": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ]
+    },
+    "id": "R13b",
+    "ok": true,
+    "unidades_aplicables": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::11.2.3",
+     "ric::3.1.4",
+     "ric::3.1.5",
+     "ric::4.4.1"
+    ]
+   },
+   {
+    "descripcion": "techo del tercer escalón del reintento por corte del perfil r2: 40960 → 40961",
+    "detalle": {
+     "clave_del_primer_intento_sin_cambio": true,
+     "lectura": "cambia = la clave del request del tercer escalón",
+     "tercer_escalon_con_clave_distinta_del_primer_intento_y_del_reintento": true
+    },
+    "e1": {
+     "esperadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "observadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "ok": true,
+     "token": "cambia"
+    },
+    "e3": {
+     "esperadas_que_cambian": [],
+     "observadas_que_cambian": [],
+     "ok": true,
+     "token": "no cambia",
+     "universo": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ]
+    },
+    "id": "R13c",
+    "ok": true,
+    "unidades_aplicables": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::11.2.3",
+     "ric::3.1.4",
+     "ric::3.1.5",
+     "ric::4.4.1"
+    ]
+   },
+   {
+    "descripcion": "temperatura del pedido de E1 del perfil r2b: 0 → 1",
+    "detalle": {
+     "el_pedido_lleva_la_temperatura": true,
+     "sin_temperatura_cambia_la_clave": true,
+     "temperatura_del_pedido": 0
+    },
+    "e1": {
+     "esperadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "observadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "ok": true,
+     "token": "cambia"
+    },
+    "e3": {
+     "esperadas_que_cambian": [],
+     "observadas_que_cambian": [],
+     "ok": true,
+     "token": "no cambia",
+     "universo": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ]
+    },
+    "id": "R14",
+    "ok": true,
+    "unidades_aplicables": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::11.2.3",
+     "ric::3.1.4",
+     "ric::3.1.5",
+     "ric::4.4.1"
+    ]
+   },
+   {
+    "descripcion": "CODE_VER del namespace de E1, mismo request",
+    "e1": {
+     "esperadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "observadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "ok": true,
+     "token": "cambia"
+    },
+    "e3": {
+     "esperadas_que_cambian": [],
+     "observadas_que_cambian": [],
+     "ok": true,
+     "token": "no cambia",
+     "universo": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ]
+    },
+    "id": "R15",
+    "ok": true,
+    "unidades_aplicables": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::11.2.3",
+     "ric::3.1.4",
+     "ric::3.1.5",
+     "ric::4.4.1"
+    ]
+   },
+   {
+    "descripcion": "prompt de E3: un salto de línea al final del texto de sistema",
+    "e1": {
+     "esperadas_que_cambian": [],
+     "observadas_que_cambian": [],
+     "ok": true,
+     "token": "no cambia"
+    },
+    "e3": {
+     "esperadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "observadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "ok": true,
+     "token": "cambia",
+     "universo": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ]
+    },
+    "id": "R16",
+    "ok": true,
+    "unidades_aplicables": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::11.2.3",
+     "ric::3.1.4",
+     "ric::3.1.5",
+     "ric::4.4.1"
+    ]
+   },
+   {
+    "descripcion": "modelo de E3",
+    "e1": {
+     "esperadas_que_cambian": [],
+     "observadas_que_cambian": [],
+     "ok": true,
+     "token": "no cambia"
+    },
+    "e3": {
+     "esperadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "observadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "ok": true,
+     "token": "cambia",
+     "universo": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ]
+    },
+    "id": "R17",
+    "ok": true,
+    "unidades_aplicables": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::11.2.3",
+     "ric::3.1.4",
+     "ric::3.1.5",
+     "ric::4.4.1"
+    ]
+   },
+   {
+    "descripcion": "salida validada de E1 alterada como lo haría una política por campo",
+    "e1": {
+     "esperadas_que_cambian": [],
+     "observadas_que_cambian": [],
+     "ok": true,
+     "token": "no cambia"
+    },
+    "e3": {
+     "esperadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "observadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "ok": true,
+     "token": "cambia",
+     "universo": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ]
+    },
+    "id": "R18",
+    "ok": true,
+    "unidades_aplicables": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::11.2.3",
+     "ric::3.1.4",
+     "ric::3.1.5",
+     "ric::4.4.1"
+    ]
+   },
+   {
+    "descripcion": "solo código: perfil sin vocabulario del validador ni labels de E2, y módulos de validación, E2, ensamblado, umbrales, remisiones, E4 y esqueleto bloqueados",
+    "detalle": {
+     "modulos_bloqueados": [
+      "e2_lib",
+      "validador_e1",
+      "ensamblar_corpus",
+      "ensamblar_r1",
+      "ensamblar_tanda0",
+      "r1_e4",
+      "r1_e5_esqueleto",
+      "r1_referencias",
+      "r1_provenance",
+      "r1_invariantes",
+      "assemble",
+      "manifiesto_corpus",
+      "validador_r2",
+      "reglas_comparacion",
+      "runner_corpus"
+     ]
+    },
+    "e1": {
+     "esperadas_que_cambian": [],
+     "observadas_que_cambian": [],
+     "ok": true,
+     "token": "no cambia"
+    },
+    "e3": {
+     "esperadas_que_cambian": [],
+     "observadas_que_cambian": [],
+     "ok": true,
+     "token": "no cambia",
+     "universo": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ]
+    },
+    "id": "R19",
+    "ok": true,
+    "unidades_aplicables": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::11.2.3",
+     "ric::3.1.4",
+     "ric::3.1.5",
+     "ric::4.4.1"
+    ]
+   },
+   {
+    "descripcion": "catálogo de resolución que lee solo el código (indice_e4_r2.json): una entrada más",
+    "detalle": {
+     "json_redirigido_leido": {
+      "data/experiment/catalogo_unico/generados_r2/indice_e4_r2.json": false
+     }
+    },
+    "e1": {
+     "esperadas_que_cambian": [],
+     "observadas_que_cambian": [],
+     "ok": true,
+     "token": "no cambia",
+     "universo": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ]
+    },
+    "e3": {
+     "esperadas_que_cambian": [],
+     "observadas_que_cambian": [],
+     "ok": true,
+     "token": "no cambia",
+     "universo": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ]
+    },
+    "id": "R20",
+    "ok": true,
+    "unidades_aplicables": [
+     "pro::2.3.1.1",
+     "cla::2.2.4::intro",
+     "ric::3.1.4",
+     "cap::4.3.3.1",
+     "ext::7.1.1.3",
+     "ctacte::1.3.1.1",
+     "lingob::1.1",
+     "polcre::2.1.1",
+     "pagjub::2.7::intro",
+     "docvig::3.3.1",
+     "ric::3.1.5",
+     "ric::4.4.1",
+     "ric::11.2.3"
+    ]
+   },
+   {
+    "descripcion": "rol_por_to_r2.json: un miembro menos en el rol de cla",
+    "detalle": {
+     "error_e1": "RuntimeError: candado r2b: rol_por_to_r2.json con sha256 c3d35347dac6… (esperado 07cdb7af51b8…) — se frena",
+     "error_e3": "sin el perfil de E1 no hay salida validada de E1 en la forma r2",
+     "json_redirigido_leido": {
+      "data/experiment/catalogo_unico/generados_r2/rol_por_to_r2.json": true
+     }
+    },
+    "e1": {
+     "esperado": "frena",
+     "observado": "frena",
+     "ok": true,
+     "token": "frena"
+    },
+    "e3": {
+     "esperado": "frena",
+     "observado": "frena",
+     "ok": true,
+     "token": "frena"
+    },
+    "id": "R21",
+    "ok": true,
+    "unidades_aplicables": [
+     "pro::2.3.1.1",
+     "cla::2.2.4::intro",
+     "ric::3.1.4",
+     "cap::4.3.3.1",
+     "ext::7.1.1.3",
+     "ctacte::1.3.1.1",
+     "lingob::1.1",
+     "polcre::2.1.1",
+     "pagjub::2.7::intro",
+     "docvig::3.3.1",
+     "ric::3.1.5",
+     "ric::4.4.1",
+     "ric::11.2.3"
+    ]
+   },
+   {
+    "descripcion": "JSON v2 (esquema_v2_clases.json): un alias más en Sujeto_entidad_financiera",
+    "detalle": {
+     "error_e1": "RuntimeError: candado v2: el prefijo v2 tiene hash 319f47737a17, esperado 2c1b76d1685d — el texto base no es el sellado, se frena",
+     "error_e3": "sin el perfil de E1 no hay salida validada de E1 en la forma r2",
+     "json_redirigido_leido": {
+      "data/experiment/grafo_v2/esquema_v2_clases.json": true
+     }
+    },
+    "e1": {
+     "esperado": "frena",
+     "observado": "frena",
+     "ok": true,
+     "token": "frena"
+    },
+    "e3": {
+     "esperado": "frena",
+     "observado": "frena",
+     "ok": true,
+     "token": "frena"
+    },
+    "id": "R22",
+    "ok": true,
+    "unidades_aplicables": [
+     "pro::2.3.1.1",
+     "cla::2.2.4::intro",
+     "ric::3.1.4",
+     "cap::4.3.3.1",
+     "ext::7.1.1.3",
+     "ctacte::1.3.1.1",
+     "lingob::1.1",
+     "polcre::2.1.1",
+     "pagjub::2.7::intro",
+     "docvig::3.3.1",
+     "ric::3.1.5",
+     "ric::4.4.1",
+     "ric::11.2.3"
+    ]
+   },
+   {
+    "descripcion": "reemplazos anclados del prefijo r2b (prompt_r2b_reemplazos.json): una clave más",
+    "detalle": {
+     "error_e1": "RuntimeError: candado r2b: prompt_r2b_reemplazos.json con sha256 24295acd2a8f… (esperado 810ad645148e…) — se frena",
+     "error_e3": "sin el perfil de E1 no hay salida validada de E1 en la forma r2",
+     "json_redirigido_leido": {
+      "data/experiment/reextraccion_v2/e1_extractor/prompt_r2b_reemplazos.json": true
+     }
+    },
+    "e1": {
+     "esperado": "frena",
+     "observado": "frena",
+     "ok": true,
+     "token": "frena"
+    },
+    "e3": {
+     "esperado": "frena",
+     "observado": "frena",
+     "ok": true,
+     "token": "frena"
+    },
+    "id": "R22b",
+    "ok": true,
+    "unidades_aplicables": [
+     "pro::2.3.1.1",
+     "cla::2.2.4::intro",
+     "ric::3.1.4",
+     "cap::4.3.3.1",
+     "ext::7.1.1.3",
+     "ctacte::1.3.1.1",
+     "lingob::1.1",
+     "polcre::2.1.1",
+     "pagjub::2.7::intro",
+     "docvig::3.3.1",
+     "ric::3.1.5",
+     "ric::4.4.1",
+     "ric::11.2.3"
+    ]
+   },
+   {
+    "descripcion": "catálogo de sujetos r2 (catalogo_sujetos_r2.json): un id más",
+    "detalle": {
+     "error_e1": "RuntimeError: candado del catálogo r2: catalogo_sujetos_r2.json da f6e2a3b734b7… (esperado c3ad15811c7e…, bd2122d) — se frena",
+     "error_e3": "sin el perfil de E1 no hay salida validada de E1 en la forma r2",
+     "json_redirigido_leido": {
+      "data/experiment/catalogo_unico/catalogo_sujetos_r2.json": true
+     }
+    },
+    "e1": {
+     "esperado": "frena",
+     "observado": "frena",
+     "ok": true,
+     "token": "frena"
+    },
+    "e3": {
+     "esperado": "frena",
+     "observado": "frena",
+     "ok": true,
+     "token": "frena"
+    },
+    "id": "R22c",
+    "ok": true,
+    "unidades_aplicables": [
+     "pro::2.3.1.1",
+     "cla::2.2.4::intro",
+     "ric::3.1.4",
+     "cap::4.3.3.1",
+     "ext::7.1.1.3",
+     "ctacte::1.3.1.1",
+     "lingob::1.1",
+     "polcre::2.1.1",
+     "pagjub::2.7::intro",
+     "docvig::3.3.1",
+     "ric::3.1.5",
+     "ric::4.4.1",
+     "ric::11.2.3"
+    ]
+   },
+   {
+    "descripcion": "calibrador CAL-1 de E3: un espacio al final del texto de ric::7.1 (e0_chunking/salida/chunks_ric.json)",
+    "detalle": {
+     "error_e3": "RuntimeError: candado E3: el prefijo armado tiene hash fab9d9800a4c y el sellado es 21a836c7de6d (namespace e3_verificacion|cv=e3-verificador-v1-p21a836c7de6d|think=0): cambió un archivo de datos de los calibradores o el texto del prompt de E3 — se frena",
+     "json_redirigido_leido": {
+      "data/experiment/reextraccion_v2/e0_chunking/salida/chunks_ric.json": true
+     }
+    },
+    "e1": {
+     "esperadas_que_cambian": [],
+     "observadas_que_cambian": [],
+     "ok": true,
+     "token": "no cambia",
+     "universo": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ]
+    },
+    "e3": {
+     "esperado": "frena",
+     "observado": "frena",
+     "ok": true,
+     "token": "frena"
+    },
+    "id": "R22d",
+    "ok": true,
+    "unidades_aplicables": [
+     "pro::2.3.1.1",
+     "cla::2.2.4::intro",
+     "ric::3.1.4",
+     "cap::4.3.3.1",
+     "ext::7.1.1.3",
+     "ctacte::1.3.1.1",
+     "lingob::1.1",
+     "polcre::2.1.1",
+     "pagjub::2.7::intro",
+     "docvig::3.3.1",
+     "ric::3.1.5",
+     "ric::4.4.1",
+     "ric::11.2.3"
+    ]
+   },
+   {
+    "descripcion": "unidad de un TO nuevo (snp_psp::1.3.1.1, partición b584)",
+    "detalle": {
+     "clave_en_cache_e1": false,
+     "lectura": "cambia = la clave no está en la caché (miss)"
+    },
+    "e1": {
+     "esperadas_que_cambian": [
+      "snp_psp::1.3.1.1"
+     ],
+     "observadas_que_cambian": [
+      "snp_psp::1.3.1.1"
+     ],
+     "ok": true,
+     "token": "cambia"
+    },
+    "e3": {
+     "ok": true,
+     "token": "no aplica"
+    },
+    "id": "R23",
+    "ok": true,
+    "unidades_aplicables": [
+     "snp_psp::1.3.1.1"
+    ]
+   },
+   {
+    "descripcion": "punto nuevo antes de pro::2.3: renumeración de los hermanos siguientes y de sus descendientes",
+    "detalle": {
+     "puntos_renumerados": {
+      "2.3": "2.4",
+      "2.4": "2.5",
+      "2.5": "2.6",
+      "2.6": "2.7",
+      "2.7": "2.8"
+     },
+     "to": "pro",
+     "unidad_nueva": "1 (sin clave previa: miss)",
+     "unidades_afectadas_e1": 42,
+     "unidades_afectadas_e3": 42,
+     "unidades_del_to": 101
+    },
+    "e1": {
+     "esperadas_que_cambian": [
+      "pro::2.3.1.1",
+      "pro::2.3.1.2",
+      "pro::2.3.1.3",
+      "pro::2.3.1.4",
+      "pro::2.3.10",
+      "pro::2.3.11",
+      "pro::2.3.12.1",
+      "pro::2.3.12.2",
+      "pro::2.3.12::intro",
+      "pro::2.3.13",
+      "pro::2.3.14",
+      "pro::2.3.1::intro",
+      "pro::2.3.2.1",
+      "pro::2.3.2.2",
+      "pro::2.3.3",
+      "pro::2.3.4",
+      "pro::2.3.5.1",
+      "pro::2.3.6.1",
+      "pro::2.3.6.2",
+      "pro::2.3.6::intro",
+      "pro::2.3.7",
+      "pro::2.3.8",
+      "pro::2.3.9.1",
+      "pro::2.3.9.2",
+      "pro::2.3.9.3",
+      "pro::2.3.9.4",
+      "pro::2.3.9.5",
+      "pro::2.3.9.6",
+      "pro::2.3.9.7",
+      "pro::2.3.9.8",
+      "pro::2.3.9::intro",
+      "pro::2.4.1",
+      "pro::2.4.2",
+      "pro::2.4.3",
+      "pro::2.4::cierre",
+      "pro::2.4::intro",
+      "pro::2.5",
+      "pro::2.6",
+      "pro::2.7.1",
+      "pro::2.7.2",
+      "pro::2.7::cierre",
+      "pro::2.7::intro"
+     ],
+     "observadas_que_cambian": [
+      "pro::2.3.1.1",
+      "pro::2.3.1.2",
+      "pro::2.3.1.3",
+      "pro::2.3.1.4",
+      "pro::2.3.10",
+      "pro::2.3.11",
+      "pro::2.3.12.1",
+      "pro::2.3.12.2",
+      "pro::2.3.12::intro",
+      "pro::2.3.13",
+      "pro::2.3.14",
+      "pro::2.3.1::intro",
+      "pro::2.3.2.1",
+      "pro::2.3.2.2",
+      "pro::2.3.3",
+      "pro::2.3.4",
+      "pro::2.3.5.1",
+      "pro::2.3.6.1",
+      "pro::2.3.6.2",
+      "pro::2.3.6::intro",
+      "pro::2.3.7",
+      "pro::2.3.8",
+      "pro::2.3.9.1",
+      "pro::2.3.9.2",
+      "pro::2.3.9.3",
+      "pro::2.3.9.4",
+      "pro::2.3.9.5",
+      "pro::2.3.9.6",
+      "pro::2.3.9.7",
+      "pro::2.3.9.8",
+      "pro::2.3.9::intro",
+      "pro::2.4.1",
+      "pro::2.4.2",
+      "pro::2.4.3",
+      "pro::2.4::cierre",
+      "pro::2.4::intro",
+      "pro::2.5",
+      "pro::2.6",
+      "pro::2.7.1",
+      "pro::2.7.2",
+      "pro::2.7::cierre",
+      "pro::2.7::intro"
+     ],
+     "ok": true,
+     "token": "cambia"
+    },
+    "e3": {
+     "esperadas_que_cambian": [
+      "pro::2.3.1.1",
+      "pro::2.3.1.2",
+      "pro::2.3.1.3",
+      "pro::2.3.1.4",
+      "pro::2.3.10",
+      "pro::2.3.11",
+      "pro::2.3.12.1",
+      "pro::2.3.12.2",
+      "pro::2.3.12::intro",
+      "pro::2.3.13",
+      "pro::2.3.14",
+      "pro::2.3.1::intro",
+      "pro::2.3.2.1",
+      "pro::2.3.2.2",
+      "pro::2.3.3",
+      "pro::2.3.4",
+      "pro::2.3.5.1",
+      "pro::2.3.6.1",
+      "pro::2.3.6.2",
+      "pro::2.3.6::intro",
+      "pro::2.3.7",
+      "pro::2.3.8",
+      "pro::2.3.9.1",
+      "pro::2.3.9.2",
+      "pro::2.3.9.3",
+      "pro::2.3.9.4",
+      "pro::2.3.9.5",
+      "pro::2.3.9.6",
+      "pro::2.3.9.7",
+      "pro::2.3.9.8",
+      "pro::2.3.9::intro",
+      "pro::2.4.1",
+      "pro::2.4.2",
+      "pro::2.4.3",
+      "pro::2.4::cierre",
+      "pro::2.4::intro",
+      "pro::2.5",
+      "pro::2.6",
+      "pro::2.7.1",
+      "pro::2.7.2",
+      "pro::2.7::cierre",
+      "pro::2.7::intro"
+     ],
+     "observadas_que_cambian": [
+      "pro::2.3.1.1",
+      "pro::2.3.1.2",
+      "pro::2.3.1.3",
+      "pro::2.3.1.4",
+      "pro::2.3.10",
+      "pro::2.3.11",
+      "pro::2.3.12.1",
+      "pro::2.3.12.2",
+      "pro::2.3.12::intro",
+      "pro::2.3.13",
+      "pro::2.3.14",
+      "pro::2.3.1::intro",
+      "pro::2.3.2.1",
+      "pro::2.3.2.2",
+      "pro::2.3.3",
+      "pro::2.3.4",
+      "pro::2.3.5.1",
+      "pro::2.3.6.1",
+      "pro::2.3.6.2",
+      "pro::2.3.6::intro",
+      "pro::2.3.7",
+      "pro::2.3.8",
+      "pro::2.3.9.1",
+      "pro::2.3.9.2",
+      "pro::2.3.9.3",
+      "pro::2.3.9.4",
+      "pro::2.3.9.5",
+      "pro::2.3.9.6",
+      "pro::2.3.9.7",
+      "pro::2.3.9.8",
+      "pro::2.3.9::intro",
+      "pro::2.4.1",
+      "pro::2.4.2",
+      "pro::2.4.3",
+      "pro::2.4::cierre",
+      "pro::2.4::intro",
+      "pro::2.5",
+      "pro::2.6",
+      "pro::2.7.1",
+      "pro::2.7.2",
+      "pro::2.7::cierre",
+      "pro::2.7::intro"
+     ],
+     "ok": true,
+     "token": "cambia",
+     "universo": [
+      "pro::1.1.1",
+      "pro::1.1.2.1",
+      "pro::1.1.2.2",
+      "pro::1.1.2.3",
+      "pro::1.1.2.4",
+      "pro::1.1.2.5",
+      "pro::1.1.2.6",
+      "pro::1.1.2.7",
+      "pro::1.2",
+      "pro::1.3",
+      "pro::2.1",
+      "pro::2.2.1",
+      "pro::2.2.2",
+      "pro::2.2.3",
+      "pro::2.2.4.1",
+      "pro::2.2.4.2",
+      "pro::2.2.4.3",
+      "pro::2.3.1.1",
+      "pro::2.3.1.2",
+      "pro::2.3.1.3",
+      "pro::2.3.1.4",
+      "pro::2.3.10",
+      "pro::2.3.11",
+      "pro::2.3.12.1",
+      "pro::2.3.12.2",
+      "pro::2.3.12::intro",
+      "pro::2.3.13",
+      "pro::2.3.14",
+      "pro::2.3.1::intro",
+      "pro::2.3.2.1",
+      "pro::2.3.2.2",
+      "pro::2.3.3",
+      "pro::2.3.4",
+      "pro::2.3.5.1",
+      "pro::2.3.6.1",
+      "pro::2.3.6.2",
+      "pro::2.3.6::intro",
+      "pro::2.3.7",
+      "pro::2.3.8",
+      "pro::2.3.9.1",
+      "pro::2.3.9.2",
+      "pro::2.3.9.3",
+      "pro::2.3.9.4",
+      "pro::2.3.9.5",
+      "pro::2.3.9.6",
+      "pro::2.3.9.7",
+      "pro::2.3.9.8",
+      "pro::2.3.9::intro",
+      "pro::2.4.1",
+      "pro::2.4.2",
+      "pro::2.4.3",
+      "pro::2.4::cierre",
+      "pro::2.4::intro",
+      "pro::2.5",
+      "pro::2.6",
+      "pro::2.7.1",
+      "pro::2.7.2",
+      "pro::2.7::cierre",
+      "pro::2.7::intro",
+      "pro::3.1.1.1",
+      "pro::3.1.1.2",
+      "pro::3.1.1.3",
+      "pro::3.1.1.4",
+      "pro::3.1.1.5",
+      "pro::3.1.1.6",
+      "pro::3.1.1.7",
+      "pro::3.1.1.8",
+      "pro::3.1.1::cierre",
+      "pro::3.1.1::intro",
+      "pro::3.1.2",
+      "pro::3.1.3",
+      "pro::3.1.4",
+      "pro::3.1.5",
+      "pro::3.1.6",
+      "pro::3.2.1.1",
+      "pro::3.2.1.2",
+      "pro::3.2.1.3",
+      "pro::3.2.2.1",
+      "pro::3.2.2.2",
+      "pro::3.2.3.1",
+      "pro::3.2.3.2",
+      "pro::3.2.3.3",
+      "pro::3.2.3.4",
+      "pro::3.2.3.5",
+      "pro::3.2.3.6",
+      "pro::3.2.3.7",
+      "pro::3.2.3.8",
+      "pro::3.2.3::intro",
+      "pro::4.1",
+      "pro::4.2.1.1",
+      "pro::4.2.1.2",
+      "pro::4.2.1.3",
+      "pro::4.2.1.4",
+      "pro::4.2.1.5",
+      "pro::4.2.1.6",
+      "pro::4.2.1::intro",
+      "pro::4.2.2",
+      "pro::4.3",
+      "pro::4.4",
+      "pro::S3::chapeau_seccion",
+      "pro::S5"
+     ]
+    },
+    "id": "R24",
+    "ok": true,
+    "unidades_aplicables": [
+     "pro::1.1.1",
+     "pro::1.1.2.1",
+     "pro::1.1.2.2",
+     "pro::1.1.2.3",
+     "pro::1.1.2.4",
+     "pro::1.1.2.5",
+     "pro::1.1.2.6",
+     "pro::1.1.2.7",
+     "pro::1.2",
+     "pro::1.3",
+     "pro::2.1",
+     "pro::2.2.1",
+     "pro::2.2.2",
+     "pro::2.2.3",
+     "pro::2.2.4.1",
+     "pro::2.2.4.2",
+     "pro::2.2.4.3",
+     "pro::2.3.1.1",
+     "pro::2.3.1.2",
+     "pro::2.3.1.3",
+     "pro::2.3.1.4",
+     "pro::2.3.10",
+     "pro::2.3.11",
+     "pro::2.3.12.1",
+     "pro::2.3.12.2",
+     "pro::2.3.12::intro",
+     "pro::2.3.13",
+     "pro::2.3.14",
+     "pro::2.3.1::intro",
+     "pro::2.3.2.1",
+     "pro::2.3.2.2",
+     "pro::2.3.3",
+     "pro::2.3.4",
+     "pro::2.3.5.1",
+     "pro::2.3.6.1",
+     "pro::2.3.6.2",
+     "pro::2.3.6::intro",
+     "pro::2.3.7",
+     "pro::2.3.8",
+     "pro::2.3.9.1",
+     "pro::2.3.9.2",
+     "pro::2.3.9.3",
+     "pro::2.3.9.4",
+     "pro::2.3.9.5",
+     "pro::2.3.9.6",
+     "pro::2.3.9.7",
+     "pro::2.3.9.8",
+     "pro::2.3.9::intro",
+     "pro::2.4.1",
+     "pro::2.4.2",
+     "pro::2.4.3",
+     "pro::2.4::cierre",
+     "pro::2.4::intro",
+     "pro::2.5",
+     "pro::2.6",
+     "pro::2.7.1",
+     "pro::2.7.2",
+     "pro::2.7::cierre",
+     "pro::2.7::intro",
+     "pro::3.1.1.1",
+     "pro::3.1.1.2",
+     "pro::3.1.1.3",
+     "pro::3.1.1.4",
+     "pro::3.1.1.5",
+     "pro::3.1.1.6",
+     "pro::3.1.1.7",
+     "pro::3.1.1.8",
+     "pro::3.1.1::cierre",
+     "pro::3.1.1::intro",
+     "pro::3.1.2",
+     "pro::3.1.3",
+     "pro::3.1.4",
+     "pro::3.1.5",
+     "pro::3.1.6",
+     "pro::3.2.1.1",
+     "pro::3.2.1.2",
+     "pro::3.2.1.3",
+     "pro::3.2.2.1",
+     "pro::3.2.2.2",
+     "pro::3.2.3.1",
+     "pro::3.2.3.2",
+     "pro::3.2.3.3",
+     "pro::3.2.3.4",
+     "pro::3.2.3.5",
+     "pro::3.2.3.6",
+     "pro::3.2.3.7",
+     "pro::3.2.3.8",
+     "pro::3.2.3::intro",
+     "pro::4.1",
+     "pro::4.2.1.1",
+     "pro::4.2.1.2",
+     "pro::4.2.1.3",
+     "pro::4.2.1.4",
+     "pro::4.2.1.5",
+     "pro::4.2.1.6",
+     "pro::4.2.1::intro",
+     "pro::4.2.2",
+     "pro::4.3",
+     "pro::4.4",
+     "pro::S3::chapeau_seccion",
+     "pro::S5"
+    ]
+   },
+   {
+    "descripcion": "reintento por salida mal formada: el pedido del primer intento con temperature 1, en el namespace del reintento",
+    "detalle": {
+     "clave_distinta_de_la_del_mismo_pedido_en_su_namespace": true,
+     "difiere_del_primer_intento_solo_en_la_temperatura": true,
+     "lectura": "cambia = la clave del reintento no es la del primer intento",
+     "namespace_con_sufijo_vacio_igual_al_base": true,
+     "namespace_reintento_forma": "e1_extraccion|cv=e1-extractor-v1-p322c5a23e9b7-rforma1|think=0"
+    },
+    "e1": {
+     "esperadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "observadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "ok": true,
+     "token": "cambia"
+    },
+    "e3": {
+     "esperadas_que_cambian": [],
+     "observadas_que_cambian": [],
+     "ok": true,
+     "token": "no cambia",
+     "universo": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ]
+    },
+    "id": "R25",
+    "ok": true,
+    "unidades_aplicables": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::11.2.3",
+     "ric::3.1.4",
+     "ric::3.1.5",
+     "ric::4.4.1"
+    ]
+   },
+   {
+    "descripcion": "segundo reintento por salida mal formada: el pedido del reintento en el namespace -rforma2",
+    "detalle": {
+     "clave_distinta_de_la_del_reintento": true,
+     "lectura": "cambia = la clave del segundo reintento no es la del primer intento",
+     "namespace_segundo_reintento_forma": "e1_extraccion|cv=e1-extractor-v1-p322c5a23e9b7-rforma2|think=0"
+    },
+    "e1": {
+     "esperadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "observadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "ok": true,
+     "token": "cambia"
+    },
+    "e3": {
+     "esperadas_que_cambian": [],
+     "observadas_que_cambian": [],
+     "ok": true,
+     "token": "no cambia",
+     "universo": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ]
+    },
+    "id": "R25b",
+    "ok": true,
+    "unidades_aplicables": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::11.2.3",
+     "ric::3.1.4",
+     "ric::3.1.5",
+     "ric::4.4.1"
+    ]
+   },
+   {
+    "descripcion": "partición por corte de cap::4.2.1.2 en 2 partes",
+    "detalle": {
+     "clave_de_la_unidad_entera_sin_cambio": true,
+     "informe": {
+      "bloques_tabla": 3,
+      "chars_propio": 26726,
+      "familia_items": "inciso",
+      "id": "cap::4.2.1.2",
+      "n_items": 25,
+      "partes": [
+       {
+        "chars_propio": 15056,
+        "id": "cap::4.2.1.2::parte1"
+       },
+       {
+        "chars_propio": 11669,
+        "id": "cap::4.2.1.2::parte2"
+       }
+      ]
+     },
+     "lectura": "cambia = cada parte tiene clave propia (miss)"
+    },
+    "e1": {
+     "esperadas_que_cambian": [
+      "cap::4.2.1.2::parte1",
+      "cap::4.2.1.2::parte2"
+     ],
+     "observadas_que_cambian": [
+      "cap::4.2.1.2::parte1",
+      "cap::4.2.1.2::parte2"
+     ],
+     "ok": true,
+     "token": "cambia"
+    },
+    "e3": {
+     "esperadas_que_cambian": [
+      "cap::4.2.1.2::parte1",
+      "cap::4.2.1.2::parte2"
+     ],
+     "observadas_que_cambian": [
+      "cap::4.2.1.2::parte1",
+      "cap::4.2.1.2::parte2"
+     ],
+     "ok": true,
+     "token": "cambia",
+     "universo": [
+      "cap::4.2.1.2::parte1",
+      "cap::4.2.1.2::parte2"
+     ]
+    },
+    "id": "R26",
+    "ok": true,
+    "unidades_aplicables": [
+     "cap::4.2.1.2::parte1",
+     "cap::4.2.1.2::parte2"
+    ]
+   },
+   {
+    "descripcion": "recorte de la herencia de e0-r2 con un tope menor (U = 1, B = 40); encabezados enteros",
+    "e1": {
+     "esperadas_que_cambian": [
+      "cap::4.3.3.1",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3"
+     ],
+     "observadas_que_cambian": [
+      "cap::4.3.3.1",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3"
+     ],
+     "ok": true,
+     "token": "cambia"
+    },
+    "e3": {
+     "esperadas_que_cambian": [
+      "ext::7.1.1.3",
+      "polcre::2.1.1"
+     ],
+     "observadas_que_cambian": [
+      "ext::7.1.1.3",
+      "polcre::2.1.1"
+     ],
+     "ok": true,
+     "token": "cambia",
+     "universo": [
+      "cap::4.3.3.1",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3"
+     ]
+    },
+    "id": "R27",
+    "ok": true,
+    "unidades_aplicables": [
+     "cap::4.3.3.1",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::11.2.3"
+    ]
+   },
+   {
+    "descripcion": "pies de cap (pies_cap.json de la E0 r2b): otra versión vigente",
+    "detalle": {
+     "json_redirigido_leido": {
+      "data/experiment/reextraccion_v2/e0_chunking/salida_tanda0_r2b/pies_cap.json": false
+     }
+    },
+    "e1": {
+     "esperadas_que_cambian": [],
+     "observadas_que_cambian": [],
+     "ok": true,
+     "token": "no cambia",
+     "universo": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ]
+    },
+    "e3": {
+     "esperadas_que_cambian": [],
+     "observadas_que_cambian": [],
+     "ok": true,
+     "token": "no cambia",
+     "universo": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ]
+    },
+    "id": "R28",
+    "ok": true,
+    "unidades_aplicables": [
+     "pro::2.3.1.1",
+     "cla::2.2.4::intro",
+     "ric::3.1.4",
+     "cap::4.3.3.1",
+     "ext::7.1.1.3",
+     "ctacte::1.3.1.1",
+     "lingob::1.1",
+     "polcre::2.1.1",
+     "pagjub::2.7::intro",
+     "docvig::3.3.1",
+     "ric::3.1.5",
+     "ric::4.4.1",
+     "ric::11.2.3"
+    ]
+   },
+   {
+    "descripcion": "mensaje de E1 r2b: un espacio al final de la línea del ítem de una lista (literal del módulo)",
+    "detalle": {
+     "error_e1": "RuntimeError: candado r2b: el mensaje de E1 de las unidades fijas tiene sha256 9a038b004620… (sellado eeb11b9a3bf6…): cambió una línea del mensaje, la regla que la dispara, la línea de alcance o la lista de tablas forzadas — se frena",
+     "error_e3": "sin el perfil de E1 no hay salida validada de E1 en la forma r2"
+    },
+    "e1": {
+     "esperado": "frena",
+     "observado": "frena",
+     "ok": true,
+     "token": "frena"
+    },
+    "e3": {
+     "esperado": "frena",
+     "observado": "frena",
+     "ok": true,
+     "token": "frena"
+    },
+    "id": "R29",
+    "ok": true,
+    "unidades_aplicables": [
+     "pro::2.3.1.1",
+     "cla::2.2.4::intro",
+     "ric::3.1.4",
+     "cap::4.3.3.1",
+     "ext::7.1.1.3",
+     "ctacte::1.3.1.1",
+     "lingob::1.1",
+     "polcre::2.1.1",
+     "pagjub::2.7::intro",
+     "docvig::3.3.1",
+     "ric::3.1.5",
+     "ric::4.4.1",
+     "ric::11.2.3"
+    ]
+   },
+   {
+    "descripcion": "mensaje de E1 r2b: un espacio al final de la línea de cierre (literal del módulo)",
+    "detalle": {
+     "error_e1": "RuntimeError: candado r2b: el mensaje de E1 de las unidades fijas tiene sha256 0e40b378f1cf… (sellado eeb11b9a3bf6…): cambió una línea del mensaje, la regla que la dispara, la línea de alcance o la lista de tablas forzadas — se frena",
+     "error_e3": "sin el perfil de E1 no hay salida validada de E1 en la forma r2"
+    },
+    "e1": {
+     "esperado": "frena",
+     "observado": "frena",
+     "ok": true,
+     "token": "frena"
+    },
+    "e3": {
+     "esperado": "frena",
+     "observado": "frena",
+     "ok": true,
+     "token": "frena"
+    },
+    "id": "R29b",
+    "ok": true,
+    "unidades_aplicables": [
+     "pro::2.3.1.1",
+     "cla::2.2.4::intro",
+     "ric::3.1.4",
+     "cap::4.3.3.1",
+     "ext::7.1.1.3",
+     "ctacte::1.3.1.1",
+     "lingob::1.1",
+     "polcre::2.1.1",
+     "pagjub::2.7::intro",
+     "docvig::3.3.1",
+     "ric::3.1.5",
+     "ric::4.4.1",
+     "ric::11.2.3"
+    ]
+   },
+   {
+    "descripcion": "NOTA del mensaje de E3 de las omisiones de esquema: un espacio al final (literal del módulo)",
+    "detalle": {
+     "error_e3": "RuntimeError: candado E3: el mensaje de los casos fijos tiene sha256 90f2eb3bdd96… (sellado 66bc865645e9…): cambió una NOTA, la regla que la dispara o el render de la unidad o de la extracción — se frena"
+    },
+    "e1": {
+     "esperadas_que_cambian": [],
+     "observadas_que_cambian": [],
+     "ok": true,
+     "token": "no cambia",
+     "universo": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ]
+    },
+    "e3": {
+     "esperado": "frena",
+     "observado": "frena",
+     "ok": true,
+     "token": "frena"
+    },
+    "id": "R30",
+    "ok": true,
+    "unidades_aplicables": [
+     "pro::2.3.1.1",
+     "cla::2.2.4::intro",
+     "ric::3.1.4",
+     "cap::4.3.3.1",
+     "ext::7.1.1.3",
+     "ctacte::1.3.1.1",
+     "lingob::1.1",
+     "polcre::2.1.1",
+     "pagjub::2.7::intro",
+     "docvig::3.3.1",
+     "ric::3.1.5",
+     "ric::4.4.1",
+     "ric::11.2.3"
+    ]
+   },
+   {
+    "descripcion": "lazo de E3: un espacio al final del aviso del feedback del reintento",
+    "detalle": {
+     "clave_del_primer_intento_sin_cambio": true,
+     "lectura": "cambia = la clave del request de re-extracción del ratchet"
+    },
+    "e1": {
+     "esperadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "observadas_que_cambian": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ],
+     "ok": true,
+     "token": "cambia"
+    },
+    "e3": {
+     "esperadas_que_cambian": [],
+     "observadas_que_cambian": [],
+     "ok": true,
+     "token": "no cambia",
+     "universo": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ]
+    },
+    "id": "R31",
+    "ok": true,
+    "unidades_aplicables": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::11.2.3",
+     "ric::3.1.4",
+     "ric::3.1.5",
+     "ric::4.4.1"
+    ]
+   },
+   {
+    "descripcion": "lista de tablas forzadas a residual: alta de la tabla ric::tabla002",
+    "detalle": {
+     "error_e1": "RuntimeError: candado r2b: tablas_residuales_forzadas_r2b.json con sha256 53ec9ce9b518… (esperado 98cc96b2fec4…) — se frena",
+     "error_e3": "sin el perfil de E1 no hay salida validada de E1 en la forma r2",
+     "json_redirigido_leido": {
+      "data/experiment/reextraccion_v2/e1_extractor/tablas_residuales_forzadas_r2b.json": true
+     },
+     "tabla": "ric::tabla002"
+    },
+    "e1": {
+     "esperado": "frena",
+     "observado": "frena",
+     "ok": true,
+     "token": "frena"
+    },
+    "e3": {
+     "esperado": "frena",
+     "observado": "frena",
+     "ok": true,
+     "token": "frena"
+    },
+    "id": "R32",
+    "ok": true,
+    "unidades_aplicables": [
+     "pro::2.3.1.1",
+     "cla::2.2.4::intro",
+     "ric::3.1.4",
+     "cap::4.3.3.1",
+     "ext::7.1.1.3",
+     "ctacte::1.3.1.1",
+     "lingob::1.1",
+     "polcre::2.1.1",
+     "pagjub::2.7::intro",
+     "docvig::3.3.1",
+     "ric::3.1.5",
+     "ric::4.4.1",
+     "ric::11.2.3"
+    ]
+   },
+   {
+    "descripcion": "NOTA del ítem de una lista en el mensaje de E3: un espacio al final (literal del módulo)",
+    "detalle": {
+     "error_e3": "RuntimeError: candado E3: el mensaje de los casos fijos tiene sha256 1eedbf85507b… (sellado 66bc865645e9…): cambió una NOTA, la regla que la dispara o el render de la unidad o de la extracción — se frena"
+    },
+    "e1": {
+     "esperadas_que_cambian": [],
+     "observadas_que_cambian": [],
+     "ok": true,
+     "token": "no cambia",
+     "universo": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ]
+    },
+    "e3": {
+     "esperado": "frena",
+     "observado": "frena",
+     "ok": true,
+     "token": "frena"
+    },
+    "id": "R33",
+    "ok": true,
+    "unidades_aplicables": [
+     "pro::2.3.1.1",
+     "cla::2.2.4::intro",
+     "ric::3.1.4",
+     "cap::4.3.3.1",
+     "ext::7.1.1.3",
+     "ctacte::1.3.1.1",
+     "lingob::1.1",
+     "polcre::2.1.1",
+     "pagjub::2.7::intro",
+     "docvig::3.3.1",
+     "ric::3.1.5",
+     "ric::4.4.1",
+     "ric::11.2.3"
+    ]
+   },
+   {
+    "descripcion": "bloque que abre la lista en el fuente de E3: sin los bloques contiguos del mismo tipo y unidad de origen (D2; literal de comun_e3)",
+    "detalle": {
+     "error_e3": "RuntimeError: candado E3: el mensaje de los casos fijos tiene sha256 00f4a52629eb… (sellado 66bc865645e9…): cambió una NOTA, la regla que la dispara o el render de la unidad o de la extracción — se frena"
+    },
+    "e1": {
+     "esperadas_que_cambian": [],
+     "observadas_que_cambian": [],
+     "ok": true,
+     "token": "no cambia",
+     "universo": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ]
+    },
+    "e3": {
+     "esperado": "frena",
+     "observado": "frena",
+     "ok": true,
+     "token": "frena"
+    },
+    "id": "R33b",
+    "ok": true,
+    "unidades_aplicables": [
+     "pro::2.3.1.1",
+     "cla::2.2.4::intro",
+     "ric::3.1.4",
+     "cap::4.3.3.1",
+     "ext::7.1.1.3",
+     "ctacte::1.3.1.1",
+     "lingob::1.1",
+     "polcre::2.1.1",
+     "pagjub::2.7::intro",
+     "docvig::3.3.1",
+     "ric::3.1.5",
+     "ric::4.4.1",
+     "ric::11.2.3"
+    ]
+   },
+   {
+    "descripcion": "derivado del registro de alcance por tanda en memoria: una entrada (la de ri_ccna.pdf) para docvig.pdf, sin entrada en la tabla de la release",
+    "detalle": {
+     "sin_entrada_en_la_release_ni_en_el_derivado": true
+    },
+    "e1": {
+     "esperadas_que_cambian": [
+      "docvig::3.3.1"
+     ],
+     "observadas_que_cambian": [
+      "docvig::3.3.1"
+     ],
+     "ok": true,
+     "token": "cambia"
+    },
+    "e3": {
+     "esperadas_que_cambian": [],
+     "observadas_que_cambian": [],
+     "ok": true,
+     "token": "no cambia",
+     "universo": [
+      "cap::4.3.3.1",
+      "cla::2.2.4::intro",
+      "ctacte::1.3.1.1",
+      "docvig::3.3.1",
+      "ext::7.1.1.3",
+      "lingob::1.1",
+      "pagjub::2.7::intro",
+      "polcre::2.1.1",
+      "pro::2.3.1.1",
+      "ric::11.2.3",
+      "ric::3.1.4",
+      "ric::3.1.5",
+      "ric::4.4.1"
+     ]
+    },
+    "id": "R34",
+    "ok": true,
+    "unidades_aplicables": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::11.2.3",
+     "ric::3.1.4",
+     "ric::3.1.5",
+     "ric::4.4.1"
+    ]
+   }
+  ]
+ },
+ "selftest": "U-MANT M1 y U-TABLA-REPROC — clave de caché de E1 y E3",
+ "variaciones": [
+  {
+   "descripcion": "texto propio de la unidad",
+   "e1": {
+    "esperadas_que_cambian": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ],
+    "observadas_que_cambian": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ],
+    "ok": true,
+    "token": "cambia"
+   },
+   "e3": {
+    "esperadas_que_cambian": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ],
+    "observadas_que_cambian": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ],
+    "ok": true,
+    "token": "cambia",
+    "universo": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ]
+   },
+   "id": "V01",
+   "ok": true,
+   "unidades_aplicables": [
+    "cap::4.3.3.1",
+    "cla::2.2.4::intro",
+    "ctacte::1.3.1.1",
+    "docvig::3.3.1",
+    "ext::7.1.1.3",
+    "lingob::1.1",
+    "pagjub::2.7::intro",
+    "polcre::2.1.1",
+    "pro::2.3.1.1",
+    "ric::3.1.4"
+   ]
+  },
+  {
+   "descripcion": "texto de un bloque heredado de tipo encabezado",
+   "e1": {
+    "esperadas_que_cambian": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ],
+    "observadas_que_cambian": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ],
+    "ok": true,
+    "token": "cambia"
+   },
+   "e3": {
+    "esperadas_que_cambian": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ],
+    "observadas_que_cambian": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ],
+    "ok": true,
+    "token": "cambia",
+    "universo": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ]
+   },
+   "id": "V02",
+   "ok": true,
+   "unidades_aplicables": [
+    "cap::4.3.3.1",
+    "cla::2.2.4::intro",
+    "ctacte::1.3.1.1",
+    "docvig::3.3.1",
+    "ext::7.1.1.3",
+    "lingob::1.1",
+    "pagjub::2.7::intro",
+    "polcre::2.1.1",
+    "pro::2.3.1.1",
+    "ric::3.1.4"
+   ]
+  },
+  {
+   "descripcion": "texto de un bloque heredado de prosa (intro, cierre, chapeau, intersticial)",
+   "e1": {
+    "esperadas_que_cambian": [
+     "cap::4.3.3.1",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "polcre::2.1.1",
+     "pro::2.3.1.1"
+    ],
+    "observadas_que_cambian": [
+     "cap::4.3.3.1",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "polcre::2.1.1",
+     "pro::2.3.1.1"
+    ],
+    "ok": true,
+    "token": "cambia"
+   },
+   "e3": {
+    "esperadas_que_cambian": [],
+    "observadas_que_cambian": [],
+    "ok": true,
+    "token": "no cambia",
+    "universo": [
+     "cap::4.3.3.1",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "polcre::2.1.1",
+     "pro::2.3.1.1"
+    ]
+   },
+   "id": "V03",
+   "ok": true,
+   "unidades_aplicables": [
+    "cap::4.3.3.1",
+    "ctacte::1.3.1.1",
+    "docvig::3.3.1",
+    "ext::7.1.1.3",
+    "polcre::2.1.1",
+    "pro::2.3.1.1"
+   ]
+  },
+  {
+   "descripcion": "marca de contenido tabular de E0 invertida, mismo texto",
+   "e1": {
+    "esperadas_que_cambian": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ],
+    "observadas_que_cambian": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ],
+    "ok": true,
+    "token": "cambia"
+   },
+   "e3": {
+    "esperadas_que_cambian": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ],
+    "observadas_que_cambian": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ],
+    "ok": true,
+    "token": "cambia",
+    "universo": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ]
+   },
+   "id": "V04",
+   "ok": true,
+   "unidades_aplicables": [
+    "cap::4.3.3.1",
+    "cla::2.2.4::intro",
+    "ctacte::1.3.1.1",
+    "docvig::3.3.1",
+    "ext::7.1.1.3",
+    "lingob::1.1",
+    "pagjub::2.7::intro",
+    "polcre::2.1.1",
+    "pro::2.3.1.1",
+    "ric::3.1.4"
+   ]
+  },
+  {
+   "descripcion": "páginas de la unidad y de su herencia, mismo texto",
+   "e1": {
+    "esperadas_que_cambian": [],
+    "observadas_que_cambian": [],
+    "ok": true,
+    "token": "no cambia"
+   },
+   "e3": {
+    "esperadas_que_cambian": [],
+    "observadas_que_cambian": [],
+    "ok": true,
+    "token": "no cambia",
+    "universo": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ]
+   },
+   "id": "V05",
+   "ok": true,
+   "unidades_aplicables": [
+    "cap::4.3.3.1",
+    "cla::2.2.4::intro",
+    "ctacte::1.3.1.1",
+    "docvig::3.3.1",
+    "ext::7.1.1.3",
+    "lingob::1.1",
+    "pagjub::2.7::intro",
+    "polcre::2.1.1",
+    "pro::2.3.1.1",
+    "ric::3.1.4"
+   ]
+  },
+  {
+   "descripcion": "id, sha256 y conteos de caracteres de la unidad",
+   "e1": {
+    "esperadas_que_cambian": [],
+    "observadas_que_cambian": [],
+    "ok": true,
+    "token": "no cambia"
+   },
+   "e3": {
+    "esperadas_que_cambian": [],
+    "observadas_que_cambian": [],
+    "ok": true,
+    "token": "no cambia",
+    "universo": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ]
+   },
+   "id": "V06",
+   "ok": true,
+   "unidades_aplicables": [
+    "cap::4.3.3.1",
+    "cla::2.2.4::intro",
+    "ctacte::1.3.1.1",
+    "docvig::3.3.1",
+    "ext::7.1.1.3",
+    "lingob::1.1",
+    "pagjub::2.7::intro",
+    "polcre::2.1.1",
+    "pro::2.3.1.1",
+    "ric::3.1.4"
+   ]
+  },
+  {
+   "descripcion": "número de la unidad (unidad y numeral del texto)",
+   "e1": {
+    "esperadas_que_cambian": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ],
+    "observadas_que_cambian": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ],
+    "ok": true,
+    "token": "cambia"
+   },
+   "e3": {
+    "esperadas_que_cambian": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ],
+    "observadas_que_cambian": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ],
+    "ok": true,
+    "token": "cambia",
+    "universo": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ]
+   },
+   "id": "V07",
+   "ok": true,
+   "unidades_aplicables": [
+    "cap::4.3.3.1",
+    "cla::2.2.4::intro",
+    "ctacte::1.3.1.1",
+    "docvig::3.3.1",
+    "ext::7.1.1.3",
+    "lingob::1.1",
+    "pagjub::2.7::intro",
+    "polcre::2.1.1",
+    "pro::2.3.1.1",
+    "ric::3.1.4"
+   ]
+  },
+  {
+   "descripcion": "prefijo de E1: un salto de línea al final del texto de sistema",
+   "detalle": {
+    "namespace_base": "e1_extraccion|cv=e1-extractor-v1-p54a111e2175f|think=0",
+    "namespace_nuevo": [
+     "e1_extraccion|cv=e1-extractor-v1-p2c5b8e55a51e|think=0"
+    ]
+   },
+   "e1": {
+    "esperadas_que_cambian": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ],
+    "observadas_que_cambian": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ],
+    "ok": true,
+    "token": "cambia"
+   },
+   "e3": {
+    "esperadas_que_cambian": [],
+    "observadas_que_cambian": [],
+    "ok": true,
+    "token": "no cambia",
+    "universo": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ]
+   },
+   "id": "V08",
+   "ok": true,
+   "unidades_aplicables": [
+    "cap::4.3.3.1",
+    "cla::2.2.4::intro",
+    "ctacte::1.3.1.1",
+    "docvig::3.3.1",
+    "ext::7.1.1.3",
+    "lingob::1.1",
+    "pagjub::2.7::intro",
+    "polcre::2.1.1",
+    "pro::2.3.1.1",
+    "ric::3.1.4"
+   ]
+  },
+  {
+   "descripcion": "tool schema de E1: un espacio al final de la descripción",
+   "detalle": {
+    "namespace_nuevo": [
+     "e1_extraccion|cv=e1-extractor-v1-pd6a5a6c3088f|think=0"
+    ]
+   },
+   "e1": {
+    "esperadas_que_cambian": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ],
+    "observadas_que_cambian": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ],
+    "ok": true,
+    "token": "cambia"
+   },
+   "e3": {
+    "esperadas_que_cambian": [],
+    "observadas_que_cambian": [],
+    "ok": true,
+    "token": "no cambia",
+    "universo": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ]
+   },
+   "id": "V09",
+   "ok": true,
+   "unidades_aplicables": [
+    "cap::4.3.3.1",
+    "cla::2.2.4::intro",
+    "ctacte::1.3.1.1",
+    "docvig::3.3.1",
+    "ext::7.1.1.3",
+    "lingob::1.1",
+    "pagjub::2.7::intro",
+    "polcre::2.1.1",
+    "pro::2.3.1.1",
+    "ric::3.1.4"
+   ]
+  },
+  {
+   "descripcion": "catálogo en el bloque del prompt: una línea de sujeto más",
+   "detalle": {
+    "namespace_nuevo": [
+     "e1_extraccion|cv=e1-extractor-v1-p176c8930f697|think=0"
+    ]
+   },
+   "e1": {
+    "esperadas_que_cambian": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ],
+    "observadas_que_cambian": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ],
+    "ok": true,
+    "token": "cambia"
+   },
+   "e3": {
+    "esperadas_que_cambian": [],
+    "observadas_que_cambian": [],
+    "ok": true,
+    "token": "no cambia",
+    "universo": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ]
+   },
+   "id": "V10",
+   "ok": true,
+   "unidades_aplicables": [
+    "cap::4.3.3.1",
+    "cla::2.2.4::intro",
+    "ctacte::1.3.1.1",
+    "docvig::3.3.1",
+    "ext::7.1.1.3",
+    "lingob::1.1",
+    "pagjub::2.7::intro",
+    "polcre::2.1.1",
+    "pro::2.3.1.1",
+    "ric::3.1.4"
+   ]
+  },
+  {
+   "descripcion": "catálogo en el enum `sujeto_id` del tool schema: un id más",
+   "detalle": {
+    "namespace_nuevo": [
+     "e1_extraccion|cv=e1-extractor-v1-p381eec98ac44|think=0"
+    ]
+   },
+   "e1": {
+    "esperadas_que_cambian": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ],
+    "observadas_que_cambian": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ],
+    "ok": true,
+    "token": "cambia"
+   },
+   "e3": {
+    "esperadas_que_cambian": [],
+    "observadas_que_cambian": [],
+    "ok": true,
+    "token": "no cambia",
+    "universo": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ]
+   },
+   "id": "V10b",
+   "ok": true,
+   "unidades_aplicables": [
+    "cap::4.3.3.1",
+    "cla::2.2.4::intro",
+    "ctacte::1.3.1.1",
+    "docvig::3.3.1",
+    "ext::7.1.1.3",
+    "lingob::1.1",
+    "pagjub::2.7::intro",
+    "polcre::2.1.1",
+    "pro::2.3.1.1",
+    "ric::3.1.4"
+   ]
+  },
+  {
+   "descripcion": "tabla TO→rol en memoria: un miembro menos en el rol de cla",
+   "e1": {
+    "esperadas_que_cambian": [
+     "cla::2.2.4::intro"
+    ],
+    "observadas_que_cambian": [
+     "cla::2.2.4::intro"
+    ],
+    "ok": true,
+    "token": "cambia"
+   },
+   "e3": {
+    "esperadas_que_cambian": [],
+    "observadas_que_cambian": [],
+    "ok": true,
+    "token": "no cambia",
+    "universo": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ]
+   },
+   "id": "V11",
+   "ok": true,
+   "unidades_aplicables": [
+    "cap::4.3.3.1",
+    "cla::2.2.4::intro",
+    "ctacte::1.3.1.1",
+    "docvig::3.3.1",
+    "ext::7.1.1.3",
+    "lingob::1.1",
+    "pagjub::2.7::intro",
+    "polcre::2.1.1",
+    "pro::2.3.1.1",
+    "ric::3.1.4"
+   ]
+  },
+  {
+   "descripcion": "modelo de E1",
+   "e1": {
+    "esperadas_que_cambian": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ],
+    "observadas_que_cambian": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ],
+    "ok": true,
+    "token": "cambia"
+   },
+   "e3": {
+    "esperadas_que_cambian": [],
+    "observadas_que_cambian": [],
+    "ok": true,
+    "token": "no cambia",
+    "universo": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ]
+   },
+   "id": "V12",
+   "ok": true,
+   "unidades_aplicables": [
+    "cap::4.3.3.1",
+    "cla::2.2.4::intro",
+    "ctacte::1.3.1.1",
+    "docvig::3.3.1",
+    "ext::7.1.1.3",
+    "lingob::1.1",
+    "pagjub::2.7::intro",
+    "polcre::2.1.1",
+    "pro::2.3.1.1",
+    "ric::3.1.4"
+   ]
+  },
+  {
+   "descripcion": "max_tokens de E1",
+   "e1": {
+    "esperadas_que_cambian": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ],
+    "observadas_que_cambian": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ],
+    "ok": true,
+    "token": "cambia"
+   },
+   "e3": {
+    "esperadas_que_cambian": [],
+    "observadas_que_cambian": [],
+    "ok": true,
+    "token": "no cambia",
+    "universo": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ]
+   },
+   "id": "V13",
+   "ok": true,
+   "unidades_aplicables": [
+    "cap::4.3.3.1",
+    "cla::2.2.4::intro",
+    "ctacte::1.3.1.1",
+    "docvig::3.3.1",
+    "ext::7.1.1.3",
+    "lingob::1.1",
+    "pagjub::2.7::intro",
+    "polcre::2.1.1",
+    "pro::2.3.1.1",
+    "ric::3.1.4"
+   ]
+  },
+  {
+   "descripcion": "temperature agregada al request de E1",
+   "e1": {
+    "esperadas_que_cambian": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ],
+    "observadas_que_cambian": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ],
+    "ok": true,
+    "token": "cambia"
+   },
+   "e3": {
+    "esperadas_que_cambian": [],
+    "observadas_que_cambian": [],
+    "ok": true,
+    "token": "no cambia",
+    "universo": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ]
+   },
+   "id": "V14",
+   "ok": true,
+   "unidades_aplicables": [
+    "cap::4.3.3.1",
+    "cla::2.2.4::intro",
+    "ctacte::1.3.1.1",
+    "docvig::3.3.1",
+    "ext::7.1.1.3",
+    "lingob::1.1",
+    "pagjub::2.7::intro",
+    "polcre::2.1.1",
+    "pro::2.3.1.1",
+    "ric::3.1.4"
+   ]
+  },
+  {
+   "descripcion": "CODE_VER del namespace de E1, mismo request",
+   "e1": {
+    "esperadas_que_cambian": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ],
+    "observadas_que_cambian": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ],
+    "ok": true,
+    "token": "cambia"
+   },
+   "e3": {
+    "esperadas_que_cambian": [],
+    "observadas_que_cambian": [],
+    "ok": true,
+    "token": "no cambia",
+    "universo": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ]
+   },
+   "id": "V15",
+   "ok": true,
+   "unidades_aplicables": [
+    "cap::4.3.3.1",
+    "cla::2.2.4::intro",
+    "ctacte::1.3.1.1",
+    "docvig::3.3.1",
+    "ext::7.1.1.3",
+    "lingob::1.1",
+    "pagjub::2.7::intro",
+    "polcre::2.1.1",
+    "pro::2.3.1.1",
+    "ric::3.1.4"
+   ]
+  },
+  {
+   "descripcion": "prompt de E3: un salto de línea al final del texto de sistema",
+   "e1": {
+    "esperadas_que_cambian": [],
+    "observadas_que_cambian": [],
+    "ok": true,
+    "token": "no cambia"
+   },
+   "e3": {
+    "esperadas_que_cambian": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ],
+    "observadas_que_cambian": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ],
+    "ok": true,
+    "token": "cambia",
+    "universo": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ]
+   },
+   "id": "V16",
+   "ok": true,
+   "unidades_aplicables": [
+    "cap::4.3.3.1",
+    "cla::2.2.4::intro",
+    "ctacte::1.3.1.1",
+    "docvig::3.3.1",
+    "ext::7.1.1.3",
+    "lingob::1.1",
+    "pagjub::2.7::intro",
+    "polcre::2.1.1",
+    "pro::2.3.1.1",
+    "ric::3.1.4"
+   ]
+  },
+  {
+   "descripcion": "modelo de E3",
+   "e1": {
+    "esperadas_que_cambian": [],
+    "observadas_que_cambian": [],
+    "ok": true,
+    "token": "no cambia"
+   },
+   "e3": {
+    "esperadas_que_cambian": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ],
+    "observadas_que_cambian": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ],
+    "ok": true,
+    "token": "cambia",
+    "universo": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ]
+   },
+   "id": "V17",
+   "ok": true,
+   "unidades_aplicables": [
+    "cap::4.3.3.1",
+    "cla::2.2.4::intro",
+    "ctacte::1.3.1.1",
+    "docvig::3.3.1",
+    "ext::7.1.1.3",
+    "lingob::1.1",
+    "pagjub::2.7::intro",
+    "polcre::2.1.1",
+    "pro::2.3.1.1",
+    "ric::3.1.4"
+   ]
+  },
+  {
+   "descripcion": "salida validada de E1 alterada como lo haría una política por campo",
+   "e1": {
+    "esperadas_que_cambian": [],
+    "observadas_que_cambian": [],
+    "ok": true,
+    "token": "no cambia"
+   },
+   "e3": {
+    "esperadas_que_cambian": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ],
+    "observadas_que_cambian": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ],
+    "ok": true,
+    "token": "cambia",
+    "universo": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ]
+   },
+   "id": "V18",
+   "ok": true,
+   "unidades_aplicables": [
+    "cap::4.3.3.1",
+    "cla::2.2.4::intro",
+    "docvig::3.3.1",
+    "ext::7.1.1.3",
+    "lingob::1.1",
+    "pagjub::2.7::intro",
+    "polcre::2.1.1",
+    "pro::2.3.1.1",
+    "ric::3.1.4"
+   ]
+  },
+  {
+   "descripcion": "solo código: perfil sin vocabulario del validador ni labels de E2, y módulos de validación, E2, ensamblado, E4 y esqueleto bloqueados",
+   "detalle": {
+    "modulos_bloqueados": [
+     "e2_lib",
+     "validador_e1",
+     "ensamblar_corpus",
+     "ensamblar_r1",
+     "ensamblar_tanda0",
+     "r1_e4",
+     "r1_e5_esqueleto",
+     "r1_referencias",
+     "r1_provenance",
+     "r1_invariantes",
+     "assemble",
+     "manifiesto_corpus"
+    ]
+   },
+   "e1": {
+    "esperadas_que_cambian": [],
+    "observadas_que_cambian": [],
+    "ok": true,
+    "token": "no cambia"
+   },
+   "e3": {
+    "esperadas_que_cambian": [],
+    "observadas_que_cambian": [],
+    "ok": true,
+    "token": "no cambia",
+    "universo": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ]
+   },
+   "id": "V19",
+   "ok": true,
+   "unidades_aplicables": [
+    "cap::4.3.3.1",
+    "cla::2.2.4::intro",
+    "ctacte::1.3.1.1",
+    "docvig::3.3.1",
+    "ext::7.1.1.3",
+    "lingob::1.1",
+    "pagjub::2.7::intro",
+    "polcre::2.1.1",
+    "pro::2.3.1.1",
+    "ric::3.1.4"
+   ]
+  },
+  {
+   "descripcion": "JSON del esqueleto y de E4 (esquema_v3_clases.json): una clase más",
+   "detalle": {
+    "json_redirigido_leido": {
+     "data/experiment/esq_v3_miembros/esquema_v3_clases.json": false
+    }
+   },
+   "e1": {
+    "esperadas_que_cambian": [],
+    "observadas_que_cambian": [],
+    "ok": true,
+    "token": "no cambia"
+   },
+   "e3": {
+    "esperadas_que_cambian": [],
+    "observadas_que_cambian": [],
+    "ok": true,
+    "token": "no cambia",
+    "universo": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ]
+   },
+   "id": "V20",
+   "ok": true,
+   "unidades_aplicables": [
+    "cap::4.3.3.1",
+    "cla::2.2.4::intro",
+    "ctacte::1.3.1.1",
+    "docvig::3.3.1",
+    "ext::7.1.1.3",
+    "lingob::1.1",
+    "pagjub::2.7::intro",
+    "polcre::2.1.1",
+    "pro::2.3.1.1",
+    "ric::3.1.4"
+   ]
+  },
+  {
+   "descripcion": "JSON v2 (esquema_v2_clases.json): un miembro menos en el rol de cla",
+   "detalle": {
+    "json_redirigido_leido": {
+     "data/experiment/grafo_v2/esquema_v2_clases.json": true
+    }
+   },
+   "e1": {
+    "esperadas_que_cambian": [
+     "cla::2.2.4::intro"
+    ],
+    "observadas_que_cambian": [
+     "cla::2.2.4::intro"
+    ],
+    "ok": true,
+    "token": "cambia"
+   },
+   "e3": {
+    "esperadas_que_cambian": [],
+    "observadas_que_cambian": [],
+    "ok": true,
+    "token": "no cambia",
+    "universo": [
+     "cap::4.3.3.1",
+     "cla::2.2.4::intro",
+     "ctacte::1.3.1.1",
+     "docvig::3.3.1",
+     "ext::7.1.1.3",
+     "lingob::1.1",
+     "pagjub::2.7::intro",
+     "polcre::2.1.1",
+     "pro::2.3.1.1",
+     "ric::3.1.4"
+    ]
+   },
+   "id": "V21",
+   "ok": true,
+   "unidades_aplicables": [
+    "cap::4.3.3.1",
+    "cla::2.2.4::intro",
+    "ctacte::1.3.1.1",
+    "docvig::3.3.1",
+    "ext::7.1.1.3",
+    "lingob::1.1",
+    "pagjub::2.7::intro",
+    "polcre::2.1.1",
+    "pro::2.3.1.1",
+    "ric::3.1.4"
+   ]
+  },
+  {
+   "descripcion": "JSON v2 (esquema_v2_clases.json): un alias más en Sujeto_entidad_financiera",
+   "e1": {
+    "error": "RuntimeError: candado v2: el prefijo v2 tiene hash 319f47737a17, esperado 2c1b76d1685d — el texto base no es el sellado, se frena",
+    "ok": true,
+    "token": "frena"
+   },
+   "e3": {
+    "ok": true,
+    "token": "no aplica"
+   },
+   "id": "V22",
+   "ok": true,
+   "unidades_aplicables": [
+    "pro::2.3.1.1",
+    "cla::2.2.4::intro",
+    "ric::3.1.4",
+    "cap::4.3.3.1",
+    "ext::7.1.1.3",
+    "ctacte::1.3.1.1",
+    "lingob::1.1",
+    "polcre::2.1.1",
+    "pagjub::2.7::intro",
+    "docvig::3.3.1"
+   ]
+  },
+  {
+   "descripcion": "unidad de un TO nuevo (snp_psp::1.3.1.1, partición b584)",
+   "detalle": {
+    "clave_en_cache_e1": false,
+    "lectura": "cambia = la clave no está en la caché (miss)"
+   },
+   "e1": {
+    "esperadas_que_cambian": [
+     "snp_psp::1.3.1.1"
+    ],
+    "observadas_que_cambian": [
+     "snp_psp::1.3.1.1"
+    ],
+    "ok": true,
+    "token": "cambia"
+   },
+   "e3": {
+    "ok": true,
+    "token": "no aplica"
+   },
+   "id": "V23",
+   "ok": true,
+   "unidades_aplicables": [
+    "snp_psp::1.3.1.1"
+   ]
+  },
+  {
+   "descripcion": "punto nuevo antes de pro::2.3: renumeración de los hermanos siguientes y de sus descendientes",
+   "detalle": {
+    "puntos_renumerados": {
+     "2.3": "2.4",
+     "2.4": "2.5",
+     "2.5": "2.6",
+     "2.6": "2.7",
+     "2.7": "2.8"
+    },
+    "to": "pro",
+    "unidad_nueva": "1 (sin clave previa: miss)",
+    "unidades_afectadas_e1": 42,
+    "unidades_afectadas_e3": 42,
+    "unidades_del_to": 101
+   },
+   "e1": {
+    "esperadas_que_cambian": [
+     "pro::2.3.1.1",
+     "pro::2.3.1.2",
+     "pro::2.3.1.3",
+     "pro::2.3.1.4",
+     "pro::2.3.10",
+     "pro::2.3.11",
+     "pro::2.3.12.1",
+     "pro::2.3.12.2",
+     "pro::2.3.12::intro",
+     "pro::2.3.13",
+     "pro::2.3.14",
+     "pro::2.3.1::intro",
+     "pro::2.3.2.1",
+     "pro::2.3.2.2",
+     "pro::2.3.3",
+     "pro::2.3.4",
+     "pro::2.3.5.1",
+     "pro::2.3.6.1",
+     "pro::2.3.6.2",
+     "pro::2.3.6::intro",
+     "pro::2.3.7",
+     "pro::2.3.8",
+     "pro::2.3.9.1",
+     "pro::2.3.9.2",
+     "pro::2.3.9.3",
+     "pro::2.3.9.4",
+     "pro::2.3.9.5",
+     "pro::2.3.9.6",
+     "pro::2.3.9.7",
+     "pro::2.3.9.8",
+     "pro::2.3.9::intro",
+     "pro::2.4.1",
+     "pro::2.4.2",
+     "pro::2.4.3",
+     "pro::2.4::cierre",
+     "pro::2.4::intro",
+     "pro::2.5",
+     "pro::2.6",
+     "pro::2.7.1",
+     "pro::2.7.2",
+     "pro::2.7::cierre",
+     "pro::2.7::intro"
+    ],
+    "observadas_que_cambian": [
+     "pro::2.3.1.1",
+     "pro::2.3.1.2",
+     "pro::2.3.1.3",
+     "pro::2.3.1.4",
+     "pro::2.3.10",
+     "pro::2.3.11",
+     "pro::2.3.12.1",
+     "pro::2.3.12.2",
+     "pro::2.3.12::intro",
+     "pro::2.3.13",
+     "pro::2.3.14",
+     "pro::2.3.1::intro",
+     "pro::2.3.2.1",
+     "pro::2.3.2.2",
+     "pro::2.3.3",
+     "pro::2.3.4",
+     "pro::2.3.5.1",
+     "pro::2.3.6.1",
+     "pro::2.3.6.2",
+     "pro::2.3.6::intro",
+     "pro::2.3.7",
+     "pro::2.3.8",
+     "pro::2.3.9.1",
+     "pro::2.3.9.2",
+     "pro::2.3.9.3",
+     "pro::2.3.9.4",
+     "pro::2.3.9.5",
+     "pro::2.3.9.6",
+     "pro::2.3.9.7",
+     "pro::2.3.9.8",
+     "pro::2.3.9::intro",
+     "pro::2.4.1",
+     "pro::2.4.2",
+     "pro::2.4.3",
+     "pro::2.4::cierre",
+     "pro::2.4::intro",
+     "pro::2.5",
+     "pro::2.6",
+     "pro::2.7.1",
+     "pro::2.7.2",
+     "pro::2.7::cierre",
+     "pro::2.7::intro"
+    ],
+    "ok": true,
+    "token": "cambia"
+   },
+   "e3": {
+    "esperadas_que_cambian": [
+     "pro::2.3.1.1",
+     "pro::2.3.1.2",
+     "pro::2.3.1.3",
+     "pro::2.3.1.4",
+     "pro::2.3.10",
+     "pro::2.3.11",
+     "pro::2.3.12.1",
+     "pro::2.3.12.2",
+     "pro::2.3.12::intro",
+     "pro::2.3.13",
+     "pro::2.3.14",
+     "pro::2.3.1::intro",
+     "pro::2.3.2.1",
+     "pro::2.3.2.2",
+     "pro::2.3.3",
+     "pro::2.3.4",
+     "pro::2.3.5.1",
+     "pro::2.3.6.1",
+     "pro::2.3.6.2",
+     "pro::2.3.6::intro",
+     "pro::2.3.7",
+     "pro::2.3.8",
+     "pro::2.3.9.1",
+     "pro::2.3.9.2",
+     "pro::2.3.9.3",
+     "pro::2.3.9.4",
+     "pro::2.3.9.5",
+     "pro::2.3.9.6",
+     "pro::2.3.9.7",
+     "pro::2.3.9.8",
+     "pro::2.3.9::intro",
+     "pro::2.4.1",
+     "pro::2.4.2",
+     "pro::2.4.3",
+     "pro::2.4::cierre",
+     "pro::2.4::intro",
+     "pro::2.5",
+     "pro::2.6",
+     "pro::2.7.1",
+     "pro::2.7.2",
+     "pro::2.7::cierre",
+     "pro::2.7::intro"
+    ],
+    "observadas_que_cambian": [
+     "pro::2.3.1.1",
+     "pro::2.3.1.2",
+     "pro::2.3.1.3",
+     "pro::2.3.1.4",
+     "pro::2.3.10",
+     "pro::2.3.11",
+     "pro::2.3.12.1",
+     "pro::2.3.12.2",
+     "pro::2.3.12::intro",
+     "pro::2.3.13",
+     "pro::2.3.14",
+     "pro::2.3.1::intro",
+     "pro::2.3.2.1",
+     "pro::2.3.2.2",
+     "pro::2.3.3",
+     "pro::2.3.4",
+     "pro::2.3.5.1",
+     "pro::2.3.6.1",
+     "pro::2.3.6.2",
+     "pro::2.3.6::intro",
+     "pro::2.3.7",
+     "pro::2.3.8",
+     "pro::2.3.9.1",
+     "pro::2.3.9.2",
+     "pro::2.3.9.3",
+     "pro::2.3.9.4",
+     "pro::2.3.9.5",
+     "pro::2.3.9.6",
+     "pro::2.3.9.7",
+     "pro::2.3.9.8",
+     "pro::2.3.9::intro",
+     "pro::2.4.1",
+     "pro::2.4.2",
+     "pro::2.4.3",
+     "pro::2.4::cierre",
+     "pro::2.4::intro",
+     "pro::2.5",
+     "pro::2.6",
+     "pro::2.7.1",
+     "pro::2.7.2",
+     "pro::2.7::cierre",
+     "pro::2.7::intro"
+    ],
+    "ok": true,
+    "token": "cambia",
+    "universo": [
+     "pro::1.1.1",
+     "pro::1.1.2.1",
+     "pro::1.1.2.2",
+     "pro::1.1.2.3",
+     "pro::1.1.2.4",
+     "pro::1.1.2.5",
+     "pro::1.1.2.6",
+     "pro::1.1.2.7",
+     "pro::1.2",
+     "pro::1.3",
+     "pro::2.1",
+     "pro::2.2.1",
+     "pro::2.2.2",
+     "pro::2.2.3",
+     "pro::2.2.4.1",
+     "pro::2.2.4.2",
+     "pro::2.2.4.3",
+     "pro::2.3.1.1",
+     "pro::2.3.1.2",
+     "pro::2.3.1.3",
+     "pro::2.3.1.4",
+     "pro::2.3.10",
+     "pro::2.3.11",
+     "pro::2.3.12.1",
+     "pro::2.3.12.2",
+     "pro::2.3.12::intro",
+     "pro::2.3.13",
+     "pro::2.3.14",
+     "pro::2.3.1::intro",
+     "pro::2.3.2.1",
+     "pro::2.3.2.2",
+     "pro::2.3.3",
+     "pro::2.3.4",
+     "pro::2.3.5.1",
+     "pro::2.3.6.1",
+     "pro::2.3.6.2",
+     "pro::2.3.6::intro",
+     "pro::2.3.7",
+     "pro::2.3.8",
+     "pro::2.3.9.1",
+     "pro::2.3.9.2",
+     "pro::2.3.9.3",
+     "pro::2.3.9.4",
+     "pro::2.3.9.5",
+     "pro::2.3.9.6",
+     "pro::2.3.9.7",
+     "pro::2.3.9.8",
+     "pro::2.3.9::intro",
+     "pro::2.4.1",
+     "pro::2.4.2",
+     "pro::2.4.3",
+     "pro::2.4::cierre",
+     "pro::2.4::intro",
+     "pro::2.5",
+     "pro::2.6",
+     "pro::2.7.1",
+     "pro::2.7.2",
+     "pro::2.7::cierre",
+     "pro::2.7::intro",
+     "pro::3.1.1.1",
+     "pro::3.1.1.2",
+     "pro::3.1.1.3",
+     "pro::3.1.1.4",
+     "pro::3.1.1.5",
+     "pro::3.1.1.6",
+     "pro::3.1.1.7",
+     "pro::3.1.1.8",
+     "pro::3.1.1::cierre",
+     "pro::3.1.1::intro",
+     "pro::3.1.2",
+     "pro::3.1.3",
+     "pro::3.1.4",
+     "pro::3.1.5",
+     "pro::3.1.6",
+     "pro::3.2.1.1",
+     "pro::3.2.1.2",
+     "pro::3.2.1.3",
+     "pro::3.2.2.1",
+     "pro::3.2.2.2",
+     "pro::3.2.3.1",
+     "pro::3.2.3.2",
+     "pro::3.2.3.3",
+     "pro::3.2.3.4",
+     "pro::3.2.3.5",
+     "pro::3.2.3.6",
+     "pro::3.2.3.7",
+     "pro::3.2.3.8",
+     "pro::3.2.3::intro",
+     "pro::4.1",
+     "pro::4.2.1.1",
+     "pro::4.2.1.2",
+     "pro::4.2.1.3",
+     "pro::4.2.1.4",
+     "pro::4.2.1.5",
+     "pro::4.2.1.6",
+     "pro::4.2.1::intro",
+     "pro::4.2.2",
+     "pro::4.3",
+     "pro::4.4",
+     "pro::S3::chapeau_seccion",
+     "pro::S5"
+    ]
+   },
+   "id": "V24",
+   "ok": true,
+   "unidades_aplicables": [
+    "pro::1.1.1",
+    "pro::1.1.2.1",
+    "pro::1.1.2.2",
+    "pro::1.1.2.3",
+    "pro::1.1.2.4",
+    "pro::1.1.2.5",
+    "pro::1.1.2.6",
+    "pro::1.1.2.7",
+    "pro::1.2",
+    "pro::1.3",
+    "pro::2.1",
+    "pro::2.2.1",
+    "pro::2.2.2",
+    "pro::2.2.3",
+    "pro::2.2.4.1",
+    "pro::2.2.4.2",
+    "pro::2.2.4.3",
+    "pro::2.3.1.1",
+    "pro::2.3.1.2",
+    "pro::2.3.1.3",
+    "pro::2.3.1.4",
+    "pro::2.3.10",
+    "pro::2.3.11",
+    "pro::2.3.12.1",
+    "pro::2.3.12.2",
+    "pro::2.3.12::intro",
+    "pro::2.3.13",
+    "pro::2.3.14",
+    "pro::2.3.1::intro",
+    "pro::2.3.2.1",
+    "pro::2.3.2.2",
+    "pro::2.3.3",
+    "pro::2.3.4",
+    "pro::2.3.5.1",
+    "pro::2.3.6.1",
+    "pro::2.3.6.2",
+    "pro::2.3.6::intro",
+    "pro::2.3.7",
+    "pro::2.3.8",
+    "pro::2.3.9.1",
+    "pro::2.3.9.2",
+    "pro::2.3.9.3",
+    "pro::2.3.9.4",
+    "pro::2.3.9.5",
+    "pro::2.3.9.6",
+    "pro::2.3.9.7",
+    "pro::2.3.9.8",
+    "pro::2.3.9::intro",
+    "pro::2.4.1",
+    "pro::2.4.2",
+    "pro::2.4.3",
+    "pro::2.4::cierre",
+    "pro::2.4::intro",
+    "pro::2.5",
+    "pro::2.6",
+    "pro::2.7.1",
+    "pro::2.7.2",
+    "pro::2.7::cierre",
+    "pro::2.7::intro",
+    "pro::3.1.1.1",
+    "pro::3.1.1.2",
+    "pro::3.1.1.3",
+    "pro::3.1.1.4",
+    "pro::3.1.1.5",
+    "pro::3.1.1.6",
+    "pro::3.1.1.7",
+    "pro::3.1.1.8",
+    "pro::3.1.1::cierre",
+    "pro::3.1.1::intro",
+    "pro::3.1.2",
+    "pro::3.1.3",
+    "pro::3.1.4",
+    "pro::3.1.5",
+    "pro::3.1.6",
+    "pro::3.2.1.1",
+    "pro::3.2.1.2",
+    "pro::3.2.1.3",
+    "pro::3.2.2.1",
+    "pro::3.2.2.2",
+    "pro::3.2.3.1",
+    "pro::3.2.3.2",
+    "pro::3.2.3.3",
+    "pro::3.2.3.4",
+    "pro::3.2.3.5",
+    "pro::3.2.3.6",
+    "pro::3.2.3.7",
+    "pro::3.2.3.8",
+    "pro::3.2.3::intro",
+    "pro::4.1",
+    "pro::4.2.1.1",
+    "pro::4.2.1.2",
+    "pro::4.2.1.3",
+    "pro::4.2.1.4",
+    "pro::4.2.1.5",
+    "pro::4.2.1.6",
+    "pro::4.2.1::intro",
+    "pro::4.2.2",
+    "pro::4.3",
+    "pro::4.4",
+    "pro::S3::chapeau_seccion",
+    "pro::S5"
+   ]
+  }
+ ],
+ "variaciones_con_discrepancia": [],
+ "veredicto": "OK"
+}

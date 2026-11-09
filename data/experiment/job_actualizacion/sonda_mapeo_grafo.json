@@ -1,0 +1,259 @@
+{
+ "grafo": "data/experiment/reextraccion_v2/corpus_v2/salida_r1/kg.json",
+ "compartidos_entre_tos_nodos": {
+  "tos_distintos_por_elemento": {
+   "0": 19,
+   "1": 6494,
+   "2": 11,
+   "3": 4,
+   "5": 1
+  },
+  "compartidos": 16,
+  "detalle": [
+   {
+    "elemento": "Sujeto_banco",
+    "tos": [
+     "cap",
+     "cla"
+    ]
+   },
+   {
+    "elemento": "Sujeto_banco_comercial",
+    "tos": [
+     "cap",
+     "ric"
+    ]
+   },
+   {
+    "elemento": "Sujeto_bcra",
+    "tos": [
+     "cap",
+     "ext",
+     "pro"
+    ]
+   },
+   {
+    "elemento": "Sujeto_cliente",
+    "tos": [
+     "cap",
+     "cla",
+     "ext"
+    ]
+   },
+   {
+    "elemento": "Sujeto_deudor",
+    "tos": [
+     "cla",
+     "ext"
+    ]
+   },
+   {
+    "elemento": "Sujeto_empresa_no_financiera_emisora_de_tarjetas",
+    "tos": [
+     "cla",
+     "ext",
+     "pro"
+    ]
+   },
+   {
+    "elemento": "Sujeto_entidad_cambiaria",
+    "tos": [
+     "cap",
+     "ext",
+     "pro"
+    ]
+   },
+   {
+    "elemento": "Sujeto_entidad_financiera",
+    "tos": [
+     "cap",
+     "cla",
+     "ext",
+     "pro",
+     "ric"
+    ]
+   },
+   {
+    "elemento": "Sujeto_fiduciario_de_fideicomiso_financiero",
+    "tos": [
+     "cap",
+     "cla"
+    ]
+   },
+   {
+    "elemento": "Sujeto_fondo_comun_de_inversion",
+    "tos": [
+     "cap",
+     "ext"
+    ]
+   },
+   {
+    "elemento": "Sujeto_fondo_de_garantia_publico",
+    "tos": [
+     "cap",
+     "cla"
+    ]
+   },
+   {
+    "elemento": "Sujeto_mipyme",
+    "tos": [
+     "cap",
+     "ext"
+    ]
+   },
+   {
+    "elemento": "Sujeto_persona_humana",
+    "tos": [
+     "cap",
+     "ext"
+    ]
+   },
+   {
+    "elemento": "Sujeto_proveedor_no_financiero_de_credito",
+    "tos": [
+     "cla",
+     "pro"
+    ]
+   },
+   {
+    "elemento": "Sujeto_sefyc",
+    "tos": [
+     "cap",
+     "cla"
+    ]
+   },
+   {
+    "elemento": "Sujeto_sociedad_de_garantia_reciproca",
+    "tos": [
+     "cap",
+     "cla"
+    ]
+   }
+  ]
+ },
+ "compartidos_entre_tos_aristas": {
+  "tos_distintos_por_elemento": {
+   "0": 82,
+   "1": 17690
+  },
+  "compartidos": 0,
+  "detalle": []
+ },
+ "nodos": 6529,
+ "aristas": 17772,
+ "cobertura_nodos": {
+  "total": 6529,
+  "con_to": 6510,
+  "sin_to_recuperable_por_archivo": 15,
+  "no_atribuible_a_ningun_to": {
+   "esquema_v2_clases.json": 4
+  },
+  "con_chunk_id": 6510,
+  "con_paginas": 6510,
+  "con_mas_de_una_procedencia": 233,
+  "por_to": {
+   "cap": 3057,
+   "cla": 785,
+   "ext": 5041,
+   "pro": 635,
+   "ric": 548
+  },
+  "paginas_distintas_por_to": {
+   "cap": 162,
+   "cla": 40,
+   "ext": 178,
+   "pro": 31,
+   "ric": 57
+  },
+  "archivo_a_to_ambiguo": {},
+  "etiqueta": "nodos"
+ },
+ "cobertura_aristas": {
+  "total": 17772,
+  "con_to": 17690,
+  "sin_to_recuperable_por_archivo": 78,
+  "no_atribuible_a_ningun_to": {
+   "esquema_v2_clases.json": 4
+  },
+  "con_chunk_id": 17690,
+  "con_paginas": 17690,
+  "con_mas_de_una_procedencia": 249,
+  "por_to": {
+   "cap": 5474,
+   "cla": 1087,
+   "ext": 9464,
+   "pro": 1059,
+   "ric": 958
+  },
+  "paginas_distintas_por_to": {
+   "cap": 162,
+   "cla": 40,
+   "ext": 177,
+   "pro": 31,
+   "ric": 53
+  },
+  "archivo_a_to_ambiguo": {},
+  "etiqueta": "aristas"
+ },
+ "tos_cubiertos_por_el_grafo": [
+  "cap",
+  "cla",
+  "ext",
+  "pro",
+  "ric"
+ ],
+ "afectados_si_cambia_el_to_entero": {
+  "cap": {
+   "nodos": 2157,
+   "aristas": 5442
+  },
+  "cla": {
+   "nodos": 508,
+   "aristas": 1060
+  },
+  "ext": {
+   "nodos": 3059,
+   "aristas": 9179
+  },
+  "pro": {
+   "nodos": 421,
+   "aristas": 1056
+  },
+  "ric": {
+   "nodos": 388,
+   "aristas": 953
+  }
+ },
+ "granularidad_por_pagina": {
+  "cap": {
+   "paginas_con_nodos": 162,
+   "nodos_por_pagina_promedio": 29.0,
+   "nodos_por_pagina_maximo": 72,
+   "aristas_por_pagina_maximo": 231
+  },
+  "cla": {
+   "paginas_con_nodos": 40,
+   "nodos_por_pagina_promedio": 24.6,
+   "nodos_por_pagina_maximo": 45,
+   "aristas_por_pagina_maximo": 73
+  },
+  "ext": {
+   "paginas_con_nodos": 178,
+   "nodos_por_pagina_promedio": 32.3,
+   "nodos_por_pagina_maximo": 60,
+   "aristas_por_pagina_maximo": 272
+  },
+  "pro": {
+   "paginas_con_nodos": 31,
+   "nodos_por_pagina_promedio": 29.6,
+   "nodos_por_pagina_maximo": 58,
+   "aristas_por_pagina_maximo": 122
+  },
+  "ric": {
+   "paginas_con_nodos": 57,
+   "nodos_por_pagina_promedio": 14.1,
+   "nodos_por_pagina_maximo": 32,
+   "aristas_por_pagina_maximo": 98
+  }
+ }
+}

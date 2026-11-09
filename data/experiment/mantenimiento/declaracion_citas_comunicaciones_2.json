@@ -1,0 +1,47 @@
+{
+ "unidad": "U-MANT M3, complemento de la tercera fuente del empalme (segunda medición)",
+ "estado": "DECLARADA ANTES DE MEDIR: este archivo se escribe antes que el script de la segunda medición y el script lo lee tal cual; su sha256 queda en la salida",
+ "relacion_con_la_primera": {
+  "primera_declaracion": "data/experiment/mantenimiento/declaracion_citas_comunicaciones.json (sha256 82df4d5ba21a7aa7ecee86bc24cc382a5f2bbd6ad77ecfe49daf7d6e0237cedf)",
+  "primera_medicion": "data/experiment/mantenimiento/citas_comunicaciones.json (sha256 0c034a43871800980c59775078ee60dd72ce47cd84dc94b5e51cd2d0e1d2c879), commit 7ed5ced; no se toca ni se re-escribe",
+  "igual_que_en_la_primera": ["fuente", "ventana", "texto", "segmento_de_la_cita", "punto", "unidades", "categorias", "caso_de_control"],
+  "cambia": ["formulas", "nombre_del_texto_ordenado"]
+ },
+ "formulas": {
+  "de_la_primera_declaracion": {
+   "sustituir_el_punto": "\\bSustituir\\s+(?:el|los)\\s+puntos?\\b",
+   "sustituyese": "\\bSustit[uú]y[eé]n?se\\b",
+   "incorporase": "\\bIncorp[oó]ran?se\\b",
+   "dejase_sin_efecto": "\\bD[eé]jan?se\\s+sin\\s+efecto\\b"
+  },
+  "infinitivos_nuevos": {
+   "incorporar": "\\bIncorporar\\b",
+   "reemplazar": "\\bReemplazar\\b",
+   "sustituir": "\\bSustituir\\b",
+   "dejar_sin_efecto": "\\bDejar\\s+sin\\s+efecto\\b",
+   "modificar": "\\bModificar\\b",
+   "eliminar": "\\bEliminar\\b",
+   "suprimir": "\\bSuprimir\\b",
+   "derogar": "\\bDerogar\\b",
+   "agregar": "\\bAgregar\\b"
+  },
+  "regla": "sin distinguir mayúsculas, como el descubrimiento de la primera declaración; cada ocurrencia es una cita; una ocurrencia que se solapa con una fórmula de la primera declaración cuenta una sola vez, con la fórmula de la primera (así «sustituir» nuevo solo cuenta fuera de «Sustituir el/los punto(s)»)",
+  "desglose_declarado": "cada cita se informa además como «mayúscula inicial» (el verbo escrito con inicial mayúscula, la forma de un ítem dispositivo) o «minúscula»; el desglose se reporta, no filtra"
+ },
+ "nombre_del_texto_ordenado": {
+  "titulos": "los mismos de la primera declaración: titulo_oficial de inventario_tos.csv (152) y, como extensión declarada, subset_excluido de inventario_resumen.json (5)",
+  "guion_de_fin_de_linea": {
+   "regex": "([A-Za-zÁÉÍÓÚÑáéíóúñü])-\\s+([a-záéíóúñü])",
+   "reemplazo": "\\1\\2",
+   "aplicacion": "sobre el texto crudo del segmento, antes de normalizar: une la palabra cortada por un guion seguido de blanco y de minúscula («Re- cuperación» → «Recuperación»); un guion con blanco a los dos lados («RI - Plan») no se toca"
+  },
+  "titulo_compuesto": {
+   "definicion": "un título que contiene «) y » es compuesto; su primera parte es el texto hasta el primer «)» seguido de « y », inclusive",
+   "regla": "la primera parte se acepta como nombre alternativo del mismo TO solo si es inequívoca: su forma normalizada no es igual a la de otro título ni está contenida en la de otro título, y no contiene la de otro título; si no cumple, se descarta y se informa",
+   "aplicacion": "la búsqueda en el segmento es la de la primera declaración sobre el conjunto de títulos completos más las primeras partes aceptadas; un acierto en la primera parte mapea al TO del título compuesto"
+  },
+  "normalizacion": "la de la primera declaración (minúsculas, sin tildes, puntuación a blanco, blancos colapsados), después de unir los guiones de fin de línea",
+  "regla_de_eleccion": "la de la primera declaración: gana el más largo, se descartan los contenidos en otro; dos o más TOs distintos que quedan es NO DECIDIBLE"
+ },
+ "reporte": "la primera y la segunda medición se informan al lado: conteos, citas por fórmula, desglose por mayúscula inicial, categorías y motivos de lo que siga sin mapear"
+}

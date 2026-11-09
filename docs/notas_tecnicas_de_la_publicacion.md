@@ -23,7 +23,7 @@ sigan andando.
 | `data/experiment/banco_mcp/b64/` | 54 | B6.4: análisis confirmatorio y exactitud de cita (código y resultados agregados; las preguntas, las respuestas y los veredictos están en `evaluacion/`) |
 | `data/experiment/banco_mcp/coincidencias_con_el_grafo/` | 15 | Scripts que sostienen la declaración de las coincidencias del grafo con criterios (`docs/formato_del_grafo.md`) |
 | `data/experiment/banco_mcp/gate/` | 2 | Cierre de los imports: lo importa el código de `data/experiment/banco_mcp/adaptador/`, `data/experiment/banco_mcp/mcp_kg/`, `data/experiment/banco_mcp/smoke/`, `scripts/` |
-| `data/experiment/banco_mcp/mcp_kg/` | 22 | Servidor MCP del grafo (navegación por el grafo) |
+| `data/experiment/banco_mcp/mcp_kg/` | 23 | Servidor MCP del grafo (navegación por el grafo); suma el manifiesto de referencia del índice de puntos |
 | `data/experiment/banco_mcp/mcp_vector/` | 11 | Servidor MCP de recuperación por fragmentos (BM25, denso e híbrido; los índices se regeneran desde el corpus); suma lo del tramo de las instrucciones, los planes y la 6.3 |
 | `data/experiment/banco_mcp/n6/` | 1 | Cierre de los imports: lo importa el código de `data/experiment/banco_mcp/b63/`, `data/experiment/banco_mcp/b64/` |
 | `data/experiment/banco_mcp/n7/` | 5 | Solo datos chicos; 1 dato(s) chico(s); suma lo del tramo de las instrucciones, los planes y la 6.3 |
@@ -40,17 +40,17 @@ sigan andando.
 | `data/experiment/evaluacion/` | 5 | Cierre de los imports: lo importa el código de `data/experiment/banco_mcp/gate/`, `data/experiment/banco_mcp/mcp_kg/`, `data/experiment/ev2_corrida/`, `data/experiment/ev2_juez/`, `data/experiment/ev2_reporte/`, `data/experiment/exploracion/`, `data/experiment/neo4j/`, `data/experiment/reextraccion_v2/`, `data/experiment/tanda0/`, `scripts/` |
 | `data/experiment/exploracion/` | 4 | Cierre de los imports: lo importa el código de `data/experiment/banco_mcp/gate/`, `data/experiment/banco_mcp/mcp_kg/`, `data/experiment/ev2_corrida/`, `data/experiment/ev2_reporte/` |
 | `data/experiment/grafo_v2/` | 7 | Cierre de los imports: lo importa el código de `data/experiment/esq/`, `data/experiment/reextraccion_v2/`, `data/experiment/tanda0/`, `scripts/`; 1 dato(s) chico(s) |
-| `data/experiment/job_actualizacion/` | 11 | Trabajo de actualización |
-| `data/experiment/mantenimiento/` | 23 | Control del sitio y empalme |
+| `data/experiment/job_actualizacion/` | 20 | Trabajo de actualización, con su corrida del 7 de septiembre de 2026 y sus sondas |
+| `data/experiment/mantenimiento/` | 31 | Control del sitio, empalme y medición de las citas a comunicaciones |
 | `data/experiment/med_desamb/` | 1 | Cierre de los imports: lo importa el código de `data/experiment/reaplicacion_unica/`, `data/experiment/tanda0/` |
 | `data/experiment/neo4j/` | 11 | Cierre de los imports: lo importa el código de `data/experiment/banco_mcp/b63/`, `data/experiment/banco_mcp/mcp_kg/`, `data/experiment/banco_mcp/mcp_vector/`, `data/experiment/banco_mcp/smoke/`, `scripts/`; suma lo del tramo de las instrucciones, los planes y la 6.3 |
 | `data/experiment/prompt_r2/` | 3 | Cierre de los imports: lo importa el código de `data/experiment/reextraccion_v2/` |
 | `data/experiment/pyd_r2/` | 7 | Cierre de los imports: lo importa el código de `data/experiment/prompt_r2/`, `data/experiment/reextraccion_v2/`, `data/experiment/tanda0/`, `scripts/`; suma lo del tramo de las instrucciones, los planes y la 6.3 |
-| `data/experiment/reaplicacion_unica/` | 22 | Reaplicación única: ensamblado y sellado del grafo evaluado, con el grafo y su sello |
-| `data/experiment/reextraccion_v2/` | 68 | Reextracción: corpus, fragmentación (e0), extractor (e1), reducción (e2) y verificador (e3) de tripletas |
+| `data/experiment/reaplicacion_unica/` | 38 | Reaplicación única: ensamblado y sellado del grafo evaluado, con el grafo y su sello; suma lo que lee la suite de regresión, salvo el registro de omisiones |
+| `data/experiment/reextraccion_v2/` | 71 | Reextracción: corpus, fragmentación (e0), extractor (e1), reducción (e2) y verificador (e3) de tripletas; suma los manifiestos de corpus de la E0 |
 | `data/experiment/segmentacion_oficial_e0r2/` | 270 | Segmentación oficial de los Textos Ordenados en puntos (E0) |
 | `data/experiment/tanda0/` | 3 | Cierre de los imports: lo importa el código de `data/experiment/banco_mcp/mcp_kg/`, `data/experiment/reaplicacion_unica/`; suma lo del tramo de las instrucciones, los planes y la 6.3 |
-| `data/experiment/tanda_final/` | 2 | Planes derivados de la tanda final |
+| `data/experiment/tanda_final/` | 4 | Planes derivados de la tanda final, y el armado y el manifiesto de la E0 acumulada |
 | `data/experiment/tripletas_v/` | 4 | Instrucciones sin casos del juez de las tripletas; la entrada del análisis de las 400 tripletas y el programa que calcula sus intervalos, los 2 que usa `evaluacion_contenido/reproducir_contenido.py` |
 | `docs/` | 57 | Pre-registros, enmiendas, adendas y el formato del grafo; suma lo del tramo de las instrucciones, los planes, la 6.3 y las instrucciones completas de los 2 jueces del contenido del grafo |
 | `ejemplos/` | 2 | Los 2 programas de ejemplo |
@@ -60,7 +60,7 @@ sigan andando.
 | `src/` | 7 | Código común: descarga del corpus y utilidades |
 | `tests/` | 1 | Pruebas del código común |
 
-La columna cuenta todos los archivos del árbol bajo cada carpeta, y suma 839, los de `SHA256SUMS` más ese archivo.
+La columna cuenta todos los archivos del árbol bajo cada carpeta, y suma 878, los de `SHA256SUMS` más ese archivo.
 
 ## El cierre de los imports
 
@@ -160,6 +160,13 @@ máquina con esa forma:
 `data/experiment/banco_mcp/agentes/lanzar_agente.py` va aparte: ningún archivo verifica su sha256, pero `docs/preregistro_A2_2_sistema_por_fragmentos.md:39` lo cita, así que también va
 tal cual. 5 de sus renglones traen rutas del mismo tipo. `preregistros/FIRMAS.md` lista todos los archivos cuyo sha256 cita un pre-registro.
 
+## Lo que citan los pre-registros y no se publica
+
+| Renglón | Causa |
+|---|---|
+| `docs/preregistro_tanda0.md:174` | datos que no se publican: falta data/experiment/reextraccion_v2/manifiestos/desarrollo_5tos.json |
+| `docs/preregistro_tanda0.md:625` | datos que no se publican: falta data/experiment/reextraccion_v2/manifiestos/desarrollo_5tos.json |
+
 ## Rutas y variables de entorno
 
 Salvo lo que declara esta sección, el código no nombra ninguna carpeta de la máquina en que se escribió. Lo declarado: los archivos sellados y
@@ -220,8 +227,8 @@ estas, con su causa:
 | `data/experiment/banco_mcp/mcp_vector/test_fragmentos_f1.py` | datos que no se publican: falta data/experiment/tanda1/t3/acumulado/manifiestos/acumulado_30tos_r2b.json |
 | `data/experiment/banco_mcp/mcp_vector/test_mcp_vector.py` | datos que no se publican: falta data/experiment/banco_mcp/mcp_vector/config_mcp_vector.json |
 | `data/experiment/mantenimiento/code/selftest_clave_cache.py` | datos que no se publican: falta data/experiment/reextraccion_v2/e0_chunking/salida/chunks_cla.json |
-| `data/experiment/mantenimiento/control_sitio/selftest_control_sitio.py` | datos que no se publican: falta data/experiment/job_actualizacion/corridas/2026-09-07/indice_crudo.json |
-| `data/experiment/mantenimiento/control_sitio/selftest_correr_control.py` | datos que no se publican: falta data/experiment/job_actualizacion/corridas/2026-09-07/indice_crudo.json |
+| `data/experiment/mantenimiento/control_sitio/selftest_control_sitio.py` | datos que no se publican: falta data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/capmin.pdf |
+| `data/experiment/mantenimiento/control_sitio/selftest_correr_control.py` | datos que no se publican: falta data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/snp_psp.pdf |
 | `data/experiment/neo4j/test_equivalencia.py` | necesita Neo4j corriendo; esta corrida fue sin red ni Docker |
 | `data/experiment/reextraccion_v2/corpus_v2/selftest_corpus.py` | datos que no se publican: falta data/experiment/reextraccion_v2/e0_chunking/salida_enm01/chunks_pro.json |
 | `data/experiment/reextraccion_v2/e0_chunking/selftest_b52.py` | datos que no se publican: falta data/experiment/subset/TO_proteccion_usuarios_servicios_financieros_actual.pdf |
@@ -253,6 +260,27 @@ estas, con su causa:
 | `scripts/selftest_gate6.py` | busca .venv/bin/python en la raíz del repositorio, y el .venv no se publica; además necesita la historia de git |
 | `scripts/selftest_muestra_aristas_obs12.py` | datos que no se publican: falta reports/obs12_selftest_r1/muestra_obs12.json |
 | `scripts/selftest_regression_kg.py` | datos que no se publican: falta reports/u_estudio_matriz/lectura/uestmat_muestra_60_leida.csv |
+
+## Lo que leen el trabajo de actualización y el control del sitio y no se publica
+
+`data/experiment/job_actualizacion/` y `data/experiment/mantenimiento/control_sitio/` leen archivos que no están en este repositorio, así que no corren con él solo. Son estos, por grupo:
+
+| Qué | Dónde está en el repo de la tesis | Lo lee | Archivos |
+|---|---|---|---:|
+| El manifiesto de la descarga cruda | `data/raw/manifiesto.csv` | `data/experiment/job_actualizacion/code/lib_job.py:24` y `:55` | 1 |
+| El manifiesto del conjunto de desarrollo | `data/experiment/reextraccion_v2/manifiestos/desarrollo_5tos.json` | `lib_job.py:23`, `:52` y `:155` | 1 |
+| El inventario de unidades y la referencia del conjunto de desarrollo | `data/experiment/escalado_prep/inventario_unidades.csv` y `data/experiment/escalado_prep/referencia_subset.json` | `lib_job.py:135` y `:154` | 2 |
+| El grafo sobre el que se mapean los cambios | `data/experiment/reextraccion_v2/corpus_v2/salida_r1/kg.json` | `data/experiment/job_actualizacion/code/adjudicar_deltas.py:35` | 1 |
+| Los PDF de la línea base que no son de los 128 del grafo | `data/experiment/escalado_prep/pdfs/` | `lib_job.py:145`, `adjudicar_deltas.py:205` y `data/experiment/mantenimiento/control_sitio/control_sitio.py:272-273` | 29 |
+| Los PDF de la corrida del 7 de septiembre de 2026 | `data/experiment/job_actualizacion/corridas/2026-09-07/pdfs/` | `adjudicar_deltas.py:274`, `data/experiment/job_actualizacion/code/verificar_corrida.py:77-81`, `control_sitio.py:274` y `data/experiment/mantenimiento/control_sitio/selftest_control_sitio.py:118` | 157 |
+| Los PDF del control del 2 de octubre de 2026 | `data/experiment/mantenimiento/control_sitio/corridas/2026-10-02/pdfs/` | `control_sitio.py:498` y `data/experiment/mantenimiento/control_sitio/correr_control_sitio.py:321` | 19 |
+| La E0 guardada, con la que el control clasifica lo que cambió | `data/experiment/reextraccion_v2/e0_chunking/salida_tanda0/` (10) y `data/experiment/segmentacion_84/b584_particion/` (147) | `correr_control_sitio.py:172` y `:174` | 157 |
+
+Estos PDF no se redistribuyen (ver «El corpus» en el README).
+
+## Lo que lee la suite de regresión y no se publica
+
+`scripts/regression_kg.py` también lee `data/experiment/reaplicacion_unica/acumulado/ens_128_r2b_sincola/r2/omisiones.jsonl`, el registro de omisiones del ensamblado del grafo evaluado. Ese archivo no se publica porque trae tramos de la normativa de 1.000 caracteres o más fuera del grafo y notas de texto libre del extractor, que no se verifican. Sin él, la prueba LN-7 de la suite da «no aplicable» en este repositorio (`scripts/regression_kg.py:1861-1864`).
 
 ## Lo que ya estaba roto en el repo de la tesis
 

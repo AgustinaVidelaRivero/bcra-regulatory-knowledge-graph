@@ -1,0 +1,1000 @@
+{
+ "n_total": 98,
+ "n_variantes_to": 0,
+ "n_reales": 98,
+ "reales_por_tipo_property": {
+  "Operacion.descripcion": 36,
+  "Operacion.tipo": 22,
+  "Comunicacion.label": 15,
+  "Obligacion.descripcion": 15,
+  "Obligacion.tipo": 4,
+  "Comunicacion.codigo": 2,
+  "Condicion.descripcion": 1,
+  "Obligacion.frecuencia": 1,
+  "Obligacion.originales.frecuencia": 1,
+  "Restriccion.descripcion": 1
+ },
+ "variantes_texto_ordenado": {},
+ "conflictos_reales": [
+  {
+   "origen": "intra_to",
+   "to": "ext",
+   "tipo": "Operacion",
+   "id": "Operacion_emision_de_certificacion_de_aumento_de_exportaciones__ext_3_18_2_762dd5",
+   "property": "descripcion",
+   "conservado": "Emisión de una Certificación de aumento de las exportaciones de bienes en el año t por parte de la entidad financiera nominada, cuando se verifiquen la totalidad de los requisitos establecidos.",
+   "descartado": "Emisión de una Certificación de aumento de las exportaciones de bienes en el año t por la entidad financiera nominada",
+   "chunk_id": "ext::3.18.2.5"
+  },
+  {
+   "origen": "intra_to",
+   "to": "ext",
+   "tipo": "Operacion",
+   "id": "Operacion_suscripcion_de_bopreal_por_deudores_de_importaciones__ext_4_4_fefb25",
+   "property": "tipo",
+   "conservado": "suscripción de bonos",
+   "descartado": "Suscripción de bonos",
+   "chunk_id": "ext::4.4.5"
+  },
+  {
+   "origen": "intra_to",
+   "to": "ext",
+   "tipo": "Operacion",
+   "id": "Operacion_suscripcion_de_bopreal_por_deudores_de_importaciones__ext_4_4_fefb25",
+   "property": "descripcion",
+   "conservado": "Suscripción de Bonos para la Reconstrucción de una Argentina Libre (BOPREAL) por deudores de importaciones de bienes con registro de ingreso aduanero hasta el 12/12/23, por hasta el monto de la deuda pendiente de pago",
+   "descartado": "Operación de suscripción de Bonos para la Reconstrucción de una Argentina Libre (BOPREAL) por parte de importadores de bienes, por hasta el monto de la deuda pendiente de pago por importaciones con registro de ingreso aduanero hasta el 12/12/23",
+   "chunk_id": "ext::4.4.5"
+  },
+  {
+   "origen": "intra_to",
+   "to": "ext",
+   "tipo": "Obligacion",
+   "id": "Obligacion_la_entidad_debe_contar_con_una_declaracion_jurada_del_cliente_en_la_que_conste_q_1a3040",
+   "property": "descripcion",
+   "conservado": "La entidad debe contar con una declaración jurada del cliente en la que conste que no ha solicitado la utilización de este mecanismo en otra entidad por esa deuda",
+   "descartado": "La entidad debe contar con una declaración jurada del cliente en la que conste que no ha solicitado la utilización de este mecanismo en otra entidad por esa deuda.",
+   "chunk_id": "ext::4.4::cierre"
+  },
+  {
+   "origen": "intra_to",
+   "to": "ext",
+   "tipo": "Obligacion",
+   "id": "Obligacion_la_entidad_debe_realizar_la_correspondiente_intervencion_de_la_documentacion_adu_fc829f",
+   "property": "descripcion",
+   "conservado": "La entidad debe realizar la correspondiente intervención de la documentación aduanera",
+   "descartado": "La entidad debe realizar la correspondiente intervención de la documentación aduanera.",
+   "chunk_id": "ext::4.4::cierre"
+  },
+  {
+   "origen": "intra_to",
+   "to": "ext",
+   "tipo": "Operacion",
+   "id": "Operacion_suscripcion_bopreal_por_importadores_de_servicios__ext_4_5_9d04d1",
+   "property": "tipo",
+   "conservado": "Suscripción de bonos",
+   "descartado": "suscripción de bonos",
+   "chunk_id": "ext::4.5.2"
+  },
+  {
+   "origen": "intra_to",
+   "to": "ext",
+   "tipo": "Operacion",
+   "id": "Operacion_suscripcion_bopreal_por_importadores_de_servicios__ext_4_5_9d04d1",
+   "property": "descripcion",
+   "conservado": "Suscripción de BOPREAL por importadores de servicios hasta el monto de la deuda pendiente de pago por importaciones de servicios cuya prestación o devengamiento haya tenido lugar hasta el 12/12/23",
+   "descartado": "Suscripción de Bonos para la Reconstrucción de una Argentina Libre (BOPREAL) por importadores de servicios, hasta el monto de la deuda pendiente de pago por importaciones de servicios con prestación o devengamiento hasta el 12/12/23",
+   "chunk_id": "ext::4.5.2"
+  },
+  {
+   "origen": "intra_to",
+   "to": "ext",
+   "tipo": "Operacion",
+   "id": "Operacion_suscripcion_bopreal_por_importadores_de_servicios__ext_4_5_9d04d1",
+   "property": "tipo",
+   "conservado": "Suscripción de bonos",
+   "descartado": "suscripción de bonos",
+   "chunk_id": "ext::4.5.4"
+  },
+  {
+   "origen": "intra_to",
+   "to": "ext",
+   "tipo": "Operacion",
+   "id": "Operacion_suscripcion_bopreal_por_importadores_de_servicios__ext_4_5_9d04d1",
+   "property": "descripcion",
+   "conservado": "Suscripción de BOPREAL por importadores de servicios hasta el monto de la deuda pendiente de pago por importaciones de servicios cuya prestación o devengamiento haya tenido lugar hasta el 12/12/23",
+   "descartado": "Suscripción de Bonos para la Reconstrucción de una Argentina Libre (BOPREAL) por importadores de servicios por hasta el monto de la deuda pendiente de pago por importaciones de servicios prestadas o devengadas hasta el 12/12/23",
+   "chunk_id": "ext::4.5.4"
+  },
+  {
+   "origen": "intra_to",
+   "to": "ext",
+   "tipo": "Operacion",
+   "id": "Operacion_suscripcion_bopreal_por_utilidades_y_dividendos__ext_4_6_1_f1b06c",
+   "property": "tipo",
+   "conservado": "suscripción de bonos",
+   "descartado": "Suscripción de bonos",
+   "chunk_id": "ext::4.6.1.1"
+  },
+  {
+   "origen": "intra_to",
+   "to": "ext",
+   "tipo": "Operacion",
+   "id": "Operacion_suscripcion_bopreal_por_utilidades_y_dividendos__ext_4_6_1_f1b06c",
+   "property": "descripcion",
+   "conservado": "Suscripción de BOPREAL por el equivalente en moneda local de las utilidades y dividendos pendientes de pago a accionistas no residentes, limitada al monto máximo equivalente a esas utilidades y dividendos, a partir de la distribución determinada por la asamblea de accionistas.",
+   "descartado": "Suscripción de BOPREAL por utilidades y dividendos pendientes de pago a accionistas no residentes, hasta el equivalente al monto en moneda local de esas utilidades y dividendos, a partir de la distribución determinada por la asamblea de accionistas.",
+   "chunk_id": "ext::4.6.1.1"
+  },
+  {
+   "origen": "intra_to",
+   "to": "ext",
+   "tipo": "Operacion",
+   "id": "Operacion_suscripcion_bopreal_por_utilidades_y_dividendos__ext_4_6_1_f1b06c",
+   "property": "tipo",
+   "conservado": "suscripción de bonos",
+   "descartado": "Suscripción de bonos",
+   "chunk_id": "ext::4.6.1.4"
+  },
+  {
+   "origen": "intra_to",
+   "to": "ext",
+   "tipo": "Operacion",
+   "id": "Operacion_suscripcion_bopreal_por_utilidades_y_dividendos__ext_4_6_1_f1b06c",
+   "property": "descripcion",
+   "conservado": "Suscripción de BOPREAL por el equivalente en moneda local de las utilidades y dividendos pendientes de pago a accionistas no residentes, limitada al monto máximo equivalente a esas utilidades y dividendos, a partir de la distribución determinada por la asamblea de accionistas.",
+   "descartado": "Suscripción de BOPREAL por utilidades y dividendos pendientes de pago a accionistas no residentes, hasta el equivalente al monto en moneda local de esas utilidades y dividendos.",
+   "chunk_id": "ext::4.6.1.4"
+  },
+  {
+   "origen": "intra_to",
+   "to": "ext",
+   "tipo": "Obligacion",
+   "id": "Obligacion_la_entidad_debera_realizar_un_boleto_de_venta_de_cambio_a_nombre_del_cliente_por_f44a3a",
+   "property": "descripcion",
+   "conservado": "La entidad deberá realizar un boleto de venta de cambio a nombre del cliente por el código de concepto 'I09. Registro de utilidades y dividendos por adjudicación de bonos BOPREAL', consignando el valor nominal en moneda extranjera de los bonos BOPREAL adjudicado al cliente.",
+   "descartado": "La entidad deberá realizar un boleto de venta de cambio a nombre del cliente por el código de concepto \"I09. Registro de utilidades y dividendos por adjudicación de bonos BOPREAL\", consignando el valor nominal en moneda extranjera de los bonos BOPREAL adjudicado al cliente.",
+   "chunk_id": "ext::4.6.1::cierre"
+  },
+  {
+   "origen": "intra_to",
+   "to": "ext",
+   "tipo": "Operacion",
+   "id": "Operacion_operaciones_de_arbitrajes_y_canjes_en_el_exterior__ext_5_12_0a6a36",
+   "property": "descripcion",
+   "conservado": "Operaciones de arbitrajes y canjes que las entidades realizan en el exterior",
+   "descartado": "Operaciones de arbitrajes y canjes en el exterior realizadas por entidades financieras y cambiarias autorizadas a operar en cambios, con contraparte que sea una entidad financiera del exterior de propiedad total o mayoritaria de estados extranjeros.",
+   "chunk_id": "ext::5.12.2"
+  },
+  {
+   "origen": "intra_to",
+   "to": "ext",
+   "tipo": "Operacion",
+   "id": "Operacion_operaciones_de_arbitrajes_y_canjes_en_el_exterior__ext_5_12_0a6a36",
+   "property": "descripcion",
+   "conservado": "Operaciones de arbitrajes y canjes que las entidades realizan en el exterior",
+   "descartado": "Operaciones de arbitrajes y canjes en el exterior realizadas por entidades financieras o cambiarias",
+   "chunk_id": "ext::5.12.3"
+  },
+  {
+   "origen": "intra_to",
+   "to": "ext",
+   "tipo": "Operacion",
+   "id": "Operacion_arbitrajes_y_canjes_en_el_exterior__ext_5_12_b69958",
+   "property": "descripcion",
+   "conservado": "Operaciones de arbitrajes y canjes realizadas en el exterior",
+   "descartado": "Operaciones de arbitrajes y canjes en el exterior realizadas por entidades financieras y cambiarias con contrapartes que sean compañías del exterior dedicadas a la compraventa de billetes de distintos países y/o metales preciosos amonedados o en barras de buena entrega, cuya casa matriz esté radicada en un país miembro del Comité de Supervisión Bancaria de Basilea.",
+   "chunk_id": "ext::5.12.4"
+  },
+  {
+   "origen": "intra_to",
+   "to": "ext",
+   "tipo": "Operacion",
+   "id": "Operacion_designacion_de_entidad_financiera_local_para_seguimiento__ext_7_9_3_3eeff2",
+   "property": "descripcion",
+   "conservado": "Los exportadores designan una entidad financiera local para realizar el seguimiento de la operación de cobro de exportación",
+   "descartado": "Los exportadores que opten por este mecanismo deberán designar una entidad financiera local para que realice el seguimiento de la operación de cobro de exportaciones de bienes y servicios.",
+   "chunk_id": "ext::7.9.3.3"
+  },
+  {
+   "origen": "intra_to",
+   "to": "ext",
+   "tipo": "Restriccion",
+   "id": "Restriccion_las_certificaciones_tendran_una_validez_de_10_diez_dias_habiles_a_contar_desde_l_1d957d",
+   "property": "descripcion",
+   "conservado": "Las certificaciones tendrán una validez de 10 (diez) días hábiles a contar desde la fecha de emisión.",
+   "descartado": "Las certificaciones tendrán una validez de 10 (diez) días hábiles a contar desde la fecha de emisión",
+   "chunk_id": "ext::11.1.3::cierre"
+  },
+  {
+   "origen": "intra_to",
+   "to": "ext",
+   "tipo": "Obligacion",
+   "id": "Obligacion_la_devolucion_de_las_certificaciones_no_utilizadas_sera_efectuada_entre_las_enti_0063e2",
+   "property": "descripcion",
+   "conservado": "La devolución de las certificaciones no utilizadas será efectuada entre las entidades involucradas.",
+   "descartado": "La devolución de las certificaciones no utilizadas será efectuada entre las entidades involucradas",
+   "chunk_id": "ext::11.1.3::cierre"
+  },
+  {
+   "origen": "intra_to",
+   "to": "ext",
+   "tipo": "Obligacion",
+   "id": "Obligacion_la_entidad_a_cargo_del_seguimiento_debera_considerar_como_utilizada_toda_certifi_4429d9",
+   "property": "descripcion",
+   "conservado": "La entidad a cargo del seguimiento deberá considerar como utilizada toda certificación no devuelta.",
+   "descartado": "La entidad a cargo del seguimiento deberá considerar como utilizada toda certificación no devuelta",
+   "chunk_id": "ext::11.1.3::cierre"
+  },
+  {
+   "origen": "intra_to",
+   "to": "ctacte",
+   "tipo": "Comunicacion",
+   "id": "Comunicacion_normas_reglamentarias_dictadas_por_el_bcra",
+   "property": "codigo",
+   "conservado": "Normas reglamentarias dictadas por el BCRA",
+   "descartado": "normas reglamentarias dictadas por el BCRA",
+   "chunk_id": "ctacte::2.5"
+  },
+  {
+   "origen": "intra_to",
+   "to": "ctacte",
+   "tipo": "Operacion",
+   "id": "Operacion_presentacion_de_cheques__ctacte_3_2_3903d4",
+   "property": "descripcion",
+   "conservado": "La presentación de cheques para su procesamiento",
+   "descartado": "Presentación de un cheque para su compensación o cobro",
+   "chunk_id": "ctacte::3.2.4"
+  },
+  {
+   "origen": "intra_to",
+   "to": "ctacte",
+   "tipo": "Operacion",
+   "id": "Operacion_transferencia_de_cheques_de_pago_diferido_para_negociacion_bursatil__ctacte_4_5__53b856",
+   "property": "descripcion",
+   "conservado": "Transferencia de cheques de pago diferido en depósito para su negociación en Bolsas de Comercio y Mercados de Valores autorregulados de la República Argentina, sin la leyenda que autorice su negociación",
+   "descartado": "Transferencia de cheques de pago diferido en depósito para su negociación en Bolsas de Comercio y Mercados de Valores autorregulados de la República Argentina, cuando no contengan la leyenda que autorice su negociación",
+   "chunk_id": "ctacte::4.5.1.2"
+  },
+  {
+   "origen": "intra_to",
+   "to": "lingob",
+   "tipo": "Obligacion",
+   "id": "Obligacion_las_entidades_financieras_que_empleen_estructuras_productos_o_instrumentos_finan_39868a",
+   "property": "descripcion",
+   "conservado": "Las entidades financieras que empleen estructuras, productos o instrumentos financieros complejos deberán evaluar y gestionar adecuadamente los riesgos derivados de su utilización y comercialización, incluidos los riesgos legales y de reputación.",
+   "descartado": "Las entidades financieras que empleen estructuras, productos o instrumentos financieros complejos deberán evaluar y gestionar adecuadamente los riesgos derivados de su utilización y comercialización, incluidos los riesgos legales y de reputación",
+   "chunk_id": "lingob::7.2.3.2"
+  },
+  {
+   "origen": "intra_to",
+   "to": "polcre",
+   "tipo": "Obligacion",
+   "id": "Obligacion_las_financiaciones_y_capacidad_de_prestamo_deberan_ser_computadas_de_acuerdo_con_e883d7",
+   "property": "descripcion",
+   "conservado": "Las financiaciones y capacidad de préstamo deberán ser computadas de acuerdo con lo establecido en el punto 2.5",
+   "descartado": "Las financiaciones y capacidad de préstamo deberán ser computadas de acuerdo con lo establecido en el punto 2.5.",
+   "chunk_id": "polcre::2.1::cierre"
+  },
+  {
+   "origen": "intra_to",
+   "to": "polcre",
+   "tipo": "Operacion",
+   "id": "Operacion_financiacion_de_unidades_de_vivienda_actualizables_por_icc__polcre_6_2_1_1a39d5",
+   "property": "tipo",
+   "conservado": "Financiación",
+   "descartado": "Financiación de vivienda",
+   "chunk_id": "polcre::6.2.1.4"
+  },
+  {
+   "origen": "intra_to",
+   "to": "ri_ccna",
+   "tipo": "Obligacion",
+   "id": "Obligacion_el_auditor_externo_asume_el_compromiso_de_informar_cualquier_modificacion_que_se_ea4775",
+   "property": "descripcion",
+   "conservado": "El Auditor Externo asume el compromiso de informar cualquier modificación que se produzca dentro de los cinco días hábiles de ocurrido.",
+   "descartado": "El auditor externo asume el compromiso de informar cualquier modificación que se produzca dentro de los cinco días hábiles de ocurrido.",
+   "chunk_id": "ri_ccna::D1F2::S0::cierre"
+  },
+  {
+   "origen": "intra_to",
+   "to": "ri_ccna",
+   "tipo": "Obligacion",
+   "id": "Obligacion_el_auditor_externo_asume_el_compromiso_de_informar_cualquier_modificacion_que_se_ea4775",
+   "property": "tipo",
+   "conservado": "comunicacion_a_cliente",
+   "descartado": "reporte_al_supervisor",
+   "chunk_id": "ri_ccna::D1F2::S0::cierre"
+  },
+  {
+   "origen": "intra_to",
+   "to": "ri_ccna",
+   "tipo": "Obligacion",
+   "id": "Obligacion_el_auditor_externo_asume_el_compromiso_de_informar_cualquier_modificacion_que_se_ea4775",
+   "property": "frecuencia",
+   "conservado": "dentro de los cinco días hábiles",
+   "descartado": "dentro de los cinco días hábiles de ocurrido",
+   "chunk_id": "ri_ccna::D1F2::S0::cierre"
+  },
+  {
+   "origen": "intra_to",
+   "to": "ri_ccna",
+   "tipo": "Obligacion",
+   "id": "Obligacion_el_auditor_externo_asume_el_compromiso_de_informar_cualquier_modificacion_que_se_ea4775",
+   "property": "originales.frecuencia",
+   "conservado": "dentro de los cinco días hábiles",
+   "descartado": "dentro de los cinco días hábiles de ocurrido",
+   "chunk_id": "ri_ccna::D1F2::S0::cierre"
+  },
+  {
+   "origen": "intra_to",
+   "to": "ayccef",
+   "tipo": "Operacion",
+   "id": "Operacion_transmision_de_acciones_de_entidades_financieras__ayccef_5_1_a4d34b",
+   "property": "descripcion",
+   "conservado": "Transmisiones de acciones de entidades financieras, cualquiera sea el motivo: ejercicio de opción de compra, suscripción, herencia, donación, sindicación u otro acto.",
+   "descartado": "Transmisiones de acciones de entidades financieras y de personas jurídicas que directa o indirectamente las controlen, cualquiera sea el motivo: ejercicio de opción de compra, suscripción, herencia, donación, sindicación u otro acto. También comprende la capitalización de aportes irrevocables para futuros aumentos de capital.",
+   "chunk_id": "ayccef::5.1.2"
+  },
+  {
+   "origen": "intra_to",
+   "to": "cirmo3",
+   "tipo": "Operacion",
+   "id": "Operacion_emision_billete_50_islas_malvinas__cirmo3_1_2_12_aef24f",
+   "property": "descripcion",
+   "conservado": "Emisión de un nuevo billete de circulación de $ 50 de las Islas Malvinas",
+   "descartado": "Emisión de nuevo billete de circulación de $ 50 de las Islas Malvinas, que conserva el tamaño y coexiste con el de igual denominación de Domingo Faustino Sarmiento",
+   "chunk_id": "cirmo3::1.2.12.2"
+  },
+  {
+   "origen": "intra_to",
+   "to": "cirmo3",
+   "tipo": "Operacion",
+   "id": "Operacion_puesta_en_circulacion_de_monedas_conmemorativas__cirmo3_s7_1c7743",
+   "property": "tipo",
+   "conservado": "emisión de moneda conmemorativa",
+   "descartado": "Puesta en circulación",
+   "chunk_id": "cirmo3::7.12"
+  },
+  {
+   "origen": "intra_to",
+   "to": "cirmo3",
+   "tipo": "Operacion",
+   "id": "Operacion_puesta_en_circulacion_de_monedas_conmemorativas__cirmo3_s7_1c7743",
+   "property": "descripcion",
+   "conservado": "El BCRA, en su carácter de ente emisor, pone en circulación las monedas conmemorativas que se describen a continuación.",
+   "descartado": "El BCRA pone en circulación las monedas conmemorativas que se describen.",
+   "chunk_id": "cirmo3::7.12"
+  },
+  {
+   "origen": "intra_to",
+   "to": "snp_cheq",
+   "tipo": "Operacion",
+   "id": "Operacion_transmision_de_archivos_de_cheques_a_cec__snp_cheq_3_1_1_4bd63d",
+   "property": "tipo",
+   "conservado": "Transmisión de información",
+   "descartado": "transmisión de información",
+   "chunk_id": "snp_cheq::3.1.1.2"
+  },
+  {
+   "origen": "intra_to",
+   "to": "snp_cheq",
+   "tipo": "Operacion",
+   "id": "Operacion_transmision_de_archivos_de_cheques_a_cec__snp_cheq_3_1_1_4bd63d",
+   "property": "descripcion",
+   "conservado": "Transmisión a la/s CEC de archivos con información de cheques presentados para compensación electrónica",
+   "descartado": "Transmisión de archivos con información de cheques para compensación electrónica a las cámaras electrónicas de compensación",
+   "chunk_id": "snp_cheq::3.1.1.2"
+  },
+  {
+   "origen": "intra_to",
+   "to": "cajasc",
+   "tipo": "Operacion",
+   "id": "Operacion_calculo_de_responsabilidad_patrimonial_computable__cajasc_2_7_886879",
+   "property": "descripcion",
+   "conservado": "La RPC surge de la suma algebraica de conceptos que incluyen el capital social con signo positivo (+), de acuerdo con la información del último balance presentado",
+   "descartado": "Cálculo de la responsabilidad patrimonial computable (RPC) como suma algebraica de conceptos según el signo indicado, de acuerdo con la información del último balance presentado",
+   "chunk_id": "cajasc::2.7.2"
+  },
+  {
+   "origen": "intra_to",
+   "to": "cajasc",
+   "tipo": "Operacion",
+   "id": "Operacion_calculo_de_responsabilidad_patrimonial_computable__cajasc_2_7_886879",
+   "property": "descripcion",
+   "conservado": "La RPC surge de la suma algebraica de conceptos que incluyen el capital social con signo positivo (+), de acuerdo con la información del último balance presentado",
+   "descartado": "Cálculo de la responsabilidad patrimonial computable (RPC) como suma algebraica de conceptos según el signo indicado, de acuerdo con el último balance presentado",
+   "chunk_id": "cajasc::2.7.8"
+  },
+  {
+   "origen": "intra_to",
+   "to": "cajasc",
+   "tipo": "Operacion",
+   "id": "Operacion_descuento_de_titulos_de_credito_con_responsabilidad_cedente__cajasc_5_1_5_11390f",
+   "property": "tipo",
+   "conservado": "Descuento de títulos de crédito",
+   "descartado": "descuento de títulos de crédito",
+   "chunk_id": "cajasc::5.1.5.4"
+  },
+  {
+   "origen": "intra_to",
+   "to": "cajasc",
+   "tipo": "Operacion",
+   "id": "Operacion_descuento_de_titulos_de_credito_con_responsabilidad_cedente__cajasc_5_1_5_11390f",
+   "property": "descripcion",
+   "conservado": "Descuento de títulos de crédito (cheques de pago diferido, pagarés, letras de cambio y facturas de crédito) con responsabilidad para el cedente, sujeto a condiciones específicas",
+   "descartado": "Descuento de títulos de crédito (cheques de pago diferido, pagarés, letras de cambio y facturas de crédito) con responsabilidad para el cedente, operación de crédito que no supera el término de 6 meses, salvo en los casos en que se establezca un plazo distinto.",
+   "chunk_id": "cajasc::5.1.5.4"
+  },
+  {
+   "origen": "intra_to",
+   "to": "cajasc",
+   "tipo": "Operacion",
+   "id": "Operacion_venta_a_plazo_de_bienes_de_la_entidad__cajasc_10_1_1_db10fc",
+   "property": "tipo",
+   "conservado": "venta a plazo",
+   "descartado": "venta a plazo de bienes",
+   "chunk_id": "cajasc::10.1.1.2"
+  },
+  {
+   "origen": "intra_to",
+   "to": "cajasc",
+   "tipo": "Operacion",
+   "id": "Operacion_venta_a_plazo_de_bienes_de_la_entidad__cajasc_10_1_1_db10fc",
+   "property": "descripcion",
+   "conservado": "Venta a plazo de bienes de la entidad, cualquiera sea la naturaleza del activo",
+   "descartado": "Facilidades concedidas para posibilitar la venta a plazo de bienes de la entidad, cualquiera sea la naturaleza del activo",
+   "chunk_id": "cajasc::10.1.1.2"
+  },
+  {
+   "origen": "intra_to",
+   "to": "cajasc",
+   "tipo": "Operacion",
+   "id": "Operacion_venta_a_plazo_de_bienes_de_la_entidad__cajasc_10_1_1_db10fc",
+   "property": "tipo",
+   "conservado": "venta a plazo",
+   "descartado": "venta a plazo de bienes",
+   "chunk_id": "cajasc::10.1.1.3"
+  },
+  {
+   "origen": "intra_to",
+   "to": "depaho",
+   "tipo": "Operacion",
+   "id": "Operacion_apertura_no_presencial_de_cuentas__depaho_4_16_1_318bec",
+   "property": "descripcion",
+   "conservado": "Apertura de cuentas en forma no presencial a través de medios electrónicos y/o de comunicación",
+   "descartado": "Apertura de cuentas a través de medios electrónicos y/o de comunicación",
+   "chunk_id": "depaho::4.16.1.2"
+  },
+  {
+   "origen": "intra_to",
+   "to": "lingeef",
+   "tipo": "Obligacion",
+   "id": "Obligacion_las_entidades_deben_disenar_un_conjunto_de_indicadores_que_les_permitan_identifi_f61243",
+   "property": "descripcion",
+   "conservado": "Las entidades deben diseñar un conjunto de indicadores que les permitan identificar los potenciales riesgos en su posición de liquidez, indicando las tendencias negativas que originen una evaluación y una potencial respuesta de la gestión a fin de mitigar la exposición de la entidad a ese riesgo emergente.",
+   "descartado": "Las entidades deben diseñar un conjunto de indicadores que les permitan identificar los potenciales riesgos en su posición de liquidez, indicando las tendencias negativas que originen una evaluación y una potencial respuesta de la gestión a fin de mitigar la exposición de la entidad a ese riesgo emergente",
+   "chunk_id": "lingeef::3.3.4.2"
+  },
+  {
+   "origen": "intra_to",
+   "to": "lingeef",
+   "tipo": "Obligacion",
+   "id": "Obligacion_el_sistema_de_gestion_del_riesgo_de_mercado_debe_incluir_la_utilizacion_de_metod_92eee1",
+   "property": "descripcion",
+   "conservado": "el sistema de gestión del riesgo de mercado debe incluir la utilización de metodologías VaR y la realización de pruebas de estrés acordes al tipo y nivel de actividad, para calcular eficazmente los riesgos significativos de los instrumentos y estrategias de negociación",
+   "descartado": "El sistema de gestión del riesgo de mercado debe incluir la utilización de metodologías VaR y la realización de pruebas de estrés acordes al tipo y nivel de actividad, para calcular eficazmente los riesgos significativos de los instrumentos y estrategias de negociación",
+   "chunk_id": "lingeef::4.1.2.3"
+  },
+  {
+   "origen": "intra_to",
+   "to": "lingeef",
+   "tipo": "Obligacion",
+   "id": "Obligacion_las_entidades_financieras_deben_demostrar_como_combinan_sus_metodos_de_medicion__5a321a",
+   "property": "tipo",
+   "conservado": "otra",
+   "descartado": "presentacion_informativa",
+   "chunk_id": "lingeef::4.1.2.3"
+  },
+  {
+   "origen": "intra_to",
+   "to": "lingeef",
+   "tipo": "Obligacion",
+   "id": "Obligacion_las_entidades_financieras_deben_demostrar_como_combinan_sus_metodos_de_medicion__5a321a",
+   "property": "descripcion",
+   "conservado": "las entidades financieras deben demostrar cómo combinan sus métodos de medición de riesgos para calcular el capital económico necesario para el riesgo de mercado",
+   "descartado": "Las entidades financieras deben demostrar cómo combinan sus métodos de medición de riesgos para calcular el capital económico necesario para el riesgo de mercado",
+   "chunk_id": "lingeef::4.1.2.3"
+  },
+  {
+   "origen": "intra_to",
+   "to": "lingeef",
+   "tipo": "Obligacion",
+   "id": "Obligacion_las_entidades_financieras_deben_demostrar_como_combinan_sus_metodos_de_medicion__5a321a",
+   "property": "tipo",
+   "conservado": "otra",
+   "descartado": "presentacion_informativa",
+   "chunk_id": "lingeef::4.1.2::cierre"
+  },
+  {
+   "origen": "intra_to",
+   "to": "lingeef",
+   "tipo": "Obligacion",
+   "id": "Obligacion_las_entidades_financieras_deben_demostrar_como_combinan_sus_metodos_de_medicion__5a321a",
+   "property": "descripcion",
+   "conservado": "las entidades financieras deben demostrar cómo combinan sus métodos de medición de riesgos para calcular el capital económico necesario para el riesgo de mercado",
+   "descartado": "Las entidades financieras deben demostrar cómo combinan sus métodos de medición de riesgos para calcular el capital económico necesario para el riesgo de mercado.",
+   "chunk_id": "lingeef::4.1.2::cierre"
+  },
+  {
+   "origen": "intra_to",
+   "to": "lingeef",
+   "tipo": "Obligacion",
+   "id": "Obligacion_en_el_caso_de_las_entidades_mas_sofisticadas_la_evaluacion_de_la_suficiencia_del_f32892",
+   "property": "descripcion",
+   "conservado": "En el caso de las entidades más sofisticadas, la evaluación de la suficiencia del capital económico por riesgo de mercado debe incluir la evaluación del riesgo de concentración y de iliquidez en escenarios de estrés en el mercado",
+   "descartado": "En el caso de las entidades más sofisticadas, la evaluación de la suficiencia del capital económico por riesgo de mercado debe incluir la evaluación del riesgo de concentración y de iliquidez en escenarios de estrés en el mercado.",
+   "chunk_id": "lingeef::4.1.2::cierre"
+  },
+  {
+   "origen": "intra_to",
+   "to": "consyr",
+   "tipo": "Operacion",
+   "id": "Operacion_reproduccion_de_cheques_pagados__consyr_3_2_4_7a5227",
+   "property": "tipo",
+   "conservado": "reproducción de cheques",
+   "descartado": "reproducción de documentos",
+   "chunk_id": "consyr::3.2.4.2"
+  },
+  {
+   "origen": "intra_to",
+   "to": "ri_secoexpo",
+   "tipo": "Operacion",
+   "id": "Operacion_certificacion_de_extension_de_plazo__ri_secoexpo_sb_f7ef1d",
+   "property": "tipo",
+   "conservado": "Certificación",
+   "descartado": "Certificación de extensión de plazo de exportación",
+   "chunk_id": "ri_secoexpo::SB"
+  },
+  {
+   "origen": "intra_to",
+   "to": "ri_secoexpo",
+   "tipo": "Operacion",
+   "id": "Operacion_certificacion_de_extension_de_plazo__ri_secoexpo_sb_f7ef1d",
+   "property": "descripcion",
+   "conservado": "Reporte de la entidad certificando la extensión del plazo de seguimiento",
+   "descartado": "Operación de certificación de extensión de plazo para liquidación de divisas de exportaciones, identificada por código de extensión que corresponde a razones específicas (plazo mínimo en país importador, prefinanciación, postfinanciación, cobros retenidos, contraparte vinculada, indeterminación de precio, cobros elegibles para mecanismos especiales, o autorización del BCRA)",
+   "chunk_id": "ri_secoexpo::SB"
+  },
+  {
+   "origen": "intra_to",
+   "to": "cescar",
+   "tipo": "Condicion",
+   "id": "Condicion_requerimiento_de_autorizacion_previa_del_punto_2_1_6__cuando_se_requiera_la_auto_26ca54",
+   "property": "descripcion",
+   "conservado": "Cuando se requiera la autorización previa establecida en el primer párrafo del punto 2.1.6.",
+   "descartado": "Cuando se requiera la autorización previa establecida en el primer párrafo del punto 2.1.6",
+   "chunk_id": "cescar::2.2.3"
+  },
+  {
+   "origen": "intra_to",
+   "to": "fimipyme",
+   "tipo": "Operacion",
+   "id": "Operacion_incremento_exigencia_efectivo_minimo__fimipyme_11_1_003de5",
+   "property": "tipo",
+   "conservado": "Incremento de requerimiento de efectivo mínimo",
+   "descartado": "incremento de requisito de efectivo mínimo",
+   "chunk_id": "fimipyme::11.1.1"
+  },
+  {
+   "origen": "intra_to",
+   "to": "fimipyme",
+   "tipo": "Operacion",
+   "id": "Operacion_incremento_exigencia_efectivo_minimo__fimipyme_11_1_003de5",
+   "property": "descripcion",
+   "conservado": "Incremento en la exigencia de efectivo mínimo en promedio en pesos, generado por defecto de aplicación de los cupos de la Sección 2",
+   "descartado": "Incremento en la exigencia de efectivo mínimo en promedio en pesos, generado por defecto de aplicación de cupos",
+   "chunk_id": "fimipyme::11.1.1"
+  },
+  {
+   "origen": "intra_to",
+   "to": "fimipyme",
+   "tipo": "Operacion",
+   "id": "Operacion_incremento_exigencia_efectivo_minimo__fimipyme_11_1_003de5",
+   "property": "tipo",
+   "conservado": "Incremento de requerimiento de efectivo mínimo",
+   "descartado": "Incremento de exigencia de efectivo mínimo",
+   "chunk_id": "fimipyme::11.1.3"
+  },
+  {
+   "origen": "intra_to",
+   "to": "fimipyme",
+   "tipo": "Operacion",
+   "id": "Operacion_incremento_exigencia_efectivo_minimo__fimipyme_11_1_003de5",
+   "property": "tipo",
+   "conservado": "Incremento de requerimiento de efectivo mínimo",
+   "descartado": "Incremento de exigencia de efectivo mínimo",
+   "chunk_id": "fimipyme::11.1.5"
+  },
+  {
+   "origen": "intra_to",
+   "to": "fimipyme",
+   "tipo": "Operacion",
+   "id": "Operacion_incremento_exigencia_efectivo_minimo__fimipyme_11_1_003de5",
+   "property": "descripcion",
+   "conservado": "Incremento en la exigencia de efectivo mínimo en promedio en pesos, generado por defecto de aplicación de los cupos de la Sección 2",
+   "descartado": "Incremento en la exigencia de efectivo mínimo en promedio en pesos como consecuencia del defecto de aplicación de los cupos de la Sección 2",
+   "chunk_id": "fimipyme::11.1.5"
+  },
+  {
+   "origen": "intra_to",
+   "to": "garopt",
+   "tipo": "Operacion",
+   "id": "Operacion_colocacion_de_documentos_representativos_de_deuda__garopt_1_1_8a7644",
+   "property": "tipo",
+   "conservado": "Colocación de documentos de deuda",
+   "descartado": "colocación de documentos de deuda",
+   "chunk_id": "garopt::1.1.1.2"
+  },
+  {
+   "origen": "intra_to",
+   "to": "garopt",
+   "tipo": "Operacion",
+   "id": "Operacion_colocacion_de_documentos_representativos_de_deuda__garopt_1_1_8a7644",
+   "property": "descripcion",
+   "conservado": "Colocación entre personas del sector no financiero de documentos representativos de deuda (pagarés, letras de cambio, cheques de pago diferido, etc.) que reúnan las condiciones establecidas",
+   "descartado": "Colocación entre personas del sector no financiero de documentos representativos de deuda (pagarés, letras de cambio, cheques de pago diferido, etc.) que reúnan las condiciones especificadas.",
+   "chunk_id": "garopt::1.1.1.2"
+  },
+  {
+   "origen": "intra_to",
+   "to": "supcon",
+   "tipo": "Operacion",
+   "id": "Operacion_presentacion_de_estados_financieros_consolidados__supcon_3_1_e46259",
+   "property": "descripcion",
+   "conservado": "Presentación de estados financieros y otras informaciones mensuales que reflejen en forma consolidada las operaciones de la casa central o matriz y sus filiales en el país y en el exterior",
+   "descartado": "Presentación de estados financieros y otras informaciones mensuales que reflejen en forma consolidada las operaciones de sus subsidiarias significativas en el país y en el exterior.",
+   "chunk_id": "supcon::3.1.2"
+  },
+  {
+   "origen": "intra_to",
+   "to": "snp_psp",
+   "tipo": "Operacion",
+   "id": "Operacion_inscripcion_como_aceptador_en_registro_psp__snp_psp_5_1_a93798",
+   "property": "tipo",
+   "conservado": "Inscripción/Registro",
+   "descartado": "Inscripción",
+   "chunk_id": "snp_psp::5.1.1"
+  },
+  {
+   "origen": "intra_to",
+   "to": "snp_psp",
+   "tipo": "Operacion",
+   "id": "Operacion_inscripcion_como_aceptador_en_registro_psp__snp_psp_5_1_a93798",
+   "property": "descripcion",
+   "conservado": "Inscripción como aceptador en el Registro de proveedores de servicios de pago",
+   "descartado": "Inscripción de un PSP como aceptador en el Registro de proveedores de servicios de pago",
+   "chunk_id": "snp_psp::5.1.1"
+  },
+  {
+   "origen": "intra_to",
+   "to": "seguef",
+   "tipo": "Obligacion",
+   "id": "Obligacion_el_plan_de_seguridad_debe_estar_en_condiciones_de_ser_presentado_a_requerimiento_c5cdaf",
+   "property": "descripcion",
+   "conservado": "El plan de seguridad debe estar en condiciones de ser presentado a requerimiento del BCRA con un estado actualizado de su efectivo cumplimiento.",
+   "descartado": "El plan de seguridad debe estar en condiciones de ser presentado a requerimiento del BCRA, con un estado actualizado de su efectivo cumplimiento.",
+   "chunk_id": "seguef::6.5.8"
+  },
+  {
+   "origen": "intra_to",
+   "to": "seguef",
+   "tipo": "Obligacion",
+   "id": "Obligacion_el_plan_de_seguridad_debe_estar_en_condiciones_de_ser_presentado_a_requerimiento_c5cdaf",
+   "property": "tipo",
+   "conservado": "presentacion_informativa",
+   "descartado": "comunicacion_a_cliente",
+   "chunk_id": "seguef::6.5.12"
+  },
+  {
+   "origen": "intra_to",
+   "to": "garant",
+   "tipo": "Operacion",
+   "id": "Operacion_descuento_de_titulos_de_credito_con_responsabilidad_cedente__garant_1_1_10_32f73e",
+   "property": "tipo",
+   "conservado": "Descuento de títulos de crédito",
+   "descartado": "descuento de títulos de crédito",
+   "chunk_id": "garant::1.1.10.1"
+  },
+  {
+   "origen": "intra_to",
+   "to": "garant",
+   "tipo": "Operacion",
+   "id": "Operacion_descuento_de_titulos_de_credito_con_responsabilidad_cedente__garant_1_1_10_32f73e",
+   "property": "descripcion",
+   "conservado": "Descuento de títulos de crédito (cheques de pago diferido, pagarés, letras de cambio y facturas de crédito) con responsabilidad para el cedente, sujeto a condiciones específicas",
+   "descartado": "Descuento de títulos de crédito (cheques de pago diferido, pagarés, letras de cambio y facturas de crédito) con responsabilidad para el cedente, sujeto a verificación de condiciones respecto de sujetos obligados al pago distintos del cedente",
+   "chunk_id": "garant::1.1.10.1"
+  },
+  {
+   "origen": "intra_to",
+   "to": "garant",
+   "tipo": "Operacion",
+   "id": "Operacion_fideicomiso_de_garantia_para_construccion_de_inmuebles__garant_1_2_7_a2d9f3",
+   "property": "descripcion",
+   "conservado": "Constitución de fideicomisos de garantía conforme al Código Civil y Comercial (art. 1666 y ss.) destinados a respaldar el pago de financiaciones para construcción de inmuebles",
+   "descartado": "Fideicomiso de garantía constituido conforme al Código Civil y Comercial (art. 1666 y ss.) para respaldar el pago de financiaciones otorgadas para construcción de inmuebles",
+   "chunk_id": "garant::1.2.7.5"
+  },
+  {
+   "origen": "intra_to",
+   "to": "garant",
+   "tipo": "Operacion",
+   "id": "Operacion_prenda_o_cesion_en_garantia_de_derechos_inmobiliarios__garant_1_2_9_40728c",
+   "property": "tipo",
+   "conservado": "Prenda o cesión en garantía",
+   "descartado": "Constitución de garantía",
+   "chunk_id": "garant::1.2.9.2"
+  },
+  {
+   "origen": "intra_to",
+   "to": "garant",
+   "tipo": "Operacion",
+   "id": "Operacion_prenda_o_cesion_en_garantia_de_derechos_inmobiliarios__garant_1_2_9_40728c",
+   "property": "descripcion",
+   "conservado": "Prenda o cesión en garantía de derechos sobre desarrollos inmobiliarios implementados a través de fideicomisos (conforme artículo 1666 y siguientes del Código Civil y Comercial de la Nación) o sociedades constructoras, sujeta a la verificación de elementos específicos.",
+   "descartado": "Prenda o cesión en garantía de derechos sobre desarrollos inmobiliarios implementados a través de fideicomisos o sociedades constructoras",
+   "chunk_id": "garant::1.2.9.2"
+  },
+  {
+   "origen": "intra_to",
+   "to": "garant",
+   "tipo": "Operacion",
+   "id": "Operacion_emision_de_cupones_de_tarjetas_de_credito__garant_3_1_9_989cbe",
+   "property": "descripcion",
+   "conservado": "Emisión de cupones de tarjetas de crédito por entidades financieras",
+   "descartado": "Emisión de cupones de tarjetas de crédito por empresas que no sean entidades financieras que cumplan las condiciones requeridas para ser sujeto de crédito",
+   "chunk_id": "garant::3.1.9.2"
+  },
+  {
+   "origen": "intra_to",
+   "to": "garant",
+   "tipo": "Operacion",
+   "id": "Operacion_emision_de_cupones_de_tarjetas_de_credito__garant_3_1_9_989cbe",
+   "property": "descripcion",
+   "conservado": "Emisión de cupones de tarjetas de crédito por entidades financieras",
+   "descartado": "Emisión de cupones de tarjetas de crédito por empresas no financieras",
+   "chunk_id": "garant::3.1.9.3"
+  },
+  {
+   "origen": "intra_to",
+   "to": "finsec",
+   "tipo": "Operacion",
+   "id": "Operacion_adelantos_transitorios_al_sector_publico_no_financiero__finsec_3_2_5_224568",
+   "property": "descripcion",
+   "conservado": "Adelantos transitorios al sector público no financiero, conforme al concepto definido en el punto 1.1.",
+   "descartado": "Adelantos transitorios otorgados al sector público no financiero, conforme al concepto definido en el punto 1.1., sujetos a las condiciones de vigencia máxima y cancelación total.",
+   "chunk_id": "finsec::3.2.5.3"
+  },
+  {
+   "origen": "intra_to",
+   "to": "snp_tr_nc",
+   "tipo": "Obligacion",
+   "id": "Obligacion_los_servicios_de_consulta_de_cuentas_activas_deberan_ser_actualizados_en_tiempo__610aa1",
+   "property": "descripcion",
+   "conservado": "Los servicios de consulta de cuentas activas deberán ser actualizados en tiempo real",
+   "descartado": "Los servicios de consulta de cuentas activas deberán ser actualizados en tiempo real.",
+   "chunk_id": "snp_tr_nc::2.4.1"
+  },
+  {
+   "origen": "intra_to",
+   "to": "snp_tr_nc",
+   "tipo": "Operacion",
+   "id": "Operacion_servicios_de_consulta_de_cuentas_activas__snp_tr_nc_2_4_c8e655",
+   "property": "tipo",
+   "conservado": "consulta de cuentas activas",
+   "descartado": "consulta de cuentas",
+   "chunk_id": "snp_tr_nc::2.4.5"
+  },
+  {
+   "origen": "intra_to",
+   "to": "snp_tr_nc",
+   "tipo": "Operacion",
+   "id": "Operacion_servicios_de_consulta_de_cuentas_activas__snp_tr_nc_2_4_c8e655",
+   "property": "descripcion",
+   "conservado": "Servicios de consulta de cuentas activas puestos a disposición en un esquema de pago que deben ser actualizados en tiempo real y estar disponibles para otros esquemas de transferencias inmediatas cuando la potencial entidad receptora no sea participante del mismo esquema de la entidad ordenante.",
+   "descartado": "Servicios de consulta de cuentas activas puestos a disposición en un esquema de pago",
+   "chunk_id": "snp_tr_nc::2.4.5"
+  },
+  {
+   "origen": "intra_to",
+   "to": "ctavis",
+   "tipo": "Operacion",
+   "id": "Operacion_creacion_de_letra_de_cambio__ctavis_5_1_2_ea9c3a",
+   "property": "descripcion",
+   "conservado": "acto de crear una letra de cambio",
+   "descartado": "Acto de crear una letra de cambio",
+   "chunk_id": "ctavis::5.1.2.4"
+  },
+  {
+   "origen": "intra_to",
+   "to": "ctavis",
+   "tipo": "Operacion",
+   "id": "Operacion_presentacion_ante_caja_de_credito_cooperativa__ctavis_7_8_5cb6db",
+   "property": "tipo",
+   "conservado": "presentación informativa",
+   "descartado": "presentación",
+   "chunk_id": "ctavis::7.8.2"
+  },
+  {
+   "origen": "intra_to",
+   "to": "ctavis",
+   "tipo": "Operacion",
+   "id": "Operacion_presentacion_ante_caja_de_credito_cooperativa__ctavis_7_8_5cb6db",
+   "property": "descripcion",
+   "conservado": "Presentación ante la caja de crédito cooperativa que haya informado los rechazos en la que se expongan sucintamente los hechos acontecidos, junto con elementos especificados",
+   "descartado": "Presentación ante la caja de crédito cooperativa que haya informado los rechazos, en la que se expongan sucintamente los hechos acontecidos, junto con fotocopias autenticadas por escribano público de los documentos de identificación en vigencia, incluida la página del último domicilio registrado.",
+   "chunk_id": "ctavis::7.8.2"
+  },
+  {
+   "origen": "cross_to",
+   "tipo": "Comunicacion",
+   "nivel": "nodo",
+   "id": "Comunicacion_resolucion_n_92_21_del_ministerio_de_desarrollo_productivo",
+   "property": "label",
+   "gana": "Res. 92/21",
+   "pierde": "Res. 92/21 Ministerio Desarrollo Productivo",
+   "to_perdedor": "ctacte"
+  },
+  {
+   "origen": "cross_to",
+   "tipo": "Comunicacion",
+   "nivel": "nodo",
+   "id": "Comunicacion_ley_19_359",
+   "property": "label",
+   "gana": "Tramitación de sumarios cambiarios",
+   "pierde": "Ley 19.359",
+   "to_perdedor": "opefci"
+  },
+  {
+   "origen": "cross_to",
+   "tipo": "Comunicacion",
+   "nivel": "nodo",
+   "id": "Comunicacion_ley_19_359",
+   "property": "label",
+   "gana": "Tramitación de sumarios cambiarios",
+   "pierde": "Ley 19.359",
+   "to_perdedor": "efemin"
+  },
+  {
+   "origen": "cross_to",
+   "tipo": "Comunicacion",
+   "nivel": "nodo",
+   "id": "Comunicacion_codigo_civil_y_comercial_de_la_nacion",
+   "property": "label",
+   "gana": "Código Civil y Comercial de la Nación",
+   "pierde": "Com. Código Civil y Comercial",
+   "to_perdedor": "manori"
+  },
+  {
+   "origen": "cross_to",
+   "tipo": "Comunicacion",
+   "nivel": "nodo",
+   "id": "Comunicacion_ley_19_359",
+   "property": "label",
+   "gana": "Tramitación de sumarios cambiarios",
+   "pierde": "Ley 19.359",
+   "to_perdedor": "verac"
+  },
+  {
+   "origen": "cross_to",
+   "tipo": "Comunicacion",
+   "nivel": "nodo",
+   "id": "Comunicacion_resolucion_n_92_21_del_ministerio_de_desarrollo_productivo",
+   "property": "label",
+   "gana": "Res. 92/21",
+   "pierde": "Res. 92/21 MDP",
+   "to_perdedor": "micemp"
+  },
+  {
+   "origen": "cross_to",
+   "tipo": "Comunicacion",
+   "nivel": "nodo",
+   "id": "Comunicacion_ley_de_entidades_financieras",
+   "property": "label",
+   "gana": "Ley de Entidades Financieras",
+   "pierde": "Ley de Entidades Financieras art. 41",
+   "to_perdedor": "icmecma"
+  },
+  {
+   "origen": "cross_to",
+   "tipo": "Comunicacion",
+   "nivel": "nodo",
+   "id": "Comunicacion_resolucion_92_21_del_ministerio_de_desarrollo_productivo",
+   "property": "label",
+   "gana": "Res. 92/21 MDP",
+   "pierde": "Resolución 92/21",
+   "to_perdedor": "icmecma"
+  },
+  {
+   "origen": "cross_to",
+   "tipo": "Comunicacion",
+   "nivel": "nodo",
+   "id": "Comunicacion_ley_19_359",
+   "property": "label",
+   "gana": "Tramitación de sumarios cambiarios",
+   "pierde": "Ley 19.359",
+   "to_perdedor": "prevmi"
+  },
+  {
+   "origen": "cross_to",
+   "tipo": "Comunicacion",
+   "nivel": "nodo",
+   "id": "Comunicacion_ley_19_359",
+   "property": "label",
+   "gana": "Tramitación de sumarios cambiarios",
+   "pierde": "Ley 19.359",
+   "to_perdedor": "gescre"
+  },
+  {
+   "origen": "cross_to",
+   "tipo": "Comunicacion",
+   "nivel": "nodo",
+   "id": "Comunicacion_ley_de_entidades_financieras_articulo_41",
+   "property": "label",
+   "gana": "Ley de Entidades Financieras, art. 41",
+   "pierde": "Ley de Entidades Financieras",
+   "to_perdedor": "autenf"
+  },
+  {
+   "origen": "cross_to",
+   "tipo": "Comunicacion",
+   "nivel": "nodo",
+   "id": "Comunicacion_ley_25_827",
+   "property": "label",
+   "gana": "Ley 25.827 - UVA",
+   "pierde": "Ley 25.827",
+   "to_perdedor": "depinv"
+  },
+  {
+   "origen": "cross_to",
+   "tipo": "Comunicacion",
+   "nivel": "nodo",
+   "id": "Comunicacion_ley_27_271",
+   "property": "label",
+   "gana": "Ley 27.271 - UVI",
+   "pierde": "Ley 27.271",
+   "to_perdedor": "depinv"
+  },
+  {
+   "origen": "cross_to",
+   "tipo": "Comunicacion",
+   "nivel": "nodo",
+   "id": "Comunicacion_resolucion_n_92_21",
+   "property": "label",
+   "gana": "Res. 92/21",
+   "pierde": "Res. 92/21 Ministerio Desarrollo Productivo",
+   "to_perdedor": "depinv"
+  },
+  {
+   "origen": "cross_to",
+   "tipo": "Comunicacion",
+   "nivel": "nodo",
+   "id": "Comunicacion_decreto_ley_5965_63",
+   "property": "codigo",
+   "gana": "Decreto Ley 5965/63",
+   "pierde": "Decreto-Ley 5965/63",
+   "to_perdedor": "ctavis"
+  },
+  {
+   "origen": "cross_to",
+   "tipo": "Comunicacion",
+   "nivel": "nodo",
+   "id": "Comunicacion_decreto_ley_5965_63",
+   "property": "label",
+   "gana": "Decreto Ley 5965/63",
+   "pierde": "Decreto-Ley 5965/63",
+   "to_perdedor": "ctavis"
+  }
+ ]
+}

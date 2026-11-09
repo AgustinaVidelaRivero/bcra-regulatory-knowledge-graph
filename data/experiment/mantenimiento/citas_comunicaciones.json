@@ -1,0 +1,2206 @@
+{
+ "caso_de_control": {
+  "citas_de_esa_pagina": [
+   {
+    "categoria": "a_to_y_unidades",
+    "comunicacion": "A8432",
+    "formula": "sustituir_el_punto",
+    "grupo": "corpus_152",
+    "numerales": [
+     "1.3"
+    ],
+    "pagina": 1,
+    "rango": false,
+    "seccion": null,
+    "segmento": "Sustituir el punto 1.3. del texto ordenado sobre Proveedores de Servicios de Pago por el si- guiente:",
+    "to": "snp_psp",
+    "unidades": [
+     "snp_psp::1.3.1.1",
+     "snp_psp::1.3.1.2",
+     "snp_psp::1.3.2.1",
+     "snp_psp::1.3.2.2",
+     "snp_psp::1.3.2::intro"
+    ],
+    "unidades_por_punto": {
+     "1.3": 5
+    }
+   }
+  ],
+  "esperado": {
+   "comunicacion": "A8432",
+   "esperado": {
+    "punto": "1.3",
+    "to": "snp_psp",
+    "unidades": 5
+   },
+   "pagina": 1
+  },
+  "reproduce": true
+ },
+ "categorias": {
+  "a_to_y_unidades": 7,
+  "no_decidible": 0,
+  "no_mapeable": 14,
+  "solo_a_to": 0
+ },
+ "categorias_por_grupo": {
+  "corpus_152": {
+   "a_to_y_unidades": 7
+  },
+  "desarrollo_5": {}
+ },
+ "citas": [
+  {
+   "categoria": "a_to_y_unidades",
+   "comunicacion": "A8242",
+   "formula": "sustituir_el_punto",
+   "grupo": "corpus_152",
+   "numerales": [
+    "2.5",
+    "2.7.1",
+    "2.7.2"
+   ],
+   "pagina": 1,
+   "rango": false,
+   "seccion": null,
+   "segmento": "Sustituir los puntos 2.5., 2.7.1. y 2.7.2. del texto ordenado sobre Autorización y Composición del Capital de Entidades Financieras por lo siguiente:",
+   "to": "ayccef",
+   "unidades": [
+    "ayccef::2.5",
+    "ayccef::2.7.1",
+    "ayccef::2.7.2"
+   ],
+   "unidades_por_punto": {
+    "2.5": 1,
+    "2.7.1": 1,
+    "2.7.2": 1
+   }
+  },
+  {
+   "categoria": "no_mapeable",
+   "comunicacion": "A8248",
+   "formula": "sustituir_el_punto",
+   "motivo": "la oración nombra un texto ordenado o normas que no están entre los títulos del inventario",
+   "numerales": [
+    "1.1.2.3"
+   ],
+   "pagina": 1,
+   "rango": false,
+   "seccion": null,
+   "segmento": "Sustituir el punto 1.1.2.3. del texto ordenado sobre Régimen Disciplinario a cargo del Banco Central de la República Argentina (Leyes 21.526 y 25.065) y Tramitación de Sumarios Cambia- rios (Ley 19.359) por el siguiente:"
+  },
+  {
+   "categoria": "no_mapeable",
+   "comunicacion": "A8248",
+   "formula": "sustituir_el_punto",
+   "motivo": "la oración nombra un texto ordenado o normas que no están entre los títulos del inventario",
+   "numerales": [
+    "1.1.5"
+   ],
+   "pagina": 2,
+   "rango": false,
+   "seccion": null,
+   "segmento": "Sustituir el punto 1.1.5. del texto ordenado sobre Régimen Disciplinario a cargo del Banco Cen- tral de la República Argentina (Leyes 21.526 y 25.065) y Tramitación de Sumarios Cambiarios (Ley 19.359) por el siguiente:"
+  },
+  {
+   "categoria": "no_mapeable",
+   "comunicacion": "A8248",
+   "formula": "sustituir_el_punto",
+   "motivo": "la oración nombra un texto ordenado o normas que no están entre los títulos del inventario",
+   "numerales": [
+    "1.1.7"
+   ],
+   "pagina": 2,
+   "rango": false,
+   "seccion": null,
+   "segmento": "Sustituir el punto 1.1.7. del texto ordenado sobre Régimen Disciplinario a cargo del Banco Cen- tral de la República Argentina (Leyes 21.526 y 25.065) y Tramitación de Sumarios Cambiarios (Ley 19.359) por el siguiente:"
+  },
+  {
+   "categoria": "no_mapeable",
+   "comunicacion": "A8248",
+   "formula": "sustituir_el_punto",
+   "motivo": "la oración nombra un texto ordenado o normas que no están entre los títulos del inventario",
+   "numerales": [
+    "1.1.10"
+   ],
+   "pagina": 4,
+   "rango": false,
+   "seccion": null,
+   "segmento": "Sustituir el punto 1.1.10. del texto ordenado sobre Régimen Disciplinario a cargo del Banco Central de la República Argentina (Leyes 21.526 y 25.065) y Tramitación de Sumarios Cambia- rios (Ley 19.359) por el siguiente:"
+  },
+  {
+   "categoria": "no_mapeable",
+   "comunicacion": "A8248",
+   "formula": "sustituir_el_punto",
+   "motivo": "la oración nombra un texto ordenado o normas que no están entre los títulos del inventario",
+   "numerales": [
+    "1.1.11.1"
+   ],
+   "pagina": 5,
+   "rango": false,
+   "seccion": null,
+   "segmento": "Sustituir el punto 1.1.11.1. del texto ordenado sobre Régimen Disciplinario a cargo del Banco Central de la República Argentina (Leyes 21.526 y 25.065) y Tramitación de Sumarios Cambia- rios (Ley 19.359) por el siguiente:"
+  },
+  {
+   "categoria": "no_mapeable",
+   "comunicacion": "A8248",
+   "formula": "sustituir_el_punto",
+   "motivo": "la oración nombra un texto ordenado o normas que no están entre los títulos del inventario",
+   "numerales": [
+    "1.1.11.7"
+   ],
+   "pagina": 5,
+   "rango": false,
+   "seccion": null,
+   "segmento": "Sustituir el punto 1.1.11.7 del texto ordenado sobre Régimen Disciplinario a cargo del Banco Central de la República Argentina (Leyes 21.526 y 25.065) y Tramitación de Sumarios Cambia- rios (Ley 19.359) por el siguiente:"
+  },
+  {
+   "categoria": "a_to_y_unidades",
+   "comunicacion": "A8248",
+   "formula": "sustituir_el_punto",
+   "grupo": "corpus_152",
+   "numerales": [
+    "2.2.1.2",
+    "2.2.1.3",
+    "2.3.2.2",
+    "2.3.4",
+    "2.4.4"
+   ],
+   "pagina": 5,
+   "rango": false,
+   "seccion": null,
+   "segmento": "Sustituir los puntos 2.2.1.2., 2.2.1.3., 2.3.2.2., 2.3.4. y 2.4.4. del texto ordenado sobre Régimen Disciplinario a cargo del Banco Central de la República Argentina (Leyes 21.526 y 25.065) y Tramitación de Sumarios Cambiarios (Ley 19.359) por lo siguiente:",
+   "to": "rdbcra",
+   "unidades": [
+    "rdbcra::2.2.1.2",
+    "rdbcra::2.2.1.3",
+    "rdbcra::2.3.2.2",
+    "rdbcra::2.3.4",
+    "rdbcra::2.4.4"
+   ],
+   "unidades_por_punto": {
+    "2.2.1.2": 1,
+    "2.2.1.3": 1,
+    "2.3.2.2": 1,
+    "2.3.4": 1,
+    "2.4.4": 1
+   }
+  },
+  {
+   "categoria": "a_to_y_unidades",
+   "comunicacion": "A8249",
+   "formula": "sustituir_el_punto",
+   "grupo": "corpus_152",
+   "numerales": [
+    "6.3.3"
+   ],
+   "pagina": 5,
+   "rango": false,
+   "seccion": null,
+   "segmento": "Sustituir el punto 6.3.3. del texto ordenado sobre Lineamientos para la Gestión de Riesgos en las Entidades Financieras, por lo siguiente:",
+   "to": "lingeef",
+   "unidades": [
+    "lingeef::6.3.3.1",
+    "lingeef::6.3.3.2",
+    "lingeef::6.3.3::intro"
+   ],
+   "unidades_por_punto": {
+    "6.3.3": 3
+   }
+  },
+  {
+   "categoria": "a_to_y_unidades",
+   "comunicacion": "A8278",
+   "formula": "sustituir_el_punto",
+   "grupo": "corpus_152",
+   "numerales": [
+    "1.1.1"
+   ],
+   "pagina": 1,
+   "rango": false,
+   "seccion": "1",
+   "segmento": "Sustituir el punto 1.1.1. de la Sección 1. del texto ordenado sobre el Régimen Disciplinario a cargo del Banco Central de la República Argentina (Leyes 21.526 y 25.065) y Tramitación de Sumarios Cambiarios (Ley 19.359) por el siguiente:",
+   "to": "rdbcra",
+   "unidades": [
+    "rdbcra::1.1.1.1",
+    "rdbcra::1.1.1.2",
+    "rdbcra::1.1.1.3",
+    "rdbcra::1.1.1.4",
+    "rdbcra::1.1.1::intro"
+   ],
+   "unidades_por_punto": {
+    "1.1.1": 5
+   }
+  },
+  {
+   "categoria": "no_mapeable",
+   "comunicacion": "A8280",
+   "formula": "sustituir_el_punto",
+   "motivo": "la oración nombra un texto ordenado o normas que no están entre los títulos del inventario",
+   "numerales": [
+    "1.1",
+    "1.2"
+   ],
+   "pagina": 1,
+   "rango": false,
+   "seccion": null,
+   "segmento": "Sustituir los puntos 1.1. y 1.2. del texto ordenado sobre Lineamientos para la Respuesta y Re- cuperación ante Ciberincidentes (RRCI) por lo siguiente:"
+  },
+  {
+   "categoria": "no_mapeable",
+   "comunicacion": "A8304",
+   "formula": "sustituir_el_punto",
+   "motivo": "la oración no nombra un texto ordenado",
+   "numerales": [
+    "2"
+   ],
+   "pagina": 1,
+   "rango": false,
+   "seccion": null,
+   "segmento": "Sustituir el punto 2 del Anexo, modificado por Comunicación “A” 6795, por el siguiente:"
+  },
+  {
+   "categoria": "no_mapeable",
+   "comunicacion": "A8304",
+   "formula": "sustituir_el_punto",
+   "motivo": "la oración no nombra un texto ordenado",
+   "numerales": [
+    "6"
+   ],
+   "pagina": 2,
+   "rango": false,
+   "seccion": null,
+   "segmento": "Sustituir el punto 6 del Anexo, modificado por Comunicación “A” 6795, por el siguiente:"
+  },
+  {
+   "categoria": "no_mapeable",
+   "comunicacion": "A8411",
+   "formula": "sustituir_el_punto",
+   "motivo": "la oración nombra un texto ordenado o normas que no están entre los títulos del inventario",
+   "numerales": [
+    "11.1.2"
+   ],
+   "pagina": 2,
+   "rango": false,
+   "seccion": null,
+   "segmento": "Sustituir el punto 11.1.2. del texto ordenado sobre el Régimen Disciplinario a cargo del Banco Central de la República Argentina (Leyes 21.526 y 25.065) y Tramitación de Sumarios Cam- biarios (Ley 19.359) por el siguiente:"
+  },
+  {
+   "categoria": "no_mapeable",
+   "comunicacion": "A8411",
+   "formula": "sustituir_el_punto",
+   "motivo": "la oración nombra un texto ordenado o normas que no están entre los títulos del inventario",
+   "numerales": [
+    "11.9"
+   ],
+   "pagina": 2,
+   "rango": false,
+   "seccion": null,
+   "segmento": "Sustituir el punto 11.9. del texto ordenado sobre el Régimen Disciplinario a cargo del Banco Central de la República Argentina (Leyes 21.526 y 25.065) y Tramitación de Sumarios Cam- biarios (Ley 19.359) por el siguiente:"
+  },
+  {
+   "categoria": "no_mapeable",
+   "comunicacion": "A8411",
+   "formula": "sustituir_el_punto",
+   "motivo": "la oración nombra un texto ordenado o normas que no están entre los títulos del inventario",
+   "numerales": [
+    "11.15"
+   ],
+   "pagina": 3,
+   "rango": false,
+   "seccion": null,
+   "segmento": "Sustituir el punto 11.15. del texto ordenado sobre Régimen Disciplinario a cargo del Banco Central de la República Argentina (Leyes 21.526 y 25.065) y Tramitación de Sumarios Cam- biarios (Ley 19.359) por el siguiente:"
+  },
+  {
+   "categoria": "no_mapeable",
+   "comunicacion": "A8411",
+   "formula": "sustituir_el_punto",
+   "motivo": "la oración nombra un texto ordenado o normas que no están entre los títulos del inventario",
+   "numerales": [
+    "11.19"
+   ],
+   "pagina": 3,
+   "rango": false,
+   "seccion": null,
+   "segmento": "Sustituir el punto 11.19. del texto ordenado sobre Régimen Disciplinario a cargo del Banco Central de la República Argentina (Leyes 21.526 y 25.065) y Tramitación de Sumarios Cam- biarios (Ley 19.359) por el siguiente:"
+  },
+  {
+   "categoria": "no_mapeable",
+   "comunicacion": "A8411",
+   "formula": "sustituir_el_punto",
+   "motivo": "la oración nombra un texto ordenado o normas que no están entre los títulos del inventario",
+   "numerales": [
+    "11.22.2"
+   ],
+   "pagina": 4,
+   "rango": false,
+   "seccion": null,
+   "segmento": "Sustituir el punto 11.22.2. del texto ordenado sobre Régimen Disciplinario a cargo del Banco Central de la República Argentina (Leyes 21.526 y 25.065) y Tramitación de Sumarios Cam- biarios (Ley 19.359) por el siguiente:"
+  },
+  {
+   "categoria": "a_to_y_unidades",
+   "comunicacion": "A8411",
+   "formula": "sustituir_el_punto",
+   "grupo": "corpus_152",
+   "numerales": [
+    "1.5"
+   ],
+   "pagina": 6,
+   "rango": false,
+   "seccion": null,
+   "segmento": "Sustituir el punto 1.5. del texto ordenado sobre Proveedores de Servicios de Pago por el si- guiente:",
+   "to": "snp_psp",
+   "unidades": [
+    "snp_psp::1.5"
+   ],
+   "unidades_por_punto": {
+    "1.5": 1
+   }
+  },
+  {
+   "categoria": "a_to_y_unidades",
+   "comunicacion": "A8432",
+   "formula": "sustituir_el_punto",
+   "grupo": "corpus_152",
+   "numerales": [
+    "1.3"
+   ],
+   "pagina": 1,
+   "rango": false,
+   "seccion": null,
+   "segmento": "Sustituir el punto 1.3. del texto ordenado sobre Proveedores de Servicios de Pago por el si- guiente:",
+   "to": "snp_psp",
+   "unidades": [
+    "snp_psp::1.3.1.1",
+    "snp_psp::1.3.1.2",
+    "snp_psp::1.3.2.1",
+    "snp_psp::1.3.2.2",
+    "snp_psp::1.3.2::intro"
+   ],
+   "unidades_por_punto": {
+    "1.3": 5
+   }
+  },
+  {
+   "categoria": "a_to_y_unidades",
+   "comunicacion": "A8432",
+   "formula": "sustituir_el_punto",
+   "grupo": "corpus_152",
+   "numerales": [
+    "2.5"
+   ],
+   "pagina": 4,
+   "rango": false,
+   "seccion": null,
+   "segmento": "Sustituir el punto 2.5. del texto ordenado sobre Proveedores de Servicios de Pago por lo si- guiente:",
+   "to": "snp_psp",
+   "unidades": [
+    "snp_psp::2.5.1",
+    "snp_psp::2.5.2.1",
+    "snp_psp::2.5.2.2",
+    "snp_psp::2.5.2.3",
+    "snp_psp::2.5.2.4"
+   ],
+   "unidades_por_punto": {
+    "2.5": 5
+   }
+  }
+ ],
+ "citas_con_rango": 0,
+ "comunicaciones": [
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8241_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-05-15",
+   "numero": "A8241",
+   "paginas": 19,
+   "sha256": "d52c25cc9385d080ebf7c43378a9070998c7faaa2acd16ad5028ac92c6d979e6"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8242_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 1,
+   "estado": "leida",
+   "fecha_documento": "2025-05-15",
+   "numero": "A8242",
+   "paginas": 5,
+   "sha256": "4768eef3cd155c821d80924069feb1a8cdf2e1d720f0dae660c9f303de488d8a"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8243_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-05-15",
+   "numero": "A8243",
+   "paginas": 3,
+   "sha256": "854d94416a834a6247f44ed9518fc89116eea341bf6451cda84c3f47283afa87"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8244_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-05-15",
+   "numero": "A8244",
+   "paginas": 1,
+   "sha256": "51cc7a2b6ba8e03e0b3f7ac674c7538464f32a7fce846cf560d2bf994301f042"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8245_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-05-22",
+   "numero": "A8245",
+   "paginas": 1,
+   "sha256": "87878897c03b512e1ef9606bacaf8da0058d1ad89ec1dd131232023fa8c4f166"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8246_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-05-30",
+   "numero": "A8246",
+   "paginas": 11,
+   "sha256": "0bbff02869ef28b97d915fa504eaeca15ce47addd2d5d60102c135a0f3ec8826"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8247_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-05-30",
+   "numero": "A8247",
+   "paginas": 15,
+   "sha256": "f486c8803d858042e7c79c8b2d2425228c051af470624b5e3303bc43c78eca9c"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8248_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 7,
+   "estado": "leida",
+   "fecha_documento": "2025-06-02",
+   "numero": "A8248",
+   "paginas": 25,
+   "sha256": "ae35ad0ee43ed8d34b1b0fc37ba286c091c782125164d8cd8d24e6fbcc5361b0"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8249_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 1,
+   "estado": "leida",
+   "fecha_documento": "2025-06-02",
+   "numero": "A8249",
+   "paginas": 17,
+   "sha256": "bec3996787c91870d5cf59d005b46af06d0c6ab942a6b69344c3cd0374f7324b"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8250_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-06-02",
+   "numero": "A8250",
+   "paginas": 8,
+   "sha256": "5cc04129f9a64efa360f084f19e8c19c85fd6e120238b4e3e12d9f983742dec9"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8251_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-06-04",
+   "numero": "A8251",
+   "paginas": 1,
+   "sha256": "2b8b9d6ebfe6dc0d72da2862d6e2306e33d171f16f01075ac9a28cae80e0478c"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8252_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-06-05",
+   "numero": "A8252",
+   "paginas": 10,
+   "sha256": "f8cd4cdb75c12e97a847bce573ced1b7dd6c34f460a085eb8847f5cce4260578"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8253_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-06-06",
+   "numero": "A8253",
+   "paginas": 2,
+   "sha256": "a3599d7d45a4c0bdd896c6691353f938ad0f9c1c74df054ddf8701e70de4eb15"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8254_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-06-06",
+   "numero": "A8254",
+   "paginas": 5,
+   "sha256": "cbd98040f43728fd66ad8110027643f4c13adb9dee7d984df6c382208f53d4eb"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8255_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-06-06",
+   "numero": "A8255",
+   "paginas": 5,
+   "sha256": "ae7c2e40fb08cbcf96e6b87f4ba1041c5a98ae491d428c931a956ef0cb2ac4ed"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8256_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-06-12",
+   "numero": "A8256",
+   "paginas": 1,
+   "sha256": "5cbf9d11f711bde051c58e1e6162cc5794b8fe20c5cc9ada4c9311f3ef843c87"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8257_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-06-12",
+   "numero": "A8257",
+   "paginas": 1,
+   "sha256": "864a94f3655c0df953b6097b6b5c35c2e7e24315281efa376f30d334c57a3e7c"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8258_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-06-12",
+   "numero": "A8258",
+   "paginas": 6,
+   "sha256": "f9b3b289e713fd87f9fc171f067d80950e0ce5ba09c3fb49c51427ccf2e86043"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8259_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-06-19",
+   "numero": "A8259",
+   "paginas": 1,
+   "sha256": "4f7a09067420c5d8a1b14a0239a81dd3d8ba88c576111dd74b759f7b27898c04"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8260_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-06-19",
+   "numero": "A8260",
+   "paginas": 1,
+   "sha256": "9ffd20f2f5578bd0f071185fc4d1f39ed3669482007c95489d4b4eb00280c7a6"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8261_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-06-19",
+   "numero": "A8261",
+   "paginas": 1,
+   "sha256": "db836ff90b307b60aecb149e1d6e35b08f890a56d05f558cdda24533b1499333"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8262_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-06-19",
+   "numero": "A8262",
+   "paginas": 1,
+   "sha256": "c4315b1a7b82f918f73593b77fcdda08e097d977f1249997872582fc7b470f88"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8263_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-06-26",
+   "numero": "A8263",
+   "paginas": 4,
+   "sha256": "b515a12af8a5ed6c6317978c6dd60331e4622621a29f7249d8d51ab66b5d9ba7"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8264_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-06-26",
+   "numero": "A8264",
+   "paginas": 10,
+   "sha256": "e7d5936aa890085cc710d2b3ff01bd4da505f6b2b718f04724bb5d80851e2949"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8265_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-06-27",
+   "numero": "A8265",
+   "paginas": 3,
+   "sha256": "6eccfe3b6de9b6ef078cd8a438e595e41081e4532023f1e6fcdb1607ec4932ac"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8266_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-07-03",
+   "numero": "A8266",
+   "paginas": 1,
+   "sha256": "f65f59f473b0c1795413e51bac9786b505d4c002ad3dc71e4f60901eab741563"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8267_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-07-03",
+   "numero": "A8267",
+   "paginas": 1,
+   "sha256": "2eab54675ad71f173e06d32d82e33a6c7938b93d11d94d6a1ec9c5098afb0c62"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8268_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-07-03",
+   "numero": "A8268",
+   "paginas": 1,
+   "sha256": "30999023dd737b16f71a45b782bfbe2127796f662d8c19121ca335da20f07614"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8269_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-07-03",
+   "numero": "A8269",
+   "paginas": 7,
+   "sha256": "63d40a2f2b25552b9bcbf8c4370bd382d2e88bebc7eed251d4282d6c0b05c2eb"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8270_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-07-04",
+   "numero": "A8270",
+   "paginas": 3,
+   "sha256": "b16293ffa08cc3533551932182183674203b83b4030ee5b71377c244c9ee39c2"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8271_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-07-04",
+   "numero": "A8271",
+   "paginas": 4,
+   "sha256": "16b8ba9945c78e4cc1c7f2febe85d3656c99b32999e64c21527615687f79f912"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8272_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-07-04",
+   "numero": "A8272",
+   "paginas": 8,
+   "sha256": "e3b1bb25a2db2249fe90f51c1970b32f464526f4af91da6ef43597651f0bbff3"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8273_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-07-04",
+   "numero": "A8273",
+   "paginas": 5,
+   "sha256": "61931374a7a1f6ebed4fe47fc9896fef07114bb6c1f28803de1e3f4b620a3f52"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8274_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-07-10",
+   "numero": "A8274",
+   "paginas": 4,
+   "sha256": "35e445e20a0dc92c5fba679327382357a063d5f701413f08918ded5e0044269b"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8275_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-07-10",
+   "numero": "A8275",
+   "paginas": 1,
+   "sha256": "6f1ed90a0772dc416565b582055b578626afc0fcefae164aa9c7100ec9fb2039"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8276_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-07-10",
+   "numero": "A8276",
+   "paginas": 3,
+   "sha256": "a059e66b30120cc01e79c32b755cf3973cb205b19129ced4110db630feab5302"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8277_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-07-10",
+   "numero": "A8277",
+   "paginas": 4,
+   "sha256": "98ac2b1450dbe2abd382c27bc0076fdc22f1f7ed01b65892017a2bb24f71b16f"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8278_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 1,
+   "estado": "leida",
+   "fecha_documento": "2025-07-11",
+   "numero": "A8278",
+   "paginas": 33,
+   "sha256": "96074909065f221931df9c775a96d3d0a66a6f3c1e32a3dbd6d3e6aa50497166"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8279_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-07-17",
+   "numero": "A8279",
+   "paginas": 2,
+   "sha256": "b0abca84186f038592996998043a5fa992efc5b789252f07d76ba970a90fd510"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8280_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 1,
+   "estado": "leida",
+   "fecha_documento": "2025-07-17",
+   "numero": "A8280",
+   "paginas": 15,
+   "sha256": "4c2c024c5948d05696b52cf929b9bfa0670947045c2a08cbfdc8c8f2077568c4"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8281_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-07-17",
+   "numero": "A8281",
+   "paginas": 4,
+   "sha256": "c9a6897d1888b198bcea1aadc7829e6f2920cf0a71624405aec21770e47a255d"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8282_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-07-21",
+   "numero": "A8282",
+   "paginas": 3,
+   "sha256": "9ce260e6a60caa9cf8ada866c3bbfabf2c4ffa385f3173e799d406a6cc9523dd"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8283_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-07-23",
+   "numero": "A8283",
+   "paginas": 5,
+   "sha256": "84d999d5f2da0d818779c3143e51c0762070ed3bf3096762889a5d660333922f"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8284_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-07-23",
+   "numero": "A8284",
+   "paginas": 14,
+   "sha256": "5bdf1f8a6139f338aa04c01526ce8eee8e1f67a2d0db4bc478e0ea6870bf6b0e"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8285_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-07-23",
+   "numero": "A8285",
+   "paginas": 16,
+   "sha256": "cf1b095f51241ee77f7c6f18e3f77be75b6860e023f7190db0e30ddceed2dc14"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8286_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-07-24",
+   "numero": "A8286",
+   "paginas": 1,
+   "sha256": "1deb78f543fe2f8f92f4e87a3777d11bf72177697fd71ddd674c0d33d5fb10b9"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8287_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-07-25",
+   "numero": "A8287",
+   "paginas": 6,
+   "sha256": "fc22e1c594528389ab1dd5b3dde524ac9b4e1884545121ead65aa44686e596bb"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8288_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-07-31",
+   "numero": "A8288",
+   "paginas": 11,
+   "sha256": "d7eea1630143c79a271428e9ac40784858bf79809641ddf9d642eb431b995563"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8289_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-07-31",
+   "numero": "A8289",
+   "paginas": 1,
+   "sha256": "5c9f3983a8c03cf3cf8e570f612deedd55bfa36b5a95746385b9db4f4ddb7d23"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8290_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-08-01",
+   "numero": "A8290",
+   "paginas": 10,
+   "sha256": "3931d7c7074827e046775527ca1ceec288fa39af29638127601e652f4ef85e82"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8291_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-08-06",
+   "numero": "A8291",
+   "paginas": 5,
+   "sha256": "d0fd22fa493d26ce9ba6e0a46a526b176001fcdef4eb7e8e15dbc7d8a891edb6"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8292_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-08-06",
+   "numero": "A8292",
+   "paginas": 7,
+   "sha256": "7955c2efd1709573100b49fe0dffb788cf7df736b7adef37f869f4205dbd83a0"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8293_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-08-07",
+   "numero": "A8293",
+   "paginas": 5,
+   "sha256": "0c235e88f71a4faa13da4f8b3e9db6f4f2a8f4cf2eb1e5ab413fb9e4bc326085"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8294_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-08-07",
+   "numero": "A8294",
+   "paginas": 2,
+   "sha256": "a5ef3c8a57265d643d4c590fe2433a71856bf200ed1c6385df6f635d603920f9"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8295_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-08-07",
+   "numero": "A8295",
+   "paginas": 19,
+   "sha256": "d3747257e93428a838e85983abe093da356364b0cb89c43c26f39ea07ed29d39"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8296_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-08-07",
+   "numero": "A8296",
+   "paginas": 2,
+   "sha256": "55c81e665bf99d24643570dd5db35ec72035f11a3089053435dcb8280bd0b1c6"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8297_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-08-07",
+   "numero": "A8297",
+   "paginas": 14,
+   "sha256": "6ec7b7460a439583ca9b142fdbdc18fe9885ee87036321fb8d237d40d631c0fe"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8298_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-08-07",
+   "numero": "A8298",
+   "paginas": 3,
+   "sha256": "61c19d81ab02dd077a218ad2e80bd92acda40a98626f792ff8c887691bf313a9"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8299_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-08-07",
+   "numero": "A8299",
+   "paginas": 11,
+   "sha256": "4d0b6eac6d10c7d0f2638dfa8a911bc609bd33eae6d5d8ffec63a30f033bcb09"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8300_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-08-11",
+   "numero": "A8300",
+   "paginas": 5,
+   "sha256": "f362ae1ee390b984e76bc8a4e7d0d391bee94e57b9ac304ed473455afcbb2d02"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8301_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-08-13",
+   "numero": "A8301",
+   "paginas": 4,
+   "sha256": "a71120488358b40352cee9f7522d77d1167688801a88dec8cc51a1c11c72925d"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8302_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-08-14",
+   "numero": "A8302",
+   "paginas": 2,
+   "sha256": "740764730423bb8a1f8a25d35b97fac73753340514ede7c3ebcda9523b531a2e"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8303_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-08-19",
+   "numero": "A8303",
+   "paginas": 18,
+   "sha256": "1f94ac027e17927748fed4b37e206297761d63e46ce1a8377bb5a4e12375fdae"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8304_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 2,
+   "estado": "leida",
+   "fecha_documento": "2025-08-19",
+   "numero": "A8304",
+   "paginas": 3,
+   "sha256": "21162d92efc290834f775f48b2f858cc2489431d326be504f24c9fe6631a53f7"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8305_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-08-21",
+   "numero": "A8305",
+   "paginas": 1,
+   "sha256": "3e363742617e67adaca210566c16d1c4b430c124e70d8f6a8bf6f382dc1b5a78"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8306_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-08-25",
+   "numero": "A8306",
+   "paginas": 1,
+   "sha256": "1ceffad6378f0d8cede7762dd2677245e2548aa6ed62dbd00b3f537f232acec4"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8307_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-08-25",
+   "numero": "A8307",
+   "paginas": 153,
+   "sha256": "e26657ee8c90b202a4a1a0436637323cf7a3993bb9ddf281267dd92a6128449b"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8308_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-08-28",
+   "numero": "A8308",
+   "paginas": 24,
+   "sha256": "325a62079d6584d70fb04b6002bf09e7c047138a17b87f560ec305f94f569b82"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8309_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-08-28",
+   "numero": "A8309",
+   "paginas": 2,
+   "sha256": "2d3772f7105479a9d6d31b4fdf6692f21d1114e852a88518eaefc27f49907161"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8310_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-08-28",
+   "numero": "A8310",
+   "paginas": 6,
+   "sha256": "e58726d0e722ccc1da1037e838164cd73cf636b5e9f570b451e8cdad12d70739"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8311_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-08-29",
+   "numero": "A8311",
+   "paginas": 1,
+   "sha256": "9befe73b39dc9e63f00c546897f55a110cc58db4aa6ceff2490c936a76ea857a"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8312_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-08-29",
+   "numero": "A8312",
+   "paginas": 16,
+   "sha256": "49de8ffec93c0f1df5b14fe55f5b653fdaa2f168e9884ccf6e006c83e13627bf"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8313_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-08-29",
+   "numero": "A8313",
+   "paginas": 4,
+   "sha256": "10598c91b6706249c33d1ad4a35611c7bfa0ef4391a427e9dc9f42e11a2aafc9"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8314_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-08-29",
+   "numero": "A8314",
+   "paginas": 3,
+   "sha256": "b72a35c9d19998a59997c6db2d462db5fbe1b4b14fbc59aca76d6b0268561120"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8315_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-09-01",
+   "numero": "A8315",
+   "paginas": 30,
+   "sha256": "3997651d7ee13b6b00c2d05a7338c1187bccf6d9a430f3296128e01c898a9f6c"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8316_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-09-03",
+   "numero": "A8316",
+   "paginas": 4,
+   "sha256": "dcd8b295977603ca2d8c9b2cc1ef0d8bf92d6d7b3ef5d9387871b7d26acad682"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8317_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-09-04",
+   "numero": "A8317",
+   "paginas": 3,
+   "sha256": "e229bb85f76e2a0106c3a0189166c5403915b2efd40580c3e712c100ac037602"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8318_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-09-04",
+   "numero": "A8318",
+   "paginas": 3,
+   "sha256": "fc70e3d8b1ea116d301cf1d5b7a728b4a3771df755e0d67b4d9e85c58218de65"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8319_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-09-05",
+   "numero": "A8319",
+   "paginas": 7,
+   "sha256": "92205fd371ce9e134e0f8699380bcb46881ab06f04045a787d5eabc382c51b7c"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8320_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-09-05",
+   "numero": "A8320",
+   "paginas": 19,
+   "sha256": "6a210dac6bc1c41c0b3a0f0487fa1f6734860bcb2f402ceb89e4a35d34b374e7"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8321_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-09-08",
+   "numero": "A8321",
+   "paginas": 9,
+   "sha256": "e0c1a2da27caa71ba1d3a7bf5751610ff60073ae1120572723d714825a9b5feb"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8322_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-09-09",
+   "numero": "A8322",
+   "paginas": 15,
+   "sha256": "2e1545a872198f91ff0041ba8c6ebe459e7aa38e597527c3d57da1decac526dd"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8323_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-09-09",
+   "numero": "A8323",
+   "paginas": 16,
+   "sha256": "d7b464c804abc56b104ae4fc3794f8bdba82417593bd21e7482436c29397f930"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8324_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-09-11",
+   "numero": "A8324",
+   "paginas": 1,
+   "sha256": "113356e5b4817f1081029a19e650abc320ba0516d08a0e451fe563a81df5f699"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8325_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-09-11",
+   "numero": "A8325",
+   "paginas": 1,
+   "sha256": "ac8664d6fba099fb1bd1ee79c48ffc6eacb4c3f88b0fdbe927fdf8918bc62289"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8326_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-09-12",
+   "numero": "A8326",
+   "paginas": 8,
+   "sha256": "4fac8e0b2891ce8418fd9039ce3f3cff886ffb039456f3f79cda70f242b5062b"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8327_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-09-12",
+   "numero": "A8327",
+   "paginas": 4,
+   "sha256": "8822854af14da5ba4b2f8266186b0568bdcdca9ed6dbacd6f0fc2b9874cc1a06"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8328_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-09-17",
+   "numero": "A8328",
+   "paginas": 35,
+   "sha256": "17571fa4303b98c40f9865af50c17477e19d46daee8bb8a6a98e1dbea766b3d7"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8329_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-09-18",
+   "numero": "A8329",
+   "paginas": 5,
+   "sha256": "4647f0f655fb8cc9b10a28719fac4e7e472aa2accc334c2cee97e6bb07a364df"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8330_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-09-18",
+   "numero": "A8330",
+   "paginas": 1,
+   "sha256": "5aa3d076bbbcec8b69724830e469966516cf3baf0bbe3a90cecb33dcbc7a4511"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8331_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-09-18",
+   "numero": "A8331",
+   "paginas": 2,
+   "sha256": "ec0b967ed78739565a844e8d7df5ed08bff53eabbfa3b075b6cf8bddcb5f1b6a"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8332_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-09-18",
+   "numero": "A8332",
+   "paginas": 2,
+   "sha256": "f7c1627ec6007f5a08bbb1ffdaf93325fc2ec5c82ea050d0755eabb61073d23f"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8333_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-09-22",
+   "numero": "A8333",
+   "paginas": 1,
+   "sha256": "bd77ddc1fb9d54c795b28de3772c5ba30bb2871c53aba16fd791f2a509e0f417"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8334_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-09-22",
+   "numero": "A8334",
+   "paginas": 11,
+   "sha256": "eadef1abd14a045825d70f358ca100c9a292661d1419fbc8649aaecf24d51d39"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8335_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-09-22",
+   "numero": "A8335",
+   "paginas": 18,
+   "sha256": "2dac5ea01a715abdff9f0327f867185c5c6b8f31a36dc6111ff15a4c4bcb76e3"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8336_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-09-26",
+   "numero": "A8336",
+   "paginas": 1,
+   "sha256": "3ef056d3f87f0c0caf7fcc48b09aafe7eddce79a8da535b1e20f74797d3be688"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8337_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-09-30",
+   "numero": "A8337",
+   "paginas": 5,
+   "sha256": "82458a2c5a9a905d96e4367bad6c52b0216704a7057f215342917f7e2f7b53cc"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8338_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-10-01",
+   "numero": "A8338",
+   "paginas": 3,
+   "sha256": "906341fe16169b3e5d538f2d54866bcd767cb9fd1d9373efac66d43003d9c5e8"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8339_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-10-07",
+   "numero": "A8339",
+   "paginas": 2,
+   "sha256": "a45a755f8ebc4c16f28664290a1014793759d2a2ce8ab75c64d0f6ec6442578c"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8340_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-10-13",
+   "numero": "A8340",
+   "paginas": 9,
+   "sha256": "365a83d29531ea172d27d6808708a9a4ed21cbaed5a0cdd694b4348f008542e6"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8341_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-10-13",
+   "numero": "A8341",
+   "paginas": 6,
+   "sha256": "c914e9a2b987d4b65008823ef1b9d11bf05b72637d10684b83424e96fe42aa0e"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8342_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-10-13",
+   "numero": "A8342",
+   "paginas": 2,
+   "sha256": "397d5f720fac77792307fb3bce9a6320b5d5ab811f6b60abbad1950d15f90f6f"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8343_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-10-14",
+   "numero": "A8343",
+   "paginas": 39,
+   "sha256": "2e3555c53f3a13f6824324aa1cba02a51fe5af8ec34018378a1887b782176a88"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8344_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-10-17",
+   "numero": "A8344",
+   "paginas": 3,
+   "sha256": "8aca2eca6c2756e1e4a46540d334537f2bd80e84802aaf16a12fe5adb9a01861"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8345_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-10-23",
+   "numero": "A8345",
+   "paginas": 1,
+   "sha256": "df34895c9c7bd2490ca06ff5b627bc72d27676177d86f36397670dee216cb71f"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8346_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-10-27",
+   "numero": "A8346",
+   "paginas": 2,
+   "sha256": "7753ab9259a3b89aa97e0324b138fbf076aa8d61639f749b2b9603f4b4e29a40"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8347_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-10-27",
+   "numero": "A8347",
+   "paginas": 3,
+   "sha256": "996d0b156928434581d80f076b8c88c4f2dd2bb0e55c60c6ebd158e5e1117f9f"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8348_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-10-28",
+   "numero": "A8348",
+   "paginas": 4,
+   "sha256": "1cfb15132f0352badfb59c6e8ac8907da429d5255a7adf12d017f3ee5c81f543"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8349_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-10-30",
+   "numero": "A8349",
+   "paginas": 1,
+   "sha256": "0de0b57dcafbdbb1894931f2e5dd8c375187b1455673e29e7f11886c78f004fa"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8350_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-10-30",
+   "numero": "A8350",
+   "paginas": 1,
+   "sha256": "3315ccb73a5998132f23661322382b09612a6411fd6e7c4cc79a45fb312592ce"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8351_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-11-07",
+   "numero": "A8351",
+   "paginas": 1,
+   "sha256": "783991970730b423923177b924b270be99b744a7527bc0a5152e823e50ae3353"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8352_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-11-07",
+   "numero": "A8352",
+   "paginas": 1,
+   "sha256": "70b8299f57cf3886d675ef3661917aa63c23e729532c7df619a0b17194dd5fe3"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8353_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-11-12",
+   "numero": "A8353",
+   "paginas": 2,
+   "sha256": "fd81d029495cd6c9a7101d1683a564ea503deedc75c075fb394418788b20ffda"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8354_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-11-13",
+   "numero": "A8354",
+   "paginas": 4,
+   "sha256": "e9ba8a1e783dbedb0862cd80401bf82a723b9b73c5c4d36eb4f030d83b453af0"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8355_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-11-20",
+   "numero": "A8355",
+   "paginas": 2,
+   "sha256": "6a3985bf4083a7abef4d8ee4b3f6feb33c0e94687895ede47324b665d886655e"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8356_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-11-27",
+   "numero": "A8356",
+   "paginas": 1,
+   "sha256": "a23bbb815ad5d5bc8c598217c3317dbaa3983e0b0f78da13212d1e182d80d36e"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8357_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-11-28",
+   "numero": "A8357",
+   "paginas": 5,
+   "sha256": "a7e31a48e80359638654ce12a548c92f87d58af75bb0f801e95933610384d52e"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8358_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-12-01",
+   "numero": "A8358",
+   "paginas": 1,
+   "sha256": "0c458094d1563ba43bea1d9b701b73424547bd7fb2c407a3e0100fa9fa847520"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8359_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-12-04",
+   "numero": "A8359",
+   "paginas": 2,
+   "sha256": "2cc8e064c0c24d8a4b606e70c910c708da7a2a488de59059c39c9d15e6ffd02f"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8360_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-12-09",
+   "numero": "A8360",
+   "paginas": 4,
+   "sha256": "011140053979843621fa916bb491fdd2c18b930982fdc340439859c9ce981810"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8361_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-12-09",
+   "numero": "A8361",
+   "paginas": 1,
+   "sha256": "32d481365c929c0af56b52dc4f39e8b6c3784e5e06fbd92090411e23055d1f31"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8362_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-12-11",
+   "numero": "A8362",
+   "paginas": 1,
+   "sha256": "6b7e4d4c24a1a932c3a9db81aeb2db003f36ecac53f3f6d31ebb45b8647d8716"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8363_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-12-11",
+   "numero": "A8363",
+   "paginas": 1,
+   "sha256": "086c6e0c3c6e3e632015b159ab20820a0309ad1436721f6faefc5ac9b528c7c8"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8364_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-12-11",
+   "numero": "A8364",
+   "paginas": 2,
+   "sha256": "d0d164d28a89dd541355005fac299380152fb46dd6e23ffd7c3a20238ec55e8b"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8365_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-12-11",
+   "numero": "A8365",
+   "paginas": 4,
+   "sha256": "5e034ebc334e7f1211bf90c5596ae3cbeb0557feb840db49fa50f805123f3c0f"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8366_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-12-11",
+   "numero": "A8366",
+   "paginas": 3,
+   "sha256": "e1f0cefd34f1b4eaf094295a5dfef780608b35c52770a15e00926d154edff75f"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8367_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-12-12",
+   "numero": "A8367",
+   "paginas": 3,
+   "sha256": "a5e7c94f7ff6b491f2dfb2e511e8cc44ae190ca1c8a5bc44362aa975c3e38401"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8368_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-12-16",
+   "numero": "A8368",
+   "paginas": 2,
+   "sha256": "2d4d4aa62b3d68a2856db7cf591e31f3e3a60f566e3d53872d115c940fd61320"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8369_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-12-16",
+   "numero": "A8369",
+   "paginas": 10,
+   "sha256": "e25c72822c3fbf3c7788598e21f31589f1d3c83d64765897f9c0946f545705c2"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8370_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-12-18",
+   "numero": "A8370",
+   "paginas": 2,
+   "sha256": "f7ae292ca0bb5b582ecb439b95cbc94124d05f77fe5d9c23e339ce7e496d39d9"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8371_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-12-18",
+   "numero": "A8371",
+   "paginas": 2,
+   "sha256": "60728c36851db0cff39d4e840749e41364ff521cd63cbae14872072b3e34e1c6"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8372_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-12-18",
+   "numero": "A8372",
+   "paginas": 2,
+   "sha256": "70475450b07fa4b745eae312c710581bfc9a447c8b68290e9fc9bdbd4273756e"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8373_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-12-18",
+   "numero": "A8373",
+   "paginas": 3,
+   "sha256": "af59c40051680c8e303daaff0db324bfeab784bfdd9fcb6aceec22d102996978"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8374_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-12-18",
+   "numero": "A8374",
+   "paginas": 8,
+   "sha256": "84c3d27245ac3ac16d5154177b910dc8bba033737a0ebc9b2865934c80c4ebd9"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8375_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-12-18",
+   "numero": "A8375",
+   "paginas": 1,
+   "sha256": "382a987e9bc7cab368b1f8f2a1abf646b3ca7cb5b196100ee195e37be589a9b8"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8376_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-12-18",
+   "numero": "A8376",
+   "paginas": 7,
+   "sha256": "18e179712504c7fc52e504bb190af1b77246f602a5af059fad1af27e534dabf9"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8377_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-12-18",
+   "numero": "A8377",
+   "paginas": 6,
+   "sha256": "f5756d25d9cc2487f1ba988851b04a3da58d224a5f84e5336fcfd38f51b79bfb"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8378_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-12-19",
+   "numero": "A8378",
+   "paginas": 33,
+   "sha256": "4673d4f835ec10352aa4f2538d435498dfdc2b6799d1a36b37ba7436e60efb41"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8379_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-12-23",
+   "numero": "A8379",
+   "paginas": 4,
+   "sha256": "5b62842cc2fe75b1ed6771666e893b1b730dcb97f9a644edcbd0eb4c79040d26"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8380_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-12-23",
+   "numero": "A8380",
+   "paginas": 12,
+   "sha256": "80f0f6c588a34ef9083ded38fbd03304ba937e32a28558f4d3691fd62deffa2b"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8381_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-12-23",
+   "numero": "A8381",
+   "paginas": 4,
+   "sha256": "7897694d351665447b7d5af198d1873d9ad8658038791b05535b0c13dbfb0247"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8382_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-12-23",
+   "numero": "A8382",
+   "paginas": 7,
+   "sha256": "128a8e81f27731b5b43bd002083a19cc8c8a969ba5a1ecc6f7d5653e3b11e1d7"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8383_ano_de_la_reconstruccion_de_la.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2025-12-30",
+   "numero": "A8383",
+   "paginas": 21,
+   "sha256": "09b87af6a16f000301ef102dd291acd82f52b48dc6be1061c8ede37273e0a490"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8384_comunicacion_a_8384_09_01_2026.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-01-09",
+   "numero": "A8384",
+   "paginas": 4,
+   "sha256": "5018afdc1c69c3c238bb3a28f511da88f7c08730acf51112b6b5ef0e83a55bb4"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8385_comunicacion_a_8385_09_01_2026.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-01-09",
+   "numero": "A8385",
+   "paginas": 8,
+   "sha256": "b06319d8d3816ae78230782ace81a18a870a84088ef3ee2e2b603ba9b3f4036b"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8386_comunicacion_a_8386_15_01_2026.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-01-15",
+   "numero": "A8386",
+   "paginas": 1,
+   "sha256": "40807c854adadb1eeeae017e7623da61f3e29badae6916034d9794fbf58802e4"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8387_comunicacion_a_8387_19_01_2026.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-01-19",
+   "numero": "A8387",
+   "paginas": 2,
+   "sha256": "5363713ffcd040a49cb0fdf095a518b7aa9c2cd9541e01b6ac696702e2493397"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8388_comunicacion_a_8388_19_01_2026.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-01-19",
+   "numero": "A8388",
+   "paginas": 3,
+   "sha256": "ab03fad74d703623d9b1af70bfa81f5a698149fc20fb2dbed6053585949f066f"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8389_comunicacion_a_8389_20_01_2026.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-01-20",
+   "numero": "A8389",
+   "paginas": 2,
+   "sha256": "ca181a4eba5241e64fc1c408dcb2d7e07d0efc052fd355254bd06d3dd4a42a14"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8390_comunicacion_a_8390_22_01_2026.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-01-22",
+   "numero": "A8390",
+   "paginas": 2,
+   "sha256": "55e02af38b44965edc24f7287fbc581e97e317040f6fe0d8233f74cbceffc543"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8391_comunicacion_a_8391_22_01_2026.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-01-22",
+   "numero": "A8391",
+   "paginas": 1,
+   "sha256": "e611e8ed4ed22f2fc1415ddb73ba38e6b83dbc7d79cefe57ad4f68467a5efae8"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8392_comunicacion_a_8392_26_01_2026.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-01-26",
+   "numero": "A8392",
+   "paginas": 8,
+   "sha256": "147c7456bda99be86fbed519ba6aab1b7dcf7281f1074d6ccaa99ce18ed086d8"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8393_comunicacion_a_8393_28_01_2026.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-01-28",
+   "numero": "A8393",
+   "paginas": 2,
+   "sha256": "64a6e3bf92e247698b0b6c547c4a65f2dd0be7df8ddb596675e1558b4cda745d"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8394_ano_de_la_grandeza_argentina.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-01-29",
+   "numero": "A8394",
+   "paginas": 11,
+   "sha256": "e67ae20d55bb49111ff225ba6407fc0192172e351367b91518d620b71fc1e07c"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8395_ano_de_la_grandeza_argentina.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-01-29",
+   "numero": "A8395",
+   "paginas": 7,
+   "sha256": "9a9a4f95e1492b59436d866a311bfe33457b0c1c8890e73b7aebc59c5f81afac"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8396_2026_ano_de_la_grandeza_argent.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-02-04",
+   "numero": "A8396",
+   "paginas": 2,
+   "sha256": "c776e4a065a8fb897e13393f61f3045e3582c70009ee5ea443b79f98d3cb9ec7"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8397_2026_ano_de_la_grandeza_argent.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-02-05",
+   "numero": "A8397",
+   "paginas": 18,
+   "sha256": "dcd1cda31c0857a95ae8f5b6b8942c59b412f258d2c914275625171247c207fb"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8398_ano_de_la_grandeza_argentina.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-02-05",
+   "numero": "A8398",
+   "paginas": 10,
+   "sha256": "7b4252e3535ea02d4519eb86d6941329f0dcf16ddb319340342b60eaaec92af5"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8399_2026_ano_de_la_grandeza_argent.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-02-12",
+   "numero": "A8399",
+   "paginas": 26,
+   "sha256": "5dbdde4354f2df8d89f669bb9afc438b31b5f3d0eaeb6dcaf0571adfea264502"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8400_ano_de_la_grandeza_argentina.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-02-12",
+   "numero": "A8400",
+   "paginas": 4,
+   "sha256": "8a4ac4f85c6fc7532c742fb56952412ee7bf12e2473c55f96a28d56b50ea0c9f"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8401_2026_ano_de_la_grandeza_argent.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-02-13",
+   "numero": "A8401",
+   "paginas": 17,
+   "sha256": "721be1ccc39bd8017e837259c86327797840afccde73a67f04873d2be44a929f"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8402_2026_ano_de_la_grandeza_argent.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-02-18",
+   "numero": "A8402",
+   "paginas": 1,
+   "sha256": "e560a7306539076966798e450227266868573e7dd8d87dbb4ef4d5be3e766e33"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8403_2026_ano_de_la_grandeza_argent.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-02-20",
+   "numero": "A8403",
+   "paginas": 4,
+   "sha256": "179bbed79a6d799d17d795d5655b3ffcd470656215df0b86d78db699893f8f11"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8404_2026_ano_de_la_grandeza_argent.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-02-24",
+   "numero": "A8404",
+   "paginas": 3,
+   "sha256": "28e31c48f30e7df208adf45ab2331e668e27e81d46370fb8c71f58fdc783da5e"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8405_2026_ano_de_la_grandeza_argent.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-02-26",
+   "numero": "A8405",
+   "paginas": 1,
+   "sha256": "568b503f9e85d7d5fe4c5e0e5070190a2cbac020223451b6caa69c46681c4d0d"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8406_2026_ano_de_la_grandeza_argent.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-03-02",
+   "numero": "A8406",
+   "paginas": 6,
+   "sha256": "e06dad7f29ba689889d2fd76002093b55e1fe876bf0ba498b219d1235aff8b02"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8407_2026_ano_de_la_grandeza_argent.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-03-05",
+   "numero": "A8407",
+   "paginas": 5,
+   "sha256": "daddd0e4a299a5da78928591dab21ce280132f4f882d97a0c3f6c694b1a7477a"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8408_2026_ano_de_la_grandeza_argent.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-03-12",
+   "numero": "A8408",
+   "paginas": 1,
+   "sha256": "53f5bd24ef661c61f1405020ad0d945e74d081f334ee80602bbc88a62572570c"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8409_2026_ano_de_la_grandeza_argent.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-03-16",
+   "numero": "A8409",
+   "paginas": 10,
+   "sha256": "da3207b5f149ebb507f139db49c30b8d966ffacb501fd13e54fef0f89c76a7a9"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8410_2026_ano_de_la_grandeza_argent.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-03-19",
+   "numero": "A8410",
+   "paginas": 3,
+   "sha256": "0709c58ae2b38d2f3aa861d194f95295b985d1db2e9fb4bbb6653adb6e93b60c"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8411_2026_ano_de_la_grandeza_argent.pdf",
+   "citas": 6,
+   "estado": "leida",
+   "fecha_documento": "2026-03-20",
+   "numero": "A8411",
+   "paginas": 7,
+   "sha256": "3a71eab48dc0501f937807ab1619a9865a0289d1b7873e0f4a0861c34c99fe32"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8412_2026_ano_de_la_grandeza_argent.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-03-26",
+   "numero": "A8412",
+   "paginas": 1,
+   "sha256": "dc39bc020a6ecb10031cae887acd7d05106f2f4ae994796e861c75bb4cc5fda2"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8413_2026_ano_de_la_grandeza_argent.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-03-26",
+   "numero": "A8413",
+   "paginas": 1,
+   "sha256": "bdfef682850344c58f2e431201d269c8063772ad8c75bb59c215949788facfd4"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8414_2026_ano_de_la_grandeza_argent.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-03-27",
+   "numero": "A8414",
+   "paginas": 18,
+   "sha256": "0cf8522ddc9260ea69dc3881b0fb8da62f890fdcc53dc10d593e6ddc244ad7f6"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8415_2026_ano_de_la_grandeza_argent.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-03-27",
+   "numero": "A8415",
+   "paginas": 14,
+   "sha256": "36354cffc2783d130cb495bf8a3f4ac9ec8fcd5e7930d1f3eaf67216008615b5"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8416_2026_ano_de_la_grandeza_argent.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-04-01",
+   "numero": "A8416",
+   "paginas": 2,
+   "sha256": "3b461038c7367ace52b81668d13b8eae477158319a391086482bf4a4d8503303"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8417_2026_ano_de_la_grandeza_argent.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-04-09",
+   "numero": "A8417",
+   "paginas": 3,
+   "sha256": "969bcda91a217a3e7182b4c728e87dd8a63a3da036bf3420e52f3b8d14d74921"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8418_2026_ano_de_la_grandeza_argent.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-04-09",
+   "numero": "A8418",
+   "paginas": 3,
+   "sha256": "dad2f24d3df4b19a8b29d3568567fc9edac3ebf963994566b5a4981f3aa8a388"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8419_2026_ano_de_la_grandeza_argent.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-04-10",
+   "numero": "A8419",
+   "paginas": 23,
+   "sha256": "17b519e9fab62a09177e0724ba9746d7cdc8595c1b16c969c8d57da3102c628b"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8420_2026_ano_de_la_grandeza_argent.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-04-10",
+   "numero": "A8420",
+   "paginas": 44,
+   "sha256": "5dc3679a9a2277044de248fc8ab858e38605b868f86e3637d00de789d7e34cdb"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8421_2026_ano_de_la_grandeza_argent.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-04-15",
+   "numero": "A8421",
+   "paginas": 4,
+   "sha256": "01f98b302cc448726cf8e76753023b7d1ea71af8911ba49b2fced135f9f954e2"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8422_2026_ano_de_la_grandeza_argent.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-04-16",
+   "numero": "A8422",
+   "paginas": 1,
+   "sha256": "0496b54c4f11ff38141c10bb6b41bba988338590a69d4668e0edfb2d309d3781"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8423_2026_ano_de_la_grandeza_argent.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-04-16",
+   "numero": "A8423",
+   "paginas": 1,
+   "sha256": "aad19cd379973cf8f2505f46af3eb6572289618502a4ee97959351b199671066"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8424_2026_ano_de_la_grandeza_argent.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-04-21",
+   "numero": "A8424",
+   "paginas": 5,
+   "sha256": "446f43af1b2207eaf075ac568bfad8317ab477ef0174fc990d21a14e8d2fadf2"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8425_2026_ano_de_la_grandeza_argent.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-04-22",
+   "numero": "A8425",
+   "paginas": 5,
+   "sha256": "80238083cb0bac74d53e403cc8f67e19db0f99fb47193e06e6fafb3bc564e210"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8426_2026_ano_de_la_grandeza_argent.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-04-23",
+   "numero": "A8426",
+   "paginas": 3,
+   "sha256": "aa232e26d44131579218d57a7ae2b28ac38b10ad3547a591fe04649b63be0938"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8427_2026_ano_de_la_grandeza_argent.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-04-24",
+   "numero": "A8427",
+   "paginas": 8,
+   "sha256": "28f13a25c538b528f7f6162c2cf3720ec8b7b82b0f78acf159e1a2fe419bb1d1"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8428_2026_ano_de_la_grandeza_argent.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-04-24",
+   "numero": "A8428",
+   "paginas": 8,
+   "sha256": "fb0a2520e1c949477562f5c13dbefa2ffd45584a8556c1a46137d59f7f2abd67"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8429_2026_ano_de_la_grandeza_argent.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-04-24",
+   "numero": "A8429",
+   "paginas": 44,
+   "sha256": "a35746e2b15682f1e6ea242b09cb92ef9367f4ba69f5cb22627559e765e3af76"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8430_2026_ano_de_la_grandeza_argent.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-04-28",
+   "numero": "A8430",
+   "paginas": 13,
+   "sha256": "d2ccaaea5a881e53aca4c624462bd9ed25388d6784cd89d17360caa62aeb518e"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8431_2026_ano_de_la_grandeza_argent.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-04-30",
+   "numero": "A8431",
+   "paginas": 1,
+   "sha256": "d5f0645a0615601dc90ee3ad92b06fa6fe36b0ed615ab9ec8a042a772da8c11e"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8432_2026_ano_de_la_grandeza_argent.pdf",
+   "citas": 2,
+   "estado": "leida",
+   "fecha_documento": "2026-04-30",
+   "numero": "A8432",
+   "paginas": 6,
+   "sha256": "bb1d079e366e07e5a05a32e48b6cb5b503d8bc994e92290dab990ffa5802b208"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8433_2026_ano_de_la_grandeza_argent.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-05-06",
+   "numero": "A8433",
+   "paginas": 15,
+   "sha256": "32da719e7455704bdd72cb31a81e2853214903760848f5986c474510579ce5e5"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8434_2026_ano_de_la_grandeza_argent.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-05-08",
+   "numero": "A8434",
+   "paginas": 6,
+   "sha256": "8150bd898679aa4b4c30ba7b350b0a5d1799808ef8a6d58bb0bf5b261f0f8db6"
+  },
+  {
+   "archivo": "data/raw/02_comunicaciones_A/A8435_2026_ano_de_la_grandeza_argent.pdf",
+   "citas": 0,
+   "estado": "leida",
+   "fecha_documento": "2026-05-08",
+   "numero": "A8435",
+   "paginas": 11,
+   "sha256": "bbfa564851cee9ff851d5275fd9a5d0e3f678d9d597087d56bd824d3c11b4841"
+  }
+ ],
+ "conteo": {
+  "citas": 21,
+  "citas_por_formula": {
+   "sustituir_el_punto": 21
+  },
+  "citas_que_nombran_punto_y_to": 7,
+  "citas_que_nombran_punto_y_to_por_grupo": {
+   "corpus_152": 7
+  },
+  "comunicaciones_con_al_menos_una_formula": 8
+ },
+ "declaracion": {
+  "ruta": "data/experiment/mantenimiento/declaracion_citas_comunicaciones.json",
+  "sha256": "82df4d5ba21a7aa7ecee86bc24cc382a5f2bbd6ad77ecfe49daf7d6e0237cedf"
+ },
+ "formulas_de_descubrimiento_no_sumadas": {
+  "agregar": 2,
+  "dejar sin efecto": 13,
+  "derogar": 1,
+  "eliminar": 4,
+  "incorporar": 126,
+  "modificar": 13,
+  "reemplazar": 62,
+  "suprimir": 2,
+  "sustituir": 16
+ },
+ "medicion": "U-MANT M2 (e) — citas de Comunicaciones «A» a puntos de textos ordenados",
+ "motivos": {
+  "no_mapeable: la oración no nombra un texto ordenado": 2,
+  "no_mapeable: la oración nombra un texto ordenado o normas que no están entre los títulos del inventario": 12
+ },
+ "ventana": {
+  "comunicaciones_en_ventana": 195,
+  "desde_exclusive": "2025-05-08",
+  "hasta_inclusive": "2026-05-08",
+  "leidas": 195,
+  "no_leidas": [],
+  "referencia_recomputada": "2026-05-08"
+ }
+}

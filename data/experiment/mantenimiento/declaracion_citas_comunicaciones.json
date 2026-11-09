@@ -1,0 +1,62 @@
+{
+ "unidad": "U-MANT M2 (e), tercera fuente del empalme",
+ "estado": "DECLARADA ANTES DE MEDIR: este archivo se escribe antes que el script de medición y el script lo lee tal cual; su sha256 queda en la salida",
+ "fuente": {
+  "manifiesto": "data/raw/manifiesto.csv",
+  "categoria": "comunicacion_A",
+  "pdfs": "campo archivo_local de cada fila (data/raw/02_comunicaciones_A/, locales, no versionados: se registra el sha256 de cada PDF leído)"
+ },
+ "ventana": {
+  "campo": "fecha_documento",
+  "referencia": "la fecha_documento máxima de las filas comunicacion_A del manifiesto, recomputada por el script (esperada: 2026-05-08)",
+  "regla": "doce meses previos: fecha_documento > referencia menos un año (2025-05-08) y <= referencia (2026-05-08)",
+  "desde_exclusive": "2025-05-08",
+  "hasta_inclusive": "2026-05-08"
+ },
+ "texto": {
+  "extraccion": "pdfplumber extract_text de todas las páginas; por página, los blancos (incluidos los saltos de línea) se colapsan a un espacio",
+  "regex": "sin distinguir mayúsculas"
+ },
+ "formulas": {
+  "sustituir_el_punto": "\\bSustituir\\s+(?:el|los)\\s+puntos?\\b",
+  "sustituyese": "\\bSustit[uú]y[eé]n?se\\b",
+  "incorporase": "\\bIncorp[oó]ran?se\\b",
+  "dejase_sin_efecto": "\\bD[eé]jan?se\\s+sin\\s+efecto\\b"
+ },
+ "formulas_nota": "las cuatro fórmulas del mandato con sus formas en plural (Sustituir los puntos, Sustitúyense, Incorpóranse, Déjanse sin efecto); cada ocurrencia es una cita",
+ "descubrimiento": {
+  "regex": "\\b(?:Sustituir|Reemplazar|Incorporar|Dejar\\s+sin\\s+efecto|Derogar|Modificar|Suprimir|Eliminar|Agregar)\\b",
+  "regla": "ocurrencias que no se solapan con una de las cuatro fórmulas; se reportan aparte, por verbo, y NO se suman a los conteos de citas"
+ },
+ "segmento_de_la_cita": {
+  "desde": "el inicio de la fórmula",
+  "hasta": "lo primero entre: el primer ':' ; el primer punto seguido de blanco y de mayúscula o de un numeral de ítem («. Sustituir», «. 2. »), regex \\.\\s+(?=[A-ZÁÉÍÓÚÑ]|\\d+\\.\\s) ; 600 caracteres"
+ },
+ "punto": {
+  "regex_lista": "\\bpuntos?\\s+((?:\\d+(?:\\.\\d+)*\\.?(?:\\s*(?:,|y|e|a)\\s+)?)+)",
+  "numerales": "\\d+(?:\\.\\d+)* dentro de la lista capturada, sin el punto final",
+  "rango": "si la lista contiene ' a ' entre numerales se marca como rango; se mapean solo los numerales escritos",
+  "seccion": "\\bSecci[oó]n\\s+(\\d+)\\b: una cita de sección sin punto se mapea solo a TO"
+ },
+ "nombre_del_texto_ordenado": {
+  "titulos": "titulo_oficial de data/experiment/escalado_prep/inventario_tos.csv (152). EXTENSIÓN DECLARADA: los cinco TOs de desarrollo no están en ese archivo; sus títulos salen de subset_excluido de data/experiment/escalado_prep/inventario_resumen.json y sus citas se informan con la marca grupo desarrollo_5",
+  "normalizacion": "minúsculas, sin tildes (NFKD), comillas y signos de puntuación a blanco, blancos colapsados; se aplica igual al segmento y a los títulos",
+  "regla": "el título normalizado tiene que aparecer como subcadena del segmento normalizado, entre límites de palabra; si aparecen varios, gana el más largo y los contenidos en él se descartan; si quedan dos o más títulos distintos no contenidos uno en otro, la cita es NO DECIDIBLE"
+ },
+ "unidades": {
+  "corpus_152": "data/experiment/segmentacion_84/b584_particion/<to>/chunks_<to>.json",
+  "desarrollo_5": "EXTENSIÓN DECLARADA: data/experiment/reextraccion_v2/e0_chunking/salida_tanda0/chunks_<id_interno>.json",
+  "regla": "unidades del punto P: las de unidad == P o que empiezan con P + '.' (incluye los mini-chunks)"
+ },
+ "categorias": {
+  "a_to_y_unidades": "TO identificado y al menos un numeral de punto con unidades",
+  "solo_a_to": "TO identificado, sin numeral de punto o con numerales sin unidades (motivo registrado)",
+  "no_mapeable": "sin TO identificado (motivo registrado)",
+  "no_decidible": "más de un TO posible en la misma cita; no se fuerza el mapeo"
+ },
+ "caso_de_control": {
+  "comunicacion": "A8432",
+  "pagina": 1,
+  "esperado": {"to": "snp_psp", "punto": "1.3", "unidades": 5}
+ }
+}

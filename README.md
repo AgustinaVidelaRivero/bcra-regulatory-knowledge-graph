@@ -68,7 +68,7 @@ Una fila por sección de la tesis, con el nombre que usa y dónde está en este 
 | 4.3 | El validador | `data/experiment/reextraccion_v2/e1_extractor/validador_e1.py` y `data/experiment/pyd_r2/code/validador_r2.py` | `docs/preregistro_tanda0.md:625`, y el renglón 2 de cada archivo |
 | 4.4 y Apéndice D | El verificador | E3: `data/experiment/reextraccion_v2/e3_verificador/` | `docs/preregistro_tanda0.md:649` |
 | 4.5 | El ensamblado | E4 y E5: `ensamblar_corpus.py` y `ensamblar_r1.py`, de `data/experiment/reextraccion_v2/corpus_v2/`, y `data/experiment/tanda0/code/ensamblar_tanda0.py` | `docs/preregistro_tanda0.md:650`, `data/experiment/reaplicacion_unica/paquete_UREAPL/ureapl_scripts__cadena_ureapl.sh:17` |
-| 4.6 | El grafo evaluado y las tandas 0, 1 y final | El grafo: `data/experiment/reaplicacion_unica/acumulado/ens_128_r2b_sincola/r2/`. Las tandas: `data/experiment/reext_t0/`, `data/experiment/tanda1/` y `data/experiment/tanda_final/`, no publicadas, y de `data/experiment/tanda0/` van 3 archivos. Sus pre-registros sí se publican | `docs/formato_del_grafo.md:3`, `docs/preregistro_tanda0.md:1`, `docs/preregistro_tanda1.md:1`, `:1163`, `docs/preregistro_tanda_final.md:1`, `:13`, `docs/insumos_escritura.md:158`, `:293` (repositorio de la tesis) |
+| 4.6 | El grafo evaluado y las tandas 0, 1 y final | El grafo: `data/experiment/reaplicacion_unica/acumulado/ens_128_r2b_sincola/r2/`. Las tandas: `data/experiment/reext_t0/`, `data/experiment/tanda1/` y `data/experiment/tanda_final/`, no publicadas, y de `data/experiment/tanda0/` van 3 archivos. De `data/experiment/tanda_final/` van además el armado y el manifiesto de la E0 acumulada. Sus pre-registros sí se publican | `docs/formato_del_grafo.md:3`, `docs/preregistro_tanda0.md:1`, `docs/preregistro_tanda1.md:1`, `:1163`, `docs/preregistro_tanda_final.md:1`, `:13`, `docs/insumos_escritura.md:158`, `:293` (repositorio de la tesis) |
 | 5.3 | Contenido del grafo | Tripletas: `docs/preregistro_evaluacion_tripletas.md` y sus enmiendas. Los veredictos, las fichas, los pasajes y el código de los análisis están en `evaluacion_contenido/`, y las instrucciones completas de los 2 jueces, en `docs/instrucciones/`. El resto de `data/experiment/tripletas_t_cob/` y `data/experiment/tripletas_v/` no está publicado | `docs/preregistro_evaluacion_tripletas.md:1`, `:26-27` |
 | 5.4 | Cómo se juzgan las respuestas | Tres partes. **Cómo se arman las preguntas:** P2, en `fuera_del_repo/b63_p2/` y `fuera_del_repo/b64_p2/`, no publicadas, y P1, en `fuera_del_repo/b63_etapa1/`, de la que van 2 funciones. **El juez y su validación contra 4 lecturas:** el juez está en `data/experiment/ev2_juez/`, de la que van 3 archivos; el desarrollo del juez es EV2 (`data/experiment/ev2_adjudicacion/`, no publicada); la comparación de desarrollo con los fragmentos es A2.2 (`data/experiment/banco_mcp/a2_2/`, no publicada, con su plan publicado); las 36 respuestas de control de B6.3 y las 36 de B6.4 están en `data/experiment/banco_mcp/b63/control_36/` y `data/experiment/banco_mcp/b64/control_36/`, de las que van los scripts; la regla que manda a la lectura las respuestas con un criterio en duda está en `data/experiment/banco_mcp/b63/analisis/codigo/armar_adjudicacion_b63.py`. **La comprobación de las citas, con 3 indicadores:** `scripts/ucita2_indicadores.py` y `scripts/ucita2_indicadores_banco.py` | `docs/preregistro_B6_3_evaluacion_final.md:148`, `:379-406`, `:404`, `:440`, `:492-493`, `docs/preregistro_A2_2_sistema_por_fragmentos.md:1`, `docs/plan_tesis.md:1291` (repositorio de la tesis) |
 | 5.5, 5.6 y 5.7.2 | La medición final | B6.3: `data/experiment/banco_mcp/b63/`. P3, el modelo que puntúa la relevancia (5.2): `fuera_del_repo/b63_p3/`, no publicada. Las preguntas, las respuestas y los veredictos: `evaluacion/`. | `docs/preregistro_B6_3_evaluacion_final.md:1`, `:470` |
@@ -113,7 +113,7 @@ El código conserva las rutas que tenía en el repositorio de la tesis, para que
 | `data/experiment/banco_mcp/b64/` | 54 | B6.4, la segunda comparación: el código de la corrida y del análisis, y sus resultados agregados. |
 | `data/experiment/banco_mcp/coincidencias_con_el_grafo/` | 15 | Los programas que sostienen la declaración de las coincidencias del grafo con criterios. |
 | `data/experiment/banco_mcp/gate/` | 2 | Los controles previos al uso de los servidores. |
-| `data/experiment/banco_mcp/mcp_kg/` | 22 | El servidor con el que el agente navega el grafo, y los programas de su índice de puntos. |
+| `data/experiment/banco_mcp/mcp_kg/` | 23 | El servidor con el que el agente navega el grafo, los programas de su índice de puntos y el manifiesto de referencia de ese índice. |
 | `data/experiment/banco_mcp/mcp_vector/` | 11 | El servidor del sistema por fragmentos, los programas de sus índices y sus configuraciones. |
 | `data/experiment/banco_mcp/n6/` | 1 | Una pieza de la configuración del agente, que usan B6.3 y B6.4. |
 | `data/experiment/banco_mcp/n7/` | 5 | La configuración del agente con el grafo en B6.3, con sus instrucciones. |
@@ -130,17 +130,17 @@ El código conserva las rutas que tenía en el repositorio de la tesis, para que
 | `data/experiment/evaluacion/` | 5 | El cargador del grafo y las herramientas básicas de consulta. |
 | `data/experiment/exploracion/` | 4 | Las piezas de la exploración que reusan los servidores. |
 | `data/experiment/grafo_v2/` | 7 | El esquema de partida y el código que lo usa. |
-| `data/experiment/job_actualizacion/` | 11 | El trabajo de actualización, que compara el sitio del BCRA con el corpus. |
-| `data/experiment/mantenimiento/` | 23 | El control del sitio y el empalme de lo que cambia en el grafo. |
+| `data/experiment/job_actualizacion/` | 20 | El trabajo de actualización, que compara el sitio del BCRA con el corpus, con su corrida del 7 de septiembre de 2026 y sus sondas. |
+| `data/experiment/mantenimiento/` | 31 | El control del sitio, el empalme de lo que cambia en el grafo y la medición de las citas a comunicaciones. |
 | `data/experiment/med_desamb/` | 1 | Una pieza de la medición de la desambiguación, que usa el ensamblado. |
 | `data/experiment/neo4j/` | 11 | La carga del grafo en Neo4j y su contenedor. |
 | `data/experiment/prompt_r2/` | 3 | El armado de las instrucciones del extractor. |
 | `data/experiment/pyd_r2/` | 7 | El esquema final en código, con sus valores cerrados y su política por campo. |
-| `data/experiment/reaplicacion_unica/` | 22 | El grafo evaluado, su sello y el código que lo ensambló. |
-| `data/experiment/reextraccion_v2/` | 68 | El proceso de construcción: segmentación, extractor, reducción, verificador y ensamblado. |
+| `data/experiment/reaplicacion_unica/` | 38 | El grafo evaluado, su sello, el código que lo ensambló y lo que lee la suite de regresión, salvo el registro de omisiones. |
+| `data/experiment/reextraccion_v2/` | 71 | El proceso de construcción: segmentación, extractor, reducción, verificador y ensamblado, con los manifiestos de corpus de la E0. |
 | `data/experiment/segmentacion_oficial_e0r2/` | 270 | El desarrollo de la segmentación de los Textos Ordenados. |
 | `data/experiment/tanda0/` | 3 | La carga en Neo4j y las piezas comunes de las tandas. |
-| `data/experiment/tanda_final/` | 2 | Los planes derivados de la tanda final. |
+| `data/experiment/tanda_final/` | 4 | Los planes derivados de la tanda final, y el armado y el manifiesto de la E0 acumulada. |
 | `data/experiment/tripletas_v/` | 4 | Las instrucciones sin casos del juez de las tripletas, la entrada del análisis de las 400 tripletas y el programa que calcula sus intervalos. |
 | `docs/` | 57 | Los planes de las mediciones, el formato del grafo, las semillas, las instrucciones de los modelos y las notas técnicas. |
 | `ejemplos/` | 2 | Dos programas para probar el grafo y los servidores. |
@@ -150,7 +150,7 @@ El código conserva las rutas que tenía en el repositorio de la tesis, para que
 | `src/` | 7 | El código común, como la descarga del corpus. |
 | `tests/` | 1 | Las pruebas del código común. |
 
-La columna cuenta todos los archivos bajo cada carpeta, y suma 839.
+La columna cuenta todos los archivos bajo cada carpeta, y suma 878.
 
 Los 42 archivos con `_mesa` en el nombre son de la mesa de revisión de la tesis: 38 programas, que hacen controles, pruebas y armado de material, aparte del código de cada etapa, 3 consolas de esos programas y una lista de unidades. Conservan el nombre que tenían en el repositorio de la tesis.
 
@@ -262,8 +262,6 @@ Esta versión no trae todo lo que la tesis cita. Lo que sigue se suma en commits
 
 | Qué | De dónde sale, en el repo de la tesis | Qué falta para sumarlo |
 |---|---|---|
-| El manifiesto de corpus con que `correr_e0.py` arma la E0 | `data/experiment/reextraccion_v2/manifiestos/` | Pasar los controles |
-| El resto del mantenimiento | `data/experiment/mantenimiento/` (8 archivos) y `data/experiment/job_actualizacion/` (9) | Pasar los controles |
 | Los reportes y las cifras de las etapas | `data/experiment/tanda1/`, `data/experiment/tanda_final/`, `data/experiment/segmentacion_oficial_e0r2/s2/`, `data/experiment/comp_e1/`, `data/experiment/reext_t0/`, `data/experiment/e3_listas/`, `reports/` | Pasar los controles |
 | Los demás mandatos que citan los pre-registros | `docs/mandatos/` (58 archivos) | Pasar los controles |
 | Los resultados de EV2 | `data/experiment/ev2_reporte/`, `data/experiment/ev2_adjudicacion/` y `data/experiment/ev2_fidelidad_eval/` | El mismo control, por pregunta y por ficha |
@@ -311,4 +309,4 @@ Ver `CITATION.cff`. Autoría: Agustina Videla Rivero, Universidad de San Andrés
 
 Titular de las licencias: Agustina Videla Rivero.
 
-Archivos en el árbol: 792 del repo de la tesis, 13 de `fuera_del_repo` y 34 nuevos de esta publicación.
+Archivos en el árbol: 831 del repo de la tesis, 13 de `fuera_del_repo` y 34 nuevos de esta publicación.

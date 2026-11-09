@@ -1,0 +1,6710 @@
+{
+ "objetivo": 157,
+ "leidos": 157,
+ "faltantes": [],
+ "errores_de_lectura": [],
+ "parametros": {
+  "paginas_cabecera": 3,
+  "paginas_muestra_cuerpo": 5
+ },
+ "cobertura_por_to": {
+  "con_portada": 94,
+  "con_pie": 152,
+  "con_alguna_forma": 153,
+  "solo_portada": 1,
+  "solo_pie": 59,
+  "con_ambas": 93,
+  "sin_ninguna": 4,
+  "portada_ilegible_por_glifos": 7
+ },
+ "cobertura_por_pagina_muestreada": {
+  "paginas_leidas": 1076,
+  "paginas_con_pie": 839
+ },
+ "sin_ninguna_ids": [
+  "ri_cc",
+  "ri_ccna",
+  "ri_ccpnp",
+  "ri_spi"
+ ],
+ "portada_ilegible_ids": [
+  "afiltr",
+  "coltit",
+  "incuca",
+  "lavdin",
+  "pagjub",
+  "retype",
+  "venliq"
+ ],
+ "por_grupo": {
+  "inventariado_152": {
+   "total": 152,
+   "con_alguna_forma": 148
+  },
+  "desarrollo_5": {
+   "total": 5,
+   "con_alguna_forma": 5
+  }
+ },
+ "por_to": {
+  "actgar": {
+   "paginas": 18,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 7683",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 5,
+   "pie_comunicaciones": [
+    "A 6232",
+    "A 6428",
+    "A 6690",
+    "A 7683"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "10",
+     "letra": "A",
+     "numero": "7683"
+    },
+    "3": {
+     "version": "5",
+     "letra": "A",
+     "numero": "6428"
+    },
+    "4": {
+     "version": "9",
+     "letra": "A",
+     "numero": "6690"
+    },
+    "7": {
+     "version": "7",
+     "letra": "A",
+     "numero": "6232"
+    },
+    "10": {
+     "version": "5",
+     "letra": "A",
+     "numero": "7683"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "adfsp": {
+   "paginas": 41,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 6428",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "12/01/2018",
+   "pie_paginas_con_senal": 7,
+   "pie_comunicaciones": [
+    "A 5303",
+    "A 6428"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "1",
+     "letra": "A",
+     "numero": "5303"
+    },
+    "3": {
+     "version": "1",
+     "letra": "A",
+     "numero": "5303"
+    },
+    "7": {
+     "version": "1",
+     "letra": "A",
+     "numero": "5303"
+    },
+    "13": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6428"
+    },
+    "19": {
+     "version": "1",
+     "letra": "A",
+     "numero": "5303"
+    },
+    "25": {
+     "version": "1",
+     "letra": "A",
+     "numero": "5303"
+    },
+    "31": {
+     "version": "1",
+     "letra": "A",
+     "numero": "5303"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "adrei": {
+   "paginas": 19,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 6639",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 7,
+   "pie_comunicaciones": [
+    "A 6132",
+    "A 6639"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6132"
+    },
+    "3": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6132"
+    },
+    "4": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6639"
+    },
+    "7": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6132"
+    },
+    "10": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6132"
+    },
+    "13": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6132"
+    },
+    "16": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6132"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "afiltr": {
+   "paginas": 40,
+   "paginas_leidas": 8,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": true,
+   "texto_ordenado_al": "28/11/2018",
+   "pie_paginas_con_senal": 7,
+   "pie_comunicaciones": [
+    "A 5304",
+    "A 6428",
+    "A 6602"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "4",
+     "letra": "A",
+     "numero": "6602"
+    },
+    "3": {
+     "version": "2",
+     "letra": "A",
+     "numero": "5304"
+    },
+    "7": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6602"
+    },
+    "13": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6428"
+    },
+    "19": {
+     "version": "4",
+     "letra": "A",
+     "numero": "6602"
+    },
+    "25": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6602"
+    },
+    "31": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6602"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "apnf": {
+   "paginas": 15,
+   "paginas_leidas": 7,
+   "portada_comunicacion": "A 7540",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "07/07/2022",
+   "pie_paginas_con_senal": 6,
+   "pie_comunicaciones": [
+    "A 7156",
+    "A 7535",
+    "A 7540"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "3",
+     "letra": "A",
+     "numero": "7535"
+    },
+    "3": {
+     "version": "5",
+     "letra": "A",
+     "numero": "7156"
+    },
+    "5": {
+     "version": "3",
+     "letra": "A",
+     "numero": "7156"
+    },
+    "7": {
+     "version": "3",
+     "letra": "A",
+     "numero": "7156"
+    },
+    "9": {
+     "version": "2",
+     "letra": "A",
+     "numero": "7540"
+    },
+    "11": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7156"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "asomut": {
+   "paginas": 7,
+   "paginas_leidas": 6,
+   "portada_comunicacion": "A 6428",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 4,
+   "pie_comunicaciones": [
+    "A 2805",
+    "A 6428"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "1",
+     "letra": "A",
+     "numero": "2805"
+    },
+    "3": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6428"
+    },
+    "4": {
+     "version": "1",
+     "letra": "A",
+     "numero": "2805"
+    },
+    "5": {
+     "version": "1",
+     "letra": "A",
+     "numero": "2805"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "autenf": {
+   "paginas": 25,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8383",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "30/12/2025",
+   "pie_paginas_con_senal": 6,
+   "pie_comunicaciones": [
+    "A 6304",
+    "A 6502",
+    "A 8383"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6502"
+    },
+    "3": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6502"
+    },
+    "5": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6304"
+    },
+    "9": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6304"
+    },
+    "13": {
+     "version": "4",
+     "letra": "A",
+     "numero": "8383"
+    },
+    "17": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6304"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ayccef": {
+   "paginas": 47,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8242",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "15/05/2025",
+   "pie_paginas_con_senal": 7,
+   "pie_comunicaciones": [
+    "A 6129",
+    "A 6428",
+    "A 6567",
+    "A 8131",
+    "A 8242"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6129"
+    },
+    "3": {
+     "version": "5",
+     "letra": "A",
+     "numero": "8242"
+    },
+    "8": {
+     "version": "5",
+     "letra": "A",
+     "numero": "6567"
+    },
+    "15": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6428"
+    },
+    "22": {
+     "version": "4",
+     "letra": "A",
+     "numero": "6567"
+    },
+    "29": {
+     "version": "3",
+     "letra": "A",
+     "numero": "8131"
+    },
+    "36": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6129"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "cajasc": {
+   "paginas": 68,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 7083",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "06/08/2020",
+   "pie_paginas_con_senal": 7,
+   "pie_comunicaciones": [
+    "A 4712",
+    "A 5740",
+    "A 5813",
+    "A 5990",
+    "A 6428"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "3",
+     "letra": "A",
+     "numero": "5990"
+    },
+    "3": {
+     "version": "1",
+     "letra": "A",
+     "numero": "4712"
+    },
+    "12": {
+     "version": "3",
+     "letra": "A",
+     "numero": "5813"
+    },
+    "23": {
+     "version": "1",
+     "letra": "A",
+     "numero": "4712"
+    },
+    "34": {
+     "version": "3",
+     "letra": "A",
+     "numero": "5740"
+    },
+    "45": {
+     "version": "1",
+     "letra": "A",
+     "numero": "4712"
+    },
+    "56": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6428"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "cap": {
+   "paginas": 204,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8418",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "09/04/26",
+   "pie_paginas_con_senal": 7,
+   "pie_comunicaciones": [
+    "A 6260",
+    "A 6690",
+    "A 7393",
+    "A 7443",
+    "A 8109",
+    "A 8171",
+    "A 8329"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "18",
+     "letra": "A",
+     "numero": "8171"
+    },
+    "3": {
+     "version": "26",
+     "letra": "A",
+     "numero": "8329"
+    },
+    "35": {
+     "version": "3",
+     "letra": "A",
+     "numero": "7443"
+    },
+    "69": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6260"
+    },
+    "103": {
+     "version": "8",
+     "letra": "A",
+     "numero": "8109"
+    },
+    "137": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6690"
+    },
+    "171": {
+     "version": "9",
+     "letra": "A",
+     "numero": "7393"
+    }
+   },
+   "grupo": "desarrollo_5"
+  },
+  "cateloc": {
+   "paginas": 67,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 6209",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "29/03/2017",
+   "pie_paginas_con_senal": 7,
+   "pie_comunicaciones": [
+    "A 6209"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6209"
+    },
+    "3": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6209"
+    },
+    "12": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6209"
+    },
+    "23": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6209"
+    },
+    "34": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6209"
+    },
+    "45": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6209"
+    },
+    "56": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6209"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ccbcra": {
+   "paginas": 19,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8131",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 4,
+   "pie_comunicaciones": [
+    "A 6052"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6052"
+    },
+    "3": {
+     "version": "5",
+     "letra": "A",
+     "numero": "6052"
+    },
+    "4": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6052"
+    },
+    "7": {
+     "version": "4",
+     "letra": "A",
+     "numero": "6052"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "cedin": {
+   "paginas": 22,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8131",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "12/11/2024",
+   "pie_paginas_con_senal": 7,
+   "pie_comunicaciones": [
+    "A 5447",
+    "A 5633",
+    "A 6462"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "4",
+     "letra": "A",
+     "numero": "6462"
+    },
+    "3": {
+     "version": "1",
+     "letra": "A",
+     "numero": "5447"
+    },
+    "4": {
+     "version": "1",
+     "letra": "A",
+     "numero": "5447"
+    },
+    "7": {
+     "version": "2",
+     "letra": "A",
+     "numero": "5633"
+    },
+    "10": {
+     "version": "2",
+     "letra": "A",
+     "numero": "5633"
+    },
+    "13": {
+     "version": "2",
+     "letra": "A",
+     "numero": "5633"
+    },
+    "16": {
+     "version": "1",
+     "letra": "A",
+     "numero": "5633"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ceninf": {
+   "paginas": 23,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8393",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "28/01/2026",
+   "pie_paginas_con_senal": 6,
+   "pie_comunicaciones": [
+    "A 7358",
+    "A 7454",
+    "A 8141",
+    "A 8373",
+    "A 8393"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "4",
+     "letra": "A",
+     "numero": "7358"
+    },
+    "3": {
+     "version": "5",
+     "letra": "A",
+     "numero": "8141"
+    },
+    "4": {
+     "version": "4",
+     "letra": "A",
+     "numero": "8393"
+    },
+    "10": {
+     "version": "9",
+     "letra": "A",
+     "numero": "8141"
+    },
+    "13": {
+     "version": "7",
+     "letra": "A",
+     "numero": "7454"
+    },
+    "16": {
+     "version": "3",
+     "letra": "A",
+     "numero": "8373"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "cescar": {
+   "paginas": 10,
+   "paginas_leidas": 6,
+   "portada_comunicacion": "A 8337",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "30/09/2025",
+   "pie_paginas_con_senal": 5,
+   "pie_comunicaciones": [
+    "A 4259",
+    "A 6305",
+    "A 8337"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6305"
+    },
+    "3": {
+     "version": "6",
+     "letra": "A",
+     "numero": "8337"
+    },
+    "4": {
+     "version": "3",
+     "letra": "A",
+     "numero": "4259"
+    },
+    "5": {
+     "version": "3",
+     "letra": "A",
+     "numero": "8337"
+    },
+    "6": {
+     "version": "4",
+     "letra": "A",
+     "numero": "8337"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "cirmo3": {
+   "paginas": 107,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8439",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "18/05/26",
+   "pie_paginas_con_senal": 7,
+   "pie_comunicaciones": [
+    "A 6010",
+    "A 7498",
+    "A 7572",
+    "A 8095",
+    "A 8439"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "11",
+     "letra": "A",
+     "numero": "8439"
+    },
+    "3": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6010"
+    },
+    "18": {
+     "version": "3",
+     "letra": "A",
+     "numero": "7572"
+    },
+    "35": {
+     "version": "4",
+     "letra": "A",
+     "numero": "8095"
+    },
+    "52": {
+     "version": "2",
+     "letra": "A",
+     "numero": "7572"
+    },
+    "69": {
+     "version": "3",
+     "letra": "A",
+     "numero": "7572"
+    },
+    "86": {
+     "version": "4",
+     "letra": "A",
+     "numero": "7498"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "cla": {
+   "paginas": 60,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8378",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "19/12/2025",
+   "pie_paginas_con_senal": 6,
+   "pie_comunicaciones": [
+    "A 2729",
+    "A 6558",
+    "A 7024",
+    "A 7443",
+    "A 8378"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "6",
+     "letra": "A",
+     "numero": "6558"
+    },
+    "3": {
+     "version": "10",
+     "letra": "A",
+     "numero": "8378"
+    },
+    "11": {
+     "version": "11",
+     "letra": "A",
+     "numero": "8378"
+    },
+    "21": {
+     "version": "6",
+     "letra": "A",
+     "numero": "7024"
+    },
+    "31": {
+     "version": "9",
+     "letra": "A",
+     "numero": "7443"
+    },
+    "41": {
+     "version": "1",
+     "letra": "A",
+     "numero": "2729"
+    }
+   },
+   "grupo": "desarrollo_5"
+  },
+  "coltit": {
+   "paginas": 13,
+   "paginas_leidas": 7,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": true,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 4,
+   "pie_comunicaciones": [
+    "A 5571",
+    "A 6204",
+    "A 6301"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6301"
+    },
+    "3": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6204"
+    },
+    "5": {
+     "version": "3",
+     "letra": "A",
+     "numero": "5571"
+    },
+    "7": {
+     "version": "5",
+     "letra": "A",
+     "numero": "6301"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "consyr": {
+   "paginas": 11,
+   "paginas_leidas": 6,
+   "portada_comunicacion": "A 611",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "06/12/2016",
+   "pie_paginas_con_senal": 5,
+   "pie_comunicaciones": [
+    "A 6072",
+    "A 6110",
+    "A 6112"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6072"
+    },
+    "3": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6072"
+    },
+    "4": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6072"
+    },
+    "5": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6110"
+    },
+    "6": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6112"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "convca": {
+   "paginas": 8,
+   "paginas_leidas": 6,
+   "portada_comunicacion": "A 3252",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "09/04/2001",
+   "pie_paginas_con_senal": 5,
+   "pie_comunicaciones": [
+    "A 3205",
+    "A 3252"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "1",
+     "letra": "A",
+     "numero": "3205"
+    },
+    "3": {
+     "version": "1",
+     "letra": "A",
+     "numero": "3205"
+    },
+    "4": {
+     "version": "3",
+     "letra": "A",
+     "numero": "3252"
+    },
+    "5": {
+     "version": "1",
+     "letra": "A",
+     "numero": "3205"
+    },
+    "6": {
+     "version": "1",
+     "letra": "A",
+     "numero": "3205"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "cryl": {
+   "paginas": 31,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8404",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "24/02/2026",
+   "pie_paginas_con_senal": 7,
+   "pie_comunicaciones": [
+    "A 6621",
+    "A 7827"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "3",
+     "letra": "A",
+     "numero": "7827"
+    },
+    "3": {
+     "version": "3",
+     "letra": "A",
+     "numero": "7827"
+    },
+    "6": {
+     "version": "3",
+     "letra": "A",
+     "numero": "7827"
+    },
+    "11": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6621"
+    },
+    "16": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6621"
+    },
+    "21": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6621"
+    },
+    "26": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7827"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ctacor": {
+   "paginas": 10,
+   "paginas_leidas": 6,
+   "portada_comunicacion": "A 6709",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 5,
+   "pie_comunicaciones": [
+    "A 5093",
+    "A 6709"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "1",
+     "letra": "A",
+     "numero": "5093"
+    },
+    "3": {
+     "version": "5",
+     "letra": "A",
+     "numero": "6709"
+    },
+    "4": {
+     "version": "1",
+     "letra": "A",
+     "numero": "5093"
+    },
+    "5": {
+     "version": "5",
+     "letra": "A",
+     "numero": "6709"
+    },
+    "6": {
+     "version": "5",
+     "letra": "A",
+     "numero": "6709"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ctacte": {
+   "paginas": 86,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8444",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "04/06/26",
+   "pie_paginas_con_senal": 6,
+   "pie_comunicaciones": [
+    "A 4010",
+    "A 6725",
+    "A 7192",
+    "A 7391",
+    "B 9620"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "6",
+     "letra": "A",
+     "numero": "6725"
+    },
+    "3": {
+     "version": "4",
+     "letra": "B",
+     "numero": "9620"
+    },
+    "15": {
+     "version": "4",
+     "letra": "A",
+     "numero": "7192"
+    },
+    "29": {
+     "version": "1",
+     "letra": "A",
+     "numero": "4010"
+    },
+    "43": {
+     "version": "6",
+     "letra": "A",
+     "numero": "6725"
+    },
+    "57": {
+     "version": "5",
+     "letra": "A",
+     "numero": "7391"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ctavis": {
+   "paginas": 54,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8075",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "26/07/2024",
+   "pie_paginas_con_senal": 7,
+   "pie_comunicaciones": [
+    "A 4713",
+    "A 5000",
+    "A 6112",
+    "A 6963",
+    "A 7192",
+    "A 7509"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "1",
+     "letra": "A",
+     "numero": "4713"
+    },
+    "3": {
+     "version": "8",
+     "letra": "A",
+     "numero": "6963"
+    },
+    "10": {
+     "version": "7",
+     "letra": "A",
+     "numero": "7192"
+    },
+    "19": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6112"
+    },
+    "28": {
+     "version": "3",
+     "letra": "A",
+     "numero": "5000"
+    },
+    "37": {
+     "version": "1",
+     "letra": "A",
+     "numero": "4713"
+    },
+    "46": {
+     "version": "6",
+     "letra": "A",
+     "numero": "7509"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "depaho": {
+   "paginas": 107,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8444",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "04/06/26",
+   "pie_paginas_con_senal": 6,
+   "pie_comunicaciones": [
+    "A 6289",
+    "A 6639",
+    "A 7192",
+    "A 8247",
+    "A 8288"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "9",
+     "letra": "A",
+     "numero": "6289"
+    },
+    "3": {
+     "version": "40",
+     "letra": "A",
+     "numero": "8288"
+    },
+    "18": {
+     "version": "13",
+     "letra": "A",
+     "numero": "8247"
+    },
+    "35": {
+     "version": "7",
+     "letra": "A",
+     "numero": "7192"
+    },
+    "52": {
+     "version": "2",
+     "letra": "A",
+     "numero": "8247"
+    },
+    "69": {
+     "version": "11",
+     "letra": "A",
+     "numero": "6639"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "depinv": {
+   "paginas": 53,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8246",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "30/05/25",
+   "pie_paginas_con_senal": 6,
+   "pie_comunicaciones": [
+    "A 7509",
+    "A 7995",
+    "A 8124",
+    "A 8246"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "10",
+     "letra": "A",
+     "numero": "8246"
+    },
+    "3": {
+     "version": "17",
+     "letra": "A",
+     "numero": "8124"
+    },
+    "9": {
+     "version": "15",
+     "letra": "A",
+     "numero": "7995"
+    },
+    "17": {
+     "version": "5",
+     "letra": "A",
+     "numero": "7995"
+    },
+    "25": {
+     "version": "8",
+     "letra": "A",
+     "numero": "8246"
+    },
+    "33": {
+     "version": "4",
+     "letra": "A",
+     "numero": "7509"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "disres": {
+   "paginas": 22,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8410",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "19/03/26",
+   "pie_paginas_con_senal": 6,
+   "pie_comunicaciones": [
+    "A 5827",
+    "A 6464",
+    "A 6886"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "5",
+     "letra": "A",
+     "numero": "6886"
+    },
+    "3": {
+     "version": "8",
+     "letra": "A",
+     "numero": "6464"
+    },
+    "4": {
+     "version": "13",
+     "letra": "A",
+     "numero": "6464"
+    },
+    "7": {
+     "version": "6",
+     "letra": "A",
+     "numero": "5827"
+    },
+    "10": {
+     "version": "1",
+     "letra": "A",
+     "numero": "5827"
+    },
+    "13": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6886"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "dmrd": {
+   "paginas": 72,
+   "paginas_leidas": 8,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 8,
+   "pie_comunicaciones": [
+    "A 6617",
+    "A 7591",
+    "A 8297"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "2",
+     "letra": "A",
+     "numero": "8297"
+    },
+    "2": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6617"
+    },
+    "3": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6617"
+    },
+    "13": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6617"
+    },
+    "25": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6617"
+    },
+    "37": {
+     "version": "2",
+     "letra": "A",
+     "numero": "7591"
+    },
+    "49": {
+     "version": "2",
+     "letra": "A",
+     "numero": "8297"
+    },
+    "61": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6617"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "docvig": {
+   "paginas": 14,
+   "paginas_leidas": 7,
+   "portada_comunicacion": "A 8338",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "01/10/2025",
+   "pie_paginas_con_senal": 5,
+   "pie_comunicaciones": [
+    "A 5728",
+    "A 6924",
+    "A 8241"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "5",
+     "letra": "A",
+     "numero": "6924"
+    },
+    "3": {
+     "version": "4",
+     "letra": "A",
+     "numero": "8241"
+    },
+    "5": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6924"
+    },
+    "7": {
+     "version": "4",
+     "letra": "A",
+     "numero": "6924"
+    },
+    "9": {
+     "version": "1",
+     "letra": "A",
+     "numero": "5728"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "efemin": {
+   "paginas": 53,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8443",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 5,
+   "pie_comunicaciones": [
+    "A 6774",
+    "A 8124",
+    "A 8383",
+    "A 8397"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "36",
+     "letra": "A",
+     "numero": "8124"
+    },
+    "3": {
+     "version": "9",
+     "letra": "A",
+     "numero": "8397"
+    },
+    "9": {
+     "version": "45",
+     "letra": "A",
+     "numero": "8397"
+    },
+    "17": {
+     "version": "18",
+     "letra": "A",
+     "numero": "6774"
+    },
+    "25": {
+     "version": "4",
+     "letra": "A",
+     "numero": "8383"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "evacre": {
+   "paginas": 7,
+   "paginas_leidas": 6,
+   "portada_comunicacion": "A 6528",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 4,
+   "pie_comunicaciones": [
+    "A 5671",
+    "A 5998",
+    "A 6528"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "2",
+     "letra": "A",
+     "numero": "5998"
+    },
+    "3": {
+     "version": "1",
+     "letra": "A",
+     "numero": "5671"
+    },
+    "4": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6528"
+    },
+    "5": {
+     "version": "1",
+     "letra": "A",
+     "numero": "5671"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "expaef": {
+   "paginas": 37,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8401",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "13/02/2026",
+   "pie_paginas_con_senal": 6,
+   "pie_comunicaciones": [
+    "A 6304",
+    "A 6573",
+    "A 6653",
+    "A 8069",
+    "A 8401"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "5",
+     "letra": "A",
+     "numero": "8401"
+    },
+    "3": {
+     "version": "6",
+     "letra": "A",
+     "numero": "8069"
+    },
+    "7": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6573"
+    },
+    "13": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6653"
+    },
+    "19": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6304"
+    },
+    "25": {
+     "version": "4",
+     "letra": "A",
+     "numero": "8069"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ext": {
+   "paginas": 201,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8307",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "25/08/2025",
+   "pie_paginas_con_senal": 7,
+   "pie_comunicaciones": [
+    "A 8191",
+    "A 8307"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "16",
+     "letra": "A",
+     "numero": "8307"
+    },
+    "3": {
+     "version": "8",
+     "letra": "A",
+     "numero": "8307"
+    },
+    "34": {
+     "version": "5",
+     "letra": "A",
+     "numero": "8307"
+    },
+    "67": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8307"
+    },
+    "100": {
+     "version": "4",
+     "letra": "A",
+     "numero": "8191"
+    },
+    "133": {
+     "version": "3",
+     "letra": "A",
+     "numero": "8307"
+    },
+    "166": {
+     "version": "3",
+     "letra": "A",
+     "numero": "8307"
+    }
+   },
+   "grupo": "desarrollo_5"
+  },
+  "fabcra": {
+   "paginas": 19,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8414",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "27/03/2026",
+   "pie_paginas_con_senal": 7,
+   "pie_comunicaciones": [
+    "A 8414"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8414"
+    },
+    "3": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8414"
+    },
+    "4": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8414"
+    },
+    "7": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8414"
+    },
+    "10": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8414"
+    },
+    "13": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8414"
+    },
+    "16": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8414"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "fclef": {
+   "paginas": 12,
+   "paginas_leidas": 7,
+   "portada_comunicacion": "A 6305",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 5,
+   "pie_comunicaciones": [
+    "A 6303",
+    "A 6305"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6303"
+    },
+    "3": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6303"
+    },
+    "5": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6305"
+    },
+    "7": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6303"
+    },
+    "9": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6303"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "fgarcp": {
+   "paginas": 14,
+   "paginas_leidas": 7,
+   "portada_comunicacion": "A 8211",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "06/03/2025",
+   "pie_paginas_con_senal": 5,
+   "pie_comunicaciones": [
+    "A 6437",
+    "A 6906",
+    "A 6987",
+    "A 8211"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "4",
+     "letra": "A",
+     "numero": "6987"
+    },
+    "3": {
+     "version": "4",
+     "letra": "A",
+     "numero": "6437"
+    },
+    "5": {
+     "version": "6",
+     "letra": "A",
+     "numero": "8211"
+    },
+    "7": {
+     "version": "10",
+     "letra": "A",
+     "numero": "6906"
+    },
+    "9": {
+     "version": "3",
+     "letra": "A",
+     "numero": "8211"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "fimipyme": {
+   "paginas": 25,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8018",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "15/05/2024",
+   "pie_paginas_con_senal": 6,
+   "pie_comunicaciones": [
+    "A 7155",
+    "A 7480",
+    "A 7720",
+    "A 7848",
+    "A 7862"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "7",
+     "letra": "A",
+     "numero": "7848"
+    },
+    "3": {
+     "version": "3",
+     "letra": "A",
+     "numero": "7720"
+    },
+    "5": {
+     "version": "4",
+     "letra": "A",
+     "numero": "7480"
+    },
+    "9": {
+     "version": "4",
+     "letra": "A",
+     "numero": "7848"
+    },
+    "13": {
+     "version": "20",
+     "letra": "A",
+     "numero": "7862"
+    },
+    "17": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7155"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "finsec": {
+   "paginas": 62,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8435",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "08/05/26",
+   "pie_paginas_con_senal": 5,
+   "pie_comunicaciones": [
+    "A 6635",
+    "A 6637",
+    "A 7311",
+    "A 8163"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "8",
+     "letra": "A",
+     "numero": "6635"
+    },
+    "3": {
+     "version": "6",
+     "letra": "A",
+     "numero": "8163"
+    },
+    "11": {
+     "version": "7",
+     "letra": "A",
+     "numero": "6637"
+    },
+    "21": {
+     "version": "3",
+     "letra": "A",
+     "numero": "7311"
+    },
+    "31": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6635"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "garant": {
+   "paginas": 25,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8447",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 6,
+   "pie_comunicaciones": [
+    "A 5975",
+    "A 5998",
+    "A 6558",
+    "A 6605",
+    "A 8447"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "6",
+     "letra": "A",
+     "numero": "5998"
+    },
+    "3": {
+     "version": "11",
+     "letra": "A",
+     "numero": "6605"
+    },
+    "5": {
+     "version": "8",
+     "letra": "A",
+     "numero": "6558"
+    },
+    "9": {
+     "version": "12",
+     "letra": "A",
+     "numero": "6605"
+    },
+    "13": {
+     "version": "10",
+     "letra": "A",
+     "numero": "8447"
+    },
+    "17": {
+     "version": "1",
+     "letra": "A",
+     "numero": "5975"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "garopt": {
+   "paginas": 15,
+   "paginas_leidas": 7,
+   "portada_comunicacion": "A 6305",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "25/08/20",
+   "pie_paginas_con_senal": 5,
+   "pie_comunicaciones": [
+    "A 3053",
+    "A 3835",
+    "A 5034",
+    "A 5571",
+    "A 6305"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "3",
+     "letra": "A",
+     "numero": "3835"
+    },
+    "3": {
+     "version": "5",
+     "letra": "A",
+     "numero": "6305"
+    },
+    "5": {
+     "version": "4",
+     "letra": "A",
+     "numero": "5571"
+    },
+    "7": {
+     "version": "1",
+     "letra": "A",
+     "numero": "3053"
+    },
+    "9": {
+     "version": "3",
+     "letra": "A",
+     "numero": "5034"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "gerc": {
+   "paginas": 46,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8463",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "31/07/26",
+   "pie_paginas_con_senal": 7,
+   "pie_comunicaciones": [
+    "A 6620",
+    "A 7404",
+    "A 8109"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6620"
+    },
+    "3": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6620"
+    },
+    "8": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6620"
+    },
+    "15": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6620"
+    },
+    "22": {
+     "version": "2",
+     "letra": "A",
+     "numero": "8109"
+    },
+    "29": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6620"
+    },
+    "36": {
+     "version": "2",
+     "letra": "A",
+     "numero": "7404"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "gescre": {
+   "paginas": 35,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8392",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "26/01/2026",
+   "pie_paginas_con_senal": 6,
+   "pie_comunicaciones": [
+    "A 6558",
+    "A 6639",
+    "A 7937",
+    "A 8392",
+    "B 9074"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "9",
+     "letra": "A",
+     "numero": "7937"
+    },
+    "3": {
+     "version": "8",
+     "letra": "A",
+     "numero": "6639"
+    },
+    "6": {
+     "version": "11",
+     "letra": "A",
+     "numero": "6558"
+    },
+    "11": {
+     "version": "8",
+     "letra": "A",
+     "numero": "6558"
+    },
+    "16": {
+     "version": "16",
+     "letra": "A",
+     "numero": "8392"
+    },
+    "21": {
+     "version": "2",
+     "letra": "B",
+     "numero": "9074"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "gracre": {
+   "paginas": 28,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8135",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "21/11/2024",
+   "pie_paginas_con_senal": 6,
+   "pie_comunicaciones": [
+    "A 3002",
+    "A 5998",
+    "A 6428",
+    "A 6639",
+    "A 8135",
+    "B 9104"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "4",
+     "letra": "A",
+     "numero": "5998"
+    },
+    "3": {
+     "version": "4",
+     "letra": "B",
+     "numero": "9104"
+    },
+    "5": {
+     "version": "5",
+     "letra": "A",
+     "numero": "8135"
+    },
+    "9": {
+     "version": "1",
+     "letra": "A",
+     "numero": "3002"
+    },
+    "13": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6639"
+    },
+    "17": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6428"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "graloc": {
+   "paginas": 30,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 6762",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 7,
+   "pie_comunicaciones": [
+    "A 6131"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6131"
+    },
+    "3": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6131"
+    },
+    "6": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6131"
+    },
+    "11": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6131"
+    },
+    "16": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6131"
+    },
+    "21": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6131"
+    },
+    "26": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6131"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "horari": {
+   "paginas": 13,
+   "paginas_leidas": 7,
+   "portada_comunicacion": "A 3117",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "18/05/2000",
+   "pie_paginas_con_senal": 2,
+   "pie_comunicaciones": [
+    "A 3117"
+   ],
+   "pie_por_pagina": {
+    "3": {
+     "version": "1",
+     "letra": "A",
+     "numero": "3117"
+    },
+    "5": {
+     "version": "1",
+     "letra": "A",
+     "numero": "3117"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "icmecma": {
+   "paginas": 27,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8433",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "06/05/26",
+   "pie_paginas_con_senal": 7,
+   "pie_comunicaciones": [
+    "A 6462",
+    "A 7156",
+    "A 8131",
+    "A 8433"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "8",
+     "letra": "A",
+     "numero": "8131"
+    },
+    "3": {
+     "version": "3",
+     "letra": "A",
+     "numero": "7156"
+    },
+    "5": {
+     "version": "3",
+     "letra": "A",
+     "numero": "7156"
+    },
+    "9": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6462"
+    },
+    "13": {
+     "version": "3",
+     "letra": "A",
+     "numero": "7156"
+    },
+    "17": {
+     "version": "3",
+     "letra": "A",
+     "numero": "8433"
+    },
+    "21": {
+     "version": "2",
+     "letra": "A",
+     "numero": "8433"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "incuca": {
+   "paginas": 12,
+   "paginas_leidas": 7,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": true,
+   "texto_ordenado_al": "03/05/2019",
+   "pie_paginas_con_senal": 4,
+   "pie_comunicaciones": [
+    "A 6091",
+    "A 6690"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "6",
+     "letra": "A",
+     "numero": "6690"
+    },
+    "3": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6091"
+    },
+    "5": {
+     "version": "11",
+     "letra": "A",
+     "numero": "6690"
+    },
+    "7": {
+     "version": "9",
+     "letra": "A",
+     "numero": "6690"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "inspag": {
+   "paginas": 60,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8424",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "21/04/2026",
+   "pie_paginas_con_senal": 7,
+   "pie_comunicaciones": [
+    "A 2902",
+    "A 4731",
+    "A 5158",
+    "A 8192",
+    "A 8424",
+    "B 11593"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "9",
+     "letra": "B",
+     "numero": "11593"
+    },
+    "3": {
+     "version": "10",
+     "letra": "A",
+     "numero": "8424"
+    },
+    "11": {
+     "version": "4",
+     "letra": "A",
+     "numero": "5158"
+    },
+    "21": {
+     "version": "1",
+     "letra": "A",
+     "numero": "2902"
+    },
+    "31": {
+     "version": "1",
+     "letra": "A",
+     "numero": "4731"
+    },
+    "41": {
+     "version": "2",
+     "letra": "B",
+     "numero": "11593"
+    },
+    "51": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8192"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "jafip": {
+   "paginas": 31,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8177",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "14/01/2025",
+   "pie_paginas_con_senal": 7,
+   "pie_comunicaciones": [
+    "A 8177"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "11",
+     "letra": "A",
+     "numero": "8177"
+    },
+    "3": {
+     "version": "10",
+     "letra": "A",
+     "numero": "8177"
+    },
+    "6": {
+     "version": "7",
+     "letra": "A",
+     "numero": "8177"
+    },
+    "11": {
+     "version": "8",
+     "letra": "A",
+     "numero": "8177"
+    },
+    "16": {
+     "version": "10",
+     "letra": "A",
+     "numero": "8177"
+    },
+    "21": {
+     "version": "4",
+     "letra": "A",
+     "numero": "8177"
+    },
+    "26": {
+     "version": "7",
+     "letra": "A",
+     "numero": "8177"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "lavdin": {
+   "paginas": 19,
+   "paginas_leidas": 8,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": true,
+   "texto_ordenado_al": "31/05/2019",
+   "pie_paginas_con_senal": 4,
+   "pie_comunicaciones": [
+    "A 5218",
+    "A 6399",
+    "A 6709"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "11",
+     "letra": "A",
+     "numero": "6399"
+    },
+    "3": {
+     "version": "15",
+     "letra": "A",
+     "numero": "6709"
+    },
+    "4": {
+     "version": "15",
+     "letra": "A",
+     "numero": "6709"
+    },
+    "7": {
+     "version": "5",
+     "letra": "A",
+     "numero": "5218"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "lingeef": {
+   "paginas": 172,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8463",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "31/07/2026",
+   "pie_paginas_con_senal": 7,
+   "pie_comunicaciones": [
+    "A 5398",
+    "A 6470",
+    "A 6534",
+    "A 6729",
+    "A 8315"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "4",
+     "letra": "A",
+     "numero": "6729"
+    },
+    "3": {
+     "version": "4",
+     "letra": "A",
+     "numero": "8315"
+    },
+    "29": {
+     "version": "2",
+     "letra": "A",
+     "numero": "5398"
+    },
+    "57": {
+     "version": "4",
+     "letra": "A",
+     "numero": "6729"
+    },
+    "85": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6534"
+    },
+    "113": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6534"
+    },
+    "141": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6470"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "lingob": {
+   "paginas": 24,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 7465",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "25/02/2022",
+   "pie_paginas_con_senal": 6,
+   "pie_comunicaciones": [
+    "A 5201",
+    "A 7465"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "2",
+     "letra": "A",
+     "numero": "7465"
+    },
+    "3": {
+     "version": "1",
+     "letra": "A",
+     "numero": "5201"
+    },
+    "5": {
+     "version": "2",
+     "letra": "A",
+     "numero": "7465"
+    },
+    "9": {
+     "version": "1",
+     "letra": "A",
+     "numero": "5201"
+    },
+    "17": {
+     "version": "3",
+     "letra": "A",
+     "numero": "7465"
+    },
+    "21": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7465"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "manori": {
+   "paginas": 99,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8131",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 7,
+   "pie_comunicaciones": [
+    "A 5482",
+    "A 6278",
+    "A 8131"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6278"
+    },
+    "3": {
+     "version": "3",
+     "letra": "A",
+     "numero": "5482"
+    },
+    "17": {
+     "version": "6",
+     "letra": "A",
+     "numero": "8131"
+    },
+    "33": {
+     "version": "4",
+     "letra": "A",
+     "numero": "6278"
+    },
+    "49": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6278"
+    },
+    "65": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6278"
+    },
+    "81": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6278"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "manual": {
+   "paginas": 2037,
+   "paginas_leidas": 8,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 2,
+   "pie_comunicaciones": [
+    "A 2658",
+    "A 4753"
+   ],
+   "pie_por_pagina": {
+    "340": {
+     "version": "1",
+     "letra": "A",
+     "numero": "2658"
+    },
+    "1357": {
+     "version": "1",
+     "letra": "A",
+     "numero": "4753"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "micemp": {
+   "paginas": 8,
+   "paginas_leidas": 6,
+   "portada_comunicacion": "A 7277",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 2,
+   "pie_comunicaciones": [
+    "A 7277"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "6",
+     "letra": "A",
+     "numero": "7277"
+    },
+    "3": {
+     "version": "16",
+     "letra": "A",
+     "numero": "7277"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "nmaeef": {
+   "paginas": 69,
+   "paginas_leidas": 8,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 8,
+   "pie_comunicaciones": [
+    "A 8167"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "3",
+     "letra": "A",
+     "numero": "8167"
+    },
+    "2": {
+     "version": "3",
+     "letra": "A",
+     "numero": "8167"
+    },
+    "3": {
+     "version": "3",
+     "letra": "A",
+     "numero": "8167"
+    },
+    "12": {
+     "version": "3",
+     "letra": "A",
+     "numero": "8167"
+    },
+    "23": {
+     "version": "2",
+     "letra": "A",
+     "numero": "8167"
+    },
+    "34": {
+     "version": "2",
+     "letra": "A",
+     "numero": "8167"
+    },
+    "45": {
+     "version": "4",
+     "letra": "A",
+     "numero": "8167"
+    },
+    "56": {
+     "version": "4",
+     "letra": "A",
+     "numero": "8167"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "nmcief": {
+   "paginas": 36,
+   "paginas_leidas": 8,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 8,
+   "pie_comunicaciones": [
+    "A 8168"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "4",
+     "letra": "A",
+     "numero": "8168"
+    },
+    "2": {
+     "version": "3",
+     "letra": "A",
+     "numero": "8168"
+    },
+    "3": {
+     "version": "3",
+     "letra": "A",
+     "numero": "8168"
+    },
+    "7": {
+     "version": "3",
+     "letra": "A",
+     "numero": "8168"
+    },
+    "13": {
+     "version": "2",
+     "letra": "A",
+     "numero": "8168"
+    },
+    "19": {
+     "version": "3",
+     "letra": "A",
+     "numero": "8168"
+    },
+    "25": {
+     "version": "4",
+     "letra": "A",
+     "numero": "8168"
+    },
+    "31": {
+     "version": "2",
+     "letra": "A",
+     "numero": "8168"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "opecam": {
+   "paginas": 32,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8219",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "20/03/2025",
+   "pie_paginas_con_senal": 6,
+   "pie_comunicaciones": [
+    "A 6986",
+    "A 7554",
+    "A 7655",
+    "A 7901",
+    "A 8131"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "4",
+     "letra": "A",
+     "numero": "7655"
+    },
+    "3": {
+     "version": "3",
+     "letra": "A",
+     "numero": "7554"
+    },
+    "6": {
+     "version": "4",
+     "letra": "A",
+     "numero": "7901"
+    },
+    "11": {
+     "version": "3",
+     "letra": "A",
+     "numero": "8131"
+    },
+    "16": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6986"
+    },
+    "21": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7655"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "opefci": {
+   "paginas": 33,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8290",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "01/08/2025",
+   "pie_paginas_con_senal": 6,
+   "pie_comunicaciones": [
+    "A 6472",
+    "A 6690",
+    "A 7473",
+    "A 8124",
+    "A 8290"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "4",
+     "letra": "A",
+     "numero": "8290"
+    },
+    "3": {
+     "version": "12",
+     "letra": "A",
+     "numero": "7473"
+    },
+    "6": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6472"
+    },
+    "11": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6472"
+    },
+    "16": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6690"
+    },
+    "21": {
+     "version": "15",
+     "letra": "A",
+     "numero": "8124"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "optico": {
+   "paginas": 43,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8462",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 0,
+   "pie_comunicaciones": [],
+   "pie_por_pagina": {},
+   "grupo": "inventariado_152"
+  },
+  "ordcom": {
+   "paginas": 22,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8131",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "12/11/2024",
+   "pie_paginas_con_senal": 7,
+   "pie_comunicaciones": [
+    "A 6034",
+    "A 6639",
+    "A 7214",
+    "A 7776"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "2",
+     "letra": "A",
+     "numero": "7214"
+    },
+    "3": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6034"
+    },
+    "4": {
+     "version": "4",
+     "letra": "A",
+     "numero": "6639"
+    },
+    "7": {
+     "version": "5",
+     "letra": "A",
+     "numero": "7776"
+    },
+    "10": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6034"
+    },
+    "13": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7214"
+    },
+    "16": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7214"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "osapsa": {
+   "paginas": 12,
+   "paginas_leidas": 7,
+   "portada_comunicacion": "A 8128",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "07/11/2024",
+   "pie_paginas_con_senal": 4,
+   "pie_comunicaciones": [
+    "A 7949",
+    "A 8128"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "2",
+     "letra": "A",
+     "numero": "8128"
+    },
+    "3": {
+     "version": "2",
+     "letra": "A",
+     "numero": "8128"
+    },
+    "5": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7949"
+    },
+    "7": {
+     "version": "2",
+     "letra": "A",
+     "numero": "8128"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "pagjub": {
+   "paginas": 16,
+   "paginas_leidas": 7,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": true,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 6,
+   "pie_comunicaciones": [
+    "A 6386"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "5",
+     "letra": "A",
+     "numero": "6386"
+    },
+    "3": {
+     "version": "5",
+     "letra": "A",
+     "numero": "6386"
+    },
+    "5": {
+     "version": "5",
+     "letra": "A",
+     "numero": "6386"
+    },
+    "7": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6386"
+    },
+    "9": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6386"
+    },
+    "11": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6386"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "pfmipyme": {
+   "paginas": 14,
+   "paginas_leidas": 7,
+   "portada_comunicacion": "A 8176",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "14/01/2025",
+   "pie_paginas_con_senal": 6,
+   "pie_comunicaciones": [
+    "A 7663",
+    "A 7673",
+    "A 8023"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7673"
+    },
+    "3": {
+     "version": "2",
+     "letra": "A",
+     "numero": "8023"
+    },
+    "5": {
+     "version": "2",
+     "letra": "A",
+     "numero": "8023"
+    },
+    "7": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7663"
+    },
+    "9": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7663"
+    },
+    "11": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7663"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "pimf": {
+   "paginas": 29,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8457",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 7,
+   "pie_comunicaciones": [
+    "A 6731",
+    "A 8457"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "3",
+     "letra": "A",
+     "numero": "8457"
+    },
+    "3": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6731"
+    },
+    "5": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6731"
+    },
+    "9": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6731"
+    },
+    "13": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6731"
+    },
+    "17": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6731"
+    },
+    "21": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6731"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "plandecuentas": {
+   "paginas": 77,
+   "paginas_leidas": 8,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 7,
+   "pie_comunicaciones": [
+    "A 6323",
+    "A 6402",
+    "A 6446",
+    "A 6560",
+    "A 7477",
+    "A 8071",
+    "A 8220"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6402"
+    },
+    "3": {
+     "version": "6",
+     "letra": "A",
+     "numero": "7477"
+    },
+    "13": {
+     "version": "4",
+     "letra": "A",
+     "numero": "8220"
+    },
+    "25": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6560"
+    },
+    "37": {
+     "version": "3",
+     "letra": "A",
+     "numero": "8071"
+    },
+    "49": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6323"
+    },
+    "61": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6446"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "pognme": {
+   "paginas": 14,
+   "paginas_leidas": 7,
+   "portada_comunicacion": "A 8360",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "09/12/25",
+   "pie_paginas_con_senal": 4,
+   "pie_comunicaciones": [
+    "A 8276",
+    "A 8357",
+    "A 8360"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "5",
+     "letra": "A",
+     "numero": "8357"
+    },
+    "3": {
+     "version": "12",
+     "letra": "A",
+     "numero": "8360"
+    },
+    "5": {
+     "version": "25",
+     "letra": "A",
+     "numero": "8357"
+    },
+    "7": {
+     "version": "18",
+     "letra": "A",
+     "numero": "8276"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "polcre": {
+   "paginas": 32,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8446",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "11/06/2026",
+   "pie_paginas_con_senal": 6,
+   "pie_comunicaciones": [
+    "A 4311",
+    "A 8024",
+    "A 8124",
+    "A 8202",
+    "A 8446"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "21",
+     "letra": "A",
+     "numero": "8202"
+    },
+    "3": {
+     "version": "8",
+     "letra": "A",
+     "numero": "8124"
+    },
+    "6": {
+     "version": "9",
+     "letra": "A",
+     "numero": "8446"
+    },
+    "11": {
+     "version": "1",
+     "letra": "A",
+     "numero": "4311"
+    },
+    "16": {
+     "version": "5",
+     "letra": "A",
+     "numero": "8024"
+    },
+    "21": {
+     "version": "9",
+     "letra": "A",
+     "numero": "8202"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "prevmi": {
+   "paginas": 25,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 7983",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "21/03/2024",
+   "pie_paginas_con_senal": 6,
+   "pie_comunicaciones": [
+    "A 7443"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "5",
+     "letra": "A",
+     "numero": "7443"
+    },
+    "3": {
+     "version": "5",
+     "letra": "A",
+     "numero": "7443"
+    },
+    "5": {
+     "version": "8",
+     "letra": "A",
+     "numero": "7443"
+    },
+    "9": {
+     "version": "7",
+     "letra": "A",
+     "numero": "7443"
+    },
+    "13": {
+     "version": "2",
+     "letra": "A",
+     "numero": "7443"
+    },
+    "17": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7443"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "pro": {
+   "paginas": 40,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8433",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "06/05/26",
+   "pie_paginas_con_senal": 7,
+   "pie_comunicaciones": [
+    "A 6458",
+    "A 6664",
+    "A 7744",
+    "A 7969",
+    "A 8203",
+    "A 8433"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "11",
+     "letra": "A",
+     "numero": "7969"
+    },
+    "3": {
+     "version": "8",
+     "letra": "A",
+     "numero": "7744"
+    },
+    "7": {
+     "version": "5",
+     "letra": "A",
+     "numero": "7744"
+    },
+    "13": {
+     "version": "13",
+     "letra": "A",
+     "numero": "8203"
+    },
+    "19": {
+     "version": "6",
+     "letra": "A",
+     "numero": "8433"
+    },
+    "25": {
+     "version": "5",
+     "letra": "A",
+     "numero": "6458"
+    },
+    "31": {
+     "version": "5",
+     "letra": "A",
+     "numero": "6664"
+    }
+   },
+   "grupo": "desarrollo_5"
+  },
+  "pscpp": {
+   "paginas": 10,
+   "paginas_leidas": 6,
+   "portada_comunicacion": "A 8131",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 5,
+   "pie_comunicaciones": [
+    "A 7406",
+    "A 8131"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7406"
+    },
+    "3": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7406"
+    },
+    "4": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7406"
+    },
+    "5": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7406"
+    },
+    "6": {
+     "version": "2",
+     "letra": "A",
+     "numero": "8131"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "raapal": {
+   "paginas": 20,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8109",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "30/09/24",
+   "pie_paginas_con_senal": 7,
+   "pie_comunicaciones": [
+    "A 6431"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6431"
+    },
+    "3": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6431"
+    },
+    "4": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6431"
+    },
+    "7": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6431"
+    },
+    "10": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6431"
+    },
+    "13": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6431"
+    },
+    "16": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6431"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ratio": {
+   "paginas": 46,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8445",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "04/06/2026",
+   "pie_paginas_con_senal": 7,
+   "pie_comunicaciones": [
+    "A 5724",
+    "A 6008",
+    "A 6586",
+    "A 8445"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6008"
+    },
+    "3": {
+     "version": "3",
+     "letra": "A",
+     "numero": "8445"
+    },
+    "8": {
+     "version": "1",
+     "letra": "A",
+     "numero": "5724"
+    },
+    "15": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6586"
+    },
+    "22": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6008"
+    },
+    "29": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6008"
+    },
+    "36": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6008"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ratiofn": {
+   "paginas": 29,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8445",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "04/06/2026",
+   "pie_paginas_con_senal": 7,
+   "pie_comunicaciones": [
+    "A 6306",
+    "A 8445"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "4",
+     "letra": "A",
+     "numero": "8445"
+    },
+    "3": {
+     "version": "3",
+     "letra": "A",
+     "numero": "8445"
+    },
+    "5": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6306"
+    },
+    "9": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6306"
+    },
+    "13": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6306"
+    },
+    "17": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6306"
+    },
+    "21": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6306"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "rdbcra": {
+   "paginas": 54,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8415",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "27/03/26",
+   "pie_paginas_con_senal": 7,
+   "pie_comunicaciones": [
+    "A 7944",
+    "A 8248",
+    "A 8278",
+    "A 8415"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "3",
+     "letra": "A",
+     "numero": "8278"
+    },
+    "3": {
+     "version": "5",
+     "letra": "A",
+     "numero": "8278"
+    },
+    "10": {
+     "version": "2",
+     "letra": "A",
+     "numero": "8248"
+    },
+    "19": {
+     "version": "4",
+     "letra": "A",
+     "numero": "7944"
+    },
+    "28": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7944"
+    },
+    "37": {
+     "version": "3",
+     "letra": "A",
+     "numero": "8278"
+    },
+    "46": {
+     "version": "4",
+     "letra": "A",
+     "numero": "8415"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "regpri": {
+   "paginas": 10,
+   "paginas_leidas": 6,
+   "portada_comunicacion": "A 6639",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 5,
+   "pie_comunicaciones": [
+    "A 3034",
+    "A 6639"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6639"
+    },
+    "3": {
+     "version": "1",
+     "letra": "A",
+     "numero": "3034"
+    },
+    "4": {
+     "version": "1",
+     "letra": "A",
+     "numero": "3034"
+    },
+    "5": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6639"
+    },
+    "6": {
+     "version": "4",
+     "letra": "A",
+     "numero": "6639"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "relact": {
+   "paginas": 20,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 7683",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 5,
+   "pie_comunicaciones": [
+    "A 5580",
+    "A 6428",
+    "A 6639",
+    "A 7683"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "9",
+     "letra": "A",
+     "numero": "6428"
+    },
+    "3": {
+     "version": "6",
+     "letra": "A",
+     "numero": "6639"
+    },
+    "4": {
+     "version": "14",
+     "letra": "A",
+     "numero": "7683"
+    },
+    "7": {
+     "version": "6",
+     "letra": "A",
+     "numero": "5580"
+    },
+    "10": {
+     "version": "4",
+     "letra": "A",
+     "numero": "6428"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "repefe": {
+   "paginas": 25,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 6462",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 6,
+   "pie_comunicaciones": [
+    "A 4981",
+    "A 5408",
+    "A 5813",
+    "A 6462"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "1",
+     "letra": "A",
+     "numero": "4981"
+    },
+    "3": {
+     "version": "1",
+     "letra": "A",
+     "numero": "4981"
+    },
+    "5": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6462"
+    },
+    "9": {
+     "version": "4",
+     "letra": "A",
+     "numero": "5813"
+    },
+    "13": {
+     "version": "1",
+     "letra": "A",
+     "numero": "4981"
+    },
+    "17": {
+     "version": "3",
+     "letra": "A",
+     "numero": "5408"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "reqcac": {
+   "paginas": 10,
+   "paginas_leidas": 6,
+   "portada_comunicacion": "A 6305",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 5,
+   "pie_comunicaciones": [
+    "A 4192"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "1",
+     "letra": "A",
+     "numero": "4192"
+    },
+    "3": {
+     "version": "1",
+     "letra": "A",
+     "numero": "4192"
+    },
+    "4": {
+     "version": "1",
+     "letra": "A",
+     "numero": "4192"
+    },
+    "5": {
+     "version": "1",
+     "letra": "A",
+     "numero": "4192"
+    },
+    "6": {
+     "version": "1",
+     "letra": "A",
+     "numero": "4192"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "retype": {
+   "paginas": 13,
+   "paginas_leidas": 7,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": true,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 5,
+   "pie_comunicaciones": [
+    "A 2949",
+    "A 5728",
+    "A 5990"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "1",
+     "letra": "A",
+     "numero": "2949"
+    },
+    "3": {
+     "version": "2",
+     "letra": "A",
+     "numero": "5728"
+    },
+    "5": {
+     "version": "1",
+     "letra": "A",
+     "numero": "2949"
+    },
+    "7": {
+     "version": "5",
+     "letra": "A",
+     "numero": "5990"
+    },
+    "9": {
+     "version": "1",
+     "letra": "A",
+     "numero": "2949"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri2_ae": {
+   "paginas": 44,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 7721",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "10/03/2023",
+   "pie_paginas_con_senal": 7,
+   "pie_comunicaciones": [
+    "A 7721"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "2",
+     "letra": "A",
+     "numero": "7721"
+    },
+    "3": {
+     "version": "2",
+     "letra": "A",
+     "numero": "7721"
+    },
+    "8": {
+     "version": "3",
+     "letra": "A",
+     "numero": "7721"
+    },
+    "15": {
+     "version": "2",
+     "letra": "A",
+     "numero": "7721"
+    },
+    "22": {
+     "version": "2",
+     "letra": "A",
+     "numero": "7721"
+    },
+    "29": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7721"
+    },
+    "36": {
+     "version": "2",
+     "letra": "A",
+     "numero": "7721"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri2_ci": {
+   "paginas": 26,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 7722",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "10/03/2023",
+   "pie_paginas_con_senal": 7,
+   "pie_comunicaciones": [
+    "A 7722"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "3",
+     "letra": "A",
+     "numero": "7722"
+    },
+    "3": {
+     "version": "3",
+     "letra": "A",
+     "numero": "7722"
+    },
+    "5": {
+     "version": "3",
+     "letra": "A",
+     "numero": "7722"
+    },
+    "9": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7722"
+    },
+    "13": {
+     "version": "4",
+     "letra": "A",
+     "numero": "7722"
+    },
+    "17": {
+     "version": "4",
+     "letra": "A",
+     "numero": "7722"
+    },
+    "21": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7722"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri2_cs": {
+   "paginas": 31,
+   "paginas_leidas": 8,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 8,
+   "pie_comunicaciones": [
+    "A 7128",
+    "A 7279",
+    "A 7965"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "4",
+     "letra": "A",
+     "numero": "7128"
+    },
+    "2": {
+     "version": "3",
+     "letra": "A",
+     "numero": "7128"
+    },
+    "3": {
+     "version": "5",
+     "letra": "A",
+     "numero": "7965"
+    },
+    "6": {
+     "version": "3",
+     "letra": "A",
+     "numero": "7128"
+    },
+    "11": {
+     "version": "4",
+     "letra": "A",
+     "numero": "7279"
+    },
+    "16": {
+     "version": "3",
+     "letra": "A",
+     "numero": "7128"
+    },
+    "21": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7279"
+    },
+    "26": {
+     "version": "5",
+     "letra": "A",
+     "numero": "7128"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri2_pm": {
+   "paginas": 376,
+   "paginas_leidas": 8,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 8,
+   "pie_comunicaciones": [
+    "A 4134",
+    "A 6276",
+    "A 7128"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "3",
+     "letra": "A",
+     "numero": "7128"
+    },
+    "2": {
+     "version": "3",
+     "letra": "A",
+     "numero": "7128"
+    },
+    "3": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6276"
+    },
+    "63": {
+     "version": "1",
+     "letra": "A",
+     "numero": "4134"
+    },
+    "125": {
+     "version": "1",
+     "letra": "A",
+     "numero": "4134"
+    },
+    "187": {
+     "version": "1",
+     "letra": "A",
+     "numero": "4134"
+    },
+    "249": {
+     "version": "1",
+     "letra": "A",
+     "numero": "4134"
+    },
+    "311": {
+     "version": "1",
+     "letra": "A",
+     "numero": "4134"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri_acsf": {
+   "paginas": 3,
+   "paginas_leidas": 3,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 3,
+   "pie_comunicaciones": [
+    "A 7281",
+    "A 7618"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7281"
+    },
+    "2": {
+     "version": "2",
+     "letra": "A",
+     "numero": "7618"
+    },
+    "3": {
+     "version": "2",
+     "letra": "A",
+     "numero": "7618"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri_ai": {
+   "paginas": 9,
+   "paginas_leidas": 6,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 5,
+   "pie_comunicaciones": [
+    "A 5538",
+    "A 5774",
+    "A 6332",
+    "A 6456"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "6",
+     "letra": "A",
+     "numero": "6456"
+    },
+    "2": {
+     "version": "7",
+     "letra": "A",
+     "numero": "5538"
+    },
+    "4": {
+     "version": "5",
+     "letra": "A",
+     "numero": "5538"
+    },
+    "5": {
+     "version": "10",
+     "letra": "A",
+     "numero": "6332"
+    },
+    "6": {
+     "version": "5",
+     "letra": "A",
+     "numero": "5774"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri_ao": {
+   "paginas": 1,
+   "paginas_leidas": 1,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 1,
+   "pie_comunicaciones": [
+    "A 8087"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "6",
+     "letra": "A",
+     "numero": "8087"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri_bdp": {
+   "paginas": 3,
+   "paginas_leidas": 3,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 3,
+   "pie_comunicaciones": [
+    "A 7387",
+    "A 8140"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "4",
+     "letra": "A",
+     "numero": "7387"
+    },
+    "2": {
+     "version": "6",
+     "letra": "A",
+     "numero": "8140"
+    },
+    "3": {
+     "version": "3",
+     "letra": "A",
+     "numero": "7387"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri_cc": {
+   "paginas": 118,
+   "paginas_leidas": 8,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 0,
+   "pie_comunicaciones": [],
+   "pie_por_pagina": {},
+   "grupo": "inventariado_152"
+  },
+  "ri_ccna": {
+   "paginas": 60,
+   "paginas_leidas": 8,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 0,
+   "pie_comunicaciones": [],
+   "pie_por_pagina": {},
+   "grupo": "inventariado_152"
+  },
+  "ri_ccpnp": {
+   "paginas": 11,
+   "paginas_leidas": 6,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 0,
+   "pie_comunicaciones": [],
+   "pie_por_pagina": {},
+   "grupo": "inventariado_152"
+  },
+  "ri_chr": {
+   "paginas": 1,
+   "paginas_leidas": 1,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 1,
+   "pie_comunicaciones": [
+    "A 4978"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "1",
+     "letra": "A",
+     "numero": "4978"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri_con": {
+   "paginas": 16,
+   "paginas_leidas": 7,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 7,
+   "pie_comunicaciones": [
+    "A 6360",
+    "A 8130"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "4",
+     "letra": "A",
+     "numero": "6360"
+    },
+    "2": {
+     "version": "5",
+     "letra": "A",
+     "numero": "6360"
+    },
+    "3": {
+     "version": "8",
+     "letra": "A",
+     "numero": "6360"
+    },
+    "5": {
+     "version": "8",
+     "letra": "A",
+     "numero": "8130"
+    },
+    "7": {
+     "version": "4",
+     "letra": "A",
+     "numero": "6360"
+    },
+    "9": {
+     "version": "7",
+     "letra": "A",
+     "numero": "6360"
+    },
+    "11": {
+     "version": "8",
+     "letra": "A",
+     "numero": "6360"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri_cr": {
+   "paginas": 5,
+   "paginas_leidas": 5,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 5,
+   "pie_comunicaciones": [
+    "A 6623",
+    "A 7699"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "7",
+     "letra": "A",
+     "numero": "7699"
+    },
+    "2": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6623"
+    },
+    "3": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6623"
+    },
+    "4": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6623"
+    },
+    "5": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6623"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri_dcpc": {
+   "paginas": 44,
+   "paginas_leidas": 8,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 8,
+   "pie_comunicaciones": [
+    "A 6618",
+    "A 8220"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6618"
+    },
+    "2": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6618"
+    },
+    "3": {
+     "version": "4",
+     "letra": "A",
+     "numero": "8220"
+    },
+    "8": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6618"
+    },
+    "15": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6618"
+    },
+    "22": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6618"
+    },
+    "29": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6618"
+    },
+    "36": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6618"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri_dsf": {
+   "paginas": 31,
+   "paginas_leidas": 8,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 6,
+   "pie_comunicaciones": [
+    "A 6393",
+    "A 6865",
+    "A 6966",
+    "A 8001"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "17",
+     "letra": "A",
+     "numero": "8001"
+    },
+    "2": {
+     "version": "8",
+     "letra": "A",
+     "numero": "6865"
+    },
+    "3": {
+     "version": "5",
+     "letra": "A",
+     "numero": "6393"
+    },
+    "6": {
+     "version": "7",
+     "letra": "A",
+     "numero": "6865"
+    },
+    "11": {
+     "version": "6",
+     "letra": "A",
+     "numero": "6966"
+    },
+    "21": {
+     "version": "10",
+     "letra": "A",
+     "numero": "6393"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri_esd": {
+   "paginas": 3,
+   "paginas_leidas": 3,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 3,
+   "pie_comunicaciones": [
+    "A 6968",
+    "A 8009"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "6",
+     "letra": "A",
+     "numero": "8009"
+    },
+    "2": {
+     "version": "6",
+     "letra": "A",
+     "numero": "6968"
+    },
+    "3": {
+     "version": "6",
+     "letra": "A",
+     "numero": "6968"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri_fcem": {
+   "paginas": 1,
+   "paginas_leidas": 1,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 1,
+   "pie_comunicaciones": [
+    "A 7436"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "2",
+     "letra": "A",
+     "numero": "7436"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri_gerc": {
+   "paginas": 8,
+   "paginas_leidas": 6,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 6,
+   "pie_comunicaciones": [
+    "A 6622",
+    "A 6746",
+    "A 7635",
+    "A 8009",
+    "A 8317"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "2",
+     "letra": "A",
+     "numero": "8009"
+    },
+    "2": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6622"
+    },
+    "3": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6746"
+    },
+    "4": {
+     "version": "4",
+     "letra": "A",
+     "numero": "8009"
+    },
+    "5": {
+     "version": "3",
+     "letra": "A",
+     "numero": "7635"
+    },
+    "6": {
+     "version": "3",
+     "letra": "A",
+     "numero": "8317"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri_icpipsp": {
+   "paginas": 13,
+   "paginas_leidas": 7,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 1,
+   "pie_comunicaciones": [
+    "A 7972"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7972"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri_ieccm": {
+   "paginas": 1,
+   "paginas_leidas": 1,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 1,
+   "pie_comunicaciones": [
+    "A 7634"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7634"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri_iepsp": {
+   "paginas": 9,
+   "paginas_leidas": 6,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 1,
+   "pie_comunicaciones": [
+    "A 8456"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "2",
+     "letra": "A",
+     "numero": "8456"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri_iesinap": {
+   "paginas": 6,
+   "paginas_leidas": 6,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 1,
+   "pie_comunicaciones": [
+    "A 7604"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7604"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri_ii_31_12_19": {
+   "paginas": 21,
+   "paginas_leidas": 8,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 5,
+   "pie_comunicaciones": [
+    "A 6623",
+    "A 6712",
+    "A 8140"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6623"
+    },
+    "3": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6623"
+    },
+    "10": {
+     "version": "4",
+     "letra": "A",
+     "numero": "8140"
+    },
+    "13": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6712"
+    },
+    "16": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6623"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri_itme": {
+   "paginas": 1,
+   "paginas_leidas": 1,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 1,
+   "pie_comunicaciones": [
+    "A 7590"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "2",
+     "letra": "A",
+     "numero": "7590"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri_laft": {
+   "paginas": 45,
+   "paginas_leidas": 8,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 8,
+   "pie_comunicaciones": [
+    "A 7760",
+    "A 8429"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "2",
+     "letra": "A",
+     "numero": "7760"
+    },
+    "2": {
+     "version": "2",
+     "letra": "A",
+     "numero": "7760"
+    },
+    "3": {
+     "version": "3",
+     "letra": "A",
+     "numero": "7760"
+    },
+    "8": {
+     "version": "2",
+     "letra": "A",
+     "numero": "8429"
+    },
+    "15": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8429"
+    },
+    "22": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8429"
+    },
+    "29": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8429"
+    },
+    "36": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8429"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri_mmsef": {
+   "paginas": 9,
+   "paginas_leidas": 6,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 6,
+   "pie_comunicaciones": [
+    "A 6623"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6623"
+    },
+    "2": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6623"
+    },
+    "3": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6623"
+    },
+    "4": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6623"
+    },
+    "5": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6623"
+    },
+    "6": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6623"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri_msrl": {
+   "paginas": 20,
+   "paginas_leidas": 8,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 8,
+   "pie_comunicaciones": [
+    "A 8308"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8308"
+    },
+    "2": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8308"
+    },
+    "3": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8308"
+    },
+    "4": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8308"
+    },
+    "7": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8308"
+    },
+    "10": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8308"
+    },
+    "13": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8308"
+    },
+    "16": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8308"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri_nge": {
+   "paginas": 3,
+   "paginas_leidas": 3,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 3,
+   "pie_comunicaciones": [
+    "A 6820",
+    "A 7590",
+    "A 8427"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "31",
+     "letra": "A",
+     "numero": "6820"
+    },
+    "2": {
+     "version": "7",
+     "letra": "A",
+     "numero": "8427"
+    },
+    "3": {
+     "version": "3",
+     "letra": "A",
+     "numero": "7590"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri_niif": {
+   "paginas": 86,
+   "paginas_leidas": 8,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 8,
+   "pie_comunicaciones": [
+    "A 6324",
+    "A 6358",
+    "A 6868",
+    "A 8130",
+    "A 8366"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6324"
+    },
+    "2": {
+     "version": "2",
+     "letra": "A",
+     "numero": "8366"
+    },
+    "3": {
+     "version": "4",
+     "letra": "A",
+     "numero": "8366"
+    },
+    "15": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6324"
+    },
+    "29": {
+     "version": "4",
+     "letra": "A",
+     "numero": "8130"
+    },
+    "43": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6358"
+    },
+    "57": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6868"
+    },
+    "71": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6324"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri_oc": {
+   "paginas": 28,
+   "paginas_leidas": 8,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 8,
+   "pie_comunicaciones": [
+    "A 6811",
+    "A 8149",
+    "A 8254",
+    "A 8334",
+    "A 8451"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "24",
+     "letra": "A",
+     "numero": "8451"
+    },
+    "2": {
+     "version": "14",
+     "letra": "A",
+     "numero": "8451"
+    },
+    "3": {
+     "version": "18",
+     "letra": "A",
+     "numero": "6811"
+    },
+    "5": {
+     "version": "17",
+     "letra": "A",
+     "numero": "6811"
+    },
+    "9": {
+     "version": "54",
+     "letra": "A",
+     "numero": "8334"
+    },
+    "13": {
+     "version": "20",
+     "letra": "A",
+     "numero": "8334"
+    },
+    "17": {
+     "version": "13",
+     "letra": "A",
+     "numero": "8254"
+    },
+    "21": {
+     "version": "9",
+     "letra": "A",
+     "numero": "8149"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri_ot": {
+   "paginas": 6,
+   "paginas_leidas": 6,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 6,
+   "pie_comunicaciones": [
+    "A 6623",
+    "A 8258",
+    "A 8271"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6623"
+    },
+    "2": {
+     "version": "9",
+     "letra": "A",
+     "numero": "8271"
+    },
+    "3": {
+     "version": "8",
+     "letra": "A",
+     "numero": "8258"
+    },
+    "4": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6623"
+    },
+    "5": {
+     "version": "4",
+     "letra": "A",
+     "numero": "6623"
+    },
+    "6": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6623"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri_pfmipyme": {
+   "paginas": 1,
+   "paginas_leidas": 1,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 1,
+   "pie_comunicaciones": [
+    "A 7804"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7804"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri_pgn": {
+   "paginas": 19,
+   "paginas_leidas": 8,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 8,
+   "pie_comunicaciones": [
+    "A 6623",
+    "A 7889",
+    "A 8369"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6623"
+    },
+    "2": {
+     "version": "7",
+     "letra": "A",
+     "numero": "6623"
+    },
+    "3": {
+     "version": "17",
+     "letra": "A",
+     "numero": "8369"
+    },
+    "4": {
+     "version": "18",
+     "letra": "A",
+     "numero": "8369"
+    },
+    "7": {
+     "version": "17",
+     "letra": "A",
+     "numero": "8369"
+    },
+    "10": {
+     "version": "12",
+     "letra": "A",
+     "numero": "8369"
+    },
+    "13": {
+     "version": "4",
+     "letra": "A",
+     "numero": "6623"
+    },
+    "16": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7889"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri_pnp": {
+   "paginas": 44,
+   "paginas_leidas": 8,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 8,
+   "pie_comunicaciones": [
+    "A 6388",
+    "A 6626",
+    "A 7660",
+    "A 8377"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "9",
+     "letra": "A",
+     "numero": "7660"
+    },
+    "2": {
+     "version": "8",
+     "letra": "A",
+     "numero": "6626"
+    },
+    "3": {
+     "version": "15",
+     "letra": "A",
+     "numero": "8377"
+    },
+    "8": {
+     "version": "10",
+     "letra": "A",
+     "numero": "6626"
+    },
+    "15": {
+     "version": "14",
+     "letra": "A",
+     "numero": "7660"
+    },
+    "22": {
+     "version": "4",
+     "letra": "A",
+     "numero": "6388"
+    },
+    "29": {
+     "version": "5",
+     "letra": "A",
+     "numero": "6626"
+    },
+    "36": {
+     "version": "4",
+     "letra": "A",
+     "numero": "6626"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri_pscpp": {
+   "paginas": 1,
+   "paginas_leidas": 1,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 1,
+   "pie_comunicaciones": [
+    "A 7964"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "2",
+     "letra": "A",
+     "numero": "7964"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri_psp": {
+   "paginas": 14,
+   "paginas_leidas": 7,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 7,
+   "pie_comunicaciones": [
+    "A 8284"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "3",
+     "letra": "A",
+     "numero": "8284"
+    },
+    "2": {
+     "version": "6",
+     "letra": "A",
+     "numero": "8284"
+    },
+    "3": {
+     "version": "4",
+     "letra": "A",
+     "numero": "8284"
+    },
+    "5": {
+     "version": "3",
+     "letra": "A",
+     "numero": "8284"
+    },
+    "7": {
+     "version": "3",
+     "letra": "A",
+     "numero": "8284"
+    },
+    "9": {
+     "version": "3",
+     "letra": "A",
+     "numero": "8284"
+    },
+    "11": {
+     "version": "2",
+     "letra": "A",
+     "numero": "8284"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri_pspapt": {
+   "paginas": 5,
+   "paginas_leidas": 5,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 5,
+   "pie_comunicaciones": [
+    "A 8310",
+    "A 8381"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8310"
+    },
+    "2": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8310"
+    },
+    "3": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8310"
+    },
+    "4": {
+     "version": "2",
+     "letra": "A",
+     "numero": "8381"
+    },
+    "5": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8310"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri_pspii": {
+   "paginas": 1,
+   "paginas_leidas": 1,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 1,
+   "pie_comunicaciones": [
+    "A 8309"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8309"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri_psprca": {
+   "paginas": 6,
+   "paginas_leidas": 6,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 6,
+   "pie_comunicaciones": [
+    "A 8376"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8376"
+    },
+    "2": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8376"
+    },
+    "3": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8376"
+    },
+    "4": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8376"
+    },
+    "5": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8376"
+    },
+    "6": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8376"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri_rcl": {
+   "paginas": 2,
+   "paginas_leidas": 2,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 2,
+   "pie_comunicaciones": [
+    "A 8009",
+    "A 8308"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "4",
+     "letra": "A",
+     "numero": "8308"
+    },
+    "2": {
+     "version": "4",
+     "letra": "A",
+     "numero": "8009"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri_rem": {
+   "paginas": 2,
+   "paginas_leidas": 2,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 2,
+   "pie_comunicaciones": [
+    "A 8465"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "6",
+     "letra": "A",
+     "numero": "8465"
+    },
+    "2": {
+     "version": "5",
+     "letra": "A",
+     "numero": "8465"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri_rml": {
+   "paginas": 77,
+   "paginas_leidas": 8,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 8,
+   "pie_comunicaciones": [
+    "A 6564",
+    "A 7031",
+    "A 7627",
+    "A 8039",
+    "A 8419",
+    "A 8440"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "7",
+     "letra": "A",
+     "numero": "8419"
+    },
+    "2": {
+     "version": "13",
+     "letra": "A",
+     "numero": "8419"
+    },
+    "3": {
+     "version": "22",
+     "letra": "A",
+     "numero": "7627"
+    },
+    "13": {
+     "version": "43",
+     "letra": "A",
+     "numero": "8419"
+    },
+    "25": {
+     "version": "31",
+     "letra": "A",
+     "numero": "8440"
+    },
+    "37": {
+     "version": "5",
+     "letra": "A",
+     "numero": "7031"
+    },
+    "49": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6564"
+    },
+    "61": {
+     "version": "6",
+     "letra": "A",
+     "numero": "8039"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri_saofe": {
+   "paginas": 3,
+   "paginas_leidas": 3,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 3,
+   "pie_comunicaciones": [
+    "A 6843"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6843"
+    },
+    "2": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6843"
+    },
+    "3": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6843"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri_secoexpo": {
+   "paginas": 21,
+   "paginas_leidas": 8,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 8,
+   "pie_comunicaciones": [
+    "A 6808",
+    "A 7883"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6808"
+    },
+    "2": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6808"
+    },
+    "3": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6808"
+    },
+    "4": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6808"
+    },
+    "7": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6808"
+    },
+    "10": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6808"
+    },
+    "13": {
+     "version": "2",
+     "letra": "A",
+     "numero": "7883"
+    },
+    "16": {
+     "version": "2",
+     "letra": "A",
+     "numero": "7883"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri_sef": {
+   "paginas": 10,
+   "paginas_leidas": 6,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 6,
+   "pie_comunicaciones": [
+    "A 6790",
+    "A 7302"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "1",
+     "letra": "A",
+     "numero": "6790"
+    },
+    "2": {
+     "version": "2",
+     "letra": "A",
+     "numero": "7302"
+    },
+    "3": {
+     "version": "2",
+     "letra": "A",
+     "numero": "7302"
+    },
+    "4": {
+     "version": "2",
+     "letra": "A",
+     "numero": "7302"
+    },
+    "5": {
+     "version": "2",
+     "letra": "A",
+     "numero": "7302"
+    },
+    "6": {
+     "version": "2",
+     "letra": "A",
+     "numero": "7302"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri_spi": {
+   "paginas": 11,
+   "paginas_leidas": 6,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 0,
+   "pie_comunicaciones": [],
+   "pie_por_pagina": {},
+   "grupo": "inventariado_152"
+  },
+  "ri_tar": {
+   "paginas": 7,
+   "paginas_leidas": 6,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 6,
+   "pie_comunicaciones": [
+    "A 6800",
+    "A 7855"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "6",
+     "letra": "A",
+     "numero": "7855"
+    },
+    "2": {
+     "version": "4",
+     "letra": "A",
+     "numero": "6800"
+    },
+    "3": {
+     "version": "4",
+     "letra": "A",
+     "numero": "6800"
+    },
+    "4": {
+     "version": "4",
+     "letra": "A",
+     "numero": "6800"
+    },
+    "5": {
+     "version": "4",
+     "letra": "A",
+     "numero": "6800"
+    },
+    "6": {
+     "version": "4",
+     "letra": "A",
+     "numero": "6800"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri_tii": {
+   "paginas": 6,
+   "paginas_leidas": 6,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 6,
+   "pie_comunicaciones": [
+    "A 8427"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8427"
+    },
+    "2": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8427"
+    },
+    "3": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8427"
+    },
+    "4": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8427"
+    },
+    "5": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8427"
+    },
+    "6": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8427"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri_transpa": {
+   "paginas": 23,
+   "paginas_leidas": 8,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 8,
+   "pie_comunicaciones": [
+    "A 6623",
+    "A 6683",
+    "A 7209"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "10",
+     "letra": "A",
+     "numero": "6683"
+    },
+    "2": {
+     "version": "10",
+     "letra": "A",
+     "numero": "7209"
+    },
+    "3": {
+     "version": "5",
+     "letra": "A",
+     "numero": "6683"
+    },
+    "4": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6623"
+    },
+    "7": {
+     "version": "4",
+     "letra": "A",
+     "numero": "6623"
+    },
+    "10": {
+     "version": "4",
+     "letra": "A",
+     "numero": "6683"
+    },
+    "13": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6623"
+    },
+    "16": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6623"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri_tsa": {
+   "paginas": 92,
+   "paginas_leidas": 8,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 8,
+   "pie_comunicaciones": [
+    "A 6677",
+    "A 6868",
+    "A 8002",
+    "A 8328",
+    "A 8428"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "8",
+     "letra": "A",
+     "numero": "8328"
+    },
+    "2": {
+     "version": "2",
+     "letra": "A",
+     "numero": "8328"
+    },
+    "3": {
+     "version": "11",
+     "letra": "A",
+     "numero": "8328"
+    },
+    "16": {
+     "version": "4",
+     "letra": "A",
+     "numero": "6868"
+    },
+    "31": {
+     "version": "5",
+     "letra": "A",
+     "numero": "8002"
+    },
+    "46": {
+     "version": "11",
+     "letra": "A",
+     "numero": "8428"
+    },
+    "61": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6677"
+    },
+    "76": {
+     "version": "4",
+     "letra": "A",
+     "numero": "8328"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ri_tvf": {
+   "paginas": 5,
+   "paginas_leidas": 5,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 5,
+   "pie_comunicaciones": [
+    "A 6385",
+    "A 6580"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "8",
+     "letra": "A",
+     "numero": "6385"
+    },
+    "2": {
+     "version": "9",
+     "letra": "A",
+     "numero": "6580"
+    },
+    "3": {
+     "version": "8",
+     "letra": "A",
+     "numero": "6580"
+    },
+    "4": {
+     "version": "8",
+     "letra": "A",
+     "numero": "6580"
+    },
+    "5": {
+     "version": "8",
+     "letra": "A",
+     "numero": "6580"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ribspc": {
+   "paginas": 2,
+   "paginas_leidas": 2,
+   "portada_comunicacion": "A 4753",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 1,
+   "pie_comunicaciones": [
+    "A 4036"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "2",
+     "letra": "A",
+     "numero": "4036"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "ric": {
+   "paginas": 59,
+   "paginas_leidas": 8,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 8,
+   "pie_comunicaciones": [
+    "A 5877",
+    "A 6070",
+    "A 6561",
+    "A 6643",
+    "A 7041",
+    "A 7149",
+    "A 7946",
+    "A 8156"
+   ],
+   "pie_por_pagina": {
+    "1": {
+     "version": "4",
+     "letra": "A",
+     "numero": "5877"
+    },
+    "2": {
+     "version": "6",
+     "letra": "A",
+     "numero": "6561"
+    },
+    "3": {
+     "version": "7",
+     "letra": "A",
+     "numero": "7149"
+    },
+    "10": {
+     "version": "4",
+     "letra": "A",
+     "numero": "8156"
+    },
+    "19": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6070"
+    },
+    "28": {
+     "version": "6",
+     "letra": "A",
+     "numero": "7946"
+    },
+    "37": {
+     "version": "10",
+     "letra": "A",
+     "numero": "7041"
+    },
+    "46": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6643"
+    }
+   },
+   "grupo": "desarrollo_5"
+  },
+  "rmgcti": {
+   "paginas": 58,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8401",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 7,
+   "pie_comunicaciones": [
+    "A 7777",
+    "A 8401"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7777"
+    },
+    "3": {
+     "version": "3",
+     "letra": "A",
+     "numero": "8401"
+    },
+    "10": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7777"
+    },
+    "19": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7777"
+    },
+    "28": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7777"
+    },
+    "37": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7777"
+    },
+    "46": {
+     "version": "2",
+     "letra": "A",
+     "numero": "8401"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "rmrtsd": {
+   "paginas": 20,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 7783",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "02/06/2023",
+   "pie_paginas_con_senal": 7,
+   "pie_comunicaciones": [
+    "A 7783"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7783"
+    },
+    "3": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7783"
+    },
+    "4": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7783"
+    },
+    "7": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7783"
+    },
+    "10": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7783"
+    },
+    "13": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7783"
+    },
+    "16": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7783"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "rrci": {
+   "paginas": 20,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8280",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "17/07/2025",
+   "pie_paginas_con_senal": 7,
+   "pie_comunicaciones": [
+    "A 7266",
+    "A 8280"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "2",
+     "letra": "A",
+     "numero": "8280"
+    },
+    "3": {
+     "version": "2",
+     "letra": "A",
+     "numero": "8280"
+    },
+    "4": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7266"
+    },
+    "7": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7266"
+    },
+    "10": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7266"
+    },
+    "13": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7266"
+    },
+    "16": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8280"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "secfin": {
+   "paginas": 10,
+   "paginas_leidas": 6,
+   "portada_comunicacion": "A 8131",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 5,
+   "pie_comunicaciones": [
+    "A 6624",
+    "A 7711",
+    "A 8131"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "5",
+     "letra": "A",
+     "numero": "7711"
+    },
+    "3": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6624"
+    },
+    "4": {
+     "version": "5",
+     "letra": "A",
+     "numero": "8131"
+    },
+    "5": {
+     "version": "6",
+     "letra": "A",
+     "numero": "7711"
+    },
+    "6": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7711"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "seggar": {
+   "paginas": 26,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8407",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "05/03/2026",
+   "pie_paginas_con_senal": 5,
+   "pie_comunicaciones": [
+    "A 5816",
+    "A 5943",
+    "A 6654",
+    "A 7985",
+    "A 8407"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "7",
+     "letra": "A",
+     "numero": "7985"
+    },
+    "3": {
+     "version": "9",
+     "letra": "A",
+     "numero": "5943"
+    },
+    "5": {
+     "version": "25",
+     "letra": "A",
+     "numero": "8407"
+    },
+    "9": {
+     "version": "8",
+     "letra": "A",
+     "numero": "6654"
+    },
+    "13": {
+     "version": "5",
+     "letra": "A",
+     "numero": "5816"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "seguef": {
+   "paginas": 25,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8241",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "15/05/2025",
+   "pie_paginas_con_senal": 6,
+   "pie_comunicaciones": [
+    "A 6438",
+    "A 7447",
+    "A 8241"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "11",
+     "letra": "A",
+     "numero": "8241"
+    },
+    "3": {
+     "version": "10",
+     "letra": "A",
+     "numero": "7447"
+    },
+    "5": {
+     "version": "5",
+     "letra": "A",
+     "numero": "6438"
+    },
+    "9": {
+     "version": "10",
+     "letra": "A",
+     "numero": "8241"
+    },
+    "13": {
+     "version": "10",
+     "letra": "A",
+     "numero": "8241"
+    },
+    "17": {
+     "version": "6",
+     "letra": "A",
+     "numero": "8241"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "servco": {
+   "paginas": 14,
+   "paginas_leidas": 7,
+   "portada_comunicacion": "A 8392",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "26/01/2026",
+   "pie_paginas_con_senal": 4,
+   "pie_comunicaciones": [
+    "A 6304",
+    "A 6612",
+    "A 7506",
+    "A 7631"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6304"
+    },
+    "3": {
+     "version": "2",
+     "letra": "A",
+     "numero": "7506"
+    },
+    "5": {
+     "version": "8",
+     "letra": "A",
+     "numero": "7631"
+    },
+    "7": {
+     "version": "7",
+     "letra": "A",
+     "numero": "6612"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "snp_atm": {
+   "paginas": 8,
+   "paginas_leidas": 6,
+   "portada_comunicacion": "A 7392",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "02/11/2021",
+   "pie_paginas_con_senal": 5,
+   "pie_comunicaciones": [
+    "A 7391",
+    "A 7392"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7392"
+    },
+    "3": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7392"
+    },
+    "4": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7391"
+    },
+    "5": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7392"
+    },
+    "6": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7392"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "snp_cec": {
+   "paginas": 34,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8282",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "21/07/2025",
+   "pie_paginas_con_senal": 7,
+   "pie_comunicaciones": [
+    "A 7739",
+    "A 8051",
+    "A 8236"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7739"
+    },
+    "3": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7739"
+    },
+    "6": {
+     "version": "1",
+     "letra": "A",
+     "numero": "7739"
+    },
+    "11": {
+     "version": "2",
+     "letra": "A",
+     "numero": "8051"
+    },
+    "16": {
+     "version": "2",
+     "letra": "A",
+     "numero": "8051"
+    },
+    "21": {
+     "version": "2",
+     "letra": "A",
+     "numero": "8051"
+    },
+    "26": {
+     "version": "5",
+     "letra": "A",
+     "numero": "8236"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "snp_cheq": {
+   "paginas": 159,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8458",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "23/07/2026",
+   "pie_paginas_con_senal": 5,
+   "pie_comunicaciones": [
+    "A 8086",
+    "A 8438"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "8",
+     "letra": "A",
+     "numero": "8438"
+    },
+    "3": {
+     "version": "5",
+     "letra": "A",
+     "numero": "8438"
+    },
+    "53": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8438"
+    },
+    "105": {
+     "version": "3",
+     "letra": "A",
+     "numero": "8086"
+    },
+    "131": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8438"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "snp_dd": {
+   "paginas": 68,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8295",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "07/08/2025",
+   "pie_paginas_con_senal": 3,
+   "pie_comunicaciones": [
+    "A 5054",
+    "A 7050",
+    "A 7906"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "2",
+     "letra": "A",
+     "numero": "7050"
+    },
+    "23": {
+     "version": "4",
+     "letra": "A",
+     "numero": "7906"
+    },
+    "56": {
+     "version": "1",
+     "letra": "A",
+     "numero": "5054"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "snp_debin": {
+   "paginas": 22,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8321",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "08/09/2025",
+   "pie_paginas_con_senal": 7,
+   "pie_comunicaciones": [
+    "A 8172",
+    "A 8321"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "5",
+     "letra": "A",
+     "numero": "8172"
+    },
+    "3": {
+     "version": "6",
+     "letra": "A",
+     "numero": "8321"
+    },
+    "4": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8321"
+    },
+    "7": {
+     "version": "2",
+     "letra": "A",
+     "numero": "8321"
+    },
+    "10": {
+     "version": "5",
+     "letra": "A",
+     "numero": "8172"
+    },
+    "13": {
+     "version": "5",
+     "letra": "A",
+     "numero": "8172"
+    },
+    "16": {
+     "version": "4",
+     "letra": "A",
+     "numero": "8172"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "snp_mep": {
+   "paginas": 50,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8343",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "14/10/2025",
+   "pie_paginas_con_senal": 6,
+   "pie_comunicaciones": [
+    "A 8343"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "7",
+     "letra": "A",
+     "numero": "8343"
+    },
+    "3": {
+     "version": "5",
+     "letra": "A",
+     "numero": "8343"
+    },
+    "9": {
+     "version": "5",
+     "letra": "A",
+     "numero": "8343"
+    },
+    "17": {
+     "version": "5",
+     "letra": "A",
+     "numero": "8343"
+    },
+    "25": {
+     "version": "9",
+     "letra": "A",
+     "numero": "8343"
+    },
+    "33": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8343"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "snp_psp": {
+   "paginas": 23,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8454",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "14/07/2026",
+   "pie_paginas_con_senal": 7,
+   "pie_comunicaciones": [
+    "A 7495",
+    "A 8287",
+    "A 8454"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "8",
+     "letra": "A",
+     "numero": "8454"
+    },
+    "3": {
+     "version": "3",
+     "letra": "A",
+     "numero": "7495"
+    },
+    "4": {
+     "version": "4",
+     "letra": "A",
+     "numero": "8454"
+    },
+    "7": {
+     "version": "6",
+     "letra": "A",
+     "numero": "8287"
+    },
+    "10": {
+     "version": "6",
+     "letra": "A",
+     "numero": "8454"
+    },
+    "13": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8454"
+    },
+    "16": {
+     "version": "2",
+     "letra": "A",
+     "numero": "8454"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "snp_spd": {
+   "paginas": 32,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8303",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "18/08/2025",
+   "pie_paginas_con_senal": 7,
+   "pie_comunicaciones": [
+    "A 8114",
+    "A 8303"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "5",
+     "letra": "A",
+     "numero": "8303"
+    },
+    "3": {
+     "version": "2",
+     "letra": "A",
+     "numero": "8303"
+    },
+    "6": {
+     "version": "2",
+     "letra": "A",
+     "numero": "8303"
+    },
+    "11": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8114"
+    },
+    "16": {
+     "version": "4",
+     "letra": "A",
+     "numero": "8114"
+    },
+    "21": {
+     "version": "2",
+     "letra": "A",
+     "numero": "8303"
+    },
+    "26": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8303"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "snp_tr": {
+   "paginas": 62,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8295",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "07/08/2025",
+   "pie_paginas_con_senal": 7,
+   "pie_comunicaciones": [
+    "A 7175",
+    "A 7936",
+    "A 8295"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "7",
+     "letra": "A",
+     "numero": "7936"
+    },
+    "3": {
+     "version": "4",
+     "letra": "A",
+     "numero": "7175"
+    },
+    "11": {
+     "version": "3",
+     "letra": "A",
+     "numero": "7175"
+    },
+    "21": {
+     "version": "2",
+     "letra": "A",
+     "numero": "7175"
+    },
+    "31": {
+     "version": "3",
+     "letra": "A",
+     "numero": "8295"
+    },
+    "41": {
+     "version": "4",
+     "letra": "A",
+     "numero": "8295"
+    },
+    "51": {
+     "version": "7",
+     "letra": "A",
+     "numero": "7936"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "snp_tr_nc": {
+   "paginas": 31,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8436",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "14/05/2026",
+   "pie_paginas_con_senal": 7,
+   "pie_comunicaciones": [
+    "A 8399",
+    "A 8436"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "6",
+     "letra": "A",
+     "numero": "8399"
+    },
+    "3": {
+     "version": "2",
+     "letra": "A",
+     "numero": "8399"
+    },
+    "6": {
+     "version": "4",
+     "letra": "A",
+     "numero": "8399"
+    },
+    "11": {
+     "version": "1",
+     "letra": "A",
+     "numero": "8399"
+    },
+    "16": {
+     "version": "2",
+     "letra": "A",
+     "numero": "8399"
+    },
+    "21": {
+     "version": "3",
+     "letra": "A",
+     "numero": "8399"
+    },
+    "26": {
+     "version": "8",
+     "letra": "A",
+     "numero": "8436"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "socgar": {
+   "paginas": 14,
+   "paginas_leidas": 7,
+   "portada_comunicacion": "A 8211",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 4,
+   "pie_comunicaciones": [
+    "A 6437",
+    "A 8211"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "5",
+     "letra": "A",
+     "numero": "8211"
+    },
+    "3": {
+     "version": "4",
+     "letra": "A",
+     "numero": "6437"
+    },
+    "5": {
+     "version": "8",
+     "letra": "A",
+     "numero": "8211"
+    },
+    "7": {
+     "version": "2",
+     "letra": "A",
+     "numero": "8211"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "supcon": {
+   "paginas": 21,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8445",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "04/06/2026",
+   "pie_paginas_con_senal": 6,
+   "pie_comunicaciones": [
+    "A 2989",
+    "A 6428",
+    "A 7393",
+    "A 7982"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "4",
+     "letra": "A",
+     "numero": "7982"
+    },
+    "3": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6428"
+    },
+    "4": {
+     "version": "1",
+     "letra": "A",
+     "numero": "2989"
+    },
+    "7": {
+     "version": "3",
+     "letra": "A",
+     "numero": "7393"
+    },
+    "10": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6428"
+    },
+    "13": {
+     "version": "8",
+     "letra": "A",
+     "numero": "7393"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "tasint": {
+   "paginas": 29,
+   "paginas_leidas": 8,
+   "portada_comunicacion": "A 8057",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 6,
+   "pie_comunicaciones": [
+    "A 3052",
+    "A 6462",
+    "A 6541",
+    "A 6889",
+    "A 7156"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "8",
+     "letra": "A",
+     "numero": "6462"
+    },
+    "3": {
+     "version": "6",
+     "letra": "A",
+     "numero": "7156"
+    },
+    "5": {
+     "version": "3",
+     "letra": "A",
+     "numero": "6889"
+    },
+    "9": {
+     "version": "5",
+     "letra": "A",
+     "numero": "6541"
+    },
+    "13": {
+     "version": "7",
+     "letra": "A",
+     "numero": "6541"
+    },
+    "17": {
+     "version": "1",
+     "letra": "A",
+     "numero": "3052"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "traval": {
+   "paginas": 15,
+   "paginas_leidas": 7,
+   "portada_comunicacion": "A 7447",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": "26/01/2022",
+   "pie_paginas_con_senal": 6,
+   "pie_comunicaciones": [
+    "A 6353",
+    "A 6525",
+    "A 6540"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "5",
+     "letra": "A",
+     "numero": "6525"
+    },
+    "3": {
+     "version": "5",
+     "letra": "A",
+     "numero": "6525"
+    },
+    "5": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6353"
+    },
+    "7": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6353"
+    },
+    "9": {
+     "version": "6",
+     "letra": "A",
+     "numero": "6540"
+    },
+    "11": {
+     "version": "4",
+     "letra": "A",
+     "numero": "6353"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "venliq": {
+   "paginas": 10,
+   "paginas_leidas": 6,
+   "portada_comunicacion": null,
+   "portada_ilegible_por_glifos": true,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 5,
+   "pie_comunicaciones": [
+    "A 4946",
+    "A 6130"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "1",
+     "letra": "A",
+     "numero": "4946"
+    },
+    "3": {
+     "version": "1",
+     "letra": "A",
+     "numero": "4946"
+    },
+    "4": {
+     "version": "1",
+     "letra": "A",
+     "numero": "4946"
+    },
+    "5": {
+     "version": "1",
+     "letra": "A",
+     "numero": "4946"
+    },
+    "6": {
+     "version": "2",
+     "letra": "A",
+     "numero": "6130"
+    }
+   },
+   "grupo": "inventariado_152"
+  },
+  "verac": {
+   "paginas": 5,
+   "paginas_leidas": 5,
+   "portada_comunicacion": "A 7944",
+   "portada_ilegible_por_glifos": false,
+   "texto_ordenado_al": null,
+   "pie_paginas_con_senal": 2,
+   "pie_comunicaciones": [
+    "A 3016",
+    "A 7944"
+   ],
+   "pie_por_pagina": {
+    "2": {
+     "version": "1",
+     "letra": "A",
+     "numero": "3016"
+    },
+    "3": {
+     "version": "4",
+     "letra": "A",
+     "numero": "7944"
+    }
+   },
+   "grupo": "inventariado_152"
+  }
+ }
+}

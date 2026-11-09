@@ -1,0 +1,27 @@
+{
+ "formato": "generados_resolucion_r2/1",
+ "catalogo_request": "data/experiment/catalogo_unico/catalogo_sujetos_r2.json",
+ "catalogo_request_sha256": "c3ad15811c7ea5fa2d0f6cbd56dc775c38dcffd0ae8874c22f5f45c1e82d3a83",
+ "ampliaciones": "ampliaciones_resolucion_r2.json",
+ "ampliaciones_sha256": "23f027afb3307898006206c3636e480c1743d68129ef112ce66bde34ef744ddb",
+ "n_ampliaciones": 47,
+ "n_altas": 47,
+ "n_alcances": 0,
+ "registro_alcance": null,
+ "registro_alcance_sha256": null,
+ "catalogo": "catalogo_resolucion_r2.json",
+ "catalogo_sha256": "541470153cac9f676bf520594dcd0210036a5e62378b178d14d7a5caeb6a0308",
+ "generador": "data/experiment/reresolucion_catalogo/reresolver_catalogo.py",
+ "no_generados_solo_del_request": [
+  "bloque_catalogo_r2.txt",
+  "enums_tool_schema_r2.json"
+ ],
+ "archivos": {
+  "indice_e4_r2.json": "3bfc994db5feee9a13a5f33a7caea43bcb7753438bf5b21166720ccf05483444",
+  "labels_e2_r2.json": "ae71cffe473d21fa8cd9b0a12a1d83cfd86f15777f43899b6db46860bdb61cad",
+  "rol_por_to_r2.json": "07cdb7af51b8ae82b606e972e3ab81be5a52aa4279cfc9132561c8e49ef13bd1",
+  "entrada_esqueleto_r2.json": "b9d9218b03ecb0c2dd4591787beb24b8a2a13311c3dd745fbd51c4313703dc08",
+  "ids_s19_r2.json": "5ef12bdf049a034c9a161c3ba14d2bbc328714bd4d7c23cb85c330255755ab39",
+  "catalogo_suite_r2.json": "80c4f0784093a6c161232390a1d5fc58d72c8a71c0f7c69e5a97a7369c501d29"
+ }
+}

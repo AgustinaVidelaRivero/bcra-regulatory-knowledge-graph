@@ -1,0 +1,42 @@
+{
+ "veredicto": "OK",
+ "cortesia_con_la_fuente": {
+  "arranques_del_runner": 3,
+  "pedidos_al_indice_registrados": 3,
+  "pedidos_a_pdfs_registrados": 157,
+  "pedidos_en_vuelo_sin_registro": 1,
+  "reintentos_por_error_de_red": 1,
+  "activaciones_modo_lento_503": 0,
+  "cierres_de_segmento": [
+   "=== corrida 2026-09-07 — fin === descargados=157 fallidos=0 pedidos=106 pared=215s"
+  ],
+  "nota": "La bitácora cruda no se versiona (*.log del .gitignore raíz); estas estadísticas son su derivado persistido."
+ },
+ "comprobaciones_fallidas": [],
+ "fecha_corrida": "2026-09-07",
+ "alcance": {
+  "linea_base": 157,
+  "indice_hoy": 157,
+  "tabla": 157,
+  "duplicadas_del_indice": 1
+ },
+ "clases_recomputadas": {
+  "sin_cambio": 146,
+  "contenido_modificado": 11
+ },
+ "sha_recomputados_ok": 157,
+ "modificados": [
+  "capmin",
+  "cladeu",
+  "ctacte",
+  "finsec",
+  "optico",
+  "ri_cm",
+  "ri_oc",
+  "ri_secoexpo",
+  "ri_tii",
+  "seggar",
+  "tasint"
+ ],
+ "paginas_linea_base": 7321
+}

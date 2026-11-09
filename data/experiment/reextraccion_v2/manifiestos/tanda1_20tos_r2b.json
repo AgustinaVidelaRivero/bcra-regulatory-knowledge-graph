@@ -1,0 +1,568 @@
+{
+ "version": "1",
+ "nombre": "tanda1_20tos_r2b",
+ "descripcion": "B6.1, tanda 1, T1, punto 2.3 (16/10/2026; pre-registro firmado en 95b18217, §2, «Manifiesto de la tanda 1»): los 20 TOs de la lista final (segmentacion_oficial_e0r2/s2/lista_tanda1_S2.json, 22f33a17…; U = 3.290), con sus entradas del manifiesto de los 152 de S1-ter (f59cdea0…) y rol_alcance del perfil r2b vigente después de A2 (rol_por_to, que junta la tabla de la release y el derivado catalogo_unico/registro_alcance_r2b.json, e06933e7…). nombres_remision: el método de reext_t0/t1_manifiestos.py, que no los deriva y los deja como vienen en la entrada de origen (vacíos en S1-ter, que dice que los fija el ensamblado; el runner no los lee). rutas.e0_salida es la E0 de los 20 generada en T1 con el código del gate (S0-6b, 80adbd58…). orden_corrida: de menor a mayor por unidades. tope_global_usd = 1,45 × 3.290 × 0,021115 = 100,7291 (§3); estimado_usd por TO: e1 = unidades × 0,010135 más las líneas de alcance del TO (alcance_e1/a2/salidas/medicion_tanda1_a2.json), e3 = unidades × 0,010980, sin redondear; suma 69,659193, que a 4 decimales da 69,6592. Sellos: los del §2 (código 47c9f1b3; candados del mensaje de E1 de A2 y del de E3 desde O2). Lo arma data/experiment/tanda1/t1/t1_manifiesto.py.",
+ "tos": [
+  {
+   "id": "ri_gerc",
+   "archivo": "ri_gerc.pdf",
+   "pdf": "data/experiment/escalado_prep/pdfs/ri_gerc.pdf",
+   "sha256_pdf": "a774cd6053454509b3c133451ba4c8ab604ba0caaaeff8609b633646c3da097e",
+   "sha256_descarga": "a774cd6053454509b3c133451ba4c8ab604ba0caaaeff8609b633646c3da097e",
+   "sha256_igual_a_la_descarga": true,
+   "rol_alcance": "Sujeto_rol_entidad_comprendida_reginf",
+   "nombres_remision": [],
+   "clase": "reconocido_pleno",
+   "modo_lectura": "vigente",
+   "paginas": 8,
+   "categoria": "RI",
+   "via": "por_punto",
+   "fuente_via": "e0-r2, escalera de correr_e0.escalera_e0_r2 (esta corrida)",
+   "vigencia": {
+    "vigente": true,
+    "fuente": "sin marca conocida al armar el manifiesto; el censo de vigencia de S1 (punto 5) la controla y una marca nueva se reporta como hallazgo"
+   }
+  },
+  {
+   "id": "ri_pgn",
+   "archivo": "ri_pgn.pdf",
+   "pdf": "data/experiment/escalado_prep/pdfs/ri_pgn.pdf",
+   "sha256_pdf": "57ae2dd85117235f734e971f101f70197d47bc5d438829c1a3c89b63ae513a9d",
+   "sha256_descarga": "57ae2dd85117235f734e971f101f70197d47bc5d438829c1a3c89b63ae513a9d",
+   "sha256_igual_a_la_descarga": true,
+   "rol_alcance": "Sujeto_rol_entidad_comprendida_reginf",
+   "nombres_remision": [],
+   "clase": "reconocido_pleno",
+   "modo_lectura": "vigente",
+   "paginas": 19,
+   "categoria": "RI",
+   "via": "por_punto",
+   "fuente_via": "e0-r2, escalera de correr_e0.escalera_e0_r2 (esta corrida)",
+   "vigencia": {
+    "vigente": true,
+    "fuente": "sin marca conocida al armar el manifiesto; el censo de vigencia de S1 (punto 5) la controla y una marca nueva se reporta como hallazgo"
+   }
+  },
+  {
+   "id": "ceninf",
+   "archivo": "ceninf.pdf",
+   "pdf": "data/experiment/escalado_prep/pdfs/ceninf.pdf",
+   "sha256_pdf": "18a0b119a2261c95b570bc091653691f0109365ca3739273e58a0d0a1d6e4b13",
+   "sha256_descarga": "18a0b119a2261c95b570bc091653691f0109365ca3739273e58a0d0a1d6e4b13",
+   "sha256_igual_a_la_descarga": true,
+   "rol_alcance": null,
+   "nombres_remision": [],
+   "clase": "reconocido_pleno",
+   "modo_lectura": "sin_raiz",
+   "paginas": 23,
+   "categoria": "no-RI",
+   "via": "por_punto",
+   "fuente_via": "e0-r2, escalera de correr_e0.escalera_e0_r2 (esta corrida)",
+   "vigencia": {
+    "vigente": true,
+    "fuente": "sin marca conocida al armar el manifiesto; el censo de vigencia de S1 (punto 5) la controla y una marca nueva se reporta como hallazgo"
+   }
+  },
+  {
+   "id": "ri_rml",
+   "archivo": "ri_rml.pdf",
+   "pdf": "data/experiment/escalado_prep/pdfs/ri_rml.pdf",
+   "sha256_pdf": "064499583aac9ee947c5f1c222869ae9959d5acb9e3b038aa5d8699b5b2c1a96",
+   "sha256_descarga": "064499583aac9ee947c5f1c222869ae9959d5acb9e3b038aa5d8699b5b2c1a96",
+   "sha256_igual_a_la_descarga": true,
+   "rol_alcance": "Sujeto_rol_entidad_comprendida_reginf",
+   "nombres_remision": [],
+   "clase": "reconocido_pleno",
+   "modo_lectura": "vigente",
+   "paginas": 77,
+   "categoria": "RI",
+   "via": "por_punto",
+   "fuente_via": "e0-r2, escalera de correr_e0.escalera_e0_r2 (esta corrida)",
+   "vigencia": {
+    "vigente": true,
+    "fuente": "sin marca conocida al armar el manifiesto; el censo de vigencia de S1 (punto 5) la controla y una marca nueva se reporta como hallazgo"
+   }
+  },
+  {
+   "id": "nmcief",
+   "archivo": "nmcief.pdf",
+   "pdf": "data/experiment/escalado_prep/pdfs/nmcief.pdf",
+   "sha256_pdf": "467d9dc3afa4266c37b750df466925f15f761bcd0528437851aeed1560de6fad",
+   "sha256_descarga": "467d9dc3afa4266c37b750df466925f15f761bcd0528437851aeed1560de6fad",
+   "sha256_igual_a_la_descarga": true,
+   "rol_alcance": [
+    "Sujeto_entidad_financiera",
+    "Sujeto_sujeto_del_perimetro_consolidado"
+   ],
+   "nombres_remision": [],
+   "clase": "reconocido_pleno",
+   "modo_lectura": "sin_raiz",
+   "paginas": 36,
+   "categoria": "no-RI",
+   "via": "por_punto",
+   "fuente_via": "e0-r2, escalera de correr_e0.escalera_e0_r2 (esta corrida)",
+   "vigencia": {
+    "vigente": true,
+    "fuente": "sin marca conocida al armar el manifiesto; el censo de vigencia de S1 (punto 5) la controla y una marca nueva se reporta como hallazgo"
+   }
+  },
+  {
+   "id": "adrei",
+   "archivo": "adrei.pdf",
+   "pdf": "data/experiment/escalado_prep/pdfs/adrei.pdf",
+   "sha256_pdf": "44a2eea2e1d374d68e379924ede75896333b7957bde43de6dcf918f34faf5315",
+   "sha256_descarga": "44a2eea2e1d374d68e379924ede75896333b7957bde43de6dcf918f34faf5315",
+   "sha256_igual_a_la_descarga": true,
+   "rol_alcance": "Sujeto_rol_alcance_adrei",
+   "nombres_remision": [],
+   "clase": "reconocido_pleno",
+   "modo_lectura": "vigente",
+   "paginas": 19,
+   "categoria": "no-RI",
+   "via": "por_punto",
+   "fuente_via": "e0-r2, escalera de correr_e0.escalera_e0_r2 (esta corrida)",
+   "vigencia": {
+    "vigente": true,
+    "fuente": "sin marca conocida al armar el manifiesto; el censo de vigencia de S1 (punto 5) la controla y una marca nueva se reporta como hallazgo"
+   }
+  },
+  {
+   "id": "opefci",
+   "archivo": "opefci.pdf",
+   "pdf": "data/experiment/escalado_prep/pdfs/opefci.pdf",
+   "sha256_pdf": "1012372fc30d37a948f828b1e57c2e6ce47bf8d2393359d0aef307f6e97bcd89",
+   "sha256_descarga": "1012372fc30d37a948f828b1e57c2e6ce47bf8d2393359d0aef307f6e97bcd89",
+   "sha256_igual_a_la_descarga": true,
+   "rol_alcance": "Sujeto_entidad_financiera",
+   "nombres_remision": [],
+   "clase": "reconocido_pleno",
+   "modo_lectura": "vigente",
+   "paginas": 33,
+   "categoria": "no-RI",
+   "via": "por_punto",
+   "fuente_via": "e0-r2, escalera de correr_e0.escalera_e0_r2 (esta corrida)",
+   "vigencia": {
+    "vigente": true,
+    "fuente": "sin marca conocida al armar el manifiesto; el censo de vigencia de S1 (punto 5) la controla y una marca nueva se reporta como hallazgo"
+   }
+  },
+  {
+   "id": "ri_dcpc",
+   "archivo": "ri_dcpc.pdf",
+   "pdf": "data/experiment/escalado_prep/pdfs/ri_dcpc.pdf",
+   "sha256_pdf": "20621470038326adf4c08a45a35284041235270483fb0aa2527acb4b99a00561",
+   "sha256_descarga": "20621470038326adf4c08a45a35284041235270483fb0aa2527acb4b99a00561",
+   "sha256_igual_a_la_descarga": true,
+   "rol_alcance": "Sujeto_entidad_financiera",
+   "nombres_remision": [],
+   "clase": "reconocido_pleno",
+   "modo_lectura": "marcadores",
+   "paginas": 44,
+   "categoria": "RI",
+   "via": "por_punto",
+   "fuente_via": "e0-r2, escalera de correr_e0.escalera_e0_r2 (esta corrida)",
+   "vigencia": {
+    "vigente": true,
+    "fuente": "sin marca conocida al armar el manifiesto; el censo de vigencia de S1 (punto 5) la controla y una marca nueva se reporta como hallazgo"
+   }
+  },
+  {
+   "id": "snp_tr",
+   "archivo": "snp_tr.pdf",
+   "pdf": "data/experiment/escalado_prep/pdfs/snp_tr.pdf",
+   "sha256_pdf": "760521827165f671de3b506acd4df1fdfb2da9abdcf22e15e86cb510b742c9a8",
+   "sha256_descarga": "760521827165f671de3b506acd4df1fdfb2da9abdcf22e15e86cb510b742c9a8",
+   "sha256_igual_a_la_descarga": true,
+   "rol_alcance": "Sujeto_rol_alcance_snp_tr_nc",
+   "nombres_remision": [],
+   "clase": "reconocido_pleno",
+   "modo_lectura": "vigente",
+   "paginas": 62,
+   "categoria": "no-RI",
+   "via": "por_punto",
+   "fuente_via": "e0-r2, escalera de correr_e0.escalera_e0_r2 (esta corrida)",
+   "vigencia": {
+    "vigente": true,
+    "fuente": "sin marca conocida al armar el manifiesto; el censo de vigencia de S1 (punto 5) la controla y una marca nueva se reporta como hallazgo"
+   }
+  },
+  {
+   "id": "efemin",
+   "archivo": "efemin.pdf",
+   "pdf": "data/experiment/escalado_prep/pdfs/efemin.pdf",
+   "sha256_pdf": "327ab2bb64f67ba4ce6f469798d88ea6c61f61c0dc059ef8e60e624a1a180ea8",
+   "sha256_descarga": "327ab2bb64f67ba4ce6f469798d88ea6c61f61c0dc059ef8e60e624a1a180ea8",
+   "sha256_igual_a_la_descarga": true,
+   "rol_alcance": "Sujeto_rol_alcance_efemin",
+   "nombres_remision": [],
+   "clase": "reconocido_pleno",
+   "modo_lectura": "vigente",
+   "paginas": 53,
+   "categoria": "no-RI",
+   "via": "por_punto",
+   "fuente_via": "e0-r2, escalera de correr_e0.escalera_e0_r2 (esta corrida)",
+   "vigencia": {
+    "vigente": true,
+    "fuente": "sin marca conocida al armar el manifiesto; el censo de vigencia de S1 (punto 5) la controla y una marca nueva se reporta como hallazgo"
+   }
+  },
+  {
+   "id": "ri_mmsef",
+   "archivo": "ri_mmsef.pdf",
+   "pdf": "data/experiment/escalado_prep/pdfs/ri_mmsef.pdf",
+   "sha256_pdf": "6da98633ca26dbc3f9771860a07980ccc02100174373c53143145a1e227bb84f",
+   "sha256_descarga": "6da98633ca26dbc3f9771860a07980ccc02100174373c53143145a1e227bb84f",
+   "sha256_igual_a_la_descarga": true,
+   "rol_alcance": "Sujeto_rol_entidad_comprendida_reginf",
+   "nombres_remision": [],
+   "clase": "reconocido_pleno",
+   "modo_lectura": "sin_raiz",
+   "paginas": 9,
+   "categoria": "RI",
+   "via": "por_punto",
+   "fuente_via": "e0-r2, escalera de correr_e0.escalera_e0_r2 (esta corrida)",
+   "vigencia": {
+    "vigente": true,
+    "fuente": "sin marca conocida al armar el manifiesto; el censo de vigencia de S1 (punto 5) la controla y una marca nueva se reporta como hallazgo"
+   }
+  },
+  {
+   "id": "manori",
+   "archivo": "manori.pdf",
+   "pdf": "data/experiment/escalado_prep/pdfs/manori.pdf",
+   "sha256_pdf": "d1758b8f4e9ce6a32d7498f64123b0dab31b3f99229dbcf9590688087b073f09",
+   "sha256_descarga": "d1758b8f4e9ce6a32d7498f64123b0dab31b3f99229dbcf9590688087b073f09",
+   "sha256_igual_a_la_descarga": true,
+   "rol_alcance": "Sujeto_entidad_financiera",
+   "nombres_remision": [],
+   "clase": "reconocido_pleno",
+   "modo_lectura": "vigente",
+   "paginas": 99,
+   "categoria": "no-RI",
+   "via": "por_punto",
+   "fuente_via": "e0-r2, escalera de correr_e0.escalera_e0_r2 (esta corrida)",
+   "vigencia": {
+    "vigente": true,
+    "fuente": "sin marca conocida al armar el manifiesto; el censo de vigencia de S1 (punto 5) la controla y una marca nueva se reporta como hallazgo"
+   }
+  },
+  {
+   "id": "expaef",
+   "archivo": "expaef.pdf",
+   "pdf": "data/experiment/escalado_prep/pdfs/expaef.pdf",
+   "sha256_pdf": "9cb78ac9e1c73b217275450031a056799bf7a9198e2575866dc3f85e4e705a25",
+   "sha256_descarga": "9cb78ac9e1c73b217275450031a056799bf7a9198e2575866dc3f85e4e705a25",
+   "sha256_igual_a_la_descarga": true,
+   "rol_alcance": "Sujeto_entidad_financiera",
+   "nombres_remision": [],
+   "clase": "reconocido_pleno",
+   "modo_lectura": "vigente",
+   "paginas": 37,
+   "categoria": "no-RI",
+   "via": "por_punto",
+   "fuente_via": "e0-r2, escalera de correr_e0.escalera_e0_r2 (esta corrida)",
+   "vigencia": {
+    "vigente": true,
+    "fuente": "sin marca conocida al armar el manifiesto; el censo de vigencia de S1 (punto 5) la controla y una marca nueva se reporta como hallazgo"
+   }
+  },
+  {
+   "id": "ri_ccna",
+   "archivo": "ri_ccna.pdf",
+   "pdf": "data/experiment/escalado_prep/pdfs/ri_ccna.pdf",
+   "sha256_pdf": "d2bfb3c0bb64a3ebdc7fba84077479057e8ced9a07ba59507bd5f336830c7738",
+   "sha256_descarga": "d2bfb3c0bb64a3ebdc7fba84077479057e8ced9a07ba59507bd5f336830c7738",
+   "sha256_igual_a_la_descarga": true,
+   "rol_alcance": "Sujeto_caja_de_credito",
+   "nombres_remision": [],
+   "clase": "reconocido_pleno",
+   "modo_lectura": "sin_raiz",
+   "paginas": 60,
+   "categoria": "RI",
+   "via": "por_punto",
+   "fuente_via": "e0-r2, escalera de correr_e0.escalera_e0_r2 (esta corrida)",
+   "vigencia": {
+    "vigente": true,
+    "fuente": "sin marca conocida al armar el manifiesto; el censo de vigencia de S1 (punto 5) la controla y una marca nueva se reporta como hallazgo"
+   }
+  },
+  {
+   "id": "ayccef",
+   "archivo": "ayccef.pdf",
+   "pdf": "data/experiment/escalado_prep/pdfs/ayccef.pdf",
+   "sha256_pdf": "aa5e3e43a920c904d47e81526ea4a61ea6b683418a2d4890b3254a029e6de9c5",
+   "sha256_descarga": "aa5e3e43a920c904d47e81526ea4a61ea6b683418a2d4890b3254a029e6de9c5",
+   "sha256_igual_a_la_descarga": true,
+   "rol_alcance": "Sujeto_entidad_financiera",
+   "nombres_remision": [],
+   "clase": "reconocido_pleno",
+   "modo_lectura": "vigente",
+   "paginas": 47,
+   "categoria": "no-RI",
+   "via": "por_punto",
+   "fuente_via": "e0-r2, escalera de correr_e0.escalera_e0_r2 (esta corrida)",
+   "vigencia": {
+    "vigente": true,
+    "fuente": "sin marca conocida al armar el manifiesto; el censo de vigencia de S1 (punto 5) la controla y una marca nueva se reporta como hallazgo"
+   }
+  },
+  {
+   "id": "cirmo3",
+   "archivo": "cirmo3.pdf",
+   "pdf": "data/experiment/escalado_prep/pdfs/cirmo3.pdf",
+   "sha256_pdf": "6ffbf997cf218aa1033e2fc77a06779553edc6536f4d9c09f202ebdd6087cba0",
+   "sha256_descarga": "6ffbf997cf218aa1033e2fc77a06779553edc6536f4d9c09f202ebdd6087cba0",
+   "sha256_igual_a_la_descarga": true,
+   "rol_alcance": null,
+   "nombres_remision": [],
+   "clase": "reconocido_pleno",
+   "modo_lectura": "vigente",
+   "paginas": 107,
+   "categoria": "no-RI",
+   "via": "por_punto",
+   "fuente_via": "e0-r2, escalera de correr_e0.escalera_e0_r2 (esta corrida)",
+   "vigencia": {
+    "vigente": true,
+    "fuente": "sin marca conocida al armar el manifiesto; el censo de vigencia de S1 (punto 5) la controla y una marca nueva se reporta como hallazgo"
+   }
+  },
+  {
+   "id": "snp_cheq",
+   "archivo": "snp_cheq.pdf",
+   "pdf": "data/experiment/escalado_prep/pdfs/snp_cheq.pdf",
+   "sha256_pdf": "88748cf77d0eb2fe7f81f39b850b3a463a48e8ed3bc13da593be265a1a8d632a",
+   "sha256_descarga": "88748cf77d0eb2fe7f81f39b850b3a463a48e8ed3bc13da593be265a1a8d632a",
+   "sha256_igual_a_la_descarga": true,
+   "rol_alcance": [
+    "Sujeto_entidad_financiera",
+    "Sujeto_camara_electronica_de_compensacion"
+   ],
+   "nombres_remision": [],
+   "clase": "reconocido_pleno",
+   "modo_lectura": "vigente",
+   "paginas": 159,
+   "categoria": "no-RI",
+   "via": "por_punto",
+   "fuente_via": "e0-r2, escalera de correr_e0.escalera_e0_r2 (esta corrida)",
+   "vigencia": {
+    "vigente": true,
+    "fuente": "sin marca conocida al armar el manifiesto; el censo de vigencia de S1 (punto 5) la controla y una marca nueva se reporta como hallazgo"
+   }
+  },
+  {
+   "id": "cajasc",
+   "archivo": "cajasc.pdf",
+   "pdf": "data/experiment/escalado_prep/pdfs/cajasc.pdf",
+   "sha256_pdf": "15b0623fd2897cfe7bcd81a5f9bd92ea239c2dfaa04053a9033fbf8c9dfa5d16",
+   "sha256_descarga": "15b0623fd2897cfe7bcd81a5f9bd92ea239c2dfaa04053a9033fbf8c9dfa5d16",
+   "sha256_igual_a_la_descarga": true,
+   "rol_alcance": "Sujeto_caja_de_credito_cooperativa",
+   "nombres_remision": [],
+   "clase": "reconocido_pleno",
+   "modo_lectura": "vigente",
+   "paginas": 68,
+   "categoria": "no-RI",
+   "via": "por_punto",
+   "fuente_via": "e0-r2, escalera de correr_e0.escalera_e0_r2 (esta corrida)",
+   "vigencia": {
+    "vigente": true,
+    "fuente": "sin marca conocida al armar el manifiesto; el censo de vigencia de S1 (punto 5) la controla y una marca nueva se reporta como hallazgo"
+   }
+  },
+  {
+   "id": "depaho",
+   "archivo": "depaho.pdf",
+   "pdf": "data/experiment/escalado_prep/pdfs/depaho.pdf",
+   "sha256_pdf": "d98ef03929e9e6604927a42d029f7d0cab30b30961374520a455ac23960b08fd",
+   "sha256_descarga": "d98ef03929e9e6604927a42d029f7d0cab30b30961374520a455ac23960b08fd",
+   "sha256_igual_a_la_descarga": true,
+   "rol_alcance": "Sujeto_rol_alcance_depaho",
+   "nombres_remision": [],
+   "clase": "reconocido_pleno",
+   "modo_lectura": "vigente",
+   "paginas": 107,
+   "categoria": "no-RI",
+   "via": "por_punto",
+   "fuente_via": "e0-r2, escalera de correr_e0.escalera_e0_r2 (esta corrida)",
+   "vigencia": {
+    "vigente": true,
+    "fuente": "sin marca conocida al armar el manifiesto; el censo de vigencia de S1 (punto 5) la controla y una marca nueva se reporta como hallazgo"
+   }
+  },
+  {
+   "id": "lingeef",
+   "archivo": "lingeef.pdf",
+   "pdf": "data/experiment/escalado_prep/pdfs/lingeef.pdf",
+   "sha256_pdf": "0ff1dfcc04e73efc8f53dd551ca257dceb32b23c77d3be015cbc011d6bf9f918",
+   "sha256_descarga": "0ff1dfcc04e73efc8f53dd551ca257dceb32b23c77d3be015cbc011d6bf9f918",
+   "sha256_igual_a_la_descarga": true,
+   "rol_alcance": "Sujeto_entidad_financiera",
+   "nombres_remision": [],
+   "clase": "reconocido_pleno",
+   "modo_lectura": "vigente",
+   "paginas": 172,
+   "categoria": "no-RI",
+   "via": "por_punto",
+   "fuente_via": "e0-r2, escalera de correr_e0.escalera_e0_r2 (esta corrida)",
+   "vigencia": {
+    "vigente": true,
+    "fuente": "sin marca conocida al armar el manifiesto; el censo de vigencia de S1 (punto 5) la controla y una marca nueva se reporta como hallazgo"
+   }
+  }
+ ],
+ "orden_corrida": [
+  "ri_gerc",
+  "ri_pgn",
+  "ceninf",
+  "ri_rml",
+  "nmcief",
+  "adrei",
+  "opefci",
+  "ri_dcpc",
+  "snp_tr",
+  "efemin",
+  "ri_mmsef",
+  "manori",
+  "expaef",
+  "ri_ccna",
+  "ayccef",
+  "cirmo3",
+  "snp_cheq",
+  "cajasc",
+  "depaho",
+  "lingeef"
+ ],
+ "perfil_e1": "r2b",
+ "rutas": {
+  "e0_salida": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b"
+ },
+ "oraculo": {
+  "mapa_territorio": null,
+  "limitaciones_e0": []
+ },
+ "limites": {
+  "tope_global_usd": 100.7291,
+  "margen_unidad_usd": 0.35,
+  "estimado_usd": {
+   "ri_gerc": {
+    "e1": 0.197932,
+    "e3": 0.210638
+   },
+   "ri_pgn": {
+    "e1": 0.391172,
+    "e3": 0.416281
+   },
+   "ceninf": {
+    "e1": 0.5486,
+    "e3": 0.594338
+   },
+   "ri_rml": {
+    "e1": 1.720043,
+    "e3": 1.830455
+   },
+   "nmcief": {
+    "e1": 1.393084,
+    "e3": 1.479741
+   },
+   "adrei": {
+    "e1": 0.594935,
+    "e3": 0.644538
+   },
+   "opefci": {
+    "e1": 0.282544,
+    "e3": 0.306102
+   },
+   "ri_dcpc": {
+    "e1": 1.04318,
+    "e3": 1.110987
+   },
+   "snp_tr": {
+    "e1": 1.278529,
+    "e3": 1.359652
+   },
+   "efemin": {
+    "e1": 1.212949,
+    "e3": 1.314077
+   },
+   "ri_mmsef": {
+    "e1": 0.83853,
+    "e3": 0.892357
+   },
+   "manori": {
+    "e1": 2.712658,
+    "e3": 2.888985
+   },
+   "expaef": {
+    "e1": 0.690026,
+    "e3": 0.747557
+   },
+   "ri_ccna": {
+    "e1": 1.689714,
+    "e3": 1.800175
+   },
+   "ayccef": {
+    "e1": 1.102716,
+    "e3": 1.194654
+   },
+   "cirmo3": {
+    "e1": 2.47557,
+    "e3": 2.68197
+   },
+   "snp_cheq": {
+    "e1": 3.678558,
+    "e3": 3.907883
+   },
+   "cajasc": {
+    "e1": 2.230414,
+    "e3": 2.416373
+   },
+   "depaho": {
+    "e1": 2.623843,
+    "e3": 2.842604
+   },
+   "lingeef": {
+    "e1": 6.870982,
+    "e3": 7.443847
+   }
+  },
+  "checkpoint_cada": {
+   "lingeef": 150,
+   "depaho": 150
+  },
+  "chequeos_hits": []
+ },
+ "tests_respuesta_conocida": null,
+ "sellos": {
+  "unidad": "B6.1, tanda 1 (T1, punto 2.3; pre-registro firmado en 95b18217)",
+  "commit_codigo": "47c9f1b3",
+  "e0": {
+   "ruta": "data/experiment/reextraccion_v2/e0_chunking/salida_tanda1_r2b",
+   "commit": "PENDIENTE (lo fija el commit de la autora)",
+   "archivos": 107
+  },
+  "prefijo_e1": {
+   "hash": "322c5a23e9b7",
+   "sha256": "ccffa4e36ba26a4b63b5760a7657d4bb5f5357ccd2392fe2b67584e4c2efb775",
+   "caracteres": 59909,
+   "commit": "66cde30",
+   "parche_p3c_sha256": "5e3761c16d13a83d2071cb05494aea04a2c862259d39c7333e40db490f11c678",
+   "base_p3b2_sha256": "8d84364fc3b6f6b586ff09e11833a2328408ae6f93b081c8ae64a059ea839c8b"
+  },
+  "tool_schema_sha256": "0c391f2b23bb7c94ec2606bd0315f3e4589c16a3571eaaa210a27babaa0f8ba2",
+  "namespace_e1": "e1_extraccion|cv=e1-extractor-v1-p322c5a23e9b7|think=0",
+  "namespace_reintento_forma": "e1_extraccion|cv=e1-extractor-v1-p322c5a23e9b7-rforma1|think=0",
+  "temperatura_e1": 0,
+  "temperatura_reintento_forma": 1,
+  "prefijo_e3_hash": "21a836c7de6d",
+  "namespace_e3": "e3_verificacion|cv=e3-verificador-v1-p21a836c7de6d|think=0",
+  "candados": {
+   "tablas_forzadas_sha256": "98cc96b2fec4cd7febb1fba71df8490ea420c0c0419711a122daaf4f12c2bc67",
+   "candado_mensaje_r2b_json_sha256": "6b758517cee0f2e36c26c54f0f6738b3d49d11d0cf3141c26cff166ce6820325",
+   "mensaje_r2b_sha256": "eeb11b9a3bf699d5535fcf2bbe79541ba746ae7bdae3341af962840990a97362",
+   "registro_alcance_r2b_json_sha256": "e06933e77a1ae819229d5f2a4b5886f71f6129c809032e1e557932fb8cb69ff4",
+   "candado_mensaje_e3_json_sha256": "079d2489f37c4485920e932f8cb2bfd60992ecc68bbb80ba504d04e5a5f8065b",
+   "mensaje_e3_sha256": "66bc865645e99be13cc284f7733f22080612a1342bb2210add71cb122dd15a13"
+  }
+ },
+ "indice_fragmentos": null
+}

@@ -1,0 +1,826 @@
+{
+ "TO_proteccion_usuarios_servicios_financieros_actual.pdf": {
+  "rol_id": "Sujeto_rol_sujeto_obligado_proteccion",
+  "label": "Sujetos obligados (Protección de usuarios)",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera",
+   "Sujeto_entidad_cambiaria",
+   "Sujeto_fiduciario_de_fideicomiso_financiero",
+   "Sujeto_empresa_no_financiera_emisora_de_tarjetas",
+   "Sujeto_proveedor_no_financiero_de_credito",
+   "Sujeto_pspcp",
+   "Sujeto_psi_billetera_digital"
+  ],
+  "miembros_labels": [
+   "Entidades financieras",
+   "Entidades cambiarias",
+   "Fiduciarios de fideicomisos financieros",
+   "Empresas no financieras emisoras de tarjetas de crédito y/o compra",
+   "Proveedores no financieros de crédito",
+   "Proveedores de servicios de pago que ofrecen cuentas de pago (PSPCP)",
+   "Proveedores de servicios de pago iniciadores que prestan el servicio de billetera digital (PSI)"
+  ]
+ },
+ "TO_exterior_cambios_actual.pdf": {
+  "rol_id": "Sujeto_rol_entidad_autorizada_exterior",
+  "label": "Entidades autorizadas a operar en cambios (Exterior)",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera",
+   "Sujeto_entidad_cambiaria"
+  ],
+  "miembros_labels": [
+   "Entidades financieras",
+   "Entidades cambiarias"
+  ]
+ },
+ "TO_clasificacion_deudores_actual.pdf": {
+  "rol_id": "Sujeto_rol_obligado_a_clasificar_clasificacion",
+  "label": "Obligados a clasificar deudores (Clasificación)",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera",
+   "Sujeto_proveedor_no_financiero_de_credito",
+   "Sujeto_fiduciario_de_fideicomiso_financiero",
+   "Sujeto_sociedad_de_garantia_reciproca",
+   "Sujeto_fondo_de_garantia_publico",
+   "Sujeto_pscpp"
+  ],
+  "miembros_labels": [
+   "Entidades financieras",
+   "Proveedores no financieros de crédito",
+   "Fiduciarios de fideicomisos financieros",
+   "Sociedades de garantía recíproca",
+   "Fondos de garantía de carácter público",
+   "Proveedores de servicios de créditos entre particulares a través de plataformas (PSCPP)"
+  ]
+ },
+ "TO_regimen_informativo_contable_mensual_actual.pdf": {
+  "rol_id": "Sujeto_rol_entidad_comprendida_reginf",
+  "label": "Entidades comprendidas (Régimen Informativo)",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "TO_capitales_minimos_actual.pdf": {
+  "rol_id": "Sujeto_rol_alcance_capmin",
+  "label": "Entidades alcanzadas (Capitales Mínimos)",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "adrei.pdf": {
+  "rol_id": "Sujeto_rol_alcance_adrei",
+  "label": "Entidades alcanzadas (Agregación de datos sobre riesgos: D-SIB)",
+  "miembros_ids": [],
+  "miembros_labels": [
+   "Entidades financieras de importancia sistémica local (D-SIB)"
+  ]
+ },
+ "autenf.pdf": {
+  "rol_id": "Sujeto_rol_alcance_autenf",
+  "label": "Autoridades comprendidas (Autoridades de entidades financieras)",
+  "miembros_ids": [],
+  "miembros_labels": [
+   "Personas que ejercen cargos de administración, fiscalización o gerencia en entidades financieras"
+  ]
+ },
+ "ccbcra.pdf": {
+  "rol_id": "Sujeto_rol_alcance_ccbcra",
+  "label": "Entidades alcanzadas (Cuentas a la vista en el BCRA)",
+  "miembros_ids": [],
+  "miembros_labels": [
+   "Entidades financieras",
+   "Cajas de crédito (Ley 25.782)",
+   "Entidades cambiarias"
+  ]
+ },
+ "convca.pdf": {
+  "rol_id": "Sujeto_rol_alcance_convca",
+  "label": "Entidades habilitadas (Conversión cambiaria)",
+  "miembros_ids": [],
+  "miembros_labels": [
+   "Entidades financieras y otras habilitadas a conversión cambiaria"
+  ]
+ },
+ "cryl.pdf": {
+  "rol_id": "Sujeto_rol_alcance_cryl",
+  "label": "Sujetos habilitados (CRyL)",
+  "miembros_ids": [],
+  "miembros_labels": [
+   "Entidades financieras",
+   "Mercados de Valores del país",
+   "Fondos comunes de inversión",
+   "Centrales depositarias de valores",
+   "Cámaras electrónicas de compensación (CEC)"
+  ]
+ },
+ "ctacor.pdf": {
+  "rol_id": "Sujeto_rol_alcance_ctacor",
+  "label": "Entidades intervinientes (Cuentas de corresponsalía)",
+  "miembros_ids": [],
+  "miembros_labels": [
+   "Entidades financieras del país",
+   "Casas de cambio (Sección 3)"
+  ]
+ },
+ "depaho.pdf": {
+  "rol_id": "Sujeto_rol_alcance_depaho",
+  "label": "Entidades intervinientes (Depósitos de ahorro)",
+  "miembros_ids": [],
+  "miembros_labels": [
+   "Bancos comerciales de primer grado",
+   "Compañías financieras",
+   "Cajas de crédito",
+   "Sociedades de ahorro y préstamo para la vivienda u otros inmuebles"
+  ]
+ },
+ "efemin.pdf": {
+  "rol_id": "Sujeto_rol_alcance_efemin",
+  "label": "Entidades alcanzadas (Efectivo mínimo)",
+  "miembros_ids": [],
+  "miembros_labels": [
+   "Entidades financieras (filiales del país)"
+  ]
+ },
+ "fabcra.pdf": {
+  "rol_id": "Sujeto_rol_alcance_fabcra",
+  "label": "Entidades registrantes de firmas (Firmas autorizadas ante el BCRA)",
+  "miembros_ids": [],
+  "miembros_labels": [
+   "Entidades financieras",
+   "Operadores de cambio",
+   "Cámaras electrónicas de compensación",
+   "Cajas de valores",
+   "Mercados",
+   "Compañías financieras",
+   "Agentes de liquidación y compensación",
+   "Ministerio de Economía",
+   "ANSES"
+  ]
+ },
+ "icmecma.pdf": {
+  "rol_id": "Sujeto_rol_alcance_icmecma",
+  "label": "Sujetos alcanzados (Comunicación por medios electrónicos)",
+  "miembros_ids": [],
+  "miembros_labels": [
+   "Entidades financieras",
+   "Empresas no financieras emisoras de tarjetas de crédito y/o compra",
+   "Fiduciarios de fideicomisos financieros",
+   "Administradores de carteras crediticias de ex-entidades financieras",
+   "Otros proveedores no financieros de crédito"
+  ]
+ },
+ "lavdin.pdf": {
+  "rol_id": "Sujeto_rol_alcance_lavdin",
+  "label": "Entidades alcanzadas (Prevención del lavado de activos)",
+  "miembros_ids": [],
+  "miembros_labels": [
+   "Entidades financieras",
+   "Entidades cambiarias"
+  ]
+ },
+ "ordcom.pdf": {
+  "rol_id": "Sujeto_rol_alcance_ordcom",
+  "label": "Destinatarios de Comunicaciones (Ordenamiento de Comunicaciones)",
+  "miembros_ids": [],
+  "miembros_labels": [
+   "BCRA (emisor)",
+   "Destinatarios de Comunicaciones (entidades financieras, cajas de crédito cooperativas, etc.)"
+  ]
+ },
+ "osapsa.pdf": {
+  "rol_id": "Sujeto_rol_alcance_osapsa",
+  "label": "Sujetos alcanzados (Otros servicios y actividades)",
+  "miembros_ids": [],
+  "miembros_labels": [
+   "Entidades financieras (Secciones 2, 4 y 5)",
+   "Empresas no financieras emisoras de tarjetas (Secciones 3 y 5)",
+   "Operadores de cambio y empresas de cobranzas extrabancarias (Sección 5)"
+  ]
+ },
+ "pagjub.pdf": {
+  "rol_id": "Sujeto_rol_alcance_pagjub",
+  "label": "Entidades participantes (Pago de beneficios ANSES)",
+  "miembros_ids": [],
+  "miembros_labels": [
+   "Entidades financieras participantes del pago de beneficios ANSES"
+  ]
+ },
+ "pfmipyme.pdf": {
+  "rol_id": "Sujeto_rol_alcance_pfmipyme",
+  "label": "Plataformas para el financiamiento MiPyME (PFM)",
+  "miembros_ids": [],
+  "miembros_labels": [
+   "Plataformas para el financiamiento MiPyME (PFM)"
+  ]
+ },
+ "pimf.pdf": {
+  "rol_id": "Sujeto_rol_alcance_pimf",
+  "label": "Infraestructuras del mercado financiero alcanzadas (PIMF)",
+  "miembros_ids": [],
+  "miembros_labels": [
+   "Infraestructuras del mercado financiero (IMF) nominadas en la Sección 5"
+  ]
+ },
+ "ratiofn.pdf": {
+  "rol_id": "Sujeto_rol_alcance_ratiofn",
+  "label": "Entidades alcanzadas (Ratio de fondeo neto estable: D-SIB y suc. G-SIB)",
+  "miembros_ids": [],
+  "miembros_labels": [
+   "Entidades financieras D-SIB",
+   "Sucursales o subsidiarias de bancos del exterior G-SIB"
+  ]
+ },
+ "rdbcra.pdf": {
+  "rol_id": "Sujeto_rol_alcance_rdbcra",
+  "label": "Personas sumariables (Régimen disciplinario del BCRA)",
+  "miembros_ids": [],
+  "miembros_labels": [
+   "Personas jurídicas y humanas sometidas al ámbito de la Ley de Entidades Financieras"
+  ]
+ },
+ "repefe.pdf": {
+  "rol_id": "Sujeto_rol_alcance_repefe",
+  "label": "Representantes de entidades financieras del exterior (Representantes)",
+  "miembros_ids": [],
+  "miembros_labels": [
+   "Representantes de entidades financieras del exterior no autorizadas"
+  ]
+ },
+ "retype.pdf": {
+  "rol_id": "Sujeto_rol_alcance_retype",
+  "label": "Entidades bancarias participantes (Pago de retiros y pensiones militares)",
+  "miembros_ids": [],
+  "miembros_labels": [
+   "Banco de la Nación Argentina",
+   "Otros bancos públicos participantes (IAF)"
+  ]
+ },
+ "rmrtsd.pdf": {
+  "rol_id": "Sujeto_rol_alcance_rmrtsd",
+  "label": "Sujetos obligados (Servicios financieros digitales)",
+  "miembros_ids": [],
+  "miembros_labels": [
+   "Entidades financieras",
+   "Proveedores de servicios de pago (PSP)"
+  ]
+ },
+ "rrci.pdf": {
+  "rol_id": "Sujeto_rol_alcance_rrci",
+  "label": "Sujetos alcanzados (Respuesta y recuperación ante ciberincidentes)",
+  "miembros_ids": [],
+  "miembros_labels": [
+   "Entidades financieras",
+   "PSP incluidos en el Registro del BCRA",
+   "Infraestructuras del mercado financiero de importancia sistémica"
+  ]
+ },
+ "servco.pdf": {
+  "rol_id": "Sujeto_rol_alcance_servco",
+  "label": "Entidades alcanzadas (Servicios complementarios)",
+  "miembros_ids": [],
+  "miembros_labels": [
+   "Entidades financieras (Sección 2: bancos comerciales y compañías financieras)"
+  ]
+ },
+ "snp_atm.pdf": {
+  "rol_id": "Sujeto_rol_alcance_snp_atm",
+  "label": "Entidades alcanzadas (SNP - Cajeros automáticos)",
+  "miembros_ids": [],
+  "miembros_labels": [
+   "Entidades financieras que ofrezcan cuentas a la vista",
+   "Empresas no financieras operadoras de cajeros automáticos"
+  ]
+ },
+ "snp_debin.pdf": {
+  "rol_id": "Sujeto_rol_alcance_snp_debin",
+  "label": "Entidades y PSPCP alcanzados (SNP - Débito Inmediato)",
+  "miembros_ids": [],
+  "miembros_labels": [
+   "Entidades financieras",
+   "PSPCP"
+  ]
+ },
+ "snp_psp.pdf": {
+  "rol_id": "Sujeto_rol_alcance_snp_psp",
+  "label": "Sujetos alcanzados (SNP - Proveedores de servicios de pago)",
+  "miembros_ids": [],
+  "miembros_labels": [
+   "Proveedores de servicios de pago (PSP)",
+   "Entidades financieras"
+  ]
+ },
+ "snp_spd.pdf": {
+  "rol_id": "Sujeto_rol_alcance_snp_spd",
+  "label": "Sujetos alcanzados (SNP - Servicios de pago)",
+  "miembros_ids": [],
+  "miembros_labels": [
+   "Entidades financieras",
+   "PSP (según el servicio)"
+  ]
+ },
+ "snp_tr_nc.pdf": {
+  "rol_id": "Sujeto_rol_alcance_snp_tr_nc",
+  "label": "Sujetos alcanzados (SNP - Transferencias - Normas complementarias)",
+  "miembros_ids": [],
+  "miembros_labels": [
+   "Entidades financieras",
+   "Proveedores de servicios de pago (PSP)"
+  ]
+ },
+ "supcon.pdf": {
+  "rol_id": "Sujeto_rol_alcance_supcon",
+  "label": "Entidades y empresas alcanzadas (Supervisión consolidada)",
+  "miembros_ids": [],
+  "miembros_labels": [
+   "Entidades financieras",
+   "Empresas del perímetro de supervisión consolidada"
+  ]
+ },
+ "traval.pdf": {
+  "rol_id": "Sujeto_rol_alcance_traval",
+  "label": "Sujetos comprendidos (Transportadoras de valores)",
+  "miembros_ids": [],
+  "miembros_labels": [
+   "Transportadoras de valores (TV)",
+   "Prestadoras de Servicios de Transporte de Valores (PSTV)",
+   "Transportadoras de Valores Propias (TVP)"
+  ]
+ },
+ "actgar.pdf": {
+  "rol_id": "Sujeto_entidad_financiera",
+  "clase_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "label": "Entidades financieras",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "adfsp.pdf": {
+  "rol_id": "Sujeto_entidad_financiera",
+  "clase_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "label": "Entidades financieras",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "afiltr.pdf": {
+  "rol_id": "Sujeto_entidad_financiera",
+  "clase_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "label": "Entidades financieras",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "apnf.pdf": {
+  "rol_id": "Sujeto_proveedor_no_financiero_de_credito",
+  "clase_ids": [
+   "Sujeto_proveedor_no_financiero_de_credito"
+  ],
+  "label": "Proveedores no financieros de crédito",
+  "miembros_ids": [
+   "Sujeto_proveedor_no_financiero_de_credito"
+  ],
+  "miembros_labels": [
+   "Proveedores no financieros de crédito"
+  ]
+ },
+ "ayccef.pdf": {
+  "rol_id": "Sujeto_entidad_financiera",
+  "clase_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "label": "Entidades financieras",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "cajasc.pdf": {
+  "rol_id": "Sujeto_caja_de_credito_cooperativa",
+  "clase_ids": [
+   "Sujeto_caja_de_credito_cooperativa"
+  ],
+  "label": "Cajas de crédito cooperativas",
+  "miembros_ids": [
+   "Sujeto_caja_de_credito_cooperativa"
+  ],
+  "miembros_labels": [
+   "Cajas de crédito cooperativas"
+  ]
+ },
+ "cescar.pdf": {
+  "rol_id": "Sujeto_entidad_financiera",
+  "clase_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "label": "Entidades financieras",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "coltit.pdf": {
+  "rol_id": "Sujeto_entidad_financiera",
+  "clase_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "label": "Entidades financieras",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "ctacte.pdf": {
+  "rol_id": "Sujeto_banco",
+  "clase_ids": [
+   "Sujeto_banco"
+  ],
+  "label": "Bancos",
+  "miembros_ids": [
+   "Sujeto_banco"
+  ],
+  "miembros_labels": [
+   "Bancos"
+  ]
+ },
+ "ctavis.pdf": {
+  "rol_id": "Sujeto_caja_de_credito_cooperativa",
+  "clase_ids": [
+   "Sujeto_caja_de_credito_cooperativa"
+  ],
+  "label": "Cajas de crédito cooperativas",
+  "miembros_ids": [
+   "Sujeto_caja_de_credito_cooperativa"
+  ],
+  "miembros_labels": [
+   "Cajas de crédito cooperativas"
+  ]
+ },
+ "depinv.pdf": {
+  "rol_id": "Sujeto_entidad_financiera",
+  "clase_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "label": "Entidades financieras",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "disres.pdf": {
+  "rol_id": "Sujeto_entidad_financiera",
+  "clase_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "label": "Entidades financieras",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "evacre.pdf": {
+  "rol_id": "Sujeto_entidad_financiera",
+  "clase_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "label": "Entidades financieras",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "expaef.pdf": {
+  "rol_id": "Sujeto_entidad_financiera",
+  "clase_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "label": "Entidades financieras",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "fclef.pdf": {
+  "rol_id": "Sujeto_fideicomiso_financiero",
+  "clase_ids": [
+   "Sujeto_fideicomiso_financiero"
+  ],
+  "label": "Fideicomisos financieros",
+  "miembros_ids": [
+   "Sujeto_fideicomiso_financiero"
+  ],
+  "miembros_labels": [
+   "Fideicomisos financieros"
+  ]
+ },
+ "fgarcp.pdf": {
+  "rol_id": "Sujeto_fondo_de_garantia_publico",
+  "clase_ids": [
+   "Sujeto_fondo_de_garantia_publico"
+  ],
+  "label": "Fondos de garantía de carácter público",
+  "miembros_ids": [
+   "Sujeto_fondo_de_garantia_publico"
+  ],
+  "miembros_labels": [
+   "Fondos de garantía de carácter público"
+  ]
+ },
+ "finsec.pdf": {
+  "rol_id": "Sujeto_entidad_financiera",
+  "clase_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "label": "Entidades financieras",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "gerc.pdf": {
+  "rol_id": "Sujeto_entidad_financiera",
+  "clase_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "label": "Entidades financieras",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "gescre.pdf": {
+  "rol_id": "Sujeto_entidad_financiera",
+  "clase_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "label": "Entidades financieras",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "gracre.pdf": {
+  "rol_id": "Sujeto_entidad_financiera",
+  "clase_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "label": "Entidades financieras",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "graloc.pdf": {
+  "rol_id": "Sujeto_entidad_financiera",
+  "clase_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "label": "Entidades financieras",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "incuca.pdf": {
+  "rol_id": "Sujeto_entidad_financiera",
+  "clase_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "label": "Entidades financieras",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "lingeef.pdf": {
+  "rol_id": "Sujeto_entidad_financiera",
+  "clase_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "label": "Entidades financieras",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "lingob.pdf": {
+  "rol_id": "Sujeto_entidad_financiera",
+  "clase_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "label": "Entidades financieras",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "opefci.pdf": {
+  "rol_id": "Sujeto_entidad_financiera",
+  "clase_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "label": "Entidades financieras",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "pognme.pdf": {
+  "rol_id": "Sujeto_entidad_financiera",
+  "clase_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "label": "Entidades financieras",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "polcre.pdf": {
+  "rol_id": "Sujeto_entidad_financiera",
+  "clase_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "label": "Entidades financieras",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "prevmi.pdf": {
+  "rol_id": "Sujeto_entidad_financiera",
+  "clase_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "label": "Entidades financieras",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "pscpp.pdf": {
+  "rol_id": "Sujeto_pscpp",
+  "clase_ids": [
+   "Sujeto_pscpp"
+  ],
+  "label": "Proveedores de servicios de créditos entre particulares a través de plataformas (PSCPP)",
+  "miembros_ids": [
+   "Sujeto_pscpp"
+  ],
+  "miembros_labels": [
+   "Proveedores de servicios de créditos entre particulares a través de plataformas (PSCPP)"
+  ]
+ },
+ "raapal.pdf": {
+  "rol_id": "Sujeto_entidad_financiera",
+  "clase_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "label": "Entidades financieras",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "relact.pdf": {
+  "rol_id": "Sujeto_entidad_financiera",
+  "clase_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "label": "Entidades financieras",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "ri2_ci.pdf": {
+  "rol_id": null,
+  "clase_ids": [
+   "Sujeto_casa_de_cambio",
+   "Sujeto_agencia_de_cambio"
+  ],
+  "label": "Casas de cambio / Agencias de cambio",
+  "miembros_ids": [
+   "Sujeto_casa_de_cambio",
+   "Sujeto_agencia_de_cambio"
+  ],
+  "miembros_labels": [
+   "Casas de cambio",
+   "Agencias de cambio"
+  ]
+ },
+ "secfin.pdf": {
+  "rol_id": "Sujeto_entidad_financiera",
+  "clase_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "label": "Entidades financieras",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ },
+ "snp_cec.pdf": {
+  "rol_id": "Sujeto_camara_electronica_de_compensacion",
+  "clase_ids": [
+   "Sujeto_camara_electronica_de_compensacion"
+  ],
+  "label": "Cámaras electrónicas de compensación (CEC)",
+  "miembros_ids": [
+   "Sujeto_camara_electronica_de_compensacion"
+  ],
+  "miembros_labels": [
+   "Cámaras electrónicas de compensación (CEC)"
+  ]
+ },
+ "socgar.pdf": {
+  "rol_id": "Sujeto_sociedad_de_garantia_reciproca",
+  "clase_ids": [
+   "Sujeto_sociedad_de_garantia_reciproca"
+  ],
+  "label": "Sociedades de garantía recíproca",
+  "miembros_ids": [
+   "Sujeto_sociedad_de_garantia_reciproca"
+  ],
+  "miembros_labels": [
+   "Sociedades de garantía recíproca"
+  ]
+ },
+ "tasint.pdf": {
+  "rol_id": "Sujeto_entidad_financiera",
+  "clase_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "label": "Entidades financieras",
+  "miembros_ids": [
+   "Sujeto_entidad_financiera"
+  ],
+  "miembros_labels": [
+   "Entidades financieras"
+  ]
+ }
+}
