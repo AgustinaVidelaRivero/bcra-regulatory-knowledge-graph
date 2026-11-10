@@ -1,6 +1,6 @@
 # Notas técnicas de la publicación
 
-Estas secciones estaban en el README de la primera versión, y su texto no cambió salvo las cuentas. El README nombra este archivo.
+Estas secciones estaban en el README de la primera versión, y su texto no cambió salvo las cuentas y lo que sumó la guía de `reconstruccion/` (3 filas del mapa y la última sección). El README nombra este archivo.
 
 ## Mapa por etapa
 
@@ -23,8 +23,8 @@ sigan andando.
 | `data/experiment/banco_mcp/b64/` | 54 | B6.4: análisis confirmatorio y exactitud de cita (código y resultados agregados; las preguntas, las respuestas y los veredictos están en `evaluacion/`) |
 | `data/experiment/banco_mcp/coincidencias_con_el_grafo/` | 15 | Scripts que sostienen la declaración de las coincidencias del grafo con criterios (`docs/formato_del_grafo.md`) |
 | `data/experiment/banco_mcp/gate/` | 2 | Cierre de los imports: lo importa el código de `data/experiment/banco_mcp/adaptador/`, `data/experiment/banco_mcp/mcp_kg/`, `data/experiment/banco_mcp/smoke/`, `scripts/` |
-| `data/experiment/banco_mcp/mcp_kg/` | 23 | Servidor MCP del grafo (navegación por el grafo); suma el manifiesto de referencia del índice de puntos |
-| `data/experiment/banco_mcp/mcp_vector/` | 11 | Servidor MCP de recuperación por fragmentos (BM25, denso e híbrido; los índices se regeneran desde el corpus); suma lo del tramo de las instrucciones, los planes y la 6.3 |
+| `data/experiment/banco_mcp/mcp_kg/` | 24 | Servidor MCP del grafo (navegación por el grafo); suma el manifiesto de referencia del índice de puntos y la matriz densa de ese índice |
+| `data/experiment/banco_mcp/mcp_vector/` | 13 | Servidor MCP de recuperación por fragmentos (BM25, denso e híbrido; los índices se regeneran desde el corpus); suma lo del tramo de las instrucciones, los planes y la 6.3, y la matriz densa del índice denso con su manifiesto |
 | `data/experiment/banco_mcp/n6/` | 1 | Cierre de los imports: lo importa el código de `data/experiment/banco_mcp/b63/`, `data/experiment/banco_mcp/b64/` |
 | `data/experiment/banco_mcp/n7/` | 5 | Solo datos chicos; 1 dato(s) chico(s); suma lo del tramo de las instrucciones, los planes y la 6.3 |
 | `data/experiment/banco_mcp/n7c/` | 4 | Solo datos chicos; 1 dato(s) chico(s); suma lo del tramo de las instrucciones, los planes y la 6.3 |
@@ -56,11 +56,12 @@ sigan andando.
 | `ejemplos/` | 2 | Los 2 programas de ejemplo |
 | `fuera_del_repo/b63_etapa1/scripts/` | 2 | Las funciones de P1 que carga el análisis de B6.3, tal cual |
 | `preregistros/` | 1 | sha256 de los pre-registros, las enmiendas y las adendas |
+| `reconstruccion/` | 5 | La guía para reconstruir los índices desde los PDF y arrancar los servidores, con sus 4 programas |
 | `scripts/` | 25 | Scripts de verificación y de indicadores |
 | `src/` | 7 | Código común: descarga del corpus y utilidades |
 | `tests/` | 1 | Pruebas del código común |
 
-La columna cuenta todos los archivos del árbol bajo cada carpeta, y suma 878, los de `SHA256SUMS` más ese archivo.
+La columna cuenta todos los archivos del árbol bajo cada carpeta, y suma 886, los de `SHA256SUMS` más ese archivo.
 
 ## El cierre de los imports
 
@@ -311,3 +312,24 @@ arranque, que no llega a ningún servidor, y un ejemplo en un mensaje de error:
 | `data/experiment/banco_mcp/b63/v2/b2/seco/herramientas_b2.py` | 160 | Señuelo con forma de clave, para un cliente de prueba sin red |
 | `data/experiment/banco_mcp/b63/v2/formas_error_b63.py` | 139 | Señuelo armado al correr, para un servidor de prueba local |
 | `data/experiment/evaluacion/harness.py` | 655 | Ejemplo en un mensaje de error, con tres puntos en lugar de la clave |
+
+## La guía de reconstrucción
+
+La segmentación de `reconstruccion/` corre con `reconstruccion/correr_e0_sin_roles.py`, y no con `correr_e0.py --manifiesto`. Al
+cargar el manifiesto de corpus, `correr_e0.py` compara el rol de alcance de cada Texto Ordenado con el catálogo del perfil r2b
+(`data/experiment/reextraccion_v2/manifiesto_corpus.py:249-250`). Esa comparación arma el perfil r2b
+(`manifiesto_corpus.py:161-162`), el perfil importa `prompt_r2b.py`
+(`data/experiment/reextraccion_v2/e1_extractor/perfil_e1.py:210`), y `prompt_r2b.py` lee `candado_mensaje_r2b.json`
+(`prompt_r2b.py:70` y `prompt_r2b.py:505`), que no se publica. `correr_e0_sin_roles.py` carga el mismo manifiesto con
+`validar_roles=False` y llama a la misma función `correr()` de `data/experiment/reextraccion_v2/e0_chunking/correr_e0.py`, sin
+copiar ni cambiar su código. Saltear la comparación no cambia la segmentación, porque `correr()` toma del manifiesto solo los
+ids, los archivos, las rutas de los PDF, el mapa y el oráculo (`correr_e0.py:1650-1654`). Las demás validaciones del manifiesto
+siguen, incluido el sha256 de cada PDF. Con Python 3.10.13, la segmentación reconstruida coincide en sus 640 archivos con el
+armado de la E0 acumulada (`data/experiment/tanda_final/t3/acumulado/armado_acumulado_128_tf.json`).
+`manifiesto_corpus.py:193-195` reserva ese parámetro para pruebas sintéticas, y este es otro uso.
+
+`requirements.txt` y `data/experiment/banco_mcp/requirements_vector.txt` no fijan la versión de la mayoría de los paquetes que
+llegan como dependencia de otros, y pip instala de esos la más nueva compatible. En la prueba de la guía del 10 de noviembre de
+2026 se instalaron `pypdfium2` 5.15.2 en el `.venv`, y `filelock` 4.2.10 y `typer` 0.29.0 en el entorno vectorial, más nuevos
+que en una prueba anterior. Con esas versiones, la guía dio todos sus valores de referencia. Los apéndices de
+`reconstruccion/LEEME.md` traen el `pip freeze` de los 2 entornos en esa prueba.

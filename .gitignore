@@ -11,3 +11,6 @@ fuera_del_repo/b63_etapa1/*
 data/experiment/reaplicacion_unica/acumulado/ens_128_r2b_sincola/r2/kg.json
 data/experiment/banco_mcp/mcp_kg/indice_puntos/
 data/experiment/banco_mcp/mcp_vector/indice/
+# Lo que deja en el clon la guía de reconstruccion/
+data/experiment/tanda_final/t3/acumulado/e0_acumulado_128_r2b/
+/textos_ordenados_bcra_128.zip

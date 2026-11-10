@@ -57,7 +57,13 @@ Los 5 primeros pasos no necesitan instalar nada, y sus programas corren con Pyth
 5. Rehacer la precisión y la cobertura del grafo, con `python3 evaluacion_contenido/reproducir_contenido.py`.
 6. Comprobar un Texto Ordenado, bajándolo de su enlace en `corpus/textos_ordenados.csv` y comparando su sha256 (ver «El corpus»).
 
-Para poner en marcha los servidores como los consultó el agente hacen falta Neo4j y los índices, que se reconstruyen a partir de los PDF de la versión que se usó. La guía para reconstruirlos se suma más adelante, junto con esos PDF.
+Para poner en marcha los servidores como los consultó el agente hacen falta Neo4j y los índices, que se reconstruyen a partir de los PDF de la versión que se usó. Cómo hacerlo está en «Reconstruir los índices».
+
+## Reconstruir los índices
+
+La guía está en `reconstruccion/LEEME.md`, con sus 4 programas al lado. Parte de un clon de este repositorio y de los 128 PDF de la versión usada. Rehace la segmentación y los índices que usan los servidores, los compara con sus referencias y arranca los 4 servidores que consultó el agente. Las matrices densas de los 2 índices no se rehacen, porque vienen en el repositorio, en `data/experiment/banco_mcp/mcp_vector/indice/` y en `data/experiment/banco_mcp/mcp_kg/indice_puntos/`.
+
+Los 128 PDF están en un ZIP en Zenodo, en https://doi.org/10.5281/zenodo.24106654, con sha256 `91c79331beda5334dcc4fa878b10efd6bb1684a435568d8435fcabb97309e718`. La guía se probó en macOS sobre arm64, y al principio dice cuánto tarda y cuánto hay que bajar.
 
 ## La evaluación
 
@@ -69,13 +75,13 @@ Cada renglón de `evaluacion/` y de `evaluacion_contenido/` lleva esa marca. `ev
 
 ## El corpus
 
-Los PDF de los Textos Ordenados no se redistribuyen. `corpus/textos_ordenados.csv` trae los 157 documentos del corpus, con el enlace al sitio del BCRA y el sha256 de la versión con que se trabajó, y `corpus/LEEME.md` explica sus columnas.
+Los PDF de los Textos Ordenados no están en este repositorio. `corpus/textos_ordenados.csv` trae los 157 documentos del corpus, con el enlace al sitio del BCRA y el sha256 de la versión con que se trabajó, y `corpus/LEEME.md` explica sus columnas.
 
-Al 2 de octubre de 2026, 23 de esos documentos ya eran distintos en el sitio, y la última columna del archivo los marca. En esos, el enlace da la versión vigente, que no es la que se usó.
+Al 2 de octubre de 2026, 23 de esos documentos ya eran distintos en el sitio, y la última columna del archivo los marca. En esos, el enlace da la versión vigente, que no es la que se usó. Los 128 del grafo, en la versión usada, están en el ZIP de Zenodo (ver «Reconstruir los índices»).
 
 ## Qué no se publica
 
-- Los PDF de los Textos Ordenados, que se bajan de su enlace.
+- Los PDF de los Textos Ordenados, que se bajan de su enlace. Los 128 del grafo, en la versión usada, están aparte, en Zenodo.
 - Las preguntas y los criterios de las otras evaluaciones, porque publicarlos invalidaría evaluaciones futuras.
 - Las salidas intermedias, las sesiones del agente y los otros grafos.
 - La historia de commits del repositorio de la tesis. De cada plan se puede comprobar su sha256 en `preregistros/FIRMAS.md`.
@@ -94,4 +100,4 @@ Ver `CITATION.cff`. Autoría: Agustina Videla Rivero, Universidad de San Andrés
 
 Titular de las licencias: Agustina Videla Rivero.
 
-Archivos en el árbol: 831 del repo de la tesis, 13 de `fuera_del_repo` y 34 nuevos de esta publicación.
+Archivos en el árbol: 831 del repo de la tesis, 3 archivos de los índices que ese repo tiene sin versionar, 13 de `fuera_del_repo` y 39 nuevos de esta publicación.

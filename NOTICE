@@ -8,4 +8,7 @@ Las citas y las respuestas de evaluacion/ también traen texto de esa normativa,
 La licencia CC BY 4.0 de este repositorio (LICENSE-DATA) cubre la estructura del grafo y sus anotaciones: los nodos,
 las aristas, sus tipos y relaciones, las propiedades derivadas y la procedencia. No cubre el texto del BCRA.
 
-Los PDF del BCRA no se redistribuyen: corpus/manifiesto_corpus.csv trae su enlace y su sha256.
+Los PDF del BCRA no están en este repositorio, y corpus/manifiesto_corpus.csv trae su enlace y su sha256. Los 128
+con que se construyó el grafo, en la versión usada, están aparte en Zenodo (https://doi.org/10.5281/zenodo.24106654),
+donde el BCRA figura como autor. Se reutilizan en los términos de la sección 3 de su aviso legal, y las licencias de
+este repositorio no los cubren.

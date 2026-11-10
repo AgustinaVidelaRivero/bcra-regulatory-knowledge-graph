@@ -18,4 +18,5 @@ keywords:
 abstract: >-
   Grafo de conocimiento construido sobre Textos Ordenados de la normativa del Banco Central de la República
   Argentina, con el código que lo produce y lo evalúa contra la recuperación por fragmentos, los pre-registros de
-  la evaluación y el manifiesto del corpus (enlace y sha256 de cada documento, sin los PDF).
+  la evaluación, el manifiesto del corpus (enlace y sha256 de cada documento) y una guía para reconstruir los
+  índices desde los PDF, que están aparte en Zenodo (https://doi.org/10.5281/zenodo.24106654).
