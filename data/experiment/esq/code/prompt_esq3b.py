@@ -71,7 +71,7 @@ from pathlib import Path
 
 CODE_DIR = Path(__file__).resolve().parent
 EXP_DIR = CODE_DIR.parent.parent                      # data/experiment
-E1_DIR = EXP_DIR / "reextraccion_v2" / "e1_extractor"
+E1_DIR = EXP_DIR.parents[1] / "src" / "extractor"
 if str(E1_DIR) not in sys.path:
     sys.path.insert(0, str(E1_DIR))
 

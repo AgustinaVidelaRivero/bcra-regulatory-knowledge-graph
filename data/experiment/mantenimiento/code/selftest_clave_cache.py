@@ -103,7 +103,7 @@ E0_TANDA0 = REX / "e0_chunking" / "salida_tanda0"
 SALIDA_DIRIGIDA = REX / "corpus_tanda0" / "salida_dirigida"
 DB_E1 = REX / "e1_extractor" / "cache" / "e1_extraccion.db"
 DB_E3 = REX / "e3_verificador" / "cache" / "e3_verificacion.db"
-RUNNER = REX / "corpus_v2" / "runner_corpus.py"
+RUNNER = REPO / "src" / "ensamblado" / "runner_corpus.py"
 DIRIGIDA = SALIDA_DIRIGIDA / "reextraccion_dirigida.json"
 PARTICION = EXP / "segmentacion_84" / "b584_particion"
 JSON_V2 = EXP / "grafo_v2" / "esquema_v2_clases.json"
@@ -159,8 +159,8 @@ SUJETO_SINTETICO = "Sujeto_entidad_financiera"
 UNIDAD_PARTICION = "cap::4.2.1.2"       # la única de la tanda 0 que se puede partir por ítems (R26)
 UNIDAD_TABLA_FORZADA = "ric::3.1.5"     # su primera tabla serializada pasa a residual (R32)
 UNIDAD_CALIBRADOR = "ric::7.1"          # unidad del calibrador CAL-1 de E3 (R22d)
-REEMPLAZOS_R2B = REX / "e1_extractor" / "prompt_r2b_reemplazos.json"
-TABLAS_FORZADAS_R2B = REX / "e1_extractor" / "tablas_residuales_forzadas_r2b.json"
+REEMPLAZOS_R2B = REPO / "src" / "extractor" / "prompt_r2b_reemplazos.json"
+TABLAS_FORZADAS_R2B = REPO / "src" / "extractor" / "tablas_residuales_forzadas_r2b.json"
 GENERADOS_R2 = EXP / "catalogo_unico" / "generados_r2"
 ROL_POR_TO_R2 = GENERADOS_R2 / "rol_por_to_r2.json"
 INDICE_E4_R2 = GENERADOS_R2 / "indice_e4_r2.json"
@@ -186,14 +186,14 @@ MODULOS_SOLO_CODIGO_R2 = MODULOS_SOLO_CODIGO + ("validador_r2", "reglas_comparac
 # ------------------------------------------------------------------------- #
 
 def _rutas_import() -> None:
-    for p in (REX / "e1_extractor", REX / "e3_verificador", REX / "e2_reduce", REX,
-              EXP / "evaluacion"):
+    for p in (REPO / "src" / "extractor", REPO / "src" / "verificador", REPO / "src" / "ensamblado", REPO / "src" / "comun",
+              REPO / "src" / "validador", EXP / "evaluacion"):
         if str(p) not in sys.path:
             sys.path.insert(0, str(p))
 
 
 def _ruta_e0() -> None:
-    p = REX / "e0_chunking"
+    p = REPO / "src" / "segmentacion"
     if str(p) not in sys.path:
         sys.path.insert(0, str(p))
 
@@ -1506,17 +1506,17 @@ VARIANTES_HIJO_R2B = ("inventario_r2b", "R20", "R21", "R22", "R22b", "R22c", "R2
 # U-PROMPT-R2, P3c-2: R29, R29b y R30 editan un literal del módulo (un espacio al final) en una copia en memoria de su
 # fuente, que el proceso hijo importa en lugar del archivo: el candado del mensaje corre al importar y frena. No escribe.
 EDICIONES_FUENTE_R2B = {
-    "R29": ("prompt_r2b", REPO / "data/experiment/reextraccion_v2/e1_extractor/prompt_r2b.py",
+    "R29": ("prompt_r2b", REPO / "src/extractor/prompt_r2b.py",
             '"ENCABEZADO DE UNA LISTA):")', '"ENCABEZADO DE UNA LISTA): ")'),
-    "R29b": ("prompt_r2b", REPO / "data/experiment/reextraccion_v2/e1_extractor/prompt_r2b.py",
+    "R29b": ("prompt_r2b", REPO / "src/extractor/prompt_r2b.py",
              '(vacía si no omitiste nada).")', '(vacía si no omitiste nada). ")'),
-    "R30": ("prompt_e3", REPO / "data/experiment/reextraccion_v2/e3_verificador/prompt_e3.py",
+    "R30": ("prompt_e3", REPO / "src/verificador/prompt_e3.py",
             '"meta-normativos.")', '"meta-normativos. ")'),
     # U-E3-LISTAS (fila F23b): la NOTA del ítem de una lista y la regla de los bloques contiguos (D2) del bloque que
     # abre la lista; con ítems en la fixture del candado del mensaje de E3, frenan.
-    "R33": ("prompt_e3", REPO / "data/experiment/reextraccion_v2/e3_verificador/prompt_e3.py",
+    "R33": ("prompt_e3", REPO / "src/verificador/prompt_e3.py",
             'o en sus umbrales.")', 'o en sus umbrales. ")'),
-    "R33b": ("comun_e3", REPO / "data/experiment/reextraccion_v2/e3_verificador/comun_e3.py",
+    "R33b": ("comun_e3", REPO / "src/verificador/comun_e3.py",
              '    while (j > 0 and her[j - 1]["tipo"]', '    while (False and her[j - 1]["tipo"]'),
 }
 

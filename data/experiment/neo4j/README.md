@@ -35,11 +35,11 @@ Requisitos: Docker; el `.venv` del repo con el driver `neo4j` (6.2.0):
 ```bash
 docker run -d --name neo4j-bcra-kg \
   -p 7474:7474 -p 7687:7687 \
-  -e NEO4J_AUTH=neo4j/bcra-kg-local \
+  -e NEO4J_AUTH="neo4j/$NEO4J_PASSWORD" \
   neo4j:5.26.9-community
 ```
 
-   (5.26 es la serie LTS. `bcra-kg-local` es password de desarrollo local,
+   (5.26 es la serie LTS. `$NEO4J_PASSWORD` es password de desarrollo local,
    configurable por `NEO4J_PASSWORD`; ver `conexion.py`. Sin volumen: la db
    se repuebla entera desde el kg.json en cada carga — el kg.json sellado es
    la única fuente de verdad, el contenedor es descartable.)

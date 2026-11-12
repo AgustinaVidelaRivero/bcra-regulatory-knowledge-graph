@@ -2,9 +2,9 @@
 
 Esta guía parte de un clon del repositorio y de los 128 PDF de la versión usada. Rehace la segmentación E0 y los índices, los compara con sus referencias y arranca los 4 servidores: N7, N7c+, la combinada y la densa. No llama a ninguna API y no rehace las matrices densas, que vienen en el repositorio.
 
-**Dónde se probó.** En una Mac con macOS 15.7.1, arm64 y 16 GiB de memoria, sobre el commit `91dbfb9c` más esta carpeta y las matrices densas con su manifiesto. Los nombres de los tar son para esa plataforma.
+**Dónde se probó.** En una Mac con macOS 15.7.1, arm64 y 16 GiB de memoria, sobre el código y los datos de esta versión del repositorio. Los nombres de los tar son para esa plataforma.
 
-En la prueba, los comandos se corrieron tal como están acá, desde la raíz de un clon limpio. Hubo 4 excepciones: las descargas, la extracción de los tar y la contraseña de Neo4j venían de una prueba anterior, y el camino Docker no se probó. Lo que imprime cada paso es lo de esa prueba.
+En la prueba, los comandos se corrieron tal como están acá, desde la raíz de un clon limpio. Las únicas excepciones fueron las descargas, que venían de una prueba anterior, y el camino Docker, que no se probó. Lo que imprime cada paso es lo de esa prueba.
 
 **Lo que tarda y ocupa.** Se bajan unos 1,84 GB. Lo que más tarda es bajar el modelo, 18 minutos cuando se probó, y después las 3 corridas de la E0, unos 10 minutos. El resto, salvo las descargas, tarda menos de 1 minuto por paso.
 
@@ -284,10 +284,10 @@ Hay 2 ajustes que el `docker-compose.yml` no trae:
 - `dbms.usage_report.enabled=false`, para que Neo4j no envíe datos de uso a sus servidores.
 - `-XX:-UsePerfData`, para que la JVM no escriba sus archivos de rendimiento en la carpeta temporal del sistema. `JAVA_TOOL_OPTIONS` lo aplica también al proceso que lanza `bin/neo4j`.
 
-La contraseña de desarrollo es el valor por defecto de `NEO4J_PASSWORD` en `data/experiment/neo4j/conexion.py:24`. Este comando la pone antes del primer arranque, sin mostrarla:
+La contraseña de Neo4j la elegís vos (Neo4j pide al menos 8 caracteres). Exportala como `NEO4J_PASSWORD` antes del primer arranque, sin mostrarla, por ejemplo con `read -rs NEO4J_PASSWORD && export NEO4J_PASSWORD`: `data/experiment/neo4j/conexion.py` la toma de esa variable, que no tiene valor por defecto, y `ejemplos/arrancar_servidores.py` se la pasa a los servidores. Este comando la pone antes del primer arranque, sin mostrarla:
 
 ```bash
-"$NEO4J_HOME/bin/neo4j-admin" dbms set-initial-password "$(.venv/bin/python -c 'import sys; sys.path.insert(0, "data/experiment/neo4j"); import conexion; print(conexion.NEO4J_PASSWORD)')"
+"$NEO4J_HOME/bin/neo4j-admin" dbms set-initial-password "$NEO4J_PASSWORD"
 ```
 
 ```bash
@@ -452,7 +452,7 @@ uvicorn==0.54.0
 ## Apéndice: `pip freeze` de `venvs/vector`, con Python 3.12.13
 
 ```
-annotated-doc==0.0.5
+annotated-doc==0.0.6
 annotated-types==0.8.0
 anyio==4.16.0
 attrs==26.1.0
@@ -474,7 +474,7 @@ Jinja2==3.1.6
 joblib==1.6.0
 jsonschema==4.26.0
 jsonschema-specifications==2025.9.1
-markdown-it-py==4.2.0
+markdown-it-py==4.3.0
 MarkupSafe==3.0.4
 mcp==1.29.0
 mdurl==0.1.2
@@ -511,7 +511,7 @@ tokenizers==0.22.2
 torch==2.13.0
 tqdm==4.70.1
 transformers==5.15.1
-typer==0.29.0
+typer==0.29.1
 typing-inspection==0.4.5
 typing_extensions==4.16.0
 uvicorn==0.54.0

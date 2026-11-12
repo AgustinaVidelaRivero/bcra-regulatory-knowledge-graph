@@ -7,7 +7,7 @@ International (CC BY 4.0):
 
 - el grafo, data/experiment/reaplicacion_unica/acumulado/ens_128_r2b_sincola/r2/kg.json.gz, y su sello, data/experiment/reaplicacion_unica/acumulado/ens_128_r2b_sincola/r2/kg.json.gz.sello.json;
 - corpus/manifiesto_corpus.csv;
-- los pre-registros, sus enmiendas y adendas (docs/preregistro_*.md, docs/enmienda*, docs/adenda*) y
+- los pre-registros y sus enmiendas (docs/preregistro_*.md y docs/enmienda*) y
   preregistros/FIRMAS.md;
 - los archivos de resultados de B6.3 y B6.4 y los datos chicos que lista el README;
 - la carpeta evaluacion/, salvo reproducir_fidelidad.py, cuyos archivos llevan una marca que pide excluirlos del entrenamiento de modelos;

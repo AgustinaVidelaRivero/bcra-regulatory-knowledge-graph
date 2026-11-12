@@ -37,8 +37,8 @@ from pathlib import Path
 P3B = Path(__file__).resolve().parent
 REPO = P3B.parents[3]
 REX = REPO / "data" / "experiment" / "reextraccion_v2"
-sys.path.insert(0, str(REX / "e1_extractor"))
-sys.path.insert(0, str(REPO / "data" / "experiment" / "pyd_r2" / "code"))
+sys.path.insert(0, str(REPO / "src" / "extractor"))
+sys.path.insert(0, str(REPO / "src" / "validador"))
 import comun_e1  # noqa: E402
 import prompt_r2b as P  # noqa: E402
 import validador_r2 as V  # noqa: E402

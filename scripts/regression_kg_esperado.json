@@ -9678,6 +9678,225 @@
      "nota": "ídem (lingob 4.1 y 5.1.4); en desarrollo no hay lingob"
     }
    }
+  },
+  "KG-ReaplicacionUnica-128-r2b-sincola": {
+   "_rotulo": "Grafo evaluado (reaplicación única, 128 Textos Ordenados, perfil r2b, sin cola), el que publica el repositorio comprimido en kg.json.gz; la suite lee el kg.json que da gunzip -k. Estados del gate del paso 5 sin cola, salvo LN-7 y T5.",
+   "kg": "data/experiment/reaplicacion_unica/acumulado/ens_128_r2b_sincola/r2/kg.json",
+   "kg_sha256": "576c97256185a0d5741cb2c35a2a85e91412f3e1119ad7a85d960b7d60c35ad3",
+   "generacion": 3,
+   "politica_cuarentena": "flaggeada",
+   "catalogo": "data/experiment/reaplicacion_unica/G_catalogo_resolucion_ureapl/catalogo_suite_r2.json",
+   "catalogo_sha256": "80c4f0784093a6c161232390a1d5fc58d72c8a71c0f7c69e5a97a7369c501d29",
+   "perfil": "r2",
+   "evidencia": "Estados del gate del paso 5 sin cola de la reaplicación única (repo de la tesis, no se publica: data/experiment/reaplicacion_unica/paquete_UREAPL/ureapl_gate_paquete__gate_paso5_sin_cola.json, sha256 b862f6d77503680cd1436e4b9bfb0d3571766bf2f3b92d9297c1c256643f4543; suite con rc 0 y 46 resuelto, 13 persiste y 9 no_aplicable, de 68). LN-7 y T5 cambian a no_aplicable por la nota de cada ítem. Comando: la suite con --perfil r2, --sin-censos, --manifiesto data/experiment/tanda_final/t3/acumulado/manifiestos/acumulado_128tos_r2b.json, --catalogo data/experiment/reaplicacion_unica/G_catalogo_resolucion_ureapl/catalogo_suite_r2.json y --generados-resolucion data/experiment/reaplicacion_unica/G_catalogo_resolucion_ureapl.",
+   "items": {
+    "BKL-0001": {
+     "estado": "resuelto"
+    },
+    "BKL-0002": {
+     "estado": "resuelto"
+    },
+    "BKL-0003": {
+     "estado": "persiste"
+    },
+    "BKL-0004": {
+     "estado": "persiste"
+    },
+    "BKL-0005": {
+     "estado": "resuelto"
+    },
+    "BKL-0006": {
+     "estado": "resuelto"
+    },
+    "BKL-0007": {
+     "estado": "persiste"
+    },
+    "BKL-0017": {
+     "estado": "persiste"
+    },
+    "BKL-0019": {
+     "estado": "no_aplicable"
+    },
+    "BKL-0023": {
+     "estado": "resuelto"
+    },
+    "BKL-0026": {
+     "estado": "no_aplicable"
+    },
+    "BKL-0027": {
+     "estado": "no_aplicable"
+    },
+    "BKL-0028": {
+     "estado": "resuelto"
+    },
+    "BKL-0029": {
+     "estado": "resuelto"
+    },
+    "E4-a1": {
+     "estado": "persiste"
+    },
+    "E4-a2": {
+     "estado": "resuelto"
+    },
+    "E4-a3": {
+     "estado": "resuelto"
+    },
+    "E4-a4": {
+     "estado": "persiste"
+    },
+    "E4-a5": {
+     "estado": "resuelto"
+    },
+    "E4-a6": {
+     "estado": "resuelto"
+    },
+    "E4-a7": {
+     "estado": "resuelto"
+    },
+    "E4-a8": {
+     "estado": "no_aplicable"
+    },
+    "E4-b": {
+     "estado": "resuelto"
+    },
+    "E4-c": {
+     "estado": "no_aplicable"
+    },
+    "EJ-cla-5.1.1.1": {
+     "estado": "resuelto"
+    },
+    "FIRMAS-condicion_de": {
+     "estado": "resuelto"
+    },
+    "I1": {
+     "estado": "no_aplicable"
+    },
+    "I2": {
+     "estado": "no_aplicable"
+    },
+    "I3": {
+     "estado": "resuelto"
+    },
+    "I4": {
+     "estado": "resuelto"
+    },
+    "I5": {
+     "estado": "resuelto"
+    },
+    "ID-alta_gerencia": {
+     "estado": "resuelto"
+    },
+    "ID-banco_del_exterior": {
+     "estado": "resuelto"
+    },
+    "ID-comite_de_auditoria": {
+     "estado": "resuelto"
+    },
+    "ID-directorio": {
+     "estado": "resuelto"
+    },
+    "ID-entidad_cambiaria_del_exterior": {
+     "estado": "resuelto"
+    },
+    "ID-entidad_financiera_del_exterior": {
+     "estado": "resuelto"
+    },
+    "ID-instancia_de_gobierno_societario": {
+     "estado": "resuelto"
+    },
+    "ID-titular_de_cuenta_corriente_en_el_bcra": {
+     "estado": "resuelto"
+    },
+    "LN-1": {
+     "estado": "resuelto"
+    },
+    "LN-2": {
+     "estado": "resuelto"
+    },
+    "LN-3": {
+     "estado": "resuelto"
+    },
+    "LN-4": {
+     "estado": "resuelto"
+    },
+    "LN-5": {
+     "estado": "resuelto"
+    },
+    "LN-6": {
+     "estado": "resuelto"
+    },
+    "LN-7": {
+     "estado": "no_aplicable",
+     "nota": "no_aplicable en el repositorio público, que no trae omisiones.jsonl, el registro de omisiones del ensamblado (docs/notas_tecnicas_de_la_publicacion.md, «Lo que lee la suite de regresión y no se publica»). En el gate, que corrió en el repo de la tesis con ese registro, el estado es resuelto."
+    },
+    "LN-8": {
+     "estado": "resuelto"
+    },
+    "RT-C5-1": {
+     "estado": "persiste"
+    },
+    "RT-C5-2": {
+     "estado": "persiste"
+    },
+    "RT-C5-3": {
+     "estado": "persiste"
+    },
+    "RT-C5-4": {
+     "estado": "persiste"
+    },
+    "RT-C5-5": {
+     "estado": "no_aplicable"
+    },
+    "RT-C6-1": {
+     "estado": "persiste"
+    },
+    "RT-C6-2": {
+     "estado": "persiste"
+    },
+    "RT-C6-3": {
+     "estado": "resuelto"
+    },
+    "RT-C6-4": {
+     "estado": "resuelto"
+    },
+    "RT-C6-5": {
+     "estado": "no_aplicable"
+    },
+    "RT-C7-1": {
+     "estado": "resuelto"
+    },
+    "RT-C7-2": {
+     "estado": "resuelto"
+    },
+    "RT-C7-3": {
+     "estado": "resuelto"
+    },
+    "SIN-VERIF-E3": {
+     "estado": "resuelto"
+    },
+    "T1": {
+     "estado": "resuelto"
+    },
+    "T2": {
+     "estado": "resuelto"
+    },
+    "T3": {
+     "estado": "resuelto"
+    },
+    "T4": {
+     "estado": "resuelto"
+    },
+    "T5": {
+     "estado": "no_aplicable",
+     "nota": "no_aplicable en el repositorio público, que no publica la muestra de T5 (data/experiment/reextraccion_v2/corpus_v2/salida_r1/referencias_muestra30_inspeccionada_A2.json; docs/notas_tecnicas_de_la_publicacion.md). En el gate, que corrió en el repo de la tesis con la muestra, el estado es persiste."
+    },
+    "T6": {
+     "estado": "resuelto"
+    },
+    "T7": {
+     "estado": "resuelto"
+    }
+   }
   }
  },
  "linea_de_base_observada": {

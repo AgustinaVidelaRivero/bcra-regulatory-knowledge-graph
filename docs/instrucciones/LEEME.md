@@ -6,13 +6,13 @@ Cada fila da el archivo con el texto completo, su sha256 y dónde está sellado.
 
 | Pieza | Archivo | sha256 | Dónde |
 |---|---|---|---|
-| El extractor | `docs/instrucciones/extractor_instrucciones.txt` | `ccffa4e36ba26a4b63b5760a7657d4bb5f5357ccd2392fe2b67584e4c2efb775` | `data/experiment/reextraccion_v2/e1_extractor/perfil_e1.py:79` |
+| El extractor | `docs/instrucciones/extractor_instrucciones.txt` | `ccffa4e36ba26a4b63b5760a7657d4bb5f5357ccd2392fe2b67584e4c2efb775` | `src/extractor/perfil_e1.py:79` |
 | El verificador | `docs/instrucciones/verificador_instrucciones.txt` | `128fa60feb4791b142e62bb6eec06e8ddcb5dd58a0a0476692831fb35b15c983` | Sale del prefijo de la fila siguiente |
-| El prefijo del verificador, tal como llega al modelo | `docs/instrucciones/verificador_prefijo_canonico.json` | `21a836c7de6dbbee038ceb3c0eaae8edee753eb9feb23c6f4ab2aa8453371b53` | `data/experiment/reextraccion_v2/e3_verificador/prompt_e3.py:450`, con sus primeros 12 caracteres |
+| El prefijo del verificador, tal como llega al modelo | `docs/instrucciones/verificador_prefijo_canonico.json` | `21a836c7de6dbbee038ceb3c0eaae8edee753eb9feb23c6f4ab2aa8453371b53` | `src/verificador/prompt_e3.py:450`, con sus primeros 12 caracteres |
 
-`data/experiment/reextraccion_v2/e1_extractor/prompt_r2b.py` no importa con este repositorio. Le falta `candado_mensaje_r2b.json`, que trae el texto de 17 unidades de la normativa y no se publica. Por eso el texto del extractor va ya armado, con el sha256 que sella la primera fila.
+`src/extractor/prompt_r2b.py` no importa con este repositorio. Le falta `candado_mensaje_r2b.json`, que trae el texto de 17 unidades de la normativa y no se publica. Por eso el texto del extractor va ya armado, con el sha256 que sella la primera fila.
 
-`data/experiment/reextraccion_v2/e3_verificador/prompt_e3.py` no importa con este repositorio. Le faltan `chunks_cla.json`, `chunks_pro.json`, `chunks_ric.json`, `extracciones.jsonl` y `candado_mensaje_e3.json`. Esos 5 archivos traen el texto de los documentos o salidas del extractor, y no se publican. Por eso el texto del verificador va ya armado.
+`src/verificador/prompt_e3.py` no importa con este repositorio. Le faltan `chunks_cla.json`, `chunks_pro.json`, `chunks_ric.json`, `extracciones.jsonl` y `candado_mensaje_e3.json`. Esos 5 archivos traen el texto de los documentos o salidas del extractor, y no se publican. Por eso el texto del verificador va ya armado.
 
 El texto del verificador trae enteras 2 unidades de la norma, `ric::7.1` (1.104 caracteres, renglones 61 a 78 de `verificador_instrucciones.txt`) y `cla::6.5::intro` (2.403 caracteres, renglones 186 a 212), porque sus instrucciones las citan como ejemplo. El prefijo de `verificador_prefijo_canonico.json` trae las mismas 2. Son la única excepción al control que impide publicar, fuera del grafo, un tramo de 1.000 caracteres o más igual al texto de una unidad de la E0. Sin ellas, el texto no sería el que recibió el modelo y no daría el sha256 sellado. Ese texto es del BCRA (`NOTICE`).
 

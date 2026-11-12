@@ -217,7 +217,7 @@ RUTA_ENUMS_R2 = os.path.join(REPO_ROOT, "data", "experiment", "pyd_r2", "generad
 RUTA_MODELOS_R2 = os.path.join(REPO_ROOT, "data", "experiment", "pyd_r2", "code", "modelos_r2.py")
 # S32 (U-REEXT-T0, T1, punto 4.b): el detector de cuantías del pipeline (reglas_comparacion.detectar_cuantias, solo
 # stdlib), cargado del fuente; no se copia nada acá.
-RUTA_REGLAS_COMPARACION = os.path.join(REPO_ROOT, "data", "experiment", "pyd_r2", "code", "reglas_comparacion.py")
+RUTA_REGLAS_COMPARACION = os.path.join(REPO_ROOT, "src", "validador", "reglas_comparacion.py")
 RUTA_GENERADOS_R2 = os.path.join(REPO_ROOT, "data", "experiment", "catalogo_unico", "generados_r2")
 RUTA_IDS_S19_R2 = os.path.join(RUTA_GENERADOS_R2, "ids_s19_r2.json")
 RUTA_EXCEPCIONES_S15_R2 = os.path.join(RUTA_GENERADOS_R2, "entrada_esqueleto_r2.json")

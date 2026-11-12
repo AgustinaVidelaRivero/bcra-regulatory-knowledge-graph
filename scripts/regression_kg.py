@@ -110,7 +110,7 @@ import remisiones  # noqa: E402  scripts/remisiones.py, solo stdlib (enmienda 1,
 # --------------------------------------------------------------------------- #
 RAIZ = Path(__file__).resolve().parent.parent
 CORPUS_V2 = RAIZ / "data" / "experiment" / "reextraccion_v2" / "corpus_v2"
-E2_REDUCE = RAIZ / "data" / "experiment" / "reextraccion_v2" / "e2_reduce"
+ENSAMBLADO = RAIZ / "src" / "ensamblado"
 EVALUACION = RAIZ / "data" / "experiment" / "evaluacion"
 GRAFO_V2_CODE = RAIZ / "data" / "experiment" / "grafo_v2" / "code"
 MUESTRA30 = CORPUS_V2 / "salida_r1" / "referencias_muestra30_inspeccionada_A2.json"
@@ -526,6 +526,8 @@ class Contexto:
     @property
     def muestra30(self) -> list:
         if self._muestra30 is None:
+            if not MUESTRA30.exists():
+                return None
             sha = sha256_path(MUESTRA30)
             if sha != SHA_MUESTRA30:
                 raise RuntimeError(f"muestra30 con sha distinto del sellado: {sha}")
@@ -536,7 +538,7 @@ class Contexto:
     @property
     def e4(self):
         if self._e4 is None:
-            for p in (str(CORPUS_V2), str(GRAFO_V2_CODE), str(E2_REDUCE)):
+            for p in (str(ENSAMBLADO), str(GRAFO_V2_CODE)):
                 if p not in sys.path:
                     sys.path.insert(0, p)
             import r1_comun   # noqa: E402
@@ -1249,7 +1251,7 @@ def esqueleto_de_catalogo(ruta_catalogo, relaciones: tuple) -> tuple:
     aristas de relaciones de esqueleto que assemble.build_skeleton
     (grafo_v2/code/assemble.py:118) construye sobre el catálogo, invocado por
     import vía ensamblar_corpus.inyectar_esqueleto_v3 sobre un grafo vacío."""
-    for p in (str(CORPUS_V2), str(GRAFO_V2_CODE), str(E2_REDUCE)):
+    for p in (str(ENSAMBLADO), str(GRAFO_V2_CODE)):
         if p not in sys.path:
             sys.path.insert(0, p)
     import ensamblar_corpus as EC   # noqa: E402  corpus_v2/ensamblar_corpus.py:83 (inyectar_esqueleto_v3)
@@ -1339,6 +1341,9 @@ def t_t5(ctx: Contexto) -> dict:
     remisión cumple R-T5. Lee las remisiones en las dos formas (enmienda 1,
     R5.b). Informa también la presencia verbatim (la comprobación anterior) y
     R-T5 sin la condición de tipo."""
+    if ctx.muestra30 is None:
+        return res("no_aplicable", f"sin la muestra de T5 ({MUESTRA30.relative_to(RAIZ)}): la muestra no se publica "
+                   "(docs/notas_tecnicas_de_la_publicacion.md)")
     G = ctx.grafo
     refs = remisiones_con_evidencia(G)
     if not refs:

@@ -626,7 +626,7 @@ def medir_grafo(nombre: str, kg_path: Path,
 # Generación 3 (gate 6 de la fase 2 de B6.0): un solo grafo, adaptador declarado
 # ----------------------------------------------------------------------------
 
-REX_CORPUS_V2 = REPO / "data" / "experiment" / "reextraccion_v2" / "corpus_v2"
+REX_CORPUS_V2 = REPO / "src" / "ensamblado"
 
 MOTIVO_M3_GEN3 = (
     "generación 3: el registro por nodo es `provenances`, acumulado con dedup exacto por fuente "

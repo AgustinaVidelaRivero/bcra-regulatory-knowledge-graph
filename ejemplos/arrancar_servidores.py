@@ -43,6 +43,8 @@ def arrancar(nombre, rel, a):
     env = {k: expandir(v, base) for k, v in s["env"].items()}
     if a.neo4j_uri:
         env["NEO4J_URI"] = a.neo4j_uri
+    if os.environ.get("NEO4J_PASSWORD"):
+        env["NEO4J_PASSWORD"] = os.environ["NEO4J_PASSWORD"]
     cmd = [expandir(s["command"], base)] + [expandir(x, base) for x in s["args"]]
     if a.python and cmd[0].endswith("/.venv/bin/python"):
         cmd[0] = a.python

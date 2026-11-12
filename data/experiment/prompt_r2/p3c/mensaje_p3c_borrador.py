@@ -31,8 +31,8 @@ from pathlib import Path
 P3C = Path(__file__).resolve().parent
 REPO = P3C.parents[3]
 REX = REPO / "data" / "experiment" / "reextraccion_v2"
-for sub in ("e1_extractor", "e3_verificador"):
-    sys.path.insert(0, str(REX / sub))
+for sub in ("extractor", "verificador"):
+    sys.path.insert(0, str(REPO / "src" / sub))
 import prompt_r2b as P  # noqa: E402
 import prompt_e3  # noqa: E402
 

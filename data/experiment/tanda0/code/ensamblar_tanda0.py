@@ -81,8 +81,8 @@ NORMALIZACION_C1 = REPO / "data" / "experiment" / "med_desamb" / "parte2" / "tam
 NORMALIZACION_C1_SHA256 = "428a3cce394111a078a71f06918e90da5bb014a7111426476054a481429ca5d3"
 MODULO_NORMALIZACION_C1 = "tamanos_desamb_mesa"
 
-for _p in (str(REX), str(CORPUS_V2), str(GRAFO_V2_CODE), str(REX / "e2_reduce"),
-           str(REX / "e1_extractor"), str(REX / "e3_verificador")):
+for _p in (str(REPO / "src" / "comun"), str(REPO / "src" / "ensamblado"), str(GRAFO_V2_CODE),
+           str(REPO / "src" / "extractor"), str(REPO / "src" / "verificador")):
     if _p not in sys.path:
         sys.path.insert(0, _p)
 
@@ -968,7 +968,7 @@ PALABRAS_VACIAS_SUJETO = frozenset((
     "tales", "ambos", "ambas", "todo", "toda", "todos", "todas", "alguno", "alguna", "algunos", "algunas",
     "ninguno", "ninguna", "cualquiera", "que", "de", "del", "al", "a", "y", "o", "u", "e"))
 MARCA_MENCION_VACIA = "mencion_pronombre_o_palabra_vacia"
-TABLAS_FORZADAS_R2B = REX / "e1_extractor" / "tablas_residuales_forzadas_r2b.json"
+TABLAS_FORZADAS_R2B = REPO / "src" / "extractor" / "tablas_residuales_forzadas_r2b.json"
 MOTIVO_SIN_CUANTIA = "sin cuantía detectable"
 MOTIVO_TABLA_FORZADA = "cuantías solo en tabla residual forzada"
 RE_BLOQUE_TABLA = re.compile(r"\[TABLA (\S+) \|[^\]\n]*\]\n(.*?)\n\[FIN TABLA \1\]", re.S)

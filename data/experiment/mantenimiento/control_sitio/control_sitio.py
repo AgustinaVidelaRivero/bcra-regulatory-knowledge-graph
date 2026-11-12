@@ -59,7 +59,7 @@ from pathlib import Path
 AQUI = Path(__file__).resolve().parent                    # control_sitio/
 REPO = AQUI.parents[3]
 JOB_CODE = REPO / "data" / "experiment" / "job_actualizacion" / "code"
-E0_CODE = REPO / "data" / "experiment" / "reextraccion_v2" / "e0_chunking"
+E0_CODE = REPO / "src" / "segmentacion"
 CORRIDA_BASE = REPO / "data" / "experiment" / "job_actualizacion" / "corridas" / "2026-09-07"
 INDICE_CONGELADO = REPO / "data" / "experiment" / "escalado_prep" / "indice_oficial_raw.json"
 LINEA_BASE_DEFAULT = AQUI / "linea_base.json"

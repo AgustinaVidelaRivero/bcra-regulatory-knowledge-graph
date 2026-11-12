@@ -21,7 +21,7 @@ import argparse
 import sys
 from pathlib import Path
 
-REEXTRACCION = "data/experiment/reextraccion_v2"
+SRC = "src"
 
 
 def main() -> int:
@@ -31,8 +31,8 @@ def main() -> int:
     ap.add_argument("--raiz", type=Path, default=Path("."), help="raíz del repositorio (por defecto, la carpeta actual)")
     a = ap.parse_args()
 
-    carpeta = a.raiz.resolve() / REEXTRACCION
-    sys.path[:0] = [str(carpeta), str(carpeta / "e0_chunking")]
+    carpeta = a.raiz.resolve() / SRC
+    sys.path[:0] = [str(carpeta / "comun"), str(carpeta / "segmentacion")]
     import correr_e0
     import manifiesto_corpus
 

@@ -123,7 +123,7 @@ def demo_dirigida(trabajo: Path) -> dict:
         por_to.setdefault(u.split("::", 1)[0], set()).add(u)
 
     # Pasos 4 y 5: sustitución y E2 en código del TO afectado (runner_corpus).
-    sys.path.insert(0, str(REX / "corpus_v2"))
+    sys.path.insert(0, str(REPO / "src" / "ensamblado"))
     import runner_corpus as rc        # noqa: PLC0415 — solo import; configura al importarse
     import manifiesto_corpus          # noqa: PLC0415
     rc.configurar(manifiesto_corpus.cargar(MANIFIESTO_CORRIDA))

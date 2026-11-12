@@ -13,4 +13,4 @@ grafo evaluado: los marca la última columna.
 `manifiesto_corpus.csv` trae otra cosa: los 133 archivos que nombra la procedencia del grafo. Trae 129 PDF porque a los 128 del grafo
 evaluado suma `rdbcra.pdf`, uno de los
 25 del grafo corregido, que aparece en la procedencia de un solo nodo, sin aristas, que sale del catálogo de sujetos. Los otros 4 son JSON
-de origen.
+de origen. La columna `fuente_del_sha256` dice de dónde se tomó cada sha256: nombra rutas del repositorio de trabajo de la tesis, que este repositorio no trae.
