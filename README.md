@@ -31,6 +31,8 @@ El código de las 5 piezas del cap. 4 está en `src/`, una carpeta por pieza, y 
 
 Los resultados agregados de la medición final están en `data/experiment/banco_mcp/b63/analisis/c/analisis_B63.json`, y los de la segunda comparación, en `data/experiment/banco_mcp/b64/analisis/salidas/a/analisis/analisis_B64.json`.
 
+El análisis de la medición final carga 2 funciones de `fuera_del_repo/b63_etapa1/scripts/`. Esa carpeta está en la raíz porque el análisis las busca ahí.
+
 ## Los nombres internos
 
 Los archivos conservan los nombres que tenían mientras se hacía la tesis, porque esos nombres están escritos en programas, configuraciones y huellas. El código de las 5 piezas se mudó a `src/`, pero sus datos y el resto del código siguen en sus carpetas. Estos son los nombres que más aparecen.
